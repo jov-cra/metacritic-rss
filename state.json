@@ -5,350 +5,771 @@
       "score": 85,
       "media": "movie",
       "release_date": "Jun 26, 2026",
-      "emitted_at": "2026-07-01T07:32:20.808097+00:00"
+      "emitted_at": "2026-07-01T07:32:20.808097+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 100,
+        "mixed": 0,
+        "neg": 0,
+        "user_count": 4,
+        "quote_score": 91,
+        "quote_pub": "Original-Cin",
+        "quote": "Horror tropes aside, Camp feels like a response to something that hangs heavily in the air these days: claims about religiosity and victimhood."
+      }
     },
     "https://www.metacritic.com/movie/the-furious/": {
       "title": "The Furious",
       "score": 85,
       "media": "movie",
       "release_date": "Jun 12, 2026",
-      "emitted_at": "2026-07-01T07:32:20.808097+00:00"
+      "emitted_at": "2026-07-01T07:32:20.808097+00:00",
+      "detail": {
+        "critic_count": 20,
+        "pos": 100,
+        "mixed": 0,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "RogerEbert.com",
+        "quote": "This is a whooping-and-hollering movie. It’s more than satisfying. It’s bloody heaven."
+      }
     },
     "https://www.metacritic.com/tv/this-is-a-gardening-show/": {
       "title": "This Is a Gardening Show",
       "score": 88,
       "media": "tv",
       "release_date": "Apr 22, 2026",
-      "emitted_at": "2026-07-01T07:32:20.808097+00:00"
+      "emitted_at": "2026-07-01T07:32:20.808097+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "mixed": 0,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "The Telegraph",
+        "quote": "It is a little gem (lettuce pun intended)."
+      }
     },
     "https://www.metacritic.com/movie/minions-and-monsters/": {
       "title": "Minions & Monsters",
       "score": 68,
       "media": "movie",
       "release_date": "Jul 1, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 18,
+        "user_count": 4,
+        "quote_score": 88,
+        "quote_pub": "RogerEbert.com",
+        "quote": "It’s a genuine triumph, not just in its construction as a kid’s movie comedy sequence but also as a distillation of all the cinematic pioneers who paved the way for something like the Minions to exist, let alone succeed."
+      }
     },
     "https://www.metacritic.com/movie/bouchra/": {
       "title": "Bouchra",
       "score": 62,
       "media": "movie",
       "release_date": "Jun 26, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 67,
+        "mixed": 33,
+        "neg": 0,
+        "user_count": 4,
+        "quote_score": 88,
+        "quote_pub": "RogerEbert.com",
+        "quote": "For all the ways it hits the beats of traditional queer and diaspora narratives, “Bouchra” never comes across as reductive in its portrayal of the relationship between mother and daughter or the dynamics within divergent cultures."
+      }
     },
     "https://www.metacritic.com/movie/the-invite/": {
       "title": "The Invite",
       "score": 81,
       "media": "movie",
       "release_date": "Jun 26, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 33,
+        "pos": 88,
+        "mixed": 12,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "San Francisco Chronicle",
+        "quote": "The Invite, based on Spanish director Cesc Gay’s “The People Upstairs,” is full of surprises and tonal shifts. It deserves to be experienced fresh, because it’s without doubt one of the best movies of the year."
+      }
     },
     "https://www.metacritic.com/movie/romeria/": {
       "title": "Romería",
       "score": 76,
       "media": "movie",
       "release_date": "Jun 26, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 14,
+        "quote_score": 88,
+        "quote_pub": "RogerEbert.com",
+        "quote": "The movie’s title, “Romería,” means “pilgrimage,” specifically a religious or spiritual one; Simón is suggesting that the search for self can indeed fall into that category. In any event, this is a pilgrimage well worth taking for film lovers."
+      }
     },
     "https://www.metacritic.com/movie/jackass-best-and-last/": {
       "title": "jackass: best and last",
       "score": 63,
       "media": "movie",
       "release_date": "Jun 26, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 29,
+        "quote_score": 100,
+        "quote_pub": "The Seattle Times",
+        "quote": "It is slightly tamer than its predecessors, because our dudes are older now, a bit battered, having accumulated too many head injuries and herniated discs to keep upping the ante the way they usually do. It’s a sweeter film, more emotional and deeply wistful. However, that doesn’t mean “Best and Last” skimps on the derring-do, or the daring doo — rectal-related stunts abound, as expected."
+      }
     },
     "https://www.metacritic.com/movie/toy-story-5/": {
       "title": "Toy Story 5",
       "score": 73,
       "media": "movie",
       "release_date": "Jun 19, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 54,
+        "quote_score": 100,
+        "quote_pub": "Original-Cin",
+        "quote": "Toy Story 5 is a movie for everyone. But if you're feeling down, if the world seems overwhelmingly bleak, or if you just need a reminder that your heart can still be touched, then forget the chores and see it."
+      }
     },
     "https://www.metacritic.com/movie/voicemails-for-isabelle/": {
       "title": "Voicemails for Isabelle",
       "score": 62,
       "media": "movie",
       "release_date": "Jun 19, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 12,
+        "pos": 67,
+        "mixed": 33,
+        "neg": 0,
+        "quote_score": 83,
+        "quote_pub": "The A.V. Club",
+        "quote": "It all adds up to a wonderful surprise of a film, the kind that makes you remember just what we’ve been missing as these women-centric genres have fallen out of fashion. Voicemails For Isabelle will make you laugh, make you cry, and make you believe it’s not embarrassing for a movie to strive to be “life-affirming.”"
+      }
     },
     "https://www.metacritic.com/movie/rose-of-nevada/": {
       "title": "Rose of Nevada",
       "score": 84,
       "media": "movie",
       "release_date": "Jun 19, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 24,
+        "pos": 100,
+        "mixed": 0,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "New York Magazine (Vulture)",
+        "quote": "So, it’s a ghost story, and a time travel story, and a folk tale, and something of a kitchen sink drama, but it’s also none of these things, really, and that’s where Jenkin’s formal gambits come in. His filmmaking has a lovely, homespun directness."
+      }
     },
     "https://www.metacritic.com/movie/girls-like-girls/": {
       "title": "Girls Like Girls",
       "score": 70,
       "media": "movie",
       "release_date": "Jun 19, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 17,
+        "pos": 76,
+        "mixed": 24,
+        "neg": 0,
+        "quote_score": 90,
+        "quote_pub": "Variety",
+        "quote": "Alive to both the soul connection and the bodily itch of these intimate, unwieldy, personally uncharted feelings, Kiyoko’s uncommonly lovely teen movie matches the dizzy, obsessive ecstasy of the song that inspired it."
+      }
     },
     "https://www.metacritic.com/movie/maddies-secret/": {
       "title": "Maddie's Secret",
       "score": 78,
       "media": "movie",
       "release_date": "Jun 19, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 16,
+        "user_count": 4,
+        "quote_score": 100,
+        "quote_pub": "The New York Times",
+        "quote": "Brimming with style and spirit up to the final scene, Maddie’s Secret is among the most daring movies I’ve seen this year. That it simultaneously guarantees a giddy good time is a minor miracle."
+      }
     },
     "https://www.metacritic.com/movie/leviticus/": {
       "title": "Leviticus",
       "score": 83,
       "media": "movie",
       "release_date": "Jun 19, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 26,
+        "pos": 100,
+        "mixed": 0,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "Screen Rant",
+        "quote": "There have been plenty of horror movies about conversion therapy, but none like this one. Though it is at times terrifying, capturing the isolation of the queer experience with bone-deep emotion, the first-time director's new film is a surprisingly tender look at the shapes love and demons can take."
+      }
     },
     "https://www.metacritic.com/movie/disclosure-day/": {
       "title": "Disclosure Day",
       "score": 74,
       "media": "movie",
       "release_date": "Jun 12, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 63,
+        "pos": 79,
+        "mixed": 21,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "The Seattle Times",
+        "quote": "Disclosure Day isn’t really about the action, exemplary as it is; it’s about connection — human and otherwise — and about Margaret and Daniel slowly realizing what they know, and how they can use that knowledge for good."
+      }
     },
     "https://www.metacritic.com/movie/honeyjoon/": {
       "title": "Honeyjoon",
       "score": 67,
       "media": "movie",
       "release_date": "Jun 10, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 4,
+        "user_count": 4,
+        "quote_score": 85,
+        "quote_pub": "Film Threat",
+        "quote": "As the film builds to its sentimental resolution, it becomes clear that the differences between mother and daughter aren’t issues to be solved, but quirks to be embraced."
+      }
     },
     "https://www.metacritic.com/tv/zorro-2024/": {
       "title": "Zorro (2024)",
       "score": 76,
       "media": "tv",
       "release_date": "Jun 30, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "mixed": 0,
+        "neg": 0,
+        "user_count": 4,
+        "quote_score": 90,
+        "quote_pub": "Los Angeles Times",
+        "quote": "A thoroughly original and quite wonderful take on the material; it’s one of my favorite new shows this year, possibly the one that made me happiest."
+      }
     },
     "https://www.metacritic.com/tv/louis-ck-ridiculous/": {
       "title": "Louis C.K.: Ridiculous",
       "score": 62,
       "media": "tv",
       "release_date": "Jun 30, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 7,
+        "user_count": 4,
+        "quote_score": 80,
+        "quote_pub": "Variety",
+        "quote": "A strong hour of material performed with practiced expertise. .... The contrast between puerile bits about pissing and resonant reflections on slow-motion death is an effective one, enhancing the impact of each tactic in turn."
+      }
     },
     "https://www.metacritic.com/tv/a-woman-of-substance/": {
       "title": "A Woman of Substance",
       "score": 66,
       "media": "tv",
       "release_date": "Jun 24, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 7,
+        "pos": 29,
+        "mixed": 71,
+        "neg": 0,
+        "user_count": 4,
+        "quote_score": 80,
+        "quote_pub": "The Telegraph",
+        "quote": "Our heroine’s journey from Catherine Cookson territory to a shag-piled Manhattan skyscraper is treated with a surprising amount of sincerity."
+      }
     },
     "https://www.metacritic.com/tv/the-american-experiment/": {
       "title": "The American Experiment",
       "score": 72,
       "media": "tv",
       "release_date": "Jun 24, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 67,
+        "mixed": 33,
+        "neg": 0,
+        "user_count": 4,
+        "quote_score": 80,
+        "quote_pub": "The Times",
+        "quote": "It is punchy, spiky but cerebral few hours which recognises that the experiment is evolving and there is more work to do."
+      }
     },
     "https://www.metacritic.com/tv/the-listeners/": {
       "title": "The Listeners",
       "score": 73,
       "media": "tv",
       "release_date": "Jun 12, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 16,
+        "pos": 75,
+        "mixed": 25,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "i",
+        "quote": "From its subtle opening to the explosive final episode, this is a truly great piece of television: after all, there’s nothing more powerful than being heard."
+      }
     },
     "https://www.metacritic.com/tv/alice-and-steve/": {
       "title": "Alice and Steve",
       "score": 66,
       "media": "tv",
       "release_date": "Jun 8, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 15,
+        "pos": 73,
+        "mixed": 27,
+        "neg": 0,
+        "quote_score": 90,
+        "quote_pub": "Los Angeles Times",
+        "quote": "A marvelous six-part British comedy. .... Walker makes a magnificent wreck, though she is brilliant in every mood."
+      }
     },
     "https://www.metacritic.com/tv/cape-fear-2026/": {
       "title": "Cape Fear (2026)",
       "score": 68,
       "media": "tv",
       "release_date": "Jun 5, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 30,
+        "pos": 63,
+        "mixed": 37,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "The Guardian",
+        "quote": "It is, to be sure, a masterclass in tension, in taking things right to the edge of credulity but never over and it never forgets the power of the jump scare."
+      }
     },
     "https://www.metacritic.com/tv/the-witness/": {
       "title": "The Witness",
       "score": 72,
       "media": "tv",
       "release_date": "Jun 4, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "mixed": 40,
+        "neg": 0,
+        "quote_score": 80,
+        "quote_pub": "The Telegraph",
+        "quote": "The Witness (Netflix) could have been lurid, sensationalist and unpleasant (the streaming service has form in this area), but Joe Williams’s miniseries takes a quieter, more powerful path. Its success is in no small part down to a phenomenal, star-making performance from Jordan Bolger."
+      }
     },
     "https://www.metacritic.com/tv/bring-me-the-beauties-a-model-cult/": {
       "title": "Bring Me the Beauties: A Model Cult",
       "score": 73,
       "media": "tv",
       "release_date": "Jun 1, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "mixed": 40,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "The Playlist",
+        "quote": "It’s another triumph for Smith, shedding light on an overstuffed topic he’s able to unpack in a manner as easy to digest as the rest of his work has shown thus far. Though many of the traditional documentary hallmarks exist throughout, his hand guides the story to a conclusion both as somewhat satisfying as it is tragic in its own right."
+      }
     },
     "https://www.metacritic.com/tv/what-it-feels-like-for-a-girl/": {
       "title": "What It Feels Like For A Girl",
       "score": 80,
       "media": "tv",
       "release_date": "Jun 1, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 100,
+        "mixed": 0,
+        "neg": 0,
+        "quote_score": 80,
+        "quote_pub": "i",
+        "quote": "While the drama doesn’t fall into the trap of educating or being overtly political, it’s an overdue examination of how being lower class intersects with sexuality and gender identity… while also being an utter riot."
+      }
     },
     "https://www.metacritic.com/tv/rafa/": {
       "title": "Rafa",
       "score": 71,
       "media": "tv",
       "release_date": "May 29, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 67,
+        "mixed": 33,
+        "neg": 0,
+        "quote_score": 80,
+        "quote_pub": "The New Yorker",
+        "quote": "In his on-camera interview with Heinzerling, Nadal comes across as reticent and a bit bland. But if he doesn’t exactly have the most riveting personality, his fervent commitment to the game of tennis, seemingly to the exclusion of almost all else, makes him fascinating as a case study for ambition and monomania. .... It’s Uncle Toni who is, perhaps, the most fascinating and, honestly, bloodcurdling character we encounter in “Rafa.”"
+      }
     },
     "https://www.metacritic.com/tv/star-city/": {
       "title": "Star City",
       "score": 80,
       "media": "tv",
       "release_date": "May 29, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 16,
+        "pos": 88,
+        "mixed": 13,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "Screen Rant",
+        "quote": "A incredible show that combines popular genres, digs deep into an alternate history, has a phenomenal cast, and keeps you guessing as the mysteries begin to unravel throughout the series."
+      }
     },
     "https://www.metacritic.com/tv/spider-noir/": {
       "title": "Spider-Noir",
       "score": 72,
       "media": "tv",
       "release_date": "May 25, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 28,
+        "quote_score": 100,
+        "quote_pub": "TheWrap",
+        "quote": "A marvelous mesh of style, homage and deconstruction, “Spider-Noir” is the year’s top TV treat so far."
+      }
     },
     "https://www.metacritic.com/tv/mating-season/": {
       "title": "Mating Season",
       "score": 67,
       "media": "tv",
       "release_date": "May 22, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 9,
+        "pos": 78,
+        "mixed": 22,
+        "neg": 0,
+        "quote_score": 80,
+        "quote_pub": "Boston Globe",
+        "quote": "It’s a raunchy, smart sex comedy that happens to feature forest animals."
+      }
     },
     "https://www.metacritic.com/tv/the-boroughs/": {
       "title": "The Boroughs",
       "score": 71,
       "media": "tv",
       "release_date": "May 21, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 29,
+        "pos": 76,
+        "mixed": 24,
+        "neg": 0,
+        "quote_score": 90,
+        "quote_pub": "Variety",
+        "quote": "Heartbreaking, funny and endlessly fascinating."
+      }
     },
     "https://www.metacritic.com/tv/maximum-pleasure-guaranteed/": {
       "title": "Maximum Pleasure Guaranteed",
       "score": 72,
       "media": "tv",
       "release_date": "May 20, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 22,
+        "pos": 77,
+        "mixed": 23,
+        "neg": 0,
+        "quote_score": 90,
+        "quote_pub": "RogerEbert.com",
+        "quote": "The star power in the series is undeniable, but the true hero of the show is its craft, which allows the series to stake its claim as the most fascinating thriller of the year."
+      }
     },
     "https://www.metacritic.com/tv/dutton-ranch/": {
       "title": "Dutton Ranch",
       "score": 63,
       "media": "tv",
       "release_date": "May 15, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 20,
+        "quote_score": 90,
+        "quote_pub": "Screen Rant",
+        "quote": "It is stripped of the more frivolous and soap opera-like storytelling tendencies of the flagship. At its core is a family fighting for a future. While Beth and Rip's love story is the show's backbone, it's rich with new narrative opportunities that could make the franchise more expansive."
+      }
     },
     "https://www.metacritic.com/tv/nemesis/": {
       "title": "Nemesis",
       "score": 70,
       "media": "tv",
       "release_date": "May 14, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 9,
+        "pos": 56,
+        "mixed": 44,
+        "neg": 0,
+        "quote_score": 90,
+        "quote_pub": "New York Magazine (Vulture)",
+        "quote": "A layered, propulsive series exemplifying the energy and dynamism that keeps the cops-and-robbers genre so appealing. It’s a shot of pure adrenaline and hell-yeah vigor followed up with a chaser of pathos and longing, and it’s one of the best new series Netflix has released this year."
+      }
     },
     "https://www.metacritic.com/tv/off-campus/": {
       "title": "Off Campus",
       "score": 71,
       "media": "tv",
       "release_date": "May 13, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 11,
+        "quote_score": 80,
+        "quote_pub": "RogerEbert.com",
+        "quote": "It’s a highly enjoyable romance from front to back that’ll leave you wishing, hoping, and anticipating which couple you’ll spend the sophomore season with. Until then, this series will get plenty of replays."
+      }
     },
     "https://www.metacritic.com/tv/the-punisher-one-last-kill/": {
       "title": "The Punisher: One Last Kill",
       "score": 63,
       "media": "tv",
       "release_date": "May 12, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 15,
+        "quote_score": 90,
+        "quote_pub": "Screen Rant",
+        "quote": "The Special Presentation is the character study that makes you more invested if you weren't already on board, while paving the way for a new era for the MCU's Punisher."
+      }
     },
     "https://www.metacritic.com/tv/amadeus/": {
       "title": "Amadeus",
       "score": 67,
       "media": "tv",
       "release_date": "May 8, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 16,
+        "pos": 56,
+        "mixed": 44,
+        "neg": 0,
+        "quote_score": 90,
+        "quote_pub": "New York Magazine (Vulture)",
+        "quote": "New York Magazine (Vulture)"
+      }
     },
     "https://www.metacritic.com/tv/legends-2026/": {
       "title": "Legends (2026)",
       "score": 76,
       "media": "tv",
       "release_date": "May 7, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 11,
+        "pos": 82,
+        "mixed": 18,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "Radio Times",
+        "quote": "Forsyth's skill for paring a narrative down to just the fun parts makes this irresistible. Steve Coogan is in his element as Don."
+      }
     },
     "https://www.metacritic.com/tv/the-other-bennet-sister/": {
       "title": "The Other Bennet Sister",
       "score": 80,
       "media": "tv",
       "release_date": "May 6, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 14,
+        "pos": 86,
+        "mixed": 14,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "The Telegraph",
+        "quote": "It is a thing of pure delight."
+      }
     },
     "https://www.metacritic.com/tv/gary/": {
       "title": "Gary",
       "score": 79,
       "media": "tv",
       "release_date": "May 5, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 7,
+        "pos": 71,
+        "mixed": 29,
+        "neg": 0,
+        "quote_score": 90,
+        "quote_pub": "Los Angeles Times",
+        "quote": "The hour plays as a kind of shaggy dog story, through lighter and darker territory on its way to a droll punchline involving the contents of the box, before it jumps forward into its brief present-day coda. .... Both [Bernthal and Moss-Bachrach] are phenomenal."
+      }
     },
     "https://www.metacritic.com/tv/lord-of-the-flies/": {
       "title": "Lord of the Flies",
       "score": 83,
       "media": "tv",
       "release_date": "May 4, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 23,
+        "pos": 91,
+        "mixed": 9,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "USA Today",
+        "quote": "Led by an astoundingly talented cast of young actors and brought to life with painterly brushstrokes of vivid color and horrifying imagery, \"Flies\" is four episodes of captivating, edge-of-your-seat horror. .... It is an absolute must-watch, as hard as that watching experience may be."
+      }
     },
     "https://www.metacritic.com/tv/twenty-twenty-six/": {
       "title": "Twenty Twenty Six",
       "score": 74,
       "media": "tv",
       "release_date": "May 1, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 67,
+        "mixed": 33,
+        "neg": 0,
+        "user_count": 4,
+        "quote_score": 80,
+        "quote_pub": "Decider",
+        "quote": "Twenty Twenty Six is a funny take on a workplace focused on putting together one of the world’s biggest sporting events, helmed by a person who is experienced with all the craziness and somehow manages to get things done in spite of it."
+      }
     },
     "https://www.metacritic.com/tv/man-on-fire-2026/": {
       "title": "Man on Fire (2026)",
       "score": 61,
       "media": "tv",
       "release_date": "Apr 30, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 21,
+        "pos": 48,
+        "mixed": 52,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "Screen Rant",
+        "quote": "It’s rare for a story with such a brutal and violent edge to have such a heartfelt message at the core. The Netflix show is truly something special. Ultimately, this deeper level makes Netflix’s Man on Fire a must-watch."
+      }
     },
     "https://www.metacritic.com/tv/the-house-of-the-spirits/": {
       "title": "The House of the Spirits",
       "score": 70,
       "media": "tv",
       "release_date": "Apr 29, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 5,
+        "quote_score": 100,
+        "quote_pub": "Variety",
+        "quote": "“The House of the Spirits” is exceptional, not simply because of Allende’s eloquent and timeless storytelling, but because of the actors who have brought these characters to life in the way they should have always been rendered."
+      }
     },
     "https://www.metacritic.com/tv/widows-bay/": {
       "title": "Widow's Bay",
       "score": 78,
       "media": "tv",
       "release_date": "Apr 29, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 26,
+        "pos": 85,
+        "mixed": 15,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "The Guardian",
+        "quote": "Widow’s Peak is rich and wonderful. Grownup, funny, scary, true – Mare of Easttown meets Schitt’s Creek, but with something else that makes it singular."
+      }
     },
     "https://www.metacritic.com/tv/half-man/": {
       "title": "Half Man",
       "score": 67,
       "media": "tv",
       "release_date": "Apr 23, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 29,
+        "quote_score": 100,
+        "quote_pub": "The Mercury News",
+        "quote": "“Half Man,” as you probably can guess, is a bit of an endurance test. But it has a storytelling mightiness and an acting fury you can’t deny or ignore. It wrings you out, and leaves you in awe of all involved."
+      }
     },
     "https://www.metacritic.com/tv/kevin-2026/": {
       "title": "Kevin (2026)",
       "score": 62,
       "media": "tv",
       "release_date": "Apr 20, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 7,
+        "pos": 71,
+        "mixed": 0,
+        "neg": 29,
+        "quote_score": 80,
+        "quote_pub": "Los Angeles Times",
+        "quote": "It can be visually distressing and there are perhaps too many anus-related jokes (I would have settled for one). But the dialogue is funny — “Should we take Airborne? It was designed by teachers” is among my favorite lines this year — the social satire sharp and the NYC references fun, if you know them  (a scene in the Café Carlyle, nods to Brooklyn’s Union Pool, a character obviously modeled on Fran Lebowitz). And the whole business proves, happily, to have a lot of heart — broken sometimes, but that’s life, even in Toontown."
+      }
     },
     "https://www.metacritic.com/tv/margos-got-money-troubles/": {
       "title": "Margo's Got Money Troubles",
       "score": 79,
       "media": "tv",
       "release_date": "Apr 15, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 29,
+        "pos": 86,
+        "mixed": 14,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "Newsday",
+        "quote": "It's the best new series we've seen in a while."
+      }
     },
     "https://www.metacritic.com/tv/the-audacity/": {
       "title": "The Audacity",
       "score": 62,
       "media": "tv",
       "release_date": "Apr 12, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 18,
+        "pos": 44,
+        "mixed": 56,
+        "neg": 0,
+        "quote_score": 88,
+        "quote_pub": "The Mercury News",
+        "quote": "It’s a lot to stuff into one series and sometimes “The Audacity” does suffer from trying to do too much. But what it does accomplish is to deliver a solid right hook to the tech world and that hit proves to be acerbic, relevant and unbelievably on target, as are the performances from Magnussen and Goldberg."
+      }
     },
     "https://www.metacritic.com/tv/malcolm-in-the-middle-lifes-still-unfair/": {
       "title": "Malcolm in the Middle: Life's Still Unfair",
       "score": 66,
       "media": "tv",
       "release_date": "Apr 10, 2026",
-      "emitted_at": "2026-07-01T08:04:27.528443+00:00"
+      "emitted_at": "2026-07-01T08:04:27.528443+00:00",
+      "detail": {
+        "critic_count": 24,
+        "pos": 71,
+        "mixed": 29,
+        "neg": 0,
+        "quote_score": 100,
+        "quote_pub": "The Guardian",
+        "quote": "What’s so refreshing here isn’t just that the four-episode revival is so brief and self-contained, but that it manages to feel authentic to the original without being a simple facsimile."
+      }
     }
   }
 }
