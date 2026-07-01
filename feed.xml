@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
 <channel>
 <title>Metacritic — Movies &amp; TV (Metascore 61+)</title>
-<link>https://github.com/jov-cra/metacritic-rss</link>
+<link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases scoring 61+ (Metascore). Auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 01 Jul 2026 08:47:22 +0000</lastBuildDate>
-<image><url>https://www.google.com/s2/favicons?domain=www.metacritic.com&amp;sz=128</url><title>Metacritic — Movies &amp; TV (Metascore 61+)</title><link>https://github.com/jov-cra/metacritic-rss</link></image>
+<lastBuildDate>Wed, 01 Jul 2026 08:57:25 +0000</lastBuildDate>
+<image><url>https://www.google.com/s2/favicons?domain=www.metacritic.com&amp;sz=128</url><title>Metacritic — Movies &amp; TV (Metascore 61+)</title><link>https://www.metacritic.com/</link></image>
 <webfeeds:icon>https://www.google.com/s2/favicons?domain=www.metacritic.com&amp;sz=128</webfeeds:icon>
 <webfeeds:logo>https://www.google.com/s2/favicons?domain=www.metacritic.com&amp;sz=128</webfeeds:logo>
 <atom:icon>https://www.google.com/s2/favicons?domain=www.metacritic.com&amp;sz=128</atom:icon>
@@ -355,6 +355,14 @@
 <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>Critics 90 · 5 reviews · 100% positive · Users tbd</description>
+</item>
+<item>
+<title>[77] Backrooms (Movie)</title>
+<link>https://www.metacritic.com/movie/backrooms/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/backrooms/</guid>
+<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>Critics 77 · 45 reviews · 82% positive</description>
 </item>
 <item>
 <title>[74] I Am Frankelda (Movie)</title>
@@ -890,7 +898,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/hamlet-2025/</guid>
 <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 61 · Movie · Released Apr 10, 2026</description>
+<description>Critics 61 · 22 reviews · 68% positive</description>
 </item>
 <item>
 <title>[85] Fiume o morte! (Movie)</title>
@@ -906,7 +914,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/faces-of-death/</guid>
 <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 63 · Movie · Released Apr 10, 2026</description>
+<description>Critics 63 · 22 reviews · 55% positive</description>
 </item>
 <item>
 <title>[71] Exit 8 (Movie)</title>
@@ -914,7 +922,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/exit-8/</guid>
 <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 71 · Movie · Released Apr 10, 2026</description>
+<description>Critics 71 · 31 reviews · 81% positive</description>
 </item>
 <item>
 <title>[67] ChaO (Movie)</title>
@@ -922,7 +930,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/chao/</guid>
 <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 67 · Movie · Released Apr 10, 2026</description>
+<description>Critics 67 · 5 reviews · 80% positive · Users tbd</description>
 </item>
 <item>
 <title>[65] Big Mistakes (TV)</title>
@@ -954,7 +962,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/the-stranger-2025/</guid>
 <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 82 · Movie · Released Apr 3, 2026</description>
+<description>Critics 82 · 22 reviews · 91% positive</description>
 </item>
 <item>
 <title>[78] The Blue Trail (Movie)</title>
@@ -962,7 +970,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/the-blue-trail/</guid>
 <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 78 · Movie · Released Apr 3, 2026</description>
+<description>Critics 78 · 16 reviews · 81% positive · Users tbd</description>
 </item>
 <item>
 <title>[64] Pizza Movie (Movie)</title>
@@ -970,7 +978,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/pizza-movie/</guid>
 <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 64 · Movie · Released Apr 3, 2026</description>
+<description>Critics 64 · 9 reviews · 56% positive</description>
 </item>
 <item>
 <title>[75] Living the Land (Movie)</title>
@@ -978,7 +986,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/living-the-land/</guid>
 <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 75 · Movie · Released Apr 3, 2026</description>
+<description>Critics 75 · 5 reviews · 80% positive · Users tbd</description>
 </item>
 <item>
 <title>[72] DJ Ahmet (Movie)</title>
@@ -986,7 +994,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/dj-ahmet/</guid>
 <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 72 · Movie · Released Apr 3, 2026</description>
+<description>Critics 72 · 13 reviews · 77% positive · Users tbd</description>
 </item>
 <item>
 <title>[63] Atomic (TV)</title>
@@ -1002,7 +1010,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/yes-2025/</guid>
 <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 85 · Movie · Released Mar 27, 2026</description>
+<description>Critics 85 · 17 reviews · 100% positive</description>
 </item>
 <item>
 <title>[85] The Serpent's Skin (Movie)</title>
@@ -1010,7 +1018,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/the-serpents-skin/</guid>
 <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 85 · Movie · Released Mar 27, 2026</description>
+<description>Critics 85 · 5 reviews · 100% positive · Users tbd</description>
 </item>
 <item>
 <title>[65] The AI Doc: Or How I Became an Apocaloptimist (Movie)</title>
@@ -1018,7 +1026,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/the-ai-doc-or-how-i-became-an-apocaloptimist/</guid>
 <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 65 · Movie · Released Mar 27, 2026</description>
+<description>Critics 65 · 10 reviews · 50% positive</description>
 </item>
 <item>
 <title>[67] She Dances (Movie)</title>
@@ -1026,7 +1034,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/she-dances/</guid>
 <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 67 · Movie · Released Mar 27, 2026</description>
+<description>Critics 67 · 6 reviews · 67% positive · Users tbd</description>
 </item>
 <item>
 <title>[72] Our Hero, Balthazar (Movie)</title>
@@ -1034,7 +1042,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/our-hero-balthazar/</guid>
 <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 72 · Movie · Released Mar 27, 2026</description>
+<description>Critics 72 · 7 reviews · 86% positive</description>
 </item>
 <item>
 <title>[70] Mike &amp; Nick &amp; Nick &amp; Alice (Movie)</title>
@@ -1042,7 +1050,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/mike-nick-nick-alice/</guid>
 <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 70 · Movie · Released Mar 27, 2026</description>
+<description>Critics 70 · 19 reviews · 84% positive</description>
 </item>
 <item>
 <title>[78] Kontinental '25 (Movie)</title>
@@ -1050,7 +1058,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/kontinental-25/</guid>
 <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 78 · Movie · Released Mar 27, 2026</description>
+<description>Critics 78 · 14 reviews · 100% positive · Users tbd</description>
 </item>
 <item>
 <title>[72] Fantasy Life (Movie)</title>
@@ -1058,7 +1066,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/fantasy-life/</guid>
 <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 72 · Movie · Released Mar 27, 2026</description>
+<description>Critics 72 · 11 reviews · 91% positive</description>
 </item>
 <item>
 <title>[65] Something Very Bad Is Going to Happen (TV)</title>
@@ -1098,7 +1106,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/tow/</guid>
 <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 64 · Movie · Released Mar 20, 2026</description>
+<description>Critics 64 · 9 reviews · 56% positive</description>
 </item>
 <item>
 <title>[61] Mr. Burton (Movie)</title>
@@ -1106,7 +1114,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/mr-burton/</guid>
 <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 61 · Movie · Released Mar 20, 2026</description>
+<description>Critics 61 · 9 reviews · 44% positive · Users tbd</description>
 </item>
 <item>
 <title>[78] Miroirs No. 3 (Movie)</title>
@@ -1114,7 +1122,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/miroirs-no-3/</guid>
 <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 78 · Movie · Released Mar 20, 2026</description>
+<description>Critics 78 · 20 reviews · 85% positive</description>
 </item>
 <item>
 <title>[69] Late Shift (Movie)</title>
@@ -1122,7 +1130,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/late-shift/</guid>
 <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 69 · Movie · Released Mar 20, 2026</description>
+<description>Critics 69 · 12 reviews · 67% positive</description>
 </item>
 <item>
 <title>[67] Dry Leaf (Movie)</title>
@@ -1130,7 +1138,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/dry-leaf/</guid>
 <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 67 · Movie · Released Mar 20, 2026</description>
+<description>Critics 67 · 5 reviews · 60% positive · Users tbd</description>
 </item>
 <item>
 <title>[77] Dead Lover (Movie)</title>
@@ -1138,7 +1146,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/dead-lover/</guid>
 <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 77 · Movie · Released Mar 20, 2026</description>
+<description>Critics 77 · 8 reviews · 75% positive · Users tbd</description>
 </item>
 <item>
 <title>[64] undertone (Movie)</title>
@@ -1146,7 +1154,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/undertone/</guid>
 <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 64 · Movie · Released Mar 13, 2026</description>
+<description>Critics 64 · 32 reviews · 63% positive</description>
 </item>
 <item>
 <title>[68] Saipan (Movie)</title>
@@ -1154,7 +1162,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/saipan/</guid>
 <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 68 · Movie · Released Mar 13, 2026</description>
+<description>Critics 68 · 10 reviews · 60% positive · Users tbd</description>
 </item>
 <item>
 <title>[77] Sunny Nights (TV)</title>
@@ -1170,7 +1178,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/the-optimist/</guid>
 <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 70 · Movie · Released Mar 11, 2026</description>
+<description>Critics 70 · 4 reviews · 100% positive · Users tbd</description>
 </item>
 <item>
 <title>[71] Louis Theroux: Inside the Manosphere (Movie)</title>
@@ -1178,7 +1186,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/louis-theroux-inside-the-manosphere/</guid>
 <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 71 · Movie · Released Mar 11, 2026</description>
+<description>Critics 71 · 7 reviews · 57% positive</description>
 </item>
 <item>
 <title>[68] Rooster (TV)</title>
@@ -1194,7 +1202,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/pompei-below-the-clouds/</guid>
 <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 87 · Movie · Released Mar 6, 2026</description>
+<description>Critics 87 · 15 reviews · 93% positive</description>
 </item>
 <item>
 <title>[73] Hoppers (Movie)</title>
@@ -1202,7 +1210,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/hoppers/</guid>
 <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 73 · Movie · Released Mar 6, 2026</description>
+<description>Critics 73 · 46 reviews · 80% positive</description>
 </item>
 <item>
 <title>[63] Heel (Movie)</title>
@@ -1210,7 +1218,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/heel/</guid>
 <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 63 · Movie · Released Mar 6, 2026</description>
+<description>Critics 63 · 18 reviews · 56% positive</description>
 </item>
 <item>
 <title>[66] Vladimir (TV)</title>
@@ -1266,7 +1274,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/what-does-that-nature-say-to-you/</guid>
 <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 76 · Movie · Released Feb 27, 2026</description>
+<description>Critics 76 · 7 reviews · 71% positive · Users tbd</description>
 </item>
 <item>
 <title>[69] Idiotka (Movie)</title>
@@ -1274,7 +1282,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/idiotka/</guid>
 <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 69 · Movie · Released Feb 27, 2026</description>
+<description>Critics 69 · 5 reviews · 80% positive · Users tbd</description>
 </item>
 <item>
 <title>[79] Ghost Elephants (Movie)</title>
@@ -1282,7 +1290,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/ghost-elephants/</guid>
 <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 79 · Movie · Released Feb 27, 2026</description>
+<description>Critics 79 · 6 reviews · 100% positive</description>
 </item>
 <item>
 <title>[61] Dreams (Movie)</title>
@@ -1290,7 +1298,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/dreams-2026/</guid>
 <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 61 · Movie · Released Feb 27, 2026</description>
+<description>Critics 61 · 23 reviews · 43% positive</description>
 </item>
 <item>
 <title>[73] Scrubs (2026) (TV)</title>
@@ -1306,7 +1314,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/the-bluff/</guid>
 <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 61 · Movie · Released Feb 25, 2026</description>
+<description>Critics 61 · 8 reviews · 63% positive</description>
 </item>
 <item>
 <title>[76] The Fall and Rise of Reggie Dinkins (TV)</title>
@@ -1330,7 +1338,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/redux-redux/</guid>
 <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 72 · Movie · Released Feb 20, 2026</description>
+<description>Critics 72 · 7 reviews · 86% positive</description>
 </item>
 <item>
 <title>[86] EPiC: Elvis Presley in Concert (Movie)</title>
@@ -1338,7 +1346,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/epic-elvis-presley-in-concert/</guid>
 <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 86 · Movie · Released Feb 20, 2026</description>
+<description>Critics 86 · 27 reviews · 93% positive</description>
 </item>
 <item>
 <title>[78] Paul McCartney: Man on the Run (Movie)</title>
@@ -1346,7 +1354,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/paul-mccartney-man-on-the-run/</guid>
 <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 78 · Movie · Released Feb 19, 2026</description>
+<description>Critics 78 · 17 reviews · 94% positive</description>
 </item>
 <item>
 <title>[67] Reality Check: Inside America's Next Top Model (TV)</title>
@@ -1370,7 +1378,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/palestine-36/</guid>
 <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 67 · Movie · Released Feb 13, 2026</description>
+<description>Critics 67 · 11 reviews · 73% positive</description>
 </item>
 <item>
 <title>[79] Nirvanna the Band the Show the Movie (Movie)</title>
@@ -1378,7 +1386,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/nirvanna-the-band-the-show-the-movie/</guid>
 <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 79 · Movie · Released Feb 13, 2026</description>
+<description>Critics 79 · 22 reviews · 91% positive</description>
 </item>
 <item>
 <title>[71] Honey Bunch (Movie)</title>
@@ -1386,7 +1394,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/honey-bunch/</guid>
 <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 71 · Movie · Released Feb 13, 2026</description>
+<description>Critics 71 · 7 reviews · 86% positive</description>
 </item>
 <item>
 <title>[66] Good Luck, Have Fun, Don't Die (Movie)</title>
@@ -1394,7 +1402,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/good-luck-have-fun-dont-die/</guid>
 <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 66 · Movie · Released Feb 13, 2026</description>
+<description>Critics 66 · 32 reviews · 66% positive</description>
 </item>
 <item>
 <title>[68] Crime 101 (Movie)</title>
@@ -1402,7 +1410,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/crime-101/</guid>
 <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 68 · Movie · Released Feb 13, 2026</description>
+<description>Critics 68 · 37 reviews · 59% positive</description>
 </item>
 <item>
 <title>[64] Cold Storage (Movie)</title>
@@ -1410,7 +1418,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/cold-storage/</guid>
 <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 64 · Movie · Released Feb 13, 2026</description>
+<description>Critics 64 · 12 reviews · 67% positive</description>
 </item>
 <item>
 <title>[63] By Design (Movie)</title>
@@ -1418,7 +1426,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/by-design/</guid>
 <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 63 · Movie · Released Feb 13, 2026</description>
+<description>Critics 63 · 13 reviews · 69% positive</description>
 </item>
 <item>
 <title>[63] Love Story: John F. Kennedy Jr. &amp; Carolyn Bessette (TV)</title>
@@ -1458,7 +1466,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/the-presidents-cake/</guid>
 <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 84 · Movie · Released Feb 6, 2026</description>
+<description>Critics 84 · 17 reviews · 94% positive</description>
 </item>
 <item>
 <title>[75] Queen of Chess (Movie)</title>
@@ -1466,7 +1474,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/queen-of-chess/</guid>
 <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 75 · Movie · Released Feb 6, 2026</description>
+<description>Critics 75 · 5 reviews · 100% positive</description>
 </item>
 <item>
 <title>[85] Pillion (Movie)</title>
@@ -1474,7 +1482,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/pillion/</guid>
 <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 85 · Movie · Released Feb 6, 2026</description>
+<description>Critics 85 · 39 reviews · 100% positive</description>
 </item>
 <item>
 <title>[85] My Father's Shadow (Movie)</title>
@@ -1482,7 +1490,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/my-fathers-shadow/</guid>
 <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 85 · Movie · Released Feb 6, 2026</description>
+<description>Critics 85 · 17 reviews · 100% positive</description>
 </item>
 <item>
 <title>[80] Kokuho (Movie)</title>
@@ -1490,7 +1498,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/kokuho/</guid>
 <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 80 · Movie · Released Feb 6, 2026</description>
+<description>Critics 80 · 10 reviews · 100% positive</description>
 </item>
 <item>
 <title>[73] Calle Málaga (Movie)</title>
@@ -1498,7 +1506,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/calle-malaga/</guid>
 <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 73 · Movie · Released Feb 6, 2026</description>
+<description>Critics 73 · 12 reviews · 83% positive · Users tbd</description>
 </item>
 <item>
 <title>[81] The Muppet Show (2026) (TV)</title>
@@ -1522,7 +1530,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/the-love-that-remains/</guid>
 <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 76 · Movie · Released Jan 30, 2026</description>
+<description>Critics 76 · 16 reviews · 88% positive</description>
 </item>
 <item>
 <title>[75] Send Help (Movie)</title>
@@ -1530,7 +1538,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/send-help/</guid>
 <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 75 · Movie · Released Jan 30, 2026</description>
+<description>Critics 75 · 40 reviews · 85% positive</description>
 </item>
 <item>
 <title>[82] Paying for It (Movie)</title>
@@ -1538,7 +1546,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/paying-for-it/</guid>
 <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 82 · Movie · Released Jan 30, 2026</description>
+<description>Critics 82 · 4 reviews · 100% positive</description>
 </item>
 <item>
 <title>[80] Natchez (Movie)</title>
@@ -1546,7 +1554,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/natchez/</guid>
 <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 80 · Movie · Released Jan 30, 2026</description>
+<description>Critics 80 · 4 reviews · 100% positive · Users tbd</description>
 </item>
 <item>
 <title>[76] Islands (Movie)</title>
@@ -1554,7 +1562,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/islands-2025/</guid>
 <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 76 · Movie · Released Jan 30, 2026</description>
+<description>Critics 76 · 12 reviews · 83% positive</description>
 </item>
 <item>
 <title>[85] A Poet (Movie)</title>
@@ -1562,7 +1570,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/a-poet/</guid>
 <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 85 · Movie · Released Jan 30, 2026</description>
+<description>Critics 85 · 13 reviews · 100% positive</description>
 </item>
 <item>
 <title>[67] The Wrecking Crew (Movie)</title>
@@ -1570,7 +1578,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/the-wrecking-crew-2026/</guid>
 <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 67 · Movie · Released Jan 28, 2026</description>
+<description>Critics 67 · 15 reviews · 67% positive</description>
 </item>
 <item>
 <title>[75] Wonder Man (TV)</title>
@@ -1602,7 +1610,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/movie/arco/</guid>
 <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
-<description>Metascore 72 · Movie · Released Jan 23, 2026</description>
+<description>Critics 72 · 27 reviews · 85% positive</description>
 </item>
 <item>
 <title>[84] Mel Brooks: The 99 Year Old Man! (TV)</title>
