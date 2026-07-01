@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
 <channel>
 <title>Metacritic — Movies &amp; TV (Metascore 61+)</title>
-<link>https://www.metacritic.com/</link>
+<link>https://jov-cra.github.io/metacritic-rss/</link>
 <description>Metacritic movie &amp; TV releases scoring 61+ (Metascore). Auto-generated.</description>
 <language>en</language>
 <lastBuildDate>Wed, 01 Jul 2026 08:57:25 +0000</lastBuildDate>
-<image><url>https://jov-cra.github.io/metacritic-rss/icon.png</url><title>Metacritic — Movies &amp; TV (Metascore 61+)</title><link>https://www.metacritic.com/</link></image>
+<image><url>https://jov-cra.github.io/metacritic-rss/icon.png</url><title>Metacritic — Movies &amp; TV (Metascore 61+)</title><link>https://jov-cra.github.io/metacritic-rss/</link></image>
 <webfeeds:icon>https://jov-cra.github.io/metacritic-rss/icon.png</webfeeds:icon>
 <webfeeds:logo>https://jov-cra.github.io/metacritic-rss/icon.png</webfeeds:logo>
 <atom:icon>https://jov-cra.github.io/metacritic-rss/icon.png</atom:icon>
@@ -2338,7 +2338,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-red-king/</guid>
 <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 78 · TV · Released Sep 25, 2025</description>
+<description>4 reviews · 100% positive</description>
 </item>
 <item>
 <title>[72] House of Guinness (TV)</title>
@@ -2346,7 +2346,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/house-of-guinness/</guid>
 <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 72 · TV · Released Sep 25, 2025</description>
+<description>20 reviews · 70% positive</description>
 </item>
 <item>
 <title>[66] Marvel Zombies (TV)</title>
@@ -2354,7 +2354,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/marvel-zombies/</guid>
 <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 66 · TV · Released Sep 24, 2025</description>
+<description>10 reviews · 40% positive</description>
 </item>
 <item>
 <title>[85] The Lowdown (TV)</title>
@@ -2362,7 +2362,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-lowdown/</guid>
 <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 85 · TV · Released Sep 23, 2025</description>
+<description>29 reviews · 100% positive</description>
 </item>
 <item>
 <title>[63] Black Rabbit (TV)</title>
@@ -2370,7 +2370,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/black-rabbit/</guid>
 <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 63 · TV · Released Sep 18, 2025</description>
+<description>24 reviews · 50% positive</description>
 </item>
 <item>
 <title>[86] Human (TV)</title>
@@ -2378,7 +2378,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/human/</guid>
 <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 86 · TV · Released Sep 17, 2025</description>
+<description>4 reviews · 100% positive</description>
 </item>
 <item>
 <title>[77] Reunion (2025) (TV)</title>
@@ -2386,7 +2386,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/reunion-2025/</guid>
 <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 77 · TV · Released Sep 12, 2025</description>
+<description>6 reviews · 83% positive</description>
 </item>
 <item>
 <title>[70] The Girlfriend (TV)</title>
@@ -2394,7 +2394,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-girlfriend/</guid>
 <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 70 · TV · Released Sep 10, 2025</description>
+<description>19 reviews · 74% positive</description>
 </item>
 <item>
 <title>[72] Tempest (2025) (TV)</title>
@@ -2402,7 +2402,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/tempest-2025/</guid>
 <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 72 · TV · Released Sep 10, 2025</description>
+<description>4 reviews · 75% positive</description>
 </item>
 <item>
 <title>[74] Mussolini: Son of the Century (TV)</title>
@@ -2410,7 +2410,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/mussolini-son-of-the-century/</guid>
 <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 74 · TV · Released Sep 10, 2025</description>
+<description>10 reviews · 80% positive</description>
 </item>
 <item>
 <title>[71] The Crow Girl (TV)</title>
@@ -2418,7 +2418,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-crow-girl/</guid>
 <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 71 · TV · Released Sep 8, 2025</description>
+<description>6 reviews · 67% positive</description>
 </item>
 <item>
 <title>[77] Task (TV)</title>
@@ -2426,7 +2426,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/task/</guid>
 <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 77 · TV · Released Sep 7, 2025</description>
+<description>34 reviews · 79% positive</description>
 </item>
 <item>
 <title>[66] The Paper (2025) (TV)</title>
@@ -2434,7 +2434,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-paper-2025/</guid>
 <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 66 · TV · Released Sep 4, 2025</description>
+<description>39 reviews · 62% positive</description>
 </item>
 <item>
 <title>[73] NCIS: Tony &amp; Ziva (TV)</title>
@@ -2442,7 +2442,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/ncis-tony-ziva/</guid>
 <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 73 · TV · Released Sep 4, 2025</description>
+<description>6 reviews · 83% positive</description>
 </item>
 <item>
 <title>[71] Kidnapped: The Chloe Ayling Story (TV)</title>
@@ -2450,7 +2450,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/kidnapped-the-chloe-ayling-story/</guid>
 <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 71 · TV · Released Aug 28, 2025</description>
+<description>5 reviews · 60% positive</description>
 </item>
 <item>
 <title>[66] The Terminal List: Dark Wolf (TV)</title>
@@ -2458,7 +2458,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-terminal-list-dark-wolf/</guid>
 <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 66 · TV · Released Aug 27, 2025</description>
+<description>9 reviews · 44% positive</description>
 </item>
 <item>
 <title>[82] Katrina: Come Hell and High Water (TV)</title>
@@ -2466,7 +2466,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/katrina-come-hell-and-high-water/</guid>
 <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 82 · TV · Released Aug 27, 2025</description>
+<description>4 reviews · 100% positive</description>
 </item>
 <item>
 <title>[63] Playing Nice (TV)</title>
@@ -2474,7 +2474,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/playing-nice/</guid>
 <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 63 · TV · Released Aug 26, 2025</description>
+<description>8 reviews · 50% positive</description>
 </item>
 <item>
 <title>[89] Long Story Short (TV)</title>
@@ -2482,7 +2482,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/long-story-short/</guid>
 <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 89 · TV · Released Aug 22, 2025</description>
+<description>17 reviews · 100% positive</description>
 </item>
 <item>
 <title>[62] Hostage (TV)</title>
@@ -2490,7 +2490,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/hostage/</guid>
 <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 62 · TV · Released Aug 21, 2025</description>
+<description>14 reviews · 50% positive</description>
 </item>
 <item>
 <title>[61] The Twisted Tale of Amanda Knox (TV)</title>
@@ -2498,7 +2498,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-twisted-tale-of-amanda-knox/</guid>
 <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 61 · TV · Released Aug 20, 2025</description>
+<description>19 reviews · 47% positive</description>
 </item>
 <item>
 <title>[70] America's Team: The Gambler and His Cowboys (TV)</title>
@@ -2506,7 +2506,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/americas-team-the-gambler-and-his-cowboys/</guid>
 <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 70 · TV · Released Aug 19, 2025</description>
+<description>4 reviews · 75% positive</description>
 </item>
 <item>
 <title>[88] Women Wearing Shoulder Pads (TV)</title>
@@ -2514,7 +2514,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/women-wearing-shoulder-pads/</guid>
 <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 88 · TV · Released Aug 17, 2025</description>
+<description>4 reviews · 100% positive</description>
 </item>
 <item>
 <title>[85] Alien: Earth (TV)</title>
@@ -2522,7 +2522,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/alien-earth/</guid>
 <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 85 · TV · Released Aug 12, 2025</description>
+<description>41 reviews · 93% positive</description>
 </item>
 <item>
 <title>[71] Outlander: Blood of My Blood (TV)</title>
@@ -2530,7 +2530,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/outlander-blood-of-my-blood/</guid>
 <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 71 · TV · Released Aug 8, 2025</description>
+<description>16 reviews · 69% positive</description>
 </item>
 <item>
 <title>[83] The Yogurt Shop Murders (TV)</title>
@@ -2538,7 +2538,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-yogurt-shop-murders/</guid>
 <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 83 · TV · Released Aug 3, 2025</description>
+<description>4 reviews · 100% positive</description>
 </item>
 <item>
 <title>[84] Marc Maron: Panicked (TV)</title>
@@ -2546,7 +2546,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/marc-maron-panicked/</guid>
 <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 84 · TV · Released Aug 1, 2025</description>
+<description>5 reviews · 100% positive</description>
 </item>
 <item>
 <title>[71] Eyes of Wakanda (TV)</title>
@@ -2554,7 +2554,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/eyes-of-wakanda/</guid>
 <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 71 · TV · Released Aug 1, 2025</description>
+<description>11 reviews · 73% positive</description>
 </item>
 <item>
 <title>[71] Chief of War (TV)</title>
@@ -2562,7 +2562,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/chief-of-war/</guid>
 <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 71 · TV · Released Aug 1, 2025</description>
+<description>26 reviews · 69% positive</description>
 </item>
 <item>
 <title>[62] Leanne (TV)</title>
@@ -2570,7 +2570,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/leanne/</guid>
 <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 62 · TV · Released Jul 31, 2025</description>
+<description>12 reviews · 58% positive</description>
 </item>
 <item>
 <title>[63] Dope Girls (TV)</title>
@@ -2578,7 +2578,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/dope-girls/</guid>
 <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 63 · TV · Released Jul 29, 2025</description>
+<description>5 reviews</description>
 </item>
 <item>
 <title>[80] Hurricane Katrina: Race Against Time (TV)</title>
@@ -2586,7 +2586,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/hurricane-katrina-race-against-time/</guid>
 <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 80 · TV · Released Jul 27, 2025</description>
+<description>4 reviews · 100% positive</description>
 </item>
 <item>
 <title>[80] Code of Silence (TV)</title>
@@ -2594,7 +2594,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/code-of-silence/</guid>
 <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 80 · TV · Released Jul 24, 2025</description>
+<description>9 reviews · 100% positive</description>
 </item>
 <item>
 <title>[69] Washington Black (TV)</title>
@@ -2602,7 +2602,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/washington-black/</guid>
 <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 69 · TV · Released Jul 23, 2025</description>
+<description>20 reviews · 70% positive</description>
 </item>
 <item>
 <title>[68] Critical: Between Life and Death (TV)</title>
@@ -2610,7 +2610,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/critical-between-life-and-death/</guid>
 <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 68 · TV · Released Jul 23, 2025</description>
+<description>4 reviews · 50% positive</description>
 </item>
 <item>
 <title>[73] The Hunting Wives (TV)</title>
@@ -2618,7 +2618,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-hunting-wives/</guid>
 <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 73 · TV · Released Jul 21, 2025</description>
+<description>12 reviews · 92% positive</description>
 </item>
 <item>
 <title>[72] Billy Joel: And So It Goes (TV)</title>
@@ -2626,7 +2626,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/billy-joel-and-so-it-goes/</guid>
 <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 72 · TV · Released Jul 18, 2025</description>
+<description>9 reviews · 78% positive</description>
 </item>
 <item>
 <title>[62] Untamed (TV)</title>
@@ -2634,7 +2634,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/untamed/</guid>
 <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 62 · TV · Released Jul 17, 2025</description>
+<description>24 reviews · 42% positive</description>
 </item>
 <item>
 <title>[65] Dexter: Resurrection (TV)</title>
@@ -2642,7 +2642,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/dexter-resurrection/</guid>
 <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 65 · TV · Released Jul 11, 2025</description>
+<description>17 reviews · 59% positive</description>
 </item>
 <item>
 <title>[69] Too Much (TV)</title>
@@ -2650,7 +2650,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/too-much/</guid>
 <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 69 · TV · Released Jul 10, 2025</description>
+<description>36 reviews · 64% positive</description>
 </item>
 <item>
 <title>[70] JAWS @ 50: The Definitive Inside Story (TV)</title>
@@ -2658,7 +2658,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/jaws-50-the-definitive-inside-story/</guid>
 <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 70 · TV · Released Jul 10, 2025</description>
+<description>5 reviews · 60% positive</description>
 </item>
 <item>
 <title>[83] Ballard (TV)</title>
@@ -2666,7 +2666,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/ballard/</guid>
 <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 83 · TV · Released Jul 9, 2025</description>
+<description>7 reviews · 100% positive</description>
 </item>
 <item>
 <title>[78] Attack on London: Hunting the 7/7 Bombers (TV)</title>
@@ -2674,7 +2674,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/attack-on-london-hunting-the-77-bombers/</guid>
 <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 78 · TV · Released Jul 1, 2025</description>
+<description>4 reviews · 100% positive</description>
 </item>
 <item>
 <title>[65] Nautilus (TV)</title>
@@ -2682,7 +2682,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/nautilus/</guid>
 <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 65 · TV · Released Jun 29, 2025</description>
+<description>13 reviews · 54% positive</description>
 </item>
 <item>
 <title>[61] Smoke (TV)</title>
@@ -2690,7 +2690,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/smoke/</guid>
 <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 61 · TV · Released Jun 27, 2025</description>
+<description>20 reviews · 60% positive</description>
 </item>
 <item>
 <title>[61] Trainwreck: Poop Cruise (TV)</title>
@@ -2698,7 +2698,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/trainwreck-poop-cruise/</guid>
 <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 61 · TV · Released Jun 24, 2025</description>
+<description>5 reviews</description>
 </item>
 <item>
 <title>[74] Outrageous (TV)</title>
@@ -2706,7 +2706,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/outrageous/</guid>
 <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 74 · TV · Released Jun 18, 2025</description>
+<description>7 reviews · 86% positive</description>
 </item>
 <item>
 <title>[69] Hell Motel (TV)</title>
@@ -2714,7 +2714,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/hell-motel/</guid>
 <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 69 · TV · Released Jun 17, 2025</description>
+<description>5 reviews · 60% positive</description>
 </item>
 <item>
 <title>[66] Patience (TV)</title>
@@ -2722,7 +2722,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/patience/</guid>
 <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 66 · TV · Released Jun 15, 2025</description>
+<description>15 reviews · 53% positive</description>
 </item>
 <item>
 <title>[71] Revival (2025) (TV)</title>
@@ -2730,7 +2730,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/revival-2025/</guid>
 <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 71 · TV · Released Jun 12, 2025</description>
+<description>8 reviews · 88% positive</description>
 </item>
 <item>
 <title>[72] Families Like Ours (TV)</title>
@@ -2738,7 +2738,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/families-like-ours/</guid>
 <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 72 · TV · Released Jun 10, 2025</description>
+<description>4 reviews · 75% positive</description>
 </item>
 <item>
 <title>[72] Art Detectives (TV)</title>
@@ -2746,7 +2746,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/art-detectives/</guid>
 <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 72 · TV · Released Jun 9, 2025</description>
+<description>6 reviews · 83% positive</description>
 </item>
 <item>
 <title>[62] Stick (TV)</title>
@@ -2754,7 +2754,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/stick/</guid>
 <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 62 · TV · Released Jun 4, 2025</description>
+<description>27 reviews · 56% positive</description>
 </item>
 <item>
 <title>[79] Mr Loverman (TV)</title>
@@ -2762,7 +2762,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/mr-loverman/</guid>
 <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 79 · TV · Released Jun 4, 2025</description>
+<description>9 reviews · 67% positive</description>
 </item>
 <item>
 <title>[68] The Mortician (TV)</title>
@@ -2770,7 +2770,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-mortician/</guid>
 <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 68 · TV · Released Jun 1, 2025</description>
+<description>6 reviews · 67% positive</description>
 </item>
 <item>
 <title>[69] Dept. Q (TV)</title>
@@ -2778,7 +2778,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/dept-q/</guid>
 <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 69 · TV · Released May 29, 2025</description>
+<description>22 reviews · 64% positive</description>
 </item>
 <item>
 <title>[64] Death Valley (2025) (TV)</title>
@@ -2786,7 +2786,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/death-valley-2025/</guid>
 <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 64 · TV · Released May 29, 2025</description>
+<description>10 reviews · 30% positive</description>
 </item>
 <item>
 <title>[65] Adults (TV)</title>
@@ -2794,7 +2794,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/adults/</guid>
 <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 65 · TV · Released May 28, 2025</description>
+<description>21 reviews · 52% positive</description>
 </item>
 <item>
 <title>[70] Jerrod Carmichael: Don't Be Gay (TV)</title>
@@ -2802,7 +2802,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/jerrod-carmichael-dont-be-gay/</guid>
 <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 70 · TV · Released May 24, 2025</description>
+<description>4 reviews · 75% positive</description>
 </item>
 <item>
 <title>[82] Pee-wee as Himself (TV)</title>
@@ -2810,7 +2810,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/pee-wee-as-himself/</guid>
 <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 82 · TV · Released May 23, 2025</description>
+<description>19 reviews · 100% positive</description>
 </item>
 <item>
 <title>[66] Sirens (2025) (TV)</title>

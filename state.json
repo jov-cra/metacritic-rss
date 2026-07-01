@@ -3690,420 +3690,726 @@
       "score": 72,
       "media": "tv",
       "release_date": "Sep 25, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 20,
+        "pos": 70,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-red-king/": {
       "title": "The Red King",
       "score": 78,
       "media": "tv",
       "release_date": "Sep 25, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/marvel-zombies/": {
       "title": "Marvel Zombies",
       "score": 66,
       "media": "tv",
       "release_date": "Sep 24, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 10,
+        "pos": 40,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-lowdown/": {
       "title": "The Lowdown",
       "score": 85,
       "media": "tv",
       "release_date": "Sep 23, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 29,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/black-rabbit/": {
       "title": "Black Rabbit",
       "score": 63,
       "media": "tv",
       "release_date": "Sep 18, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 24,
+        "pos": 50,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/human/": {
       "title": "Human",
       "score": 86,
       "media": "tv",
       "release_date": "Sep 17, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/reunion-2025/": {
       "title": "Reunion (2025)",
       "score": 77,
       "media": "tv",
       "release_date": "Sep 12, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 83,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/mussolini-son-of-the-century/": {
       "title": "Mussolini: Son of the Century",
       "score": 74,
       "media": "tv",
       "release_date": "Sep 10, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 10,
+        "pos": 80,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-girlfriend/": {
       "title": "The Girlfriend",
       "score": 70,
       "media": "tv",
       "release_date": "Sep 10, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 19,
+        "pos": 74,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/tempest-2025/": {
       "title": "Tempest (2025)",
       "score": 72,
       "media": "tv",
       "release_date": "Sep 10, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-crow-girl/": {
       "title": "The Crow Girl",
       "score": 71,
       "media": "tv",
       "release_date": "Sep 8, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 67,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/task/": {
       "title": "Task",
       "score": 77,
       "media": "tv",
       "release_date": "Sep 7, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 34,
+        "pos": 79,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-paper-2025/": {
       "title": "The Paper (2025)",
       "score": 66,
       "media": "tv",
       "release_date": "Sep 4, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 39,
+        "pos": 62,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/ncis-tony-ziva/": {
       "title": "NCIS: Tony & Ziva",
       "score": 73,
       "media": "tv",
       "release_date": "Sep 4, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 83,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/kidnapped-the-chloe-ayling-story/": {
       "title": "Kidnapped: The Chloe Ayling Story",
       "score": 71,
       "media": "tv",
       "release_date": "Aug 28, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/katrina-come-hell-and-high-water/": {
       "title": "Katrina: Come Hell and High Water",
       "score": 82,
       "media": "tv",
       "release_date": "Aug 27, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-terminal-list-dark-wolf/": {
       "title": "The Terminal List: Dark Wolf",
       "score": 66,
       "media": "tv",
       "release_date": "Aug 27, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 9,
+        "pos": 44,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/playing-nice/": {
       "title": "Playing Nice",
       "score": 63,
       "media": "tv",
       "release_date": "Aug 26, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 8,
+        "pos": 50,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/long-story-short/": {
       "title": "Long Story Short",
       "score": 89,
       "media": "tv",
       "release_date": "Aug 22, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 17,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/hostage/": {
       "title": "Hostage",
       "score": 62,
       "media": "tv",
       "release_date": "Aug 21, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 14,
+        "pos": 50,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-twisted-tale-of-amanda-knox/": {
       "title": "The Twisted Tale of Amanda Knox",
       "score": 61,
       "media": "tv",
       "release_date": "Aug 20, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 19,
+        "pos": 47,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/americas-team-the-gambler-and-his-cowboys/": {
       "title": "America's Team: The Gambler and His Cowboys",
       "score": 70,
       "media": "tv",
       "release_date": "Aug 19, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/women-wearing-shoulder-pads/": {
       "title": "Women Wearing Shoulder Pads",
       "score": 88,
       "media": "tv",
       "release_date": "Aug 17, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/alien-earth/": {
       "title": "Alien: Earth",
       "score": 85,
       "media": "tv",
       "release_date": "Aug 12, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 41,
+        "pos": 93,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/outlander-blood-of-my-blood/": {
       "title": "Outlander: Blood of My Blood",
       "score": 71,
       "media": "tv",
       "release_date": "Aug 8, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 16,
+        "pos": 69,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-yogurt-shop-murders/": {
       "title": "The Yogurt Shop Murders",
       "score": 83,
       "media": "tv",
       "release_date": "Aug 3, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/chief-of-war/": {
       "title": "Chief of War",
       "score": 71,
       "media": "tv",
       "release_date": "Aug 1, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 26,
+        "pos": 69,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/marc-maron-panicked/": {
       "title": "Marc Maron: Panicked",
       "score": 84,
       "media": "tv",
       "release_date": "Aug 1, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/eyes-of-wakanda/": {
       "title": "Eyes of Wakanda",
       "score": 71,
       "media": "tv",
       "release_date": "Aug 1, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 11,
+        "pos": 73,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/leanne/": {
       "title": "Leanne",
       "score": 62,
       "media": "tv",
       "release_date": "Jul 31, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 12,
+        "pos": 58,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/dope-girls/": {
       "title": "Dope Girls",
       "score": 63,
       "media": "tv",
       "release_date": "Jul 29, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 5,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/hurricane-katrina-race-against-time/": {
       "title": "Hurricane Katrina: Race Against Time",
       "score": 80,
       "media": "tv",
       "release_date": "Jul 27, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/code-of-silence/": {
       "title": "Code of Silence",
       "score": 80,
       "media": "tv",
       "release_date": "Jul 24, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 9,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/critical-between-life-and-death/": {
       "title": "Critical: Between Life and Death",
       "score": 68,
       "media": "tv",
       "release_date": "Jul 23, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/washington-black/": {
       "title": "Washington Black",
       "score": 69,
       "media": "tv",
       "release_date": "Jul 23, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 20,
+        "pos": 70,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-hunting-wives/": {
       "title": "The Hunting Wives",
       "score": 73,
       "media": "tv",
       "release_date": "Jul 21, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 12,
+        "pos": 92,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/billy-joel-and-so-it-goes/": {
       "title": "Billy Joel: And So It Goes",
       "score": 72,
       "media": "tv",
       "release_date": "Jul 18, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 9,
+        "pos": 78,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/untamed/": {
       "title": "Untamed",
       "score": 62,
       "media": "tv",
       "release_date": "Jul 17, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 24,
+        "pos": 42,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/dexter-resurrection/": {
       "title": "Dexter: Resurrection",
       "score": 65,
       "media": "tv",
       "release_date": "Jul 11, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 17,
+        "pos": 59,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/too-much/": {
       "title": "Too Much",
       "score": 69,
       "media": "tv",
       "release_date": "Jul 10, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 36,
+        "pos": 64,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/jaws-50-the-definitive-inside-story/": {
       "title": "JAWS @ 50: The Definitive Inside Story",
       "score": 70,
       "media": "tv",
       "release_date": "Jul 10, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/ballard/": {
       "title": "Ballard",
       "score": 83,
       "media": "tv",
       "release_date": "Jul 9, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 7,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/attack-on-london-hunting-the-77-bombers/": {
       "title": "Attack on London: Hunting the 7/7 Bombers",
       "score": 78,
       "media": "tv",
       "release_date": "Jul 1, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/nautilus/": {
       "title": "Nautilus",
       "score": 65,
       "media": "tv",
       "release_date": "Jun 29, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 13,
+        "pos": 54,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/smoke/": {
       "title": "Smoke",
       "score": 61,
       "media": "tv",
       "release_date": "Jun 27, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 20,
+        "pos": 60,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/trainwreck-poop-cruise/": {
       "title": "Trainwreck: Poop Cruise",
       "score": 61,
       "media": "tv",
       "release_date": "Jun 24, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 5,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/outrageous/": {
       "title": "Outrageous",
       "score": 74,
       "media": "tv",
       "release_date": "Jun 18, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 7,
+        "pos": 86,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/hell-motel/": {
       "title": "Hell Motel",
       "score": 69,
       "media": "tv",
       "release_date": "Jun 17, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/patience/": {
       "title": "Patience",
       "score": 66,
       "media": "tv",
       "release_date": "Jun 15, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 15,
+        "pos": 53,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/revival-2025/": {
       "title": "Revival (2025)",
       "score": 71,
       "media": "tv",
       "release_date": "Jun 12, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 8,
+        "pos": 88,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/families-like-ours/": {
       "title": "Families Like Ours",
       "score": 72,
       "media": "tv",
       "release_date": "Jun 10, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/art-detectives/": {
       "title": "Art Detectives",
       "score": 72,
       "media": "tv",
       "release_date": "Jun 9, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 83,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/mr-loverman/": {
       "title": "Mr Loverman",
       "score": 79,
       "media": "tv",
       "release_date": "Jun 4, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 9,
+        "pos": 67,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/stick/": {
       "title": "Stick",
       "score": 62,
       "media": "tv",
       "release_date": "Jun 4, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 27,
+        "pos": 56,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-mortician/": {
       "title": "The Mortician",
       "score": 68,
       "media": "tv",
       "release_date": "Jun 1, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 67,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/dept-q/": {
       "title": "Dept. Q",
       "score": 69,
       "media": "tv",
       "release_date": "May 29, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 22,
+        "pos": 64,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/death-valley-2025/": {
       "title": "Death Valley (2025)",
       "score": 64,
       "media": "tv",
       "release_date": "May 29, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 10,
+        "pos": 30,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/adults/": {
       "title": "Adults",
       "score": 65,
       "media": "tv",
       "release_date": "May 28, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 21,
+        "pos": 52,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/jerrod-carmichael-dont-be-gay/": {
       "title": "Jerrod Carmichael: Don't Be Gay",
       "score": 70,
       "media": "tv",
       "release_date": "May 24, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/pee-wee-as-himself/": {
       "title": "Pee-wee as Himself",
       "score": 82,
       "media": "tv",
       "release_date": "May 23, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 19,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/sirens-2025/": {
       "title": "Sirens (2025)",
