@@ -45,6 +45,7 @@ jobs:
           MC_FEED_MAX: "500"          # items kept in the feed (archive persists in state either way)
           MC_FEED_SELF: "https://jov-cra.github.io/metacritic-rss/feed.xml"
           MC_FEED_LINK: "https://www.metacritic.com/"   # channel <link>; many readers take the feed icon from here
+          MC_ICON: "https://icon.horse/icon/metacritic.com"   # higher-res than a plain favicon
         run: python metacritic_feed.py
 
       - name: Commit updated feed + state

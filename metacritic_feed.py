@@ -322,7 +322,7 @@ def describe_item(meta: dict) -> str:
     Falls back to a basic line if the detail page couldn't be enriched."""
     d = meta.get("detail") or {}
     label = "Movie" if meta["media"] == "movie" else "TV"
-    has_info = any(k in d for k in ("critic_count", "pos", "user_score", "user_tbd"))
+    has_info = any(k in d for k in ("critic_count", "pos", "user_score"))
     if not has_info:
         return f'Metascore {meta["score"]} · {label} · Released {meta.get("release_date", "")}'
 
@@ -331,13 +331,13 @@ def describe_item(meta: dict) -> str:
         parts.append(f'{d["critic_count"]} reviews')
     if d.get("pos") is not None:
         parts.append(f'{d["pos"]}% positive')
+    # User score is shown ONLY when it actually exists (usually still "tbd" at the
+    # moment a title first qualifies, so most items just omit the user part).
     if d.get("user_score") is not None:
         u = f'Users {d["user_score"]:g}'
         if d.get("user_count"):
             u += f' ({d["user_count"]} ratings)'
         parts.append(u)
-    elif d.get("user_tbd"):
-        parts.append("Users tbd")
 
     return " · ".join(parts)
 
@@ -486,8 +486,8 @@ def build_argparser() -> argparse.ArgumentParser:
     p.add_argument("--feed-self", default=_env("MC_FEED_SELF", ""),
                    help="public URL where feed.xml is hosted (adds an atom:self link)")
     p.add_argument("--feed-icon",
-                   default=_env("MC_ICON", "https://www.google.com/s2/favicons?domain=www.metacritic.com&sz=128"),
-                   help="feed icon URL (default: Metacritic favicon); set empty to omit")
+                   default=_env("MC_ICON", "https://icon.horse/icon/metacritic.com"),
+                   help="feed icon URL (default: best-available Metacritic icon); set empty to omit")
     p.add_argument("--detail", dest="detail", action="store_true",
                    default=_env("MC_DETAIL", "1") not in ("0", "false", "False", ""),
                    help="fetch each new title's detail page for critic/user stats + a quote (default on)")

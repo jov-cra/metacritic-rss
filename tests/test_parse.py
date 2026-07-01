@@ -237,13 +237,19 @@ def test_parse_detail_extracts_stats():
     assert "user_count" not in d           # "Available after 4 ratings" is a threshold, not a count
 
 
-def test_describe_item_stats_no_quote():
+def test_describe_item_no_quote_and_no_tbd_user():
     meta = {"score": 76, "media": "tv", "release_date": "Jun 30, 2026",
             "detail": mf.parse_detail(DETAIL)}
     desc = mf.describe_item(meta)
-    assert desc == "Critics 76 · 4 reviews · 100% positive · Users tbd"
-    assert '"' not in desc                  # no quote anymore
-    assert "(4 ratings)" not in desc        # must not render the threshold as a count
+    assert desc == "Critics 76 · 4 reviews · 100% positive"
+    assert '"' not in desc                  # no quote
+    assert "Users" not in desc              # tbd user score is omitted entirely
+
+
+def test_describe_item_shows_real_user_score():
+    meta = {"score": 82, "media": "movie",
+            "detail": {"critic_count": 31, "pos": 74, "user_score": 6.8, "user_count": 540}}
+    assert mf.describe_item(meta) == "Critics 82 · 31 reviews · 74% positive · Users 6.8 (540 ratings)"
 
 
 def test_describe_item_falls_back_without_detail():

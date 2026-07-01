@@ -135,7 +135,7 @@ Alles per CLI-Flag **oder** Umgebungsvariable (Flag schlägt ENV):
 | – | `--debug` | – | Jede geparste Karte ausgeben |
 
 Die `<description>` enthält damit einen kompakten Review-Abriss statt nur des Scores, z. B.:
-`Critics 76 · 4 reviews · 100% positive · Users tbd`. Pro Titel wird die Detailseite **einmal** geholt und im State eingefroren (kein Extra-Traffic bei Folgeläufen); scheitert das Parsen, fällt der Eintrag sauber auf die Score-Zeile zurück. `Users tbd` = noch nicht genug User-Ratings für einen Score; sobald einer da ist, steht dort z. B. `Users 7.2 (540 ratings)`.
+`Critics 76 · 4 reviews · 100% positive`. Pro Titel wird die Detailseite **einmal** geholt und im State eingefroren (kein Extra-Traffic bei Folgeläufen); scheitert das Parsen, fällt der Eintrag sauber auf die Score-Zeile zurück. Der User-Score erscheint **nur, wenn es schon einen gibt** (`… · Users 6.8 (540 ratings)`) — beim Qualifizieren ist er meist noch „tbd", dann steht er gar nicht da (dafür auf die Detailseite gehen).
 
 Das Feed-Icon lässt sich über `MC_ICON` setzen (Default: Metacritic-Favicon). Ob dein Reader es anzeigt, hängt vom Reader ab — manche nutzen stattdessen das Favicon der Host-Domain.
 
