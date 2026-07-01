@@ -355,8 +355,7 @@ def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None
         lb = datetime.now(timezone.utc)
     out = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" '
-        'xmlns:webfeeds="http://webfeeds.org/rss/1.0">',
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
         "<channel>",
         f"<title>{escape(args.feed_title)}</title>",
         f"<link>{escape(args.feed_link)}</link>",
@@ -364,18 +363,6 @@ def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None
         "<language>en</language>",
         f"<lastBuildDate>{format_datetime(lb)}</lastBuildDate>",
     ]
-    if getattr(args, "feed_icon", ""):
-        icon = escape(args.feed_icon)
-        # Multiple conventions so different readers pick it up: RSS <image>,
-        # the webfeeds extension, and Atom icon/logo.
-        out += [
-            f"<image><url>{icon}</url><title>{escape(args.feed_title)}</title>"
-            f"<link>{escape(args.feed_link)}</link></image>",
-            f"<webfeeds:icon>{icon}</webfeeds:icon>",
-            f"<webfeeds:logo>{icon}</webfeeds:logo>",
-            f"<atom:icon>{icon}</atom:icon>",
-            f"<atom:logo>{icon}</atom:logo>",
-        ]
     if args.feed_self:
         out.append(f'<atom:link href="{escape(args.feed_self)}" rel="self" type="application/rss+xml"/>')
 
@@ -487,12 +474,9 @@ def build_argparser() -> argparse.ArgumentParser:
     p.add_argument("--feed-link", default=_env("MC_FEED_LINK", BASE + BROWSE["movie"]))
     p.add_argument("--feed-self", default=_env("MC_FEED_SELF", ""),
                    help="public URL where feed.xml is hosted (adds an atom:self link)")
-    p.add_argument("--feed-icon",
-                   default=_env("MC_ICON", "https://icon.horse/icon/metacritic.com"),
-                   help="feed icon URL (default: best-available Metacritic icon); set empty to omit")
     p.add_argument("--detail", dest="detail", action="store_true",
                    default=_env("MC_DETAIL", "1") not in ("0", "false", "False", ""),
-                   help="fetch each new title's detail page for critic/user stats + a quote (default on)")
+                   help="fetch each new title's detail page for critic/user stats (default on)")
     p.add_argument("--no-detail", dest="detail", action="store_false",
                    help="skip detail pages; use the basic description")
     p.add_argument("--detail-max", type=int, default=int(_env("MC_DETAIL_MAX", "60")),

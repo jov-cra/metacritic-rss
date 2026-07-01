@@ -123,12 +123,11 @@ Alles per CLI-Flag **oder** Umgebungsvariable (Flag schlägt ENV):
 | `MC_MEDIA` | `--media` | `movie,tv` | `movie`, `tv` oder beides |
 | `MC_PAGES` | `--pages` | `30` | Browse-Seiten pro Medium (~24 Titel/Seite) |
 | `MC_FEED_MAX` | `--feed-max` | `500` | Max. Einträge im Feed |
-| `MC_ICON` | `--feed-icon` | Metacritic-Favicon | Feed-Icon-URL (leer = keins) |
 | `MC_OUT` | `--out` | `feed.xml` | Ausgabedatei |
 | `MC_STATE` | `--state` | `state.json` | Zustandsdatei |
 | `MC_FEED_TITLE` | `--feed-title` | auto | Feed-Titel |
 | `MC_FEED_SELF` | `--feed-self` | – | Öffentliche Feed-URL (atom:self-Link) |
-| `MC_DETAIL` | `--detail`/`--no-detail` | `1` | Detailseite pro neuem Titel holen (Critic/User-Stats + Top-Zitat) |
+| `MC_DETAIL` | `--detail`/`--no-detail` | `1` | Detailseite pro neuem Titel holen (Critic/User-Stats) |
 | `MC_DETAIL_MAX` | `--detail-max` | `60` | Max. Detail-Abrufe pro Lauf (begrenzt das einmalige Nachladen) |
 | `MC_DETAIL_DELAY` | `--detail-delay` | `0.6` | Sekunden Pause zwischen Detail-Abrufen (Höflichkeit) |
 | – | `--dry-run` | – | Nichts schreiben, nur berichten |
@@ -136,10 +135,6 @@ Alles per CLI-Flag **oder** Umgebungsvariable (Flag schlägt ENV):
 
 Die `<description>` enthält damit einen kompakten Review-Abriss statt nur des Scores, z. B.:
 `4 reviews · 100% positive` (der Critic-Score steht schon im Titel). Pro Titel wird die Detailseite **einmal** geholt und im State eingefroren (kein Extra-Traffic bei Folgeläufen); scheitert das Parsen, fällt der Eintrag sauber auf die Score-Zeile zurück. Der Critic-Score wird in der Description **nur wiederholt, wenn es auch einen User-Score gibt** — dann als Vergleich: `Critics 82 · 31 reviews · 74% positive · Users 6.8 (540 ratings)`. Beim Qualifizieren ist der User-Score meist noch „tbd" und wird dann ganz weggelassen (dafür auf die Detailseite gehen).
-
-Das Feed-Icon ist als `icon.png` im Repo hinterlegt und wird via Pages ausgeliefert (`MC_ICON`). Grund: Metacritics eigenes Favicon ist niedrig aufgelöst, jeder Favicon-Dienst liefert es nur grisselig; ein selbst gehostetes PNG ist scharf. Ersetze `icon.png` durch dein eigenes, wenn du ein anderes Motiv willst.
-
-Das Feed-Icon lässt sich über `MC_ICON` setzen (Default: Metacritic-Favicon). Ob dein Reader es anzeigt, hängt vom Reader ab — manche nutzen stattdessen das Favicon der Host-Domain.
 
 **Schwellwert später ändern:** einfach `MC_THRESHOLD` anpassen. Absenken lässt beim nächsten Lauf neue Titel rein; Anheben blendet künftige unter dem Wert aus (bereits im Feed stehende bleiben, bis sie aus den letzten `MC_FEED_MAX` herausrutschen).
 
