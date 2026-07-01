@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Metacritic — Movies &amp; TV (Metascore 61+)</title>
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases scoring 61+ (Metascore). Auto-generated.</description>
 <language>en</language>
 <lastBuildDate>Wed, 01 Jul 2026 08:57:25 +0000</lastBuildDate>
-<image><url>https://jov-cra.github.io/metacritic-rss/icon.png</url><title>Metacritic — Movies &amp; TV (Metascore 61+)</title><link>https://www.metacritic.com/</link></image>
-<webfeeds:icon>https://jov-cra.github.io/metacritic-rss/icon.png</webfeeds:icon>
-<webfeeds:logo>https://jov-cra.github.io/metacritic-rss/icon.png</webfeeds:logo>
-<atom:icon>https://jov-cra.github.io/metacritic-rss/icon.png</atom:icon>
-<atom:logo>https://jov-cra.github.io/metacritic-rss/icon.png</atom:logo>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>[68] Minions &amp; Monsters (Movie)</title>
@@ -3298,7 +3293,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/snl50-beyond-saturday-night/</guid>
 <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 72 · TV · Released Jan 16, 2025</description>
+<description>10 reviews · 70% positive</description>
 </item>
 <item>
 <title>[85] The Pitt (TV)</title>
@@ -3306,7 +3301,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-pitt/</guid>
 <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 85 · TV · Released Jan 9, 2025</description>
+<description>62 reviews · 90% positive</description>
 </item>
 <item>
 <title>[89] Asura (TV)</title>
@@ -3314,7 +3309,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/asura/</guid>
 <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 89 · TV · Released Jan 9, 2025</description>
+<description>5 reviews · 100% positive</description>
 </item>
 <item>
 <title>[73] Jerry Springer: Fights, Camera, Action (TV)</title>
@@ -3322,7 +3317,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/jerry-springer-fights-camera-action/</guid>
 <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 73 · TV · Released Jan 7, 2025</description>
+<description>6 reviews · 50% positive</description>
 </item>
 <item>
 <title>[66] Lockerbie: A Search for Truth (TV)</title>
@@ -3330,7 +3325,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/lockerbie-a-search-for-truth/</guid>
 <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 66 · TV · Released Jan 2, 2025</description>
+<description>15 reviews · 53% positive</description>
 </item>
 <item>
 <title>[63] Going Dutch (TV)</title>
@@ -3338,7 +3333,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/going-dutch/</guid>
 <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 63 · TV · Released Jan 2, 2025</description>
+<description>8 reviews · 50% positive</description>
 </item>
 <item>
 <title>[75] Cunk on Life (TV)</title>
@@ -3346,7 +3341,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/cunk-on-life/</guid>
 <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 75 · TV · Released Jan 2, 2025</description>
+<description>8 reviews · 75% positive</description>
 </item>
 <item>
 <title>[65] Protection (TV)</title>
@@ -3354,7 +3349,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/protection/</guid>
 <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 65 · TV · Released Dec 29, 2024</description>
+<description>6 reviews · 33% positive</description>
 </item>
 <item>
 <title>[73] Laid (2024) (TV)</title>
@@ -3362,7 +3357,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/laid-2024/</guid>
 <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 73 · TV · Released Dec 19, 2024</description>
+<description>17 reviews · 71% positive</description>
 </item>
 <item>
 <title>[66] The Jetty (TV)</title>
@@ -3370,7 +3365,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-jetty/</guid>
 <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 66 · TV · Released Dec 13, 2024</description>
+<description>7 reviews · 43% positive</description>
 </item>
 <item>
 <title>[80] Paris &amp; Nicole: The Encore (TV)</title>
@@ -3378,7 +3373,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/paris-nicole-the-encore/</guid>
 <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 80 · TV · Released Dec 12, 2024</description>
+<description>4 reviews · 100% positive</description>
 </item>
 <item>
 <title>[63] No Good Deed (2024) (TV)</title>
@@ -3386,7 +3381,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/no-good-deed-2024/</guid>
 <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 63 · TV · Released Dec 12, 2024</description>
+<description>23 reviews · 48% positive</description>
 </item>
 <item>
 <title>[80] One Hundred Years of Solitude (TV)</title>
@@ -3394,7 +3389,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/one-hundred-years-of-solitude/</guid>
 <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 80 · TV · Released Dec 11, 2024</description>
+<description>16 reviews · 81% positive</description>
 </item>
 <item>
 <title>[67] Dream Productions (TV)</title>
@@ -3402,7 +3397,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/dream-productions/</guid>
 <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 67 · TV · Released Dec 11, 2024</description>
+<description>14 reviews · 57% positive</description>
 </item>
 <item>
 <title>[83] Jamie Foxx: What Had Happened Was... (TV)</title>
@@ -3410,7 +3405,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/jamie-foxx-what-had-happened-was/</guid>
 <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 83 · TV · Released Dec 10, 2024</description>
+<description>5 reviews · 100% positive</description>
 </item>
 <item>
 <title>[67] The Sticky (TV)</title>
@@ -3418,7 +3413,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-sticky/</guid>
 <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 67 · TV · Released Dec 6, 2024</description>
+<description>16 reviews · 75% positive</description>
 </item>
 <item>
 <title>[65] Paris Has Fallen (TV)</title>
@@ -3426,7 +3421,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/paris-has-fallen/</guid>
 <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 65 · TV · Released Dec 6, 2024</description>
+<description>6 reviews · 33% positive</description>
 </item>
 <item>
 <title>[74] Creature Commandos (TV)</title>
@@ -3434,7 +3429,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/creature-commandos/</guid>
 <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 74 · TV · Released Dec 5, 2024</description>
+<description>12 reviews · 83% positive</description>
 </item>
 <item>
 <title>[78] Black Doves (TV)</title>
@@ -3442,7 +3437,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/black-doves/</guid>
 <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 78 · TV · Released Dec 5, 2024</description>
+<description>31 reviews · 94% positive</description>
 </item>
 <item>
 <title>[84] Big Boys (TV)</title>
@@ -3450,7 +3445,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/big-boys/</guid>
 <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 84 · TV · Released Dec 3, 2024</description>
+<description>14 reviews · 100% positive</description>
 </item>
 <item>
 <title>[72] Star Wars: Skeleton Crew (TV)</title>
@@ -3458,7 +3453,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/star-wars-skeleton-crew/</guid>
 <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 72 · TV · Released Dec 2, 2024</description>
+<description>23 reviews · 78% positive</description>
 </item>
 <item>
 <title>[68] The Agency (2024) (TV)</title>
@@ -3466,7 +3461,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-agency-2024/</guid>
 <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 68 · TV · Released Nov 29, 2024</description>
+<description>28 reviews · 54% positive</description>
 </item>
 <item>
 <title>[65] The Madness (TV)</title>
@@ -3474,7 +3469,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-madness/</guid>
 <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 65 · TV · Released Nov 28, 2024</description>
+<description>19 reviews · 53% positive</description>
 </item>
 <item>
 <title>[80] Get Millie Black (TV)</title>
@@ -3482,7 +3477,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/get-millie-black/</guid>
 <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 80 · TV · Released Nov 25, 2024</description>
+<description>15 reviews · 100% positive</description>
 </item>
 <item>
 <title>[74] A Man on the Inside (TV)</title>
@@ -3490,7 +3485,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/a-man-on-the-inside/</guid>
 <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 74 · TV · Released Nov 21, 2024</description>
+<description>35 reviews · 77% positive</description>
 </item>
 <item>
 <title>[64] Interior Chinatown (TV)</title>
@@ -3498,7 +3493,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/interior-chinatown/</guid>
 <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 64 · TV · Released Nov 19, 2024</description>
+<description>12 reviews · 58% positive</description>
 </item>
 <item>
 <title>[75] Leonardo da Vinci (TV)</title>
@@ -3506,7 +3501,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/leonardo-da-vinci/</guid>
 <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 75 · TV · Released Nov 18, 2024</description>
+<description>10 reviews · 80% positive</description>
 </item>
 <item>
 <title>[62] Landman (TV)</title>
@@ -3514,7 +3509,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/landman/</guid>
 <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 62 · TV · Released Nov 17, 2024</description>
+<description>28 reviews · 50% positive</description>
 </item>
 <item>
 <title>[64] Dune: Prophecy (TV)</title>
@@ -3522,7 +3517,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/dune-prophecy/</guid>
 <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 64 · TV · Released Nov 17, 2024</description>
+<description>34 reviews · 50% positive</description>
 </item>
 <item>
 <title>[72] The Day of the Jackal (TV)</title>
@@ -3530,7 +3525,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-day-of-the-jackal/</guid>
 <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 72 · TV · Released Nov 14, 2024</description>
+<description>28 reviews · 75% positive</description>
 </item>
 <item>
 <title>[80] Say Nothing (TV)</title>
@@ -3538,7 +3533,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/say-nothing/</guid>
 <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 80 · TV · Released Nov 14, 2024</description>
+<description>23 reviews · 83% positive</description>
 </item>
 <item>
 <title>[62] Cross (TV)</title>
@@ -3546,7 +3541,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/cross/</guid>
 <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 62 · TV · Released Nov 14, 2024</description>
+<description>28 reviews · 46% positive</description>
 </item>
 <item>
 <title>[66] St. Denis Medical (TV)</title>
@@ -3554,7 +3549,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/st-denis-medical/</guid>
 <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 66 · TV · Released Nov 12, 2024</description>
+<description>18 reviews · 67% positive</description>
 </item>
 <item>
 <title>[75] Rebus (TV)</title>
@@ -3562,7 +3557,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/rebus/</guid>
 <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 75 · TV · Released Nov 7, 2024</description>
+<description>8 reviews · 75% positive</description>
 </item>
 <item>
 <title>[80] Like Water for Chocolate (TV)</title>
@@ -3570,7 +3565,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/like-water-for-chocolate/</guid>
 <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 80 · TV · Released Nov 3, 2024</description>
+<description>6 reviews · 100% positive</description>
 </item>
 <item>
 <title>[63] Prince William: We Can End Homelessness (TV)</title>
@@ -3578,7 +3573,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/prince-william-we-can-end-homelessness/</guid>
 <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 63 · TV · Released Nov 1, 2024</description>
+<description>4 reviews · 50% positive</description>
 </item>
 <item>
 <title>[78] Wizards Beyond Waverly Place (TV)</title>
@@ -3586,7 +3581,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/wizards-beyond-waverly-place/</guid>
 <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 78 · TV · Released Oct 29, 2024</description>
+<description>4 reviews · 100% positive</description>
 </item>
 <item>
 <title>[61] The Marlow Murder Club (TV)</title>
@@ -3594,7 +3589,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-marlow-murder-club/</guid>
 <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 61 · TV · Released Oct 27, 2024</description>
+<description>11 reviews · 36% positive</description>
 </item>
 <item>
 <title>[71] Territory (TV)</title>
@@ -3602,7 +3597,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/territory/</guid>
 <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 71 · TV · Released Oct 24, 2024</description>
+<description>4 reviews · 100% positive</description>
 </item>
 <item>
 <title>[68] Hasan Minhaj: Off With His Head (TV)</title>
@@ -3610,7 +3605,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/hasan-minhaj-off-with-his-head/</guid>
 <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 68 · TV · Released Oct 22, 2024</description>
+<description>4 reviews · 50% positive</description>
 </item>
 <item>
 <title>[62] Poppa's House (TV)</title>
@@ -3618,7 +3613,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/poppas-house/</guid>
 <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 62 · TV · Released Oct 21, 2024</description>
+<description>7 reviews · 57% positive</description>
 </item>
 <item>
 <title>[85] Rivals (TV)</title>
@@ -3626,7 +3621,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/rivals/</guid>
 <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 85 · TV · Released Oct 18, 2024</description>
+<description>24 reviews · 92% positive</description>
 </item>
 <item>
 <title>[65] It's Florida, Man. (TV)</title>
@@ -3634,7 +3629,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/its-florida-man/</guid>
 <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 65 · TV · Released Oct 18, 2024</description>
+<description>6 reviews · 67% positive</description>
 </item>
 <item>
 <title>[62] Hysteria! (TV)</title>
@@ -3642,7 +3637,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/hysteria!/</guid>
 <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 62 · TV · Released Oct 18, 2024</description>
+<description>7 reviews · 57% positive</description>
 </item>
 <item>
 <title>[73] Passenger (TV)</title>
@@ -3650,7 +3645,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/passenger/</guid>
 <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 73 · TV · Released Oct 17, 2024</description>
+<description>7 reviews · 57% positive</description>
 </item>
 <item>
 <title>[61] Georgie &amp; Mandy's First Marriage (TV)</title>
@@ -3658,7 +3653,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/georgie-mandys-first-marriage/</guid>
 <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 61 · TV · Released Oct 17, 2024</description>
+<description>11 reviews · 64% positive</description>
 </item>
 <item>
 <title>[62] NCIS: Origins (TV)</title>
@@ -3666,7 +3661,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/ncis-origins/</guid>
 <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 62 · TV · Released Oct 14, 2024</description>
+<description>8 reviews · 75% positive</description>
 </item>
 <item>
 <title>[70] Disclaimer (TV)</title>
@@ -3674,7 +3669,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/disclaimer/</guid>
 <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 70 · TV · Released Oct 11, 2024</description>
+<description>32 reviews · 69% positive</description>
 </item>
 <item>
 <title>[65] Tomb Raider: The Legend of Lara Croft (TV)</title>
@@ -3682,7 +3677,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/tomb-raider-the-legend-of-lara-croft/</guid>
 <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 65 · TV · Released Oct 10, 2024</description>
+<description>7 reviews · 57% positive</description>
 </item>
 <item>
 <title>[69] Sweetpea (TV)</title>
@@ -3690,7 +3685,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/sweetpea/</guid>
 <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 69 · TV · Released Oct 10, 2024</description>
+<description>12 reviews · 58% positive</description>
 </item>
 <item>
 <title>[67] La Máquina (TV)</title>
@@ -3698,7 +3693,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/la-maquina/</guid>
 <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 67 · TV · Released Oct 9, 2024</description>
+<description>16 reviews · 69% positive</description>
 </item>
 <item>
 <title>[80] Ali Wong: Single Lady (TV)</title>
@@ -3706,7 +3701,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/ali-wong-single-lady/</guid>
 <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 80 · TV · Released Oct 8, 2024</description>
+<description>4 reviews · 100% positive</description>
 </item>
 <item>
 <title>[67] The Franchise (TV)</title>
@@ -3714,7 +3709,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-franchise/</guid>
 <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 67 · TV · Released Oct 6, 2024</description>
+<description>29 reviews · 55% positive</description>
 </item>
 <item>
 <title>[66] Joan (TV)</title>
@@ -3722,7 +3717,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/joan/</guid>
 <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 66 · TV · Released Oct 2, 2024</description>
+<description>12 reviews · 67% positive</description>
 </item>
 <item>
 <title>[81] Social Studies (TV)</title>
@@ -3730,7 +3725,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/social-studies/</guid>
 <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 81 · TV · Released Sep 27, 2024</description>
+<description>6 reviews · 100% positive</description>
 </item>
 <item>
 <title>[69] Nobody Wants This (TV)</title>
@@ -3738,7 +3733,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/nobody-wants-this/</guid>
 <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 69 · TV · Released Sep 26, 2024</description>
+<description>49 reviews · 65% positive</description>
 </item>
 <item>
 <title>[66] Doctor Odyssey (TV)</title>
@@ -3746,7 +3741,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/doctor-odyssey/</guid>
 <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 66 · TV · Released Sep 26, 2024</description>
+<description>5 reviews · 60% positive</description>
 </item>
 <item>
 <title>[68] Mr. McMahon (TV)</title>
@@ -3754,7 +3749,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/mr-mcmahon/</guid>
 <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 68 · TV · Released Sep 25, 2024</description>
+<description>6 reviews · 67% positive</description>
 </item>
 <item>
 <title>[79] Penelope (TV)</title>
@@ -3762,7 +3757,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/penelope/</guid>
 <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 79 · TV · Released Sep 24, 2024</description>
+<description>9 reviews · 89% positive</description>
 </item>
 <item>
 <title>[64] Brilliant Minds (TV)</title>
@@ -3770,7 +3765,7 @@
 <guid isPermaLink="false">https://www.metacritic.com/tv/brilliant-minds/</guid>
 <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
-<description>Metascore 64 · TV · Released Sep 23, 2024</description>
+<description>12 reviews · 50% positive</description>
 </item>
 <item>
 <title>[74] Matlock (2024) (TV)</title>
