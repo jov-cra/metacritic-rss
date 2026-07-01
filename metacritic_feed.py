@@ -36,6 +36,7 @@ import os
 import re
 import sys
 import tempfile
+import time
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
@@ -161,6 +162,93 @@ def parse_browse(html_text: str, media: str) -> list[dict]:
 
 
 # --------------------------------------------------------------------------- #
+# Detail-page enrichment: critic/user counts + a short top-critic quote
+# --------------------------------------------------------------------------- #
+REVIEW_SPLIT_RE = re.compile(
+    r"(\d+)%\s*Positive\s+\d+\s+Reviews\s+(\d+)%\s*Mixed\s+\d+\s+Reviews\s+(\d+)%\s*Negative\s+\d+\s+Reviews"
+)
+
+
+def fetch_detail(url: str) -> str:
+    return fetch(url)
+
+
+def parse_detail(html_text: str) -> dict:
+    """Best-effort extraction from a title's detail page. Every field is
+    optional; the feed description degrades gracefully if a field is missing.
+    Returns {} when nothing useful was found."""
+    soup = BeautifulSoup(html_text, "html.parser")
+    text = re.sub(r"\s+", " ", soup.get_text(" ", strip=True))
+    d: dict = {}
+
+    m = re.search(r"Based on (\d+)\s+Critic Reviews", text)
+    if m:
+        d["critic_count"] = int(m.group(1))
+    m = REVIEW_SPLIT_RE.search(text)
+    if m:
+        d["pos"], d["mixed"], d["neg"] = int(m.group(1)), int(m.group(2)), int(m.group(3))
+
+    # user ratings count + score (score is often "tbd" until enough ratings)
+    m = re.search(r"Based on (\d+)\s+Ratings", text)
+    if m:
+        d["user_count"] = int(m.group(1))
+        mu = re.search(r"User score\D{0,40}?(\d(?:\.\d)?)", text)
+        if mu:
+            d["user_score"] = float(mu.group(1))
+    else:
+        m = re.search(r"Available after (\d+)\s+ratings", text)
+        if m:
+            d["user_count"] = int(m.group(1))
+
+    # top critic quote: publications render as /publication/ links whose text is
+    # "<score> <Publication>"; the quote is the longest text run in that review card.
+    for a in soup.find_all("a", href=re.compile(r"^/publication/")):
+        mm = re.match(r"(\d{1,3})\s+(.+)", re.sub(r"\s+", " ", a.get_text(" ", strip=True)))
+        if not mm:
+            continue
+        card = a
+        for _ in range(6):
+            card = card.parent
+            if card is None or "FULL REVIEW" in card.get_text(" ", strip=True):
+                break
+        if card is None:
+            continue
+        candidates = [
+            s.strip() for s in card.stripped_strings
+            if len(s.strip()) > 25 and not s.strip().startswith("By ") and "FULL REVIEW" not in s
+        ]
+        quote = max(candidates, key=len, default=None)
+        if quote:
+            d["quote_score"] = int(mm.group(1))
+            d["quote_pub"] = mm.group(2).strip()
+            d["quote"] = quote
+            break
+    return d
+
+
+def enrich_missing(emitted: dict, cap: int, delay: float) -> int:
+    """Fetch detail pages for emitted items lacking `detail` (new qualifiers +
+    one-time backfill), newest first, up to `cap` per run. Once set, `detail` is
+    frozen -> feed stays deterministic (no churn) after backfill completes."""
+    todo = sorted(
+        (u for u, m in emitted.items() if "detail" not in m),
+        key=lambda u: emitted[u].get("emitted_at", ""), reverse=True,
+    )
+    done = 0
+    for url in todo:
+        if done >= cap:
+            break
+        try:
+            emitted[url]["detail"] = parse_detail(fetch_detail(url))
+        except Exception as exc:
+            print(f"[warn] detail fetch failed for {url}: {exc}", file=sys.stderr)
+            continue
+        done += 1
+        time.sleep(delay)
+    return done
+
+
+# --------------------------------------------------------------------------- #
 # State machine (the "emit once, when it first qualifies" logic)
 # --------------------------------------------------------------------------- #
 def load_state(path: str) -> dict:
@@ -251,6 +339,37 @@ def _feed_sort_key(kv: tuple[str, dict]):
     return (_parse_release(meta), url)
 
 
+def describe_item(meta: dict) -> str:
+    """Feed <description>: critic/user stats + a short top-critic quote.
+    Falls back to a basic line if the detail page couldn't be enriched."""
+    d = meta.get("detail") or {}
+    label = "Movie" if meta["media"] == "movie" else "TV"
+    if not d:
+        return f'Metascore {meta["score"]} · {label} · Released {meta.get("release_date", "")}'
+
+    parts = [f'Critics {meta["score"]}']
+    if d.get("critic_count"):
+        parts.append(f'{d["critic_count"]} reviews')
+    if d.get("pos") is not None:
+        parts.append(f'{d["pos"]}% positive')
+    if d.get("user_score") is not None:
+        u = f'Users {d["user_score"]:g}'
+        if d.get("user_count"):
+            u += f' ({d["user_count"]} ratings)'
+        parts.append(u)
+    elif d.get("user_count") is not None:
+        parts.append(f'Users tbd ({d["user_count"]} ratings)')
+
+    line = " · ".join(parts)
+    if d.get("quote"):
+        q = d["quote"]
+        if len(q) > 110:
+            q = q[:109].rsplit(" ", 1)[0].rstrip(",;:—- ") + "…"
+        pub = d.get("quote_pub", "")
+        line += f' · "{q}"' + (f" — {pub}" if pub else "")
+    return line
+
+
 def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None) -> str:
     """items: list of (url, meta) already sorted for display.
     last_build: ISO timestamp for <lastBuildDate>. Deriving it from state (newest
@@ -277,7 +396,7 @@ def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None
         label = "Movie" if meta["media"] == "movie" else "TV"
         title = f'[{meta["score"]}] {meta["title"]} ({label})'
         pub = format_datetime(_parse_release(meta))  # pubDate = actual release date
-        desc = f'Metascore {meta["score"]}  •  {label}  •  Released {meta.get("release_date", "")}'
+        desc = describe_item(meta)
         out += [
             "<item>",
             f"<title>{escape(title)}</title>",
@@ -337,6 +456,12 @@ def run(args) -> int:
             "layout change. Feed/state left untouched."
         )
 
+    # Enrich new/unenriched items with critic/user stats + a top-critic quote.
+    if args.detail and not args.dry_run and args.detail_max > 0:
+        got = enrich_missing(emitted, args.detail_max, args.detail_delay)
+        if got:
+            print(f"[detail] enriched {got} item(s) with critic/user info")
+
     items = sorted(emitted.items(), key=_feed_sort_key, reverse=True)[: args.feed_max]
     last_build = max((m.get("emitted_at", "") for m in emitted.values()), default=now.isoformat())
 
@@ -375,6 +500,15 @@ def build_argparser() -> argparse.ArgumentParser:
     p.add_argument("--feed-link", default=_env("MC_FEED_LINK", BASE + BROWSE["movie"]))
     p.add_argument("--feed-self", default=_env("MC_FEED_SELF", ""),
                    help="public URL where feed.xml is hosted (adds an atom:self link)")
+    p.add_argument("--detail", dest="detail", action="store_true",
+                   default=_env("MC_DETAIL", "1") not in ("0", "false", "False", ""),
+                   help="fetch each new title's detail page for critic/user stats + a quote (default on)")
+    p.add_argument("--no-detail", dest="detail", action="store_false",
+                   help="skip detail pages; use the basic description")
+    p.add_argument("--detail-max", type=int, default=int(_env("MC_DETAIL_MAX", "60")),
+                   help="max detail pages to fetch per run (default 60; bounds the one-time backfill)")
+    p.add_argument("--detail-delay", type=float, default=float(_env("MC_DETAIL_DELAY", "0.6")),
+                   help="seconds to wait between detail fetches (politeness, default 0.6)")
     p.add_argument("--dry-run", action="store_true", help="don't write files, just report")
     p.add_argument("--debug", action="store_true", help="print every parsed card")
     return p

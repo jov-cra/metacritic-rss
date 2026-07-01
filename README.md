@@ -127,8 +127,14 @@ Alles per CLI-Flag **oder** Umgebungsvariable (Flag schlägt ENV):
 | `MC_STATE` | `--state` | `state.json` | Zustandsdatei |
 | `MC_FEED_TITLE` | `--feed-title` | auto | Feed-Titel |
 | `MC_FEED_SELF` | `--feed-self` | – | Öffentliche Feed-URL (atom:self-Link) |
+| `MC_DETAIL` | `--detail`/`--no-detail` | `1` | Detailseite pro neuem Titel holen (Critic/User-Stats + Top-Zitat) |
+| `MC_DETAIL_MAX` | `--detail-max` | `60` | Max. Detail-Abrufe pro Lauf (begrenzt das einmalige Nachladen) |
+| `MC_DETAIL_DELAY` | `--detail-delay` | `0.6` | Sekunden Pause zwischen Detail-Abrufen (Höflichkeit) |
 | – | `--dry-run` | – | Nichts schreiben, nur berichten |
 | – | `--debug` | – | Jede geparste Karte ausgeben |
+
+Die `<description>` enthält damit einen kompakten Review-Abriss statt nur des Scores, z. B.:
+`Critics 76 · 4 reviews · 100% positive · Users tbd (4 ratings) · „A thoroughly original and quite wonderful take…" — Los Angeles Times`. Pro Titel wird die Detailseite **einmal** geholt und im State eingefroren (kein Extra-Traffic bei Folgeläufen); scheitert das Parsen, fällt der Eintrag sauber auf die Score-Zeile zurück.
 
 **Schwellwert später ändern:** einfach `MC_THRESHOLD` anpassen. Absenken lässt beim nächsten Lauf neue Titel rein; Anheben blendet künftige unter dem Wert aus (bereits im Feed stehende bleiben, bis sie aus den letzten `MC_FEED_MAX` herausrutschen).
 

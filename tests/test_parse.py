@@ -223,6 +223,48 @@ def test_corrupt_and_nondict_state_abort():
     assert mf.load_state(os.path.join(d, "does-not-exist.json")) == {"emitted": {}}
 
 
+# --------------------------------------------------------------------------- #
+# 5. Detail-page enrichment (critic/user stats + top-critic quote)
+# --------------------------------------------------------------------------- #
+DETAIL = (Path(__file__).parent / "fixtures" / "sample_detail.html").read_text(encoding="utf-8")
+
+
+def test_parse_detail_extracts_stats_and_quote():
+    d = mf.parse_detail(DETAIL)
+    assert d["critic_count"] == 4
+    assert (d["pos"], d["mixed"], d["neg"]) == (100, 0, 0)
+    assert d["user_count"] == 4          # "Available after 4 ratings"
+    assert "user_score" not in d          # user score is tbd
+    assert d["quote_score"] == 90         # highest/first critic review
+    assert d["quote_pub"] == "Los Angeles Times"
+    assert d["quote"].startswith("A thoroughly original and quite wonderful")
+
+
+def test_describe_item_variant_b():
+    meta = {"score": 76, "media": "tv", "release_date": "Jun 30, 2026",
+            "detail": mf.parse_detail(DETAIL)}
+    desc = mf.describe_item(meta)
+    assert desc.startswith("Critics 76")
+    assert "4 reviews" in desc
+    assert "100% positive" in desc
+    assert "Users tbd (4 ratings)" in desc
+    assert "Los Angeles Times" in desc
+    assert "A thoroughly original" in desc
+
+
+def test_describe_item_falls_back_without_detail():
+    meta = {"score": 76, "media": "tv", "release_date": "Jun 30, 2026"}
+    assert mf.describe_item(meta) == "Metascore 76 · TV · Released Jun 30, 2026"
+
+
+def test_long_quote_is_truncated():
+    long_q = "word " * 60
+    meta = {"score": 80, "media": "movie",
+            "detail": {"critic_count": 10, "pos": 90, "quote": long_q.strip(), "quote_pub": "X"}}
+    desc = mf.describe_item(meta)
+    assert "…" in desc and len(desc) < 220
+
+
 if __name__ == "__main__":
     import traceback
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_") and callable(v)]
