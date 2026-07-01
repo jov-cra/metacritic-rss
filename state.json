@@ -1,0 +1,25 @@
+{
+  "emitted": {
+    "https://www.metacritic.com/movie/camp-2026/": {
+      "title": "Camp",
+      "score": 85,
+      "media": "movie",
+      "release_date": "Jun 26, 2026",
+      "emitted_at": "2026-07-01T07:32:20.808097+00:00"
+    },
+    "https://www.metacritic.com/movie/the-furious/": {
+      "title": "The Furious",
+      "score": 85,
+      "media": "movie",
+      "release_date": "Jun 12, 2026",
+      "emitted_at": "2026-07-01T07:32:20.808097+00:00"
+    },
+    "https://www.metacritic.com/tv/this-is-a-gardening-show/": {
+      "title": "This Is a Gardening Show",
+      "score": 88,
+      "media": "tv",
+      "release_date": "Apr 22, 2026",
+      "emitted_at": "2026-07-01T07:32:20.808097+00:00"
+    }
+  }
+}
