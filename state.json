@@ -5860,203 +5860,349 @@
       "score": 74,
       "media": "tv",
       "release_date": "Sep 22, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 21,
+        "pos": 90,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/la-maison/": {
       "title": "La Maison",
       "score": 80,
       "media": "tv",
       "release_date": "Sep 20, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/twilight-of-the-gods/": {
       "title": "Twilight of the Gods",
       "score": 63,
       "media": "tv",
       "release_date": "Sep 19, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 9,
+        "pos": 56,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-penguin/": {
       "title": "The Penguin",
       "score": 72,
       "media": "tv",
       "release_date": "Sep 19, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 41,
+        "pos": 71,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/a-very-royal-scandal/": {
       "title": "A Very Royal Scandal",
       "score": 66,
       "media": "tv",
       "release_date": "Sep 19, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 17,
+        "pos": 59,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/agatha-all-along/": {
       "title": "Agatha All Along",
       "score": 66,
       "media": "tv",
       "release_date": "Sep 18, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 32,
+        "pos": 56,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/american-sports-story-aaron-hernandez/": {
       "title": "American Sports Story: Aaron Hernandez",
       "score": 72,
       "media": "tv",
       "release_date": "Sep 17, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 15,
+        "pos": 80,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/high-potential/": {
       "title": "High Potential",
       "score": 73,
       "media": "tv",
       "release_date": "Sep 17, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 22,
+        "pos": 86,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/moonflower-murders/": {
       "title": "Moonflower Murders",
       "score": 73,
       "media": "tv",
       "release_date": "Sep 15, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/in-vogue-the-90s/": {
       "title": "In Vogue: The 90s",
       "score": 67,
       "media": "tv",
       "release_date": "Sep 13, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/how-to-die-alone/": {
       "title": "How to Die Alone",
       "score": 76,
       "media": "tv",
       "release_date": "Sep 13, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 14,
+        "pos": 93,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/dan-da-dan/": {
       "title": "Dan Da Dan",
       "score": 83,
       "media": "tv",
       "release_date": "Sep 13, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/wise-guy-david-chase-and-the-sopranos/": {
       "title": "Wise Guy: David Chase and The Sopranos",
       "score": 84,
       "media": "tv",
       "release_date": "Sep 7, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 12,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/fight-night-the-million-dollar-heist/": {
       "title": "Fight Night: The Million Dollar Heist",
       "score": 72,
       "media": "tv",
       "release_date": "Sep 5, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 15,
+        "pos": 80,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-perfect-couple/": {
       "title": "The Perfect Couple",
       "score": 67,
       "media": "tv",
       "release_date": "Sep 5, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 26,
+        "pos": 50,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/english-teacher/": {
       "title": "English Teacher",
       "score": 82,
       "media": "tv",
       "release_date": "Sep 2, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 32,
+        "pos": 91,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/terminator-zero/": {
       "title": "Terminator Zero",
       "score": 69,
       "media": "tv",
       "release_date": "Aug 29, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 11,
+        "pos": 73,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/kaos/": {
       "title": "KAOS",
       "score": 70,
       "media": "tv",
       "release_date": "Aug 29, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 22,
+        "pos": 59,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/adam-sandler-love-you/": {
       "title": "Adam Sandler: Love You",
       "score": 80,
       "media": "tv",
       "release_date": "Aug 27, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 9,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/chimp-crazy/": {
       "title": "Chimp Crazy",
       "score": 63,
       "media": "tv",
       "release_date": "Aug 18, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 13,
+        "pos": 46,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/bad-monkey/": {
       "title": "Bad Monkey",
       "score": 74,
       "media": "tv",
       "release_date": "Aug 14, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 32,
+        "pos": 72,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/american-murder-laci-peterson/": {
       "title": "American Murder: Laci Peterson",
       "score": 74,
       "media": "tv",
       "release_date": "Aug 14, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/hollywood-black/": {
       "title": "Hollywood Black",
       "score": 76,
       "media": "tv",
       "release_date": "Aug 11, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 83,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/tales-of-the-teenage-mutant-ninja-turtles/": {
       "title": "Tales Of The Teenage Mutant Ninja Turtles",
       "score": 80,
       "media": "tv",
       "release_date": "Aug 9, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/cowboy-cartel/": {
       "title": "Cowboy Cartel",
       "score": 67,
       "media": "tv",
       "release_date": "Aug 2, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 67,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/a-good-girls-guide-to-murder/": {
       "title": "A Good Girl's Guide to Murder",
       "score": 70,
       "media": "tv",
       "release_date": "Aug 1, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 25,
+        "pos": 60,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-change/": {
       "title": "The Change",
       "score": 82,
       "media": "tv",
       "release_date": "Aug 1, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 10,
+        "pos": 90,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/batman-caped-crusader/": {
       "title": "Batman: Caped Crusader",
       "score": 74,
       "media": "tv",
       "release_date": "Aug 1, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 22,
+        "pos": 82,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/women-in-blue/": {
       "title": "Women in Blue",
       "score": 76,
       "media": "tv",
       "release_date": "Jul 31, 2024",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 83,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/backrooms/": {
       "title": "Backrooms",
