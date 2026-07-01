@@ -199,30 +199,6 @@ def parse_detail(html_text: str) -> dict:
     elif re.search(r"User score(?:\s+Available after \d+ ratings)?\s+tbd", text):
         d["user_tbd"] = True
 
-    # top critic quote: publications render as /publication/ links whose text is
-    # "<score> <Publication>"; the quote is the longest text run in that review card.
-    for a in soup.find_all("a", href=re.compile(r"^/publication/")):
-        mm = re.match(r"(\d{1,3})\s+(.+)", re.sub(r"\s+", " ", a.get_text(" ", strip=True)))
-        if not mm:
-            continue
-        card = a
-        for _ in range(6):
-            card = card.parent
-            if card is None or "FULL REVIEW" in card.get_text(" ", strip=True):
-                break
-        if card is None:
-            continue
-        candidates = [
-            s.strip() for s in card.stripped_strings
-            if len(s.strip()) > 25 and not s.strip().startswith("By ") and "FULL REVIEW" not in s
-        ]
-        quote = max(candidates, key=len, default=None)
-        if quote:
-            d["quote_score"] = int(mm.group(1))
-            d["quote_pub"] = mm.group(2).strip()
-            d["quote"] = quote
-            break
-
     d["v"] = DETAIL_VERSION
     return d
 
@@ -346,7 +322,7 @@ def describe_item(meta: dict) -> str:
     Falls back to a basic line if the detail page couldn't be enriched."""
     d = meta.get("detail") or {}
     label = "Movie" if meta["media"] == "movie" else "TV"
-    has_info = any(k in d for k in ("critic_count", "pos", "quote", "user_score", "user_tbd"))
+    has_info = any(k in d for k in ("critic_count", "pos", "user_score", "user_tbd"))
     if not has_info:
         return f'Metascore {meta["score"]} · {label} · Released {meta.get("release_date", "")}'
 
@@ -363,14 +339,7 @@ def describe_item(meta: dict) -> str:
     elif d.get("user_tbd"):
         parts.append("Users tbd")
 
-    line = " · ".join(parts)
-    if d.get("quote"):
-        q = d["quote"]
-        if len(q) > 110:
-            q = q[:109].rsplit(" ", 1)[0].rstrip(",;:—- ") + "…"
-        pub = d.get("quote_pub", "")
-        line += f' · "{q}"' + (f" — {pub}" if pub else "")
-    return line
+    return " · ".join(parts)
 
 
 def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None) -> str:
@@ -384,7 +353,8 @@ def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None
         lb = datetime.now(timezone.utc)
     out = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" '
+        'xmlns:webfeeds="http://webfeeds.org/rss/1.0">',
         "<channel>",
         f"<title>{escape(args.feed_title)}</title>",
         f"<link>{escape(args.feed_link)}</link>",
@@ -392,6 +362,18 @@ def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None
         "<language>en</language>",
         f"<lastBuildDate>{format_datetime(lb)}</lastBuildDate>",
     ]
+    if getattr(args, "feed_icon", ""):
+        icon = escape(args.feed_icon)
+        # Multiple conventions so different readers pick it up: RSS <image>,
+        # the webfeeds extension, and Atom icon/logo.
+        out += [
+            f"<image><url>{icon}</url><title>{escape(args.feed_title)}</title>"
+            f"<link>{escape(args.feed_link)}</link></image>",
+            f"<webfeeds:icon>{icon}</webfeeds:icon>",
+            f"<webfeeds:logo>{icon}</webfeeds:logo>",
+            f"<atom:icon>{icon}</atom:icon>",
+            f"<atom:logo>{icon}</atom:logo>",
+        ]
     if args.feed_self:
         out.append(f'<atom:link href="{escape(args.feed_self)}" rel="self" type="application/rss+xml"/>')
 
@@ -503,6 +485,9 @@ def build_argparser() -> argparse.ArgumentParser:
     p.add_argument("--feed-link", default=_env("MC_FEED_LINK", BASE + BROWSE["movie"]))
     p.add_argument("--feed-self", default=_env("MC_FEED_SELF", ""),
                    help="public URL where feed.xml is hosted (adds an atom:self link)")
+    p.add_argument("--feed-icon",
+                   default=_env("MC_ICON", "https://www.google.com/s2/favicons?domain=www.metacritic.com&sz=128"),
+                   help="feed icon URL (default: Metacritic favicon); set empty to omit")
     p.add_argument("--detail", dest="detail", action="store_true",
                    default=_env("MC_DETAIL", "1") not in ("0", "false", "False", ""),
                    help="fetch each new title's detail page for critic/user stats + a quote (default on)")

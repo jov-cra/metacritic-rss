@@ -121,8 +121,9 @@ Alles per CLI-Flag **oder** Umgebungsvariable (Flag schlägt ENV):
 |-----|------|---------|-----------|
 | `MC_THRESHOLD` | `--threshold` | `61` | Minimaler Metascore (61 = „generally favorable") |
 | `MC_MEDIA` | `--media` | `movie,tv` | `movie`, `tv` oder beides |
-| `MC_PAGES` | `--pages` | `3` | Browse-Seiten pro Medium (~24 Titel/Seite) |
-| `MC_FEED_MAX` | `--feed-max` | `100` | Max. Einträge im Feed |
+| `MC_PAGES` | `--pages` | `30` | Browse-Seiten pro Medium (~24 Titel/Seite) |
+| `MC_FEED_MAX` | `--feed-max` | `500` | Max. Einträge im Feed |
+| `MC_ICON` | `--feed-icon` | Metacritic-Favicon | Feed-Icon-URL (leer = keins) |
 | `MC_OUT` | `--out` | `feed.xml` | Ausgabedatei |
 | `MC_STATE` | `--state` | `state.json` | Zustandsdatei |
 | `MC_FEED_TITLE` | `--feed-title` | auto | Feed-Titel |
@@ -134,11 +135,13 @@ Alles per CLI-Flag **oder** Umgebungsvariable (Flag schlägt ENV):
 | – | `--debug` | – | Jede geparste Karte ausgeben |
 
 Die `<description>` enthält damit einen kompakten Review-Abriss statt nur des Scores, z. B.:
-`Critics 76 · 4 reviews · 100% positive · Users tbd (4 ratings) · „A thoroughly original and quite wonderful take…" — Los Angeles Times`. Pro Titel wird die Detailseite **einmal** geholt und im State eingefroren (kein Extra-Traffic bei Folgeläufen); scheitert das Parsen, fällt der Eintrag sauber auf die Score-Zeile zurück.
+`Critics 76 · 4 reviews · 100% positive · Users tbd`. Pro Titel wird die Detailseite **einmal** geholt und im State eingefroren (kein Extra-Traffic bei Folgeläufen); scheitert das Parsen, fällt der Eintrag sauber auf die Score-Zeile zurück. `Users tbd` = noch nicht genug User-Ratings für einen Score; sobald einer da ist, steht dort z. B. `Users 7.2 (540 ratings)`.
+
+Das Feed-Icon lässt sich über `MC_ICON` setzen (Default: Metacritic-Favicon). Ob dein Reader es anzeigt, hängt vom Reader ab — manche nutzen stattdessen das Favicon der Host-Domain.
 
 **Schwellwert später ändern:** einfach `MC_THRESHOLD` anpassen. Absenken lässt beim nächsten Lauf neue Titel rein; Anheben blendet künftige unter dem Wert aus (bereits im Feed stehende bleiben, bis sie aus den letzten `MC_FEED_MAX` herausrutschen).
 
-**`MC_PAGES` bewusst wählen:** Titel sind nach Release-Datum sortiert. Ein Film, der Wochen nach Release erst seinen Score bekommt, steht entsprechend tiefer in der Liste. Mehr Seiten = mehr solcher „Nachzügler" werden erwischt, aber auch mehr Requests. 3 Seiten sind ein guter Startwert bei 8-Stunden-Takt.
+**`MC_PAGES` bewusst wählen:** Titel sind nach Release-Datum sortiert; `N` Seiten decken die neuesten ~`N`×24 Titel je Medium ab. Höher = es reicht weiter zurück und erwischt auch „Nachzügler" (Titel, die Wochen nach Release erst einen Score bekommen). `30` deckt grob mehrere Monate ab. **Nicht sinnvoll: das Maximum** (Filme haben ~1200+ Seiten): das wären Tausende Requests pro Lauf plus je ein Detail-Abruf pro Treffer — Metacritic würde dich blocken, und der Feed zeigt ohnehin nur die neuesten `MC_FEED_MAX` Einträge (nach Datum), sehr alte Katalogtitel tauchen also gar nicht auf. Der State wächst zudem über die Zeit von allein, weil neue Treffer dauerhaft gemerkt werden.
 
 ---
 

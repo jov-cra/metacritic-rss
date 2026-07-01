@@ -41,8 +41,8 @@ jobs:
           # ---- your configuration lives here ----
           MC_THRESHOLD: "61"          # minimum Metascore (61 = Metacritic "generally favorable")
           MC_MEDIA: "movie,tv"        # movie, tv, or both
-          MC_PAGES: "3"               # browse pages to scan per media (~24 items/page)
-          MC_FEED_MAX: "100"          # items kept in the feed
+          MC_PAGES: "30"              # browse pages per media (~24 items/page) — wide net for the backfill
+          MC_FEED_MAX: "500"          # items kept in the feed
           MC_FEED_SELF: "https://jov-cra.github.io/metacritic-rss/feed.xml"
           MC_FEED_LINK: "https://github.com/jov-cra/metacritic-rss"
         run: python metacritic_feed.py

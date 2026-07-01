@@ -229,41 +229,26 @@ def test_corrupt_and_nondict_state_abort():
 DETAIL = (Path(__file__).parent / "fixtures" / "sample_detail.html").read_text(encoding="utf-8")
 
 
-def test_parse_detail_extracts_stats_and_quote():
+def test_parse_detail_extracts_stats():
     d = mf.parse_detail(DETAIL)
     assert d["critic_count"] == 4
     assert d["pos"] == 100                 # critic positive %, lenient match
     assert d.get("user_tbd") is True       # user score is tbd
     assert "user_count" not in d           # "Available after 4 ratings" is a threshold, not a count
-    assert d["quote_score"] == 90          # highest/first critic review
-    assert d["quote_pub"] == "Los Angeles Times"
-    assert d["quote"].startswith("A thoroughly original and quite wonderful")
 
 
-def test_describe_item_variant_b():
+def test_describe_item_stats_no_quote():
     meta = {"score": 76, "media": "tv", "release_date": "Jun 30, 2026",
             "detail": mf.parse_detail(DETAIL)}
     desc = mf.describe_item(meta)
-    assert desc.startswith("Critics 76")
-    assert "4 reviews" in desc
-    assert "100% positive" in desc
-    assert "Users tbd" in desc
-    assert "(4 ratings)" not in desc       # must not render the threshold as a count
-    assert "Los Angeles Times" in desc
-    assert "A thoroughly original" in desc
+    assert desc == "Critics 76 · 4 reviews · 100% positive · Users tbd"
+    assert '"' not in desc                  # no quote anymore
+    assert "(4 ratings)" not in desc        # must not render the threshold as a count
 
 
 def test_describe_item_falls_back_without_detail():
     meta = {"score": 76, "media": "tv", "release_date": "Jun 30, 2026"}
     assert mf.describe_item(meta) == "Metascore 76 · TV · Released Jun 30, 2026"
-
-
-def test_long_quote_is_truncated():
-    long_q = "word " * 60
-    meta = {"score": 80, "media": "movie",
-            "detail": {"critic_count": 10, "pos": 90, "quote": long_q.strip(), "quote_pub": "X"}}
-    desc = mf.describe_item(meta)
-    assert "…" in desc and len(desc) < 220
 
 
 if __name__ == "__main__":
