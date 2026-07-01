@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head><title>All New Movies by Release Date - Metacritic</title></head>
+<body>
+  <!-- Header nav: links to /movie/ but WITHOUT a release date -> must be excluded -->
+  <nav>
+    <ul>
+      <li><a href="/movie/toy-story-5/">Toy Story 5</a></li>
+      <li><a href="/movie/obsession-2025/">Obsession</a></li>
+      <li><a href="/news/upcoming-movie-release-dates-schedule/">Movie Release Calendar</a></li>
+    </ul>
+  </nav>
+
+  <div class="products">
+    <!-- Scored, below threshold (81) -->
+    <a href="/movie/leviticus/">
+      <img alt="Leviticus" src="x.jpg"/>
+      <span class="badge">must-see</span>
+      <h3 class="title">Leviticus</h3>
+      <span class="date">Jun 19, 2026 • Rated R</span>
+      <p class="desc">Two star-crossed teenage boys must escape a violent entity.</p>
+      <div class="c-siteReviewScore"><span>81</span><span>Metascore</span></div>
+    </a>
+
+    <!-- Unscored (no Metascore block at all) -> title duplicated in text -->
+    <a href="/movie/blind-love/">
+      <img alt="Blind Love" src="x.jpg"/>
+      <h3 class="title">Blind Love</h3>
+      <span class="date">Jun 19, 2026</span>
+      <p class="desc">An unexpected kiss unburies memories for Shu-yi.</p>
+    </a>
+
+    <!-- Scored, at/above threshold (88) -->
+    <a href="/movie/rose-of-nevada/">
+      <img alt="Rose of Nevada" src="x.jpg"/>
+      <span class="badge">must-see</span>
+      <h3 class="title">Rose of Nevada</h3>
+      <span class="date">Jun 19, 2026</span>
+      <p class="desc">30 years ago, the Rose of Nevada disappeared at sea.</p>
+      <div class="c-siteReviewScore"><span>88</span><span>Metascore</span></div>
+    </a>
+
+    <!-- Scored, well above threshold (93), with query string on href -->
+    <a href="/movie/a-great-film/?something=1">
+      <h3 class="title">A Great Film</h3>
+      <span class="date">Jun 12, 2026 • Rated PG-13</span>
+      <p class="desc">A critically adored masterpiece.</p>
+      <div class="c-siteReviewScore"><span>93</span><span>Metascore</span></div>
+    </a>
+  </div>
+</body>
+</html>

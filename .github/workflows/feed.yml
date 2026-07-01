@@ -1,0 +1,60 @@
+name: Build Metacritic score feed
+
+# How often the feed refreshes. RSS is pull-based, so an item can only appear
+# when this job runs — pick the cadence you want:
+#   "*/30 * * * *"  every 30 min  (recommended: feels near-live, stays polite)
+#   "*/15 * * * *"  every 15 min  (fresher, more requests)
+#   "0 */8 * * *"   every 8 hours (low traffic, items arrive clustered)
+# Note: GitHub's scheduler is best-effort and can lag 5-15 min under load, and
+# your reader also polls on ITS own interval — so true "instant" isn't possible,
+# but a short cadence de-clusters items (each gets its own emit timestamp).
+# It does NOT run on push, so the commit it makes below cannot cause a loop.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metacritic-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build feed
+        env:
+          # ---- your configuration lives here ----
+          MC_THRESHOLD: "85"          # minimum Metascore
+          MC_MEDIA: "movie,tv"        # movie, tv, or both
+          MC_PAGES: "3"               # browse pages to scan per media (~24 items/page)
+          MC_FEED_MAX: "100"          # items kept in the feed
+          # Optional: set this to your public feed URL once Pages is on (see README).
+          # MC_FEED_SELF: "https://YOUR_USER.github.io/metacritic-score-feed/feed.xml"
+        run: python metacritic_feed.py
+
+      - name: Commit updated feed + state
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed.xml state.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update Metacritic feed [skip ci]"
+            git push
+          fi
