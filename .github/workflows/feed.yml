@@ -44,7 +44,7 @@ jobs:
           MC_PAGES: "8"               # browse pages per media (~24/page) — big margin over ~1 new title/day
           MC_FEED_MAX: "500"          # items kept in the feed (archive persists in state either way)
           MC_FEED_SELF: "https://jov-cra.github.io/metacritic-rss/feed.xml"
-          MC_FEED_LINK: "https://jov-cra.github.io/metacritic-rss/"   # landing page declares the sharp icon.png
+          MC_FEED_LINK: "https://www.metacritic.com/"   # readers derive the feed icon from this domain's favicon
           MC_ICON: "https://jov-cra.github.io/metacritic-rss/icon.png"   # sharp icon hosted in this repo
         run: python metacritic_feed.py
 
