@@ -41,10 +41,10 @@ jobs:
           # ---- your configuration lives here ----
           MC_THRESHOLD: "61"          # minimum Metascore (61 = Metacritic "generally favorable")
           MC_MEDIA: "movie,tv"        # movie, tv, or both
-          MC_PAGES: "30"              # browse pages per media (~24 items/page) — wide net for the backfill
-          MC_FEED_MAX: "500"          # items kept in the feed
+          MC_PAGES: "8"               # browse pages per media (~24/page) — big margin over ~1 new title/day
+          MC_FEED_MAX: "500"          # items kept in the feed (archive persists in state either way)
           MC_FEED_SELF: "https://jov-cra.github.io/metacritic-rss/feed.xml"
-          MC_FEED_LINK: "https://github.com/jov-cra/metacritic-rss"
+          MC_FEED_LINK: "https://www.metacritic.com/"   # channel <link>; many readers take the feed icon from here
         run: python metacritic_feed.py
 
       - name: Commit updated feed + state
