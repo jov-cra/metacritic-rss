@@ -241,7 +241,8 @@ def test_describe_item_no_quote_and_no_tbd_user():
     meta = {"score": 76, "media": "tv", "release_date": "Jun 30, 2026",
             "detail": mf.parse_detail(DETAIL)}
     desc = mf.describe_item(meta)
-    assert desc == "Critics 76 · 4 reviews · 100% positive"
+    assert desc == "4 reviews · 100% positive"   # no user score -> critic score omitted (it's in the title)
+    assert "Critics" not in desc
     assert '"' not in desc                  # no quote
     assert "Users" not in desc              # tbd user score is omitted entirely
 

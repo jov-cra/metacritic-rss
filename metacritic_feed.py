@@ -326,13 +326,15 @@ def describe_item(meta: dict) -> str:
     if not has_info:
         return f'Metascore {meta["score"]} · {label} · Released {meta.get("release_date", "")}'
 
-    parts = [f'Critics {meta["score"]}']
+    parts = []
+    # The critic score is already in the item title, so only repeat it here when
+    # there is a user score to contrast it against (critics vs. users).
+    if d.get("user_score") is not None:
+        parts.append(f'Critics {meta["score"]}')
     if d.get("critic_count"):
         parts.append(f'{d["critic_count"]} reviews')
     if d.get("pos") is not None:
         parts.append(f'{d["pos"]}% positive')
-    # User score is shown ONLY when it actually exists (usually still "tbd" at the
-    # moment a title first qualifies, so most items just omit the user part).
     if d.get("user_score") is not None:
         u = f'Users {d["user_score"]:g}'
         if d.get("user_count"):

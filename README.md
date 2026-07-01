@@ -135,7 +135,9 @@ Alles per CLI-Flag **oder** Umgebungsvariable (Flag schlägt ENV):
 | – | `--debug` | – | Jede geparste Karte ausgeben |
 
 Die `<description>` enthält damit einen kompakten Review-Abriss statt nur des Scores, z. B.:
-`Critics 76 · 4 reviews · 100% positive`. Pro Titel wird die Detailseite **einmal** geholt und im State eingefroren (kein Extra-Traffic bei Folgeläufen); scheitert das Parsen, fällt der Eintrag sauber auf die Score-Zeile zurück. Der User-Score erscheint **nur, wenn es schon einen gibt** (`… · Users 6.8 (540 ratings)`) — beim Qualifizieren ist er meist noch „tbd", dann steht er gar nicht da (dafür auf die Detailseite gehen).
+`4 reviews · 100% positive` (der Critic-Score steht schon im Titel). Pro Titel wird die Detailseite **einmal** geholt und im State eingefroren (kein Extra-Traffic bei Folgeläufen); scheitert das Parsen, fällt der Eintrag sauber auf die Score-Zeile zurück. Der Critic-Score wird in der Description **nur wiederholt, wenn es auch einen User-Score gibt** — dann als Vergleich: `Critics 82 · 31 reviews · 74% positive · Users 6.8 (540 ratings)`. Beim Qualifizieren ist der User-Score meist noch „tbd" und wird dann ganz weggelassen (dafür auf die Detailseite gehen).
+
+Das Feed-Icon ist als `icon.png` im Repo hinterlegt und wird via Pages ausgeliefert (`MC_ICON`). Grund: Metacritics eigenes Favicon ist niedrig aufgelöst, jeder Favicon-Dienst liefert es nur grisselig; ein selbst gehostetes PNG ist scharf. Ersetze `icon.png` durch dein eigenes, wenn du ein anderes Motiv willst.
 
 Das Feed-Icon lässt sich über `MC_ICON` setzen (Default: Metacritic-Favicon). Ob dein Reader es anzeigt, hängt vom Reader ab — manche nutzen stattdessen das Favicon der Host-Domain.
 
