@@ -39,12 +39,12 @@ jobs:
       - name: Build feed
         env:
           # ---- your configuration lives here ----
-          MC_THRESHOLD: "85"          # minimum Metascore
+          MC_THRESHOLD: "61"          # minimum Metascore (61 = Metacritic "generally favorable")
           MC_MEDIA: "movie,tv"        # movie, tv, or both
           MC_PAGES: "3"               # browse pages to scan per media (~24 items/page)
           MC_FEED_MAX: "100"          # items kept in the feed
-          # Optional: set this to your public feed URL once Pages is on (see README).
-          # MC_FEED_SELF: "https://YOUR_USER.github.io/metacritic-score-feed/feed.xml"
+          MC_FEED_SELF: "https://jov-cra.github.io/metacritic-rss/feed.xml"
+          MC_FEED_LINK: "https://github.com/jov-cra/metacritic-rss"
         run: python metacritic_feed.py
 
       - name: Commit updated feed + state

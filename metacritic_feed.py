@@ -35,6 +35,7 @@ import json
 import os
 import re
 import sys
+import tempfile
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
@@ -57,8 +58,9 @@ BROWSE = {
     "tv": "/browse/tv/all/all/all-time/new/",
 }
 DATE_RE = re.compile(r"([A-Z][a-z]{2}\.? \d{1,2}, \d{4})")
-SCORE_RE = re.compile(r"(\d{1,3})\s*Metascore")
+SCORE_RE = re.compile(r"(?<!\d)(\d{1,3})\s*Metascore")
 HEADING_RE = re.compile(r"^h[1-6]$")
+BADGE_RE = re.compile(r"\bmust-see\b")
 UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
@@ -94,12 +96,11 @@ def _clean_title(anchor, text: str, date_start: int) -> str:
     de-duplicated text that precedes the release date."""
     heading = anchor.find(HEADING_RE)
     if heading:
-        t = re.sub(r"\s+", " ", heading.get_text(" ", strip=True)).strip()
-        t = t.replace("must-see", "").strip()
+        t = re.sub(r"\s+", " ", BADGE_RE.sub("", heading.get_text(" ", strip=True))).strip()
         if t:
             return t
 
-    pre = text[:date_start].replace("must-see", "").strip()
+    pre = re.sub(r"\s+", " ", BADGE_RE.sub("", text[:date_start])).strip()
     words = pre.split()
     # Cards often render the title twice (image alt + visible heading), e.g.
     # "Blind Love Blind Love" -> collapse the duplicated halves.
@@ -137,8 +138,8 @@ def parse_browse(html_text: str, media: str) -> list[dict]:
 
         score_match = SCORE_RE.search(text)
         score = int(score_match.group(1)) if score_match else None
-        if score is not None and score > 100:
-            score = None  # guard against a stray number matched before "Metascore"
+        if score is not None and not (0 <= score <= 100):
+            score = None  # reject out-of-range matches (a real Metascore is 0-100)
 
         record = {
             "url": url,
@@ -164,16 +165,39 @@ def parse_browse(html_text: str, media: str) -> list[dict]:
 # --------------------------------------------------------------------------- #
 def load_state(path: str) -> dict:
     p = Path(path)
-    if p.exists():
-        try:
-            return json.loads(p.read_text(encoding="utf-8"))
-        except json.JSONDecodeError:
-            print(f"[warn] {path} was invalid JSON; starting fresh", file=sys.stderr)
-    return {"emitted": {}}
+    if not p.exists():
+        return {"emitted": {}}
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        # Do NOT silently start fresh: an empty state would re-emit every
+        # currently-qualifying title and spam the reader. Abort so the last
+        # good committed state is preserved.
+        raise SystemExit(
+            f"[abort] {path} is corrupt JSON ({exc}). Refusing to start with an empty "
+            "state. Restore the file from git history or delete it deliberately to reset."
+        )
+    if not isinstance(data, dict):
+        raise SystemExit(f"[abort] {path} is not a JSON object ({type(data).__name__}); refusing to start.")
+    return data
+
+
+def _atomic_write(path: str, text: str) -> None:
+    """Write via a temp file + os.replace so a killed job can never leave a
+    half-written feed.xml or state.json behind."""
+    directory = os.path.dirname(os.path.abspath(path)) or "."
+    fd, tmp = tempfile.mkstemp(dir=directory, suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as fh:
+            fh.write(text)
+        os.replace(tmp, path)
+    finally:
+        if os.path.exists(tmp):
+            os.remove(tmp)
 
 
 def save_state(path: str, state: dict) -> None:
-    Path(path).write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
+    _atomic_write(path, json.dumps(state, indent=2, ensure_ascii=False))
 
 
 def process_cards(cards: list[dict], emitted: dict, threshold: int, now: datetime) -> int:
@@ -203,8 +227,39 @@ def process_cards(cards: list[dict], emitted: dict, threshold: int, now: datetim
 # --------------------------------------------------------------------------- #
 # RSS generation (reader-agnostic RSS 2.0)
 # --------------------------------------------------------------------------- #
-def build_rss(items: list[tuple[str, dict]], args) -> str:
-    """items: list of (url, meta) already sorted newest-emitted-first."""
+def _parse_release(meta: dict) -> datetime:
+    """Release date string -> tz-aware UTC datetime, used for <pubDate> and feed
+    order. Falls back to the emit time, then the epoch, so ordering is always a
+    total order (no crashes, no ties broken by chance)."""
+    raw = (meta.get("release_date") or "").replace(".", "").strip()
+    try:
+        return datetime.strptime(raw, "%b %d, %Y").replace(tzinfo=timezone.utc)
+    except ValueError:
+        pass
+    try:
+        dt = datetime.fromisoformat(meta.get("emitted_at", ""))
+        return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+    except (ValueError, TypeError):
+        return datetime.min.replace(tzinfo=timezone.utc)
+
+
+def _feed_sort_key(kv: tuple[str, dict]):
+    """Deterministic total order: newest release first, URL as stable tiebreak.
+    URL tiebreak guarantees byte-identical feed.xml between runs when the item
+    set is unchanged (which is what keeps the workflow from committing churn)."""
+    url, meta = kv
+    return (_parse_release(meta), url)
+
+
+def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None) -> str:
+    """items: list of (url, meta) already sorted for display.
+    last_build: ISO timestamp for <lastBuildDate>. Deriving it from state (newest
+    emit time) instead of 'now' keeps the file byte-identical between runs when
+    nothing changed -> the workflow's `git diff` skips the commit (no churn)."""
+    try:
+        lb = datetime.fromisoformat(last_build) if last_build else datetime.now(timezone.utc)
+    except (ValueError, TypeError):
+        lb = datetime.now(timezone.utc)
     out = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
@@ -213,7 +268,7 @@ def build_rss(items: list[tuple[str, dict]], args) -> str:
         f"<link>{escape(args.feed_link)}</link>",
         f"<description>{escape('Metacritic movie & TV releases scoring ' + str(args.threshold) + '+ (Metascore). Auto-generated.')}</description>",
         "<language>en</language>",
-        f"<lastBuildDate>{format_datetime(datetime.now(timezone.utc))}</lastBuildDate>",
+        f"<lastBuildDate>{format_datetime(lb)}</lastBuildDate>",
     ]
     if args.feed_self:
         out.append(f'<atom:link href="{escape(args.feed_self)}" rel="self" type="application/rss+xml"/>')
@@ -221,15 +276,8 @@ def build_rss(items: list[tuple[str, dict]], args) -> str:
     for url, meta in items:
         label = "Movie" if meta["media"] == "movie" else "TV"
         title = f'[{meta["score"]}] {meta["title"]} ({label})'
-        try:
-            pub = format_datetime(datetime.fromisoformat(meta["emitted_at"]))
-        except (ValueError, KeyError):
-            pub = format_datetime(datetime.now(timezone.utc))
-        desc = (
-            f'Metascore: {meta["score"]}  •  {label}  •  '
-            f'Released: {meta.get("release_date", "")}'
-            f'<br/><a href="{url}">View on Metacritic</a>'
-        )
+        pub = format_datetime(_parse_release(meta))  # pubDate = actual release date
+        desc = f'Metascore {meta["score"]}  •  {label}  •  Released {meta.get("release_date", "")}'
         out += [
             "<item>",
             f"<title>{escape(title)}</title>",
@@ -254,51 +302,67 @@ def run(args) -> int:
     now = datetime.now(timezone.utc)
     new_total = 0
     scanned = 0
+    pages_ok = 0
+    pages_tried = 0
 
     for media in args.media:
         for page in range(1, args.pages + 1):
             url = BASE + BROWSE[media]
             if page > 1:
                 url += f"?page={page}"
+            pages_tried += 1
             try:
                 html_text = fetch(url)
-            except Exception as exc:  # network / HTTP problems shouldn't kill the run
+            except Exception as exc:  # a single failed page shouldn't kill the whole run
                 print(f"[warn] fetch failed for {url}: {exc}", file=sys.stderr)
                 continue
+            pages_ok += 1
             cards = parse_browse(html_text, media)
             scanned += len(cards)
+            print(f"[scan] {media} page {page}: {len(cards)} cards")
             if args.debug:
                 for c in cards:
                     flag = "OK " if (c["score"] and c["score"] >= args.threshold) else "   "
-                    print(f"  [{flag}] {media:5} score={str(c['score']):>4}  {c['title']}  ::  {c['url']}")
-            new_here = process_cards(cards, emitted, args.threshold, now)
-            new_total += new_here
+                    print(f"       [{flag}] score={str(c['score']):>4}  {c['title']}  ::  {c['url']}")
+            new_total += process_cards(cards, emitted, args.threshold, now)
 
-    items = sorted(emitted.items(), key=lambda kv: kv[1]["emitted_at"], reverse=True)[: args.feed_max]
-    xml = build_rss(items, args)
+    # Fail loudly instead of silently freezing the feed:
+    #   pages_ok == 0  -> network / total outage
+    #   scanned == 0   -> pages loaded but no cards: soft-block (Cloudflare 200) or layout change
+    if pages_ok == 0:
+        raise SystemExit(f"[abort] all {pages_tried} page fetch(es) failed; feed/state left untouched.")
+    if scanned == 0:
+        raise SystemExit(
+            f"[abort] {pages_ok} page(s) loaded but yielded 0 cards — likely a soft-block or "
+            "layout change. Feed/state left untouched."
+        )
+
+    items = sorted(emitted.items(), key=_feed_sort_key, reverse=True)[: args.feed_max]
+    last_build = max((m.get("emitted_at", "") for m in emitted.values()), default=now.isoformat())
 
     if args.dry_run:
         print(
-            f"[dry-run] scanned {scanned} cards; {new_total} new qualifier(s) "
-            f">= {args.threshold}; feed would contain {len(items)} item(s). "
-            "Nothing written."
+            f"[dry-run] scanned {scanned} cards ({pages_ok}/{pages_tried} pages ok); "
+            f"{new_total} new qualifier(s) >= {args.threshold}; "
+            f"feed would contain {len(items)} item(s). Nothing written."
         )
         return new_total
 
-    Path(args.out).write_text(xml, encoding="utf-8")
+    # Deterministic output: identical bytes when nothing changed, so the workflow's
+    # `git diff --cached --quiet` skips the commit and there is no every-run churn.
+    _atomic_write(args.out, build_rss(items, args, last_build))
     save_state(args.state, state)
     print(
-        f"Scanned {scanned} cards across {args.media} x {args.pages} page(s). "
-        f"{new_total} new qualifier(s) >= {args.threshold}. "
-        f"Feed now has {len(items)} item(s) -> {args.out}"
+        f"Scanned {scanned} cards across {args.media} x {args.pages} page(s), {pages_ok}/{pages_tried} ok. "
+        f"{new_total} new qualifier(s) >= {args.threshold}. Feed now has {len(items)} item(s) -> {args.out}"
     )
     return new_total
 
 
 def build_argparser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Metacritic score-threshold RSS feed generator")
-    p.add_argument("--threshold", type=int, default=int(_env("MC_THRESHOLD", "85")),
-                   help="minimum Metascore to include (default 85)")
+    p.add_argument("--threshold", type=int, default=int(_env("MC_THRESHOLD", "61")),
+                   help="minimum Metascore to include (default 61 = Metacritic 'generally favorable')")
     p.add_argument("--media", default=_env("MC_MEDIA", "movie,tv"),
                    help="comma-separated: movie,tv (default 'movie,tv')")
     p.add_argument("--pages", type=int, default=int(_env("MC_PAGES", "3")),

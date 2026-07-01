@@ -1,6 +1,6 @@
 # Metacritic Score Feed
 
-Ein persönlicher RSS-Feed für **Metacritic-Filme und -Serien, die einen Metascore ≥ Schwellwert erreichen** (Default 85). Läuft kostenlos per GitHub Actions, erzeugt eine `feed.xml`, die du in **Readwise Reader**, **Tapestry** oder jedem anderen RSS-Reader abonnierst.
+Ein persönlicher RSS-Feed für **Metacritic-Filme und -Serien, die einen Metascore ≥ Schwellwert erreichen** (Default **61** = Metacritics „generally favorable"-Grenze, grünes Band 61–100). Läuft **kostenlos** per GitHub Actions (Actions-Minuten sind für öffentliche Repos gratis), erzeugt eine `feed.xml`, die du in **Readwise Reader**, **Tapestry** oder jedem anderen RSS-Reader abonnierst.
 
 ---
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 python metacritic_feed.py --dry-run --debug --media movie --pages 1
 
 # Echten Lauf machen (schreibt feed.xml + state.json):
-python metacritic_feed.py --threshold 85 --media movie,tv --pages 3
+python metacritic_feed.py --threshold 61 --media movie,tv --pages 3
 ```
 
 Beim ersten echten Lauf werden **alle** aktuell sichtbaren, qualifizierenden Titel in den Feed geschrieben (der „Startbestand"). Danach kommen nur noch neu qualifizierende dazu.
@@ -41,7 +41,7 @@ Beim ersten echten Lauf werden **alle** aktuell sichtbaren, qualifizierenden Tit
 
 ## Braucht es ein neues Repo?
 
-**Nein.** Der ganze Ordner `metacritic-score-feed/` ist in sich abgeschlossen und kann als Unterordner in ein **bestehendes** GitHub-Repo. Zwei Dinge müssen aber erfüllt sein, damit ein *lebendiger* Feed entsteht:
+**Nein.** Der ganze Ordner `metacritic-rss/` ist in sich abgeschlossen und kann als Unterordner in ein **bestehendes** GitHub-Repo. Zwei Dinge müssen aber erfüllt sein, damit ein *lebendiger* Feed entsteht:
 
 1. **Ein Scheduler** muss das Skript regelmäßig ausführen → dafür ist `.github/workflows/feed.yml` (GitHub Actions) zuständig. Ein reiner „Skill", den du in einer Session aufrufst, reicht **nicht** — der läuft nur on-demand, nicht automatisch im Hintergrund.
 2. **Die `feed.xml` muss öffentlich erreichbar sein**, damit Readwise/Tapestry sie abrufen können.
@@ -92,13 +92,13 @@ Dein Code hier enthält **keine Geheimnisse** (nur ein öffentlicher Scraper), e
 Repo → *Settings* → *Pages* → *Build and deployment* → *Deploy from a branch* → Branch `main`, Ordner `/ (root)` → *Save*.
 Dein Feed ist dann erreichbar unter:
 ```
-https://DEIN_USER.github.io/metacritic-score-feed/feed.xml
+https://DEIN_USER.github.io/metacritic-rss/feed.xml
 ```
 Trag diese URL zusätzlich als `MC_FEED_SELF` im Workflow ein (optional, aber sauber).
 
 **B) Ohne Pages — direkt die Raw-URL abonnieren (Null Konfiguration)**
 ```
-https://raw.githubusercontent.com/DEIN_USER/metacritic-score-feed/main/feed.xml
+https://raw.githubusercontent.com/DEIN_USER/metacritic-rss/main/feed.xml
 ```
 Sowohl Readwise Reader als auch Tapestry akzeptieren diese URL problemlos.
 
@@ -119,7 +119,7 @@ Alles per CLI-Flag **oder** Umgebungsvariable (Flag schlägt ENV):
 
 | ENV | Flag | Default | Bedeutung |
 |-----|------|---------|-----------|
-| `MC_THRESHOLD` | `--threshold` | `85` | Minimaler Metascore |
+| `MC_THRESHOLD` | `--threshold` | `61` | Minimaler Metascore (61 = „generally favorable") |
 | `MC_MEDIA` | `--media` | `movie,tv` | `movie`, `tv` oder beides |
 | `MC_PAGES` | `--pages` | `3` | Browse-Seiten pro Medium (~24 Titel/Seite) |
 | `MC_FEED_MAX` | `--feed-max` | `100` | Max. Einträge im Feed |
@@ -145,7 +145,7 @@ RSS ist **pull-basiert** — ein Titel kann nur auftauchen, wenn (a) das Skript 
 
 Realistische Frische = `max(Cron-Intervall + GitHub-Verzögerung, Reader-Abrufintervall)`. GitHub Actions ist „best effort" (kann 5–15 min nachhängen), und Reader wie Readwise/Tapestry pollen ohnehin nur alle paar Minuten bis Stunden. Deshalb ist **alle 30 min** der Sweet Spot: fühlt sich nahezu live an, bleibt fair gegenüber Metacritic. `*/5` ginge technisch, bringt aber wenig, wenn dein Reader eh nur stündlich schaut — und erzeugt viel Traffic.
 
-Praktischer Nebeneffekt: Bei Schwellwert 85 sind brandneue Releases ohnehin selten sofort ≥85 (Neustarts liegen oft drunter). Das Volumen ist also klein und „Clustering" kaum ein Thema — je höher der Schwellwert, desto vereinzelter tröpfeln die Titel rein.
+Praktischer Nebeneffekt: Der `pubDate` jedes Eintrags ist das **echte Release-Datum** (nicht der Qualifizierungs-Moment) — die Einträge verteilen sich also über ihre Kalenderdaten und tauchen nicht als „alle jetzt"-Klumpen auf. Neu hinzukommende Titel markiert dein Reader trotzdem als ungelesen (per `<guid>`), auch wenn ihr Datum etwas zurückliegt.
 
 ## Grenzen & Troubleshooting
 

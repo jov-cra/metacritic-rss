@@ -172,6 +172,57 @@ def test_rss_is_well_formed_and_complete():
     assert parsedate_tz(pub) is not None
 
 
+# --------------------------------------------------------------------------- #
+# 4. Release-date parsing, feed ordering, and state guards (QA-added)
+# --------------------------------------------------------------------------- #
+def test_parse_release_handles_period_and_fallback():
+    assert mf._parse_release({"release_date": "Jun 19, 2026"}).date().isoformat() == "2026-06-19"
+    assert mf._parse_release({"release_date": "Jul. 1, 2026"}).date().isoformat() == "2026-07-01"
+    # missing/garbage release date -> falls back to emitted_at
+    got = mf._parse_release({"release_date": "", "emitted_at": "2026-06-20T00:00:00+00:00"})
+    assert got.date().isoformat() == "2026-06-20"
+
+
+def test_feed_sorted_by_release_desc_with_url_tiebreak():
+    a = ("https://m/tv/a/", {"release_date": "May 29, 2026"})
+    b = ("https://m/movie/b/", {"release_date": "Jun 19, 2026"})
+    assert [u for u, _ in sorted([a, b], key=mf._feed_sort_key, reverse=True)] == \
+        ["https://m/movie/b/", "https://m/tv/a/"]  # Jun 19 newer than May 29
+    # identical release dates -> deterministic URL tiebreak (reverse => 'z' before 'a')
+    z = ("https://m/z/", {"release_date": "Jun 19, 2026"})
+    aa = ("https://m/a/", {"release_date": "Jun 19, 2026"})
+    assert [u for u, _ in sorted([aa, z], key=mf._feed_sort_key, reverse=True)] == \
+        ["https://m/z/", "https://m/a/"]
+
+
+def test_score_out_of_range_rejected():
+    html = ('<a href="/movie/x/"><h3>X</h3><span>Jun 19, 2026</span>'
+            '<div>120</div><span>Metascore</span></a>')
+    (card,) = mf.parse_browse(html, "movie")
+    assert card["score"] is None  # 120 is not a valid 0-100 Metascore
+
+
+def test_corrupt_and_nondict_state_abort():
+    import os, tempfile
+    d = tempfile.mkdtemp()
+    corrupt = os.path.join(d, "corrupt.json")
+    Path(corrupt).write_text("{not valid json")
+    try:
+        mf.load_state(corrupt)
+        assert False, "corrupt state should raise SystemExit"
+    except SystemExit:
+        pass
+    nulled = os.path.join(d, "null.json")
+    Path(nulled).write_text("null")
+    try:
+        mf.load_state(nulled)
+        assert False, "non-dict state should raise SystemExit"
+    except SystemExit:
+        pass
+    # missing file is a legit fresh start, NOT an abort
+    assert mf.load_state(os.path.join(d, "does-not-exist.json")) == {"emitted": {}}
+
+
 if __name__ == "__main__":
     import traceback
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_") and callable(v)]
