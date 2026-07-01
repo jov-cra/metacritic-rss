@@ -2238,420 +2238,727 @@
       "score": 70,
       "media": "movie",
       "release_date": "Jan 23, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 9,
+        "pos": 78,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/h-is-for-hawk/": {
       "title": "H Is for Hawk",
       "score": 63,
       "media": "movie",
       "release_date": "Jan 23, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 23,
+        "pos": 43,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/mr-nobody-against-putin/": {
       "title": "Mr. Nobody Against Putin",
       "score": 80,
       "media": "movie",
       "release_date": "Jan 21, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 13,
+        "pos": 92,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/shuffle/": {
       "title": "Shuffle",
       "score": 78,
       "media": "movie",
       "release_date": "Jan 16, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 7,
+        "pos": 86,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/seeds-2025/": {
       "title": "Seeds",
       "score": 90,
       "media": "movie",
       "release_date": "Jan 16, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 14,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/sound-of-falling/": {
       "title": "Sound of Falling",
       "score": 90,
       "media": "movie",
       "release_date": "Jan 16, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 26,
+        "pos": 92,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/the-rip/": {
       "title": "The Rip",
       "score": 63,
       "media": "movie",
       "release_date": "Jan 16, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 32,
+        "pos": 50,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/all-you-need-is-kill-2025/": {
       "title": "All You Need Is Kill",
       "score": 64,
       "media": "movie",
       "release_date": "Jan 16, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 12,
+        "pos": 67,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/a-private-life/": {
       "title": "A Private Life",
       "score": 67,
       "media": "movie",
       "release_date": "Jan 16, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 26,
+        "pos": 77,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/a-useful-ghost/": {
       "title": "A Useful Ghost",
       "score": 85,
       "media": "movie",
       "release_date": "Jan 16, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 11,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/28-years-later-the-bone-temple/": {
       "title": "28 Years Later: The Bone Temple",
       "score": 81,
       "media": "movie",
       "release_date": "Jan 16, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 58,
+        "pos": 88,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/holding-liat/": {
       "title": "Holding Liat",
       "score": 78,
       "media": "movie",
       "release_date": "Jan 9, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 9,
+        "pos": 100,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/young-mothers/": {
       "title": "Young Mothers",
       "score": 80,
       "media": "movie",
       "release_date": "Jan 9, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 22,
+        "pos": 77,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/dead-mans-wire/": {
       "title": "Dead Man's Wire",
       "score": 67,
       "media": "movie",
       "release_date": "Jan 9, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 34,
+        "pos": 68,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/obex/": {
       "title": "OBEX",
       "score": 75,
       "media": "movie",
       "release_date": "Jan 9, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 13,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/magellan/": {
       "title": "Magellan",
       "score": 89,
       "media": "movie",
       "release_date": "Jan 9, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 13,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/all-thats-left-of-you/": {
       "title": "All That's Left of You",
       "score": 78,
       "media": "movie",
       "release_date": "Jan 9, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 14,
+        "pos": 93,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/homegrown/": {
       "title": "Homegrown",
       "score": 65,
       "media": "movie",
       "release_date": "Jan 6, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/the-mother-and-the-bear/": {
       "title": "The Mother and the Bear",
       "score": 73,
       "media": "movie",
       "release_date": "Jan 2, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 8,
+        "pos": 75,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/we-bury-the-dead/": {
       "title": "We Bury the Dead",
       "score": 61,
       "media": "movie",
       "release_date": "Jan 2, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 16,
+        "pos": 63,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/the-dutchman/": {
       "title": "The Dutchman",
       "score": 67,
       "media": "movie",
       "release_date": "Jan 2, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 9,
+        "pos": 67,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/im-chevy-chase-and-youre-not/": {
       "title": "I'm Chevy Chase and You're Not",
       "score": 64,
       "media": "movie",
       "release_date": "Jan 1, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 50,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/no-other-choice/": {
       "title": "No Other Choice",
       "score": 86,
       "media": "movie",
       "release_date": "Dec 25, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 46,
+        "pos": 93,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/marty-supreme/": {
       "title": "Marty Supreme",
       "score": 89,
       "media": "movie",
       "release_date": "Dec 25, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 58,
+        "pos": 93,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/song-sung-blue/": {
       "title": "Song Sung Blue",
       "score": 61,
       "media": "movie",
       "release_date": "Dec 25, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 46,
+        "pos": 61,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/the-testament-of-ann-lee/": {
       "title": "The Testament of Ann Lee",
       "score": 80,
       "media": "movie",
       "release_date": "Dec 25, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 43,
+        "pos": 88,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/the-plague/": {
       "title": "The Plague",
       "score": 79,
       "media": "movie",
       "release_date": "Dec 24, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 21,
+        "pos": 95,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/father-mother-sister-brother/": {
       "title": "Father Mother Sister Brother",
       "score": 76,
       "media": "movie",
       "release_date": "Dec 24, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 34,
+        "pos": 79,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/timestamp/": {
       "title": "Timestamp",
       "score": 79,
       "media": "movie",
       "release_date": "Dec 19, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/avatar-fire-and-ash/": {
       "title": "Avatar: Fire and Ash",
       "score": 61,
       "media": "movie",
       "release_date": "Dec 19, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 59,
+        "pos": 59,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/is-this-thing-on/": {
       "title": "Is This Thing On?",
       "score": 72,
       "media": "movie",
       "release_date": "Dec 19, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 46,
+        "pos": 74,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/flathead/": {
       "title": "Flathead",
       "score": 63,
       "media": "movie",
       "release_date": "Dec 19, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 40,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/the-housemaid-2025/": {
       "title": "The Housemaid",
       "score": 65,
       "media": "movie",
       "release_date": "Dec 19, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 35,
+        "pos": 66,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/the-spongebob-movie-search-for-squarepants/": {
       "title": "The SpongeBob Movie: Search for Squarepants",
       "score": 65,
       "media": "movie",
       "release_date": "Dec 19, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 17,
+        "pos": 65,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/movie/the-voice-of-hind-rajab/": {
       "title": "The Voice of Hind Rajab",
       "score": 81,
       "media": "movie",
       "release_date": "Dec 17, 2025",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 27,
+        "pos": 93,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/big-mistakes/": {
       "title": "Big Mistakes",
       "score": 65,
       "media": "tv",
       "release_date": "Apr 9, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 23,
+        "pos": 57,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-testaments/": {
       "title": "The Testaments",
       "score": 71,
       "media": "tv",
       "release_date": "Apr 8, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 21,
+        "pos": 71,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/star-wars-maul---shadow-lord/": {
       "title": "Star Wars: Maul - Shadow Lord",
       "score": 75,
       "media": "tv",
       "release_date": "Apr 6, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 10,
+        "pos": 80,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/atomic/": {
       "title": "Atomic",
       "score": 63,
       "media": "tv",
       "release_date": "Apr 1, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 5,
+        "pos": 40,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/jo-nesbos-detective-hole/": {
       "title": "Jo Nesbø's Detective Hole",
       "score": 67,
       "media": "tv",
       "release_date": "Mar 26, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 10,
+        "pos": 50,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/something-very-bad-is-going-to-happen/": {
       "title": "Something Very Bad Is Going to Happen",
       "score": 65,
       "media": "tv",
       "release_date": "Mar 26, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 23,
+        "pos": 57,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/bait/": {
       "title": "Bait",
       "score": 85,
       "media": "tv",
       "release_date": "Mar 25, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 18,
+        "pos": 94,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/saturday-night-live-uk/": {
       "title": "Saturday Night Live UK",
       "score": 66,
       "media": "tv",
       "release_date": "Mar 22, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 10,
+        "pos": 40,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/sunny-nights/": {
       "title": "Sunny Nights",
       "score": 77,
       "media": "tv",
       "release_date": "Mar 11, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 8,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/rooster/": {
       "title": "Rooster",
       "score": 68,
       "media": "tv",
       "release_date": "Mar 8, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 28,
+        "pos": 64,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/this-city-is-ours-a-crime-family-saga/": {
       "title": "This City Is Ours: A Crime Family Saga",
       "score": 71,
       "media": "tv",
       "release_date": "Mar 5, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 7,
+        "pos": 71,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/vladimir/": {
       "title": "Vladimir",
       "score": 66,
       "media": "tv",
       "release_date": "Mar 5, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 24,
+        "pos": 54,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/young-sherlock/": {
       "title": "Young Sherlock",
       "score": 65,
       "media": "tv",
       "release_date": "Mar 4, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 20,
+        "pos": 50,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/rj-decker/": {
       "title": "RJ Decker",
       "score": 67,
       "media": "tv",
       "release_date": "Mar 3, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 7,
+        "pos": 86,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/american-classic/": {
       "title": "American Classic",
       "score": 71,
       "media": "tv",
       "release_date": "Mar 1, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 9,
+        "pos": 67,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/dtf-st-louis/": {
       "title": "DTF St. Louis",
       "score": 71,
       "media": "tv",
       "release_date": "Mar 1, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 22,
+        "pos": 77,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/scrubs-2026/": {
       "title": "Scrubs (2026)",
       "score": 73,
       "media": "tv",
       "release_date": "Feb 25, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 26,
+        "pos": 77,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-fall-and-rise-of-reggie-dinkins/": {
       "title": "The Fall and Rise of Reggie Dinkins",
       "score": 76,
       "media": "tv",
       "release_date": "Feb 23, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 16,
+        "pos": 88,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/portobello/": {
       "title": "Portobello",
       "score": 78,
       "media": "tv",
       "release_date": "Feb 20, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/reality-check-inside-americas-next-top-model/": {
       "title": "Reality Check: Inside America's Next Top Model",
       "score": 67,
       "media": "tv",
       "release_date": "Feb 16, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 6,
+        "pos": 50,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/neighbors-2026/": {
       "title": "Neighbors (2026)",
       "score": 61,
       "media": "tv",
       "release_date": "Feb 13, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 8,
+        "pos": 50,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/can-you-keep-a-secret/": {
       "title": "Can You Keep A Secret?",
       "score": 71,
       "media": "tv",
       "release_date": "Feb 12, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 7,
+        "pos": 71,
+        "user_tbd": true,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/how-to-get-to-heaven-from-belfast/": {
       "title": "How to Get to Heaven From Belfast",
       "score": 79,
       "media": "tv",
       "release_date": "Feb 12, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 14,
+        "pos": 93,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/love-story-john-f-kennedy-jr-carolyn-bessette/": {
       "title": "Love Story: John F. Kennedy Jr. & Carolyn Bessette",
       "score": 63,
       "media": "tv",
       "release_date": "Feb 12, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 24,
+        "pos": 54,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-burbs/": {
       "title": "The 'Burbs",
       "score": 61,
       "media": "tv",
       "release_date": "Feb 8, 2026",
-      "emitted_at": "2026-07-01T08:47:22.392145+00:00"
+      "emitted_at": "2026-07-01T08:47:22.392145+00:00",
+      "detail": {
+        "critic_count": 17,
+        "pos": 41,
+        "v": 2
+      }
     },
     "https://www.metacritic.com/tv/the-muppet-show-2026/": {
       "title": "The Muppet Show (2026)",
