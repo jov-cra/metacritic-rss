@@ -164,9 +164,8 @@ def parse_browse(html_text: str, media: str) -> list[dict]:
 # --------------------------------------------------------------------------- #
 # Detail-page enrichment: critic/user counts + a short top-critic quote
 # --------------------------------------------------------------------------- #
-REVIEW_SPLIT_RE = re.compile(
-    r"(\d+)%\s*Positive\s+\d+\s+Reviews\s+(\d+)%\s*Mixed\s+\d+\s+Reviews\s+(\d+)%\s*Negative\s+\d+\s+Reviews"
-)
+DETAIL_VERSION = 2  # bump to force re-enrichment of already-stored items
+CRITIC_POS_RE = re.compile(r"(\d+)%\s*Positive\s+\d+\s+Reviews")  # critic (Reviews, not user Ratings)
 
 
 def fetch_detail(url: str) -> str:
@@ -181,24 +180,24 @@ def parse_detail(html_text: str) -> dict:
     text = re.sub(r"\s+", " ", soup.get_text(" ", strip=True))
     d: dict = {}
 
-    m = re.search(r"Based on (\d+)\s+Critic Reviews", text)
+    m = re.search(r"Based on ([\d,]+)\s+Critic Reviews", text)
     if m:
-        d["critic_count"] = int(m.group(1))
-    m = REVIEW_SPLIT_RE.search(text)
-    if m:
-        d["pos"], d["mixed"], d["neg"] = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        d["critic_count"] = int(m.group(1).replace(",", ""))
+    mp = CRITIC_POS_RE.search(text)
+    if mp:
+        d["pos"] = int(mp.group(1))
 
-    # user ratings count + score (score is often "tbd" until enough ratings)
-    m = re.search(r"Based on (\d+)\s+Ratings", text)
-    if m:
-        d["user_count"] = int(m.group(1))
-        mu = re.search(r"User score\D{0,40}?(\d(?:\.\d)?)", text)
-        if mu:
-            d["user_score"] = float(mu.group(1))
-    else:
-        m = re.search(r"Available after (\d+)\s+ratings", text)
-        if m:
-            d["user_count"] = int(m.group(1))
+    # user score + rating count — only when an actual user score exists.
+    # "Available after N ratings" is a THRESHOLD (how many are needed), not a
+    # count, so we must not render it as if there were N ratings.
+    mu = re.search(r"Based on ([\d,]+)\s+Ratings", text)
+    if mu:
+        d["user_count"] = int(mu.group(1).replace(",", ""))
+        ms = re.search(r"User score\D{0,40}?(\d(?:\.\d)?)\b", text)
+        if ms:
+            d["user_score"] = float(ms.group(1))
+    elif re.search(r"User score(?:\s+Available after \d+ ratings)?\s+tbd", text):
+        d["user_tbd"] = True
 
     # top critic quote: publications render as /publication/ links whose text is
     # "<score> <Publication>"; the quote is the longest text run in that review card.
@@ -223,6 +222,8 @@ def parse_detail(html_text: str) -> dict:
             d["quote_pub"] = mm.group(2).strip()
             d["quote"] = quote
             break
+
+    d["v"] = DETAIL_VERSION
     return d
 
 
@@ -231,7 +232,8 @@ def enrich_missing(emitted: dict, cap: int, delay: float) -> int:
     one-time backfill), newest first, up to `cap` per run. Once set, `detail` is
     frozen -> feed stays deterministic (no churn) after backfill completes."""
     todo = sorted(
-        (u for u, m in emitted.items() if "detail" not in m),
+        (u for u, m in emitted.items()
+         if "detail" not in m or (m.get("detail") or {}).get("v") != DETAIL_VERSION),
         key=lambda u: emitted[u].get("emitted_at", ""), reverse=True,
     )
     done = 0
@@ -344,7 +346,8 @@ def describe_item(meta: dict) -> str:
     Falls back to a basic line if the detail page couldn't be enriched."""
     d = meta.get("detail") or {}
     label = "Movie" if meta["media"] == "movie" else "TV"
-    if not d:
+    has_info = any(k in d for k in ("critic_count", "pos", "quote", "user_score", "user_tbd"))
+    if not has_info:
         return f'Metascore {meta["score"]} · {label} · Released {meta.get("release_date", "")}'
 
     parts = [f'Critics {meta["score"]}']
@@ -357,8 +360,8 @@ def describe_item(meta: dict) -> str:
         if d.get("user_count"):
             u += f' ({d["user_count"]} ratings)'
         parts.append(u)
-    elif d.get("user_count") is not None:
-        parts.append(f'Users tbd ({d["user_count"]} ratings)')
+    elif d.get("user_tbd"):
+        parts.append("Users tbd")
 
     line = " · ".join(parts)
     if d.get("quote"):

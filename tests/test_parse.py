@@ -232,10 +232,10 @@ DETAIL = (Path(__file__).parent / "fixtures" / "sample_detail.html").read_text(e
 def test_parse_detail_extracts_stats_and_quote():
     d = mf.parse_detail(DETAIL)
     assert d["critic_count"] == 4
-    assert (d["pos"], d["mixed"], d["neg"]) == (100, 0, 0)
-    assert d["user_count"] == 4          # "Available after 4 ratings"
-    assert "user_score" not in d          # user score is tbd
-    assert d["quote_score"] == 90         # highest/first critic review
+    assert d["pos"] == 100                 # critic positive %, lenient match
+    assert d.get("user_tbd") is True       # user score is tbd
+    assert "user_count" not in d           # "Available after 4 ratings" is a threshold, not a count
+    assert d["quote_score"] == 90          # highest/first critic review
     assert d["quote_pub"] == "Los Angeles Times"
     assert d["quote"].startswith("A thoroughly original and quite wonderful")
 
@@ -247,7 +247,8 @@ def test_describe_item_variant_b():
     assert desc.startswith("Critics 76")
     assert "4 reviews" in desc
     assert "100% positive" in desc
-    assert "Users tbd (4 ratings)" in desc
+    assert "Users tbd" in desc
+    assert "(4 ratings)" not in desc       # must not render the threshold as a count
     assert "Los Angeles Times" in desc
     assert "A thoroughly original" in desc
 
