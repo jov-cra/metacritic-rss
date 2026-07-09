@@ -6215,6 +6215,18 @@
         "pos": 82,
         "v": 2
       }
+    },
+    "https://www.metacritic.com/movie/saccharine/": {
+      "title": "Saccharine",
+      "score": 61,
+      "media": "movie",
+      "release_date": "May 22, 2026",
+      "emitted_at": "2026-07-09T01:08:42.298852+00:00",
+      "detail": {
+        "critic_count": 11,
+        "pos": 55,
+        "v": 2
+      }
     }
   }
 }

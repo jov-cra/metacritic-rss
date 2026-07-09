@@ -5,7 +5,7 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases scoring 61+ (Metascore). Auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 01 Jul 2026 08:57:25 +0000</lastBuildDate>
+<lastBuildDate>Thu, 09 Jul 2026 01:08:42 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>[68] Minions &amp; Monsters (Movie)</title>
@@ -390,6 +390,14 @@
 <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>29 reviews · 83% positive</description>
+</item>
+<item>
+<title>[61] Saccharine (Movie)</title>
+<link>https://www.metacritic.com/movie/saccharine/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/saccharine/</guid>
+<pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>11 reviews · 55% positive</description>
 </item>
 <item>
 <title>[70] I Love Boosters (Movie)</title>
