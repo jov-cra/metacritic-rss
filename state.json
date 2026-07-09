@@ -6240,6 +6240,19 @@
         "user_tbd": true,
         "v": 2
       }
+    },
+    "https://www.metacritic.com/tv/the-five-star-weekend/": {
+      "title": "The Five Star Weekend",
+      "score": 69,
+      "media": "tv",
+      "release_date": "Jul 9, 2026",
+      "emitted_at": "2026-07-09T21:19:50.643559+00:00",
+      "detail": {
+        "critic_count": 12,
+        "pos": 58,
+        "user_tbd": true,
+        "v": 2
+      }
     }
   }
 }

@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases scoring 61+ (Metascore). Auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Thu, 09 Jul 2026 09:32:13 +0000</lastBuildDate>
+<lastBuildDate>Thu, 09 Jul 2026 21:19:50 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[69] The Five Star Weekend (TV)</title>
+<link>https://www.metacritic.com/tv/the-five-star-weekend/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-five-star-weekend/</guid>
+<pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>12 reviews · 58% positive</description>
+</item>
 <item>
 <title>[67] Little House on the Prairie (2026) (TV)</title>
 <link>https://www.metacritic.com/tv/little-house-on-the-prairie-2026/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>22 reviews · 82% positive</description>
-</item>
-<item>
-<title>[70] A Good Girl's Guide to Murder (TV)</title>
-<link>https://www.metacritic.com/tv/a-good-girls-guide-to-murder/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/a-good-girls-guide-to-murder/</guid>
-<pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>25 reviews · 60% positive</description>
 </item>
 </channel>
 </rss>
