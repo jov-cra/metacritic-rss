@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases scoring 61+ (Metascore). Auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Thu, 09 Jul 2026 01:08:42 +0000</lastBuildDate>
+<lastBuildDate>Thu, 09 Jul 2026 09:32:13 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[67] Little House on the Prairie (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/little-house-on-the-prairie-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/little-house-on-the-prairie-2026/</guid>
+<pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>15 reviews · 60% positive</description>
+</item>
 <item>
 <title>[68] Minions &amp; Monsters (Movie)</title>
 <link>https://www.metacritic.com/movie/minions-and-monsters/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>25 reviews · 60% positive</description>
-</item>
-<item>
-<title>[76] Women in Blue (TV)</title>
-<link>https://www.metacritic.com/tv/women-in-blue/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/women-in-blue/</guid>
-<pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>6 reviews · 83% positive</description>
 </item>
 </channel>
 </rss>

@@ -6227,6 +6227,19 @@
         "pos": 55,
         "v": 2
       }
+    },
+    "https://www.metacritic.com/tv/little-house-on-the-prairie-2026/": {
+      "title": "Little House on the Prairie (2026)",
+      "score": 67,
+      "media": "tv",
+      "release_date": "Jul 9, 2026",
+      "emitted_at": "2026-07-09T09:32:13.270749+00:00",
+      "detail": {
+        "critic_count": 15,
+        "pos": 60,
+        "user_tbd": true,
+        "v": 2
+      }
     }
   }
 }
