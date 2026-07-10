@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head><title>Some Show - Reviews - Metacritic</title></head>
+<body>
+  <!-- Minimal detail-page fixture for parse_detail():
+       - critic score with review count  -> critic_count = 4
+       - critic positive percentage       -> pos = 100
+       - user score still "tbd"            -> user_tbd = True, no user_count
+       Deliberately contains NO "Based on N Ratings" so no user_count is parsed. -->
+  <section class="critic-score">
+    <div class="metascore">76</div>
+    <div class="count">Based on 4 Critic Reviews</div>
+    <div class="sentiment">100% Positive 4 Reviews</div>
+  </section>
+
+  <section class="user-score">
+    <div class="score">User score Available after 4 ratings tbd</div>
+  </section>
+</body>
+</html>

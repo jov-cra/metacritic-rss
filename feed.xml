@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>Metacritic — Movies &amp; TV (Metascore 61+)</title>
+<title>Metacritic — Movies &amp; TV (all scored)</title>
 <link>https://www.metacritic.com/</link>
-<description>Metacritic movie &amp; TV releases scoring 61+ (Metascore). Auto-generated.</description>
+<description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 10 Jul 2026 04:32:12 +0000</lastBuildDate>
+<lastBuildDate>Fri, 10 Jul 2026 11:58:51 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>[94] Remake (Movie)</title>
@@ -24,12 +24,28 @@
 <description>7 reviews · 71% positive</description>
 </item>
 <item>
+<title>[42] Moana (Movie)</title>
+<link>https://www.metacritic.com/movie/moana-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/moana-2026/</guid>
+<pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/48b6951bdee3b9709ffe1db150005a10417ad04c/catalog/provider/5/2/5-tt27419466.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 42 · Movie · Released Jul 10, 2026</description>
+</item>
+<item>
 <title>[66] Gail Daughtry and the Celebrity Sex Pass (Movie)</title>
 <link>https://www.metacritic.com/movie/gail-daughtry-and-the-celebrity-sex-pass/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/gail-daughtry-and-the-celebrity-sex-pass/</guid>
 <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>23 reviews · 61% positive</description>
+</item>
+<item>
+<title>[58] Evil Dead Burn (Movie)</title>
+<link>https://www.metacritic.com/movie/evil-dead-burn/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/evil-dead-burn/</guid>
+<pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/4b7f88cebb429875828457a2b9cd1b8ff0b5533d/catalog/provider/5/2/5-tt31170389.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 58 · Movie · Released Jul 10, 2026</description>
 </item>
 <item>
 <title>[83] Do You Love Me (Movie)</title>
@@ -56,12 +72,36 @@
 <description>15 reviews · 60% positive</description>
 </item>
 <item>
+<title>[49] Young Washington (Movie)</title>
+<link>https://www.metacritic.com/movie/young-washington/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/young-washington/</guid>
+<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/07a5c2245eca03dd526ee1b84f974df9ea2e0256/catalog/provider/5/2/5-tt32104007.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 49 · Movie · Released Jul 3, 2026</description>
+</item>
+<item>
+<title>[52] Elle (TV)</title>
+<link>https://www.metacritic.com/tv/elle/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/elle/</guid>
+<pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/3f73ff1c041709d5e58fd331925d3d0e3ec0de9a/catalog/provider/7/2/7-1782325265.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 52 · TV · Released Jul 1, 2026</description>
+</item>
+<item>
 <title>[68] Minions &amp; Monsters (Movie)</title>
 <link>https://www.metacritic.com/movie/minions-and-monsters/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/minions-and-monsters/</guid>
 <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>18 reviews · 67% positive</description>
+</item>
+<item>
+<title>[60] Enola Holmes 3 (Movie)</title>
+<link>https://www.metacritic.com/movie/enola-holmes-3/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/enola-holmes-3/</guid>
+<pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/0335f3523568f3661785a0dfdfb8e8225002d1bb/catalog/provider/7/2/7-1782698199.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 60 · Movie · Released Jul 1, 2026</description>
 </item>
 <item>
 <title>[76] Zorro (2024) (TV)</title>
@@ -80,12 +120,36 @@
 <description>7 reviews · 57% positive</description>
 </item>
 <item>
+<title>[58] Life, Larry, and the Pursuit of Unhappiness (TV)</title>
+<link>https://www.metacritic.com/tv/life-larry-and-the-pursuit-of-unhappiness/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/life-larry-and-the-pursuit-of-unhappiness/</guid>
+<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/b11ffb53b2e28441dcc054232016bc7a3a508cd0/catalog/provider/7/2/7-1782320980.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 58 · TV · Released Jun 26, 2026</description>
+</item>
+<item>
+<title>[52] The Wave (Movie)</title>
+<link>https://www.metacritic.com/movie/the-wave-2025/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-wave-2025/</guid>
+<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/19a06a5d61ed258a3efed09e1b8048a3f7d30f13/catalog/provider/5/2/5-tt32082522.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 52 · Movie · Released Jun 26, 2026</description>
+</item>
+<item>
 <title>[81] The Invite (Movie)</title>
 <link>https://www.metacritic.com/movie/the-invite/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/the-invite/</guid>
 <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>33 reviews · 88% positive</description>
+</item>
+<item>
+<title>[49] The Get Out (Movie)</title>
+<link>https://www.metacritic.com/movie/the-get-out/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-get-out/</guid>
+<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/0e1343b71038a46f8bf8c1ab451c2bfba4d7bcb6/catalog/provider/2/13/2-aedb97bc75ef6e0f7f99f99cec14ac31.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 49 · Movie · Released Jun 26, 2026</description>
 </item>
 <item>
 <title>[76] Romería (Movie)</title>
@@ -96,12 +160,28 @@
 <description>14 reviews · 93% positive</description>
 </item>
 <item>
+<title>[52] Little Brother (Movie)</title>
+<link>https://www.metacritic.com/movie/little-brother-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/little-brother-2026/</guid>
+<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/198dfab347dd8aa509b9bcd882f59ed459ca12bd/catalog/provider/7/2/7-1779300460.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 52 · Movie · Released Jun 26, 2026</description>
+</item>
+<item>
 <title>[63] jackass: best and last (Movie)</title>
 <link>https://www.metacritic.com/movie/jackass-best-and-last/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/jackass-best-and-last/</guid>
 <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>29 reviews · 59% positive</description>
+</item>
+<item>
+<title>[53] Couture (Movie)</title>
+<link>https://www.metacritic.com/movie/couture/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/couture/</guid>
+<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/51d29f30c60f988657664236a59724db621a057f/catalog/provider/7/2/7-1779292036.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 53 · Movie · Released Jun 26, 2026</description>
 </item>
 <item>
 <title>[85] Camp (Movie)</title>
@@ -136,6 +216,14 @@
 <description>7 reviews · 29% positive</description>
 </item>
 <item>
+<title>[32] In the Hand of Dante (Movie)</title>
+<link>https://www.metacritic.com/movie/in-the-hand-of-dante/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/in-the-hand-of-dante/</guid>
+<pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/10c28a86bee2b96373a83f651386a5a9512cf07d/catalog/provider/5/2/5-tt1333644.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 32 · Movie · Released Jun 24, 2026</description>
+</item>
+<item>
 <title>[62] Voicemails for Isabelle (Movie)</title>
 <link>https://www.metacritic.com/movie/voicemails-for-isabelle/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/voicemails-for-isabelle/</guid>
@@ -144,12 +232,28 @@
 <description>12 reviews · 67% positive</description>
 </item>
 <item>
+<title>[55] Unidentified (Movie)</title>
+<link>https://www.metacritic.com/movie/unidentified-2025/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/unidentified-2025/</guid>
+<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/dbb1929558e3db471466bf48d9e52a8b408f4a0b/catalog/provider/5/2/5-tt32298366.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 55 · Movie · Released Jun 19, 2026</description>
+</item>
+<item>
 <title>[73] Toy Story 5 (Movie)</title>
 <link>https://www.metacritic.com/movie/toy-story-5/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/toy-story-5/</guid>
 <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>54 reviews · 80% positive</description>
+</item>
+<item>
+<title>[60] The Death of Robin Hood (Movie)</title>
+<link>https://www.metacritic.com/movie/the-death-of-robin-hood/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-death-of-robin-hood/</guid>
+<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/46e32145af58ac0ffb51691817acdfbc72952394/catalog/provider/7/2/7-1767713493.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 60 · Movie · Released Jun 19, 2026</description>
 </item>
 <item>
 <title>[84] Rose of Nevada (Movie)</title>
@@ -184,6 +288,30 @@
 <description>17 reviews · 76% positive</description>
 </item>
 <item>
+<title>[47] Finnegan's Foursome (Movie)</title>
+<link>https://www.metacritic.com/movie/finnegans-foursome/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/finnegans-foursome/</guid>
+<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/bcb871149c09f35e139dbfc6ab14550c6dd28fc9/catalog/provider/7/2/7-1777390028.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 47 · Movie · Released Jun 19, 2026</description>
+</item>
+<item>
+<title>[56] I Will Find You (TV)</title>
+<link>https://www.metacritic.com/tv/i-will-find-you/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/i-will-find-you/</guid>
+<pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/79355b5fdabc80f8fb7dcf83b549e8a08bf8bd77/catalog/provider/2/2/2-c234611b36a6cd2f1060ad05152457af.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 56 · TV · Released Jun 18, 2026</description>
+</item>
+<item>
+<title>[58] The Season (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/the-season-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-season-2026/</guid>
+<pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/c736a964007d49eefcca75e3e172988739eff401/catalog/provider/7/2/7-1781633269.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 58 · TV · Released Jun 17, 2026</description>
+</item>
+<item>
 <title>[73] The Listeners (TV)</title>
 <link>https://www.metacritic.com/tv/the-listeners/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-listeners/</guid>
@@ -200,12 +328,28 @@
 <description>20 reviews · 100% positive</description>
 </item>
 <item>
+<title>[59] Stop! That! Train! (Movie)</title>
+<link>https://www.metacritic.com/movie/stop-that-train/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/stop-that-train/</guid>
+<pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/6ef62ce7a8ab5ae6a9c127e78454eeff4a8f42a1/catalog/provider/2/13/2-765bbbd00f1e4cb97df471d4aed96c34.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 59 · Movie · Released Jun 12, 2026</description>
+</item>
+<item>
 <title>[74] Disclosure Day (Movie)</title>
 <link>https://www.metacritic.com/movie/disclosure-day/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/disclosure-day/</guid>
 <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>63 reviews · 79% positive</description>
+</item>
+<item>
+<title>[57] Every Year After (TV)</title>
+<link>https://www.metacritic.com/tv/every-year-after/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/every-year-after/</guid>
+<pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/0825b9cacd5185b2313ba950fa7c262663f0edf0/catalog/provider/7/2/7-1780452439.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 57 · TV · Released Jun 10, 2026</description>
 </item>
 <item>
 <title>[67] Honeyjoon (Movie)</title>
@@ -264,6 +408,38 @@
 <description>4 reviews · 100% positive</description>
 </item>
 <item>
+<title>[38] Scary Movie (Movie)</title>
+<link>https://www.metacritic.com/movie/scary-movie-6/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/scary-movie-6/</guid>
+<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/28ef14d59c9a209bcc61649b31852e0638e78c17/catalog/provider/7/2/7-1780592755.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 38 · Movie · Released Jun 5, 2026</description>
+</item>
+<item>
+<title>[54] Savage House (Movie)</title>
+<link>https://www.metacritic.com/movie/savage-house/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/savage-house/</guid>
+<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/d5195b3d1cd8446e0028aa98bbeeaaa7262b5fce/catalog/provider/2/13/2-bf21ab108f7f19121e2109a5a7deb742.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 54 · Movie · Released Jun 5, 2026</description>
+</item>
+<item>
+<title>[52] Office Romance (Movie)</title>
+<link>https://www.metacritic.com/movie/office-romance/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/office-romance/</guid>
+<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/233f2ac3e434acdee23b6bce113e444705a1d884/catalog/provider/7/2/7-1777572420.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 52 · Movie · Released Jun 5, 2026</description>
+</item>
+<item>
+<title>[52] Masters of the Universe (Movie)</title>
+<link>https://www.metacritic.com/movie/masters-of-the-universe-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/masters-of-the-universe-2026/</guid>
+<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/3c3be0af63bccadfc455e70acda7d0a21b77bcaf/catalog/provider/7/2/7-1777408428.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 52 · Movie · Released Jun 5, 2026</description>
+</item>
+<item>
 <title>[73] Jinsei (Movie)</title>
 <link>https://www.metacritic.com/movie/jinsei/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/jinsei/</guid>
@@ -294,6 +470,22 @@
 <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>5 reviews · 60% positive</description>
+</item>
+<item>
+<title>[59] Michael Jackson: The Verdict (TV)</title>
+<link>https://www.metacritic.com/tv/michael-jackson-the-verdict/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/michael-jackson-the-verdict/</guid>
+<pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/f4e4bab26bc1e696a7a3f467602e516fe84b0614/catalog/provider/2/2/2-ab229aa99020e220f765c447161c29b5.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 59 · TV · Released Jun 3, 2026</description>
+</item>
+<item>
+<title>[53] Not Suitable for Work (TV)</title>
+<link>https://www.metacritic.com/tv/not-suitable-for-work/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/not-suitable-for-work/</guid>
+<pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/122cfcb668bae04efcf51c92669097436268cb2a/catalog/provider/7/2/7-1779818383.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 53 · TV · Released Jun 2, 2026</description>
 </item>
 <item>
 <title>[80] What It Feels Like For A Girl (TV)</title>
@@ -360,12 +552,28 @@
 <description>12 reviews · 92% positive</description>
 </item>
 <item>
+<title>[33] The Breadwinner (Movie)</title>
+<link>https://www.metacritic.com/movie/the-breadwinner-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-breadwinner-2026/</guid>
+<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/e703e50f005d8b9e9b974160fc728db83d92cfba/catalog/provider/5/2/5-tt34459219.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 33 · Movie · Released May 29, 2026</description>
+</item>
+<item>
 <title>[72] Renoir (Movie)</title>
 <link>https://www.metacritic.com/movie/renoir-2025/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/renoir-2025/</guid>
 <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>12 reviews · 92% positive</description>
+</item>
+<item>
+<title>[49] Propeller One-Way Night Coach (Movie)</title>
+<link>https://www.metacritic.com/movie/propeller-one-way-night-coach/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/propeller-one-way-night-coach/</guid>
+<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/2ec3816f90355b77dbd663dd8a7c2d463225635d/catalog/provider/5/2/5-tt41367695.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 49 · Movie · Released May 29, 2026</description>
 </item>
 <item>
 <title>[69] Pressure (Movie)</title>
@@ -416,6 +624,14 @@
 <description>11 reviews · 73% positive</description>
 </item>
 <item>
+<title>[40] Summerwater (TV)</title>
+<link>https://www.metacritic.com/tv/summerwater/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/summerwater/</guid>
+<pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/fb588c9a7383ec1785082aa81d3de167ecae77c6/catalog/provider/2/2/2-7f8d2b591873f85a3b210f16548e9952.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 40 · TV · Released May 25, 2026</description>
+</item>
+<item>
 <title>[72] Spider-Noir (TV)</title>
 <link>https://www.metacritic.com/tv/spider-noir/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/spider-noir/</guid>
@@ -440,6 +656,22 @@
 <description>29 reviews · 83% positive</description>
 </item>
 <item>
+<title>[49] The Salt Path (Movie)</title>
+<link>https://www.metacritic.com/movie/the-salt-path/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-salt-path/</guid>
+<pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/1967a16cc2bf74ea183df567b0b302bb156bb4ad/catalog/provider/5/2/5-tt27766440.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 49 · Movie · Released May 22, 2026</description>
+</item>
+<item>
+<title>[53] Star Wars: The Mandalorian and Grogu (Movie)</title>
+<link>https://www.metacritic.com/movie/star-wars-the-mandalorian-and-grogu/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/star-wars-the-mandalorian-and-grogu/</guid>
+<pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/55be2b55755aed0bbb828f94d9a95269abb6ae92/catalog/provider/7/2/7-1776438311.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 53 · Movie · Released May 22, 2026</description>
+</item>
+<item>
 <title>[61] Saccharine (Movie)</title>
 <link>https://www.metacritic.com/movie/saccharine/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/saccharine/</guid>
@@ -448,12 +680,36 @@
 <description>11 reviews · 55% positive</description>
 </item>
 <item>
+<title>[52] Passenger (Movie)</title>
+<link>https://www.metacritic.com/movie/passenger/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/passenger/</guid>
+<pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/db77cfaf8fd2a55c5261909621f289b4fce23549/catalog/provider/2/13/2-46cfb5dc64a1ca7e945a80e87db7496e.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 52 · Movie · Released May 22, 2026</description>
+</item>
+<item>
+<title>[38] Ladies First (Movie)</title>
+<link>https://www.metacritic.com/movie/ladies-first-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/ladies-first-2026/</guid>
+<pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/063fb4242520edb2fe6858d8d81ab2f88676f786/catalog/provider/5/2/5-tt34611082.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 38 · Movie · Released May 22, 2026</description>
+</item>
+<item>
 <title>[70] I Love Boosters (Movie)</title>
 <link>https://www.metacritic.com/movie/i-love-boosters/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/i-love-boosters/</guid>
 <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>34 reviews · 76% positive</description>
+</item>
+<item>
+<title>[50] Giant (Movie)</title>
+<link>https://www.metacritic.com/movie/giant-2025/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/giant-2025/</guid>
+<pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/62f20fe1e3343345add620e3c0314d3116d5cda4/catalog/provider/5/2/5-tt26452616.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 50 · Movie · Released May 22, 2026</description>
 </item>
 <item>
 <title>[77] Everybody to Kenmure Street (Movie)</title>
@@ -488,6 +744,14 @@
 <description>22 reviews · 77% positive</description>
 </item>
 <item>
+<title>[38] Tom Clancy's Jack Ryan: Ghost War (Movie)</title>
+<link>https://www.metacritic.com/movie/tom-clancys-jack-ryan-ghost-war/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/tom-clancys-jack-ryan-ghost-war/</guid>
+<pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a90a77f01c28ec3b81b8653c2b201d2b6f4239be/catalog/provider/7/2/7-1776355862.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 38 · Movie · Released May 20, 2026</description>
+</item>
+<item>
 <title>[63] Dutton Ranch (TV)</title>
 <link>https://www.metacritic.com/tv/dutton-ranch/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/dutton-ranch/</guid>
@@ -496,12 +760,28 @@
 <description>20 reviews · 40% positive</description>
 </item>
 <item>
+<title>[56] The Wizard of the Kremlin (Movie)</title>
+<link>https://www.metacritic.com/movie/the-wizard-of-the-kremlin/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-wizard-of-the-kremlin/</guid>
+<pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/053ebb0d22cfb675825b27cc03bc926f5ecd321d/catalog/provider/7/2/7-1777382824.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 56 · Movie · Released May 15, 2026</description>
+</item>
+<item>
 <title>[77] Obsession (Movie)</title>
 <link>https://www.metacritic.com/movie/obsession-2025/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/obsession-2025/</guid>
 <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>36 reviews · 89% positive</description>
+</item>
+<item>
+<title>[59] Magic Hour (Movie)</title>
+<link>https://www.metacritic.com/movie/magic-hour/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/magic-hour/</guid>
+<pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/cb7e4a8d3351f0dde6c9946540ac0908a3163f1a/catalog/provider/5/2/5-tt32134256.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 59 · Movie · Released May 15, 2026</description>
 </item>
 <item>
 <title>[72] LifeHack (Movie)</title>
@@ -518,6 +798,14 @@
 <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>21 reviews · 100% positive</description>
+</item>
+<item>
+<title>[53] In the Grey (Movie)</title>
+<link>https://www.metacritic.com/movie/in-the-grey/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/in-the-grey/</guid>
+<pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/b0c54066cd08f683abc01d4d378a1d61615cfaf0/catalog/provider/5/2/5-tt27681354.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 53 · Movie · Released May 15, 2026</description>
 </item>
 <item>
 <title>[70] Decorado (Movie)</title>
@@ -592,6 +880,22 @@
 <description>17 reviews · 100% positive</description>
 </item>
 <item>
+<title>[55] Remarkably Bright Creatures (Movie)</title>
+<link>https://www.metacritic.com/movie/remarkably-bright-creatures/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/remarkably-bright-creatures/</guid>
+<pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/08764a1cbf337ad62991bdee66a064fa1c9526fd/catalog/provider/7/2/7-1775671465.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 55 · Movie · Released May 8, 2026</description>
+</item>
+<item>
+<title>[46] Mortal Kombat II (Movie)</title>
+<link>https://www.metacritic.com/movie/mortal-kombat-ii/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/mortal-kombat-ii/</guid>
+<pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/7e381e18220dbe9e8707523e01d0800356531c1e/catalog/provider/5/2/5-tt17490712.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 46 · Movie · Released May 8, 2026</description>
+</item>
+<item>
 <title>[86] Blue Film (Movie)</title>
 <link>https://www.metacritic.com/movie/blue-film/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/blue-film/</guid>
@@ -614,6 +918,14 @@
 <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>5 reviews · 100% positive</description>
+</item>
+<item>
+<title>[59] M.I.A. (TV)</title>
+<link>https://www.metacritic.com/tv/mia/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/mia/</guid>
+<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/9aeb7857bd774173b985d2550f09e5a5b7762640/catalog/provider/5/2/5-tt33253070.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 59 · TV · Released May 7, 2026</description>
 </item>
 <item>
 <title>[76] Legends (2026) (TV)</title>
@@ -688,6 +1000,14 @@
 <description>57 reviews · 54% positive</description>
 </item>
 <item>
+<title>[56] Swapped (Movie)</title>
+<link>https://www.metacritic.com/movie/swapped/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/swapped/</guid>
+<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/2b4c0fe88921954dab27a615faee2d439bb6f3f7/catalog/provider/5/2/5-tt29552248.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 56 · Movie · Released May 1, 2026</description>
+</item>
+<item>
 <title>[86] Our Land (Nuestra Tierra) (Movie)</title>
 <link>https://www.metacritic.com/movie/our-land-nuestra-tierra/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/our-land-nuestra-tierra/</guid>
@@ -696,12 +1016,28 @@
 <description>15 reviews · 87% positive</description>
 </item>
 <item>
+<title>[38] One Spoon of Chocolate (Movie)</title>
+<link>https://www.metacritic.com/movie/one-spoon-of-chocolate/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/one-spoon-of-chocolate/</guid>
+<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/4665918bf3aef362081c86c58829f2213e48a5f4/catalog/provider/5/2/5-tt32192973.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 38 · Movie · Released May 1, 2026</description>
+</item>
+<item>
 <title>[76] Hokum (Movie)</title>
 <link>https://www.metacritic.com/movie/hokum/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/hokum/</guid>
 <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>32 reviews · 78% positive</description>
+</item>
+<item>
+<title>[29] Animal Farm (Movie)</title>
+<link>https://www.metacritic.com/movie/animal-farm/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/animal-farm/</guid>
+<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/140b81cf7bfd9923a0cf57bcfb4bc0792ad0196b/catalog/provider/5/2/5-tt2467700.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 29 · Movie · Released May 1, 2026</description>
 </item>
 <item>
 <title>[61] Man on Fire (2026) (TV)</title>
@@ -768,12 +1104,28 @@
 <description>9 reviews · 89% positive</description>
 </item>
 <item>
+<title>[51] Over Your Dead Body (Movie)</title>
+<link>https://www.metacritic.com/movie/over-your-dead-body/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/over-your-dead-body/</guid>
+<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/ccc4fc8f6da2d6b64dfc8e05ccecc06bdd7be717/catalog/provider/7/2/7-1775171534.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 51 · Movie · Released Apr 24, 2026</description>
+</item>
+<item>
 <title>[74] Omaha (Movie)</title>
 <link>https://www.metacritic.com/movie/omaha/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/omaha/</guid>
 <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>15 reviews · 87% positive</description>
+</item>
+<item>
+<title>[39] Michael (Movie)</title>
+<link>https://www.metacritic.com/movie/michael-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/michael-2026/</guid>
+<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/d830b0cfc2672b53ea0e5815ae1097884dae4fee/catalog/provider/7/2/7-1769965798.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 39 · Movie · Released Apr 24, 2026</description>
 </item>
 <item>
 <title>[70] I Swear (Movie)</title>
@@ -784,6 +1136,22 @@
 <description>28 reviews · 82% positive</description>
 </item>
 <item>
+<title>[60] Fuze (Movie)</title>
+<link>https://www.metacritic.com/movie/fuze/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/fuze/</guid>
+<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a0fc164b171a2c89c46c0eab1d1f5a0b4df5b606/catalog/provider/7/2/7-1773253114.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 60 · Movie · Released Apr 24, 2026</description>
+</item>
+<item>
+<title>[41] Desert Warrior (Movie)</title>
+<link>https://www.metacritic.com/movie/desert-warrior/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/desert-warrior/</guid>
+<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/89f58753dba7fc9f1185ba5ce5f255994723de67/catalog/provider/7/2/7-1775243849.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 41 · Movie · Released Apr 24, 2026</description>
+</item>
+<item>
 <title>[76] Bernstein's Wall (Movie)</title>
 <link>https://www.metacritic.com/movie/bernsteins-wall/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/bernsteins-wall/</guid>
@@ -792,12 +1160,28 @@
 <description>5 reviews · 100% positive</description>
 </item>
 <item>
+<title>[58] Apex (Movie)</title>
+<link>https://www.metacritic.com/movie/apex-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/apex-2026/</guid>
+<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/dd9a08484d09749d66729041195521c3bf431584/catalog/provider/7/2/7-1774459592.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 58 · Movie · Released Apr 24, 2026</description>
+</item>
+<item>
 <title>[83] Agon (Movie)</title>
 <link>https://www.metacritic.com/movie/agon/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/agon/</guid>
 <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>5 reviews · 100% positive</description>
+</item>
+<item>
+<title>[53] Stranger Things: Tales From '85 (TV)</title>
+<link>https://www.metacritic.com/tv/stranger-things-tales-from-85/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/stranger-things-tales-from-85/</guid>
+<pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/172a14ad2ac588e8f93461eb677ea7f4dc2fccc4/catalog/provider/2/2/2-64aa546061f990bb1e747305c0a80008.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 53 · TV · Released Apr 23, 2026</description>
 </item>
 <item>
 <title>[67] Half Man (TV)</title>
@@ -816,6 +1200,14 @@
 <description>4 reviews · 100% positive</description>
 </item>
 <item>
+<title>[47] Unchosen (TV)</title>
+<link>https://www.metacritic.com/tv/unchosen/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/unchosen/</guid>
+<pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/8ed0f56dc38b806298c490eca220f0f480ba70f6/catalog/provider/2/2/2-92b19b3283661cb310af1a6f8dde3415.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 47 · TV · Released Apr 21, 2026</description>
+</item>
+<item>
 <title>[62] Kevin (2026) (TV)</title>
 <link>https://www.metacritic.com/tv/kevin-2026/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/kevin-2026/</guid>
@@ -830,6 +1222,14 @@
 <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>12 reviews · 83% positive</description>
+</item>
+<item>
+<title>[57] Roommates (Movie)</title>
+<link>https://www.metacritic.com/movie/roommates/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/roommates/</guid>
+<pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/e6f23b0fb2b76bfc4085e78bc6ad223b6a7c1af1/catalog/provider/5/2/5-tt37540875.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 57 · Movie · Released Apr 17, 2026</description>
 </item>
 <item>
 <title>[63] Normal (Movie)</title>
@@ -848,6 +1248,14 @@
 <description>5 reviews · 100% positive</description>
 </item>
 <item>
+<title>[58] Mother Mary (Movie)</title>
+<link>https://www.metacritic.com/movie/mother-mary/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/mother-mary/</guid>
+<pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/013ed2dc61788570074305046edeeb85d7ba8aaf/catalog/provider/2/13/2-75e4a089d2c1b8e785fdeb6de5a23780.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 58 · Movie · Released Apr 17, 2026</description>
+</item>
+<item>
 <title>[77] Mile End Kicks (Movie)</title>
 <link>https://www.metacritic.com/movie/mile-end-kicks/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/mile-end-kicks/</guid>
@@ -862,6 +1270,22 @@
 <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>7 reviews · 100% positive</description>
+</item>
+<item>
+<title>[57] Lorne (Movie)</title>
+<link>https://www.metacritic.com/movie/lorne/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/lorne/</guid>
+<pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/164255384df8371e0b59c09574ef4bc8904310b3/catalog/provider/7/2/7-1772753231.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 57 · Movie · Released Apr 17, 2026</description>
+</item>
+<item>
+<title>[47] Lee Cronin's The Mummy (Movie)</title>
+<link>https://www.metacritic.com/movie/lee-cronins-the-mummy/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/lee-cronins-the-mummy/</guid>
+<pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/b2c8a8c2a19e3fbc28fb3e12f0d5eb3166af412d/catalog/provider/7/2/7-1776280843.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 47 · Movie · Released Apr 17, 2026</description>
 </item>
 <item>
 <title>[72] Everyone Is Lying to You for Money (Movie)</title>
@@ -912,6 +1336,14 @@
 <description>29 reviews · 86% positive</description>
 </item>
 <item>
+<title>[34] Balls Up (Movie)</title>
+<link>https://www.metacritic.com/movie/balls-up/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/balls-up/</guid>
+<pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/6dcd464851a4abee8a00f9b15e6e9637a83990d9/catalog/provider/7/2/7-1773937776.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 34 · Movie · Released Apr 15, 2026</description>
+</item>
+<item>
 <title>[62] The Audacity (TV)</title>
 <link>https://www.metacritic.com/tv/the-audacity/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-audacity/</guid>
@@ -928,6 +1360,22 @@
 <description>24 reviews · 71% positive</description>
 </item>
 <item>
+<title>[53] You, Me &amp; Tuscany (Movie)</title>
+<link>https://www.metacritic.com/movie/you-me-tuscany/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/you-me-tuscany/</guid>
+<pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/b60e282d4b47be2a2b0a7643977ff29f51841e84/catalog/provider/5/2/5-tt36352591.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 53 · Movie · Released Apr 10, 2026</description>
+</item>
+<item>
+<title>[48] Thrash (Movie)</title>
+<link>https://www.metacritic.com/movie/thrash/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/thrash/</guid>
+<pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/f88e9079e374d254f160c282cddb20a2d73ce860/catalog/provider/5/2/5-tt32362890.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 48 · Movie · Released Apr 10, 2026</description>
+</item>
+<item>
 <title>[69] The Travel Companion (Movie)</title>
 <link>https://www.metacritic.com/movie/the-travel-companion/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/the-travel-companion/</guid>
@@ -942,6 +1390,22 @@
 <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>42 reviews · 88% positive</description>
+</item>
+<item>
+<title>[71] Steal This Story, Please! (Movie)</title>
+<link>https://www.metacritic.com/movie/steal-this-story-please/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/steal-this-story-please/</guid>
+<pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/47760b1085d1695fec6c5d2895006238d7fc2650/catalog/provider/5/2/5-tt36748956.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 71 · Movie · Released Apr 10, 2026</description>
+</item>
+<item>
+<title>[37] Outcome (Movie)</title>
+<link>https://www.metacritic.com/movie/outcome/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/outcome/</guid>
+<pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/5bd8a1b797e79a3748368c8b954a5ff5edf7520a/catalog/provider/2/2/2-46ae836d231bb8f4eeba97f04068817b.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 37 · Movie · Released Apr 10, 2026</description>
 </item>
 <item>
 <title>[61] Hamlet (Movie)</title>
@@ -982,6 +1446,30 @@
 <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>5 reviews · 80% positive</description>
+</item>
+<item>
+<title>[55] Bunnylovr (Movie)</title>
+<link>https://www.metacritic.com/movie/bunnylovr/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/bunnylovr/</guid>
+<pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/26d30fe8d0339ec73f2f052d29bd362c11857ddb/catalog/provider/5/2/5-tt33998099.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 55 · Movie · Released Apr 10, 2026</description>
+</item>
+<item>
+<title>[50] Beast (Movie)</title>
+<link>https://www.metacritic.com/movie/beast-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/beast-2026/</guid>
+<pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/f26e44e3922c890bc1512ea852d3b7199122c6aa/catalog/provider/5/2/5-tt7708226.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 50 · Movie · Released Apr 10, 2026</description>
+</item>
+<item>
+<title>[59] The Miniature Wife (TV)</title>
+<link>https://www.metacritic.com/tv/the-miniature-wife/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-miniature-wife/</guid>
+<pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/5dcdf3d8ece8ef56cbd4ebf2d5adfac32cdab8d0/catalog/provider/7/2/7-1775155945.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 59 · TV · Released Apr 9, 2026</description>
 </item>
 <item>
 <title>[65] Big Mistakes (TV)</title>
@@ -1054,6 +1542,14 @@
 <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>5 reviews · 40% positive</description>
+</item>
+<item>
+<title>[54] The Feud on Shelbury Drive (TV)</title>
+<link>https://www.metacritic.com/tv/the-feud-on-shelbury-drive/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-feud-on-shelbury-drive/</guid>
+<pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/02851bbb6be8c73eca69c93eb89d8444654a99bc/catalog/provider/2/2/2-2e2299d9543dcea8acbb8673284348e4.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 54 · TV · Released Mar 30, 2026</description>
 </item>
 <item>
 <title>[85] Yes (Movie)</title>
@@ -1144,6 +1640,22 @@
 <description>18 reviews · 94% positive</description>
 </item>
 <item>
+<title>[59] The Forsytes (TV)</title>
+<link>https://www.metacritic.com/tv/the-forsytes/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-forsytes/</guid>
+<pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/acfc7944714b2a05e77840738fa3432441d0712f/catalog/provider/2/2/2-d9373da4ab78b0064877b69e671be585.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 59 · TV · Released Mar 22, 2026</description>
+</item>
+<item>
+<title>[50] The Faithful (TV)</title>
+<link>https://www.metacritic.com/tv/the-faithful/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-faithful/</guid>
+<pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/fa45851d7c6f83afa9506ba6500fd9692d87ead8/catalog/provider/7/2/7-1773704818.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 50 · TV · Released Mar 22, 2026</description>
+</item>
+<item>
 <title>[66] Saturday Night Live UK (TV)</title>
 <link>https://www.metacritic.com/tv/saturday-night-live-uk/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/saturday-night-live-uk/</guid>
@@ -1200,6 +1712,30 @@
 <description>8 reviews · 75% positive</description>
 </item>
 <item>
+<title>[60] The Lady (TV)</title>
+<link>https://www.metacritic.com/tv/the-lady/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-lady/</guid>
+<pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/cb07f6e8bed3d6100df55843693fbd44b29c0aec/catalog/provider/7/2/7-1772860145.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 60 · TV · Released Mar 18, 2026</description>
+</item>
+<item>
+<title>[54] Imperfect Women (TV)</title>
+<link>https://www.metacritic.com/tv/imperfect-women/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/imperfect-women/</guid>
+<pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/af970c2e038d16b295820315e1ed94ab8cb4bb1d/catalog/provider/2/2/2-b855c2ac9d586d9f42ae9eb4b77a9772.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 54 · TV · Released Mar 18, 2026</description>
+</item>
+<item>
+<title>[57] The Madison (TV)</title>
+<link>https://www.metacritic.com/tv/the-madison/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-madison/</guid>
+<pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/68649dfd81c064e7691fa2cc05177280824d73a6/catalog/provider/7/2/7-1772860060.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 57 · TV · Released Mar 14, 2026</description>
+</item>
+<item>
 <title>[64] undertone (Movie)</title>
 <link>https://www.metacritic.com/movie/undertone/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/undertone/</guid>
@@ -1222,6 +1758,14 @@
 <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>8 reviews · 100% positive</description>
+</item>
+<item>
+<title>[54] Scarpetta (TV)</title>
+<link>https://www.metacritic.com/tv/scarpetta/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/scarpetta/</guid>
+<pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/234fcfddb46ca365b761868de898b45ceabc3494/catalog/provider/7/2/7-1772655754.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 54 · TV · Released Mar 11, 2026</description>
 </item>
 <item>
 <title>[70] The Optimist (Movie)</title>
@@ -1304,6 +1848,14 @@
 <description>7 reviews · 86% positive</description>
 </item>
 <item>
+<title>[57] Marshals (TV)</title>
+<link>https://www.metacritic.com/tv/marshals/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/marshals/</guid>
+<pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/73f779cc357f40b4324bfea275d508203d193d2d/catalog/provider/7/2/7-1771893232.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 57 · TV · Released Mar 1, 2026</description>
+</item>
+<item>
 <title>[71] DTF St. Louis (TV)</title>
 <link>https://www.metacritic.com/tv/dtf-st-louis/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/dtf-st-louis/</guid>
@@ -1352,6 +1904,14 @@
 <description>23 reviews · 43% positive</description>
 </item>
 <item>
+<title>[48] The Gray House (TV)</title>
+<link>https://www.metacritic.com/tv/the-gray-house/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-gray-house/</guid>
+<pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/f8477d4570694915b7ac34f02957cd58d2d9a0d9/catalog/provider/2/2/2-0b6f8bc2163fb60c24c6f85692e8ebc9.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 48 · TV · Released Feb 26, 2026</description>
+</item>
+<item>
 <title>[73] Scrubs (2026) (TV)</title>
 <link>https://www.metacritic.com/tv/scrubs-2026/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/scrubs-2026/</guid>
@@ -1374,6 +1934,22 @@
 <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>16 reviews · 88% positive</description>
+</item>
+<item>
+<title>[47] CIA (TV)</title>
+<link>https://www.metacritic.com/tv/cia/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/cia/</guid>
+<pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/5c1d9d810764ad369adc67c2b289b1e0f11078e1/catalog/provider/2/2/2-16201d565c09f398c165b66800e4e583.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 47 · TV · Released Feb 23, 2026</description>
+</item>
+<item>
+<title>[50] Strip Law (TV)</title>
+<link>https://www.metacritic.com/tv/strip-law/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/strip-law/</guid>
+<pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/be7313b37d476998d0dfdaad517ba08c83cb0b98/catalog/provider/7/2/7-1770961329.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 50 · TV · Released Feb 20, 2026</description>
 </item>
 <item>
 <title>[78] Portobello (TV)</title>
@@ -1406,6 +1982,22 @@
 <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>17 reviews · 94% positive</description>
+</item>
+<item>
+<title>[60] Being Gordon Ramsay (TV)</title>
+<link>https://www.metacritic.com/tv/being-gordon-ramsay/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/being-gordon-ramsay/</guid>
+<pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/10d7ed2e322bf49996a84b0bc8e7e08306652130/catalog/provider/2/2/2-2f385ae4a0786b7479710b1de3b86452.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 60 · TV · Released Feb 18, 2026</description>
+</item>
+<item>
+<title>[55] 56 Days (TV)</title>
+<link>https://www.metacritic.com/tv/56-days/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/56-days/</guid>
+<pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/12c6df80476d195f5cb6252c0465a63b5cb672fb/catalog/provider/7/2/7-1770833934.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 55 · TV · Released Feb 18, 2026</description>
 </item>
 <item>
 <title>[67] Reality Check: Inside America's Next Top Model (TV)</title>
@@ -1576,6 +2168,14 @@
 <description>5 reviews · 60% positive</description>
 </item>
 <item>
+<title>[49] Vanished (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/vanished-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/vanished-2026/</guid>
+<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/956f2695622d68c1a629152c7d414eba0b2f1f38/catalog/provider/5/2/5-tt36958533.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 49 · TV · Released Feb 1, 2026</description>
+</item>
+<item>
 <title>[76] The Love That Remains (Movie)</title>
 <link>https://www.metacritic.com/movie/the-love-that-remains/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/the-love-that-remains/</guid>
@@ -1640,6 +2240,14 @@
 <description>31 reviews · 87% positive</description>
 </item>
 <item>
+<title>[52] Memory of a Killer (TV)</title>
+<link>https://www.metacritic.com/tv/memory-of-a-killer/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/memory-of-a-killer/</guid>
+<pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/65da69fb116e4ff7b4ed588a199e728bc08e0f65/catalog/provider/7/2/7-1769566499.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 52 · TV · Released Jan 25, 2026</description>
+</item>
+<item>
 <title>[70] Mother of Flies (Movie)</title>
 <link>https://www.metacritic.com/movie/mother-of-flies/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/mother-of-flies/</guid>
@@ -1670,6 +2278,14 @@
 <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>11 reviews · 100% positive</description>
+</item>
+<item>
+<title>[56] Finding Her Edge (TV)</title>
+<link>https://www.metacritic.com/tv/finding-her-edge/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/finding-her-edge/</guid>
+<pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/b6e9b349a6b1f0ca29bfd89a1323ffc013009565/catalog/provider/2/2/2-732543b97cb94af1398e7ca91e5da910.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 56 · TV · Released Jan 22, 2026</description>
 </item>
 <item>
 <title>[64] The Beauty (TV)</title>
@@ -1784,6 +2400,14 @@
 <description>12 reviews · 92% positive</description>
 </item>
 <item>
+<title>[59] Agatha Christie's Seven Dials (TV)</title>
+<link>https://www.metacritic.com/tv/agatha-christies-seven-dials/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/agatha-christies-seven-dials/</guid>
+<pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/d1fbecad2e22b3ac8bd78c68002c976a2f502dd9/catalog/provider/2/2/2-7caf0bb50da2a9454bfc01bfbb52792c.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 59 · TV · Released Jan 15, 2026</description>
+</item>
+<item>
 <title>[83] Riot Women (TV)</title>
 <link>https://www.metacritic.com/tv/riot-women/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/riot-women/</guid>
@@ -1798,6 +2422,14 @@
 <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>8 reviews · 88% positive</description>
+</item>
+<item>
+<title>[59] Coldwater (TV)</title>
+<link>https://www.metacritic.com/tv/coldwater/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/coldwater/</guid>
+<pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/400050b6258bd913f2e1663e8578591b23ff79ce/catalog/provider/2/2/2-dc1f2a22ba3cb9460dabbbba5ae09397.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 59 · TV · Released Jan 9, 2026</description>
 </item>
 <item>
 <title>[80] Young Mothers (Movie)</title>
@@ -1912,6 +2544,14 @@
 <description>9 reviews · 67% positive</description>
 </item>
 <item>
+<title>[59] Run Away (TV)</title>
+<link>https://www.metacritic.com/tv/run-away/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/run-away/</guid>
+<pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/9be6c842dbe898cf1ae13fe344bd4cfa9ae2827e/catalog/provider/2/2/2-3e890698c2a73949e568c81916e073b7.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 59 · TV · Released Jan 1, 2026</description>
+</item>
+<item>
 <title>[64] I'm Chevy Chase and You're Not (Movie)</title>
 <link>https://www.metacritic.com/movie/im-chevy-chase-and-youre-not/</link>
 <guid isPermaLink="false">https://www.metacritic.com/movie/im-chevy-chase-and-youre-not/</guid>
@@ -1934,6 +2574,14 @@
 <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>8 reviews · 38% positive</description>
+</item>
+<item>
+<title>[54] Nightsleeper (TV)</title>
+<link>https://www.metacritic.com/tv/nightsleeper/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/nightsleeper/</guid>
+<pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a793ddfe7e90f4f06f54f854061bb3a54db4d739/catalog/provider/2/2/2-4284511b0fa89604fbab622a09dacaf6.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 54 · TV · Released Dec 26, 2025</description>
 </item>
 <item>
 <title>[80] The Testament of Ann Lee (Movie)</title>
@@ -2072,12 +2720,28 @@
 <description>11 reviews · 55% positive</description>
 </item>
 <item>
+<title>[36] Simon Cowell: The Next Act (TV)</title>
+<link>https://www.metacritic.com/tv/simon-cowell-the-next-act/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/simon-cowell-the-next-act/</guid>
+<pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/15f88f8f1a44337ccc5f4130709346d4bade5c79/catalog/provider/7/2/7-1765910014.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 36 · TV · Released Dec 10, 2025</description>
+</item>
+<item>
 <title>[75] Spartacus: House of Ashur (TV)</title>
 <link>https://www.metacritic.com/tv/spartacus-house-of-ashur/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/spartacus-house-of-ashur/</guid>
 <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>9 reviews · 78% positive</description>
+</item>
+<item>
+<title>[43] The Abandons (TV)</title>
+<link>https://www.metacritic.com/tv/the-abandons/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-abandons/</guid>
+<pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/f6bc58c26611f841c4e0825eb710be62a6666698/catalog/provider/2/2/2-25d14b139a018a395c20f40ee0ba86cb.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 43 · TV · Released Dec 4, 2025</description>
 </item>
 <item>
 <title>[67] Sean Combs: The Reckoning (TV)</title>
@@ -2160,6 +2824,14 @@
 <description>9 reviews · 67% positive</description>
 </item>
 <item>
+<title>[52] Malice (TV)</title>
+<link>https://www.metacritic.com/tv/malice/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/malice/</guid>
+<pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/207defc764b69b0a75b0cc0f2f98270f22b6f820/catalog/provider/2/2/2-c01349221acb5a999d5286e5b1d6e4e6.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 52 · TV · Released Nov 14, 2025</description>
+</item>
+<item>
 <title>[71] The Beast In Me (TV)</title>
 <link>https://www.metacritic.com/tv/the-beast-in-me/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-beast-in-me/</guid>
@@ -2208,6 +2880,14 @@
 <description>18 reviews · 61% positive</description>
 </item>
 <item>
+<title>[17] All's Fair (2025) (TV)</title>
+<link>https://www.metacritic.com/tv/alls-fair-2025/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/alls-fair-2025/</guid>
+<pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/5229832cdbc8b8bacf51a2b471e63a22066ac3fa/catalog/provider/2/2/2-6cea00a106c00b2afc799b83b2e51ca9.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 17 · TV · Released Nov 4, 2025</description>
+</item>
+<item>
 <title>[67] Robin Hood (2025) (TV)</title>
 <link>https://www.metacritic.com/tv/robin-hood-2025/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/robin-hood-2025/</guid>
@@ -2222,6 +2902,14 @@
 <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>22 reviews · 36% positive</description>
+</item>
+<item>
+<title>[54] King &amp; Conqueror (TV)</title>
+<link>https://www.metacritic.com/tv/king-conqueror/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/king-conqueror/</guid>
+<pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a4e4f743472773c0b66f581d48952fdd762b44b1/catalog/provider/2/2/2-ee0bef0b8f038f6496404b9e13b58725.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 54 · TV · Released Nov 1, 2025</description>
 </item>
 <item>
 <title>[61] Ten Pound Poms (TV)</title>
@@ -2254,6 +2942,22 @@
 <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>30 reviews · 47% positive</description>
+</item>
+<item>
+<title>[58] The Monster of Florence (TV)</title>
+<link>https://www.metacritic.com/tv/the-monster-of-florence/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-monster-of-florence/</guid>
+<pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/c1677d30f97dc10aa79113e87ccfe514a12e5be0/catalog/provider/2/2/2-3eb12c2aa502f161d10d6373bb016c3a.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 58 · TV · Released Oct 22, 2025</description>
+</item>
+<item>
+<title>[53] Harlan Coben's Lazarus (TV)</title>
+<link>https://www.metacritic.com/tv/harlan-cobens-lazarus/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/harlan-cobens-lazarus/</guid>
+<pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/ef4d6e7166c6220e033fafe4a0af9db00315f7f5/catalog/provider/2/2/2-b2b123d1000f4a20dfe68ba8bd4c102f.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 53 · TV · Released Oct 22, 2025</description>
 </item>
 <item>
 <title>[81] Hal &amp; Harper (TV)</title>
@@ -2320,12 +3024,36 @@
 <description>4 reviews · 75% positive</description>
 </item>
 <item>
+<title>[53] DMV (TV)</title>
+<link>https://www.metacritic.com/tv/dmv/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/dmv/</guid>
+<pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/64b43d24584dd210942dbaedf991f9555cbaf735/catalog/provider/2/2/2-441399b6fc58af05397293f030bf214b.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 53 · TV · Released Oct 13, 2025</description>
+</item>
+<item>
 <title>[82] The Chair Company (TV)</title>
 <link>https://www.metacritic.com/tv/the-chair-company/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-chair-company/</guid>
 <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>26 reviews · 100% positive</description>
+</item>
+<item>
+<title>[53] The Last Frontier (2025) (TV)</title>
+<link>https://www.metacritic.com/tv/the-last-frontier-2025/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-last-frontier-2025/</guid>
+<pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/ce5e4bf764f2b5d83bd7c647f0f61fce5fd97d03/catalog/provider/2/2/2-2f1bb0305b066d19f4a8df9c52e14eca.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 53 · TV · Released Oct 10, 2025</description>
+</item>
+<item>
+<title>[44] Victoria Beckham (TV)</title>
+<link>https://www.metacritic.com/tv/victoria-beckham/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/victoria-beckham/</guid>
+<pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/1432838a4670535eea1addecbeda706748ba5442/catalog/provider/2/2/2-c4cd9eb70034dcd867a7337a00aa9b19.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 44 · TV · Released Oct 9, 2025</description>
 </item>
 <item>
 <title>[73] Boots (TV)</title>
@@ -2368,6 +3096,14 @@
 <description>8 reviews · 75% positive</description>
 </item>
 <item>
+<title>[53] Chad Powers (TV)</title>
+<link>https://www.metacritic.com/tv/chad-powers/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/chad-powers/</guid>
+<pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/7c96c0454d663015a1e8237e34b69b58caedaf20/catalog/provider/2/2/2-24245757507f2abd6d073d669086f0bd.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 53 · TV · Released Sep 30, 2025</description>
+</item>
+<item>
 <title>[66] Murder Before Evensong (TV)</title>
 <link>https://www.metacritic.com/tv/murder-before-evensong/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/murder-before-evensong/</guid>
@@ -2408,12 +3144,28 @@
 <description>10 reviews · 40% positive</description>
 </item>
 <item>
+<title>[58] Hotel Costiera (TV)</title>
+<link>https://www.metacritic.com/tv/hotel-costiera/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/hotel-costiera/</guid>
+<pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/102efb7d929877a46ba673e3997ec6fdacb938af/catalog/provider/2/2/2-18d09769f911575a5622626ae6a99b21.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 58 · TV · Released Sep 24, 2025</description>
+</item>
+<item>
 <title>[85] The Lowdown (TV)</title>
 <link>https://www.metacritic.com/tv/the-lowdown/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-lowdown/</guid>
 <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>29 reviews · 100% positive</description>
+</item>
+<item>
+<title>[58] Haunted Hotel (TV)</title>
+<link>https://www.metacritic.com/tv/haunted-hotel/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/haunted-hotel/</guid>
+<pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/508d85be77c48cf7c346388cce67218e678ade91/catalog/provider/2/2/2-11878674bd40e22ea3deb76aae71b1f4.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 58 · TV · Released Sep 19, 2025</description>
 </item>
 <item>
 <title>[63] Black Rabbit (TV)</title>
@@ -2440,6 +3192,14 @@
 <description>6 reviews · 83% positive</description>
 </item>
 <item>
+<title>[58] The Hardacres (TV)</title>
+<link>https://www.metacritic.com/tv/the-hardacres/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-hardacres/</guid>
+<pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/7e39babcc6f01ddd51fc5beb68abd6916fedb3dd/catalog/provider/2/2/2-f3658f016525e1acdb3d03ac4caec50f.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 58 · TV · Released Sep 10, 2025</description>
+</item>
+<item>
 <title>[70] The Girlfriend (TV)</title>
 <link>https://www.metacritic.com/tv/the-girlfriend/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-girlfriend/</guid>
@@ -2462,6 +3222,14 @@
 <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>10 reviews · 80% positive</description>
+</item>
+<item>
+<title>[57] aka Charlie Sheen (TV)</title>
+<link>https://www.metacritic.com/tv/aka-charlie-sheen/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/aka-charlie-sheen/</guid>
+<pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/b936bb6a1f311bb7f49ad7b3a02c3c181628d98d/catalog/provider/2/2/2-0f060847fb4d273da33c17718f04fba3.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 57 · TV · Released Sep 10, 2025</description>
 </item>
 <item>
 <title>[71] The Crow Girl (TV)</title>
@@ -2494,6 +3262,14 @@
 <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>6 reviews · 83% positive</description>
+</item>
+<item>
+<title>[59] Lynley (TV)</title>
+<link>https://www.metacritic.com/tv/lynley/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/lynley/</guid>
+<pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/723299a2fcd034307f9cb7c47fba901be56fcf0d/catalog/provider/2/2/2-1f20ab74ef0742d0b5d3011874701773.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 59 · TV · Released Sep 4, 2025</description>
 </item>
 <item>
 <title>[71] Kidnapped: The Chloe Ayling Story (TV)</title>
@@ -2566,6 +3342,30 @@
 <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>4 reviews · 100% positive</description>
+</item>
+<item>
+<title>[53] The Rainmaker (TV)</title>
+<link>https://www.metacritic.com/tv/the-rainmaker/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-rainmaker/</guid>
+<pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/9baaa203e744b89f7b827f8ba71a7892f64dc63b/catalog/provider/2/2/2-5b29ad18d7be55e9f2eae06954ce0adc.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 53 · TV · Released Aug 15, 2025</description>
+</item>
+<item>
+<title>[52] Fit for TV: The Reality of The Biggest Loser (TV)</title>
+<link>https://www.metacritic.com/tv/fit-for-tv-the-reality-of-the-biggest-loser/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/fit-for-tv-the-reality-of-the-biggest-loser/</guid>
+<pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a60619999b45257bec96fc64aac2a1c0a4d59808/catalog/provider/2/2/2-e0aaa5e5091cc2010f872b6c041728c3.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 52 · TV · Released Aug 15, 2025</description>
+</item>
+<item>
+<title>[60] Butterfly (2025) (TV)</title>
+<link>https://www.metacritic.com/tv/butterfly-2025/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/butterfly-2025/</guid>
+<pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/ebf9492c3b4b865431c806e5e0ece18315ee983d/catalog/provider/7/2/7-1753400334.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 60 · TV · Released Aug 13, 2025</description>
 </item>
 <item>
 <title>[85] Alien: Earth (TV)</title>
@@ -2664,6 +3464,14 @@
 <description>4 reviews · 50% positive</description>
 </item>
 <item>
+<title>[59] Red Eye (2024) (TV)</title>
+<link>https://www.metacritic.com/tv/red-eye-2024/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/red-eye-2024/</guid>
+<pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/19039a312bc0c76bc9b98f1794787a663dce6307/catalog/provider/2/2/2-09eb1e5d0bf5c09719f8799a5942567f.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 59 · TV · Released Jul 22, 2025</description>
+</item>
+<item>
 <title>[73] The Hunting Wives (TV)</title>
 <link>https://www.metacritic.com/tv/the-hunting-wives/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/the-hunting-wives/</guid>
@@ -2688,6 +3496,14 @@
 <description>24 reviews · 42% positive</description>
 </item>
 <item>
+<title>[52] The Institute (TV)</title>
+<link>https://www.metacritic.com/tv/the-institute/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-institute/</guid>
+<pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/c4c92be53192a772fe38873c85c12b91c946f393/catalog/provider/7/2/7-1751999524.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 52 · TV · Released Jul 13, 2025</description>
+</item>
+<item>
 <title>[65] Dexter: Resurrection (TV)</title>
 <link>https://www.metacritic.com/tv/dexter-resurrection/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/dexter-resurrection/</guid>
@@ -2710,6 +3526,22 @@
 <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>5 reviews · 60% positive</description>
+</item>
+<item>
+<title>[50] Insomnia (2024) (TV)</title>
+<link>https://www.metacritic.com/tv/insomnia-2024/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/insomnia-2024/</guid>
+<pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/f4fe14287db62e1e4b802b45b0b5f2295377e9ec/catalog/provider/2/2/2-785ec61dd81ec45143a4aaf3df6698ff.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 50 · TV · Released Jul 9, 2025</description>
+</item>
+<item>
+<title>[58] Building the Band (TV)</title>
+<link>https://www.metacritic.com/tv/building-the-band/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/building-the-band/</guid>
+<pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/7c40b3e2fc7f69957b9798c8635d6f10ed97818b/catalog/provider/7/2/7-1751529673.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 58 · TV · Released Jul 9, 2025</description>
 </item>
 <item>
 <title>[83] Ballard (TV)</title>
@@ -2744,12 +3576,44 @@
 <description>20 reviews · 60% positive</description>
 </item>
 <item>
+<title>[44] Countdown (2025) (TV)</title>
+<link>https://www.metacritic.com/tv/countdown-2025/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/countdown-2025/</guid>
+<pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/569440bd0b767f7d2940a614d84450acf6d74bb2/catalog/provider/2/2/2-8ce3fb71878de0e1339fa58007f3ba49.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 44 · TV · Released Jun 25, 2025</description>
+</item>
+<item>
 <title>[61] Trainwreck: Poop Cruise (TV)</title>
 <link>https://www.metacritic.com/tv/trainwreck-poop-cruise/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/trainwreck-poop-cruise/</guid>
 <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>5 reviews</description>
+</item>
+<item>
+<title>[57] Ironheart (TV)</title>
+<link>https://www.metacritic.com/tv/ironheart/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/ironheart/</guid>
+<pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/fe4625111349300a0d3d715795a6ee66cdb8f3df/catalog/provider/2/2/2-31534bf4714855783b01c1662c4e3d00.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 57 · TV · Released Jun 24, 2025</description>
+</item>
+<item>
+<title>[54] The Waterfront (TV)</title>
+<link>https://www.metacritic.com/tv/the-waterfront/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-waterfront/</guid>
+<pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/eaa000789735330dffe3c6e9869214f14a4b944b/catalog/provider/2/2/2-3ac3be10f644072c873488e6395e3484.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 54 · TV · Released Jun 19, 2025</description>
+</item>
+<item>
+<title>[57] We Were Liars (TV)</title>
+<link>https://www.metacritic.com/tv/we-were-liars/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/we-were-liars/</guid>
+<pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/77065470843bc94c1f3efbb514f42eb56a8bd831/catalog/provider/2/2/2-0efa767aea0193e9fb76f7abe2093d7d.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;Metascore 57 · TV · Released Jun 18, 2025</description>
 </item>
 <item>
 <title>[74] Outrageous (TV)</title>
@@ -3142,870 +4006,6 @@
 <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>7 reviews · 86% positive</description>
-</item>
-<item>
-<title>[61] Douglas is Cancelled (TV)</title>
-<link>https://www.metacritic.com/tv/douglas-is-cancelled/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/douglas-is-cancelled/</guid>
-<pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>13 reviews · 38% positive</description>
-</item>
-<item>
-<title>[76] Deli Boys (TV)</title>
-<link>https://www.metacritic.com/tv/deli-boys/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/deli-boys/</guid>
-<pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>16 reviews · 94% positive</description>
-</item>
-<item>
-<title>[72] The Leopard (TV)</title>
-<link>https://www.metacritic.com/tv/the-leopard/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-leopard/</guid>
-<pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>5 reviews · 80% positive</description>
-</item>
-<item>
-<title>[71] Lost Boys &amp; Fairies (TV)</title>
-<link>https://www.metacritic.com/tv/lost-boys-fairies/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/lost-boys-fairies/</guid>
-<pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>7 reviews · 71% positive</description>
-</item>
-<item>
-<title>[70] Daredevil: Born Again (TV)</title>
-<link>https://www.metacritic.com/tv/daredevil-born-again/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/daredevil-born-again/</guid>
-<pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>49 reviews · 65% positive</description>
-</item>
-<item>
-<title>[82] Toxic Town (TV)</title>
-<link>https://www.metacritic.com/tv/toxic-town/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/toxic-town/</guid>
-<pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>8 reviews · 100% positive</description>
-</item>
-<item>
-<title>[64] Running Point (TV)</title>
-<link>https://www.metacritic.com/tv/running-point/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/running-point/</guid>
-<pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>29 reviews · 59% positive</description>
-</item>
-<item>
-<title>[88] Eyes on the Prize III: We Who Believe in Freedom Cannot Rest (TV)</title>
-<link>https://www.metacritic.com/tv/eyes-on-the-prize-iii-we-who-believe-in-freedom-cannot-rest/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/eyes-on-the-prize-iii-we-who-believe-in-freedom-cannot-rest/</guid>
-<pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[75] Black Ops (TV)</title>
-<link>https://www.metacritic.com/tv/black-ops/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/black-ops/</guid>
-<pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 50% positive</description>
-</item>
-<item>
-<title>[79] Beyond the Gates (TV)</title>
-<link>https://www.metacritic.com/tv/beyond-the-gates/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/beyond-the-gates/</guid>
-<pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>5 reviews · 100% positive</description>
-</item>
-<item>
-<title>[61] The Americas (TV)</title>
-<link>https://www.metacritic.com/tv/the-americas/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-americas/</guid>
-<pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>5 reviews · 40% positive</description>
-</item>
-<item>
-<title>[77] A Thousand Blows (TV)</title>
-<link>https://www.metacritic.com/tv/a-thousand-blows/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/a-thousand-blows/</guid>
-<pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>31 reviews · 77% positive</description>
-</item>
-<item>
-<title>[68] Win or Lose (TV)</title>
-<link>https://www.metacritic.com/tv/win-or-lose/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/win-or-lose/</guid>
-<pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>14 reviews · 57% positive</description>
-</item>
-<item>
-<title>[70] Good Cop/Bad Cop (TV)</title>
-<link>https://www.metacritic.com/tv/good-copbad-cop/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/good-copbad-cop/</guid>
-<pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>8 reviews · 75% positive</description>
-</item>
-<item>
-<title>[85] Best Interests (TV)</title>
-<link>https://www.metacritic.com/tv/best-interests/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/best-interests/</guid>
-<pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>11 reviews · 100% positive</description>
-</item>
-<item>
-<title>[77] A Cruel Love: The Ruth Ellis Story (TV)</title>
-<link>https://www.metacritic.com/tv/a-cruel-love-the-ruth-ellis-story/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/a-cruel-love-the-ruth-ellis-story/</guid>
-<pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>8 reviews · 75% positive</description>
-</item>
-<item>
-<title>[67] SNL50: The Anniversary Special (TV)</title>
-<link>https://www.metacritic.com/tv/snl50-the-anniversary-special/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/snl50-the-anniversary-special/</guid>
-<pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>10 reviews · 60% positive</description>
-</item>
-<item>
-<title>[67] Clean Slate (TV)</title>
-<link>https://www.metacritic.com/tv/clean-slate/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/clean-slate/</guid>
-<pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>16 reviews · 75% positive</description>
-</item>
-<item>
-<title>[71] Apple Cider Vinegar (TV)</title>
-<link>https://www.metacritic.com/tv/apple-cider-vinegar/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/apple-cider-vinegar/</guid>
-<pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>28 reviews · 64% positive</description>
-</item>
-<item>
-<title>[71] Love You to Death (TV)</title>
-<link>https://www.metacritic.com/tv/love-you-to-death/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/love-you-to-death/</guid>
-<pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 75% positive</description>
-</item>
-<item>
-<title>[80] Common Side Effects (TV)</title>
-<link>https://www.metacritic.com/tv/common-side-effects/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/common-side-effects/</guid>
-<pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>6 reviews · 100% positive</description>
-</item>
-<item>
-<title>[86] Vietnam: The War That Changed America (TV)</title>
-<link>https://www.metacritic.com/tv/vietnam-the-war-that-changed-america/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/vietnam-the-war-that-changed-america/</guid>
-<pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[76] Your Friendly Neighborhood Spider-Man (TV)</title>
-<link>https://www.metacritic.com/tv/your-friendly-neighborhood-spider-man/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/your-friendly-neighborhood-spider-man/</guid>
-<pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>11 reviews · 91% positive</description>
-</item>
-<item>
-<title>[70] Paradise (2025) (TV)</title>
-<link>https://www.metacritic.com/tv/paradise-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/paradise-2025/</guid>
-<pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>57 reviews · 74% positive</description>
-</item>
-<item>
-<title>[83] Planet Earth: Asia (TV)</title>
-<link>https://www.metacritic.com/tv/planet-earth-asia/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/planet-earth-asia/</guid>
-<pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>5 reviews · 100% positive</description>
-</item>
-<item>
-<title>[72] SNL50: Beyond Saturday Night (TV)</title>
-<link>https://www.metacritic.com/tv/snl50-beyond-saturday-night/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/snl50-beyond-saturday-night/</guid>
-<pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>10 reviews · 70% positive</description>
-</item>
-<item>
-<title>[85] The Pitt (TV)</title>
-<link>https://www.metacritic.com/tv/the-pitt/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-pitt/</guid>
-<pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>62 reviews · 90% positive</description>
-</item>
-<item>
-<title>[89] Asura (TV)</title>
-<link>https://www.metacritic.com/tv/asura/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/asura/</guid>
-<pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>5 reviews · 100% positive</description>
-</item>
-<item>
-<title>[73] Jerry Springer: Fights, Camera, Action (TV)</title>
-<link>https://www.metacritic.com/tv/jerry-springer-fights-camera-action/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/jerry-springer-fights-camera-action/</guid>
-<pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>6 reviews · 50% positive</description>
-</item>
-<item>
-<title>[66] Lockerbie: A Search for Truth (TV)</title>
-<link>https://www.metacritic.com/tv/lockerbie-a-search-for-truth/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/lockerbie-a-search-for-truth/</guid>
-<pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>15 reviews · 53% positive</description>
-</item>
-<item>
-<title>[63] Going Dutch (TV)</title>
-<link>https://www.metacritic.com/tv/going-dutch/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/going-dutch/</guid>
-<pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>8 reviews · 50% positive</description>
-</item>
-<item>
-<title>[75] Cunk on Life (TV)</title>
-<link>https://www.metacritic.com/tv/cunk-on-life/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/cunk-on-life/</guid>
-<pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>8 reviews · 75% positive</description>
-</item>
-<item>
-<title>[65] Protection (TV)</title>
-<link>https://www.metacritic.com/tv/protection/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/protection/</guid>
-<pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>6 reviews · 33% positive</description>
-</item>
-<item>
-<title>[73] Laid (2024) (TV)</title>
-<link>https://www.metacritic.com/tv/laid-2024/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/laid-2024/</guid>
-<pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>17 reviews · 71% positive</description>
-</item>
-<item>
-<title>[66] The Jetty (TV)</title>
-<link>https://www.metacritic.com/tv/the-jetty/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-jetty/</guid>
-<pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>7 reviews · 43% positive</description>
-</item>
-<item>
-<title>[80] Paris &amp; Nicole: The Encore (TV)</title>
-<link>https://www.metacritic.com/tv/paris-nicole-the-encore/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/paris-nicole-the-encore/</guid>
-<pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[63] No Good Deed (2024) (TV)</title>
-<link>https://www.metacritic.com/tv/no-good-deed-2024/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/no-good-deed-2024/</guid>
-<pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>23 reviews · 48% positive</description>
-</item>
-<item>
-<title>[80] One Hundred Years of Solitude (TV)</title>
-<link>https://www.metacritic.com/tv/one-hundred-years-of-solitude/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/one-hundred-years-of-solitude/</guid>
-<pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>16 reviews · 81% positive</description>
-</item>
-<item>
-<title>[67] Dream Productions (TV)</title>
-<link>https://www.metacritic.com/tv/dream-productions/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/dream-productions/</guid>
-<pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>14 reviews · 57% positive</description>
-</item>
-<item>
-<title>[83] Jamie Foxx: What Had Happened Was... (TV)</title>
-<link>https://www.metacritic.com/tv/jamie-foxx-what-had-happened-was/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/jamie-foxx-what-had-happened-was/</guid>
-<pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>5 reviews · 100% positive</description>
-</item>
-<item>
-<title>[67] The Sticky (TV)</title>
-<link>https://www.metacritic.com/tv/the-sticky/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-sticky/</guid>
-<pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>16 reviews · 75% positive</description>
-</item>
-<item>
-<title>[65] Paris Has Fallen (TV)</title>
-<link>https://www.metacritic.com/tv/paris-has-fallen/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/paris-has-fallen/</guid>
-<pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>6 reviews · 33% positive</description>
-</item>
-<item>
-<title>[74] Creature Commandos (TV)</title>
-<link>https://www.metacritic.com/tv/creature-commandos/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/creature-commandos/</guid>
-<pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>12 reviews · 83% positive</description>
-</item>
-<item>
-<title>[78] Black Doves (TV)</title>
-<link>https://www.metacritic.com/tv/black-doves/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/black-doves/</guid>
-<pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>31 reviews · 94% positive</description>
-</item>
-<item>
-<title>[84] Big Boys (TV)</title>
-<link>https://www.metacritic.com/tv/big-boys/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/big-boys/</guid>
-<pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>14 reviews · 100% positive</description>
-</item>
-<item>
-<title>[72] Star Wars: Skeleton Crew (TV)</title>
-<link>https://www.metacritic.com/tv/star-wars-skeleton-crew/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/star-wars-skeleton-crew/</guid>
-<pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>23 reviews · 78% positive</description>
-</item>
-<item>
-<title>[68] The Agency (2024) (TV)</title>
-<link>https://www.metacritic.com/tv/the-agency-2024/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-agency-2024/</guid>
-<pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>28 reviews · 54% positive</description>
-</item>
-<item>
-<title>[65] The Madness (TV)</title>
-<link>https://www.metacritic.com/tv/the-madness/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-madness/</guid>
-<pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>19 reviews · 53% positive</description>
-</item>
-<item>
-<title>[80] Get Millie Black (TV)</title>
-<link>https://www.metacritic.com/tv/get-millie-black/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/get-millie-black/</guid>
-<pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>15 reviews · 100% positive</description>
-</item>
-<item>
-<title>[74] A Man on the Inside (TV)</title>
-<link>https://www.metacritic.com/tv/a-man-on-the-inside/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/a-man-on-the-inside/</guid>
-<pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>35 reviews · 77% positive</description>
-</item>
-<item>
-<title>[64] Interior Chinatown (TV)</title>
-<link>https://www.metacritic.com/tv/interior-chinatown/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/interior-chinatown/</guid>
-<pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>12 reviews · 58% positive</description>
-</item>
-<item>
-<title>[75] Leonardo da Vinci (TV)</title>
-<link>https://www.metacritic.com/tv/leonardo-da-vinci/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/leonardo-da-vinci/</guid>
-<pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>10 reviews · 80% positive</description>
-</item>
-<item>
-<title>[62] Landman (TV)</title>
-<link>https://www.metacritic.com/tv/landman/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/landman/</guid>
-<pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>28 reviews · 50% positive</description>
-</item>
-<item>
-<title>[64] Dune: Prophecy (TV)</title>
-<link>https://www.metacritic.com/tv/dune-prophecy/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/dune-prophecy/</guid>
-<pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>34 reviews · 50% positive</description>
-</item>
-<item>
-<title>[72] The Day of the Jackal (TV)</title>
-<link>https://www.metacritic.com/tv/the-day-of-the-jackal/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-day-of-the-jackal/</guid>
-<pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>28 reviews · 75% positive</description>
-</item>
-<item>
-<title>[80] Say Nothing (TV)</title>
-<link>https://www.metacritic.com/tv/say-nothing/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/say-nothing/</guid>
-<pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>23 reviews · 83% positive</description>
-</item>
-<item>
-<title>[62] Cross (TV)</title>
-<link>https://www.metacritic.com/tv/cross/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/cross/</guid>
-<pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>28 reviews · 46% positive</description>
-</item>
-<item>
-<title>[66] St. Denis Medical (TV)</title>
-<link>https://www.metacritic.com/tv/st-denis-medical/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/st-denis-medical/</guid>
-<pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>18 reviews · 67% positive</description>
-</item>
-<item>
-<title>[75] Rebus (TV)</title>
-<link>https://www.metacritic.com/tv/rebus/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/rebus/</guid>
-<pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>8 reviews · 75% positive</description>
-</item>
-<item>
-<title>[80] Like Water for Chocolate (TV)</title>
-<link>https://www.metacritic.com/tv/like-water-for-chocolate/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/like-water-for-chocolate/</guid>
-<pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>6 reviews · 100% positive</description>
-</item>
-<item>
-<title>[63] Prince William: We Can End Homelessness (TV)</title>
-<link>https://www.metacritic.com/tv/prince-william-we-can-end-homelessness/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/prince-william-we-can-end-homelessness/</guid>
-<pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 50% positive</description>
-</item>
-<item>
-<title>[78] Wizards Beyond Waverly Place (TV)</title>
-<link>https://www.metacritic.com/tv/wizards-beyond-waverly-place/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/wizards-beyond-waverly-place/</guid>
-<pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[61] The Marlow Murder Club (TV)</title>
-<link>https://www.metacritic.com/tv/the-marlow-murder-club/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-marlow-murder-club/</guid>
-<pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>11 reviews · 36% positive</description>
-</item>
-<item>
-<title>[71] Territory (TV)</title>
-<link>https://www.metacritic.com/tv/territory/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/territory/</guid>
-<pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[68] Hasan Minhaj: Off With His Head (TV)</title>
-<link>https://www.metacritic.com/tv/hasan-minhaj-off-with-his-head/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/hasan-minhaj-off-with-his-head/</guid>
-<pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 50% positive</description>
-</item>
-<item>
-<title>[62] Poppa's House (TV)</title>
-<link>https://www.metacritic.com/tv/poppas-house/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/poppas-house/</guid>
-<pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>7 reviews · 57% positive</description>
-</item>
-<item>
-<title>[85] Rivals (TV)</title>
-<link>https://www.metacritic.com/tv/rivals/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/rivals/</guid>
-<pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>24 reviews · 92% positive</description>
-</item>
-<item>
-<title>[65] It's Florida, Man. (TV)</title>
-<link>https://www.metacritic.com/tv/its-florida-man/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/its-florida-man/</guid>
-<pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>6 reviews · 67% positive</description>
-</item>
-<item>
-<title>[62] Hysteria! (TV)</title>
-<link>https://www.metacritic.com/tv/hysteria!/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/hysteria!/</guid>
-<pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>7 reviews · 57% positive</description>
-</item>
-<item>
-<title>[73] Passenger (TV)</title>
-<link>https://www.metacritic.com/tv/passenger/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/passenger/</guid>
-<pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>7 reviews · 57% positive</description>
-</item>
-<item>
-<title>[61] Georgie &amp; Mandy's First Marriage (TV)</title>
-<link>https://www.metacritic.com/tv/georgie-mandys-first-marriage/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/georgie-mandys-first-marriage/</guid>
-<pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>11 reviews · 64% positive</description>
-</item>
-<item>
-<title>[62] NCIS: Origins (TV)</title>
-<link>https://www.metacritic.com/tv/ncis-origins/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/ncis-origins/</guid>
-<pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>8 reviews · 75% positive</description>
-</item>
-<item>
-<title>[70] Disclaimer (TV)</title>
-<link>https://www.metacritic.com/tv/disclaimer/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/disclaimer/</guid>
-<pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>32 reviews · 69% positive</description>
-</item>
-<item>
-<title>[65] Tomb Raider: The Legend of Lara Croft (TV)</title>
-<link>https://www.metacritic.com/tv/tomb-raider-the-legend-of-lara-croft/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/tomb-raider-the-legend-of-lara-croft/</guid>
-<pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>7 reviews · 57% positive</description>
-</item>
-<item>
-<title>[69] Sweetpea (TV)</title>
-<link>https://www.metacritic.com/tv/sweetpea/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/sweetpea/</guid>
-<pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>12 reviews · 58% positive</description>
-</item>
-<item>
-<title>[67] La Máquina (TV)</title>
-<link>https://www.metacritic.com/tv/la-maquina/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/la-maquina/</guid>
-<pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>16 reviews · 69% positive</description>
-</item>
-<item>
-<title>[80] Ali Wong: Single Lady (TV)</title>
-<link>https://www.metacritic.com/tv/ali-wong-single-lady/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/ali-wong-single-lady/</guid>
-<pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[67] The Franchise (TV)</title>
-<link>https://www.metacritic.com/tv/the-franchise/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-franchise/</guid>
-<pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>29 reviews · 55% positive</description>
-</item>
-<item>
-<title>[66] Joan (TV)</title>
-<link>https://www.metacritic.com/tv/joan/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/joan/</guid>
-<pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>12 reviews · 67% positive</description>
-</item>
-<item>
-<title>[81] Social Studies (TV)</title>
-<link>https://www.metacritic.com/tv/social-studies/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/social-studies/</guid>
-<pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>6 reviews · 100% positive</description>
-</item>
-<item>
-<title>[69] Nobody Wants This (TV)</title>
-<link>https://www.metacritic.com/tv/nobody-wants-this/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/nobody-wants-this/</guid>
-<pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>49 reviews · 65% positive</description>
-</item>
-<item>
-<title>[66] Doctor Odyssey (TV)</title>
-<link>https://www.metacritic.com/tv/doctor-odyssey/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/doctor-odyssey/</guid>
-<pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>5 reviews · 60% positive</description>
-</item>
-<item>
-<title>[68] Mr. McMahon (TV)</title>
-<link>https://www.metacritic.com/tv/mr-mcmahon/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/mr-mcmahon/</guid>
-<pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>6 reviews · 67% positive</description>
-</item>
-<item>
-<title>[79] Penelope (TV)</title>
-<link>https://www.metacritic.com/tv/penelope/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/penelope/</guid>
-<pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>9 reviews · 89% positive</description>
-</item>
-<item>
-<title>[64] Brilliant Minds (TV)</title>
-<link>https://www.metacritic.com/tv/brilliant-minds/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/brilliant-minds/</guid>
-<pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>12 reviews · 50% positive</description>
-</item>
-<item>
-<title>[74] Matlock (2024) (TV)</title>
-<link>https://www.metacritic.com/tv/matlock-2024/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/matlock-2024/</guid>
-<pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>21 reviews · 90% positive</description>
-</item>
-<item>
-<title>[80] La Maison (TV)</title>
-<link>https://www.metacritic.com/tv/la-maison/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/la-maison/</guid>
-<pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[63] Twilight of the Gods (TV)</title>
-<link>https://www.metacritic.com/tv/twilight-of-the-gods/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/twilight-of-the-gods/</guid>
-<pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>9 reviews · 56% positive</description>
-</item>
-<item>
-<title>[72] The Penguin (TV)</title>
-<link>https://www.metacritic.com/tv/the-penguin/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-penguin/</guid>
-<pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>41 reviews · 71% positive</description>
-</item>
-<item>
-<title>[66] A Very Royal Scandal (TV)</title>
-<link>https://www.metacritic.com/tv/a-very-royal-scandal/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/a-very-royal-scandal/</guid>
-<pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>17 reviews · 59% positive</description>
-</item>
-<item>
-<title>[66] Agatha All Along (TV)</title>
-<link>https://www.metacritic.com/tv/agatha-all-along/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/agatha-all-along/</guid>
-<pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>32 reviews · 56% positive</description>
-</item>
-<item>
-<title>[73] High Potential (TV)</title>
-<link>https://www.metacritic.com/tv/high-potential/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/high-potential/</guid>
-<pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>22 reviews · 86% positive</description>
-</item>
-<item>
-<title>[72] American Sports Story: Aaron Hernandez (TV)</title>
-<link>https://www.metacritic.com/tv/american-sports-story-aaron-hernandez/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/american-sports-story-aaron-hernandez/</guid>
-<pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>15 reviews · 80% positive</description>
-</item>
-<item>
-<title>[73] Moonflower Murders (TV)</title>
-<link>https://www.metacritic.com/tv/moonflower-murders/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/moonflower-murders/</guid>
-<pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 75% positive</description>
-</item>
-<item>
-<title>[67] In Vogue: The 90s (TV)</title>
-<link>https://www.metacritic.com/tv/in-vogue-the-90s/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/in-vogue-the-90s/</guid>
-<pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>5 reviews · 60% positive</description>
-</item>
-<item>
-<title>[76] How to Die Alone (TV)</title>
-<link>https://www.metacritic.com/tv/how-to-die-alone/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/how-to-die-alone/</guid>
-<pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>14 reviews · 93% positive</description>
-</item>
-<item>
-<title>[83] Dan Da Dan (TV)</title>
-<link>https://www.metacritic.com/tv/dan-da-dan/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/dan-da-dan/</guid>
-<pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>5 reviews · 100% positive</description>
-</item>
-<item>
-<title>[84] Wise Guy: David Chase and The Sopranos (TV)</title>
-<link>https://www.metacritic.com/tv/wise-guy-david-chase-and-the-sopranos/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/wise-guy-david-chase-and-the-sopranos/</guid>
-<pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>12 reviews · 100% positive</description>
-</item>
-<item>
-<title>[67] The Perfect Couple (TV)</title>
-<link>https://www.metacritic.com/tv/the-perfect-couple/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-perfect-couple/</guid>
-<pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>26 reviews · 50% positive</description>
-</item>
-<item>
-<title>[72] Fight Night: The Million Dollar Heist (TV)</title>
-<link>https://www.metacritic.com/tv/fight-night-the-million-dollar-heist/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/fight-night-the-million-dollar-heist/</guid>
-<pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>15 reviews · 80% positive</description>
-</item>
-<item>
-<title>[82] English Teacher (TV)</title>
-<link>https://www.metacritic.com/tv/english-teacher/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/english-teacher/</guid>
-<pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>32 reviews · 91% positive</description>
-</item>
-<item>
-<title>[69] Terminator Zero (TV)</title>
-<link>https://www.metacritic.com/tv/terminator-zero/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/terminator-zero/</guid>
-<pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>11 reviews · 73% positive</description>
-</item>
-<item>
-<title>[70] KAOS (TV)</title>
-<link>https://www.metacritic.com/tv/kaos/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/kaos/</guid>
-<pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>22 reviews · 59% positive</description>
-</item>
-<item>
-<title>[80] Adam Sandler: Love You (TV)</title>
-<link>https://www.metacritic.com/tv/adam-sandler-love-you/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/adam-sandler-love-you/</guid>
-<pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>9 reviews · 100% positive</description>
-</item>
-<item>
-<title>[63] Chimp Crazy (TV)</title>
-<link>https://www.metacritic.com/tv/chimp-crazy/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/chimp-crazy/</guid>
-<pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>13 reviews · 46% positive</description>
-</item>
-<item>
-<title>[74] Bad Monkey (TV)</title>
-<link>https://www.metacritic.com/tv/bad-monkey/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/bad-monkey/</guid>
-<pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>32 reviews · 72% positive</description>
-</item>
-<item>
-<title>[74] American Murder: Laci Peterson (TV)</title>
-<link>https://www.metacritic.com/tv/american-murder-laci-peterson/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/american-murder-laci-peterson/</guid>
-<pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[76] Hollywood Black (TV)</title>
-<link>https://www.metacritic.com/tv/hollywood-black/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/hollywood-black/</guid>
-<pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>6 reviews · 83% positive</description>
 </item>
 </channel>
 </rss>

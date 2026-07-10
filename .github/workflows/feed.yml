@@ -2,16 +2,17 @@ name: Build Metacritic score feed
 
 # How often the feed refreshes. RSS is pull-based, so an item can only appear
 # when this job runs — pick the cadence you want:
-#   "*/30 * * * *"  every 30 min  (recommended: feels near-live, stays polite)
-#   "*/15 * * * *"  every 15 min  (fresher, more requests)
-#   "0 */8 * * *"   every 8 hours (low traffic, items arrive clustered)
+#   "0 */2 * * *"   every 2 hours (current: low traffic, plenty fresh for score news)
+#   "0 * * * *"     hourly        (fresher, ~flat request budget vs. 30-min @ fewer pages)
+#   "*/30 * * * *"  every 30 min  (near-live, but doubles request budget at 15 pages)
 # Note: GitHub's scheduler is best-effort and can lag 5-15 min under load, and
-# your reader also polls on ITS own interval — so true "instant" isn't possible,
-# but a short cadence de-clusters items (each gets its own emit timestamp).
-# It does NOT run on push, so the commit it makes below cannot cause a loop.
+# your reader also polls on ITS own interval — so true "instant" isn't possible.
+# With pubDate = qualifying time, each new title still surfaces at the top when it
+# first scores, regardless of cadence. It does NOT run on push, so the commit it
+# makes below cannot cause a loop.
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -39,9 +40,9 @@ jobs:
       - name: Build feed
         env:
           # ---- your configuration lives here ----
-          MC_THRESHOLD: "61"          # minimum Metascore (61 = Metacritic "generally favorable")
+          MC_THRESHOLD: "0"           # minimum Metascore (0 = every title that has a score; 61 = "generally favorable")
           MC_MEDIA: "movie,tv"        # movie, tv, or both
-          MC_PAGES: "8"               # browse pages per media (~24/page) — big margin over ~1 new title/day
+          MC_PAGES: "15"              # browse pages per media (~24/page ≈ ~3 months back) — catches late scorers
           MC_FEED_MAX: "500"          # items kept in the feed (archive persists in state either way)
           MC_FEED_SELF: "https://jov-cra.github.io/metacritic-rss/feed.xml"
           MC_FEED_LINK: "https://www.metacritic.com/"   # readers derive the feed icon from this domain's favicon

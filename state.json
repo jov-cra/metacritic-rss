@@ -6305,6 +6305,870 @@
         "user_tbd": true,
         "v": 2
       }
+    },
+    "https://www.metacritic.com/movie/moana-2026/": {
+      "title": "Moana",
+      "score": 42,
+      "media": "movie",
+      "release_date": "Jul 10, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/48b6951bdee3b9709ffe1db150005a10417ad04c/catalog/provider/5/2/5-tt27419466.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/evil-dead-burn/": {
+      "title": "Evil Dead Burn",
+      "score": 58,
+      "media": "movie",
+      "release_date": "Jul 10, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/4b7f88cebb429875828457a2b9cd1b8ff0b5533d/catalog/provider/5/2/5-tt31170389.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/young-washington/": {
+      "title": "Young Washington",
+      "score": 49,
+      "media": "movie",
+      "release_date": "Jul 3, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/07a5c2245eca03dd526ee1b84f974df9ea2e0256/catalog/provider/5/2/5-tt32104007.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/enola-holmes-3/": {
+      "title": "Enola Holmes 3",
+      "score": 60,
+      "media": "movie",
+      "release_date": "Jul 1, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0335f3523568f3661785a0dfdfb8e8225002d1bb/catalog/provider/7/2/7-1782698199.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/little-brother-2026/": {
+      "title": "Little Brother",
+      "score": 52,
+      "media": "movie",
+      "release_date": "Jun 26, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/198dfab347dd8aa509b9bcd882f59ed459ca12bd/catalog/provider/7/2/7-1779300460.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/the-wave-2025/": {
+      "title": "The Wave",
+      "score": 52,
+      "media": "movie",
+      "release_date": "Jun 26, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/19a06a5d61ed258a3efed09e1b8048a3f7d30f13/catalog/provider/5/2/5-tt32082522.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/couture/": {
+      "title": "Couture",
+      "score": 53,
+      "media": "movie",
+      "release_date": "Jun 26, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/51d29f30c60f988657664236a59724db621a057f/catalog/provider/7/2/7-1779292036.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/the-get-out/": {
+      "title": "The Get Out",
+      "score": 49,
+      "media": "movie",
+      "release_date": "Jun 26, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0e1343b71038a46f8bf8c1ab451c2bfba4d7bcb6/catalog/provider/2/13/2-aedb97bc75ef6e0f7f99f99cec14ac31.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/in-the-hand-of-dante/": {
+      "title": "In the Hand of Dante",
+      "score": 32,
+      "media": "movie",
+      "release_date": "Jun 24, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/10c28a86bee2b96373a83f651386a5a9512cf07d/catalog/provider/5/2/5-tt1333644.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/finnegans-foursome/": {
+      "title": "Finnegan's Foursome",
+      "score": 47,
+      "media": "movie",
+      "release_date": "Jun 19, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/bcb871149c09f35e139dbfc6ab14550c6dd28fc9/catalog/provider/7/2/7-1777390028.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/unidentified-2025/": {
+      "title": "Unidentified",
+      "score": 55,
+      "media": "movie",
+      "release_date": "Jun 19, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/dbb1929558e3db471466bf48d9e52a8b408f4a0b/catalog/provider/5/2/5-tt32298366.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/the-death-of-robin-hood/": {
+      "title": "The Death of Robin Hood",
+      "score": 60,
+      "media": "movie",
+      "release_date": "Jun 19, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/46e32145af58ac0ffb51691817acdfbc72952394/catalog/provider/7/2/7-1767713493.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/stop-that-train/": {
+      "title": "Stop! That! Train!",
+      "score": 59,
+      "media": "movie",
+      "release_date": "Jun 12, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/6ef62ce7a8ab5ae6a9c127e78454eeff4a8f42a1/catalog/provider/2/13/2-765bbbd00f1e4cb97df471d4aed96c34.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/scary-movie-6/": {
+      "title": "Scary Movie",
+      "score": 38,
+      "media": "movie",
+      "release_date": "Jun 5, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/28ef14d59c9a209bcc61649b31852e0638e78c17/catalog/provider/7/2/7-1780592755.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/masters-of-the-universe-2026/": {
+      "title": "Masters of the Universe",
+      "score": 52,
+      "media": "movie",
+      "release_date": "Jun 5, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/3c3be0af63bccadfc455e70acda7d0a21b77bcaf/catalog/provider/7/2/7-1777408428.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/savage-house/": {
+      "title": "Savage House",
+      "score": 54,
+      "media": "movie",
+      "release_date": "Jun 5, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d5195b3d1cd8446e0028aa98bbeeaaa7262b5fce/catalog/provider/2/13/2-bf21ab108f7f19121e2109a5a7deb742.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/office-romance/": {
+      "title": "Office Romance",
+      "score": 52,
+      "media": "movie",
+      "release_date": "Jun 5, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/233f2ac3e434acdee23b6bce113e444705a1d884/catalog/provider/7/2/7-1777572420.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/the-breadwinner-2026/": {
+      "title": "The Breadwinner",
+      "score": 33,
+      "media": "movie",
+      "release_date": "May 29, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e703e50f005d8b9e9b974160fc728db83d92cfba/catalog/provider/5/2/5-tt34459219.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/propeller-one-way-night-coach/": {
+      "title": "Propeller One-Way Night Coach",
+      "score": 49,
+      "media": "movie",
+      "release_date": "May 29, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2ec3816f90355b77dbd663dd8a7c2d463225635d/catalog/provider/5/2/5-tt41367695.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/the-salt-path/": {
+      "title": "The Salt Path",
+      "score": 49,
+      "media": "movie",
+      "release_date": "May 22, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1967a16cc2bf74ea183df567b0b302bb156bb4ad/catalog/provider/5/2/5-tt27766440.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/passenger/": {
+      "title": "Passenger",
+      "score": 52,
+      "media": "movie",
+      "release_date": "May 22, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/db77cfaf8fd2a55c5261909621f289b4fce23549/catalog/provider/2/13/2-46cfb5dc64a1ca7e945a80e87db7496e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/giant-2025/": {
+      "title": "Giant",
+      "score": 50,
+      "media": "movie",
+      "release_date": "May 22, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/62f20fe1e3343345add620e3c0314d3116d5cda4/catalog/provider/5/2/5-tt26452616.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/ladies-first-2026/": {
+      "title": "Ladies First",
+      "score": 38,
+      "media": "movie",
+      "release_date": "May 22, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/063fb4242520edb2fe6858d8d81ab2f88676f786/catalog/provider/5/2/5-tt34611082.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/star-wars-the-mandalorian-and-grogu/": {
+      "title": "Star Wars: The Mandalorian and Grogu",
+      "score": 53,
+      "media": "movie",
+      "release_date": "May 22, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/55be2b55755aed0bbb828f94d9a95269abb6ae92/catalog/provider/7/2/7-1776438311.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/tom-clancys-jack-ryan-ghost-war/": {
+      "title": "Tom Clancy's Jack Ryan: Ghost War",
+      "score": 38,
+      "media": "movie",
+      "release_date": "May 20, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a90a77f01c28ec3b81b8653c2b201d2b6f4239be/catalog/provider/7/2/7-1776355862.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/magic-hour/": {
+      "title": "Magic Hour",
+      "score": 59,
+      "media": "movie",
+      "release_date": "May 15, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/cb7e4a8d3351f0dde6c9946540ac0908a3163f1a/catalog/provider/5/2/5-tt32134256.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/in-the-grey/": {
+      "title": "In the Grey",
+      "score": 53,
+      "media": "movie",
+      "release_date": "May 15, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b0c54066cd08f683abc01d4d378a1d61615cfaf0/catalog/provider/5/2/5-tt27681354.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/the-wizard-of-the-kremlin/": {
+      "title": "The Wizard of the Kremlin",
+      "score": 56,
+      "media": "movie",
+      "release_date": "May 15, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/053ebb0d22cfb675825b27cc03bc926f5ecd321d/catalog/provider/7/2/7-1777382824.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/remarkably-bright-creatures/": {
+      "title": "Remarkably Bright Creatures",
+      "score": 55,
+      "media": "movie",
+      "release_date": "May 8, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/08764a1cbf337ad62991bdee66a064fa1c9526fd/catalog/provider/7/2/7-1775671465.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/mortal-kombat-ii/": {
+      "title": "Mortal Kombat II",
+      "score": 46,
+      "media": "movie",
+      "release_date": "May 8, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/7e381e18220dbe9e8707523e01d0800356531c1e/catalog/provider/5/2/5-tt17490712.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/animal-farm/": {
+      "title": "Animal Farm",
+      "score": 29,
+      "media": "movie",
+      "release_date": "May 1, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/140b81cf7bfd9923a0cf57bcfb4bc0792ad0196b/catalog/provider/5/2/5-tt2467700.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/swapped/": {
+      "title": "Swapped",
+      "score": 56,
+      "media": "movie",
+      "release_date": "May 1, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2b4c0fe88921954dab27a615faee2d439bb6f3f7/catalog/provider/5/2/5-tt29552248.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/one-spoon-of-chocolate/": {
+      "title": "One Spoon of Chocolate",
+      "score": 38,
+      "media": "movie",
+      "release_date": "May 1, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/4665918bf3aef362081c86c58829f2213e48a5f4/catalog/provider/5/2/5-tt32192973.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/michael-2026/": {
+      "title": "Michael",
+      "score": 39,
+      "media": "movie",
+      "release_date": "Apr 24, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d830b0cfc2672b53ea0e5815ae1097884dae4fee/catalog/provider/7/2/7-1769965798.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/over-your-dead-body/": {
+      "title": "Over Your Dead Body",
+      "score": 51,
+      "media": "movie",
+      "release_date": "Apr 24, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ccc4fc8f6da2d6b64dfc8e05ccecc06bdd7be717/catalog/provider/7/2/7-1775171534.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/desert-warrior/": {
+      "title": "Desert Warrior",
+      "score": 41,
+      "media": "movie",
+      "release_date": "Apr 24, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/89f58753dba7fc9f1185ba5ce5f255994723de67/catalog/provider/7/2/7-1775243849.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/apex-2026/": {
+      "title": "Apex",
+      "score": 58,
+      "media": "movie",
+      "release_date": "Apr 24, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/dd9a08484d09749d66729041195521c3bf431584/catalog/provider/7/2/7-1774459592.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/fuze/": {
+      "title": "Fuze",
+      "score": 60,
+      "media": "movie",
+      "release_date": "Apr 24, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a0fc164b171a2c89c46c0eab1d1f5a0b4df5b606/catalog/provider/7/2/7-1773253114.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/lee-cronins-the-mummy/": {
+      "title": "Lee Cronin's The Mummy",
+      "score": 47,
+      "media": "movie",
+      "release_date": "Apr 17, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b2c8a8c2a19e3fbc28fb3e12f0d5eb3166af412d/catalog/provider/7/2/7-1776280843.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/roommates/": {
+      "title": "Roommates",
+      "score": 57,
+      "media": "movie",
+      "release_date": "Apr 17, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e6f23b0fb2b76bfc4085e78bc6ad223b6a7c1af1/catalog/provider/5/2/5-tt37540875.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/lorne/": {
+      "title": "Lorne",
+      "score": 57,
+      "media": "movie",
+      "release_date": "Apr 17, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/164255384df8371e0b59c09574ef4bc8904310b3/catalog/provider/7/2/7-1772753231.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/mother-mary/": {
+      "title": "Mother Mary",
+      "score": 58,
+      "media": "movie",
+      "release_date": "Apr 17, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/013ed2dc61788570074305046edeeb85d7ba8aaf/catalog/provider/2/13/2-75e4a089d2c1b8e785fdeb6de5a23780.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/balls-up/": {
+      "title": "Balls Up",
+      "score": 34,
+      "media": "movie",
+      "release_date": "Apr 15, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/6dcd464851a4abee8a00f9b15e6e9637a83990d9/catalog/provider/7/2/7-1773937776.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/outcome/": {
+      "title": "Outcome",
+      "score": 37,
+      "media": "movie",
+      "release_date": "Apr 10, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5bd8a1b797e79a3748368c8b954a5ff5edf7520a/catalog/provider/2/2/2-46ae836d231bb8f4eeba97f04068817b.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/thrash/": {
+      "title": "Thrash",
+      "score": 48,
+      "media": "movie",
+      "release_date": "Apr 10, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f88e9079e374d254f160c282cddb20a2d73ce860/catalog/provider/5/2/5-tt32362890.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/beast-2026/": {
+      "title": "Beast",
+      "score": 50,
+      "media": "movie",
+      "release_date": "Apr 10, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f26e44e3922c890bc1512ea852d3b7199122c6aa/catalog/provider/5/2/5-tt7708226.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/you-me-tuscany/": {
+      "title": "You, Me & Tuscany",
+      "score": 53,
+      "media": "movie",
+      "release_date": "Apr 10, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b60e282d4b47be2a2b0a7643977ff29f51841e84/catalog/provider/5/2/5-tt36352591.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/bunnylovr/": {
+      "title": "Bunnylovr",
+      "score": 55,
+      "media": "movie",
+      "release_date": "Apr 10, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/26d30fe8d0339ec73f2f052d29bd362c11857ddb/catalog/provider/5/2/5-tt33998099.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/movie/steal-this-story-please/": {
+      "title": "Steal This Story, Please!",
+      "score": 71,
+      "media": "movie",
+      "release_date": "Apr 10, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/47760b1085d1695fec6c5d2895006238d7fc2650/catalog/provider/5/2/5-tt36748956.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/elle/": {
+      "title": "Elle",
+      "score": 52,
+      "media": "tv",
+      "release_date": "Jul 1, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/3f73ff1c041709d5e58fd331925d3d0e3ec0de9a/catalog/provider/7/2/7-1782325265.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/life-larry-and-the-pursuit-of-unhappiness/": {
+      "title": "Life, Larry, and the Pursuit of Unhappiness",
+      "score": 58,
+      "media": "tv",
+      "release_date": "Jun 26, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b11ffb53b2e28441dcc054232016bc7a3a508cd0/catalog/provider/7/2/7-1782320980.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/i-will-find-you/": {
+      "title": "I Will Find You",
+      "score": 56,
+      "media": "tv",
+      "release_date": "Jun 18, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/79355b5fdabc80f8fb7dcf83b549e8a08bf8bd77/catalog/provider/2/2/2-c234611b36a6cd2f1060ad05152457af.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-season-2026/": {
+      "title": "The Season (2026)",
+      "score": 58,
+      "media": "tv",
+      "release_date": "Jun 17, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c736a964007d49eefcca75e3e172988739eff401/catalog/provider/7/2/7-1781633269.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/every-year-after/": {
+      "title": "Every Year After",
+      "score": 57,
+      "media": "tv",
+      "release_date": "Jun 10, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0825b9cacd5185b2313ba950fa7c262663f0edf0/catalog/provider/7/2/7-1780452439.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/michael-jackson-the-verdict/": {
+      "title": "Michael Jackson: The Verdict",
+      "score": 59,
+      "media": "tv",
+      "release_date": "Jun 3, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f4e4bab26bc1e696a7a3f467602e516fe84b0614/catalog/provider/2/2/2-ab229aa99020e220f765c447161c29b5.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/not-suitable-for-work/": {
+      "title": "Not Suitable for Work",
+      "score": 53,
+      "media": "tv",
+      "release_date": "Jun 2, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/122cfcb668bae04efcf51c92669097436268cb2a/catalog/provider/7/2/7-1779818383.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/summerwater/": {
+      "title": "Summerwater",
+      "score": 40,
+      "media": "tv",
+      "release_date": "May 25, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/fb588c9a7383ec1785082aa81d3de167ecae77c6/catalog/provider/2/2/2-7f8d2b591873f85a3b210f16548e9952.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/mia/": {
+      "title": "M.I.A.",
+      "score": 59,
+      "media": "tv",
+      "release_date": "May 7, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9aeb7857bd774173b985d2550f09e5a5b7762640/catalog/provider/5/2/5-tt33253070.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/stranger-things-tales-from-85/": {
+      "title": "Stranger Things: Tales From '85",
+      "score": 53,
+      "media": "tv",
+      "release_date": "Apr 23, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/172a14ad2ac588e8f93461eb677ea7f4dc2fccc4/catalog/provider/2/2/2-64aa546061f990bb1e747305c0a80008.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/unchosen/": {
+      "title": "Unchosen",
+      "score": 47,
+      "media": "tv",
+      "release_date": "Apr 21, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/8ed0f56dc38b806298c490eca220f0f480ba70f6/catalog/provider/2/2/2-92b19b3283661cb310af1a6f8dde3415.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-miniature-wife/": {
+      "title": "The Miniature Wife",
+      "score": 59,
+      "media": "tv",
+      "release_date": "Apr 9, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5dcdf3d8ece8ef56cbd4ebf2d5adfac32cdab8d0/catalog/provider/7/2/7-1775155945.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-feud-on-shelbury-drive/": {
+      "title": "The Feud on Shelbury Drive",
+      "score": 54,
+      "media": "tv",
+      "release_date": "Mar 30, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/02851bbb6be8c73eca69c93eb89d8444654a99bc/catalog/provider/2/2/2-2e2299d9543dcea8acbb8673284348e4.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-faithful/": {
+      "title": "The Faithful",
+      "score": 50,
+      "media": "tv",
+      "release_date": "Mar 22, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/fa45851d7c6f83afa9506ba6500fd9692d87ead8/catalog/provider/7/2/7-1773704818.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-forsytes/": {
+      "title": "The Forsytes",
+      "score": 59,
+      "media": "tv",
+      "release_date": "Mar 22, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/acfc7944714b2a05e77840738fa3432441d0712f/catalog/provider/2/2/2-d9373da4ab78b0064877b69e671be585.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/imperfect-women/": {
+      "title": "Imperfect Women",
+      "score": 54,
+      "media": "tv",
+      "release_date": "Mar 18, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/af970c2e038d16b295820315e1ed94ab8cb4bb1d/catalog/provider/2/2/2-b855c2ac9d586d9f42ae9eb4b77a9772.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-lady/": {
+      "title": "The Lady",
+      "score": 60,
+      "media": "tv",
+      "release_date": "Mar 18, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/cb07f6e8bed3d6100df55843693fbd44b29c0aec/catalog/provider/7/2/7-1772860145.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-madison/": {
+      "title": "The Madison",
+      "score": 57,
+      "media": "tv",
+      "release_date": "Mar 14, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/68649dfd81c064e7691fa2cc05177280824d73a6/catalog/provider/7/2/7-1772860060.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/scarpetta/": {
+      "title": "Scarpetta",
+      "score": 54,
+      "media": "tv",
+      "release_date": "Mar 11, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/234fcfddb46ca365b761868de898b45ceabc3494/catalog/provider/7/2/7-1772655754.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/marshals/": {
+      "title": "Marshals",
+      "score": 57,
+      "media": "tv",
+      "release_date": "Mar 1, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/73f779cc357f40b4324bfea275d508203d193d2d/catalog/provider/7/2/7-1771893232.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-gray-house/": {
+      "title": "The Gray House",
+      "score": 48,
+      "media": "tv",
+      "release_date": "Feb 26, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f8477d4570694915b7ac34f02957cd58d2d9a0d9/catalog/provider/2/2/2-0b6f8bc2163fb60c24c6f85692e8ebc9.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/cia/": {
+      "title": "CIA",
+      "score": 47,
+      "media": "tv",
+      "release_date": "Feb 23, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5c1d9d810764ad369adc67c2b289b1e0f11078e1/catalog/provider/2/2/2-16201d565c09f398c165b66800e4e583.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/strip-law/": {
+      "title": "Strip Law",
+      "score": 50,
+      "media": "tv",
+      "release_date": "Feb 20, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/be7313b37d476998d0dfdaad517ba08c83cb0b98/catalog/provider/7/2/7-1770961329.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/56-days/": {
+      "title": "56 Days",
+      "score": 55,
+      "media": "tv",
+      "release_date": "Feb 18, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/12c6df80476d195f5cb6252c0465a63b5cb672fb/catalog/provider/7/2/7-1770833934.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/being-gordon-ramsay/": {
+      "title": "Being Gordon Ramsay",
+      "score": 60,
+      "media": "tv",
+      "release_date": "Feb 18, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/10d7ed2e322bf49996a84b0bc8e7e08306652130/catalog/provider/2/2/2-2f385ae4a0786b7479710b1de3b86452.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/vanished-2026/": {
+      "title": "Vanished (2026)",
+      "score": 49,
+      "media": "tv",
+      "release_date": "Feb 1, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/956f2695622d68c1a629152c7d414eba0b2f1f38/catalog/provider/5/2/5-tt36958533.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/memory-of-a-killer/": {
+      "title": "Memory of a Killer",
+      "score": 52,
+      "media": "tv",
+      "release_date": "Jan 25, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/65da69fb116e4ff7b4ed588a199e728bc08e0f65/catalog/provider/7/2/7-1769566499.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/finding-her-edge/": {
+      "title": "Finding Her Edge",
+      "score": 56,
+      "media": "tv",
+      "release_date": "Jan 22, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b6e9b349a6b1f0ca29bfd89a1323ffc013009565/catalog/provider/2/2/2-732543b97cb94af1398e7ca91e5da910.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/agatha-christies-seven-dials/": {
+      "title": "Agatha Christie's Seven Dials",
+      "score": 59,
+      "media": "tv",
+      "release_date": "Jan 15, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d1fbecad2e22b3ac8bd78c68002c976a2f502dd9/catalog/provider/2/2/2-7caf0bb50da2a9454bfc01bfbb52792c.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/coldwater/": {
+      "title": "Coldwater",
+      "score": 59,
+      "media": "tv",
+      "release_date": "Jan 9, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/400050b6258bd913f2e1663e8578591b23ff79ce/catalog/provider/2/2/2-dc1f2a22ba3cb9460dabbbba5ae09397.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/run-away/": {
+      "title": "Run Away",
+      "score": 59,
+      "media": "tv",
+      "release_date": "Jan 1, 2026",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9be6c842dbe898cf1ae13fe344bd4cfa9ae2827e/catalog/provider/2/2/2-3e890698c2a73949e568c81916e073b7.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/nightsleeper/": {
+      "title": "Nightsleeper",
+      "score": 54,
+      "media": "tv",
+      "release_date": "Dec 26, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a793ddfe7e90f4f06f54f854061bb3a54db4d739/catalog/provider/2/2/2-4284511b0fa89604fbab622a09dacaf6.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/simon-cowell-the-next-act/": {
+      "title": "Simon Cowell: The Next Act",
+      "score": 36,
+      "media": "tv",
+      "release_date": "Dec 10, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/15f88f8f1a44337ccc5f4130709346d4bade5c79/catalog/provider/7/2/7-1765910014.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-abandons/": {
+      "title": "The Abandons",
+      "score": 43,
+      "media": "tv",
+      "release_date": "Dec 4, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f6bc58c26611f841c4e0825eb710be62a6666698/catalog/provider/2/2/2-25d14b139a018a395c20f40ee0ba86cb.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/malice/": {
+      "title": "Malice",
+      "score": 52,
+      "media": "tv",
+      "release_date": "Nov 14, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/207defc764b69b0a75b0cc0f2f98270f22b6f820/catalog/provider/2/2/2-c01349221acb5a999d5286e5b1d6e4e6.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/alls-fair-2025/": {
+      "title": "All's Fair (2025)",
+      "score": 17,
+      "media": "tv",
+      "release_date": "Nov 4, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5229832cdbc8b8bacf51a2b471e63a22066ac3fa/catalog/provider/2/2/2-6cea00a106c00b2afc799b83b2e51ca9.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/king-conqueror/": {
+      "title": "King & Conqueror",
+      "score": 54,
+      "media": "tv",
+      "release_date": "Nov 1, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a4e4f743472773c0b66f581d48952fdd762b44b1/catalog/provider/2/2/2-ee0bef0b8f038f6496404b9e13b58725.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-monster-of-florence/": {
+      "title": "The Monster of Florence",
+      "score": 58,
+      "media": "tv",
+      "release_date": "Oct 22, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c1677d30f97dc10aa79113e87ccfe514a12e5be0/catalog/provider/2/2/2-3eb12c2aa502f161d10d6373bb016c3a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/harlan-cobens-lazarus/": {
+      "title": "Harlan Coben's Lazarus",
+      "score": 53,
+      "media": "tv",
+      "release_date": "Oct 22, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ef4d6e7166c6220e033fafe4a0af9db00315f7f5/catalog/provider/2/2/2-b2b123d1000f4a20dfe68ba8bd4c102f.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/dmv/": {
+      "title": "DMV",
+      "score": 53,
+      "media": "tv",
+      "release_date": "Oct 13, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/64b43d24584dd210942dbaedf991f9555cbaf735/catalog/provider/2/2/2-441399b6fc58af05397293f030bf214b.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-last-frontier-2025/": {
+      "title": "The Last Frontier (2025)",
+      "score": 53,
+      "media": "tv",
+      "release_date": "Oct 10, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ce5e4bf764f2b5d83bd7c647f0f61fce5fd97d03/catalog/provider/2/2/2-2f1bb0305b066d19f4a8df9c52e14eca.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/victoria-beckham/": {
+      "title": "Victoria Beckham",
+      "score": 44,
+      "media": "tv",
+      "release_date": "Oct 9, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1432838a4670535eea1addecbeda706748ba5442/catalog/provider/2/2/2-c4cd9eb70034dcd867a7337a00aa9b19.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/chad-powers/": {
+      "title": "Chad Powers",
+      "score": 53,
+      "media": "tv",
+      "release_date": "Sep 30, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/7c96c0454d663015a1e8237e34b69b58caedaf20/catalog/provider/2/2/2-24245757507f2abd6d073d669086f0bd.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/hotel-costiera/": {
+      "title": "Hotel Costiera",
+      "score": 58,
+      "media": "tv",
+      "release_date": "Sep 24, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/102efb7d929877a46ba673e3997ec6fdacb938af/catalog/provider/2/2/2-18d09769f911575a5622626ae6a99b21.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/haunted-hotel/": {
+      "title": "Haunted Hotel",
+      "score": 58,
+      "media": "tv",
+      "release_date": "Sep 19, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/508d85be77c48cf7c346388cce67218e678ade91/catalog/provider/2/2/2-11878674bd40e22ea3deb76aae71b1f4.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/aka-charlie-sheen/": {
+      "title": "aka Charlie Sheen",
+      "score": 57,
+      "media": "tv",
+      "release_date": "Sep 10, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b936bb6a1f311bb7f49ad7b3a02c3c181628d98d/catalog/provider/2/2/2-0f060847fb4d273da33c17718f04fba3.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-hardacres/": {
+      "title": "The Hardacres",
+      "score": 58,
+      "media": "tv",
+      "release_date": "Sep 10, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/7e39babcc6f01ddd51fc5beb68abd6916fedb3dd/catalog/provider/2/2/2-f3658f016525e1acdb3d03ac4caec50f.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/lynley/": {
+      "title": "Lynley",
+      "score": 59,
+      "media": "tv",
+      "release_date": "Sep 4, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/723299a2fcd034307f9cb7c47fba901be56fcf0d/catalog/provider/2/2/2-1f20ab74ef0742d0b5d3011874701773.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/fit-for-tv-the-reality-of-the-biggest-loser/": {
+      "title": "Fit for TV: The Reality of The Biggest Loser",
+      "score": 52,
+      "media": "tv",
+      "release_date": "Aug 15, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a60619999b45257bec96fc64aac2a1c0a4d59808/catalog/provider/2/2/2-e0aaa5e5091cc2010f872b6c041728c3.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-rainmaker/": {
+      "title": "The Rainmaker",
+      "score": 53,
+      "media": "tv",
+      "release_date": "Aug 15, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9baaa203e744b89f7b827f8ba71a7892f64dc63b/catalog/provider/2/2/2-5b29ad18d7be55e9f2eae06954ce0adc.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/butterfly-2025/": {
+      "title": "Butterfly (2025)",
+      "score": 60,
+      "media": "tv",
+      "release_date": "Aug 13, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ebf9492c3b4b865431c806e5e0ece18315ee983d/catalog/provider/7/2/7-1753400334.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/red-eye-2024/": {
+      "title": "Red Eye (2024)",
+      "score": 59,
+      "media": "tv",
+      "release_date": "Jul 22, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/19039a312bc0c76bc9b98f1794787a663dce6307/catalog/provider/2/2/2-09eb1e5d0bf5c09719f8799a5942567f.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-institute/": {
+      "title": "The Institute",
+      "score": 52,
+      "media": "tv",
+      "release_date": "Jul 13, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c4c92be53192a772fe38873c85c12b91c946f393/catalog/provider/7/2/7-1751999524.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/insomnia-2024/": {
+      "title": "Insomnia (2024)",
+      "score": 50,
+      "media": "tv",
+      "release_date": "Jul 9, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f4fe14287db62e1e4b802b45b0b5f2295377e9ec/catalog/provider/2/2/2-785ec61dd81ec45143a4aaf3df6698ff.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/building-the-band/": {
+      "title": "Building the Band",
+      "score": 58,
+      "media": "tv",
+      "release_date": "Jul 9, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/7c40b3e2fc7f69957b9798c8635d6f10ed97818b/catalog/provider/7/2/7-1751529673.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/countdown-2025/": {
+      "title": "Countdown (2025)",
+      "score": 44,
+      "media": "tv",
+      "release_date": "Jun 25, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/569440bd0b767f7d2940a614d84450acf6d74bb2/catalog/provider/2/2/2-8ce3fb71878de0e1339fa58007f3ba49.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/ironheart/": {
+      "title": "Ironheart",
+      "score": 57,
+      "media": "tv",
+      "release_date": "Jun 24, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/fe4625111349300a0d3d715795a6ee66cdb8f3df/catalog/provider/2/2/2-31534bf4714855783b01c1662c4e3d00.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/the-waterfront/": {
+      "title": "The Waterfront",
+      "score": 54,
+      "media": "tv",
+      "release_date": "Jun 19, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/eaa000789735330dffe3c6e9869214f14a4b944b/catalog/provider/2/2/2-3ac3be10f644072c873488e6395e3484.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+    },
+    "https://www.metacritic.com/tv/we-were-liars/": {
+      "title": "We Were Liars",
+      "score": 57,
+      "media": "tv",
+      "release_date": "Jun 18, 2025",
+      "emitted_at": "2026-07-10T11:58:51.815942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/77065470843bc94c1f3efbb514f42eb56a8bd831/catalog/provider/2/2/2-0efa767aea0193e9fb76f7abe2093d7d.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
     }
   }
 }

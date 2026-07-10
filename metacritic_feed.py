@@ -110,6 +110,21 @@ def _clean_title(anchor, text: str, date_start: int) -> str:
     return " ".join(words) or "Untitled"
 
 
+def _best_poster(anchor) -> str | None:
+    """The card's poster image URL. Metacritic renders <img srcset="…w96 1x, …w192 2x">;
+    prefer the highest-density (2x) URL, fall back to plain src. Returns None when the
+    card has no image, in which case the feed simply omits the thumbnail for that item."""
+    img = anchor.find("img")
+    if img is None:
+        return None
+    best = None
+    for part in (img.get("srcset") or "").split(","):
+        cand = part.strip().split(" ")
+        if cand and cand[0].startswith("http"):
+            best = cand[0]  # srcset is ordered 1x,2x -> last wins = highest density
+    return best or img.get("src") or None
+
+
 def parse_browse(html_text: str, media: str) -> list[dict]:
     """Parse a Metacritic browse page into a list of product dicts.
 
@@ -148,12 +163,18 @@ def parse_browse(html_text: str, media: str) -> list[dict]:
             "score": score,
             "date": date_match.group(1),
             "media": media,
+            "poster": _best_poster(anchor),
             "_len": len(text),
         }
-        # Keep the richest entry per URL (the full card, not a nested sub-link).
+        # Keep the richest entry per URL (the full card, not a nested sub-link),
+        # but never lose a poster that only one of the duplicate anchors carried.
         prev = by_url.get(url)
         if prev is None or record["_len"] > prev["_len"]:
+            if prev is not None and not record.get("poster"):
+                record["poster"] = prev.get("poster")
             by_url[url] = record
+        elif not prev.get("poster") and record.get("poster"):
+            prev["poster"] = record["poster"]
 
     result = list(by_url.values())
     for r in result:
@@ -266,12 +287,18 @@ def save_state(path: str, state: dict) -> None:
     _atomic_write(path, json.dumps(state, indent=2, ensure_ascii=False))
 
 
-def process_cards(cards: list[dict], emitted: dict, threshold: int, now: datetime) -> int:
+def process_cards(cards: list[dict], emitted: dict, threshold: int, now: datetime,
+                  seed_from_release: bool = False) -> int:
     """Add newly-qualifying cards to `emitted`. Returns count of new items.
 
     A card qualifies when it has a numeric score >= threshold AND its URL has
     not been emitted before. Once emitted, a title is never re-emitted, even if
     its score later changes — the <guid> stays stable and the reader shows it once.
+
+    `feed_date` is frozen here, at first qualification, and drives <pubDate>/order
+    (see _effective_date). `seed_from_release` omits it for a one-time backfill so
+    the historical catch-up dates by release instead of piling up at the top.
+    `image` (the browse poster) is stored when present; absent -> no thumbnail.
     """
     new = 0
     for c in cards:
@@ -279,13 +306,18 @@ def process_cards(cards: list[dict], emitted: dict, threshold: int, now: datetim
             continue
         if c["url"] in emitted:
             continue
-        emitted[c["url"]] = {
+        entry = {
             "title": c["title"],
             "score": c["score"],
             "media": c["media"],
             "release_date": c["date"],
             "emitted_at": now.isoformat(),
         }
+        if not seed_from_release:
+            entry["feed_date"] = now.isoformat()
+        if c.get("poster"):
+            entry["image"] = c["poster"]
+        emitted[c["url"]] = entry
         new += 1
     return new
 
@@ -309,12 +341,29 @@ def _parse_release(meta: dict) -> datetime:
         return datetime.min.replace(tzinfo=timezone.utc)
 
 
+def _effective_date(meta: dict) -> datetime:
+    """Date used for <pubDate> and feed order. Prefers the stored `feed_date`
+    (frozen once, at first qualification) so a title scored weeks after release
+    still surfaces at the TOP of the reader instead of being buried at its release
+    date. Items emitted before this field existed have no `feed_date` and fall
+    back to the release date — so their bytes and order stay unchanged (no churn,
+    no re-surfacing of already-read items)."""
+    fd = meta.get("feed_date")
+    if fd:
+        try:
+            dt = datetime.fromisoformat(fd)
+            return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+        except (ValueError, TypeError):
+            pass
+    return _parse_release(meta)
+
+
 def _feed_sort_key(kv: tuple[str, dict]):
-    """Deterministic total order: newest release first, URL as stable tiebreak.
-    URL tiebreak guarantees byte-identical feed.xml between runs when the item
-    set is unchanged (which is what keeps the workflow from committing churn)."""
+    """Deterministic total order: newest first (feed_date, else release), URL as
+    stable tiebreak. URL tiebreak guarantees byte-identical feed.xml between runs
+    when the item set is unchanged (which keeps the workflow from committing churn)."""
     url, meta = kv
-    return (_parse_release(meta), url)
+    return (_effective_date(meta), url)
 
 
 def describe_item(meta: dict) -> str:
@@ -353,13 +402,18 @@ def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None
         lb = datetime.fromisoformat(last_build) if last_build else datetime.now(timezone.utc)
     except (ValueError, TypeError):
         lb = datetime.now(timezone.utc)
+    chan_desc = (
+        "Metacritic movie & TV releases with a Metascore (any), auto-generated."
+        if args.threshold <= 0
+        else f"Metacritic movie & TV releases scoring {args.threshold}+ (Metascore). Auto-generated."
+    )
     out = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
         "<channel>",
         f"<title>{escape(args.feed_title)}</title>",
         f"<link>{escape(args.feed_link)}</link>",
-        f"<description>{escape('Metacritic movie & TV releases scoring ' + str(args.threshold) + '+ (Metascore). Auto-generated.')}</description>",
+        f"<description>{escape(chan_desc)}</description>",
         "<language>en</language>",
         f"<lastBuildDate>{format_datetime(lb)}</lastBuildDate>",
     ]
@@ -369,8 +423,13 @@ def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None
     for url, meta in items:
         label = "Movie" if meta["media"] == "movie" else "TV"
         title = f'[{meta["score"]}] {meta["title"]} ({label})'
-        pub = format_datetime(_parse_release(meta))  # pubDate = actual release date
+        pub = format_datetime(_effective_date(meta))  # pubDate = qualifying time, else release
         desc = describe_item(meta)
+        # Poster as an <img> inside the (HTML) description — the one image channel
+        # every reader (Readwise/Tapestry/Reeder) renders. escape() entity-encodes
+        # the whole body once; the reader decodes it back to HTML and shows the img.
+        img = meta.get("image")
+        body = f'<img src="{img}" alt="" /><br />{desc}' if img else desc
         out += [
             "<item>",
             f"<title>{escape(title)}</title>",
@@ -378,7 +437,7 @@ def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None
             f'<guid isPermaLink="false">{escape(url)}</guid>',
             f"<pubDate>{pub}</pubDate>",
             f"<category>{escape(label)}</category>",
-            f"<description>{escape(desc)}</description>",
+            f"<description>{escape(body)}</description>",
             "</item>",
         ]
 
@@ -415,9 +474,10 @@ def run(args) -> int:
             print(f"[scan] {media} page {page}: {len(cards)} cards")
             if args.debug:
                 for c in cards:
-                    flag = "OK " if (c["score"] and c["score"] >= args.threshold) else "   "
+                    flag = "OK " if (c["score"] is not None and c["score"] >= args.threshold) else "   "
                     print(f"       [{flag}] score={str(c['score']):>4}  {c['title']}  ::  {c['url']}")
-            new_total += process_cards(cards, emitted, args.threshold, now)
+            new_total += process_cards(cards, emitted, args.threshold, now,
+                                       seed_from_release=args.seed_from_release)
 
     # Fail loudly instead of silently freezing the feed:
     #   pages_ok == 0  -> network / total outage
@@ -460,8 +520,9 @@ def run(args) -> int:
 
 def build_argparser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Metacritic score-threshold RSS feed generator")
-    p.add_argument("--threshold", type=int, default=int(_env("MC_THRESHOLD", "61")),
-                   help="minimum Metascore to include (default 61 = Metacritic 'generally favorable')")
+    p.add_argument("--threshold", type=int, default=int(_env("MC_THRESHOLD", "0")),
+                   help="minimum Metascore to include (default 0 = every title that has a Metascore; "
+                        "e.g. 61 = Metacritic 'generally favorable')")
     p.add_argument("--media", default=_env("MC_MEDIA", "movie,tv"),
                    help="comma-separated: movie,tv (default 'movie,tv')")
     p.add_argument("--pages", type=int, default=int(_env("MC_PAGES", "3")),
@@ -483,6 +544,11 @@ def build_argparser() -> argparse.ArgumentParser:
                    help="max detail pages to fetch per run (default 60; bounds the one-time backfill)")
     p.add_argument("--detail-delay", type=float, default=float(_env("MC_DETAIL_DELAY", "0.6")),
                    help="seconds to wait between detail fetches (politeness, default 0.6)")
+    p.add_argument("--seed-from-release", dest="seed_from_release", action="store_true",
+                   default=_env("MC_SEED_FROM_RELEASE", "0") not in ("0", "false", "False", ""),
+                   help="one-time: date newly-emitted items by their release date instead of 'now'. "
+                        "Use once when lowering the threshold so the historical backfill scatters by "
+                        "date rather than piling up at the top of the reader.")
     p.add_argument("--dry-run", action="store_true", help="don't write files, just report")
     p.add_argument("--debug", action="store_true", help="print every parsed card")
     return p
@@ -495,7 +561,11 @@ def main(argv=None) -> int:
         print("[error] --media must include at least one of: movie, tv", file=sys.stderr)
         return 2
     if not args.feed_title:
-        args.feed_title = f"Metacritic — Movies & TV (Metascore {args.threshold}+)"
+        args.feed_title = (
+            "Metacritic — Movies & TV (all scored)"
+            if args.threshold <= 0
+            else f"Metacritic — Movies & TV (Metascore {args.threshold}+)"
+        )
     run(args)
     return 0
 

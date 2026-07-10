@@ -56,6 +56,16 @@ def test_parse_scores_and_titles():
     assert c["https://www.metacritic.com/movie/blind-love/"]["title"] == "Blind Love"
 
 
+def test_parse_extracts_poster():
+    c = _cards_by_url()
+    # srcset present -> highest-density (2x) URL wins
+    assert c["https://www.metacritic.com/movie/rose-of-nevada/"]["poster"] == "https://img.test/rose_w192.jpg"
+    # only a plain src -> that src
+    assert c["https://www.metacritic.com/movie/leviticus/"]["poster"] == "x.jpg"
+    # no <img> at all -> None (feed simply omits the thumbnail for that item)
+    assert c["https://www.metacritic.com/movie/a-great-film/"]["poster"] is None
+
+
 def test_query_string_stripped_from_guid():
     assert "https://www.metacritic.com/movie/a-great-film/" in _cards_by_url()
 
@@ -131,6 +141,44 @@ def test_score_assigned_later_is_the_whole_point():
     assert emitted["https://www.metacritic.com/movie/rose-of-nevada/"]["emitted_at"] == t1.isoformat()
 
 
+def test_process_cards_freezes_feed_date_and_stores_image():
+    now = datetime(2026, 6, 20, tzinfo=timezone.utc)
+    cards = [{"url": "https://m/movie/x/", "title": "X", "score": 70,
+              "date": "Jun 1, 2026", "media": "movie", "poster": "https://img/x.jpg"}]
+    emitted = {}
+    mf.process_cards(cards, emitted, threshold=0, now=now)
+    e = emitted["https://m/movie/x/"]
+    assert e["feed_date"] == now.isoformat()   # frozen once, at qualification
+    assert e["image"] == "https://img/x.jpg"
+
+    # seed_from_release omits feed_date -> the one-time backfill dates by release
+    em2 = {}
+    mf.process_cards(cards, em2, threshold=0, now=now, seed_from_release=True)
+    assert "feed_date" not in em2["https://m/movie/x/"]
+
+
+def test_threshold_zero_admits_any_score_but_not_unscored():
+    now = datetime(2026, 6, 20, tzinfo=timezone.utc)
+    cards = [
+        {"url": "https://m/movie/lo/", "title": "Lo", "score": 42,
+         "date": "Jun 1, 2026", "media": "movie", "poster": None},
+        {"url": "https://m/movie/no/", "title": "No", "score": None,
+         "date": "Jun 1, 2026", "media": "movie", "poster": None},
+    ]
+    emitted = {}
+    assert mf.process_cards(cards, emitted, threshold=0, now=now) == 1
+    assert "https://m/movie/lo/" in emitted        # mixed score gets in
+    assert "https://m/movie/no/" not in emitted     # unscored still excluded
+    assert "image" not in emitted["https://m/movie/lo/"]  # no poster -> no image field
+
+
+def test_effective_date_prefers_feed_date_else_release():
+    d = mf._effective_date({"feed_date": "2026-07-09T00:00:00+00:00", "release_date": "May 22, 2026"})
+    assert d.date().isoformat() == "2026-07-09"      # surfaces at qualifying time
+    d2 = mf._effective_date({"release_date": "May 22, 2026"})
+    assert d2.date().isoformat() == "2026-05-22"     # old items (no feed_date) unchanged
+
+
 # --------------------------------------------------------------------------- #
 # 3. RSS output
 # --------------------------------------------------------------------------- #
@@ -146,6 +194,7 @@ def test_rss_is_well_formed_and_complete():
         "https://www.metacritic.com/movie/rose-of-nevada/": {
             "title": "Rose of Nevada & Friends", "score": 88, "media": "movie",
             "release_date": "Jun 19, 2026", "emitted_at": "2026-06-20T00:00:00+00:00",
+            "image": "https://img.test/rose.jpg?a=1&b=2",
         },
         "https://www.metacritic.com/tv/star-city/": {
             "title": "Star City", "score": 90, "media": "tv",
@@ -170,6 +219,14 @@ def test_rss_is_well_formed_and_complete():
     pub = item_nodes[0].getElementsByTagName("pubDate")[0].firstChild.data
     from email.utils import parsedate_tz
     assert parsedate_tz(pub) is not None
+
+    # Poster renders as an <img> inside the description; the well-formed parse above
+    # proves the & in the poster URL is escaped. Item without a poster stays plain text.
+    by_guid = {n.getElementsByTagName("guid")[0].firstChild.data:
+               n.getElementsByTagName("description")[0].firstChild.data for n in item_nodes}
+    assert by_guid["https://www.metacritic.com/movie/rose-of-nevada/"].startswith(
+        '<img src="https://img.test/rose.jpg?a=1&b=2" alt="" />')
+    assert not by_guid["https://www.metacritic.com/tv/star-city/"].startswith("<img")
 
 
 # --------------------------------------------------------------------------- #
