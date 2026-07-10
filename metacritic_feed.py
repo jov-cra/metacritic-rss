@@ -185,7 +185,7 @@ def parse_browse(html_text: str, media: str) -> list[dict]:
 # --------------------------------------------------------------------------- #
 # Detail-page enrichment: critic/user counts + a short top-critic quote
 # --------------------------------------------------------------------------- #
-DETAIL_VERSION = 2  # bump to force re-enrichment of already-stored items
+DETAIL_VERSION = 3  # bump to force re-enrichment of already-stored items (v3: adds og:image)
 CRITIC_POS_RE = re.compile(r"(\d+)%\s*Positive\s+\d+\s+Reviews")  # critic (Reviews, not user Ratings)
 
 
