@@ -5,8 +5,40 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases scoring 61+ (Metascore). Auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Thu, 09 Jul 2026 21:19:50 +0000</lastBuildDate>
+<lastBuildDate>Fri, 10 Jul 2026 04:32:12 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[94] Remake (Movie)</title>
+<link>https://www.metacritic.com/movie/remake/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/remake/</guid>
+<pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>12 reviews · 100% positive</description>
+</item>
+<item>
+<title>[62] Night Nurse (Movie)</title>
+<link>https://www.metacritic.com/movie/night-nurse/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/night-nurse/</guid>
+<pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>7 reviews · 71% positive</description>
+</item>
+<item>
+<title>[66] Gail Daughtry and the Celebrity Sex Pass (Movie)</title>
+<link>https://www.metacritic.com/movie/gail-daughtry-and-the-celebrity-sex-pass/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/gail-daughtry-and-the-celebrity-sex-pass/</guid>
+<pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>23 reviews · 61% positive</description>
+</item>
+<item>
+<title>[83] Do You Love Me (Movie)</title>
+<link>https://www.metacritic.com/movie/do-you-love-me/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/do-you-love-me/</guid>
+<pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+<category>Movie</category>
+<description>4 reviews · 75% positive</description>
+</item>
 <item>
 <title>[69] The Five Star Weekend (TV)</title>
 <link>https://www.metacritic.com/tv/the-five-star-weekend/</link>
@@ -3974,38 +4006,6 @@
 <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>6 reviews · 83% positive</description>
-</item>
-<item>
-<title>[80] Tales Of The Teenage Mutant Ninja Turtles (TV)</title>
-<link>https://www.metacritic.com/tv/tales-of-the-teenage-mutant-ninja-turtles/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/tales-of-the-teenage-mutant-ninja-turtles/</guid>
-<pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[67] Cowboy Cartel (TV)</title>
-<link>https://www.metacritic.com/tv/cowboy-cartel/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/cowboy-cartel/</guid>
-<pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>6 reviews · 67% positive</description>
-</item>
-<item>
-<title>[82] The Change (TV)</title>
-<link>https://www.metacritic.com/tv/the-change/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-change/</guid>
-<pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>10 reviews · 90% positive</description>
-</item>
-<item>
-<title>[74] Batman: Caped Crusader (TV)</title>
-<link>https://www.metacritic.com/tv/batman-caped-crusader/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/batman-caped-crusader/</guid>
-<pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>22 reviews · 82% positive</description>
 </item>
 </channel>
 </rss>

@@ -6253,6 +6253,58 @@
         "user_tbd": true,
         "v": 2
       }
+    },
+    "https://www.metacritic.com/movie/do-you-love-me/": {
+      "title": "Do You Love Me",
+      "score": 83,
+      "media": "movie",
+      "release_date": "Jul 10, 2026",
+      "emitted_at": "2026-07-10T04:32:12.484472+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "v": 2
+      }
+    },
+    "https://www.metacritic.com/movie/remake/": {
+      "title": "Remake",
+      "score": 94,
+      "media": "movie",
+      "release_date": "Jul 10, 2026",
+      "emitted_at": "2026-07-10T04:32:12.484472+00:00",
+      "detail": {
+        "critic_count": 12,
+        "pos": 100,
+        "user_tbd": true,
+        "v": 2
+      }
+    },
+    "https://www.metacritic.com/movie/night-nurse/": {
+      "title": "Night Nurse",
+      "score": 62,
+      "media": "movie",
+      "release_date": "Jul 10, 2026",
+      "emitted_at": "2026-07-10T04:32:12.484472+00:00",
+      "detail": {
+        "critic_count": 7,
+        "pos": 71,
+        "user_tbd": true,
+        "v": 2
+      }
+    },
+    "https://www.metacritic.com/movie/gail-daughtry-and-the-celebrity-sex-pass/": {
+      "title": "Gail Daughtry and the Celebrity Sex Pass",
+      "score": 66,
+      "media": "movie",
+      "release_date": "Jul 10, 2026",
+      "emitted_at": "2026-07-10T04:32:12.484472+00:00",
+      "detail": {
+        "critic_count": 23,
+        "pos": 61,
+        "user_tbd": true,
+        "v": 2
+      }
     }
   }
 }
