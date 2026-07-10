@@ -220,6 +220,13 @@ def parse_detail(html_text: str) -> dict:
     elif re.search(r"User score(?:\s+Available after \d+ ratings)?\s+tbd", text):
         d["user_tbd"] = True
 
+    # High-res poster: the detail page's og:image is ~1200px wide (the browse-card
+    # thumbnail is only 192px and the CDN rejects larger sizes on that signed URL).
+    # This page is already fetched for the stats above, so grabbing it is free.
+    og = soup.find("meta", property="og:image") or soup.find("meta", attrs={"name": "twitter:image"})
+    if og and og.get("content"):
+        d["image"] = og["content"]
+
     d["v"] = DETAIL_VERSION
     return d
 
@@ -428,7 +435,9 @@ def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None
         # Poster as an <img> inside the (HTML) description — the one image channel
         # every reader (Readwise/Tapestry/Reeder) renders. escape() entity-encodes
         # the whole body once; the reader decodes it back to HTML and shows the img.
-        img = meta.get("image")
+        # Prefer the hi-res detail og:image (added at enrichment); fall back to the
+        # small browse poster so a fresh item still has a thumbnail before enrichment.
+        img = (meta.get("detail") or {}).get("image") or meta.get("image")
         body = f'<img src="{img}" alt="" /><br />{desc}' if img else desc
         out += [
             "<item>",

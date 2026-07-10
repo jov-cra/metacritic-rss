@@ -292,6 +292,19 @@ def test_parse_detail_extracts_stats():
     assert d["pos"] == 100                 # critic positive %, lenient match
     assert d.get("user_tbd") is True       # user score is tbd
     assert "user_count" not in d           # "Available after 4 ratings" is a threshold, not a count
+    assert d["image"] == "https://img.test/detail_hi.jpg?auto=webp&width=1200"  # hi-res og:image
+
+
+def test_build_rss_prefers_hires_detail_image_over_browse_poster():
+    emitted = {"https://m/movie/x/": {
+        "title": "X", "score": 70, "media": "movie", "release_date": "Jun 1, 2026",
+        "emitted_at": "2026-06-20T00:00:00+00:00", "image": "https://img/small.jpg",
+        "detail": {"image": "https://img/big.jpg", "v": mf.DETAIL_VERSION},
+    }}
+    xml = mf.build_rss(list(emitted.items()), _Args())
+    item = parseString(xml).getElementsByTagName("item")[0]
+    desc = item.getElementsByTagName("description")[0].firstChild.data
+    assert 'src="https://img/big.jpg"' in desc and "small.jpg" not in desc
 
 
 def test_describe_item_no_quote_and_no_tbd_user():
