@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 10 Jul 2026 16:10:51 +0000</lastBuildDate>
+<lastBuildDate>Sun, 12 Jul 2026 01:19:08 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[66] The Westies (TV)</title>
+<link>https://www.metacritic.com/tv/the-westies/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-westies/</guid>
+<pubDate>Sun, 12 Jul 2026 01:19:08 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/2eb760204d12a25ea2e00ce892153806f5712f4d/catalog/provider/2/13/2-189a4e99705a73f0dfe4537445fde2df.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 60% positive</description>
+</item>
 <item>
 <title>[45] Driver's Ed (Movie)</title>
 <link>https://www.metacritic.com/movie/drivers-ed/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/3e48593a36eb9ebbe00deaff1b823b63fb1c30de/catalog/provider/2/13/2-1d68ed92d672e4c92ac3fa461ce19a7e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;42 reviews · 86% positive</description>
-</item>
-<item>
-<title>[66] Side Quest (TV)</title>
-<link>https://www.metacritic.com/tv/side-quest/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/side-quest/</guid>
-<pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/8cda6d5a2dc5f93313719fbd82c95be0f08fd743/catalog/provider/2/13/2-c48c8588f1cbfd8da80840c1196ab1c0.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 71% positive</description>
 </item>
 </channel>
 </rss>

@@ -8260,6 +8260,22 @@
         "image": "https://www.metacritic.com/a/img/resize/d86cf4974af7a1364e4f20a221862ce249f5d19d/catalog/provider/7/2/7-1758135427.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/the-westies/": {
+      "title": "The Westies",
+      "score": 66,
+      "media": "tv",
+      "release_date": "Jul 12, 2026",
+      "emitted_at": "2026-07-12T01:19:08.482192+00:00",
+      "feed_date": "2026-07-12T01:19:08.482192+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b51a90794b94d0fc18952f4e80fcd1beae6021e5/catalog/provider/7/2/7-1783019041.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2eb760204d12a25ea2e00ce892153806f5712f4d/catalog/provider/2/13/2-189a4e99705a73f0dfe4537445fde2df.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
