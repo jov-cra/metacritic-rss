@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sun, 12 Jul 2026 01:19:08 +0000</lastBuildDate>
+<lastBuildDate>Mon, 13 Jul 2026 16:17:36 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[81] Mary Oliver: Saved by the Beauty of the World (Movie)</title>
+<link>https://www.metacritic.com/movie/mary-oliver-saved-by-the-beauty-of-the-world/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/mary-oliver-saved-by-the-beauty-of-the-world/</guid>
+<pubDate>Mon, 13 Jul 2026 16:17:36 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/d0580e3d209639c7fbf3227e9b97fd0b34421454/catalog/provider/7/2/7-1782450482.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 100% positive</description>
+</item>
+<item>
+<title>[74] Barrio Triste (Movie)</title>
+<link>https://www.metacritic.com/movie/barrio-triste/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/barrio-triste/</guid>
+<pubDate>Mon, 13 Jul 2026 16:17:36 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/011c20753456e60f178208cd28bb7f1791063355/catalog/provider/7/2/7-1781551543.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[66] The Westies (TV)</title>
 <link>https://www.metacritic.com/tv/the-westies/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/22811fd7801d7d6e31d36f3db8fe582743e17d99/catalog/provider/7/2/7-1742495872.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 80% positive</description>
-</item>
-<item>
-<title>[67] Mid-Century Modern (TV)</title>
-<link>https://www.metacritic.com/tv/mid-century-modern/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/mid-century-modern/</guid>
-<pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/5a6071652d3f5766e0752f26413df17e692a9800/catalog/provider/7/2/7-1743094724.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 64% positive</description>
-</item>
-<item>
-<title>[80] The Studio (TV)</title>
-<link>https://www.metacritic.com/tv/the-studio/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-studio/</guid>
-<pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/3e48593a36eb9ebbe00deaff1b823b63fb1c30de/catalog/provider/2/13/2-1d68ed92d672e4c92ac3fa461ce19a7e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;42 reviews · 86% positive</description>
 </item>
 </channel>
 </rss>

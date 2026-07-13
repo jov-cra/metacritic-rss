@@ -8276,6 +8276,38 @@
         "image": "https://www.metacritic.com/a/img/resize/2eb760204d12a25ea2e00ce892153806f5712f4d/catalog/provider/2/13/2-189a4e99705a73f0dfe4537445fde2df.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/barrio-triste/": {
+      "title": "Barrio Triste",
+      "score": 74,
+      "media": "movie",
+      "release_date": "Jul 10, 2026",
+      "emitted_at": "2026-07-13T16:17:36.191312+00:00",
+      "feed_date": "2026-07-13T16:17:36.191312+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/12fe31c6d41acb785ed8287d8d2098c53a6a78c5/catalog/provider/7/2/7-1781551445.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/011c20753456e60f178208cd28bb7f1791063355/catalog/provider/7/2/7-1781551543.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/mary-oliver-saved-by-the-beauty-of-the-world/": {
+      "title": "Mary Oliver: Saved by the Beauty of the World",
+      "score": 81,
+      "media": "movie",
+      "release_date": "Jul 2, 2026",
+      "emitted_at": "2026-07-13T16:17:36.191312+00:00",
+      "feed_date": "2026-07-13T16:17:36.191312+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5dcdca82cc2e68b495e1cd71a51895452712f846/catalog/provider/5/2/5-tt39643966.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/d0580e3d209639c7fbf3227e9b97fd0b34421454/catalog/provider/7/2/7-1782450482.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
