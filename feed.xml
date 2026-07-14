@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Mon, 13 Jul 2026 16:17:36 +0000</lastBuildDate>
+<lastBuildDate>Tue, 14 Jul 2026 22:43:20 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[56] Misan Harriman: Shoot the People (Movie)</title>
+<link>https://www.metacritic.com/movie/misan-harriman-shoot-the-people/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/misan-harriman-shoot-the-people/</guid>
+<pubDate>Tue, 14 Jul 2026 22:43:20 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/b1797e9ad456b49610d6259c0a213f027283f208/catalog/provider/7/2/7-1781544111.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 50% positive</description>
+</item>
 <item>
 <title>[81] Mary Oliver: Saved by the Beauty of the World (Movie)</title>
 <link>https://www.metacritic.com/movie/mary-oliver-saved-by-the-beauty-of-the-world/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/3aedb9e1537eae6ae09d06cea50bac3b90c4fef5/catalog/provider/2/13/2-d1742527660b4b522ec3580f2abb549a.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 63% positive</description>
-</item>
-<item>
-<title>[62] The Last Anniversary (TV)</title>
-<link>https://www.metacritic.com/tv/the-last-anniversary/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-last-anniversary/</guid>
-<pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/22811fd7801d7d6e31d36f3db8fe582743e17d99/catalog/provider/7/2/7-1742495872.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 80% positive</description>
 </item>
 </channel>
 </rss>

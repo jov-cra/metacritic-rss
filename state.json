@@ -8308,6 +8308,22 @@
         "image": "https://www.metacritic.com/a/img/resize/d0580e3d209639c7fbf3227e9b97fd0b34421454/catalog/provider/7/2/7-1782450482.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/misan-harriman-shoot-the-people/": {
+      "title": "Misan Harriman: Shoot the People",
+      "score": 56,
+      "media": "movie",
+      "release_date": "Jun 19, 2026",
+      "emitted_at": "2026-07-14T22:43:20.045767+00:00",
+      "feed_date": "2026-07-14T22:43:20.045767+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/307671dcd4ee5b9a5ef6be287afc745ffb3d72af/catalog/provider/7/2/7-1781544124.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b1797e9ad456b49610d6259c0a213f027283f208/catalog/provider/7/2/7-1781544111.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
