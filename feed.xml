@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 15 Jul 2026 01:06:41 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 04:36:19 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[68] Lucky (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/lucky-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/lucky-2026/</guid>
+<pubDate>Wed, 15 Jul 2026 04:36:19 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/440dc9f7acf34e22aa39ce994c23cc581433828d/catalog/provider/2/13/2-07d821a8500958fbdd64662ebbb9bd85.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;13 reviews · 69% positive</description>
+</item>
 <item>
 <title>[74] Ride or Die (TV)</title>
 <link>https://www.metacritic.com/tv/ride-or-die/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/d76ebfd1f9fbd5b25fc8a4db11497af7ce076f83/catalog/provider/2/13/2-592ab6bc412fb376e7d1a373118e37c8.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;29 reviews · 93% positive</description>
-</item>
-<item>
-<title>[75] Devil May Cry (2025) (TV)</title>
-<link>https://www.metacritic.com/tv/devil-may-cry-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/devil-may-cry-2025/</guid>
-<pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/94006c244d50b272a9d7bc6f6da4e11957f51d7c/catalog/provider/2/13/2-5ba076576914d7c0210019ec751c1aa0.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;14 reviews · 86% positive</description>
 </item>
 </channel>
 </rss>

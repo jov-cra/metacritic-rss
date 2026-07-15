@@ -8340,6 +8340,22 @@
         "image": "https://www.metacritic.com/a/img/resize/ec26da54cc88c7aadd3b7db01b2925fb8b77b32c/catalog/provider/2/13/2-f0886719cbed93bb5437dfb8dfe669d6.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/lucky-2026/": {
+      "title": "Lucky (2026)",
+      "score": 68,
+      "media": "tv",
+      "release_date": "Jul 15, 2026",
+      "emitted_at": "2026-07-15T04:36:19.660046+00:00",
+      "feed_date": "2026-07-15T04:36:19.660046+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ba606b0c028e5d19ca77fd2326e947a567357bbc/catalog/provider/2/2/2-304b57c318241f553bf4bd054dc935ca.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 69,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/440dc9f7acf34e22aa39ce994c23cc581433828d/catalog/provider/2/13/2-07d821a8500958fbdd64662ebbb9bd85.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
