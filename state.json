@@ -8324,6 +8324,22 @@
         "image": "https://www.metacritic.com/a/img/resize/b1797e9ad456b49610d6259c0a213f027283f208/catalog/provider/7/2/7-1781544111.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/ride-or-die/": {
+      "title": "Ride or Die",
+      "score": 74,
+      "media": "tv",
+      "release_date": "Jul 15, 2026",
+      "emitted_at": "2026-07-15T01:06:41.118586+00:00",
+      "feed_date": "2026-07-15T01:06:41.118586+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5586ccb6feb06e18a87b35c904754d1bd72a8eb3/catalog/provider/7/2/7-1783362614.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 86,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/ec26da54cc88c7aadd3b7db01b2925fb8b77b32c/catalog/provider/2/13/2-f0886719cbed93bb5437dfb8dfe669d6.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

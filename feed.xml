@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Tue, 14 Jul 2026 22:43:20 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 01:06:41 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[74] Ride or Die (TV)</title>
+<link>https://www.metacritic.com/tv/ride-or-die/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/ride-or-die/</guid>
+<pubDate>Wed, 15 Jul 2026 01:06:41 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/ec26da54cc88c7aadd3b7db01b2925fb8b77b32c/catalog/provider/2/13/2-f0886719cbed93bb5437dfb8dfe669d6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 86% positive</description>
+</item>
 <item>
 <title>[56] Misan Harriman: Shoot the People (Movie)</title>
 <link>https://www.metacritic.com/movie/misan-harriman-shoot-the-people/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/94006c244d50b272a9d7bc6f6da4e11957f51d7c/catalog/provider/2/13/2-5ba076576914d7c0210019ec751c1aa0.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;14 reviews · 86% positive</description>
-</item>
-<item>
-<title>[73] Truelove (TV)</title>
-<link>https://www.metacritic.com/tv/truelove/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/truelove/</guid>
-<pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/3aedb9e1537eae6ae09d06cea50bac3b90c4fef5/catalog/provider/2/13/2-d1742527660b4b522ec3580f2abb549a.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 63% positive</description>
 </item>
 </channel>
 </rss>
