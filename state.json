@@ -8356,6 +8356,22 @@
         "image": "https://www.metacritic.com/a/img/resize/440dc9f7acf34e22aa39ce994c23cc581433828d/catalog/provider/2/13/2-07d821a8500958fbdd64662ebbb9bd85.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/the-hawk/": {
+      "title": "The Hawk",
+      "score": 56,
+      "media": "tv",
+      "release_date": "Jul 16, 2026",
+      "emitted_at": "2026-07-16T07:50:36.815914+00:00",
+      "feed_date": "2026-07-16T07:50:36.815914+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0c8345bf167e2accae6b493bc6d7002bbf23566b/catalog/provider/2/2/2-9d794e20049c39b4cc829fb2415f24c5.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 38,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/d059abad5127c7951071a7ba63a02b515be02d86/catalog/provider/2/2/2-9d794e20049c39b4cc829fb2415f24c5.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
