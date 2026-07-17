@@ -8451,6 +8451,36 @@
         "image": "https://www.metacritic.com/a/img/resize/b1c90c4a7a9d09d565d21cd585cb78b672882938/catalog/provider/7/2/7-1781631343.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/reading-lolita-in-tehran/": {
+      "title": "Reading Lolita in Tehran",
+      "score": 56,
+      "media": "movie",
+      "release_date": "Jul 17, 2026",
+      "emitted_at": "2026-07-17T22:36:00.459679+00:00",
+      "feed_date": "2026-07-17T22:36:00.459679+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/3d0f4cad174a8ea43dc47323e9626340efd6a7c0/catalog/provider/5/2/5-tt27679443.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/6b209e0d222930cb626e468a037e53e8cefcb592/catalog/provider/2/13/2-3c9744c62b6e73d4a981a5c4f81272f6.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/the-east-palace/": {
+      "title": "The East Palace",
+      "score": 78,
+      "media": "tv",
+      "release_date": "Jul 17, 2026",
+      "emitted_at": "2026-07-17T22:36:00.459679+00:00",
+      "feed_date": "2026-07-17T22:36:00.459679+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f993cb31b4a6ebaad4c5d2897ee10e12694673ce/catalog/provider/2/2/2-f3a78efd5c045cbf0a15bd1b7b3816fe.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "v": 3
+      }
     }
   }
 }

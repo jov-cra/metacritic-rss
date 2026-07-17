@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 17 Jul 2026 16:55:28 +0000</lastBuildDate>
+<lastBuildDate>Fri, 17 Jul 2026 22:36:00 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[78] The East Palace (TV)</title>
+<link>https://www.metacritic.com/tv/the-east-palace/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-east-palace/</guid>
+<pubDate>Fri, 17 Jul 2026 22:36:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/f993cb31b4a6ebaad4c5d2897ee10e12694673ce/catalog/provider/2/2/2-f3a78efd5c045cbf0a15bd1b7b3816fe.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
+<item>
+<title>[56] Reading Lolita in Tehran (Movie)</title>
+<link>https://www.metacritic.com/movie/reading-lolita-in-tehran/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/reading-lolita-in-tehran/</guid>
+<pubDate>Fri, 17 Jul 2026 22:36:00 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/6b209e0d222930cb626e468a037e53e8cefcb592/catalog/provider/2/13/2-3c9744c62b6e73d4a981a5c4f81272f6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews</description>
+</item>
 <item>
 <title>[67] Heartstopper Forever (Movie)</title>
 <link>https://www.metacritic.com/movie/heartstopper-forever/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/e41f0919d404c1046ec54060a6e9027faa602876/catalog/provider/2/13/2-60f255e4d7a576ef6d15d0811a0cc056.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 100% positive</description>
-</item>
-<item>
-<title>[78] #1 Happy Family USA (TV)</title>
-<link>https://www.metacritic.com/tv/1-happy-family-usa/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/1-happy-family-usa/</guid>
-<pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/864724f2ed4b0f3ae734d4bb130c506e1ea9164e/catalog/provider/2/13/2-589c51790b14c8084cdda911b687fa6d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 89% positive</description>
-</item>
-<item>
-<title>[66] The Stolen Girl (TV)</title>
-<link>https://www.metacritic.com/tv/the-stolen-girl/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-stolen-girl/</guid>
-<pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/83fb7caff67d54d34766e1eaa53ec0ee16d0e890/catalog/provider/2/13/2-8c1a14be3d83d5fef9417c4cead971dd.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 56% positive</description>
 </item>
 </channel>
 </rss>
