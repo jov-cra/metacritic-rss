@@ -8372,6 +8372,69 @@
         "image": "https://www.metacritic.com/a/img/resize/d059abad5127c7951071a7ba63a02b515be02d86/catalog/provider/2/2/2-9d794e20049c39b4cc829fb2415f24c5.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-odyssey-2026/": {
+      "title": "The Odyssey",
+      "score": 89,
+      "media": "movie",
+      "release_date": "Jul 17, 2026",
+      "emitted_at": "2026-07-17T01:19:22.283040+00:00",
+      "feed_date": "2026-07-17T01:19:22.283040+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/031752fb71dbf88c2cbb6d348beecb874a20de51/catalog/provider/5/2/5-tt33764258.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 57,
+        "pos": 93,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a38f336e736b985e86594a1fbdcc9ec7bf39a531/catalog/provider/7/2/7-1784095074.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/they-fight-2026/": {
+      "title": "They Fight",
+      "score": 50,
+      "media": "movie",
+      "release_date": "Jul 17, 2026",
+      "emitted_at": "2026-07-17T01:19:22.283040+00:00",
+      "feed_date": "2026-07-17T01:19:22.283040+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a3d24dd997afa32285d389736a2074c76cc2068c/catalog/provider/5/2/5-tt10370856.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/e940794e867cea4d8f2dcdbf063e124e5e0258c6/catalog/provider/5/2/5-tt10370856.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-kidnapping-of-arabella/": {
+      "title": "The Kidnapping of Arabella",
+      "score": 57,
+      "media": "movie",
+      "release_date": "Jul 17, 2026",
+      "emitted_at": "2026-07-17T01:19:22.283040+00:00",
+      "feed_date": "2026-07-17T01:19:22.283040+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/8fc7b7de967604b5126fa098de50400c6c8fec20/catalog/provider/5/2/5-tt33292601.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/fec1902946fde927e200d041deec15b73b3a57bd/catalog/provider/2/2/2-d712c3060a3d01175dd8e27a67a57deb.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/american-pachuco-the-legend-of-luis-valdez/": {
+      "title": "American Pachuco: The Legend of Luis Valdez",
+      "score": 68,
+      "media": "movie",
+      "release_date": "Jul 17, 2026",
+      "emitted_at": "2026-07-17T01:19:22.283040+00:00",
+      "feed_date": "2026-07-17T01:19:22.283040+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/784a6008a6d6cc36b9d65790edabdcf6f6e4104b/catalog/provider/7/2/7-1769791805.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 71,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/ca1276f7d90b606bb450b26d8e5231a81bc9bae9/catalog/provider/7/2/7-1769791794.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
