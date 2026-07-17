@@ -8435,6 +8435,22 @@
         "image": "https://www.metacritic.com/a/img/resize/ca1276f7d90b606bb450b26d8e5231a81bc9bae9/catalog/provider/7/2/7-1769791794.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/heartstopper-forever/": {
+      "title": "Heartstopper Forever",
+      "score": 67,
+      "media": "movie",
+      "release_date": "Jul 17, 2026",
+      "emitted_at": "2026-07-17T16:55:28.130960+00:00",
+      "feed_date": "2026-07-17T16:55:28.130960+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d3f2f04be08b41719857cb9d326985e1d167da11/catalog/provider/7/2/7-1782697510.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 70,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b1c90c4a7a9d09d565d21cd585cb78b672882938/catalog/provider/7/2/7-1781631343.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

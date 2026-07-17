@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 17 Jul 2026 01:19:22 +0000</lastBuildDate>
+<lastBuildDate>Fri, 17 Jul 2026 16:55:28 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[67] Heartstopper Forever (Movie)</title>
+<link>https://www.metacritic.com/movie/heartstopper-forever/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/heartstopper-forever/</guid>
+<pubDate>Fri, 17 Jul 2026 16:55:28 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/b1c90c4a7a9d09d565d21cd585cb78b672882938/catalog/provider/7/2/7-1781631343.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 70% positive</description>
+</item>
 <item>
 <title>[50] They Fight (Movie)</title>
 <link>https://www.metacritic.com/movie/they-fight-2026/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/83fb7caff67d54d34766e1eaa53ec0ee16d0e890/catalog/provider/2/13/2-8c1a14be3d83d5fef9417c4cead971dd.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 56% positive</description>
-</item>
-<item>
-<title>[63] Sherlock &amp; Daughter (TV)</title>
-<link>https://www.metacritic.com/tv/sherlock-daughter/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/sherlock-daughter/</guid>
-<pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/796c059e80bc8031f3f1e80432623d3c2db678c3/catalog/provider/2/13/2-372a8f43e3fab2816870fe2750edd91c.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 50% positive</description>
 </item>
 </channel>
 </rss>
