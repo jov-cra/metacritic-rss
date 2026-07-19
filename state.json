@@ -8481,6 +8481,22 @@
         "user_tbd": true,
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/horsegirls/": {
+      "title": "Horsegirls",
+      "score": 71,
+      "media": "movie",
+      "release_date": "Jul 17, 2026",
+      "emitted_at": "2026-07-19T04:57:21.248046+00:00",
+      "feed_date": "2026-07-19T04:57:21.248046+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e355998104dfdc4b9bcba891b558cab41eb94d2f/catalog/provider/5/2/5-tt13652006.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c77b69d1ff73cfb2ac611a46874704a86eee45eb/catalog/provider/5/2/5-tt13652006.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

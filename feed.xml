@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 17 Jul 2026 22:36:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 19 Jul 2026 04:57:21 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[71] Horsegirls (Movie)</title>
+<link>https://www.metacritic.com/movie/horsegirls/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/horsegirls/</guid>
+<pubDate>Sun, 19 Jul 2026 04:57:21 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/c77b69d1ff73cfb2ac611a46874704a86eee45eb/catalog/provider/5/2/5-tt13652006.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
 <item>
 <title>[78] The East Palace (TV)</title>
 <link>https://www.metacritic.com/tv/the-east-palace/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/ded04fda3b7de876b2fdd37947dae16e7e999a59/catalog/provider/2/13/2-b4093153458da697517c9207f0a65cde.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 67% positive</description>
-</item>
-<item>
-<title>[83] The Narrow Road to the Deep North (TV)</title>
-<link>https://www.metacritic.com/tv/the-narrow-road-to-the-deep-north/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-narrow-road-to-the-deep-north/</guid>
-<pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/e41f0919d404c1046ec54060a6e9027faa602876/catalog/provider/2/13/2-60f255e4d7a576ef6d15d0811a0cc056.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>
