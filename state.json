@@ -8529,6 +8529,22 @@
         "image": "https://www.metacritic.com/a/img/resize/971cb9f729e3e8657f72030b005f246643459e66/catalog/provider/2/13/2-3c04627b99c9e7e7f33b9f3b6127fc6c.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/pompeii-out-of-time-with-tom-hiddleston/": {
+      "title": "Pompeii: Out of Time with Tom Hiddleston",
+      "score": 69,
+      "media": "tv",
+      "release_date": "Jul 22, 2026",
+      "emitted_at": "2026-07-23T20:47:47.310592+00:00",
+      "feed_date": "2026-07-23T20:47:47.310592+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a8fc1599b7af13ff4ab46c07ff3566524bf47c6b/catalog/provider/2/2/2-01870d14b8aa6f4c934deebfdce89d81.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/3509062ac7045053edfe86bf06a8d29df97f8166/catalog/provider/2/13/2-96545ba701dd3f76902410ab508eb8b2.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

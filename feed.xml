@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Thu, 23 Jul 2026 01:23:08 +0000</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 20:47:47 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[69] Pompeii: Out of Time with Tom Hiddleston (TV)</title>
+<link>https://www.metacritic.com/tv/pompeii-out-of-time-with-tom-hiddleston/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/pompeii-out-of-time-with-tom-hiddleston/</guid>
+<pubDate>Thu, 23 Jul 2026 20:47:47 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/3509062ac7045053edfe86bf06a8d29df97f8166/catalog/provider/2/13/2-96545ba701dd3f76902410ab508eb8b2.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 50% positive</description>
+</item>
 <item>
 <title>[72] Stuart Fails to Save the Universe (TV)</title>
 <link>https://www.metacritic.com/tv/stuart-fails-to-save-the-universe/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/12e1681b9bf6d41c2b26c4d555cfb5812a7a5c1f/catalog/provider/2/13/2-f37b3e7ed6799e3e530cd28104c3e9cd.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 92% positive</description>
-</item>
-<item>
-<title>[80] Chef's Table: Legends (TV)</title>
-<link>https://www.metacritic.com/tv/chefs-table-legends/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/chefs-table-legends/</guid>
-<pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/2696f7bb3211a16794d118404144594df447be23/catalog/provider/2/13/2-72348acb586d842b5833566a80f219fc.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>
