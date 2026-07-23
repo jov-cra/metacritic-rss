@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sun, 19 Jul 2026 04:57:21 +0000</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 01:23:08 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[72] Stuart Fails to Save the Universe (TV)</title>
+<link>https://www.metacritic.com/tv/stuart-fails-to-save-the-universe/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/stuart-fails-to-save-the-universe/</guid>
+<pubDate>Thu, 23 Jul 2026 01:23:08 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/971cb9f729e3e8657f72030b005f246643459e66/catalog/provider/2/13/2-3c04627b99c9e7e7f33b9f3b6127fc6c.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;13 reviews · 62% positive</description>
+</item>
+<item>
+<title>[77] Gone (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/gone-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/gone-2026/</guid>
+<pubDate>Thu, 23 Jul 2026 01:23:08 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/d15b6a368ff0121fd80400a46753bce9afc8ac6d/catalog/provider/2/13/2-6b69c10620fa96783d94379e488092b5.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 80% positive</description>
+</item>
 <item>
 <title>[71] Horsegirls (Movie)</title>
 <link>https://www.metacritic.com/movie/horsegirls/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/2696f7bb3211a16794d118404144594df447be23/catalog/provider/2/13/2-72348acb586d842b5833566a80f219fc.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[69] Étoile (TV)</title>
-<link>https://www.metacritic.com/tv/toile/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/toile/</guid>
-<pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/f8dc50549b474acab5ad3c3f2e36d716cc658fb0/catalog/provider/2/13/2-aad7aac7467a0d22322fefc298fe24d1.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;22 reviews · 59% positive</description>
-</item>
-<item>
-<title>[70] I, Jack Wright (TV)</title>
-<link>https://www.metacritic.com/tv/i-jack-wright/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/i-jack-wright/</guid>
-<pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/ded04fda3b7de876b2fdd37947dae16e7e999a59/catalog/provider/2/13/2-b4093153458da697517c9207f0a65cde.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 67% positive</description>
 </item>
 </channel>
 </rss>

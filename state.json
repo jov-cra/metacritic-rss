@@ -8497,6 +8497,38 @@
         "image": "https://www.metacritic.com/a/img/resize/c77b69d1ff73cfb2ac611a46874704a86eee45eb/catalog/provider/5/2/5-tt13652006.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/gone-2026/": {
+      "title": "Gone (2026)",
+      "score": 77,
+      "media": "tv",
+      "release_date": "Jul 23, 2026",
+      "emitted_at": "2026-07-23T01:23:08.294913+00:00",
+      "feed_date": "2026-07-23T01:23:08.294913+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/80b82867e9f3cff9f564aea6e094c8a415a8311e/catalog/provider/2/2/2-1b3a3b5beda83edca589c27075a66c49.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 80,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/d15b6a368ff0121fd80400a46753bce9afc8ac6d/catalog/provider/2/13/2-6b69c10620fa96783d94379e488092b5.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/stuart-fails-to-save-the-universe/": {
+      "title": "Stuart Fails to Save the Universe",
+      "score": 72,
+      "media": "tv",
+      "release_date": "Jul 23, 2026",
+      "emitted_at": "2026-07-23T01:23:08.294913+00:00",
+      "feed_date": "2026-07-23T01:23:08.294913+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9ca0b4a749e118663fd50db8ab50f8683f84b789/catalog/provider/2/2/2-0ee044fcbd1b1d59960275d4ab927add.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 62,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/971cb9f729e3e8657f72030b005f246643459e66/catalog/provider/2/13/2-3c04627b99c9e7e7f33b9f3b6127fc6c.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
