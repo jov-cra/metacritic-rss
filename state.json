@@ -8657,6 +8657,22 @@
         "image": "https://www.metacritic.com/a/img/resize/33d08c97313994825bc18a3cfc1ff068acb8b2f0/catalog/provider/2/13/2-6d55595ceecacdf87b9d351de728d0a5.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/72-hours-2026/": {
+      "title": "72 Hours",
+      "score": 48,
+      "media": "movie",
+      "release_date": "Jul 24, 2026",
+      "emitted_at": "2026-07-24T04:56:35.061897+00:00",
+      "feed_date": "2026-07-24T04:56:35.061897+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/4ca9da3b3bb70a2af19b5fb2df4f9e9b905d99ba/catalog/provider/5/2/5-tt36304003.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 38,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/90c86660d581ffdb7e6df6f4142a9e85ca092c9b/catalog/provider/5/2/5-tt36304003.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

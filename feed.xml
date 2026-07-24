@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 24 Jul 2026 01:18:44 +0000</lastBuildDate>
+<lastBuildDate>Fri, 24 Jul 2026 04:56:35 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[48] 72 Hours (Movie)</title>
+<link>https://www.metacritic.com/movie/72-hours-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/72-hours-2026/</guid>
+<pubDate>Fri, 24 Jul 2026 04:56:35 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/90c86660d581ffdb7e6df6f4142a9e85ca092c9b/catalog/provider/5/2/5-tt36304003.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 38% positive</description>
+</item>
 <item>
 <title>[57] The Dink (Movie)</title>
 <link>https://www.metacritic.com/movie/the-dink/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/4e2467f0a69ee1a07c02473b970d47b7aaa236e3/catalog/provider/2/13/2-c01751d327981da26c9dc70a751ac3f5.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;29 reviews · 72% positive</description>
-</item>
-<item>
-<title>[72] Overcompensating (TV)</title>
-<link>https://www.metacritic.com/tv/overcompensating/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/overcompensating/</guid>
-<pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/b633d28236e49245be6f5c1fd55e31314d3d3b49/catalog/provider/2/13/2-d6a31adaf23e4117b8e90367788e4add.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;21 reviews · 76% positive</description>
 </item>
 </channel>
 </rss>
