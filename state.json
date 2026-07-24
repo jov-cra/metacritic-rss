@@ -8545,6 +8545,118 @@
         "image": "https://www.metacritic.com/a/img/resize/3509062ac7045053edfe86bf06a8d29df97f8166/catalog/provider/2/13/2-96545ba701dd3f76902410ab508eb8b2.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/hadestown-the-musical/": {
+      "title": "Hadestown: The Musical",
+      "score": 85,
+      "media": "movie",
+      "release_date": "Jul 24, 2026",
+      "emitted_at": "2026-07-24T01:18:44.666389+00:00",
+      "feed_date": "2026-07-24T01:18:44.666389+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/588080697a75c115ead34084412091cac612703e/catalog/provider/5/2/5-tt36307021.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/03084364d4aaf9593678bc0bee588694431c9e3f/catalog/provider/7/2/7-1784824527.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/rosebush-pruning/": {
+      "title": "Rosebush Pruning",
+      "score": 46,
+      "media": "movie",
+      "release_date": "Jul 24, 2026",
+      "emitted_at": "2026-07-24T01:18:44.666389+00:00",
+      "feed_date": "2026-07-24T01:18:44.666389+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1ee774d893dca4e1443ce1d60dc964107421036d/catalog/provider/2/13/2-6190deaa8988c1d0ce6409beb0d3089c.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 25,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/ff429532601b83fbe9f4e9b0843ed7e2f2c55e3c/catalog/provider/7/2/7-1771357449.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/motor-city/": {
+      "title": "Motor City",
+      "score": 58,
+      "media": "movie",
+      "release_date": "Jul 24, 2026",
+      "emitted_at": "2026-07-24T01:18:44.666389+00:00",
+      "feed_date": "2026-07-24T01:18:44.666389+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1f44173a96ffe15ef346aba4726dfa1a903b9f04/catalog/provider/7/2/7-1780594808.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 14,
+        "pos": 57,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a10b84646ab587309f99cd363279f5f9b1af2073/catalog/provider/2/13/2-44d7d8b7e0c933aa76f6af7b4d4b3756.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/sheep-in-the-box/": {
+      "title": "Sheep in the Box",
+      "score": 51,
+      "media": "movie",
+      "release_date": "Jul 24, 2026",
+      "emitted_at": "2026-07-24T01:18:44.666389+00:00",
+      "feed_date": "2026-07-24T01:18:44.666389+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2b56ed0d3f0917fc368ab175f736f6695fae92b0/catalog/provider/5/2/5-tt38551209.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 17,
+        "pos": 24,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/96b8b1399348408b71f5933c595d007e94e084bb/catalog/provider/5/2/5-tt38551209.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/her-private-hell/": {
+      "title": "Her Private Hell",
+      "score": 44,
+      "media": "movie",
+      "release_date": "Jul 24, 2026",
+      "emitted_at": "2026-07-24T01:18:44.666389+00:00",
+      "feed_date": "2026-07-24T01:18:44.666389+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e33a408b5b13b17d616998eb54809ffe4b6a7cf3/catalog/provider/7/2/7-1784221692.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 27,
+        "pos": 37,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/d98d0f4894cdec75647b9318e9c2f0eda06ca9a5/catalog/provider/7/2/7-1778642843.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-dink/": {
+      "title": "The Dink",
+      "score": 57,
+      "media": "movie",
+      "release_date": "Jul 24, 2026",
+      "emitted_at": "2026-07-24T01:18:44.666389+00:00",
+      "feed_date": "2026-07-24T01:18:44.666389+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/65513b63518a1345165e52960b1dd4189422c29c/catalog/provider/2/2/2-5ebfbed64cce24129d067420289af8cf.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 19,
+        "pos": 47,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/85c0977014350a0b0fbcb9635cf7a42b2e4b14fc/catalog/provider/2/13/2-ed962e9c1e7911b161c857bba78f3a65.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/a-sad-and-beautiful-world/": {
+      "title": "A Sad and Beautiful World",
+      "score": 75,
+      "media": "movie",
+      "release_date": "Jul 24, 2026",
+      "emitted_at": "2026-07-24T01:18:44.666389+00:00",
+      "feed_date": "2026-07-24T01:18:44.666389+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ae39dbc8712816eef46c04ff71703bedd3d95bb0/catalog/provider/5/2/5-tt32622406.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 80,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/33d08c97313994825bc18a3cfc1ff068acb8b2f0/catalog/provider/2/13/2-6d55595ceecacdf87b9d351de728d0a5.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
