@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 24 Jul 2026 04:56:35 +0000</lastBuildDate>
+<lastBuildDate>Sat, 25 Jul 2026 01:19:49 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[68] Avatar Aang: The Last Airbender (Movie)</title>
+<link>https://www.metacritic.com/movie/avatar-aang-the-last-airbender/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/avatar-aang-the-last-airbender/</guid>
+<pubDate>Sat, 25 Jul 2026 01:19:49 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/ca89cf388d421a977c626d2b80611adc54a1c5fa/catalog/provider/7/2/7-1784563094.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 73% positive</description>
+</item>
 <item>
 <title>[48] 72 Hours (Movie)</title>
 <link>https://www.metacritic.com/movie/72-hours-2026/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/ea5c2f9ed12a1cba804bc0607e97590312941c68/catalog/provider/2/13/2-b3a3b4fa95c5a934e07a808f13444892.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 83% positive</description>
-</item>
-<item>
-<title>[71] Murderbot (TV)</title>
-<link>https://www.metacritic.com/tv/murderbot/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/murderbot/</guid>
-<pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/4e2467f0a69ee1a07c02473b970d47b7aaa236e3/catalog/provider/2/13/2-c01751d327981da26c9dc70a751ac3f5.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;29 reviews · 72% positive</description>
 </item>
 </channel>
 </rss>

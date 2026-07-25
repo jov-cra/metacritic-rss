@@ -8673,6 +8673,22 @@
         "image": "https://www.metacritic.com/a/img/resize/90c86660d581ffdb7e6df6f4142a9e85ca092c9b/catalog/provider/5/2/5-tt36304003.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/avatar-aang-the-last-airbender/": {
+      "title": "Avatar Aang: The Last Airbender",
+      "score": 68,
+      "media": "movie",
+      "release_date": "Jul 25, 2026",
+      "emitted_at": "2026-07-25T01:19:49.523537+00:00",
+      "feed_date": "2026-07-25T01:19:49.523537+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/7a266372c72a1493117c1f0a58b261fd8ab02035/catalog/provider/7/2/7-1783459993.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 73,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/ca89cf388d421a977c626d2b80611adc54a1c5fa/catalog/provider/7/2/7-1784563094.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
