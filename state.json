@@ -8689,6 +8689,38 @@
         "image": "https://www.metacritic.com/a/img/resize/ca89cf388d421a977c626d2b80611adc54a1c5fa/catalog/provider/7/2/7-1784563094.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/furious-2026/": {
+      "title": "Furious (2026)",
+      "score": 78,
+      "media": "tv",
+      "release_date": "Jul 27, 2026",
+      "emitted_at": "2026-07-27T01:26:53.236122+00:00",
+      "feed_date": "2026-07-27T01:26:53.236122+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f425105a65427a28136173eb9af51056252a2007/catalog/provider/2/2/2-89a07b18070f6a856fd26ec4ff3c284c.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 88,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/e3224622e4530248704c6f98a5025e94c2e8112d/catalog/provider/2/13/2-b04dfb950030c2903dda71164864785c.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/president-curtis/": {
+      "title": "President Curtis",
+      "score": 67,
+      "media": "tv",
+      "release_date": "Jul 27, 2026",
+      "emitted_at": "2026-07-27T01:26:53.236122+00:00",
+      "feed_date": "2026-07-27T01:26:53.236122+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9fff238919f20c2d5fedb4a533a68c441b479f6c/catalog/provider/7/2/7-1784912351.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/9c80828d2c53208710fa0d75ddeca8e56cbe36de/catalog/provider/2/13/2-17c2cb691b5a78060f04a8290687f618.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

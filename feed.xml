@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sat, 25 Jul 2026 01:19:49 +0000</lastBuildDate>
+<lastBuildDate>Mon, 27 Jul 2026 01:26:53 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[67] President Curtis (TV)</title>
+<link>https://www.metacritic.com/tv/president-curtis/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/president-curtis/</guid>
+<pubDate>Mon, 27 Jul 2026 01:26:53 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/9c80828d2c53208710fa0d75ddeca8e56cbe36de/catalog/provider/2/13/2-17c2cb691b5a78060f04a8290687f618.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 50% positive</description>
+</item>
+<item>
+<title>[78] Furious (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/furious-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/furious-2026/</guid>
+<pubDate>Mon, 27 Jul 2026 01:26:53 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/e3224622e4530248704c6f98a5025e94c2e8112d/catalog/provider/2/13/2-b04dfb950030c2903dda71164864785c.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 88% positive</description>
+</item>
 <item>
 <title>[68] Avatar Aang: The Last Airbender (Movie)</title>
 <link>https://www.metacritic.com/movie/avatar-aang-the-last-airbender/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c4125ca757e02cf8c6245e1d22089e1d0e2bd569/catalog/provider/2/13/2-44112f37ab86d4dfe0a77907a56a3920.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;19 reviews · 100% positive</description>
-</item>
-<item>
-<title>[66] Sirens (2025) (TV)</title>
-<link>https://www.metacritic.com/tv/sirens-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/sirens-2025/</guid>
-<pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/cee7ca9e2ccaac1ecc2fe4023e5bf16185a29b9c/catalog/provider/2/13/2-0cf798264c88778c745c44bf218bd4a3.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;33 reviews · 58% positive</description>
-</item>
-<item>
-<title>[72] Tucci in Italy (TV)</title>
-<link>https://www.metacritic.com/tv/tucci-in-italy/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/tucci-in-italy/</guid>
-<pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/ea5c2f9ed12a1cba804bc0607e97590312941c68/catalog/provider/2/13/2-b3a3b4fa95c5a934e07a808f13444892.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 83% positive</description>
 </item>
 </channel>
 </rss>
