@@ -8737,6 +8737,22 @@
         "image": "https://www.metacritic.com/a/img/resize/0e8bda354247dd978522d33ef69dcf8eb34ab3e6/catalog/provider/5/2/5-tt43492793.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/pinocchio-unstrung/": {
+      "title": "Pinocchio: Unstrung",
+      "score": 50,
+      "media": "movie",
+      "release_date": "Jul 24, 2026",
+      "emitted_at": "2026-07-28T20:55:02.826239+00:00",
+      "feed_date": "2026-07-28T20:55:02.826239+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f65e336212a60a2bf90522fc2b7a28f735d5f647/catalog/provider/7/2/7-1781036787.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/09a85f2ca74b11bab5252a1fed5e07a1b84eea44/catalog/provider/7/2/7-1778605546.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

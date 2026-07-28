@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Tue, 28 Jul 2026 19:00:51 +0000</lastBuildDate>
+<lastBuildDate>Tue, 28 Jul 2026 20:55:02 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[50] Pinocchio: Unstrung (Movie)</title>
+<link>https://www.metacritic.com/movie/pinocchio-unstrung/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/pinocchio-unstrung/</guid>
+<pubDate>Tue, 28 Jul 2026 20:55:02 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/09a85f2ca74b11bab5252a1fed5e07a1b84eea44/catalog/provider/7/2/7-1778605546.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 50% positive</description>
+</item>
 <item>
 <title>[76] WHAM! 10 Days in China (Movie)</title>
 <link>https://www.metacritic.com/movie/wham!-10-days-in-china/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/69204bbda31e97b9c08a4aced6021a559bc76697/catalog/provider/2/13/2-8577294bc6742e312a43c8706091c2a0.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;21 reviews · 52% positive</description>
-</item>
-<item>
-<title>[70] Jerrod Carmichael: Don't Be Gay (TV)</title>
-<link>https://www.metacritic.com/tv/jerrod-carmichael-dont-be-gay/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/jerrod-carmichael-dont-be-gay/</guid>
-<pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/26e915a2b3889e4af651a1c66e499be4c75977fc/catalog/provider/2/13/2-0131f6cd96c6862193907e0e9ba0a9a9.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
 </item>
 </channel>
 </rss>
