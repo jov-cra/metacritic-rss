@@ -8721,6 +8721,22 @@
         "image": "https://www.metacritic.com/a/img/resize/9c80828d2c53208710fa0d75ddeca8e56cbe36de/catalog/provider/2/13/2-17c2cb691b5a78060f04a8290687f618.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/wham!-10-days-in-china/": {
+      "title": "WHAM! 10 Days in China",
+      "score": 76,
+      "media": "movie",
+      "release_date": "Jul 28, 2026",
+      "emitted_at": "2026-07-28T19:00:51.840452+00:00",
+      "feed_date": "2026-07-28T19:00:51.840452+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/8fa7d0d723fa8e65008791081e34b545d0e86162/catalog/provider/7/2/7-1784910679.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/0e8bda354247dd978522d33ef69dcf8eb34ab3e6/catalog/provider/5/2/5-tt43492793.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

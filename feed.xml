@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Mon, 27 Jul 2026 01:26:53 +0000</lastBuildDate>
+<lastBuildDate>Tue, 28 Jul 2026 19:00:51 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[76] WHAM! 10 Days in China (Movie)</title>
+<link>https://www.metacritic.com/movie/wham!-10-days-in-china/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/wham!-10-days-in-china/</guid>
+<pubDate>Tue, 28 Jul 2026 19:00:51 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/0e8bda354247dd978522d33ef69dcf8eb34ab3e6/catalog/provider/5/2/5-tt43492793.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 100% positive</description>
+</item>
 <item>
 <title>[67] President Curtis (TV)</title>
 <link>https://www.metacritic.com/tv/president-curtis/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/26e915a2b3889e4af651a1c66e499be4c75977fc/catalog/provider/2/13/2-0131f6cd96c6862193907e0e9ba0a9a9.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
-</item>
-<item>
-<title>[82] Pee-wee as Himself (TV)</title>
-<link>https://www.metacritic.com/tv/pee-wee-as-himself/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/pee-wee-as-himself/</guid>
-<pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/c4125ca757e02cf8c6245e1d22089e1d0e2bd569/catalog/provider/2/13/2-44112f37ab86d4dfe0a77907a56a3920.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;19 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>
