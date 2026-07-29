@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Tue, 28 Jul 2026 20:55:02 +0000</lastBuildDate>
+<lastBuildDate>Wed, 29 Jul 2026 17:00:57 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[38] The Devil's Mouth (Movie)</title>
+<link>https://www.metacritic.com/movie/the-devils-mouth/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-devils-mouth/</guid>
+<pubDate>Wed, 29 Jul 2026 17:00:57 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/f00b4fc626ae6c17ddade98b01b05492c3943fba/catalog/provider/7/2/7-1783959147.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 0% positive</description>
+</item>
 <item>
 <title>[50] Pinocchio: Unstrung (Movie)</title>
 <link>https://www.metacritic.com/movie/pinocchio-unstrung/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/3b2a13d61e8e9cd11f9677bacc610d65f02e3cd4/catalog/provider/2/2/2-5b3121e53cabb5d9a214341b7efd285e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 30% positive</description>
-</item>
-<item>
-<title>[65] Adults (TV)</title>
-<link>https://www.metacritic.com/tv/adults/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/adults/</guid>
-<pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/69204bbda31e97b9c08a4aced6021a559bc76697/catalog/provider/2/13/2-8577294bc6742e312a43c8706091c2a0.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;21 reviews · 52% positive</description>
 </item>
 </channel>
 </rss>
