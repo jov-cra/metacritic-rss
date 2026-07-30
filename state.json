@@ -8769,6 +8769,22 @@
         "image": "https://www.metacritic.com/a/img/resize/f00b4fc626ae6c17ddade98b01b05492c3943fba/catalog/provider/7/2/7-1783959147.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/the-bombing-of-pan-am-103/": {
+      "title": "The Bombing of Pan Am 103",
+      "score": 65,
+      "media": "tv",
+      "release_date": "Jul 30, 2026",
+      "emitted_at": "2026-07-30T01:10:04.288050+00:00",
+      "feed_date": "2026-07-30T01:10:04.288050+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/fed32ad99f4f95ba3480006a92a16783c879e7fd/catalog/provider/2/2/2-82cead797115429b24387242e92df3b1.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/5c1572247d1f68a8a34e8943c8798ea2094dd876/catalog/provider/2/13/2-ad29546a2d516bd92458a91872ac1771.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

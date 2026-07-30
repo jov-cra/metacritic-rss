@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 29 Jul 2026 17:00:57 +0000</lastBuildDate>
+<lastBuildDate>Thu, 30 Jul 2026 01:10:04 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[65] The Bombing of Pan Am 103 (TV)</title>
+<link>https://www.metacritic.com/tv/the-bombing-of-pan-am-103/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-bombing-of-pan-am-103/</guid>
+<pubDate>Thu, 30 Jul 2026 01:10:04 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/5c1572247d1f68a8a34e8943c8798ea2094dd876/catalog/provider/2/13/2-ad29546a2d516bd92458a91872ac1771.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 50% positive</description>
+</item>
 <item>
 <title>[38] The Devil's Mouth (Movie)</title>
 <link>https://www.metacritic.com/movie/the-devils-mouth/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/fc1812cb417e2c684d54014a86cd7139c1f2d863/catalog/provider/2/13/2-671f96a0ed368aec9bd97c69a21e2b3b.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;22 reviews · 64% positive</description>
-</item>
-<item>
-<title>[64] Death Valley (2025) (TV)</title>
-<link>https://www.metacritic.com/tv/death-valley-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/death-valley-2025/</guid>
-<pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/3b2a13d61e8e9cd11f9677bacc610d65f02e3cd4/catalog/provider/2/2/2-5b3121e53cabb5d9a214341b7efd285e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 30% positive</description>
 </item>
 </channel>
 </rss>
