@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 31 Jul 2026 01:22:38 +0000</lastBuildDate>
+<lastBuildDate>Fri, 31 Jul 2026 20:49:09 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[77] The Gas Station Attendant (Movie)</title>
+<link>https://www.metacritic.com/movie/the-gas-station-attendant/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-gas-station-attendant/</guid>
+<pubDate>Fri, 31 Jul 2026 20:49:09 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/67bc239bc570778eebd860a4b0255d14a0effd6d/catalog/provider/7/2/7-1781547892.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[52] Fightland (TV)</title>
 <link>https://www.metacritic.com/tv/fightland/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/30d1e3c487e6c39610a140f36dfa2c06b1996e3b/catalog/provider/2/13/2-b66892b8fbe169dbc96cca525b3d0f64.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 88% positive</description>
-</item>
-<item>
-<title>[72] Families Like Ours (TV)</title>
-<link>https://www.metacritic.com/tv/families-like-ours/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/families-like-ours/</guid>
-<pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/58cba486b2d6ebabbe7b8f97ac904a0248280a4b/catalog/provider/2/13/2-fb23d9bfa1940986bdfe606e5ec741ce.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
 </item>
 </channel>
 </rss>

@@ -8864,6 +8864,22 @@
         "image": "https://www.metacritic.com/a/img/resize/bc51de66c50e2b48ee42987a42d287da5fcd7893/catalog/provider/2/2/2-b63e4c2ced17b2acd1f83881747e00ae.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-gas-station-attendant/": {
+      "title": "The Gas Station Attendant",
+      "score": 77,
+      "media": "movie",
+      "release_date": "Jun 12, 2026",
+      "emitted_at": "2026-07-31T20:49:09.852489+00:00",
+      "feed_date": "2026-07-31T20:49:09.852489+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/55aae6d9e189d1d4ae4d2e79fe091196f857b1dd/catalog/provider/7/2/7-1781547813.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/67bc239bc570778eebd860a4b0255d14a0effd6d/catalog/provider/7/2/7-1781547892.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
