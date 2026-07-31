@@ -8785,6 +8785,85 @@
         "image": "https://www.metacritic.com/a/img/resize/5c1572247d1f68a8a34e8943c8798ea2094dd876/catalog/provider/2/13/2-ad29546a2d516bd92458a91872ac1771.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/mustache/": {
+      "title": "Mustache",
+      "score": 66,
+      "media": "movie",
+      "release_date": "Jul 31, 2026",
+      "emitted_at": "2026-07-31T01:22:38.658740+00:00",
+      "feed_date": "2026-07-31T01:22:38.658740+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/741faacc5ab0d1a67ed06ddf39dc91d239ca1b86/catalog/provider/7/2/7-1784911275.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/5fca83a55b5042d4b65a477bfb5775c0fe15fc65/catalog/provider/7/2/7-1784911260.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/spider-man-brand-new-day/": {
+      "title": "Spider-Man: Brand New Day",
+      "score": 66,
+      "media": "movie",
+      "release_date": "Jul 31, 2026",
+      "emitted_at": "2026-07-31T01:22:38.658740+00:00",
+      "feed_date": "2026-07-31T01:22:38.658740+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2aeb8819d6dcd911eedefa2b161a467e4a6bd0ac/catalog/provider/7/2/7-1785183193.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 51,
+        "pos": 71,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a3ab0b0db785cfd44751f1092a16159c2b651481/catalog/provider/7/2/7-1785194344.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/i-want-your-sex/": {
+      "title": "I Want Your Sex",
+      "score": 68,
+      "media": "movie",
+      "release_date": "Jul 31, 2026",
+      "emitted_at": "2026-07-31T01:22:38.658740+00:00",
+      "feed_date": "2026-07-31T01:22:38.658740+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/92b97138cf1eaa39d3ab8d3f0416d54b28bba0de/catalog/provider/7/2/7-1781118281.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 29,
+        "pos": 72,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/1107fe90937bced2c7a646da3fc067462f083346/catalog/provider/5/2/5-tt32332915.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-samurai-and-the-prisoner/": {
+      "title": "The Samurai and the Prisoner",
+      "score": 79,
+      "media": "movie",
+      "release_date": "Jul 31, 2026",
+      "emitted_at": "2026-07-31T01:22:38.658740+00:00",
+      "feed_date": "2026-07-31T01:22:38.658740+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a84ac0cf54de4479c9a336e2d275f8ddcaeca99d/catalog/provider/7/2/7-1782496533.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 14,
+        "pos": 93,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/046d626fec34c3eca882ffec4170b974a5ed5b7d/catalog/provider/7/2/7-1778641822.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/fightland/": {
+      "title": "Fightland",
+      "score": 52,
+      "media": "tv",
+      "release_date": "Jul 31, 2026",
+      "emitted_at": "2026-07-31T01:22:38.658740+00:00",
+      "feed_date": "2026-07-31T01:22:38.658740+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/bdf199675e00d5376fc905bd43ca53bc5f1ba109/catalog/provider/2/2/2-b63e4c2ced17b2acd1f83881747e00ae.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/bc51de66c50e2b48ee42987a42d287da5fcd7893/catalog/provider/2/2/2-b63e4c2ced17b2acd1f83881747e00ae.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
