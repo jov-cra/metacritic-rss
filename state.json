@@ -8880,6 +8880,22 @@
         "image": "https://www.metacritic.com/a/img/resize/67bc239bc570778eebd860a4b0255d14a0effd6d/catalog/provider/7/2/7-1781547892.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/the-idaho-murders-college-nightmare/": {
+      "title": "The Idaho Murders: College Nightmare",
+      "score": 70,
+      "media": "tv",
+      "release_date": "Jul 29, 2026",
+      "emitted_at": "2026-07-31T22:46:36.525661+00:00",
+      "feed_date": "2026-07-31T22:46:36.525661+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/4fbc80a90d2c28acc2a1bcc6de3ff79da934fb25/catalog/provider/2/2/2-b19fe27dd0a433abdaace34c9eddd35a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/f19ef81d9db8e80689e3e5b62129c2a53579829f/catalog/provider/2/13/2-102e14b528a46f68f446c97a40c36adb.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

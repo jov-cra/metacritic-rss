@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 31 Jul 2026 20:49:09 +0000</lastBuildDate>
+<lastBuildDate>Fri, 31 Jul 2026 22:46:36 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[70] The Idaho Murders: College Nightmare (TV)</title>
+<link>https://www.metacritic.com/tv/the-idaho-murders-college-nightmare/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-idaho-murders-college-nightmare/</guid>
+<pubDate>Fri, 31 Jul 2026 22:46:36 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/f19ef81d9db8e80689e3e5b62129c2a53579829f/catalog/provider/2/13/2-102e14b528a46f68f446c97a40c36adb.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 50% positive</description>
+</item>
 <item>
 <title>[77] The Gas Station Attendant (Movie)</title>
 <link>https://www.metacritic.com/movie/the-gas-station-attendant/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/9b75718b1ee1b29f5a0267797b64eb78c152bd1c/catalog/provider/2/13/2-9be474159892d129ef424c26679ed1ff.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 53% positive</description>
-</item>
-<item>
-<title>[71] Revival (2025) (TV)</title>
-<link>https://www.metacritic.com/tv/revival-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/revival-2025/</guid>
-<pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/30d1e3c487e6c39610a140f36dfa2c06b1996e3b/catalog/provider/2/13/2-b66892b8fbe169dbc96cca525b3d0f64.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 88% positive</description>
 </item>
 </channel>
 </rss>
