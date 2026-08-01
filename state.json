@@ -8896,6 +8896,22 @@
         "image": "https://www.metacritic.com/a/img/resize/f19ef81d9db8e80689e3e5b62129c2a53579829f/catalog/provider/2/13/2-102e14b528a46f68f446c97a40c36adb.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/wild-inside/": {
+      "title": "Wild Inside",
+      "score": 86,
+      "media": "movie",
+      "release_date": "Jul 29, 2026",
+      "emitted_at": "2026-08-01T18:46:50.860356+00:00",
+      "feed_date": "2026-08-01T18:46:50.860356+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a8f91989097b0804d4fe90ed9b9e9678229053b0/catalog/provider/5/2/5-tt36000564.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8d3bdb2bbaa2dac4fb932ee528b48f22cf12170f/catalog/provider/5/2/5-tt36000564.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
