@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sat, 01 Aug 2026 18:46:50 +0000</lastBuildDate>
+<lastBuildDate>Mon, 03 Aug 2026 19:13:20 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[60] Nightborn (Movie)</title>
+<link>https://www.metacritic.com/movie/nightborn/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/nightborn/</guid>
+<pubDate>Mon, 03 Aug 2026 19:13:20 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/0592dfb4361d73cb6e6b80b00df89cd43ccc5543/catalog/provider/7/2/7-1771885468.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
 <item>
 <title>[86] Wild Inside (Movie)</title>
 <link>https://www.metacritic.com/movie/wild-inside/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/d549dad3f1623ebd27ab25779f7e052508f0f2b4/catalog/provider/2/13/2-92a35de98cc7c3180eb6dbca91e92171.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 86% positive</description>
-</item>
-<item>
-<title>[69] Hell Motel (TV)</title>
-<link>https://www.metacritic.com/tv/hell-motel/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/hell-motel/</guid>
-<pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/0a585aa829b86abf8815d71844e596fe07d2536d/catalog/provider/2/2/2-cc7839f5853e088bcf8740b137d65b34.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 60% positive</description>
 </item>
 </channel>
 </rss>

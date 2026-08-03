@@ -8912,6 +8912,22 @@
         "image": "https://www.metacritic.com/a/img/resize/8d3bdb2bbaa2dac4fb932ee528b48f22cf12170f/catalog/provider/5/2/5-tt36000564.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/nightborn/": {
+      "title": "Nightborn",
+      "score": 60,
+      "media": "movie",
+      "release_date": "Jul 31, 2026",
+      "emitted_at": "2026-08-03T19:13:20.054114+00:00",
+      "feed_date": "2026-08-03T19:13:20.054114+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2bbac47c205843ae3c616b0e85e0cb4ccbdfb58b/catalog/provider/5/2/5-tt34383465.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/0592dfb4361d73cb6e6b80b00df89cd43ccc5543/catalog/provider/7/2/7-1771885468.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
