@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 05 Aug 2026 08:10:50 +0000</lastBuildDate>
+<lastBuildDate>Wed, 05 Aug 2026 15:52:14 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[59] The Shards (TV)</title>
+<link>https://www.metacritic.com/tv/the-shards/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-shards/</guid>
+<pubDate>Wed, 05 Aug 2026 15:52:14 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/c2bb0e08238e438f574c8438670f01eac7a81ba2/catalog/provider/2/13/2-bd3a80f70c1afa6f7fa8718e5689257a.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 50% positive</description>
+</item>
 <item>
 <title>[83] Star Wars: Visions Presents - The Ninth Jedi (TV)</title>
 <link>https://www.metacritic.com/tv/star-wars-visions-presents---the-ninth-jedi/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/a0af237ff90e3b994e1fecf4a2324a062180d0e5/catalog/provider/7/2/7-1750815942.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;25 reviews · 36% positive</description>
-</item>
-<item>
-<title>[54] The Waterfront (TV)</title>
-<link>https://www.metacritic.com/tv/the-waterfront/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-waterfront/</guid>
-<pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/25648c51ed6518966e1c35f0b3b75bf0bc6c6f70/catalog/provider/2/13/2-99cab77af7181525befdf3c65e5c4a91.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;20 reviews · 30% positive</description>
 </item>
 </channel>
 </rss>

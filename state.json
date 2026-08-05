@@ -8960,6 +8960,22 @@
         "image": "https://www.metacritic.com/a/img/resize/8d20a1fc181559e25634b507147f90f71cc31a6a/catalog/provider/2/13/2-5680cf5b5b686bab3acae9d4950de341.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/the-shards/": {
+      "title": "The Shards",
+      "score": 59,
+      "media": "tv",
+      "release_date": "Aug 5, 2026",
+      "emitted_at": "2026-08-05T15:52:14.526370+00:00",
+      "feed_date": "2026-08-05T15:52:14.526370+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/16bf63bda400245ff6874461b6b50590901be96a/catalog/provider/2/2/2-14f5e85be287cbec714ac70b1407068a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c2bb0e08238e438f574c8438670f01eac7a81ba2/catalog/provider/2/13/2-bd3a80f70c1afa6f7fa8718e5689257a.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
