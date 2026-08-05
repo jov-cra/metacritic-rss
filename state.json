@@ -8944,6 +8944,22 @@
         "image": "https://www.metacritic.com/a/img/resize/322cafed99ed41ca40129b5b6d449d0a2375b4f0/catalog/provider/7/2/7-1785866168.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/star-wars-visions-presents---the-ninth-jedi/": {
+      "title": "Star Wars: Visions Presents - The Ninth Jedi",
+      "score": 83,
+      "media": "tv",
+      "release_date": "Aug 5, 2026",
+      "emitted_at": "2026-08-05T08:10:50.495584+00:00",
+      "feed_date": "2026-08-05T08:10:50.495584+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/153434159164daf6ed95278a8fa9285c7a8870c9/catalog/provider/2/2/2-fb60fdde2db72dfacc23e61a3c52e64a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8d20a1fc181559e25634b507147f90f71cc31a6a/catalog/provider/2/13/2-5680cf5b5b686bab3acae9d4950de341.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

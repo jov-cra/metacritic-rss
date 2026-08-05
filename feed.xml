@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 05 Aug 2026 01:15:27 +0000</lastBuildDate>
+<lastBuildDate>Wed, 05 Aug 2026 08:10:50 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[83] Star Wars: Visions Presents - The Ninth Jedi (TV)</title>
+<link>https://www.metacritic.com/tv/star-wars-visions-presents---the-ninth-jedi/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/star-wars-visions-presents---the-ninth-jedi/</guid>
+<pubDate>Wed, 05 Aug 2026 08:10:50 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/8d20a1fc181559e25634b507147f90f71cc31a6a/catalog/provider/2/13/2-5680cf5b5b686bab3acae9d4950de341.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[76] Sterling Point (TV)</title>
 <link>https://www.metacritic.com/tv/sterling-point/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/25648c51ed6518966e1c35f0b3b75bf0bc6c6f70/catalog/provider/2/13/2-99cab77af7181525befdf3c65e5c4a91.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;20 reviews · 30% positive</description>
-</item>
-<item>
-<title>[57] We Were Liars (TV)</title>
-<link>https://www.metacritic.com/tv/we-were-liars/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/we-were-liars/</guid>
-<pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/40ccb4c49f840f6d0a9ab735ebb1b02c6998697c/catalog/provider/2/13/2-1fd2654a0eab2f6222f457672372e097.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 45% positive</description>
 </item>
 </channel>
 </rss>
