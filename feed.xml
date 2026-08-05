@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Mon, 03 Aug 2026 19:13:20 +0000</lastBuildDate>
+<lastBuildDate>Wed, 05 Aug 2026 01:15:27 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[76] Sterling Point (TV)</title>
+<link>https://www.metacritic.com/tv/sterling-point/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/sterling-point/</guid>
+<pubDate>Wed, 05 Aug 2026 01:15:27 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/322cafed99ed41ca40129b5b6d449d0a2375b4f0/catalog/provider/7/2/7-1785866168.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 83% positive</description>
+</item>
 <item>
 <title>[60] Nightborn (Movie)</title>
 <link>https://www.metacritic.com/movie/nightborn/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/40ccb4c49f840f6d0a9ab735ebb1b02c6998697c/catalog/provider/2/13/2-1fd2654a0eab2f6222f457672372e097.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 45% positive</description>
-</item>
-<item>
-<title>[74] Outrageous (TV)</title>
-<link>https://www.metacritic.com/tv/outrageous/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/outrageous/</guid>
-<pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/d549dad3f1623ebd27ab25779f7e052508f0f2b4/catalog/provider/2/13/2-92a35de98cc7c3180eb6dbca91e92171.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 86% positive</description>
 </item>
 </channel>
 </rss>
