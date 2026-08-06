@@ -8976,6 +8976,22 @@
         "image": "https://www.metacritic.com/a/img/resize/c2bb0e08238e438f574c8438670f01eac7a81ba2/catalog/provider/2/13/2-bd3a80f70c1afa6f7fa8718e5689257a.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/raise-the-red-lantern/": {
+      "title": "Raise the Red Lantern",
+      "score": 81,
+      "media": "movie",
+      "release_date": "Aug 5, 2026",
+      "emitted_at": "2026-08-06T01:12:56.591296+00:00",
+      "feed_date": "2026-08-06T01:12:56.591296+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/bcdc9c761c5dcf12faebf5faee6f562a91342fc0/catalog/provider/5/2/5-tt0101640.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 17,
+        "pos": 88,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8f028260821ba3eef40dfdd3433d81149b72b499/catalog/provider/2/13/2-9e7997a2bdee1fb04bf48afd275bc05d.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

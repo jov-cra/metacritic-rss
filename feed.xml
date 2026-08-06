@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 05 Aug 2026 15:52:14 +0000</lastBuildDate>
+<lastBuildDate>Thu, 06 Aug 2026 01:12:56 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[81] Raise the Red Lantern (Movie)</title>
+<link>https://www.metacritic.com/movie/raise-the-red-lantern/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/raise-the-red-lantern/</guid>
+<pubDate>Thu, 06 Aug 2026 01:12:56 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/8f028260821ba3eef40dfdd3433d81149b72b499/catalog/provider/2/13/2-9e7997a2bdee1fb04bf48afd275bc05d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;17 reviews · 88% positive</description>
+</item>
 <item>
 <title>[59] The Shards (TV)</title>
 <link>https://www.metacritic.com/tv/the-shards/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/d376cd001546a6c2d6bcb836c593b2f4f2553372/catalog/provider/2/13/2-78f0be1757516cb3757202ca7a1a27f8.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews</description>
-</item>
-<item>
-<title>[57] Ironheart (TV)</title>
-<link>https://www.metacritic.com/tv/ironheart/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/ironheart/</guid>
-<pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/a0af237ff90e3b994e1fecf4a2324a062180d0e5/catalog/provider/7/2/7-1750815942.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;25 reviews · 36% positive</description>
 </item>
 </channel>
 </rss>
