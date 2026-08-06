@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Thu, 06 Aug 2026 01:12:56 +0000</lastBuildDate>
+<lastBuildDate>Thu, 06 Aug 2026 23:46:09 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[75] Monsters of God (TV)</title>
+<link>https://www.metacritic.com/tv/monsters-of-god/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/monsters-of-god/</guid>
+<pubDate>Thu, 06 Aug 2026 23:46:09 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/dd6842b0930a936d201d83a3327561ae7ed41235/catalog/provider/2/13/2-7634044505bb80d78609297bf97ec7da.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[81] Raise the Red Lantern (Movie)</title>
 <link>https://www.metacritic.com/movie/raise-the-red-lantern/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/bcacac3e2c8b47243c182a999bc1fcf94c63d474/catalog/provider/2/13/2-9268733f8faa1071a86dccfab5babaab.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 20% positive</description>
-</item>
-<item>
-<title>[61] Trainwreck: Poop Cruise (TV)</title>
-<link>https://www.metacritic.com/tv/trainwreck-poop-cruise/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/trainwreck-poop-cruise/</guid>
-<pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/d376cd001546a6c2d6bcb836c593b2f4f2553372/catalog/provider/2/13/2-78f0be1757516cb3757202ca7a1a27f8.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews</description>
 </item>
 </channel>
 </rss>

@@ -8992,6 +8992,22 @@
         "image": "https://www.metacritic.com/a/img/resize/8f028260821ba3eef40dfdd3433d81149b72b499/catalog/provider/2/13/2-9e7997a2bdee1fb04bf48afd275bc05d.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/monsters-of-god/": {
+      "title": "Monsters of God",
+      "score": 75,
+      "media": "tv",
+      "release_date": "Aug 6, 2026",
+      "emitted_at": "2026-08-06T23:46:09.767175+00:00",
+      "feed_date": "2026-08-06T23:46:09.767175+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d44a272c772c49c9929922e6dcc5a30d70c70955/catalog/provider/2/2/2-4e887533994f87ca99a375f8497f0884.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/dd6842b0930a936d201d83a3327561ae7ed41235/catalog/provider/2/13/2-7634044505bb80d78609297bf97ec7da.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
