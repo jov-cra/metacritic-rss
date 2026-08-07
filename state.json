@@ -9183,6 +9183,38 @@
         "image": "https://www.metacritic.com/a/img/resize/882eb5dff3fd724826bac793b7fa0eeb5cc56943/catalog/provider/5/2/5-tt32268156.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/julian/": {
+      "title": "Julian",
+      "score": 71,
+      "media": "movie",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T22:22:15.813355+00:00",
+      "feed_date": "2026-08-07T22:22:15.813355+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/98e1e862ce680f0ba46b4fdc711e46f3c6fb54f4/catalog/provider/2/13/2-415885ddb29bed24f3093b11389735d6.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8aeef3dd8dad7c2adedb79923a82d5df9f7de508/catalog/provider/2/13/2-e341fc0b7df947eca5e1a183c944fe2d.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/olmo/": {
+      "title": "Olmo",
+      "score": 78,
+      "media": "movie",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T22:22:15.813355+00:00",
+      "feed_date": "2026-08-07T22:22:15.813355+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/832774066e66a184993457fa9f12300e330bb568/catalog/provider/5/2/5-tt30441926.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/dbdb2a134485b534b8d62ac5902f4009b46bc766/catalog/provider/2/2/2-dd0af3a7c48e70e054cfebe98fb5c45e.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

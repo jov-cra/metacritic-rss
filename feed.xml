@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 07 Aug 2026 16:38:10 +0000</lastBuildDate>
+<lastBuildDate>Fri, 07 Aug 2026 22:22:15 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[78] Olmo (Movie)</title>
+<link>https://www.metacritic.com/movie/olmo/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/olmo/</guid>
+<pubDate>Fri, 07 Aug 2026 22:22:15 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/dbdb2a134485b534b8d62ac5902f4009b46bc766/catalog/provider/2/2/2-dd0af3a7c48e70e054cfebe98fb5c45e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 100% positive</description>
+</item>
+<item>
+<title>[71] Julian (Movie)</title>
+<link>https://www.metacritic.com/movie/julian/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/julian/</guid>
+<pubDate>Fri, 07 Aug 2026 22:22:15 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/8aeef3dd8dad7c2adedb79923a82d5df9f7de508/catalog/provider/2/13/2-e341fc0b7df947eca5e1a183c944fe2d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
 <item>
 <title>[46] The Last House (Movie)</title>
 <link>https://www.metacritic.com/movie/the-last-house/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/29f66b689e94ed658ea80fd40dbccd737befd30a/catalog/provider/2/2/2-db22f21eb83663f4f89c8e392e38ead6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 92% positive</description>
-</item>
-<item>
-<title>[72] Billy Joel: And So It Goes (TV)</title>
-<link>https://www.metacritic.com/tv/billy-joel-and-so-it-goes/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/billy-joel-and-so-it-goes/</guid>
-<pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/44babbfd16dd7863e60a9e4cb3201c73fbbce17f/catalog/provider/2/13/2-0f4e354556ccc147b764fd8aeb19663d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 78% positive</description>
-</item>
-<item>
-<title>[62] Untamed (TV)</title>
-<link>https://www.metacritic.com/tv/untamed/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/untamed/</guid>
-<pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/44985260fcb58aafb57162e4c494fb590c1f8a05/catalog/provider/2/2/2-e19057533c83b00535c8fd72bf788dd6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;24 reviews · 42% positive</description>
 </item>
 </channel>
 </rss>
