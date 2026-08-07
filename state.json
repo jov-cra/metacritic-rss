@@ -9167,6 +9167,22 @@
         "image": "https://www.metacritic.com/a/img/resize/c263f9c75219a2471ee2b29caf2931419a61d764/catalog/provider/2/13/2-1d6086ca02dfea9edb771c2fa38db462.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-last-house/": {
+      "title": "The Last House",
+      "score": 46,
+      "media": "movie",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T16:38:10.650542+00:00",
+      "feed_date": "2026-08-07T16:38:10.650542+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2d784cec9a63c021efe30c6ab364b7931e606b2d/catalog/provider/7/2/7-1781538156.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 15,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/882eb5dff3fd724826bac793b7fa0eeb5cc56943/catalog/provider/5/2/5-tt32268156.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

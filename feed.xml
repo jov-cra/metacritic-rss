@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 07 Aug 2026 08:42:46 +0000</lastBuildDate>
+<lastBuildDate>Fri, 07 Aug 2026 16:38:10 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[46] The Last House (Movie)</title>
+<link>https://www.metacritic.com/movie/the-last-house/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-last-house/</guid>
+<pubDate>Fri, 07 Aug 2026 16:38:10 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/882eb5dff3fd724826bac793b7fa0eeb5cc56943/catalog/provider/5/2/5-tt32268156.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;13 reviews · 15% positive</description>
+</item>
 <item>
 <title>[39] Ricky Gervais Alley Cats (TV)</title>
 <link>https://www.metacritic.com/tv/ricky-gervais-alley-cats/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/44985260fcb58aafb57162e4c494fb590c1f8a05/catalog/provider/2/2/2-e19057533c83b00535c8fd72bf788dd6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;24 reviews · 42% positive</description>
-</item>
-<item>
-<title>[52] The Institute (TV)</title>
-<link>https://www.metacritic.com/tv/the-institute/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-institute/</guid>
-<pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/8c26aa3d3a6996bf36b6432d3a57fc83e6c99b53/catalog/provider/7/2/7-1752080451.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;16 reviews · 25% positive</description>
 </item>
 </channel>
 </rss>
