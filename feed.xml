@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 07 Aug 2026 01:55:48 +0000</lastBuildDate>
+<lastBuildDate>Fri, 07 Aug 2026 08:42:46 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[39] Ricky Gervais Alley Cats (TV)</title>
+<link>https://www.metacritic.com/tv/ricky-gervais-alley-cats/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/ricky-gervais-alley-cats/</guid>
+<pubDate>Fri, 07 Aug 2026 08:42:46 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/c263f9c75219a2471ee2b29caf2931419a61d764/catalog/provider/2/13/2-1d6086ca02dfea9edb771c2fa38db462.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 29% positive</description>
+</item>
 <item>
 <title>[52] Anna Pigeon (TV)</title>
 <link>https://www.metacritic.com/tv/anna-pigeon/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/8c26aa3d3a6996bf36b6432d3a57fc83e6c99b53/catalog/provider/7/2/7-1752080451.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;16 reviews · 25% positive</description>
-</item>
-<item>
-<title>[65] Dexter: Resurrection (TV)</title>
-<link>https://www.metacritic.com/tv/dexter-resurrection/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/dexter-resurrection/</guid>
-<pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/eede0a264b6b501e3d341b4ca926e0f1cb88c406/catalog/provider/2/13/2-f24c57b6bed433ef8c1004389651c5db.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;17 reviews · 59% positive</description>
 </item>
 </channel>
 </rss>

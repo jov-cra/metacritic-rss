@@ -9151,6 +9151,22 @@
         "image": "https://www.metacritic.com/a/img/resize/b3e25abb6cabdf7ba01fae750b2b2fa18e16bbc9/catalog/provider/2/13/2-b991a53a7a7959586fc8ba7b039ff916.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/ricky-gervais-alley-cats/": {
+      "title": "Ricky Gervais Alley Cats",
+      "score": 39,
+      "media": "tv",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T08:42:46.355817+00:00",
+      "feed_date": "2026-08-07T08:42:46.355817+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/69b21c31c40dd587684c6537367f8ea03b6c8811/catalog/provider/2/2/2-89a45df5c2e83ef4a1aa69a1069df70d.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 29,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c263f9c75219a2471ee2b29caf2931419a61d764/catalog/provider/2/13/2-1d6086ca02dfea9edb771c2fa38db462.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
