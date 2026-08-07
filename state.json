@@ -9008,6 +9008,149 @@
         "image": "https://www.metacritic.com/a/img/resize/dd6842b0930a936d201d83a3327561ae7ed41235/catalog/provider/2/13/2-7634044505bb80d78609297bf97ec7da.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-fence-2025/": {
+      "title": "The Fence",
+      "score": 56,
+      "media": "movie",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T01:55:48.519279+00:00",
+      "feed_date": "2026-08-07T01:55:48.519279+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b5ca64e6cd16df234100dd98059f57a863510922/catalog/provider/7/2/7-1785856715.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/19b4271e02e81f055e5e426b441440c54c28a47d/catalog/provider/2/13/2-5a0787d3899dd07df447a24fddef54a6.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/super-troopers-3/": {
+      "title": "Super Troopers 3",
+      "score": 38,
+      "media": "movie",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T01:55:48.519279+00:00",
+      "feed_date": "2026-08-07T01:55:48.519279+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5e223e1c22a260292fa45e112dd417e19498efe6/catalog/provider/7/2/7-1776723264.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/6bfaf7f0a18be1bfaa931a8d8fa4091493a160f9/catalog/provider/7/2/7-1776723277.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/late-fame/": {
+      "title": "Late Fame",
+      "score": 78,
+      "media": "movie",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T01:55:48.519279+00:00",
+      "feed_date": "2026-08-07T01:55:48.519279+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/eab2457bf1faca526ef51e984731c6da88d495f5/catalog/provider/2/13/2-ae3f9081861fabea644f6d9131d61473.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 85,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/aac5b08af0b1f907e2691479c26c712b60fa9f5f/catalog/provider/5/2/5-tt32298494.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/tony/": {
+      "title": "Tony",
+      "score": 74,
+      "media": "movie",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T01:55:48.519279+00:00",
+      "feed_date": "2026-08-07T01:55:48.519279+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/103f528f7ec9a064d066d13a7ed4f116631f6c44/catalog/provider/5/2/5-tt33095251.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 35,
+        "pos": 77,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/3546d12265f76db9ad07d7c4aa1e7616d3891898/catalog/provider/5/2/5-tt33095251.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/teenage-sex-and-death-at-camp-miasma/": {
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "score": 87,
+      "media": "movie",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T01:55:48.519279+00:00",
+      "feed_date": "2026-08-07T01:55:48.519279+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b9a09f0c605032c9f73ac46ffaa2c636031177a5/catalog/provider/5/2/5-tt35298123.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 34,
+        "pos": 94,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/95cd8434ab1814130204a8c5b40e275e0a5c13bd/catalog/provider/7/2/7-1778708499.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/ice-cream-man/": {
+      "title": "Ice Cream Man",
+      "score": 33,
+      "media": "movie",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T01:55:48.519279+00:00",
+      "feed_date": "2026-08-07T01:55:48.519279+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/3b232a27124bf529d9b8a1ed16ec72171cbea4f7/catalog/provider/7/2/7-1781322664.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 13,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/d1797da87f41a0000b34842d4f763ffdab762a00/catalog/provider/2/13/2-2c7815a3463c3915ef82c88aad31bfbd.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/one-night-only/": {
+      "title": "One Night Only",
+      "score": 42,
+      "media": "movie",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T01:55:48.519279+00:00",
+      "feed_date": "2026-08-07T01:55:48.519279+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f2bbfaca505e212687025d5a43deb4b2958b691c/catalog/provider/7/2/7-1777486965.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 27,
+        "pos": 26,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7044b8ca7db9813b3b333aa7cbdf7a053b3aec50/catalog/provider/2/13/2-10103ab5d6df9cd5e46f98b014d98b08.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/cookie-queens/": {
+      "title": "Cookie Queens",
+      "score": 69,
+      "media": "movie",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T01:55:48.519279+00:00",
+      "feed_date": "2026-08-07T01:55:48.519279+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/4a33bfcaddd95afb39dd3d872e1cff62cc20c019/catalog/provider/5/2/5-tt38503564.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 67,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/916e41a0dc17655aa9292340050a9e8939cec6ab/catalog/provider/2/13/2-a6fd6920bad38e3c0f525759c86429ac.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/anna-pigeon/": {
+      "title": "Anna Pigeon",
+      "score": 52,
+      "media": "tv",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-08-07T01:55:48.519279+00:00",
+      "feed_date": "2026-08-07T01:55:48.519279+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/dbdd50328899c6e6852e965efe12046f50059b0b/catalog/provider/2/2/2-f422106ff22284d3c8339fa452bb6b09.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 40,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b3e25abb6cabdf7ba01fae750b2b2fa18e16bbc9/catalog/provider/2/13/2-b991a53a7a7959586fc8ba7b039ff916.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
