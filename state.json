@@ -9230,6 +9230,21 @@
         "image": "https://www.metacritic.com/a/img/resize/8ad045cd5f0be5049a35497d2f13d8e404ed7002/catalog/provider/5/2/5-tt32654916.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/my-brilliant-career/": {
+      "title": "My Brilliant Career",
+      "score": 77,
+      "media": "tv",
+      "release_date": "Aug 13, 2026",
+      "emitted_at": "2026-08-13T07:05:55.993181+00:00",
+      "feed_date": "2026-08-13T07:05:55.993181+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f23325c3e809032a8529c2c039ac6fc520b0d7ab/catalog/provider/2/2/2-c9be268c55055f77c7ee526570d84d1b.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 80,
+        "user_tbd": true,
+        "v": 3
+      }
     }
   }
 }

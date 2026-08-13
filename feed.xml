@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Thu, 13 Aug 2026 00:51:09 +0000</lastBuildDate>
+<lastBuildDate>Thu, 13 Aug 2026 07:05:55 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[77] My Brilliant Career (TV)</title>
+<link>https://www.metacritic.com/tv/my-brilliant-career/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/my-brilliant-career/</guid>
+<pubDate>Thu, 13 Aug 2026 07:05:55 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/f23325c3e809032a8529c2c039ac6fc520b0d7ab/catalog/provider/2/2/2-c9be268c55055f77c7ee526570d84d1b.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;5 reviews · 80% positive</description>
+</item>
 <item>
 <title>[40] SOULM8TE (Movie)</title>
 <link>https://www.metacritic.com/movie/soulm8te/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/eb367163020e34bc318fdf151b892ca55d68aa12/catalog/provider/2/13/2-2d041096333cc564277dd6521bafd7ad.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 50% positive</description>
-</item>
-<item>
-<title>[59] Red Eye (2024) (TV)</title>
-<link>https://www.metacritic.com/tv/red-eye-2024/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/red-eye-2024/</guid>
-<pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/a03c9b45900abd9c151020f3933b5d99130d9125/catalog/provider/2/13/2-09827dbe2ebd4e14e12dace241deda79.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews</description>
 </item>
 </channel>
 </rss>
