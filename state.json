@@ -9215,6 +9215,21 @@
         "image": "https://www.metacritic.com/a/img/resize/dbdb2a134485b534b8d62ac5902f4009b46bc766/catalog/provider/2/2/2-dd0af3a7c48e70e054cfebe98fb5c45e.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/soulm8te/": {
+      "title": "SOULM8TE",
+      "score": 40,
+      "media": "movie",
+      "release_date": "Aug 1, 2026",
+      "emitted_at": "2026-08-13T00:51:09.602319+00:00",
+      "feed_date": "2026-08-13T00:51:09.602319+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/cb5f41dbb71e2e51d345be7a1e90df22011ffd69/catalog/provider/5/2/5-tt32654916.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 0,
+        "image": "https://www.metacritic.com/a/img/resize/8ad045cd5f0be5049a35497d2f13d8e404ed7002/catalog/provider/5/2/5-tt32654916.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
