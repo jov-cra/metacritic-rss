@@ -9245,6 +9245,134 @@
         "user_tbd": true,
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-brink-of-war/": {
+      "title": "The Brink of War",
+      "score": 50,
+      "media": "movie",
+      "release_date": "Aug 14, 2026",
+      "emitted_at": "2026-08-14T00:50:12.680034+00:00",
+      "feed_date": "2026-08-14T00:50:12.680034+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/46b7ba69326478038dfb0e03e76632966c4d36bf/catalog/provider/5/2/5-tt33070884.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 40,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/f755ce0e8c2928d1b799561156bd67ff7aa07fc5/catalog/provider/5/2/5-tt33070884.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/union-county/": {
+      "title": "Union County",
+      "score": 75,
+      "media": "movie",
+      "release_date": "Aug 14, 2026",
+      "emitted_at": "2026-08-14T00:50:12.680034+00:00",
+      "feed_date": "2026-08-14T00:50:12.680034+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/4c052f2035df6fe6c8fabc050c1c33072e1df425/catalog/provider/5/2/5-tt36981462.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 14,
+        "pos": 86,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/1bec00771c9de2ff10b73775abd981e8e4448163/catalog/provider/2/13/2-60d92a475071c631c08e301ea8c4c095.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/american-doctor/": {
+      "title": "American Doctor",
+      "score": 86,
+      "media": "movie",
+      "release_date": "Aug 14, 2026",
+      "emitted_at": "2026-08-14T00:50:12.680034+00:00",
+      "feed_date": "2026-08-14T00:50:12.680034+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/20aea90123c050581b2a0b4b3488db82b27de7fa/catalog/provider/5/2/5-tt39149951.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8a73da4b0ad1772d10eafbc18136a0a352886b77/catalog/provider/5/2/5-tt39149951.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/dont-say-good-luck/": {
+      "title": "Don't Say Good Luck",
+      "score": 72,
+      "media": "movie",
+      "release_date": "Aug 14, 2026",
+      "emitted_at": "2026-08-14T00:50:12.680034+00:00",
+      "feed_date": "2026-08-14T00:50:12.680034+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d5b0d13406c1725c47e234c8b952861b78ec5de0/catalog/provider/7/2/7-1784819359.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 90,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/582548f9f2390b95db5a487df2e02c121a457d25/catalog/provider/7/2/7-1784820966.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-rivals-of-amziah-king/": {
+      "title": "The Rivals of Amziah King",
+      "score": 74,
+      "media": "movie",
+      "release_date": "Aug 14, 2026",
+      "emitted_at": "2026-08-14T00:50:12.680034+00:00",
+      "feed_date": "2026-08-14T00:50:12.680034+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/fb169a0c5c51e82226c99ef131e86bd751ad7c7e/catalog/provider/2/13/2-a8d4e701b3b909fd2cd7922f9edee4ab.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 69,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/ea75c40c1883f203e590cd7db69630fcee2b3d49/catalog/provider/5/2/5-tt27706593.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-wrong-girls/": {
+      "title": "The Wrong Girls",
+      "score": 59,
+      "media": "movie",
+      "release_date": "Aug 14, 2026",
+      "emitted_at": "2026-08-14T00:50:12.680034+00:00",
+      "feed_date": "2026-08-14T00:50:12.680034+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/7dc3437613c1bdf74df75aec795616f54fd7e70f/catalog/provider/7/2/7-1783623828.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 56,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/e42b220968d90e1bb8ce2dbf7a605c0ce34637db/catalog/provider/2/13/2-fdfcdb77ced449e79e695d54651513b1.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-end-of-oak-street/": {
+      "title": "The End of Oak Street",
+      "score": 69,
+      "media": "movie",
+      "release_date": "Aug 14, 2026",
+      "emitted_at": "2026-08-14T00:50:12.680034+00:00",
+      "feed_date": "2026-08-14T00:50:12.680034+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/4464e4c6a537ec86d0fbaae310d1025660993347/catalog/provider/7/2/7-1774542719.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 40,
+        "pos": 65,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/0f76790a04749f0277f0ed2c4e15937d095fd5a2/catalog/provider/7/2/7-1774542707.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/nimrods/": {
+      "title": "Nimrods",
+      "score": 51,
+      "media": "movie",
+      "release_date": "Aug 14, 2026",
+      "emitted_at": "2026-08-14T00:50:12.680034+00:00",
+      "feed_date": "2026-08-14T00:50:12.680034+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0eda97556f59edb4b2c49868a24e80507c0e82ea/catalog/provider/5/2/5-tt34895535.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 22,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/605850c4d8b9555d8cdb5db1753e55b424dd0f26/catalog/provider/2/2/2-a6e87e7c228ceb9fbc88c76d409e6306.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
