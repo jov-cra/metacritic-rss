@@ -9373,6 +9373,37 @@
         "image": "https://www.metacritic.com/a/img/resize/605850c4d8b9555d8cdb5db1753e55b424dd0f26/catalog/provider/2/2/2-a6e87e7c228ceb9fbc88c76d409e6306.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/paw-patrol-the-dino-movie/": {
+      "title": "PAW Patrol: The Dino Movie",
+      "score": 47,
+      "media": "movie",
+      "release_date": "Aug 14, 2026",
+      "emitted_at": "2026-08-14T18:37:01.678205+00:00",
+      "feed_date": "2026-08-14T18:37:01.678205+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a132dbb75a4f9b42e1e63ae48f17bf0ccb19eec9/catalog/provider/5/2/5-tt29356163.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/19ed4f240e724fbbf87d12a7a3382744c219d73b/catalog/provider/2/13/2-f8acf04c96829f03aa75bfa4b9267999.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-birthday-party/": {
+      "title": "The Birthday Party",
+      "score": 38,
+      "media": "movie",
+      "release_date": "Aug 14, 2026",
+      "emitted_at": "2026-08-14T18:37:01.678205+00:00",
+      "feed_date": "2026-08-14T18:37:01.678205+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c63c14bf4187bc61685768376b1b930589ad1dcf/catalog/provider/5/2/5-tt33269988.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c1e5118d10271e6ebee2e930f8d0dd56a1e8d3ec/catalog/provider/2/13/2-0c076f0423341dc3214b8e8056d59ef8.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

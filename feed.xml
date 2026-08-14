@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 14 Aug 2026 00:50:12 +0000</lastBuildDate>
+<lastBuildDate>Fri, 14 Aug 2026 18:37:01 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[38] The Birthday Party (Movie)</title>
+<link>https://www.metacritic.com/movie/the-birthday-party/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-birthday-party/</guid>
+<pubDate>Fri, 14 Aug 2026 18:37:01 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/c1e5118d10271e6ebee2e930f8d0dd56a1e8d3ec/catalog/provider/2/13/2-0c076f0423341dc3214b8e8056d59ef8.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 0% positive</description>
+</item>
+<item>
+<title>[47] PAW Patrol: The Dino Movie (Movie)</title>
+<link>https://www.metacritic.com/movie/paw-patrol-the-dino-movie/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/paw-patrol-the-dino-movie/</guid>
+<pubDate>Fri, 14 Aug 2026 18:37:01 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/19ed4f240e724fbbf87d12a7a3382744c219d73b/catalog/provider/2/13/2-f8acf04c96829f03aa75bfa4b9267999.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews</description>
+</item>
 <item>
 <title>[75] Union County (Movie)</title>
 <link>https://www.metacritic.com/movie/union-county/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/cdb553214d5cebf22a325b08a62034a11a34f651/catalog/provider/2/13/2-c7291cb477d4156a9336baedfeaf1a9e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;16 reviews · 69% positive</description>
-</item>
-<item>
-<title>[83] The Yogurt Shop Murders (TV)</title>
-<link>https://www.metacritic.com/tv/the-yogurt-shop-murders/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-yogurt-shop-murders/</guid>
-<pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/dafdb4c3df9466c247802c7e7d74668186250cff/catalog/provider/2/13/2-77c756e806aa2e51e91d6886fc6778ec.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[84] Marc Maron: Panicked (TV)</title>
-<link>https://www.metacritic.com/tv/marc-maron-panicked/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/marc-maron-panicked/</guid>
-<pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/81e9b4b5d1fce1d7aa0dee022a699ebf83b0bdcc/catalog/provider/2/13/2-7a95c9e590bf6584cb346f5bcca49f9b.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>
