@@ -9404,6 +9404,22 @@
         "image": "https://www.metacritic.com/a/img/resize/c1e5118d10271e6ebee2e930f8d0dd56a1e8d3ec/catalog/provider/2/13/2-0c076f0423341dc3214b8e8056d59ef8.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-bend-in-the-river/": {
+      "title": "The Bend in the River",
+      "score": 78,
+      "media": "movie",
+      "release_date": "Aug 14, 2026",
+      "emitted_at": "2026-08-15T00:27:51.935610+00:00",
+      "feed_date": "2026-08-15T00:27:51.935610+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9dc3770aa8911a71cd254f8cb7dadf75f1703949/catalog/provider/7/2/7-1786139802.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a69a1b02955e31f36916ff9f4f7288790d51f8f2/catalog/provider/7/2/7-1786139791.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

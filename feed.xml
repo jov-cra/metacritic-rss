@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 14 Aug 2026 18:37:01 +0000</lastBuildDate>
+<lastBuildDate>Sat, 15 Aug 2026 00:27:51 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[78] The Bend in the River (Movie)</title>
+<link>https://www.metacritic.com/movie/the-bend-in-the-river/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-bend-in-the-river/</guid>
+<pubDate>Sat, 15 Aug 2026 00:27:51 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a69a1b02955e31f36916ff9f4f7288790d51f8f2/catalog/provider/7/2/7-1786139791.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
 <item>
 <title>[38] The Birthday Party (Movie)</title>
 <link>https://www.metacritic.com/movie/the-birthday-party/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/d01123fbb78a1d311a975ac972da4ea3130e3eee/catalog/provider/2/13/2-d25157d187b6d6db4ea0f212b4a593b4.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;41 reviews · 93% positive</description>
-</item>
-<item>
-<title>[71] Outlander: Blood of My Blood (TV)</title>
-<link>https://www.metacritic.com/tv/outlander-blood-of-my-blood/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/outlander-blood-of-my-blood/</guid>
-<pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/cdb553214d5cebf22a325b08a62034a11a34f651/catalog/provider/2/13/2-c7291cb477d4156a9336baedfeaf1a9e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;16 reviews · 69% positive</description>
 </item>
 </channel>
 </rss>
