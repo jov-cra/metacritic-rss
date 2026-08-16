@@ -9420,6 +9420,22 @@
         "image": "https://www.metacritic.com/a/img/resize/a69a1b02955e31f36916ff9f4f7288790d51f8f2/catalog/provider/7/2/7-1786139791.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/lanterns/": {
+      "title": "Lanterns",
+      "score": 72,
+      "media": "tv",
+      "release_date": "Aug 16, 2026",
+      "emitted_at": "2026-08-16T00:28:52.663865+00:00",
+      "feed_date": "2026-08-16T00:28:52.663865+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0c1ffbc2ea0b7d717bf8ab48cc9c3a9d426b5c61/catalog/provider/2/2/2-22fa0be136a3730119329a8ad1ebf5bc.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 26,
+        "pos": 77,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7eb10c067b38ae34ce7d2a4949dcd1a4d35cf64a/catalog/provider/2/13/2-1dda4df76e89a2d26e3ed5b194dce8c5.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
