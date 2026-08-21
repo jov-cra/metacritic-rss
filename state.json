@@ -9548,6 +9548,22 @@
         "image": "https://www.metacritic.com/a/img/resize/7dc999abadec57dd65fbd5c7963aafffa7d00ec2/catalog/provider/7/2/7-1781624017.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/spa-weekend/": {
+      "title": "Spa Weekend",
+      "score": 32,
+      "media": "movie",
+      "release_date": "Aug 21, 2026",
+      "emitted_at": "2026-08-21T16:16:55.458278+00:00",
+      "feed_date": "2026-08-21T16:16:55.458278+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f3db27f20a1465c90feda69ffb0d409a4d3bcc3e/catalog/provider/5/2/5-tt33305867.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/519aefc1f7b81e040b864da3fb40f4b481c7a899/catalog/provider/2/13/2-4c5ae81b6195ed119d7557164cb87814.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

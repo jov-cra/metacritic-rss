@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 21 Aug 2026 04:25:18 +0000</lastBuildDate>
+<lastBuildDate>Fri, 21 Aug 2026 16:16:55 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[32] Spa Weekend (Movie)</title>
+<link>https://www.metacritic.com/movie/spa-weekend/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/spa-weekend/</guid>
+<pubDate>Fri, 21 Aug 2026 16:16:55 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/519aefc1f7b81e040b864da3fb40f4b481c7a899/catalog/provider/2/13/2-4c5ae81b6195ed119d7557164cb87814.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 0% positive</description>
+</item>
 <item>
 <title>[32] Hot Spot (Movie)</title>
 <link>https://www.metacritic.com/movie/hot-spot/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/a28ca7ac6608f54911f0bd3d733ca98e136abca9/catalog/provider/2/13/2-ba7951b78e25d057a7648f26b3fcc798.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 50% positive</description>
-</item>
-<item>
-<title>[89] Long Story Short (TV)</title>
-<link>https://www.metacritic.com/tv/long-story-short/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/long-story-short/</guid>
-<pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/001e0770516d58c899589e652f175bec96d38a43/catalog/provider/2/2/2-ad3285657ef4038e7c50ebd226a1bfab.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;17 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>
