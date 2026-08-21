@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 21 Aug 2026 00:30:26 +0000</lastBuildDate>
+<lastBuildDate>Fri, 21 Aug 2026 04:25:18 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[32] Hot Spot (Movie)</title>
+<link>https://www.metacritic.com/movie/hot-spot/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/hot-spot/</guid>
+<pubDate>Fri, 21 Aug 2026 04:25:18 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/7dc999abadec57dd65fbd5c7963aafffa7d00ec2/catalog/provider/7/2/7-1781624017.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 0% positive</description>
+</item>
 <item>
 <title>[58] The Magic Faraway Tree (Movie)</title>
 <link>https://www.metacritic.com/movie/the-magic-faraway-tree/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/001e0770516d58c899589e652f175bec96d38a43/catalog/provider/2/2/2-ad3285657ef4038e7c50ebd226a1bfab.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;17 reviews · 100% positive</description>
-</item>
-<item>
-<title>[62] Hostage (TV)</title>
-<link>https://www.metacritic.com/tv/hostage/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/hostage/</guid>
-<pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/9b4a6224e602b43cdfcc334a8286628f0f431fe0/catalog/provider/2/13/2-766084db0354d8cf6a49c967e57ba53c.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;14 reviews · 50% positive</description>
 </item>
 </channel>
 </rss>

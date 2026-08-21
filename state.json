@@ -9532,6 +9532,22 @@
         "image": "https://www.metacritic.com/a/img/resize/8adfdf902b0660106fc14b12890edc1dba0c8aa2/catalog/provider/2/13/2-ac8abd7421d726558ed8ebe7b6ca1a77.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/hot-spot/": {
+      "title": "Hot Spot",
+      "score": 32,
+      "media": "movie",
+      "release_date": "Aug 21, 2026",
+      "emitted_at": "2026-08-21T04:25:18.601614+00:00",
+      "feed_date": "2026-08-21T04:25:18.601614+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c2fd53c02835b60e3ac86746ddbf9e71fbf0013a/catalog/provider/7/2/7-1781711407.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7dc999abadec57dd65fbd5c7963aafffa7d00ec2/catalog/provider/7/2/7-1781624017.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
