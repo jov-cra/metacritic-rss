@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 21 Aug 2026 16:16:55 +0000</lastBuildDate>
+<lastBuildDate>Sat, 22 Aug 2026 00:27:26 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[73] Dynasty: The Murdochs (TV)</title>
+<link>https://www.metacritic.com/tv/dynasty-the-murdochs/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/dynasty-the-murdochs/</guid>
+<pubDate>Sat, 22 Aug 2026 00:27:26 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/9588883ede5e78dc30c8b3e46302916ef961dad2/catalog/provider/2/13/2-9c103c3824b12dbc7b0fe8ab0212fa38.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
 <item>
 <title>[32] Spa Weekend (Movie)</title>
 <link>https://www.metacritic.com/movie/spa-weekend/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/99fe44246e1c6019522860d426a8e5517e78185c/catalog/provider/2/13/2-7c885c911f14f5e1eb0f64eb25c87000.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[63] Playing Nice (TV)</title>
-<link>https://www.metacritic.com/tv/playing-nice/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/playing-nice/</guid>
-<pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/a28ca7ac6608f54911f0bd3d733ca98e136abca9/catalog/provider/2/13/2-ba7951b78e25d057a7648f26b3fcc798.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 50% positive</description>
 </item>
 </channel>
 </rss>
