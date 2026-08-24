@@ -9580,6 +9580,22 @@
         "image": "https://www.metacritic.com/a/img/resize/9588883ede5e78dc30c8b3e46302916ef961dad2/catalog/provider/2/13/2-9c103c3824b12dbc7b0fe8ab0212fa38.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/freefall-a-reckoning-for-boeing/": {
+      "title": "Freefall: A Reckoning for Boeing",
+      "score": 74,
+      "media": "movie",
+      "release_date": "Aug 14, 2026",
+      "emitted_at": "2026-08-24T14:29:17.912728+00:00",
+      "feed_date": "2026-08-24T14:29:17.912728+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/6ebccd97d523b840abd11e806ae9bf29fc241ea9/catalog/provider/5/2/5-tt32889884.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/00def22936c5a4371d48d2ae6c377884f80c0398/catalog/provider/7/2/7-1786729073.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

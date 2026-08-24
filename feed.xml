@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sat, 22 Aug 2026 00:27:26 +0000</lastBuildDate>
+<lastBuildDate>Mon, 24 Aug 2026 14:29:17 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[74] Freefall: A Reckoning for Boeing (Movie)</title>
+<link>https://www.metacritic.com/movie/freefall-a-reckoning-for-boeing/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/freefall-a-reckoning-for-boeing/</guid>
+<pubDate>Mon, 24 Aug 2026 14:29:17 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/00def22936c5a4371d48d2ae6c377884f80c0398/catalog/provider/7/2/7-1786729073.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[73] Dynasty: The Murdochs (TV)</title>
 <link>https://www.metacritic.com/tv/dynasty-the-murdochs/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/76c3f4ff2c525d4970147ea4aef3d56202ab36bd/catalog/provider/2/13/2-ad30402595c062fb4bed7aa7780ebdf3.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 44% positive</description>
-</item>
-<item>
-<title>[82] Katrina: Come Hell and High Water (TV)</title>
-<link>https://www.metacritic.com/tv/katrina-come-hell-and-high-water/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/katrina-come-hell-and-high-water/</guid>
-<pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/99fe44246e1c6019522860d426a8e5517e78185c/catalog/provider/2/13/2-7c885c911f14f5e1eb0f64eb25c87000.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>
