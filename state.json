@@ -9596,6 +9596,22 @@
         "image": "https://www.metacritic.com/a/img/resize/00def22936c5a4371d48d2ae6c377884f80c0398/catalog/provider/7/2/7-1786729073.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-deb/": {
+      "title": "The Deb",
+      "score": 53,
+      "media": "movie",
+      "release_date": "Aug 25, 2026",
+      "emitted_at": "2026-08-25T00:28:28.023593+00:00",
+      "feed_date": "2026-08-25T00:28:28.023593+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/fe7cac26000d2bea133cde7a031febb932744070/catalog/provider/7/2/7-1784574145.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 29,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/6ccf3cc791e546a0e47ade6de4a45ee0f076aae6/catalog/provider/2/13/2-34d0fd8293b274e66d459e068ee289b8.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
