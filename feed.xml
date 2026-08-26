@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Tue, 25 Aug 2026 00:28:28 +0000</lastBuildDate>
+<lastBuildDate>Wed, 26 Aug 2026 22:32:26 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[64] The Man Will Burn (TV)</title>
+<link>https://www.metacritic.com/tv/the-man-will-burn/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-man-will-burn/</guid>
+<pubDate>Wed, 26 Aug 2026 22:32:26 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/281bbf4a6d126a16621551afab98192f07f50f74/catalog/provider/2/13/2-f25221c4248b43a35872b8a07d135028.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 50% positive</description>
+</item>
 <item>
 <title>[53] The Deb (Movie)</title>
 <link>https://www.metacritic.com/movie/the-deb/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/1b3de84bac7179976a25080a8c172001cdbc432a/catalog/provider/2/13/2-23471589d6bbd06262d42005e4055ea6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 33% positive</description>
-</item>
-<item>
-<title>[71] Kidnapped: The Chloe Ayling Story (TV)</title>
-<link>https://www.metacritic.com/tv/kidnapped-the-chloe-ayling-story/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/kidnapped-the-chloe-ayling-story/</guid>
-<pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/f5470378122f7eda46d59b64bfb0bfe85ed5e2fe/catalog/provider/2/13/2-f9e0e2e7aefefcec73391b8970575766.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 60% positive</description>
 </item>
 </channel>
 </rss>

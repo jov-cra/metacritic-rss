@@ -9612,6 +9612,22 @@
         "image": "https://www.metacritic.com/a/img/resize/6ccf3cc791e546a0e47ade6de4a45ee0f076aae6/catalog/provider/2/13/2-34d0fd8293b274e66d459e068ee289b8.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/the-man-will-burn/": {
+      "title": "The Man Will Burn",
+      "score": 64,
+      "media": "tv",
+      "release_date": "Jul 9, 2026",
+      "emitted_at": "2026-08-26T22:32:26.911512+00:00",
+      "feed_date": "2026-08-26T22:32:26.911512+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b1c9f0a732712a619ec6e1605c619e9f4029631e/catalog/provider/2/2/2-4fb5731642cd21fd731f11b683effb2e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/281bbf4a6d126a16621551afab98192f07f50f74/catalog/provider/2/13/2-f25221c4248b43a35872b8a07d135028.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
