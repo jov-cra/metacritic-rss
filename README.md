@@ -181,3 +181,10 @@ python tests/test_parse.py      # oder: python -m pytest -q
 ```
 
 Die Tests decken Parsing, den Schwellwert, das „einmal emittieren", den **„Score kommt später"-Fall** und wohlgeformtes RSS ab — alles offline, ohne Netzwerk.
+
+## Härtung 27.08.2026
+
+- **Guards pro Medium.** Die alten Aborts prüften `pages_ok == 0` und `scanned == 0` **global**. Ändert sich nur das TV-Markup, liefert Movie weiter Karten, der Lauf bleibt grün und die TV-Hälfte des Feeds ist still tot. Jetzt gilt je Medium: keine Seite geladen, keine Karten, **oder keine einzige Karte mit Metascore** → Abbruch. Der letzte Fall ist der wichtigste: Karten parsen weiter, aber `SCORE_RE` matcht nicht mehr — nichts qualifiziert sich je wieder, und der Feed sieht aus wie eine ruhige Woche.
+- **Ein Retry + Delay zwischen den Browse-Seiten** (`MC_BROWSE_DELAY`, Default 0.4 s). 30 Fetches ohne Pause laden 429er ein.
+- **Escaping:** die Poster-URL wird im `<img src="…">` gegen Anführungszeichen abgesichert, XML-illegale Steuerzeichen fliegen aus Titel und Description. Bewusst **nur** das Anführungszeichen — `&` erledigt der äußere Escape-Durchlauf, doppelt escapen würde die Bytes jedes bestehenden Items ändern.
+- **Roter Lauf macht sich bemerkbar:** der Workflow legt bei `failure()` ein Issue an (bzw. kommentiert das offene).

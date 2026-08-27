@@ -68,8 +68,27 @@ UA = (
 )
 
 
+# Characters XML 1.0 simply forbids. escape() only rewrites & < > — a stray
+# control byte in a scraped title would still make the whole feed unparseable,
+# so strip them before they ever reach the document.
+CTRL_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+
+
 def _env(name: str, default: str) -> str:
     return os.environ.get(name, default)
+
+
+def _xml_text(value: str) -> str:
+    """Escape for XML text content, minus the characters XML cannot carry."""
+    return escape(CTRL_RE.sub("", value))
+
+
+def _attr(value: str) -> str:
+    """Make a URL safe inside an HTML attribute. ONLY the quote is escaped here:
+    & < > are handled by the _xml_text() pass over the whole body, and escaping
+    them twice would change every existing item's bytes for no gain. The quote is
+    the one character that would actually break out of the attribute."""
+    return value.replace('"', "&quot;")
 
 
 # --------------------------------------------------------------------------- #
@@ -438,15 +457,15 @@ def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None
         # Prefer the hi-res detail og:image (added at enrichment); fall back to the
         # small browse poster so a fresh item still has a thumbnail before enrichment.
         img = (meta.get("detail") or {}).get("image") or meta.get("image")
-        body = f'<img src="{img}" alt="" /><br />{desc}' if img else desc
+        body = f'<img src="{_attr(img)}" alt="" /><br />{desc}' if img else desc
         out += [
             "<item>",
-            f"<title>{escape(title)}</title>",
+            f"<title>{_xml_text(title)}</title>",
             f"<link>{escape(url)}</link>",
             f'<guid isPermaLink="false">{escape(url)}</guid>',
             f"<pubDate>{pub}</pubDate>",
             f"<category>{escape(label)}</category>",
-            f"<description>{escape(body)}</description>",
+            f"<description>{_xml_text(body)}</description>",
             "</item>",
         ]
 
@@ -465,6 +484,10 @@ def run(args) -> int:
     scanned = 0
     pages_ok = 0
     pages_tried = 0
+    # Per-medium counters. The global guards below cannot see a HALF-dead run:
+    # if only the TV markup changes, movie still yields cards and the run stays
+    # green while the TV half of the feed quietly stops forever.
+    stats = {m: {"pages_ok": 0, "cards": 0, "scored": 0} for m in args.media}
 
     for media in args.media:
         for page in range(1, args.pages + 1):
@@ -472,13 +495,24 @@ def run(args) -> int:
             if page > 1:
                 url += f"?page={page}"
             pages_tried += 1
-            try:
-                html_text = fetch(url)
-            except Exception as exc:  # a single failed page shouldn't kill the whole run
-                print(f"[warn] fetch failed for {url}: {exc}", file=sys.stderr)
+            html_text = None
+            for attempt in range(2):   # one retry: 429/5xx on a single page is common
+                try:
+                    html_text = fetch(url)
+                    break
+                except Exception as exc:
+                    if attempt == 0:
+                        time.sleep(max(args.browse_delay, 1.0) * 3)
+                        continue
+                    print(f"[warn] fetch failed for {url}: {exc}", file=sys.stderr)
+            if html_text is None:
                 continue
+            time.sleep(args.browse_delay)   # politeness between browse pages
             pages_ok += 1
+            stats[media]["pages_ok"] += 1
             cards = parse_browse(html_text, media)
+            stats[media]["cards"] += len(cards)
+            stats[media]["scored"] += sum(1 for c in cards if c["score"] is not None)
             scanned += len(cards)
             print(f"[scan] {media} page {page}: {len(cards)} cards")
             if args.debug:
@@ -498,6 +532,22 @@ def run(args) -> int:
             f"[abort] {pages_ok} page(s) loaded but yielded 0 cards — likely a soft-block or "
             "layout change. Feed/state left untouched."
         )
+    # Per-medium guards. Each of these is a state that CANNOT happen on a healthy
+    # run (every browse page carries scored titles), so hitting one means the
+    # scrape changed under us — abort rather than let the feed quietly go stale.
+    for media, st in stats.items():
+        if st["pages_ok"] == 0:
+            raise SystemExit(f"[abort] every '{media}' browse page failed to load; feed/state left untouched.")
+        if st["cards"] == 0:
+            raise SystemExit(
+                f"[abort] '{media}' loaded {st['pages_ok']} page(s) but yielded 0 cards — "
+                "layout change or soft-block. Feed/state left untouched."
+            )
+        if st["scored"] == 0:
+            raise SystemExit(
+                f"[abort] '{media}' yielded {st['cards']} card(s) but not one with a Metascore — "
+                "the score markup changed (SCORE_RE no longer matches). Feed/state left untouched."
+            )
 
     # Enrich new/unenriched items with critic/user stats + a top-critic quote.
     if args.detail and not args.dry_run and args.detail_max > 0:
@@ -553,6 +603,8 @@ def build_argparser() -> argparse.ArgumentParser:
                    help="max detail pages to fetch per run (default 60; bounds the one-time backfill)")
     p.add_argument("--detail-delay", type=float, default=float(_env("MC_DETAIL_DELAY", "0.6")),
                    help="seconds to wait between detail fetches (politeness, default 0.6)")
+    p.add_argument("--browse-delay", type=float, default=float(_env("MC_BROWSE_DELAY", "0.4")),
+                   help="seconds to wait between browse pages (politeness / 429 prophylaxis, default 0.4)")
     p.add_argument("--seed-from-release", dest="seed_from_release", action="store_true",
                    default=_env("MC_SEED_FROM_RELEASE", "0") not in ("0", "false", "False", ""),
                    help="one-time: date newly-emitted items by their release date instead of 'now'. "

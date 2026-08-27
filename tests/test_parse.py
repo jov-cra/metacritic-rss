@@ -328,6 +328,56 @@ def test_describe_item_falls_back_without_detail():
     assert mf.describe_item(meta) == "Metascore 76 · TV · Released Jun 30, 2026"
 
 
+# --------------------------------------------------------------------------- #
+# 4. Escaping (regression, 27.08.2026)
+# --------------------------------------------------------------------------- #
+def test_attr_escapes_the_quote_only():
+    """Only the quote can break out of the attribute. & < > are handled by the
+    _xml_text() pass over the whole body — escaping them twice would rewrite
+    every existing item's bytes for no gain."""
+    assert mf._attr('http://x/a"b') == "http://x/a&quot;b"
+    assert mf._attr("http://x/a?b=1&c=2") == "http://x/a?b=1&c=2"
+
+
+def test_xml_text_strips_characters_xml_cannot_carry():
+    assert mf._xml_text("Bad\x07Title") == "BadTitle"
+    assert mf._xml_text("A & B") == "A &amp; B"
+
+
+# --------------------------------------------------------------------------- #
+# 5. Per-medium guards (regression, 27.08.2026)
+# --------------------------------------------------------------------------- #
+def _run_against(html_text, tmp_state):
+    original = mf.fetch
+    mf.fetch = lambda url: html_text
+    try:
+        return mf.main(["--dry-run", "--media", "movie", "--pages", "1",
+                        "--no-detail", "--state", str(tmp_state)])
+    finally:
+        mf.fetch = original
+
+
+def test_healthy_browse_page_does_not_abort(tmp_path):
+    assert _run_against(FIXTURE, tmp_path / "state.json") == 0
+
+
+def test_aborts_when_no_card_carries_a_score(tmp_path):
+    """The failure mode the old guards could not see: cards still parse, but the
+    score markup changed, so nothing ever qualifies again — a green run and a
+    feed that quietly stops, looking like a slow week."""
+    import pytest
+    scoreless = FIXTURE.replace("Metascore", "Ratingscore")
+    with pytest.raises(SystemExit) as exc:
+        _run_against(scoreless, tmp_path / "state.json")
+    assert "not one with a Metascore" in str(exc.value)
+
+
+def test_aborts_when_a_medium_yields_no_cards(tmp_path):
+    import pytest
+    with pytest.raises(SystemExit):
+        _run_against("<html><body>nothing here</body></html>", tmp_path / "state.json")
+
+
 if __name__ == "__main__":
     import traceback
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_") and callable(v)]
