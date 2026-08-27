@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 26 Aug 2026 22:32:26 +0000</lastBuildDate>
+<lastBuildDate>Thu, 27 Aug 2026 05:14:30 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[64] Dead Souls (Movie)</title>
+<link>https://www.metacritic.com/movie/dead-souls-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/dead-souls-2026/</guid>
+<pubDate>Thu, 27 Aug 2026 05:14:30 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/19fde3f0f646e24a529e150e229d37f28eb622f7/catalog/provider/7/2/7-1781624783.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
 <item>
 <title>[64] The Man Will Burn (TV)</title>
 <link>https://www.metacritic.com/tv/the-man-will-burn/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c42e749aa7364865ad1d22117f602a15db42fc1f/catalog/provider/2/13/2-c5eda8e6024d5e4faea0242d642b70af.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 83% positive</description>
-</item>
-<item>
-<title>[59] Lynley (TV)</title>
-<link>https://www.metacritic.com/tv/lynley/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/lynley/</guid>
-<pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/1b3de84bac7179976a25080a8c172001cdbc432a/catalog/provider/2/13/2-23471589d6bbd06262d42005e4055ea6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 33% positive</description>
 </item>
 </channel>
 </rss>
