@@ -9644,6 +9644,150 @@
         "image": "https://www.metacritic.com/a/img/resize/19fde3f0f646e24a529e150e229d37f28eb622f7/catalog/provider/7/2/7-1781624783.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/buddy-2026/": {
+      "title": "Buddy",
+      "score": 67,
+      "media": "movie",
+      "release_date": "Aug 28, 2026",
+      "emitted_at": "2026-08-28T01:48:40.700512+00:00",
+      "feed_date": "2026-08-28T01:48:40.700512+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b64947e56b11a220a698fa1a8c14795782d8b35b/catalog/provider/7/2/7-1784652992.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/e686f4884eec642fc7d10889b640a9d918e477fc/catalog/provider/5/2/5-tt37281055.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-sun-never-sets/": {
+      "title": "The Sun Never Sets",
+      "score": 70,
+      "media": "movie",
+      "release_date": "Aug 28, 2026",
+      "emitted_at": "2026-08-28T01:48:40.700512+00:00",
+      "feed_date": "2026-08-28T01:48:40.700512+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ac2d8337898c8fe55780cd9a9871d31070d434ca/catalog/provider/5/2/5-tt37818327.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/9518729574fc10859408d6d5758bb59ca249da2c/catalog/provider/5/2/5-tt39368267.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/finding-emily/": {
+      "title": "Finding Emily",
+      "score": 70,
+      "media": "movie",
+      "release_date": "Aug 28, 2026",
+      "emitted_at": "2026-08-28T01:48:40.700512+00:00",
+      "feed_date": "2026-08-28T01:48:40.700512+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b66998b48bd559d88d66f3f02256bc4a862edd26/catalog/provider/7/2/7-1778602195.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 62,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/47290326c226cfd2e53980595cb36e09f7ac94df/catalog/provider/7/2/7-1773252871.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/filipinana/": {
+      "title": "Filipiñana",
+      "score": 78,
+      "media": "movie",
+      "release_date": "Aug 28, 2026",
+      "emitted_at": "2026-08-28T01:48:40.700512+00:00",
+      "feed_date": "2026-08-28T01:48:40.700512+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5bd7b54407c151f801133e4733334703fcad6dd6/catalog/provider/7/2/7-1784312152.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 78,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8ec2c918ce9cd55e7dad4fb43dac1f459ad3e193/catalog/provider/5/2/5-tt38268539.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-dog-stars/": {
+      "title": "The Dog Stars",
+      "score": 48,
+      "media": "movie",
+      "release_date": "Aug 28, 2026",
+      "emitted_at": "2026-08-28T01:48:40.700512+00:00",
+      "feed_date": "2026-08-28T01:48:40.700512+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1d2c021a30d2546e7a1f7756a6392003f34eed71/catalog/provider/5/2/5-tt21285562.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 34,
+        "pos": 24,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/41a6399dc29aa71b11f77df458e3aa57cc8f4494/catalog/provider/2/13/2-d3b07e05dd087b3247314a8310109820.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/hanging-by-a-wire/": {
+      "title": "Hanging by a Wire",
+      "score": 66,
+      "media": "movie",
+      "release_date": "Aug 28, 2026",
+      "emitted_at": "2026-08-28T01:48:40.700512+00:00",
+      "feed_date": "2026-08-28T01:48:40.700512+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/470181a0813d3c405e7e634464b6fcae4d771b2b/catalog/provider/7/2/7-1787340832.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/979017b9be2c0d1de6a15d62200b4f6b5dfc6179/catalog/provider/5/2/5-tt37405791.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/colony/": {
+      "title": "Colony",
+      "score": 55,
+      "media": "movie",
+      "release_date": "Aug 28, 2026",
+      "emitted_at": "2026-08-28T01:48:40.700512+00:00",
+      "feed_date": "2026-08-28T01:48:40.700512+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c3c80138474cfd8294f157a039d22ff9d51351f3/catalog/provider/7/2/7-1783366258.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 38,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/50f416224c8555626d44312865baf64f6cdb05c8/catalog/provider/7/2/7-1779511311.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/idiots/": {
+      "title": "Idiots",
+      "score": 62,
+      "media": "movie",
+      "release_date": "Aug 28, 2026",
+      "emitted_at": "2026-08-28T01:48:40.700512+00:00",
+      "feed_date": "2026-08-28T01:48:40.700512+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b0d222ff5d99eedd8c207c282736841ef0352a83/catalog/provider/7/2/7-1776704257.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 62,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/0c1d8c25c133c515e6f19c1da90efa4e8e9978a1/catalog/provider/5/2/5-tt6628920.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/coyote-vs-acme/": {
+      "title": "Coyote vs. Acme",
+      "score": 77,
+      "media": "movie",
+      "release_date": "Aug 28, 2026",
+      "emitted_at": "2026-08-28T01:48:40.700512+00:00",
+      "feed_date": "2026-08-28T01:48:40.700512+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c3b0ea792e3df19abf1c9831901eb2786d8f0493/catalog/provider/5/2/5-tt1756855.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 37,
+        "pos": 86,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7807a7678eb3cc9e8be2239b0dcb5679139f479c/catalog/provider/2/13/2-b92c6e8775cab5689f17071415eec224.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
