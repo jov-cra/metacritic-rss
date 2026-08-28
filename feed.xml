@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 28 Aug 2026 13:25:36 +0000</lastBuildDate>
+<lastBuildDate>Fri, 28 Aug 2026 23:14:08 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[72] Boorman and the Devil (Movie)</title>
+<link>https://www.metacritic.com/movie/boorman-and-the-devil/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/boorman-and-the-devil/</guid>
+<pubDate>Fri, 28 Aug 2026 23:14:08 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/198b811439379519b3c4c3fc1e4728b88d5f6f8d/catalog/provider/7/2/7-1787011095.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 100% positive</description>
+</item>
 <item>
 <title>[64] The Whisper Man (Movie)</title>
 <link>https://www.metacritic.com/movie/the-whisper-man/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/db128b93099f2553523222be4b80c07fb459b4c8/catalog/provider/2/13/2-8f3dbe9806d238677118f5b0f6ad337a.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;24 reviews · 50% positive</description>
-</item>
-<item>
-<title>[86] Human (TV)</title>
-<link>https://www.metacritic.com/tv/human/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/human/</guid>
-<pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/639510b3b521d6646751c2be02174baf54d4ce09/catalog/provider/2/13/2-b2b54838c460b01baf3a04f87d0bb81c.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>

@@ -9804,6 +9804,22 @@
         "image": "https://www.metacritic.com/a/img/resize/7b1de40e2301a4b2abd853ff576a815de4418e1d/catalog/provider/7/2/7-1784040088.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/boorman-and-the-devil/": {
+      "title": "Boorman and the Devil",
+      "score": 72,
+      "media": "movie",
+      "release_date": "Aug 28, 2026",
+      "emitted_at": "2026-08-28T23:14:08.494782+00:00",
+      "feed_date": "2026-08-28T23:14:08.494782+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ab81d73914ce041e2d276bbdb2f9a5e286f4d496/catalog/provider/5/2/5-tt37654454.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/198b811439379519b3c4c3fc1e4728b88d5f6f8d/catalog/provider/7/2/7-1787011095.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
