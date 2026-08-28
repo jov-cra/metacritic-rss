@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 28 Aug 2026 01:48:40 +0000</lastBuildDate>
+<lastBuildDate>Fri, 28 Aug 2026 13:25:36 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[64] The Whisper Man (Movie)</title>
+<link>https://www.metacritic.com/movie/the-whisper-man/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-whisper-man/</guid>
+<pubDate>Fri, 28 Aug 2026 13:25:36 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/7b1de40e2301a4b2abd853ff576a815de4418e1d/catalog/provider/7/2/7-1784040088.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 50% positive</description>
+</item>
 <item>
 <title>[70] The Sun Never Sets (Movie)</title>
 <link>https://www.metacritic.com/movie/the-sun-never-sets/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/639510b3b521d6646751c2be02174baf54d4ce09/catalog/provider/2/13/2-b2b54838c460b01baf3a04f87d0bb81c.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[77] Reunion (2025) (TV)</title>
-<link>https://www.metacritic.com/tv/reunion-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/reunion-2025/</guid>
-<pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/85b6db09eb95e62a483928b89ea68983ba987851/catalog/provider/2/2/2-9c44074c261043f863a95214a1b59c7d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 83% positive</description>
 </item>
 </channel>
 </rss>

@@ -9788,6 +9788,22 @@
         "image": "https://www.metacritic.com/a/img/resize/7807a7678eb3cc9e8be2239b0dcb5679139f479c/catalog/provider/2/13/2-b92c6e8775cab5689f17071415eec224.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-whisper-man/": {
+      "title": "The Whisper Man",
+      "score": 64,
+      "media": "movie",
+      "release_date": "Aug 28, 2026",
+      "emitted_at": "2026-08-28T13:25:36.062809+00:00",
+      "feed_date": "2026-08-28T13:25:36.062809+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/cdd02eb3888b232ab5730824c41cd7c90a7b85f8/catalog/provider/7/2/7-1784040112.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7b1de40e2301a4b2abd853ff576a815de4418e1d/catalog/provider/7/2/7-1784040088.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
