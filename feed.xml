@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 28 Aug 2026 23:14:08 +0000</lastBuildDate>
+<lastBuildDate>Sat, 29 Aug 2026 11:49:55 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[87] Dreams in Nightmares (Movie)</title>
+<link>https://www.metacritic.com/movie/dreams-in-nightmares/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/dreams-in-nightmares/</guid>
+<pubDate>Sat, 29 Aug 2026 11:49:55 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/827189f9d6625e4004a9b956186cf39ebaa37950/catalog/provider/2/2/2-58fa4e1e942e8ccebf07eaadbe07371b.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 100% positive</description>
+</item>
 <item>
 <title>[72] Boorman and the Devil (Movie)</title>
 <link>https://www.metacritic.com/movie/boorman-and-the-devil/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/d7daa1b4b8ded5acc65ab4be53bb5afb8b1a2f82/catalog/provider/2/13/2-7a50b1622e959806e5f28fd8fb6c7fd7.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 50% positive</description>
-</item>
-<item>
-<title>[63] Black Rabbit (TV)</title>
-<link>https://www.metacritic.com/tv/black-rabbit/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/black-rabbit/</guid>
-<pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/db128b93099f2553523222be4b80c07fb459b4c8/catalog/provider/2/13/2-8f3dbe9806d238677118f5b0f6ad337a.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;24 reviews · 50% positive</description>
 </item>
 </channel>
 </rss>

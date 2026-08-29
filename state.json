@@ -9820,6 +9820,22 @@
         "image": "https://www.metacritic.com/a/img/resize/198b811439379519b3c4c3fc1e4728b88d5f6f8d/catalog/provider/7/2/7-1787011095.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/dreams-in-nightmares/": {
+      "title": "Dreams in Nightmares",
+      "score": 87,
+      "media": "movie",
+      "release_date": "Aug 21, 2026",
+      "emitted_at": "2026-08-29T11:49:55.694018+00:00",
+      "feed_date": "2026-08-29T11:49:55.694018+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/fe11cbc8cc7adad642c36696cd7b8e905423cd1b/catalog/provider/5/2/5-tt32765596.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/827189f9d6625e4004a9b956186cf39ebaa37950/catalog/provider/2/2/2-58fa4e1e942e8ccebf07eaadbe07371b.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
