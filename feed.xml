@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 02 Sep 2026 01:34:34 +0000</lastBuildDate>
+<lastBuildDate>Wed, 02 Sep 2026 17:27:40 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[31] The Runner (Movie)</title>
+<link>https://www.metacritic.com/movie/the-runner-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-runner-2026/</guid>
+<pubDate>Wed, 02 Sep 2026 17:27:40 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/16f7941717a0632f00fe89fb3928128351412510/catalog/provider/2/13/2-ffaaaa967f817867ad4a07297f408a3b.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 0% positive</description>
+</item>
+<item>
+<title>[61] Fall 2: Deadpoint (Movie)</title>
+<link>https://www.metacritic.com/movie/fall-2-deadpoint/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/fall-2-deadpoint/</guid>
+<pubDate>Wed, 02 Sep 2026 17:27:40 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/34a34256c8fb157bfe5305ca7b29085e36f0c193/catalog/provider/2/13/2-be58c75fadc1cbbb551aea63c3a4f872.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 40% positive</description>
+</item>
 <item>
 <title>[56] The Varnell Hill Show (TV)</title>
 <link>https://www.metacritic.com/tv/the-varnell-hill-show/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/127c45c27ec15c5be1912186e3233a3983b932b7/catalog/provider/2/13/2-2cf436954007c188b4c8e80e6c699584.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 40% positive</description>
-</item>
-<item>
-<title>[58] Hotel Costiera (TV)</title>
-<link>https://www.metacritic.com/tv/hotel-costiera/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/hotel-costiera/</guid>
-<pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/ad7d77bc1215931962a5d5d05884ff0c8713d348/catalog/provider/2/2/2-18d09769f911575a5622626ae6a99b21.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 33% positive</description>
-</item>
-<item>
-<title>[85] The Lowdown (TV)</title>
-<link>https://www.metacritic.com/tv/the-lowdown/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-lowdown/</guid>
-<pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/19a3376fd976be4ad4d762eb14fe02f2a62a95af/catalog/provider/2/13/2-db815e6f86f8f776a1d4f13160465509.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;29 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>

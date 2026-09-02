@@ -9850,6 +9850,38 @@
         "user_tbd": true,
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-runner-2026/": {
+      "title": "The Runner",
+      "score": 31,
+      "media": "movie",
+      "release_date": "Sep 2, 2026",
+      "emitted_at": "2026-09-02T17:27:40.653764+00:00",
+      "feed_date": "2026-09-02T17:27:40.653764+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/842628d91ec8c21d1d2a8e14d2de86c0e5d3156c/catalog/provider/7/2/7-1784215396.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/16f7941717a0632f00fe89fb3928128351412510/catalog/provider/2/13/2-ffaaaa967f817867ad4a07297f408a3b.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/fall-2-deadpoint/": {
+      "title": "Fall 2: Deadpoint",
+      "score": 61,
+      "media": "movie",
+      "release_date": "Sep 2, 2026",
+      "emitted_at": "2026-09-02T17:27:40.653764+00:00",
+      "feed_date": "2026-09-02T17:27:40.653764+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/07546c8accabec5e49ca7f8cadc69782856a986a/catalog/provider/5/2/5-tt31192372.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 40,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/34a34256c8fb157bfe5305ca7b29085e36f0c193/catalog/provider/2/13/2-be58c75fadc1cbbb551aea63c3a4f872.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
