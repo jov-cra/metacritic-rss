@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sat, 29 Aug 2026 11:49:55 +0000</lastBuildDate>
+<lastBuildDate>Wed, 02 Sep 2026 01:34:34 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[56] The Varnell Hill Show (TV)</title>
+<link>https://www.metacritic.com/tv/the-varnell-hill-show/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-varnell-hill-show/</guid>
+<pubDate>Wed, 02 Sep 2026 01:34:34 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/02548867a41b009065535b1abbb917606bbfe367/catalog/provider/7/2/7-1787876685.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;4 reviews</description>
+</item>
 <item>
 <title>[87] Dreams in Nightmares (Movie)</title>
 <link>https://www.metacritic.com/movie/dreams-in-nightmares/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/19a3376fd976be4ad4d762eb14fe02f2a62a95af/catalog/provider/2/13/2-db815e6f86f8f776a1d4f13160465509.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;29 reviews · 100% positive</description>
-</item>
-<item>
-<title>[58] Haunted Hotel (TV)</title>
-<link>https://www.metacritic.com/tv/haunted-hotel/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/haunted-hotel/</guid>
-<pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/d7daa1b4b8ded5acc65ab4be53bb5afb8b1a2f82/catalog/provider/2/13/2-7a50b1622e959806e5f28fd8fb6c7fd7.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 50% positive</description>
 </item>
 </channel>
 </rss>

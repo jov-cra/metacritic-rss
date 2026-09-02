@@ -9836,6 +9836,20 @@
         "image": "https://www.metacritic.com/a/img/resize/827189f9d6625e4004a9b956186cf39ebaa37950/catalog/provider/2/2/2-58fa4e1e942e8ccebf07eaadbe07371b.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/the-varnell-hill-show/": {
+      "title": "The Varnell Hill Show",
+      "score": 56,
+      "media": "tv",
+      "release_date": "Sep 1, 2026",
+      "emitted_at": "2026-09-02T01:34:34.345442+00:00",
+      "feed_date": "2026-09-02T01:34:34.345442+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/02548867a41b009065535b1abbb917606bbfe367/catalog/provider/7/2/7-1787876685.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "v": 3
+      }
     }
   }
 }
