@@ -9882,6 +9882,86 @@
         "image": "https://www.metacritic.com/a/img/resize/34a34256c8fb157bfe5305ca7b29085e36f0c193/catalog/provider/2/13/2-be58c75fadc1cbbb551aea63c3a4f872.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/barbara-forever/": {
+      "title": "Barbara Forever",
+      "score": 89,
+      "media": "movie",
+      "release_date": "Sep 4, 2026",
+      "emitted_at": "2026-09-04T01:31:43.622547+00:00",
+      "feed_date": "2026-09-04T01:31:43.622547+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/27177aacac64995c3a729f1a9e15cc8a715aec84/catalog/provider/5/2/5-tt39150008.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/99c87e15277fbfe2d0011bbed5b003668be679d2/catalog/provider/7/2/7-1773157264.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/mayday-2026/": {
+      "title": "Mayday",
+      "score": 59,
+      "media": "movie",
+      "release_date": "Sep 4, 2026",
+      "emitted_at": "2026-09-04T01:31:43.622547+00:00",
+      "feed_date": "2026-09-04T01:31:43.622547+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5fc9ce159318c74ef058e9349bedac7cee2a6932/catalog/provider/7/2/7-1784045392.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 18,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/32ebfe870f9ba0982fc99032b0c68f66e9ff9eae/catalog/provider/7/2/7-1784045383.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/chronovisor/": {
+      "title": "Chronovisor",
+      "score": 90,
+      "media": "movie",
+      "release_date": "Sep 4, 2026",
+      "emitted_at": "2026-09-04T01:31:43.622547+00:00",
+      "feed_date": "2026-09-04T01:31:43.622547+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a1b1a8753e597bb43c408da9266204ccc0843763/catalog/provider/5/2/5-tt39196981.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8d5c232e0e5644bd5b4beed85eb62b64c6f72a47/catalog/provider/7/2/7-1787760462.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/onslaught/": {
+      "title": "Onslaught",
+      "score": 61,
+      "media": "movie",
+      "release_date": "Sep 4, 2026",
+      "emitted_at": "2026-09-04T01:31:43.622547+00:00",
+      "feed_date": "2026-09-04T01:31:43.622547+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f5eeecba21bd92ea2ee733ec606dd03b85a01205/catalog/provider/2/13/2-d189b4245897d28bffc6a470a6a13d91.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 21,
+        "pos": 62,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/09e6bfe67af93dddc2ebcdc1c57bab15e0f6076a/catalog/provider/2/13/2-a19bbbe6a4134ddb464d9e921f0d1977.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/by-any-means/": {
+      "title": "By Any Means",
+      "score": 56,
+      "media": "movie",
+      "release_date": "Sep 4, 2026",
+      "emitted_at": "2026-09-04T01:31:43.622547+00:00",
+      "feed_date": "2026-09-04T01:31:43.622547+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c0c7280451aef87fbac85e5212d3306b2377a445/catalog/provider/5/2/5-tt34379051.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 45,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/08e5b4977d78e25035908f5d3117aa2bf3073121/catalog/provider/7/2/7-1788450366.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
