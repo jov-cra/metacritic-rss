@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 04 Sep 2026 01:31:43 +0000</lastBuildDate>
+<lastBuildDate>Fri, 04 Sep 2026 12:17:34 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[65] The Grand Tour (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/the-grand-tour-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-grand-tour-2026/</guid>
+<pubDate>Fri, 04 Sep 2026 12:17:34 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a8d758c836567321ce982a252c97ba4bc6154235/catalog/provider/7/2/7-1788507357.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;4 reviews</description>
+</item>
 <item>
 <title>[61] Onslaught (Movie)</title>
 <link>https://www.metacritic.com/movie/onslaught/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/6519b3c286ec7fa03fc0db03f7083ace68bd508f/catalog/provider/2/13/2-39bc34adfa874f6895ee11b104d9a76c.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 75% positive</description>
-</item>
-<item>
-<title>[53] Chad Powers (TV)</title>
-<link>https://www.metacritic.com/tv/chad-powers/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/chad-powers/</guid>
-<pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/8b93d82f57de9567c00e7edaf86bd1b172e3c247/catalog/provider/2/13/2-a66bb595b3a3d89d6c88367e0c4da6b2.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;26 reviews · 35% positive</description>
 </item>
 </channel>
 </rss>

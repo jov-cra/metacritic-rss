@@ -9962,6 +9962,20 @@
         "image": "https://www.metacritic.com/a/img/resize/08e5b4977d78e25035908f5d3117aa2bf3073121/catalog/provider/7/2/7-1788450366.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/the-grand-tour-2026/": {
+      "title": "The Grand Tour (2026)",
+      "score": 65,
+      "media": "tv",
+      "release_date": "Sep 4, 2026",
+      "emitted_at": "2026-09-04T12:17:34.205470+00:00",
+      "feed_date": "2026-09-04T12:17:34.205470+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a8d758c836567321ce982a252c97ba4bc6154235/catalog/provider/7/2/7-1788507357.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "v": 3
+      }
     }
   }
 }
