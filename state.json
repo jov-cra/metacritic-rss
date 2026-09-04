@@ -9976,6 +9976,22 @@
         "user_tbd": true,
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/dear-you/": {
+      "title": "Dear You",
+      "score": 71,
+      "media": "movie",
+      "release_date": "Sep 4, 2026",
+      "emitted_at": "2026-09-04T19:56:48.152443+00:00",
+      "feed_date": "2026-09-04T19:56:48.152443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9a2c69e0093967aaa0af39e11f5da6d7d54ecdf1/catalog/provider/7/2/7-1788197696.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8095a0163269d15ac072bab65c63a5c3eb4331cf/catalog/provider/7/2/7-1788197707.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
