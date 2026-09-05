@@ -9992,6 +9992,22 @@
         "image": "https://www.metacritic.com/a/img/resize/8095a0163269d15ac072bab65c63a5c3eb4331cf/catalog/provider/7/2/7-1788197707.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/tom-and-jerry-forbidden-compass/": {
+      "title": "Tom and Jerry: Forbidden Compass",
+      "score": 24,
+      "media": "movie",
+      "release_date": "Sep 4, 2026",
+      "emitted_at": "2026-09-05T17:44:50.861960+00:00",
+      "feed_date": "2026-09-05T17:44:50.861960+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/109deffd7540b1d80659521de98527623b387a17/catalog/provider/5/2/5-tt37185884.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/3db9589cbe2f43b6ed964e6797455dc02a41a485/catalog/provider/2/13/2-31482e3b92b559885da93196ab9a4d0b.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

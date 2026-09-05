@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 04 Sep 2026 19:56:48 +0000</lastBuildDate>
+<lastBuildDate>Sat, 05 Sep 2026 17:44:50 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[24] Tom and Jerry: Forbidden Compass (Movie)</title>
+<link>https://www.metacritic.com/movie/tom-and-jerry-forbidden-compass/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/tom-and-jerry-forbidden-compass/</guid>
+<pubDate>Sat, 05 Sep 2026 17:44:50 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/3db9589cbe2f43b6ed964e6797455dc02a41a485/catalog/provider/2/13/2-31482e3b92b559885da93196ab9a4d0b.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 0% positive</description>
+</item>
 <item>
 <title>[71] Dear You (Movie)</title>
 <link>https://www.metacritic.com/movie/dear-you/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/f196de720ef1ab9b5a1590380de240cfe824faf6/catalog/provider/2/13/2-7a545b4f483102c65ab91441981158c2.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 83% positive</description>
-</item>
-<item>
-<title>[73] One Day in October (TV)</title>
-<link>https://www.metacritic.com/tv/one-day-in-october/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/one-day-in-october/</guid>
-<pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/96d74e6802409692a0e575fb382f558cc37e9456/catalog/provider/2/13/2-81c4935409d8ef60e303f63e3c702be2.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 80% positive</description>
 </item>
 </channel>
 </rss>
