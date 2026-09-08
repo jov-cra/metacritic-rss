@@ -10008,6 +10008,54 @@
         "image": "https://www.metacritic.com/a/img/resize/3db9589cbe2f43b6ed964e6797455dc02a41a485/catalog/provider/2/13/2-31482e3b92b559885da93196ab9a4d0b.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/dang!/": {
+      "title": "DANG!",
+      "score": 63,
+      "media": "tv",
+      "release_date": "Sep 8, 2026",
+      "emitted_at": "2026-09-08T20:22:10.521859+00:00",
+      "feed_date": "2026-09-08T20:22:10.521859+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/04315de50ba3585dd8efe2b905e2e390bd1d2302/catalog/provider/2/2/2-86c2618b8b80720f1a3e1c29312a4df7.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/027a66298f5da0ec4be0882be08248de1cddaffe/catalog/provider/2/13/2-6523d1295220a5f3a4b8d800af8bc4c7.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/the-drop-a-snowfall-saga/": {
+      "title": "The Drop: A Snowfall Saga",
+      "score": 76,
+      "media": "tv",
+      "release_date": "Sep 8, 2026",
+      "emitted_at": "2026-09-08T20:22:10.521859+00:00",
+      "feed_date": "2026-09-08T20:22:10.521859+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/40e34312652c1e4d24b06bb0650a88a40821bfe3/catalog/provider/2/2/2-9ca18f3865ee0df10ab55c941b0747f8.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/4e9ff5afbb6b43acc87c623a135edbe2d381dffa/catalog/provider/7/2/7-1788883413.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/a-tale-of-two-cities/": {
+      "title": "A Tale of Two Cities",
+      "score": 56,
+      "media": "tv",
+      "release_date": "Sep 6, 2026",
+      "emitted_at": "2026-09-08T20:22:10.521859+00:00",
+      "feed_date": "2026-09-08T20:22:10.521859+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/153ddd01025d9b55686d0f8c756b1d2b356ac1b7/catalog/provider/2/2/2-9cd0632d79cf61d129fe21a107d4630e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 40,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/13160a0c162b4225c187684bbc52bd9886bdffbe/catalog/provider/2/13/2-0acee36e94770172e04ca730eb6e9202.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

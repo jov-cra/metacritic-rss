@@ -5,8 +5,32 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sat, 05 Sep 2026 17:44:50 +0000</lastBuildDate>
+<lastBuildDate>Tue, 08 Sep 2026 20:22:10 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[76] The Drop: A Snowfall Saga (TV)</title>
+<link>https://www.metacritic.com/tv/the-drop-a-snowfall-saga/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-drop-a-snowfall-saga/</guid>
+<pubDate>Tue, 08 Sep 2026 20:22:10 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/4e9ff5afbb6b43acc87c623a135edbe2d381dffa/catalog/provider/7/2/7-1788883413.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
+<item>
+<title>[63] DANG! (TV)</title>
+<link>https://www.metacritic.com/tv/dang!/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/dang!/</guid>
+<pubDate>Tue, 08 Sep 2026 20:22:10 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/027a66298f5da0ec4be0882be08248de1cddaffe/catalog/provider/2/13/2-6523d1295220a5f3a4b8d800af8bc4c7.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 60% positive</description>
+</item>
+<item>
+<title>[56] A Tale of Two Cities (TV)</title>
+<link>https://www.metacritic.com/tv/a-tale-of-two-cities/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/a-tale-of-two-cities/</guid>
+<pubDate>Tue, 08 Sep 2026 20:22:10 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/13160a0c162b4225c187684bbc52bd9886bdffbe/catalog/provider/2/13/2-0acee36e94770172e04ca730eb6e9202.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 40% positive</description>
+</item>
 <item>
 <title>[24] Tom and Jerry: Forbidden Compass (Movie)</title>
 <link>https://www.metacritic.com/movie/tom-and-jerry-forbidden-compass/</link>
@@ -3982,30 +4006,6 @@
 <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/928479821c6195ecb872090200bcee1c3af23b92/catalog/provider/2/13/2-644af4853c202eb1ac56559b68ef86ad.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 22% positive</description>
-</item>
-<item>
-<title>[73] Boots (TV)</title>
-<link>https://www.metacritic.com/tv/boots/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/boots/</guid>
-<pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/c29ebecd909114567fe541fc3d530b9b7ed81f68/catalog/provider/2/13/2-13d24b91c1e2566559e8bae026f57b74.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;21 reviews · 81% positive</description>
-</item>
-<item>
-<title>[68] 9-1-1: Nashville (TV)</title>
-<link>https://www.metacritic.com/tv/9-1-1-nashville/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/9-1-1-nashville/</guid>
-<pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/79ef2705e1d64edba028a244fb1818890979b28f/catalog/provider/2/2/2-33fd16b029d413cd54788108df043aff.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
-</item>
-<item>
-<title>[69] Red Alert (TV)</title>
-<link>https://www.metacritic.com/tv/red-alert/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/red-alert/</guid>
-<pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/f196de720ef1ab9b5a1590380de240cfe824faf6/catalog/provider/2/13/2-7a545b4f483102c65ab91441981158c2.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 83% positive</description>
 </item>
 </channel>
 </rss>
