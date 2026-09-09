@@ -10088,6 +10088,21 @@
         "image": "https://www.metacritic.com/a/img/resize/9150dc70a653371c337e5ff9e525ddc1e509e947/catalog/provider/2/13/2-8e0a24765f0795cf32a9fab580c27527.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/showtrial/": {
+      "title": "Showtrial",
+      "score": 65,
+      "media": "tv",
+      "release_date": "Sep 3, 2026",
+      "emitted_at": "2026-09-09T17:22:17.098698+00:00",
+      "feed_date": "2026-09-09T17:22:17.098698+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/85defa26097aa2a477768d8ed45069dced21aef1/catalog/provider/2/2/2-1f0ebec0e1eec17306daedebb826d020.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 40,
+        "image": "https://www.metacritic.com/a/img/resize/44359b61243e5daaa014575195756d18d2808d40/catalog/provider/2/13/2-806ad488c2733ad4d80f856d3e34f51d.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

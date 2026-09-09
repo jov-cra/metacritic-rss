@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 09 Sep 2026 01:43:05 +0000</lastBuildDate>
+<lastBuildDate>Wed, 09 Sep 2026 17:22:17 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[65] Showtrial (TV)</title>
+<link>https://www.metacritic.com/tv/showtrial/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/showtrial/</guid>
+<pubDate>Wed, 09 Sep 2026 17:22:17 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/44359b61243e5daaa014575195756d18d2808d40/catalog/provider/2/13/2-806ad488c2733ad4d80f856d3e34f51d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 40% positive</description>
+</item>
 <item>
 <title>[77] Last Seen (TV)</title>
 <link>https://www.metacritic.com/tv/last-seen/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/4e531679959b96b54fae82ac9618c5f7f4c2fc84/catalog/provider/2/13/2-ad0814c028788724fc9909ec3698bf56.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 27% positive</description>
-</item>
-<item>
-<title>[82] The Chair Company (TV)</title>
-<link>https://www.metacritic.com/tv/the-chair-company/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-chair-company/</guid>
-<pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/b5943de28be4db1dcf67d20f315726019509c189/catalog/provider/2/2/2-b187bb071b29f6aa26441e69b2a27f80.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;26 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>
