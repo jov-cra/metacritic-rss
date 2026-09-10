@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Thu, 10 Sep 2026 01:38:11 +0000</lastBuildDate>
+<lastBuildDate>Thu, 10 Sep 2026 12:24:12 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[54] Crew Girl (TV)</title>
+<link>https://www.metacritic.com/tv/crew-girl/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/crew-girl/</guid>
+<pubDate>Thu, 10 Sep 2026 12:24:12 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/bda5537692e20137120a702bff9695227ef93b14/catalog/provider/2/2/2-4b1a4deed61d0b23b30b2d67710c8814.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;5 reviews · 40% positive</description>
+</item>
 <item>
 <title>[66] Death of the Pastor's Wife (TV)</title>
 <link>https://www.metacritic.com/tv/death-of-the-pastors-wife/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/cdb576825057098b5ae7a516ccf52bfc9fe04b7f/catalog/provider/2/13/2-5770095f2a71b55d3d7e6548e8b22bf7.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 56% positive</description>
-</item>
-<item>
-<title>[76] Devil in Disguise: John Wayne Gacy (TV)</title>
-<link>https://www.metacritic.com/tv/devil-in-disguise-john-wayne-gacy/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/devil-in-disguise-john-wayne-gacy/</guid>
-<pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/e41265c47ce9d2740b052dfaefa8bc6d4d564ffd/catalog/provider/7/2/7-1760635236.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 92% positive</description>
 </item>
 </channel>
 </rss>

@@ -10151,6 +10151,21 @@
         "image": "https://www.metacritic.com/a/img/resize/55316994c0557943cacdf578879561d9986e7d21/catalog/provider/2/13/2-acbfa515d105fb915826e07cf6c3ac37.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/crew-girl/": {
+      "title": "Crew Girl",
+      "score": 54,
+      "media": "tv",
+      "release_date": "Sep 10, 2026",
+      "emitted_at": "2026-09-10T12:24:12.358083+00:00",
+      "feed_date": "2026-09-10T12:24:12.358083+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/bda5537692e20137120a702bff9695227ef93b14/catalog/provider/2/2/2-4b1a4deed61d0b23b30b2d67710c8814.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 40,
+        "user_tbd": true,
+        "v": 3
+      }
     }
   }
 }
