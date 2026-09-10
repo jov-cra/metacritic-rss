@@ -5,8 +5,32 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 09 Sep 2026 17:22:17 +0000</lastBuildDate>
+<lastBuildDate>Thu, 10 Sep 2026 01:38:11 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[66] Death of the Pastor's Wife (TV)</title>
+<link>https://www.metacritic.com/tv/death-of-the-pastors-wife/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/death-of-the-pastors-wife/</guid>
+<pubDate>Thu, 10 Sep 2026 01:38:11 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/55316994c0557943cacdf578879561d9986e7d21/catalog/provider/2/13/2-acbfa515d105fb915826e07cf6c3ac37.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
+<item>
+<title>[74] The Oldest Person in the World (Movie)</title>
+<link>https://www.metacritic.com/movie/the-oldest-person-in-the-world/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-oldest-person-in-the-world/</guid>
+<pubDate>Thu, 10 Sep 2026 01:38:11 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/9a866146398cc0a67f2ad784dfb3e7ce750c3ee7/catalog/provider/5/2/5-tt39032797.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 100% positive</description>
+</item>
+<item>
+<title>[80] Call My Agent! The Movie (Movie)</title>
+<link>https://www.metacritic.com/movie/call-my-agent!-the-movie/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/call-my-agent!-the-movie/</guid>
+<pubDate>Thu, 10 Sep 2026 01:38:11 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/05ad2011185ac238abcfd5e0c01a2155939c7137/catalog/provider/5/2/5-tt38267923.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[65] Showtrial (TV)</title>
 <link>https://www.metacritic.com/tv/showtrial/</link>
@@ -3982,30 +4006,6 @@
 <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/e41265c47ce9d2740b052dfaefa8bc6d4d564ffd/catalog/provider/7/2/7-1760635236.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 92% positive</description>
-</item>
-<item>
-<title>[63] Murdaugh: Death In The Family (TV)</title>
-<link>https://www.metacritic.com/tv/murdaugh-death-in-the-family/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/murdaugh-death-in-the-family/</guid>
-<pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/23d0b38a9c64805c9495b1b1634a32093dcb2a53/catalog/provider/2/13/2-a314efa01a4a379279cc3101f986a048.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 47% positive</description>
-</item>
-<item>
-<title>[70] Splinter Cell: Deathwatch (TV)</title>
-<link>https://www.metacritic.com/tv/splinter-cell-deathwatch/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/splinter-cell-deathwatch/</guid>
-<pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/7c012f55277993d1cea99295e5a02084d729ac7f/catalog/provider/2/2/2-704e0229184ea39412e50cb1a5ad4037.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
-</item>
-<item>
-<title>[53] DMV (TV)</title>
-<link>https://www.metacritic.com/tv/dmv/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/dmv/</guid>
-<pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/4e531679959b96b54fae82ac9618c5f7f4c2fc84/catalog/provider/2/13/2-ad0814c028788724fc9909ec3698bf56.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 27% positive</description>
 </item>
 </channel>
 </rss>

@@ -10103,6 +10103,54 @@
         "image": "https://www.metacritic.com/a/img/resize/44359b61243e5daaa014575195756d18d2808d40/catalog/provider/2/13/2-806ad488c2733ad4d80f856d3e34f51d.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-oldest-person-in-the-world/": {
+      "title": "The Oldest Person in the World",
+      "score": 74,
+      "media": "movie",
+      "release_date": "Sep 10, 2026",
+      "emitted_at": "2026-09-10T01:38:11.341244+00:00",
+      "feed_date": "2026-09-10T01:38:11.341244+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2527aca398989f7f2673cf5777386455257d00e2/catalog/provider/7/2/7-1788559518.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/9a866146398cc0a67f2ad784dfb3e7ce750c3ee7/catalog/provider/5/2/5-tt39032797.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/call-my-agent!-the-movie/": {
+      "title": "Call My Agent! The Movie",
+      "score": 80,
+      "media": "movie",
+      "release_date": "Sep 10, 2026",
+      "emitted_at": "2026-09-10T01:38:11.341244+00:00",
+      "feed_date": "2026-09-10T01:38:11.341244+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a1a2126cca422ec9977d47cd8d6b27eb3b8b6d1e/catalog/provider/5/2/5-tt38267923.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/05ad2011185ac238abcfd5e0c01a2155939c7137/catalog/provider/5/2/5-tt38267923.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/death-of-the-pastors-wife/": {
+      "title": "Death of the Pastor's Wife",
+      "score": 66,
+      "media": "tv",
+      "release_date": "Aug 26, 2026",
+      "emitted_at": "2026-09-10T01:38:11.341244+00:00",
+      "feed_date": "2026-09-10T01:38:11.341244+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b32d398281dde521277994a6c9137d126cb641ce/catalog/provider/2/2/2-d12bb7c6b29b2c92de929d7879e67c3e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/55316994c0557943cacdf578879561d9986e7d21/catalog/provider/2/13/2-acbfa515d105fb915826e07cf6c3ac37.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
