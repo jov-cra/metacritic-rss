@@ -10166,6 +10166,118 @@
         "user_tbd": true,
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/serpents-path/": {
+      "title": "Serpent's Path",
+      "score": 56,
+      "media": "movie",
+      "release_date": "Sep 11, 2026",
+      "emitted_at": "2026-09-11T01:37:06.225018+00:00",
+      "feed_date": "2026-09-11T01:37:06.225018+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b65658a67dda66af363d556c7c4b63bfc669bc44/catalog/provider/7/2/7-1788909978.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 40,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c36b0deeee32c1b4edaad7dcc12afbb173bffed8/catalog/provider/5/2/5-tt29301380.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/practical-magic-2/": {
+      "title": "Practical Magic 2",
+      "score": 47,
+      "media": "movie",
+      "release_date": "Sep 11, 2026",
+      "emitted_at": "2026-09-11T01:37:06.225018+00:00",
+      "feed_date": "2026-09-11T01:37:06.225018+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/63807f40080890fe8b75c0262496057a2ebab0af/catalog/provider/2/13/2-8ffcffab3031e565bdc48ad4b58b6537.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 33,
+        "pos": 21,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/3d94130672e31bfd72d5e611c270b16d809e201f/catalog/provider/7/2/7-1788882623.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/runner-2026/": {
+      "title": "Runner",
+      "score": 57,
+      "media": "movie",
+      "release_date": "Sep 11, 2026",
+      "emitted_at": "2026-09-11T01:37:06.225018+00:00",
+      "feed_date": "2026-09-11T01:37:06.225018+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/7f29272a608eb5c809a9f1dc570e0a9b0a97b2b2/catalog/provider/5/2/5-tt31349844.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 20,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/683e0b9d05b2ad69dc12d7a388a09987ec239106/catalog/provider/7/2/7-1784228243.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-uprising-2026/": {
+      "title": "The Uprising",
+      "score": 59,
+      "media": "movie",
+      "release_date": "Sep 11, 2026",
+      "emitted_at": "2026-09-11T01:37:06.225018+00:00",
+      "feed_date": "2026-09-11T01:37:06.225018+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/6b5fb6def50d0892deb12851ced097902eca5ed1/catalog/provider/2/13/2-f3248aa57a1a4838172a80f9629f92d4.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 24,
+        "pos": 42,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/775d426deabffe1670a426d25ba2ab8e16a5525d/catalog/provider/2/13/2-9254dc6250f03d7d6a0f6197263685ea.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/oasis-dont-look-back-in-anger/": {
+      "title": "Oasis: Don’t Look Back in Anger",
+      "score": 79,
+      "media": "movie",
+      "release_date": "Sep 11, 2026",
+      "emitted_at": "2026-09-11T01:37:06.225018+00:00",
+      "feed_date": "2026-09-11T01:37:06.225018+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/28327e0c561185e5b847f3f10159054a74d045db/catalog/provider/5/2/5-tt36152310.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 19,
+        "pos": 89,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/887577295ac7b4cec87734352e8ffe296b4e93e5/catalog/provider/7/2/7-1783350284.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/if-i-go-will-they-miss-me/": {
+      "title": "If I Go Will They Miss Me",
+      "score": 87,
+      "media": "movie",
+      "release_date": "Sep 11, 2026",
+      "emitted_at": "2026-09-11T01:37:06.225018+00:00",
+      "feed_date": "2026-09-11T01:37:06.225018+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/32852e9b281e5170f07528f050782a565593044f/catalog/provider/5/2/5-tt39151344.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 88,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/4cce976c383d84d4918ccec24907c3accffa34c4/catalog/provider/7/2/7-1788559405.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-fix-2026/": {
+      "title": "The Fix",
+      "score": 42,
+      "media": "movie",
+      "release_date": "Sep 11, 2026",
+      "emitted_at": "2026-09-11T01:37:06.225018+00:00",
+      "feed_date": "2026-09-11T01:37:06.225018+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1a6aafec215682dc7c618c15f42c757a2b998ee0/catalog/provider/2/13/2-22faa8e13950873a21a351f2da86bffb.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/87ad232091426fa8b728caa4be948fcd2f848dc6/catalog/provider/2/13/2-1be9786e85ea9f59df8367c39b1543fd.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
