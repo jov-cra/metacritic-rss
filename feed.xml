@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 11 Sep 2026 01:37:06 +0000</lastBuildDate>
+<lastBuildDate>Sun, 13 Sep 2026 01:33:52 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[53] High Value Target: The Hunt For Saddam (TV)</title>
+<link>https://www.metacritic.com/tv/high-value-target-the-hunt-for-saddam/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/high-value-target-the-hunt-for-saddam/</guid>
+<pubDate>Sun, 13 Sep 2026 01:33:52 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/659a94e914e3ebbef1634105dea2a4af7c1c03c2/catalog/provider/2/13/2-f1ee12fc76c2eed0b5ce437af8695425.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews</description>
+</item>
 <item>
 <title>[59] The Uprising (Movie)</title>
 <link>https://www.metacritic.com/movie/the-uprising-2026/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/b862cbf56c0e0d8d8a2bdf17895e63c162e95403/catalog/provider/2/13/2-23cec9890206f6136cc926d732002964.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 60% positive</description>
-</item>
-<item>
-<title>[61] It: Welcome to Derry (TV)</title>
-<link>https://www.metacritic.com/tv/it-welcome-to-derry/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/it-welcome-to-derry/</guid>
-<pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/f6e02aa4ff26cc49ddb48e4306f85661941dbd81/catalog/provider/2/13/2-76986aa8944226b7b619f89bcdff3e81.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;30 reviews · 47% positive</description>
 </item>
 </channel>
 </rss>

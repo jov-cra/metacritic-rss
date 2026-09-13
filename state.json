@@ -10278,6 +10278,21 @@
         "image": "https://www.metacritic.com/a/img/resize/87ad232091426fa8b728caa4be948fcd2f848dc6/catalog/provider/2/13/2-1be9786e85ea9f59df8367c39b1543fd.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/high-value-target-the-hunt-for-saddam/": {
+      "title": "High Value Target: The Hunt For Saddam",
+      "score": 53,
+      "media": "tv",
+      "release_date": "Sep 13, 2026",
+      "emitted_at": "2026-09-13T01:33:52.307023+00:00",
+      "feed_date": "2026-09-13T01:33:52.307023+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/96b5ac2054e039bfb8bc2e292fb89aeb1adf5433/catalog/provider/7/2/7-1788303038.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/659a94e914e3ebbef1634105dea2a4af7c1c03c2/catalog/provider/2/13/2-f1ee12fc76c2eed0b5ce437af8695425.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
