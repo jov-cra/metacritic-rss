@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sun, 13 Sep 2026 01:33:52 +0000</lastBuildDate>
+<lastBuildDate>Tue, 15 Sep 2026 19:18:24 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[70] Agatha Christie's Tommy &amp; Tuppence (TV)</title>
+<link>https://www.metacritic.com/tv/agatha-christies-tommy-tuppence/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/agatha-christies-tommy-tuppence/</guid>
+<pubDate>Tue, 15 Sep 2026 19:18:24 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a054c8a67762cd314068e33fa349254fb7bf61b1/catalog/provider/2/13/2-ecd7f93ab4cbf49f499dbc091abd3a4a.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
 <item>
 <title>[53] High Value Target: The Hunt For Saddam (TV)</title>
 <link>https://www.metacritic.com/tv/high-value-target-the-hunt-for-saddam/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/666792e63d319f33f63d34ea58f29a5122371a4f/catalog/provider/2/13/2-11c23a72cd17559139043afc93022010.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;23 reviews · 74% positive</description>
-</item>
-<item>
-<title>[63] Talamasca: The Secret Order (TV)</title>
-<link>https://www.metacritic.com/tv/talamasca-the-secret-order/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/talamasca-the-secret-order/</guid>
-<pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/b862cbf56c0e0d8d8a2bdf17895e63c162e95403/catalog/provider/2/13/2-23cec9890206f6136cc926d732002964.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 60% positive</description>
 </item>
 </channel>
 </rss>
