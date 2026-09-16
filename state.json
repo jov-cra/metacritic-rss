@@ -10309,6 +10309,22 @@
         "image": "https://www.metacritic.com/a/img/resize/a054c8a67762cd314068e33fa349254fb7bf61b1/catalog/provider/2/13/2-ecd7f93ab4cbf49f499dbc091abd3a4a.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/neagley/": {
+      "title": "Neagley",
+      "score": 72,
+      "media": "tv",
+      "release_date": "Sep 16, 2026",
+      "emitted_at": "2026-09-16T01:52:15.331733+00:00",
+      "feed_date": "2026-09-16T01:52:15.331733+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e0a153fc609a3b6cf2ad370b826d0ca190165f67/catalog/provider/2/2/2-7cca81322f9f7eb078f69a3c0213f638.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 90,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7a3f14dc790398e9f4ba821d6a6438e67df589c3/catalog/provider/2/13/2-70d699d5ca38899fd36869fddb2b5d1d.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

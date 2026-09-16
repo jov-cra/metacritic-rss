@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Tue, 15 Sep 2026 19:18:24 +0000</lastBuildDate>
+<lastBuildDate>Wed, 16 Sep 2026 01:52:15 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[72] Neagley (TV)</title>
+<link>https://www.metacritic.com/tv/neagley/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/neagley/</guid>
+<pubDate>Wed, 16 Sep 2026 01:52:15 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/7a3f14dc790398e9f4ba821d6a6438e67df589c3/catalog/provider/2/13/2-70d699d5ca38899fd36869fddb2b5d1d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 90% positive</description>
+</item>
 <item>
 <title>[70] Agatha Christie's Tommy &amp; Tuppence (TV)</title>
 <link>https://www.metacritic.com/tv/agatha-christies-tommy-tuppence/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/ce0fdd1e7ee78701aa120d47c135976065f31b9a/catalog/provider/2/13/2-fe912cd1ecd6444c1e1dcc5da27d3689.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;13 reviews · 15% positive</description>
-</item>
-<item>
-<title>[71] Down Cemetery Road (TV)</title>
-<link>https://www.metacritic.com/tv/down-cemetery-road/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/down-cemetery-road/</guid>
-<pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/666792e63d319f33f63d34ea58f29a5122371a4f/catalog/provider/2/13/2-11c23a72cd17559139043afc93022010.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;23 reviews · 74% positive</description>
 </item>
 </channel>
 </rss>
