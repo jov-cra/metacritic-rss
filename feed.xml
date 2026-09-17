@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 16 Sep 2026 01:52:15 +0000</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 02:06:14 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[83] Knife: The Attempted Murder of Salman Rushdie (Movie)</title>
+<link>https://www.metacritic.com/movie/knife-the-attempted-murder-of-salman-rushdie/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/knife-the-attempted-murder-of-salman-rushdie/</guid>
+<pubDate>Thu, 17 Sep 2026 02:06:14 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/cb29542b6d9fd3f464121e30548a84441429991c/catalog/provider/7/2/7-1769467433.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 100% positive</description>
+</item>
 <item>
 <title>[72] Neagley (TV)</title>
 <link>https://www.metacritic.com/tv/neagley/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/ef37f55f1906fd32a18809d3b19294c5227a558c/catalog/provider/2/13/2-8081b56bc8315dfea415bc9bf5a3d8ec.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews</description>
-</item>
-<item>
-<title>[61] Ten Pound Poms (TV)</title>
-<link>https://www.metacritic.com/tv/ten-pound-poms/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/ten-pound-poms/</guid>
-<pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/ce0fdd1e7ee78701aa120d47c135976065f31b9a/catalog/provider/2/13/2-fe912cd1ecd6444c1e1dcc5da27d3689.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;13 reviews · 15% positive</description>
 </item>
 </channel>
 </rss>

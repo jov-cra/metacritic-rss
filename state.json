@@ -10325,6 +10325,22 @@
         "image": "https://www.metacritic.com/a/img/resize/7a3f14dc790398e9f4ba821d6a6438e67df589c3/catalog/provider/2/13/2-70d699d5ca38899fd36869fddb2b5d1d.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/knife-the-attempted-murder-of-salman-rushdie/": {
+      "title": "Knife: The Attempted Murder of Salman Rushdie",
+      "score": 83,
+      "media": "movie",
+      "release_date": "Sep 17, 2026",
+      "emitted_at": "2026-09-17T02:06:14.212682+00:00",
+      "feed_date": "2026-09-17T02:06:14.212682+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/6ea170769060031781d102e6c8f639d45837061c/catalog/provider/7/2/7-1787924353.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/cb29542b6d9fd3f464121e30548a84441429991c/catalog/provider/7/2/7-1769467433.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
