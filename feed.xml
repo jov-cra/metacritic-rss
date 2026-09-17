@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Thu, 17 Sep 2026 02:06:14 +0000</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 22:28:57 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[54] Monster: The Lizzie Borden Story (TV)</title>
+<link>https://www.metacritic.com/tv/monster-the-lizzie-borden-story/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/monster-the-lizzie-borden-story/</guid>
+<pubDate>Thu, 17 Sep 2026 22:28:57 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/833b200167c20cce0ae0fd15b3dc75ea084fff65/catalog/provider/7/2/7-1789668029.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 50% positive</description>
+</item>
 <item>
 <title>[83] Knife: The Attempted Murder of Salman Rushdie (Movie)</title>
 <link>https://www.metacritic.com/movie/knife-the-attempted-murder-of-salman-rushdie/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/341e41d55e3e0d4cc3ff6f884f8da718ebcb43b2/catalog/provider/2/13/2-9b3485735dc22ba91fd9a96848604fa2.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;22 reviews · 36% positive</description>
-</item>
-<item>
-<title>[54] King &amp; Conqueror (TV)</title>
-<link>https://www.metacritic.com/tv/king-conqueror/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/king-conqueror/</guid>
-<pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/ef37f55f1906fd32a18809d3b19294c5227a558c/catalog/provider/2/13/2-8081b56bc8315dfea415bc9bf5a3d8ec.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews</description>
 </item>
 </channel>
 </rss>

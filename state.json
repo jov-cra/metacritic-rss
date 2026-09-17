@@ -10341,6 +10341,22 @@
         "image": "https://www.metacritic.com/a/img/resize/cb29542b6d9fd3f464121e30548a84441429991c/catalog/provider/7/2/7-1769467433.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/monster-the-lizzie-borden-story/": {
+      "title": "Monster: The Lizzie Borden Story",
+      "score": 54,
+      "media": "tv",
+      "release_date": "Sep 17, 2026",
+      "emitted_at": "2026-09-17T22:28:57.569881+00:00",
+      "feed_date": "2026-09-17T22:28:57.569881+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/caad68f210cbe78d0e2dea5cffacdbe0b1ba9411/catalog/provider/7/2/7-1789154372.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/833b200167c20cce0ae0fd15b3dc75ea084fff65/catalog/provider/7/2/7-1789668029.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
