@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 18 Sep 2026 01:43:35 +0000</lastBuildDate>
+<lastBuildDate>Fri, 18 Sep 2026 06:45:11 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[79] Best of the Best (Movie)</title>
+<link>https://www.metacritic.com/movie/best-of-the-best-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/best-of-the-best-2026/</guid>
+<pubDate>Fri, 18 Sep 2026 06:45:11 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/0ff90ff5fe2b49f2af6f13154bc97a7bf5569262/catalog/provider/7/2/7-1785254033.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[39] Without Blood (Movie)</title>
 <link>https://www.metacritic.com/movie/without-blood/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/aa0cf7c0f00b94c60cf0b1fe9411f15e65d2cdbc/catalog/provider/2/13/2-01e5c3a49bb709fb0b7dbe35a209339e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;29 reviews · 66% positive</description>
-</item>
-<item>
-<title>[78] Last Samurai Standing (TV)</title>
-<link>https://www.metacritic.com/tv/last-samurai-standing/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/last-samurai-standing/</guid>
-<pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/313301760fc36a90b85c36e4b66f1a1df0652236/catalog/provider/2/13/2-08820bffe456fa52b83f169e8caba03c.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 86% positive</description>
 </item>
 </channel>
 </rss>
