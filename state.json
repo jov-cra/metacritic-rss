@@ -10357,6 +10357,118 @@
         "image": "https://www.metacritic.com/a/img/resize/833b200167c20cce0ae0fd15b3dc75ea084fff65/catalog/provider/7/2/7-1789668029.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-musical/": {
+      "title": "The Musical",
+      "score": 63,
+      "media": "movie",
+      "release_date": "Sep 18, 2026",
+      "emitted_at": "2026-09-18T01:43:35.217746+00:00",
+      "feed_date": "2026-09-18T01:43:35.217746+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/66132a214087113edfe16da1a2c5b1ed3913e1e4/catalog/provider/5/2/5-tt37775809.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 44,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/967fa2013397b807df4b005bd402bcbd9df5a320/catalog/provider/5/2/5-tt37775809.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/without-blood/": {
+      "title": "Without Blood",
+      "score": 39,
+      "media": "movie",
+      "release_date": "Sep 18, 2026",
+      "emitted_at": "2026-09-18T01:43:35.217746+00:00",
+      "feed_date": "2026-09-18T01:43:35.217746+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b30304697dde3ec3268fdfb992986fc225059325/catalog/provider/7/2/7-1787185722.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/9a802c07dbebb9d71819aad6b80c7f2103511f61/catalog/provider/5/2/5-tt18398986.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-weight/": {
+      "title": "The Weight",
+      "score": 68,
+      "media": "movie",
+      "release_date": "Sep 18, 2026",
+      "emitted_at": "2026-09-18T01:43:35.217746+00:00",
+      "feed_date": "2026-09-18T01:43:35.217746+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/8a2c27cc879562c008449109d903b3e0d85e4c11/catalog/provider/7/2/7-1786459164.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 21,
+        "pos": 62,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/e186316ada0a532d3c8cc556ea107c8bf86f6770/catalog/provider/7/2/7-1767714516.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/shaun-the-sheep-the-beast-of-mossy-bottom/": {
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "score": 77,
+      "media": "movie",
+      "release_date": "Sep 18, 2026",
+      "emitted_at": "2026-09-18T01:43:35.217746+00:00",
+      "feed_date": "2026-09-18T01:43:35.217746+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/69f82ecdfd5d18eceeea304cbe1619181a02a057/catalog/provider/5/2/5-tt36841161.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 92,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/3758ee08254f52a736bc8d26777a15b5cb6a64ef/catalog/provider/2/2/2-b41b5aae0c7dc24f50b992c35d775e39.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-history-of-concrete/": {
+      "title": "The History of Concrete",
+      "score": 82,
+      "media": "movie",
+      "release_date": "Sep 18, 2026",
+      "emitted_at": "2026-09-18T01:43:35.217746+00:00",
+      "feed_date": "2026-09-18T01:43:35.217746+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e1d6d9811c6c162c36f4d2bcaf480bbfa0a92e64/catalog/provider/7/2/7-1787850843.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 17,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/9f3f639e4b3e451613793b1624d62a600b425a69/catalog/provider/7/2/7-1769271418.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/bad-apples/": {
+      "title": "Bad Apples",
+      "score": 66,
+      "media": "movie",
+      "release_date": "Sep 18, 2026",
+      "emitted_at": "2026-09-18T01:43:35.217746+00:00",
+      "feed_date": "2026-09-18T01:43:35.217746+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/86f5c61dc1e33ab6f83e5a608feb5dc3f06bce26/catalog/provider/2/13/2-5918fa25a77c07ca67b897f0df7d1150.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 14,
+        "pos": 64,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c66d439348c90b7263becc363dc51ae0d00aa61a/catalog/provider/2/13/2-87a66c3cb25fb7dac52f006132d92726.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/resident-evil-2026/": {
+      "title": "Resident Evil",
+      "score": 80,
+      "media": "movie",
+      "release_date": "Sep 18, 2026",
+      "emitted_at": "2026-09-18T01:43:35.217746+00:00",
+      "feed_date": "2026-09-18T01:43:35.217746+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5804569a5d1078da4683421e4be68bcd54fbfe1c/catalog/provider/5/2/5-tt35538033.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 38,
+        "pos": 95,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/4bf590b49dc913c83107161c745d09be9e2f2275/catalog/provider/2/13/2-c0a708526ad043a96c259b026a528cda.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
