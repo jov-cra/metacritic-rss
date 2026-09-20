@@ -10485,6 +10485,54 @@
         "image": "https://www.metacritic.com/a/img/resize/0ff90ff5fe2b49f2af6f13154bc97a7bf5569262/catalog/provider/7/2/7-1785254033.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/trespasses/": {
+      "title": "Trespasses",
+      "score": 71,
+      "media": "tv",
+      "release_date": "Sep 20, 2026",
+      "emitted_at": "2026-09-20T01:50:53.754053+00:00",
+      "feed_date": "2026-09-20T01:50:53.754053+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/750b1484802b555fc662d43e5b6f8a0905826a93/catalog/provider/7/2/7-1788378743.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 67,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a88f8322cc661e76d348266932d64650ed99a681/catalog/provider/2/13/2-7af5598b004f5e0a6ff57650a868a715.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/youth-2026/": {
+      "title": "Youth (2026)",
+      "score": 80,
+      "media": "tv",
+      "release_date": "Sep 20, 2026",
+      "emitted_at": "2026-09-20T01:50:53.754053+00:00",
+      "feed_date": "2026-09-20T01:50:53.754053+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/424220a9cdf1edf7657039c283e108b7e3e9c7ad/catalog/provider/2/2/2-30f9570a6151b2a6b2ba5eae51637beb.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 89,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c76427fccf4e8603683b5e085c5e9bbc8b17d831/catalog/provider/7/2/7-1789754564.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/american-hostage/": {
+      "title": "American Hostage",
+      "score": 63,
+      "media": "tv",
+      "release_date": "Sep 20, 2026",
+      "emitted_at": "2026-09-20T01:50:53.754053+00:00",
+      "feed_date": "2026-09-20T01:50:53.754053+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/72094bed9b8eff776df972ed09db000b6249f010/catalog/provider/2/2/2-4cb48b41da593e749673abb213f2c8dd.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 57,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/02f5a7f013557899c78f1bb8d87695c9b1922e03/catalog/provider/2/13/2-3cc3cca7a8ac8dd6106a941b4e9dcbf8.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

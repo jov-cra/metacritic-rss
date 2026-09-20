@@ -5,8 +5,32 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 18 Sep 2026 06:45:11 +0000</lastBuildDate>
+<lastBuildDate>Sun, 20 Sep 2026 01:50:53 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[80] Youth (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/youth-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/youth-2026/</guid>
+<pubDate>Sun, 20 Sep 2026 01:50:53 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/c76427fccf4e8603683b5e085c5e9bbc8b17d831/catalog/provider/7/2/7-1789754564.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 89% positive</description>
+</item>
+<item>
+<title>[71] Trespasses (TV)</title>
+<link>https://www.metacritic.com/tv/trespasses/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/trespasses/</guid>
+<pubDate>Sun, 20 Sep 2026 01:50:53 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a88f8322cc661e76d348266932d64650ed99a681/catalog/provider/2/13/2-7af5598b004f5e0a6ff57650a868a715.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 67% positive</description>
+</item>
+<item>
+<title>[63] American Hostage (TV)</title>
+<link>https://www.metacritic.com/tv/american-hostage/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/american-hostage/</guid>
+<pubDate>Sun, 20 Sep 2026 01:50:53 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/02f5a7f013557899c78f1bb8d87695c9b1922e03/catalog/provider/2/13/2-3cc3cca7a8ac8dd6106a941b4e9dcbf8.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 57% positive</description>
+</item>
 <item>
 <title>[79] Best of the Best (Movie)</title>
 <link>https://www.metacritic.com/movie/best-of-the-best-2026/</link>
@@ -3982,30 +4006,6 @@
 <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/69e385238bd0350d0e186c3d050aec8291f9da54/catalog/provider/2/13/2-df2203a637b06f49a3070c5ca00b5f24.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;16 reviews · 94% positive</description>
-</item>
-<item>
-<title>[69] The Seduction (TV)</title>
-<link>https://www.metacritic.com/tv/the-seduction/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-seduction/</guid>
-<pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/8c63f2c96768f9dccb795c422a75462202b3505d/catalog/provider/2/13/2-359a6a07fb0dc2169925861a76dc7f73.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 67% positive</description>
-</item>
-<item>
-<title>[52] Malice (TV)</title>
-<link>https://www.metacritic.com/tv/malice/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/malice/</guid>
-<pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/afcb33a7a460e4b6a7bc24b813774c1c3b397540/catalog/provider/2/13/2-34aee244c4d3c8129474abb4f2f22456.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 33% positive</description>
-</item>
-<item>
-<title>[71] The Beast In Me (TV)</title>
-<link>https://www.metacritic.com/tv/the-beast-in-me/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-beast-in-me/</guid>
-<pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/aa0cf7c0f00b94c60cf0b1fe9411f15e65d2cdbc/catalog/provider/2/13/2-01e5c3a49bb709fb0b7dbe35a209339e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;29 reviews · 66% positive</description>
 </item>
 </channel>
 </rss>
