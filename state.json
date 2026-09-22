@@ -10533,6 +10533,37 @@
         "image": "https://www.metacritic.com/a/img/resize/02f5a7f013557899c78f1bb8d87695c9b1922e03/catalog/provider/2/13/2-3cc3cca7a8ac8dd6106a941b4e9dcbf8.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/twiggy/": {
+      "title": "Twiggy",
+      "score": 66,
+      "media": "movie",
+      "release_date": "Sep 22, 2026",
+      "emitted_at": "2026-09-22T00:19:28.161060+00:00",
+      "feed_date": "2026-09-22T00:19:28.161060+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/abb8261d568380e4ee46a53ee16fe129de6579a5/catalog/provider/2/2/2-c4b4552a776c4ce22780e11411e53d21.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/9f5f194d3512a2e143fbcde6b742fb43ca778c8c/catalog/provider/2/13/2-01a97baff6814845c64e84e9a26420a5.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/line-of-fire/": {
+      "title": "Line of Fire",
+      "score": 66,
+      "media": "tv",
+      "release_date": "Sep 21, 2026",
+      "emitted_at": "2026-09-22T00:19:28.161060+00:00",
+      "feed_date": "2026-09-22T00:19:28.161060+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/12504aae4a6fc0667e2a36b944e84e86ed910096/catalog/provider/2/2/2-ca805980e6aa020c538cbaf7a518b04f.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 57,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/d5de2a06721bfbdd896f7111accd50c47916f71a/catalog/provider/2/13/2-9b5ddef980b995f9037ca656a9c52a73.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
