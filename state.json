@@ -10596,6 +10596,22 @@
         "image": "https://www.metacritic.com/a/img/resize/391161bd302f74ec2641979bd6dab0ac892047fd/catalog/provider/7/2/7-1785944804.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/brothers-2026/": {
+      "title": "Brothers (2026)",
+      "score": 51,
+      "media": "tv",
+      "release_date": "Sep 23, 2026",
+      "emitted_at": "2026-09-23T13:03:22.451749+00:00",
+      "feed_date": "2026-09-23T13:03:22.451749+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d5b2d3a8c0482c9ef957b7689ba8cc25fb244c6a/catalog/provider/2/2/2-a478cf3528628935e3c173a6ad801e8a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 12,
+        "pos": 17,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/e4c3c2b2d30ccb516e5535d0c402b5b0b043d97b/catalog/provider/2/13/2-b45f202931f38ae8a640be7a7a997cff.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

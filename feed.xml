@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 23 Sep 2026 01:57:55 +0000</lastBuildDate>
+<lastBuildDate>Wed, 23 Sep 2026 13:03:22 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[51] Brothers (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/brothers-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/brothers-2026/</guid>
+<pubDate>Wed, 23 Sep 2026 13:03:22 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/e4c3c2b2d30ccb516e5535d0c402b5b0b043d97b/catalog/provider/2/13/2-b45f202931f38ae8a640be7a7a997cff.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 17% positive</description>
+</item>
 <item>
 <title>[67] The Love Hypothesis (Movie)</title>
 <link>https://www.metacritic.com/movie/the-love-hypothesis/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/5ff0c245a04143ce3c333422a9cb40a242b1a506/catalog/provider/2/13/2-77109e08b0767b773582b71430ba7cf5.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 83% positive</description>
-</item>
-<item>
-<title>[66] ONE SHOT with Ed Sheeran (TV)</title>
-<link>https://www.metacritic.com/tv/one-shot-with-ed-sheeran/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/one-shot-with-ed-sheeran/</guid>
-<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/a6bbf8e57ff53e7a1bb07d9930f53fc2b9226541/catalog/provider/2/13/2-9b4fa1b7fea1437624bab9b80f723dcc.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 60% positive</description>
 </item>
 </channel>
 </rss>
