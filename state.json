@@ -10564,6 +10564,38 @@
         "image": "https://www.metacritic.com/a/img/resize/d5de2a06721bfbdd896f7111accd50c47916f71a/catalog/provider/2/13/2-9b5ddef980b995f9037ca656a9c52a73.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/take-me-home/": {
+      "title": "Take Me Home",
+      "score": 66,
+      "media": "movie",
+      "release_date": "Sep 23, 2026",
+      "emitted_at": "2026-09-23T01:57:55.017876+00:00",
+      "feed_date": "2026-09-23T01:57:55.017876+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ee9e1c7191b189b854e998e8f7bc77aaeec5a84c/catalog/provider/5/2/5-tt37263549.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/61408973fd91ee4d1418288c5594e62b4da48291/catalog/provider/7/2/7-1769791422.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-love-hypothesis/": {
+      "title": "The Love Hypothesis",
+      "score": 67,
+      "media": "movie",
+      "release_date": "Sep 23, 2026",
+      "emitted_at": "2026-09-23T01:57:55.017876+00:00",
+      "feed_date": "2026-09-23T01:57:55.017876+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/55ad418c262d147754925cacbe40bc36abc10e3c/catalog/provider/7/2/7-1787767044.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/391161bd302f74ec2641979bd6dab0ac892047fd/catalog/provider/7/2/7-1785944804.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

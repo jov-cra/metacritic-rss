@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Tue, 22 Sep 2026 00:19:28 +0000</lastBuildDate>
+<lastBuildDate>Wed, 23 Sep 2026 01:57:55 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[67] The Love Hypothesis (Movie)</title>
+<link>https://www.metacritic.com/movie/the-love-hypothesis/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-love-hypothesis/</guid>
+<pubDate>Wed, 23 Sep 2026 01:57:55 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/391161bd302f74ec2641979bd6dab0ac892047fd/catalog/provider/7/2/7-1785944804.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
+<item>
+<title>[66] Take Me Home (Movie)</title>
+<link>https://www.metacritic.com/movie/take-me-home/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/take-me-home/</guid>
+<pubDate>Wed, 23 Sep 2026 01:57:55 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/61408973fd91ee4d1418288c5594e62b4da48291/catalog/provider/7/2/7-1769791422.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 50% positive</description>
+</item>
 <item>
 <title>[66] Line of Fire (TV)</title>
 <link>https://www.metacritic.com/tv/line-of-fire/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/a6bbf8e57ff53e7a1bb07d9930f53fc2b9226541/catalog/provider/2/13/2-9b4fa1b7fea1437624bab9b80f723dcc.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 60% positive</description>
-</item>
-<item>
-<title>[90] The Celebrity Traitors UK (TV)</title>
-<link>https://www.metacritic.com/tv/the-celebrity-traitors-uk/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-celebrity-traitors-uk/</guid>
-<pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/dd63ae1ee24510400d0bbe5a770246984e402824/catalog/provider/2/2/2-89caa39d417b90f0832f83ebc3f7cbf8.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 100% positive</description>
-</item>
-<item>
-<title>[61] The Assassin (2025) (TV)</title>
-<link>https://www.metacritic.com/tv/the-assassin-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-assassin-2025/</guid>
-<pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/e2a9a051d31edc8b5ef9e458ee81bbd648bcf502/catalog/provider/2/13/2-0927a3df1c341fdaa57a0b15b959493b.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 44% positive</description>
 </item>
 </channel>
 </rss>
