@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 23 Sep 2026 13:03:22 +0000</lastBuildDate>
+<lastBuildDate>Wed, 23 Sep 2026 21:08:41 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[33] Wonka's The Golden Ticket (TV)</title>
+<link>https://www.metacritic.com/tv/wonkas-the-golden-ticket/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/wonkas-the-golden-ticket/</guid>
+<pubDate>Wed, 23 Sep 2026 21:08:41 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/bed076cf2b9cbdd3cdc2add80bc6d09afc1eb16c/catalog/provider/2/13/2-4538473413241206b2d483bf194df8bf.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 0% positive</description>
+</item>
 <item>
 <title>[51] Brothers (2026) (TV)</title>
 <link>https://www.metacritic.com/tv/brothers-2026/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/d2cd225dd8f444bdb5eaa5c1b23e258815ecb1e9/catalog/provider/2/13/2-ee925af609ef841517c709633c14d187.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 100% positive</description>
-</item>
-<item>
-<title>[77] Blossoms Shanghai (TV)</title>
-<link>https://www.metacritic.com/tv/blossoms-shanghai/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/blossoms-shanghai/</guid>
-<pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/5ff0c245a04143ce3c333422a9cb40a242b1a506/catalog/provider/2/13/2-77109e08b0767b773582b71430ba7cf5.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 83% positive</description>
 </item>
 </channel>
 </rss>
