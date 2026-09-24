@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 23 Sep 2026 21:08:41 +0000</lastBuildDate>
+<lastBuildDate>Thu, 24 Sep 2026 06:49:56 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[74] Pulp: What Do You Do for an Encore? (Movie)</title>
+<link>https://www.metacritic.com/movie/pulp-what-do-you-do-for-an-encore/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/pulp-what-do-you-do-for-an-encore/</guid>
+<pubDate>Thu, 24 Sep 2026 06:49:56 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/1ef64aaea4ef42ffc2c8c587b019bdaba81b9da9/catalog/provider/5/2/5-tt43596978.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 83% positive</description>
+</item>
 <item>
 <title>[33] Wonka's The Golden Ticket (TV)</title>
 <link>https://www.metacritic.com/tv/wonkas-the-golden-ticket/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/64e845e52f4d71c848b591fa97ff5cf98fbef114/catalog/provider/2/13/2-897f20c2e2915cced4271138b2f418f6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 57% positive</description>
-</item>
-<item>
-<title>[85] The Beatles Anthology (TV)</title>
-<link>https://www.metacritic.com/tv/the-beatles-anthology/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-beatles-anthology/</guid>
-<pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/d2cd225dd8f444bdb5eaa5c1b23e258815ecb1e9/catalog/provider/2/13/2-ee925af609ef841517c709633c14d187.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>

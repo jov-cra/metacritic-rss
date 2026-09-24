@@ -10628,6 +10628,22 @@
         "image": "https://www.metacritic.com/a/img/resize/bed076cf2b9cbdd3cdc2add80bc6d09afc1eb16c/catalog/provider/2/13/2-4538473413241206b2d483bf194df8bf.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/pulp-what-do-you-do-for-an-encore/": {
+      "title": "Pulp: What Do You Do for an Encore?",
+      "score": 74,
+      "media": "movie",
+      "release_date": "Sep 24, 2026",
+      "emitted_at": "2026-09-24T06:49:56.323024+00:00",
+      "feed_date": "2026-09-24T06:49:56.323024+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b84c4b06d395269e7a0ce3de864d27f9bb990c38/catalog/provider/7/2/7-1790185244.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 83,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/1ef64aaea4ef42ffc2c8c587b019bdaba81b9da9/catalog/provider/5/2/5-tt43596978.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
