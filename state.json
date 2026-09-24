@@ -10644,6 +10644,22 @@
         "image": "https://www.metacritic.com/a/img/resize/1ef64aaea4ef42ffc2c8c587b019bdaba81b9da9/catalog/provider/5/2/5-tt43596978.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/a-different-world-2026/": {
+      "title": "A Different World (2026)",
+      "score": 72,
+      "media": "tv",
+      "release_date": "Sep 24, 2026",
+      "emitted_at": "2026-09-24T12:56:21.493503+00:00",
+      "feed_date": "2026-09-24T12:56:21.493503+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2c74cc32738b16261c76f13b19b0667728fa2fba/catalog/provider/2/2/2-44b407163b502cc3781d27f84d1aa814.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2e90259207f4c7fc8339c2f1385b69efd644a421/catalog/provider/2/13/2-c318ce73bd6131a22f5d8bb9bb6629d6.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

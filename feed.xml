@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Thu, 24 Sep 2026 06:49:56 +0000</lastBuildDate>
+<lastBuildDate>Thu, 24 Sep 2026 12:56:21 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[72] A Different World (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/a-different-world-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/a-different-world-2026/</guid>
+<pubDate>Thu, 24 Sep 2026 12:56:21 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/2e90259207f4c7fc8339c2f1385b69efd644a421/catalog/provider/2/13/2-c318ce73bd6131a22f5d8bb9bb6629d6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 50% positive</description>
+</item>
 <item>
 <title>[74] Pulp: What Do You Do for an Encore? (Movie)</title>
 <link>https://www.metacritic.com/movie/pulp-what-do-you-do-for-an-encore/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/2fb982088bfaa53f86ea31c68c55aa4655f97a77/catalog/provider/7/2/7-1764700893.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 40% positive</description>
-</item>
-<item>
-<title>[67] Heated Rivalry (TV)</title>
-<link>https://www.metacritic.com/tv/heated-rivalry/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/heated-rivalry/</guid>
-<pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/64e845e52f4d71c848b591fa97ff5cf98fbef114/catalog/provider/2/13/2-897f20c2e2915cced4271138b2f418f6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 57% positive</description>
 </item>
 </channel>
 </rss>
