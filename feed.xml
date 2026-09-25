@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 25 Sep 2026 19:36:04 +0000</lastBuildDate>
+<lastBuildDate>Fri, 25 Sep 2026 22:51:21 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[55] S.W.A.T. Exiles (TV)</title>
+<link>https://www.metacritic.com/tv/swat-exiles/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/swat-exiles/</guid>
+<pubDate>Fri, 25 Sep 2026 22:51:21 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/5ea33f4a21f6fe677f1ecdff68e2b8853f7dda11/catalog/provider/2/2/2-60df412313e3112b772e53764adf38f8.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews</description>
+</item>
 <item>
 <title>[54] Tiny Fugitives (Movie)</title>
 <link>https://www.metacritic.com/movie/tiny-fugitives/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/89a751bdec64cf3435f05a2dc78d365499c1154e/catalog/provider/2/2/2-ec39b85421fa32697e7b4fdc062592cc.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
-</item>
-<item>
-<title>[65] The SpongeBob Movie: Search for Squarepants (Movie)</title>
-<link>https://www.metacritic.com/movie/the-spongebob-movie-search-for-squarepants/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/the-spongebob-movie-search-for-squarepants/</guid>
-<pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/5aa283db61de212826181d3dab57dba2923d9516/catalog/provider/2/13/2-356e6d199645aacd87cfc7d1eb31009d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;17 reviews · 65% positive</description>
 </item>
 </channel>
 </rss>
