@@ -10851,6 +10851,21 @@
         "image": "https://www.metacritic.com/a/img/resize/7882e970b2169190d02cf8eb4c077d13c33ca8ee/catalog/provider/7/2/7-1790295067.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/tiny-fugitives/": {
+      "title": "Tiny Fugitives",
+      "score": 54,
+      "media": "movie",
+      "release_date": "Sep 18, 2026",
+      "emitted_at": "2026-09-25T19:36:04.202104+00:00",
+      "feed_date": "2026-09-25T19:36:04.202104+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ac6f10a8df65ffb2f978ff166103735a0c3653f8/catalog/provider/7/2/7-1788715945.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/796f6d4fdf3a740b90811c0e8cdc274088b35dc3/catalog/provider/7/2/7-1788715955.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
