@@ -10660,6 +10660,197 @@
         "image": "https://www.metacritic.com/a/img/resize/2e90259207f4c7fc8339c2f1385b69efd644a421/catalog/provider/2/13/2-c318ce73bd6131a22f5d8bb9bb6629d6.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/victorian-psycho/": {
+      "title": "Victorian Psycho",
+      "score": 52,
+      "media": "movie",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-09-25T02:03:39.448186+00:00",
+      "feed_date": "2026-09-25T02:03:39.448186+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5ebce536430608ddab017caf03f4e7f6835969ee/catalog/provider/7/2/7-1785427053.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 12,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c93f8cfd0b132da81b39f17c1d65588023153cf2/catalog/provider/7/2/7-1778643282.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/never-after-dark/": {
+      "title": "Never After Dark",
+      "score": 76,
+      "media": "movie",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-09-25T02:03:39.448186+00:00",
+      "feed_date": "2026-09-25T02:03:39.448186+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2fa5730757b526903419938ffb97e04ac33a0881/catalog/provider/7/2/7-1787577690.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/73ecef49451bcd4f164d23a9a2617fbc25205980/catalog/provider/7/2/7-1787577728.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/your-mother-your-mother-your-mother/": {
+      "title": "Your Mother Your Mother Your Mother",
+      "score": 83,
+      "media": "movie",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-09-25T02:03:39.448186+00:00",
+      "feed_date": "2026-09-25T02:03:39.448186+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2d031beb9f35fe8456a052173acd3b745b3af2b7/catalog/provider/7/2/7-1785770104.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 21,
+        "pos": 95,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8a2b86754051758318dad6c2c7d5b7b801e8abdd/catalog/provider/7/2/7-1785770090.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-scout/": {
+      "title": "The Scout",
+      "score": 75,
+      "media": "movie",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-09-25T02:03:39.448186+00:00",
+      "feed_date": "2026-09-25T02:03:39.448186+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c75bf1b290816bb1fd3f60463265298d456440fe/catalog/provider/5/2/5-tt36590599.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a8bc8fe6300d47e0769eeb3a183f4777704dc5e9/catalog/provider/5/2/5-tt36590599.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/ha-chan-shake-your-booty/": {
+      "title": "Ha-Chan, Shake Your Booty!",
+      "score": 71,
+      "media": "movie",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-09-25T02:03:39.448186+00:00",
+      "feed_date": "2026-09-25T02:03:39.448186+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e9d692b824e17e0a61860f31a2747fc1e8301652/catalog/provider/5/2/5-tt39149197.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 18,
+        "pos": 72,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/95fee8a658fc52213ab9502ad894eecd8b87f235/catalog/provider/2/13/2-f00dd4ecf99ca2ac111de4f2cc79743f.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/forgotten-island/": {
+      "title": "Forgotten Island",
+      "score": 72,
+      "media": "movie",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-09-25T02:03:39.448186+00:00",
+      "feed_date": "2026-09-25T02:03:39.448186+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0b309b82a237cbf284f5bdbbab43e9c9570213b4/catalog/provider/5/2/5-tt36583977.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 15,
+        "pos": 87,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/683a6281f6b88ca510400b1517005e9f6549e9c5/catalog/provider/7/2/7-1774536210.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-incomer/": {
+      "title": "The Incomer",
+      "score": 60,
+      "media": "movie",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-09-25T02:03:39.448186+00:00",
+      "feed_date": "2026-09-25T02:03:39.448186+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9cf4f37bf1e1fdb984aaf98c0e086c15e8076c31/catalog/provider/7/2/7-1785434778.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 15,
+        "pos": 67,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/6cb3814e4ea8251ef072a7f7f7c4744a336ebd1b/catalog/provider/5/2/5-tt36980182.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/charlie-harper/": {
+      "title": "Charlie Harper",
+      "score": 59,
+      "media": "movie",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-09-25T02:03:39.448186+00:00",
+      "feed_date": "2026-09-25T02:03:39.448186+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1307f9f14d5f3a9d3e85d092f8b6ef4b77d2fb46/catalog/provider/5/2/5-tt27739255.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 57,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/04d1aef2f6db6d3d41cb092d56cf9f4f7d3e8040/catalog/provider/2/13/2-90d4ba549fef1803c2d41fde6454c2d4.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/primetime/": {
+      "title": "Primetime",
+      "score": 68,
+      "media": "movie",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-09-25T02:03:39.448186+00:00",
+      "feed_date": "2026-09-25T02:03:39.448186+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d7382adca63953bfd50c91d9be45dbbc47eea2ca/catalog/provider/5/2/5-tt34206385.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 36,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7a776861b0aa938e70f1438c32f2520b1d897541/catalog/provider/2/13/2-3662ce23bde38b3e77d798dfcf8bf3ec.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/heart-of-the-beast/": {
+      "title": "Heart of the Beast",
+      "score": 68,
+      "media": "movie",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-09-25T02:03:39.448186+00:00",
+      "feed_date": "2026-09-25T02:03:39.448186+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/549d2a8a8670a1cc1db21cd5796e6623b9860db7/catalog/provider/2/13/2-efdfa04d3e85753f8a5d7923c3556df0.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 21,
+        "pos": 71,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b09a119f287c6aaabd161453dcfa10f13d229b46/catalog/provider/7/2/7-1781147812.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-stunt-driver/": {
+      "title": "The Stunt Driver",
+      "score": 60,
+      "media": "movie",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-09-25T02:03:39.448186+00:00",
+      "feed_date": "2026-09-25T02:03:39.448186+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/191f5731b8dbc0b981a62eb4719e69585a621d53/catalog/provider/5/2/5-tt34611096.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 60,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/4f57d2c69595807fefcc3970f2601eb0d80bcebe/catalog/provider/7/2/7-1784655315.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/unabomber/": {
+      "title": "Unabomber",
+      "score": 46,
+      "media": "movie",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-09-25T02:03:39.448186+00:00",
+      "feed_date": "2026-09-25T02:03:39.448186+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/32f30f7c2604fdaa28e5c74ce63eeaf2faedab64/catalog/provider/7/2/7-1787767116.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7882e970b2169190d02cf8eb4c077d13c33ca8ee/catalog/provider/7/2/7-1790295067.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
