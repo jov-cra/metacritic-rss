@@ -10881,6 +10881,22 @@
         "image": "https://www.metacritic.com/a/img/resize/5ea33f4a21f6fe677f1ecdff68e2b8853f7dda11/catalog/provider/2/2/2-60df412313e3112b772e53764adf38f8.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/naza/": {
+      "title": "NAZA",
+      "score": 94,
+      "media": "movie",
+      "release_date": "Sep 30, 2026",
+      "emitted_at": "2026-09-30T00:48:31.296333+00:00",
+      "feed_date": "2026-09-30T00:48:31.296333+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ffaa33b40b99202b7139758c4ce3d8ccd5faba5f/catalog/provider/7/2/7-1790439170.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 15,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/98969c856cf06a32c0313b0c30c7e6620f8d0c05/catalog/provider/5/2/5-tt44766123.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
