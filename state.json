@@ -10913,6 +10913,22 @@
         "image": "https://www.metacritic.com/a/img/resize/6cfdd5c9d7c06d6f4344f16519aa345ed3f323f2/catalog/provider/2/13/2-0937a02163b04e68eaf2ef90c20cd75e.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/east-of-eden-2026/": {
+      "title": "East of Eden (2026)",
+      "score": 79,
+      "media": "tv",
+      "release_date": "Oct 1, 2026",
+      "emitted_at": "2026-10-01T07:52:47.182336+00:00",
+      "feed_date": "2026-10-01T07:52:47.182336+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9e861702915f69f12c23e9705001b958561dfabf/catalog/provider/2/2/2-5a88947e52333e7a9df0da68149db61c.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 12,
+        "pos": 83,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/d4207ebdee7a3fb7d975efdbe497382318cdb7c3/catalog/provider/2/13/2-68190195ce26e9cc910febe4161ec8bd.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

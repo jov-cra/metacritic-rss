@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Thu, 01 Oct 2026 00:52:25 +0000</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 07:52:47 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[79] East of Eden (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/east-of-eden-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/east-of-eden-2026/</guid>
+<pubDate>Thu, 01 Oct 2026 07:52:47 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/d4207ebdee7a3fb7d975efdbe497382318cdb7c3/catalog/provider/2/13/2-68190195ce26e9cc910febe4161ec8bd.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 83% positive</description>
+</item>
 <item>
 <title>[74] War (TV)</title>
 <link>https://www.metacritic.com/tv/war/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c78b3f6c53aca131a4ce04aeb1d60331d3ab5dff/catalog/provider/2/13/2-8616aab3585dcea8e9def053ebb327cc.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;58 reviews · 93% positive</description>
-</item>
-<item>
-<title>[79] The Plague (Movie)</title>
-<link>https://www.metacritic.com/movie/the-plague/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/the-plague/</guid>
-<pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/c5cb82d3ea1f0f27ae84e4610132bf2f5ddb2e61/catalog/provider/7/2/7-1767411557.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;21 reviews · 95% positive</description>
 </item>
 </channel>
 </rss>
