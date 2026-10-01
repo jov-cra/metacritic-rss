@@ -10897,6 +10897,22 @@
         "image": "https://www.metacritic.com/a/img/resize/98969c856cf06a32c0313b0c30c7e6620f8d0c05/catalog/provider/5/2/5-tt44766123.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/war/": {
+      "title": "War",
+      "score": 74,
+      "media": "tv",
+      "release_date": "Oct 1, 2026",
+      "emitted_at": "2026-10-01T00:52:25.430146+00:00",
+      "feed_date": "2026-10-01T00:52:25.430146+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/7f14aefa2b023ab2b498bb1bc12fc8b440d436cf/catalog/provider/2/2/2-ef8295d0adee5502e9eda318016c7711.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 12,
+        "pos": 67,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/6cfdd5c9d7c06d6f4344f16519aa345ed3f323f2/catalog/provider/2/13/2-0937a02163b04e68eaf2ef90c20cd75e.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 30 Sep 2026 00:48:31 +0000</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 00:52:25 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[74] War (TV)</title>
+<link>https://www.metacritic.com/tv/war/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/war/</guid>
+<pubDate>Thu, 01 Oct 2026 00:52:25 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/6cfdd5c9d7c06d6f4344f16519aa345ed3f323f2/catalog/provider/2/13/2-0937a02163b04e68eaf2ef90c20cd75e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 67% positive</description>
+</item>
 <item>
 <title>[94] NAZA (Movie)</title>
 <link>https://www.metacritic.com/movie/naza/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c5cb82d3ea1f0f27ae84e4610132bf2f5ddb2e61/catalog/provider/7/2/7-1767411557.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;21 reviews · 95% positive</description>
-</item>
-<item>
-<title>[76] Father Mother Sister Brother (Movie)</title>
-<link>https://www.metacritic.com/movie/father-mother-sister-brother/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/father-mother-sister-brother/</guid>
-<pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/951240f9efac636598601727021e9588686da7f1/catalog/provider/7/2/7-1753219864.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;34 reviews · 79% positive</description>
 </item>
 </channel>
 </rss>
