@@ -10929,6 +10929,132 @@
         "image": "https://www.metacritic.com/a/img/resize/d4207ebdee7a3fb7d975efdbe497382318cdb7c3/catalog/provider/2/13/2-68190195ce26e9cc910febe4161ec8bd.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-last-first-winter-k2/": {
+      "title": "The Last First: Winter K2",
+      "score": 74,
+      "media": "movie",
+      "release_date": "Oct 2, 2026",
+      "emitted_at": "2026-10-02T01:07:26.214116+00:00",
+      "feed_date": "2026-10-02T01:07:26.214116+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/331a8feb9e65befe23afc1cba1c677565f31a6df/catalog/provider/7/2/7-1789072783.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/ff3b722af3061804dda1511e0c1595b5aa40d5dd/catalog/provider/5/2/5-tt39150288.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/atonement-2026/": {
+      "title": "Atonement",
+      "score": 75,
+      "media": "movie",
+      "release_date": "Oct 2, 2026",
+      "emitted_at": "2026-10-02T01:07:26.214116+00:00",
+      "feed_date": "2026-10-02T01:07:26.214116+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/89154b40ddc5a8433d3ccf582656fd0fab495ae6/catalog/provider/5/2/5-tt36789083.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 85,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/1f565630ae9379f964aacbe0250dbeb204a27e95/catalog/provider/7/2/7-1778644076.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/lady-2025/": {
+      "title": "Lady",
+      "score": 82,
+      "media": "movie",
+      "release_date": "Oct 2, 2026",
+      "emitted_at": "2026-10-02T01:07:26.214116+00:00",
+      "feed_date": "2026-10-02T01:07:26.214116+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9a8307a154bd4e781e71213a199a26dcc5f86d3b/catalog/provider/5/2/5-tt35636239.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/e74c4056748d2151d09df6f3c5a66c9a090beb25/catalog/provider/2/13/2-279e6ed2e250d7c80fd704ec8913d1a6.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/verity/": {
+      "title": "Verity",
+      "score": 45,
+      "media": "movie",
+      "release_date": "Oct 2, 2026",
+      "emitted_at": "2026-10-02T01:07:26.214116+00:00",
+      "feed_date": "2026-10-02T01:07:26.214116+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/63d9b7dc582b7e475a7d1c38bebc6c0f64712741/catalog/provider/5/2/5-tt32261958.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 28,
+        "pos": 18,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/134fd82d46f7a639c7a48682f648420cd9218b84/catalog/provider/7/2/7-1790709180.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/beware-boiuna/": {
+      "title": "Beware Boiúna",
+      "score": 49,
+      "media": "movie",
+      "release_date": "Oct 2, 2026",
+      "emitted_at": "2026-10-02T01:07:26.214116+00:00",
+      "feed_date": "2026-10-02T01:07:26.214116+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/df4275e734f1b21cf1d9f13d47d05724f9b2424c/catalog/provider/2/13/2-a36349f5fe6c7d57603d05d82d711423.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 25,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/75544612d37b50d94cafd85c932b28035a4b6620/catalog/provider/5/2/5-tt10377864.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/digger-2026/": {
+      "title": "Digger",
+      "score": 46,
+      "media": "movie",
+      "release_date": "Oct 2, 2026",
+      "emitted_at": "2026-10-02T01:07:26.214116+00:00",
+      "feed_date": "2026-10-02T01:07:26.214116+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/18fd1e920b0aed368ab0f92173b73fa1de86780f/catalog/provider/7/2/7-1788890320.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 53,
+        "pos": 28,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2586a37a68c3d32664412e9d962028bb706e9661/catalog/provider/2/13/2-dd8517dccdf7fda3cf841f40968c8492.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/kill-jackie/": {
+      "title": "Kill Jackie",
+      "score": 43,
+      "media": "tv",
+      "release_date": "Oct 2, 2026",
+      "emitted_at": "2026-10-02T01:07:26.214116+00:00",
+      "feed_date": "2026-10-02T01:07:26.214116+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5f3a0d92ef3cf7a33fd6d1a82fc5e276096f6ee1/catalog/provider/7/2/7-1790296699.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "user_tbd": true,
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/tip-toe/": {
+      "title": "Tip Toe",
+      "score": 85,
+      "media": "tv",
+      "release_date": "Oct 2, 2026",
+      "emitted_at": "2026-10-02T01:07:26.214116+00:00",
+      "feed_date": "2026-10-02T01:07:26.214116+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/08ae1d1848c1c81bc94704801eb929a1ca8a7989/catalog/provider/2/2/2-f9ce117f12157b6a41bcf2c79567fc4e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/78a5aba9c866e48f0411a3ccd569b262cf6d2c81/catalog/provider/2/13/2-7c5fbe349937ae5ac5e82e2321944859.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
