@@ -11102,6 +11102,22 @@
         "image": "https://www.metacritic.com/a/img/resize/bcd9068d90bcc5b2b5f98cbd784607031878cd40/catalog/provider/2/13/2-43e05172c4f9952254dd98b9932cdaeb.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/ncis-new-york-2026/": {
+      "title": "NCIS: New York",
+      "score": 73,
+      "media": "tv",
+      "release_date": "Oct 6, 2026",
+      "emitted_at": "2026-10-07T07:46:33.991848+00:00",
+      "feed_date": "2026-10-07T07:46:33.991848+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/742c81b9a245433ab6a83d4a174bb669f897bf14/catalog/provider/7/2/7-1791240872.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/78f1f21e1e474bb11a76af91d105936ca2c87385/catalog/provider/7/2/7-1791240991.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

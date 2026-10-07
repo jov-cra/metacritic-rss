@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 07 Oct 2026 01:05:05 +0000</lastBuildDate>
+<lastBuildDate>Wed, 07 Oct 2026 07:46:33 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[73] NCIS: New York (TV)</title>
+<link>https://www.metacritic.com/tv/ncis-new-york-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/ncis-new-york-2026/</guid>
+<pubDate>Wed, 07 Oct 2026 07:46:33 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/78f1f21e1e474bb11a76af91d105936ca2c87385/catalog/provider/7/2/7-1791240991.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[89] Small Prophets (TV)</title>
 <link>https://www.metacritic.com/tv/small-prophets/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>4 reviews · 75% positive</description>
-</item>
-<item>
-<title>[61] We Bury the Dead (Movie)</title>
-<link>https://www.metacritic.com/movie/we-bury-the-dead/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/we-bury-the-dead/</guid>
-<pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/372bd9a26dac0507935c5b99deb97459c1749251/catalog/provider/5/2/5-tt29713093.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;16 reviews · 63% positive</description>
 </item>
 </channel>
 </rss>
