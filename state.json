@@ -11055,6 +11055,53 @@
         "image": "https://www.metacritic.com/a/img/resize/78a5aba9c866e48f0411a3ccd569b262cf6d2c81/catalog/provider/2/13/2-7c5fbe349937ae5ac5e82e2321944859.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/love-of-your-life/": {
+      "title": "Love of Your Life",
+      "score": 60,
+      "media": "movie",
+      "release_date": "Oct 7, 2026",
+      "emitted_at": "2026-10-07T01:05:05.557141+00:00",
+      "feed_date": "2026-10-07T01:05:05.557141+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/87cd1ecbaad24e7111ce1915f08505f4f05eab0b/catalog/provider/7/2/7-1788987775.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/bce808817c21124305d3c95ed08d1d34b66708ce/catalog/provider/2/13/2-70b261b46a740d3c250a757013fceaf0.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/small-prophets/": {
+      "title": "Small Prophets",
+      "score": 89,
+      "media": "tv",
+      "release_date": "Oct 7, 2026",
+      "emitted_at": "2026-10-07T01:05:05.557141+00:00",
+      "feed_date": "2026-10-07T01:05:05.557141+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9ebe258fdc87e1c8a22a5e76eae02752f03b2d14/catalog/provider/2/2/2-30a8841fe37264e61d759059f4c1df61.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 100,
+        "image": "https://www.metacritic.com/a/img/resize/af4fe62fd201a3bd31d281fa9302338e900772b3/catalog/provider/7/2/7-1791226562.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/carrie-2026/": {
+      "title": "Carrie (2026)",
+      "score": 72,
+      "media": "tv",
+      "release_date": "Oct 7, 2026",
+      "emitted_at": "2026-10-07T01:05:05.557141+00:00",
+      "feed_date": "2026-10-07T01:05:05.557141+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1f4e760d5cef59b8a4ae045c4a9991d047886d6c/catalog/provider/2/2/2-6123a01407ccdc4f590e10db2bcb6eae.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 20,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/bcd9068d90bcc5b2b5f98cbd784607031878cd40/catalog/provider/2/13/2-43e05172c4f9952254dd98b9932cdaeb.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

@@ -5,8 +5,32 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 02 Oct 2026 01:07:26 +0000</lastBuildDate>
+<lastBuildDate>Wed, 07 Oct 2026 01:05:05 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[89] Small Prophets (TV)</title>
+<link>https://www.metacritic.com/tv/small-prophets/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/small-prophets/</guid>
+<pubDate>Wed, 07 Oct 2026 01:05:05 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/af4fe62fd201a3bd31d281fa9302338e900772b3/catalog/provider/7/2/7-1791226562.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 100% positive</description>
+</item>
+<item>
+<title>[72] Carrie (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/carrie-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/carrie-2026/</guid>
+<pubDate>Wed, 07 Oct 2026 01:05:05 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/bcd9068d90bcc5b2b5f98cbd784607031878cd40/catalog/provider/2/13/2-43e05172c4f9952254dd98b9932cdaeb.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;20 reviews · 75% positive</description>
+</item>
+<item>
+<title>[60] Love of Your Life (Movie)</title>
+<link>https://www.metacritic.com/movie/love-of-your-life/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/love-of-your-life/</guid>
+<pubDate>Wed, 07 Oct 2026 01:05:05 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/bce808817c21124305d3c95ed08d1d34b66708ce/catalog/provider/2/13/2-70b261b46a740d3c250a757013fceaf0.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 50% positive</description>
+</item>
 <item>
 <title>[85] Tip Toe (TV)</title>
 <link>https://www.metacritic.com/tv/tip-toe/</link>
@@ -3982,30 +4006,6 @@
 <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/372bd9a26dac0507935c5b99deb97459c1749251/catalog/provider/5/2/5-tt29713093.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;16 reviews · 63% positive</description>
-</item>
-<item>
-<title>[73] The Mother and the Bear (Movie)</title>
-<link>https://www.metacritic.com/movie/the-mother-and-the-bear/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/the-mother-and-the-bear/</guid>
-<pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/334d20f743b415427387433c2d5c4032adcda1da/catalog/provider/7/2/7-1767898239.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 75% positive</description>
-</item>
-<item>
-<title>[67] The Dutchman (Movie)</title>
-<link>https://www.metacritic.com/movie/the-dutchman/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/the-dutchman/</guid>
-<pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/4365e9de60695b19a3c95d289164995e9ba62fda/catalog/provider/7/2/7-1767898063.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 67% positive</description>
-</item>
-<item>
-<title>[59] Run Away (TV)</title>
-<link>https://www.metacritic.com/tv/run-away/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/run-away/</guid>
-<pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/64138d2198e0e9d9a3a0eb30f87c45275c36118b/catalog/provider/2/13/2-6140590b5648c1df3789a2af72ea427b.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 40% positive</description>
 </item>
 </channel>
 </rss>
