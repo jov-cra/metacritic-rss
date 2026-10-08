@@ -11150,6 +11150,22 @@
         "image": "https://www.metacritic.com/a/img/resize/12bb733e6d8311dbf05155e848a2dfcfcecf8701/catalog/provider/2/13/2-b3b6fdf2f856a370d491433c69f4d0b0.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/below/": {
+      "title": "Below",
+      "score": 70,
+      "media": "tv",
+      "release_date": "Oct 8, 2026",
+      "emitted_at": "2026-10-08T08:04:02.820299+00:00",
+      "feed_date": "2026-10-08T08:04:02.820299+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2817bd8ebaace59f5e54e1bd3dc8b6d0388b115c/catalog/provider/2/2/2-449c13a8d73eb4ea5041768e24b869a0.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 60,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8a06ba85d860f800fb0a25e7141257e4547dbab7/catalog/provider/2/13/2-efabf566f77277b97b9cbf061b1378fb.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

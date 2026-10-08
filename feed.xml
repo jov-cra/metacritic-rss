@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Thu, 08 Oct 2026 01:22:33 +0000</lastBuildDate>
+<lastBuildDate>Thu, 08 Oct 2026 08:04:02 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[70] Below (TV)</title>
+<link>https://www.metacritic.com/tv/below/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/below/</guid>
+<pubDate>Thu, 08 Oct 2026 08:04:02 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/8a06ba85d860f800fb0a25e7141257e4547dbab7/catalog/provider/2/13/2-efabf566f77277b97b9cbf061b1378fb.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 60% positive</description>
+</item>
 <item>
 <title>[87] Cupertino (TV)</title>
 <link>https://www.metacritic.com/tv/cupertino/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/a06dd0ff437af777b21c5328896c3c3d0e085a78/catalog/provider/2/2/2-2f251abd94f940c5356e71c94178cb14.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
-</item>
-<item>
-<title>[65] Homegrown (Movie)</title>
-<link>https://www.metacritic.com/movie/homegrown/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/homegrown/</guid>
-<pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/f1f4d93c7b1375e2ef99848b0b3c543c1800ec84/catalog/provider/2/13/2-5a2f4c1387a1a0315853f90bc529d98b.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 60% positive</description>
 </item>
 </channel>
 </rss>
