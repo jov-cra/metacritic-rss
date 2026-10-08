@@ -11166,6 +11166,22 @@
         "image": "https://www.metacritic.com/a/img/resize/8a06ba85d860f800fb0a25e7141257e4547dbab7/catalog/provider/2/13/2-efabf566f77277b97b9cbf061b1378fb.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/eternally-yours/": {
+      "title": "Eternally Yours",
+      "score": 69,
+      "media": "tv",
+      "release_date": "Oct 8, 2026",
+      "emitted_at": "2026-10-08T22:32:24.801525+00:00",
+      "feed_date": "2026-10-08T22:32:24.801525+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/717c6e9b7d8acd5df69176ffffe4fc6a143a177c/catalog/provider/7/2/7-1791397467.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/e257ece6447c189b433d09225d81e4c93e7a694b/catalog/provider/2/13/2-8de2606b71e84b7cebb3c7ac49c43a0c.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
