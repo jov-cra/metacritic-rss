@@ -11355,6 +11355,37 @@
         "image": "https://www.metacritic.com/a/img/resize/fbecd8c4edfe5a66983258e99488c8025280fc60/catalog/provider/2/13/2-71bc15c89b0f499d58e5152ee741df4f.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/vhsmixtape/": {
+      "title": "V/H/S/Mixtape",
+      "score": 41,
+      "media": "movie",
+      "release_date": "Oct 9, 2026",
+      "emitted_at": "2026-10-09T21:54:37.909470+00:00",
+      "feed_date": "2026-10-09T21:54:37.909470+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/37e51d6c47254bb538aa94d293ca57275f79abf1/catalog/provider/5/2/5-tt43739386.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a5504933325dfc337fb43f10b646e56a787a0531/catalog/provider/5/2/5-tt43739386.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-beast-2026/": {
+      "title": "The Beast",
+      "score": 47,
+      "media": "movie",
+      "release_date": "Oct 9, 2026",
+      "emitted_at": "2026-10-09T21:54:37.909470+00:00",
+      "feed_date": "2026-10-09T21:54:37.909470+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/16133e29b933175cfc9a735c94e02cc9866f8a5c/catalog/provider/5/2/5-tt29256561.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/88966ec1d9d7458af06bd63604493e6d92b65303/catalog/provider/7/2/7-1790955077.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

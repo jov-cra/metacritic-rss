@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 09 Oct 2026 10:56:58 +0000</lastBuildDate>
+<lastBuildDate>Fri, 09 Oct 2026 21:54:37 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[41] V/H/S/Mixtape (Movie)</title>
+<link>https://www.metacritic.com/movie/vhsmixtape/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/vhsmixtape/</guid>
+<pubDate>Fri, 09 Oct 2026 21:54:37 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a5504933325dfc337fb43f10b646e56a787a0531/catalog/provider/5/2/5-tt43739386.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews</description>
+</item>
+<item>
+<title>[47] The Beast (Movie)</title>
+<link>https://www.metacritic.com/movie/the-beast-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-beast-2026/</guid>
+<pubDate>Fri, 09 Oct 2026 21:54:37 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/88966ec1d9d7458af06bd63604493e6d92b65303/catalog/provider/7/2/7-1790955077.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 50% positive</description>
+</item>
 <item>
 <title>[79] Avatar: Seven Havens (TV)</title>
 <link>https://www.metacritic.com/tv/avatar-seven-havens/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/58ba846efc9e227b30b32ddfac8c6ef49b981a0b/catalog/provider/7/2/7-1768329275.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;58 reviews · 88% positive</description>
-</item>
-<item>
-<title>[67] Star Trek: Starfleet Academy (TV)</title>
-<link>https://www.metacritic.com/tv/star-trek-starfleet-academy/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/star-trek-starfleet-academy/</guid>
-<pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/2ba2f1df53dbb49f472116b15969bb6c89003ac8/catalog/provider/2/13/2-a548afa0a8e8b3828db12d4793301d73.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;26 reviews · 65% positive</description>
-</item>
-<item>
-<title>[76] Ponies (TV)</title>
-<link>https://www.metacritic.com/tv/ponies/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/ponies/</guid>
-<pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/e1aa46cfbe9840de85a20bd7b1e23c029e6e44a5/catalog/provider/2/13/2-69ab4731c9f7231b1e8b8adeb6ee2dbb.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 92% positive</description>
 </item>
 </channel>
 </rss>
