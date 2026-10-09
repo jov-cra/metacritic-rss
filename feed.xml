@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 09 Oct 2026 03:14:44 +0000</lastBuildDate>
+<lastBuildDate>Fri, 09 Oct 2026 10:56:58 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[79] Avatar: Seven Havens (TV)</title>
+<link>https://www.metacritic.com/tv/avatar-seven-havens/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/avatar-seven-havens/</guid>
+<pubDate>Fri, 09 Oct 2026 10:56:58 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/fbecd8c4edfe5a66983258e99488c8025280fc60/catalog/provider/2/13/2-71bc15c89b0f499d58e5152ee741df4f.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 100% positive</description>
+</item>
+<item>
+<title>[33] Other Mommy (Movie)</title>
+<link>https://www.metacritic.com/movie/other-mommy/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/other-mommy/</guid>
+<pubDate>Fri, 09 Oct 2026 10:56:58 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/aa4c33d621dce161ba6d59e80f6c3a041a4cb29c/catalog/provider/2/13/2-73e4361948299913f5e0f0b08a0badb7.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews</description>
+</item>
 <item>
 <title>[53] The Social Reckoning (Movie)</title>
 <link>https://www.metacritic.com/movie/the-social-reckoning/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/e1aa46cfbe9840de85a20bd7b1e23c029e6e44a5/catalog/provider/2/13/2-69ab4731c9f7231b1e8b8adeb6ee2dbb.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 92% positive</description>
-</item>
-<item>
-<title>[59] Agatha Christie's Seven Dials (TV)</title>
-<link>https://www.metacritic.com/tv/agatha-christies-seven-dials/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/agatha-christies-seven-dials/</guid>
-<pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/24e70489cf9e911fa1e02c0c4c6845facebb98eb/catalog/provider/2/13/2-7fa7ad291bb0fb5136ecef4897556734.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;20 reviews · 45% positive</description>
-</item>
-<item>
-<title>[83] Riot Women (TV)</title>
-<link>https://www.metacritic.com/tv/riot-women/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/riot-women/</guid>
-<pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/57808f44eaa33347a9eca615c573491c73ae020d/catalog/provider/2/13/2-1bdd1d511c412cc056a00e8d8eba8059.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;14 reviews · 93% positive</description>
 </item>
 </channel>
 </rss>
