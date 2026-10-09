@@ -11182,6 +11182,149 @@
         "image": "https://www.metacritic.com/a/img/resize/e257ece6447c189b433d09225d81e4c93e7a694b/catalog/provider/2/13/2-8de2606b71e84b7cebb3c7ac49c43a0c.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/tenzing/": {
+      "title": "Tenzing",
+      "score": 65,
+      "media": "movie",
+      "release_date": "Oct 9, 2026",
+      "emitted_at": "2026-10-09T03:14:44.001481+00:00",
+      "feed_date": "2026-10-09T03:14:44.001481+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c67d194e3ee7055b6c8b686a6a3b76d48d39617a/catalog/provider/7/2/7-1789664987.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 62,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/ba278131f1ee9706935e8a2c67c12b8ee7122704/catalog/provider/5/2/5-tt6262770.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/musk/": {
+      "title": "Musk",
+      "score": 76,
+      "media": "movie",
+      "release_date": "Oct 9, 2026",
+      "emitted_at": "2026-10-09T03:14:44.001481+00:00",
+      "feed_date": "2026-10-09T03:14:44.001481+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/93f24e9088f5a9cd94b25f7971d7032ade5cae79/catalog/provider/7/2/7-1790007919.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 18,
+        "pos": 89,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b55783c07c8b853f7c36decab9b6e5d7f5ad570f/catalog/provider/7/2/7-1788882019.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/my-undesirable-friends-part-ii---exile/": {
+      "title": "My Undesirable Friends: Part II - Exile",
+      "score": 92,
+      "media": "movie",
+      "release_date": "Oct 9, 2026",
+      "emitted_at": "2026-10-09T03:14:44.001481+00:00",
+      "feed_date": "2026-10-09T03:14:44.001481+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f1bc7de3175a0778f46285c2bc639468b9c265a7/catalog/provider/5/2/5-tt39317981.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2b334465ee33c174e9748468c5d51991cf6901a7/catalog/provider/7/2/7-1790612578.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/misty-green/": {
+      "title": "Misty Green",
+      "score": 68,
+      "media": "movie",
+      "release_date": "Oct 9, 2026",
+      "emitted_at": "2026-10-09T03:14:44.001481+00:00",
+      "feed_date": "2026-10-09T03:14:44.001481+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/504f0eaa9a4e5b5da1a456d02f5bfc2ea923e90a/catalog/provider/2/13/2-475125a2026b7e85ee4e7bad47b19dc4.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 23,
+        "pos": 57,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/53be379077919b7d7fd72d817e35ea42ad8b1c61/catalog/provider/2/13/2-7a874fb5f893ed44b830fa32e485fbf4.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/fjord/": {
+      "title": "Fjord",
+      "score": 79,
+      "media": "movie",
+      "release_date": "Oct 9, 2026",
+      "emitted_at": "2026-10-09T03:14:44.001481+00:00",
+      "feed_date": "2026-10-09T03:14:44.001481+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0991ac4010ae1b625c7a442e3e7d512691c4323c/catalog/provider/5/2/5-tt35410859.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 28,
+        "pos": 89,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/62e85f5b2b8fd39ac7651bff09d437928b355756/catalog/provider/7/2/7-1790979401.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-social-reckoning/": {
+      "title": "The Social Reckoning",
+      "score": 53,
+      "media": "movie",
+      "release_date": "Oct 9, 2026",
+      "emitted_at": "2026-10-09T03:14:44.001481+00:00",
+      "feed_date": "2026-10-09T03:14:44.001481+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/495b295bb23c548f2e75e3a4c7a610cda24f0a3e/catalog/provider/5/2/5-tt37510326.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 50,
+        "pos": 44,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b213e68bb18da3f86082d5646daf8eee2637756d/catalog/provider/2/13/2-ccfb9770904932b6f580f37b0f6c4c07.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/matchbox-the-movie/": {
+      "title": "Matchbox The Movie",
+      "score": 44,
+      "media": "movie",
+      "release_date": "Oct 9, 2026",
+      "emitted_at": "2026-10-09T03:14:44.001481+00:00",
+      "feed_date": "2026-10-09T03:14:44.001481+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/3aa89d18d52091633967e7f1b46feb0a406cc03e/catalog/provider/7/2/7-1789072729.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 18,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/04d49ffcc6c9f0ca5c2da1db7b6ceab5a8d7c193/catalog/provider/2/2/2-e2f6f5f11cab43ae3e34cbf2c840d39f.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/california-schemin/": {
+      "title": "California Schemin'",
+      "score": 65,
+      "media": "movie",
+      "release_date": "Oct 9, 2026",
+      "emitted_at": "2026-10-09T03:14:44.001481+00:00",
+      "feed_date": "2026-10-09T03:14:44.001481+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2fc2b006869a4fe9d656a47f42302fb9e80e01d6/catalog/provider/5/2/5-tt29549490.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 63,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/13cfecb062c6f3cc12744d480b11499185e6f398/catalog/provider/2/13/2-15b0612d8428efafabbe44bccad36328.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/animals-2026/": {
+      "title": "Animals",
+      "score": 31,
+      "media": "movie",
+      "release_date": "Oct 9, 2026",
+      "emitted_at": "2026-10-09T03:14:44.001481+00:00",
+      "feed_date": "2026-10-09T03:14:44.001481+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2223fc8fee1b9cfffad69255d3712a94a1c401da/catalog/provider/7/2/7-1789492462.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/5ce4beebfc6e672417799cde9de59a385c5fb844/catalog/provider/7/2/7-1789492773.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
