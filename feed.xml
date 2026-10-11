@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 09 Oct 2026 21:54:37 +0000</lastBuildDate>
+<lastBuildDate>Sun, 11 Oct 2026 02:23:26 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[52] Treasure Island (2026) (TV)</title>
+<link>https://www.metacritic.com/tv/treasure-island-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/treasure-island-2026/</guid>
+<pubDate>Sun, 11 Oct 2026 02:23:26 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/22a7b6bfd314ceee0fe516a69a2aa49fee17f5d6/catalog/provider/2/13/2-25e6caa18b06f9620de24b52d89e3a92.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews</description>
+</item>
 <item>
 <title>[41] V/H/S/Mixtape (Movie)</title>
 <link>https://www.metacritic.com/movie/vhsmixtape/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/e16b44b247d08bdc5cb9118eaa093bed24cd9538/catalog/provider/5/2/5-tt33852162.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;27 reviews · 74% positive</description>
-</item>
-<item>
-<title>[81] 28 Years Later: The Bone Temple (Movie)</title>
-<link>https://www.metacritic.com/movie/28-years-later-the-bone-temple/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/28-years-later-the-bone-temple/</guid>
-<pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/58ba846efc9e227b30b32ddfac8c6ef49b981a0b/catalog/provider/7/2/7-1768329275.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;58 reviews · 88% positive</description>
 </item>
 </channel>
 </rss>

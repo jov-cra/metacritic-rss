@@ -11386,6 +11386,21 @@
         "image": "https://www.metacritic.com/a/img/resize/88966ec1d9d7458af06bd63604493e6d92b65303/catalog/provider/7/2/7-1790955077.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/treasure-island-2026/": {
+      "title": "Treasure Island (2026)",
+      "score": 52,
+      "media": "tv",
+      "release_date": "Oct 11, 2026",
+      "emitted_at": "2026-10-11T02:23:26.798345+00:00",
+      "feed_date": "2026-10-11T02:23:26.798345+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f633c11b24af4272785817d42834e8485338103d/catalog/provider/2/2/2-46b52a436955cbcf4cb9cfa76bf8a5a6.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/22a7b6bfd314ceee0fe516a69a2aa49fee17f5d6/catalog/provider/2/13/2-25e6caa18b06f9620de24b52d89e3a92.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
