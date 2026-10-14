@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 14 Oct 2026 00:54:06 +0000</lastBuildDate>
+<lastBuildDate>Wed, 14 Oct 2026 18:12:04 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[87] Run Terry Run (Movie)</title>
+<link>https://www.metacritic.com/movie/run-terry-run/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/run-terry-run/</guid>
+<pubDate>Wed, 14 Oct 2026 18:12:04 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/8cc36cc54b6d6e09a39015796ac353c72833fe19/catalog/provider/7/2/7-1790265502.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[62] VisionQuest (TV)</title>
 <link>https://www.metacritic.com/tv/visionquest/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/baedb57f03f76ff96f9a03f732dcc0cc0e722243/catalog/provider/5/2/5-tt34963731.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;14 reviews · 100% positive</description>
-</item>
-<item>
-<title>[64] All You Need Is Kill (Movie)</title>
-<link>https://www.metacritic.com/movie/all-you-need-is-kill-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/all-you-need-is-kill-2025/</guid>
-<pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/3364dd4a05d2776995d0fec0e70688d77a88b74e/catalog/provider/7/2/7-1750273024.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 67% positive</description>
 </item>
 </channel>
 </rss>
