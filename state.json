@@ -11449,6 +11449,22 @@
         "image": "https://www.metacritic.com/a/img/resize/8cc36cc54b6d6e09a39015796ac353c72833fe19/catalog/provider/7/2/7-1790265502.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/winter-of-the-crow/": {
+      "title": "Winter of the Crow",
+      "score": 73,
+      "media": "movie",
+      "release_date": "Oct 9, 2026",
+      "emitted_at": "2026-10-14T22:44:10.994024+00:00",
+      "feed_date": "2026-10-14T22:44:10.994024+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f08e2e4a6785ec2ff944b84bcc0a8357a3faa2ad/catalog/provider/2/13/2-faa97902566bc98cb43e0f60f074301e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/936290d236f1000eff50706c8e12a30c9db68618/catalog/provider/2/13/2-0ab21a27313c07d3ac7badbb9ba982f2.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

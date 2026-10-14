@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 14 Oct 2026 18:12:04 +0000</lastBuildDate>
+<lastBuildDate>Wed, 14 Oct 2026 22:44:10 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[73] Winter of the Crow (Movie)</title>
+<link>https://www.metacritic.com/movie/winter-of-the-crow/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/winter-of-the-crow/</guid>
+<pubDate>Wed, 14 Oct 2026 22:44:10 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/936290d236f1000eff50706c8e12a30c9db68618/catalog/provider/2/13/2-0ab21a27313c07d3ac7badbb9ba982f2.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
 <item>
 <title>[87] Run Terry Run (Movie)</title>
 <link>https://www.metacritic.com/movie/run-terry-run/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c2e5922a47746bc3f7e85de18812fbff6532970a/catalog/provider/5/2/5-tt35520195.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 86% positive</description>
-</item>
-<item>
-<title>[90] Seeds (Movie)</title>
-<link>https://www.metacritic.com/movie/seeds-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/seeds-2025/</guid>
-<pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/baedb57f03f76ff96f9a03f732dcc0cc0e722243/catalog/provider/5/2/5-tt34963731.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;14 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>
