@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Tue, 13 Oct 2026 21:59:56 +0000</lastBuildDate>
+<lastBuildDate>Wed, 14 Oct 2026 00:54:06 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[62] VisionQuest (TV)</title>
+<link>https://www.metacritic.com/tv/visionquest/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/visionquest/</guid>
+<pubDate>Wed, 14 Oct 2026 00:54:06 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/284b9932fad30d8c7c853eaa991f2a6ef44ed294/catalog/provider/2/13/2-a4def066254ff6ec5a10ba13db366395.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;16 reviews · 56% positive</description>
+</item>
 <item>
 <title>[56] TYSON (TV)</title>
 <link>https://www.metacritic.com/tv/tyson/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/3364dd4a05d2776995d0fec0e70688d77a88b74e/catalog/provider/7/2/7-1750273024.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 67% positive</description>
-</item>
-<item>
-<title>[85] A Useful Ghost (Movie)</title>
-<link>https://www.metacritic.com/movie/a-useful-ghost/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/a-useful-ghost/</guid>
-<pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/b24cc4e93d640a4599a7b166e345409a6fa1feda/catalog/provider/2/13/2-fa6c50e65e8d34da36aaca413f49ae88.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>

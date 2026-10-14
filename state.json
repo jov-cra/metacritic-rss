@@ -11417,6 +11417,22 @@
         "image": "https://www.metacritic.com/a/img/resize/5f08cc4f454dc2ea24f241db92523e7a9a1442d3/catalog/provider/2/2/2-15ce60131b3f543ca9a0777f11193f6d.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/visionquest/": {
+      "title": "VisionQuest",
+      "score": 62,
+      "media": "tv",
+      "release_date": "Oct 14, 2026",
+      "emitted_at": "2026-10-14T00:54:06.611623+00:00",
+      "feed_date": "2026-10-14T00:54:06.611623+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f5e976322be988a6fb5a25432c5c62e1525bd0fa/catalog/provider/2/2/2-5559063153cbd7dd6c016e52a54ac24f.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 56,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/284b9932fad30d8c7c853eaa991f2a6ef44ed294/catalog/provider/2/13/2-a4def066254ff6ec5a10ba13db366395.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
