@@ -11465,6 +11465,22 @@
         "image": "https://www.metacritic.com/a/img/resize/936290d236f1000eff50706c8e12a30c9db68618/catalog/provider/2/13/2-0ab21a27313c07d3ac7badbb9ba982f2.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/crystal-lake/": {
+      "title": "Crystal Lake",
+      "score": 60,
+      "media": "tv",
+      "release_date": "Oct 15, 2026",
+      "emitted_at": "2026-10-15T01:59:13.199777+00:00",
+      "feed_date": "2026-10-15T01:59:13.199777+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/3f1e2e5f385d4fd546ed07b75e6277e5bb236853/catalog/provider/2/2/2-89ac686631c26b212dda925a29ac993c.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 63,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b249fc18246ead678071e7232fc93250738fcac4/catalog/provider/2/13/2-1be8365554ad6da24a57160ea3684b78.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

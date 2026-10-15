@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 14 Oct 2026 22:44:10 +0000</lastBuildDate>
+<lastBuildDate>Thu, 15 Oct 2026 01:59:13 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[60] Crystal Lake (TV)</title>
+<link>https://www.metacritic.com/tv/crystal-lake/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/crystal-lake/</guid>
+<pubDate>Thu, 15 Oct 2026 01:59:13 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/b249fc18246ead678071e7232fc93250738fcac4/catalog/provider/2/13/2-1be8365554ad6da24a57160ea3684b78.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;16 reviews · 63% positive</description>
+</item>
 <item>
 <title>[73] Winter of the Crow (Movie)</title>
 <link>https://www.metacritic.com/movie/winter-of-the-crow/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/b481bd5f8ba2d2894516e818a0d9cd8e80bf6028/catalog/provider/2/13/2-4736cfd805ebddd225081ae1086f57d7.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;26 reviews · 92% positive</description>
-</item>
-<item>
-<title>[78] Shuffle (Movie)</title>
-<link>https://www.metacritic.com/movie/shuffle/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/shuffle/</guid>
-<pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/c2e5922a47746bc3f7e85de18812fbff6532970a/catalog/provider/5/2/5-tt35520195.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 86% positive</description>
 </item>
 </channel>
 </rss>
