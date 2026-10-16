@@ -11624,6 +11624,21 @@
         "image": "https://www.metacritic.com/a/img/resize/d1bffb25a2e634ec20a1968fa664d69a921ac14a/catalog/provider/5/2/5-tt28535715.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/norm-the-tale-of-norm-macdonald/": {
+      "title": "Norm: The Tale of Norm MacDonald",
+      "score": 81,
+      "media": "movie",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-10-16T22:15:16.835245+00:00",
+      "feed_date": "2026-10-16T22:15:16.835245+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/647924b9fc8e589064ac4f65dd461fbfd86ff5b9/catalog/provider/7/2/7-1790100428.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "v": 3
+      }
     }
   }
 }

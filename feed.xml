@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 16 Oct 2026 02:15:07 +0000</lastBuildDate>
+<lastBuildDate>Fri, 16 Oct 2026 22:15:16 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[81] Norm: The Tale of Norm MacDonald (Movie)</title>
+<link>https://www.metacritic.com/movie/norm-the-tale-of-norm-macdonald/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/norm-the-tale-of-norm-macdonald/</guid>
+<pubDate>Fri, 16 Oct 2026 22:15:16 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/647924b9fc8e589064ac4f65dd461fbfd86ff5b9/catalog/provider/7/2/7-1790100428.jpg?auto=webp&amp;fit=cover&amp;height=288&amp;quality=70&amp;width=192" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[98] You Can See Everything (Movie)</title>
 <link>https://www.metacritic.com/movie/you-can-see-everything/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c10fb79e30528d7137fa874fbbcb717eed7296ec/catalog/provider/7/2/7-1765484749.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 78% positive</description>
-</item>
-<item>
-<title>[63] H Is for Hawk (Movie)</title>
-<link>https://www.metacritic.com/movie/h-is-for-hawk/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/h-is-for-hawk/</guid>
-<pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/e383a3407ff22607a9f97dad5465ea78f417e74c/catalog/provider/7/2/7-1761239298.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;23 reviews · 43% positive</description>
 </item>
 </channel>
 </rss>
