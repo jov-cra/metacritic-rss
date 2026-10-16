@@ -11481,6 +11481,149 @@
         "image": "https://www.metacritic.com/a/img/resize/b249fc18246ead678071e7232fc93250738fcac4/catalog/provider/2/13/2-1be8365554ad6da24a57160ea3684b78.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/once-upon-a-time-in-harlem/": {
+      "title": "Once Upon a Time in Harlem",
+      "score": 93,
+      "media": "movie",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-10-16T02:15:07.974922+00:00",
+      "feed_date": "2026-10-16T02:15:07.974922+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0e443dcbba0d9df22291cf0fcba0ff2abf5e2695/catalog/provider/7/2/7-1788472837.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/0406e66607584f51ee0f83db1ebca9dabd079643/catalog/provider/7/2/7-1769623345.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/la-bola-negra/": {
+      "title": "La Bola Negra",
+      "score": 83,
+      "media": "movie",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-10-16T02:15:07.974922+00:00",
+      "feed_date": "2026-10-16T02:15:07.974922+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/8d68a20d89230d5aeab158c8d09741455195d3d0/catalog/provider/7/2/7-1788367442.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 22,
+        "pos": 91,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a77ba6357a1481d7075cdc11513370b6ea2a18cf/catalog/provider/7/2/7-1788367335.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/street-fighter-2026/": {
+      "title": "Street Fighter",
+      "score": 45,
+      "media": "movie",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-10-16T02:15:07.974922+00:00",
+      "feed_date": "2026-10-16T02:15:07.974922+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/96deb38624ac74c12fa9102d84215cb2b0850053/catalog/provider/5/2/5-tt27419420.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 22,
+        "pos": 18,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/53eda961b6d5c5744a1799af2d64a8a96349eecc/catalog/provider/2/13/2-da7f5a0ca7629260b4ba4e008b7bc0f1.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/the-only-living-pickpocket-in-new-york/": {
+      "title": "The Only Living Pickpocket in New York",
+      "score": 81,
+      "media": "movie",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-10-16T02:15:07.974922+00:00",
+      "feed_date": "2026-10-16T02:15:07.974922+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a22ea7e2f5c5546f6f7f4cd7634c1cbaff5a2aff/catalog/provider/5/2/5-tt36482679.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 88,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/99383edd838c678380240e239f4269a27a2ffae0/catalog/provider/5/2/5-tt36482679.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/sacrifice-2025/": {
+      "title": "Sacrifice",
+      "score": 48,
+      "media": "movie",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-10-16T02:15:07.974922+00:00",
+      "feed_date": "2026-10-16T02:15:07.974922+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/228635f87e6485fb3dfd644ea191d04b5ab2a8ef/catalog/provider/7/2/7-1789665464.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 12,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/df0f290033e0039c89126f86c905cbe3e41174e8/catalog/provider/5/2/5-tt32268992.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/case-137/": {
+      "title": "Case 137",
+      "score": 71,
+      "media": "movie",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-10-16T02:15:07.974922+00:00",
+      "feed_date": "2026-10-16T02:15:07.974922+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/6e53ab71485d68f5e9e6e6187c07eb32065cbd14/catalog/provider/2/2/2-a96829d6bd20ab25a63175f72a27ee8e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 82,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/09373a8ee1e53e9169b36808f10c2291bd536c81/catalog/provider/5/2/5-tt34794183.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/sense-and-sensibility-2026/": {
+      "title": "Sense and Sensibility",
+      "score": 70,
+      "media": "movie",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-10-16T02:15:07.974922+00:00",
+      "feed_date": "2026-10-16T02:15:07.974922+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/98424688d9f43c67e9e2ab16d4555d179be2ce51/catalog/provider/7/2/7-1790947996.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 27,
+        "pos": 63,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/0e21940b207dc88c7ae8a5d20bfb699d313af91c/catalog/provider/7/2/7-1782316122.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/you-can-see-everything/": {
+      "title": "You Can See Everything",
+      "score": 98,
+      "media": "movie",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-10-16T02:15:07.974922+00:00",
+      "feed_date": "2026-10-16T02:15:07.974922+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/23ea394743716e263932250b66d0ca06240f36a3/catalog/provider/7/2/7-1791399731.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 31,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/94db76bbe09b4f62bfde3585f48521061cf9e3f8/catalog/provider/2/13/2-911a9bd4474a60fe0496809db298fedd.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/whalefall/": {
+      "title": "Whalefall",
+      "score": 57,
+      "media": "movie",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-10-16T02:15:07.974922+00:00",
+      "feed_date": "2026-10-16T02:15:07.974922+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/56910ea1e506b997c85b50f9713c45d7ec3df3e6/catalog/provider/5/2/5-tt28535715.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 31,
+        "pos": 48,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/d1bffb25a2e634ec20a1968fa664d69a921ac14a/catalog/provider/5/2/5-tt28535715.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }
