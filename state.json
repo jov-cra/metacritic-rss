@@ -11655,6 +11655,173 @@
         "image": "https://www.metacritic.com/a/img/resize/d92bbb36e0da9677561cf5b5d499a290ee8a5b01/catalog/provider/5/2/5-tt43596241.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/the-gold/season-2/": {
+      "title": "The Gold: Season 2",
+      "score": 80,
+      "media": "tv",
+      "release_date": "Jun 8, 2025",
+      "emitted_at": "2026-10-17T20:14:00.611796+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/08e1d0a091ebe92181117f5eea56d40386326fd0/catalog/provider/2/13/2-3d3d2f85b7e5faa11ea3c1ba1ae88835.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "detail": {
+        "critic_count": 5,
+        "pos": 80,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/08e1d0a091ebe92181117f5eea56d40386326fd0/catalog/provider/2/13/2-3d3d2f85b7e5faa11ea3c1ba1ae88835.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/the-lowdown/season-2/": {
+      "title": "The Lowdown: Season 2",
+      "score": 92,
+      "media": "tv",
+      "release_date": "Oct 14, 2026",
+      "emitted_at": "2026-10-17T20:14:00.611796+00:00",
+      "feed_date": "2026-10-17T20:14:00.611796+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/19a3376fd976be4ad4d762eb14fe02f2a62a95af/catalog/provider/2/13/2-db815e6f86f8f776a1d4f13160465509.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "detail": {
+        "critic_count": 9,
+        "pos": 89,
+        "user_count": 8,
+        "user_score": 7.3,
+        "image": "https://www.metacritic.com/a/img/resize/19a3376fd976be4ad4d762eb14fe02f2a62a95af/catalog/provider/2/13/2-db815e6f86f8f776a1d4f13160465509.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    }
+  },
+  "seasons": {
+    "https://www.metacritic.com/tv/all-creatures-great-and-small-2021/season-7/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/alls-fair-2025/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/bad-monkey/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/black-doves/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/blue-lights/season-4/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/city-of-god-the-fight-rages-on/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/common-side-effects/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/cyberpunk-edgerunners/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/death-valley-2025/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/dexter-resurrection/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/emily-in-paris/season-6/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/ludwig/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/lupin/season-4/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/maigret-2025/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/maxton-hall-the-world-between-us/season-3/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/mayfair-witches/season-3/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/miss-scarlet-the-duke/season-7/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/nobody-wants-this/season-3/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/north-of-north/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/only-murders-in-the-building/season-6/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/p-valley/season-3/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/percy-jackson-and-the-olympians/season-3/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/silo/season-4/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/star-wars-ahsoka/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/stick/season-2/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/the-chosen/season-6/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/the-diplomat-2023/season-4/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/the-gilded-age/season-4/": {
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Nov 1, 2026"
+    },
+    "https://www.metacritic.com/tv/the-hunting-wives/season-2/": {
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Nov 26, 2026"
+    },
+    "https://www.metacritic.com/tv/the-institute/season-2/": {
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Nov 8, 2026"
+    },
+    "https://www.metacritic.com/tv/the-lord-of-the-rings-the-rings-of-power/season-3/": {
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Nov 11, 2026"
+    },
+    "https://www.metacritic.com/tv/the-madame-blanc-mysteries/season-5/": {
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Dec 23, 2025"
+    },
+    "https://www.metacritic.com/tv/the-rainmaker/season-2/": {
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Oct 16, 2026"
+    },
+    "https://www.metacritic.com/tv/the-rookie/season-9/": {
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Jan 6, 2027"
+    },
+    "https://www.metacritic.com/tv/the-terminal-list/season-2/": {
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Oct 21, 2026"
+    },
+    "https://www.metacritic.com/tv/time/season-3/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/tulsa-king/season-4/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/yellowjackets/season-4/": {
+      "first_seen": "2026-10-17"
+    },
+    "https://www.metacritic.com/tv/your-friendly-neighborhood-spider-man/season-2/": {
+      "first_seen": "2026-10-17"
     }
   }
 }
