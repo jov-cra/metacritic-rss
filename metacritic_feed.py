@@ -206,6 +206,9 @@ def parse_browse(html_text: str, media: str) -> list[dict]:
 # --------------------------------------------------------------------------- #
 DETAIL_VERSION = 3  # bump to force re-enrichment of already-stored items (v3: adds og:image)
 CRITIC_POS_RE = re.compile(r"(\d+)%\s*Positive\s+\d+\s+Reviews")  # critic (Reviews, not user Ratings)
+USER_RE = re.compile(r"Based on ([\d,]+)\s+(?:User\s+)?Ratings\s+(10(?:\.0)?|\d(?:\.\d)?)(?![\d.])")
+DETAIL_MAX_TRIES = 5     # after this many empty detail pages an item keeps its basic description
+DEGRADED_AFTER = 3       # consecutive empty/failed detail fetches that stop enrichment for this run
 
 
 def fetch_detail(url: str) -> str:
@@ -230,12 +233,13 @@ def parse_detail(html_text: str) -> dict:
     # user score + rating count — only when an actual user score exists.
     # "Available after N ratings" is a THRESHOLD (how many are needed), not a
     # count, so we must not render it as if there were N ratings.
-    mu = re.search(r"Based on ([\d,]+)\s+Ratings", text)
-    if mu:
+    # Metacritic writes "Based on 17 User Ratings 7.5": count and score are read
+    # from the same match (until 17.10.2026 the pattern lacked "User" and no user
+    # score was ever found). Accepts 10 and 10.0, rejects anything above 10.
+    mu = USER_RE.search(text)
+    if mu and float(mu.group(2)) <= 10:
         d["user_count"] = int(mu.group(1).replace(",", ""))
-        ms = re.search(r"User score\D{0,40}?(\d(?:\.\d)?)\b", text)
-        if ms:
-            d["user_score"] = float(ms.group(1))
+        d["user_score"] = float(mu.group(2))
     elif re.search(r"User score(?:\s+Available after \d+ ratings)?\s+tbd", text):
         d["user_tbd"] = True
 
@@ -250,27 +254,223 @@ def parse_detail(html_text: str) -> dict:
     return d
 
 
-def enrich_missing(emitted: dict, cap: int, delay: float) -> int:
+def enrich_missing(emitted: dict, cap: int, delay: float) -> tuple[int, bool]:
     """Fetch detail pages for emitted items lacking `detail` (new qualifiers +
-    one-time backfill), newest first, up to `cap` per run. Once set, `detail` is
-    frozen -> feed stays deterministic (no churn) after backfill completes."""
+    one-time backfill), newest first. Once set, `detail` is frozen -> feed stays
+    deterministic (no churn) after backfill completes.
+
+    `cap` bounds ATTEMPTS, failures included, and the delay applies after every
+    attempt. A page without a critic count (layout change, soft-block served with
+    200) is NOT stored as done: the item is retried on later runs, and after
+    DETAIL_MAX_TRIES empty pages it is frozen with an empty detail so it cannot
+    eat the budget forever. DEGRADED_AFTER consecutive misses stop enrichment for
+    this run and return degraded=True, which the workflow turns into a red run
+    AFTER the (still correct) feed and state have been committed.
+    Returns (enriched, degraded)."""
     todo = sorted(
         (u for u, m in emitted.items()
          if "detail" not in m or (m.get("detail") or {}).get("v") != DETAIL_VERSION),
         key=lambda u: emitted[u].get("emitted_at", ""), reverse=True,
     )
-    done = 0
+    done = attempts = misses = 0
     for url in todo:
-        if done >= cap:
+        if attempts >= cap:
             break
+        attempts += 1
+        d = None
+        fetched = False
         try:
-            emitted[url]["detail"] = parse_detail(fetch_detail(url))
+            html_text = fetch_detail(url)
+            fetched = True
+            d = parse_detail(html_text)
         except Exception as exc:
             print(f"[warn] detail fetch failed for {url}: {exc}", file=sys.stderr)
-            continue
-        done += 1
         time.sleep(delay)
-    return done
+        if d and "critic_count" in d:
+            emitted[url]["detail"] = d
+            emitted[url].pop("detail_tries", None)
+            done += 1
+            misses = 0
+            continue
+        misses += 1
+        if not fetched:
+            # a network error (429/5xx) says nothing about the page: no try is
+            # used up, otherwise an outage would freeze fresh items empty for good
+            if misses >= DEGRADED_AFTER:
+                print(f"[warn] {misses} detail fetches in a row failed; stopping enrichment "
+                      "for this run", file=sys.stderr)
+                return done, True
+            continue
+        tries = emitted[url].get("detail_tries", 0) + 1
+        if tries >= DETAIL_MAX_TRIES:
+            emitted[url]["detail"] = {"v": DETAIL_VERSION, "empty": True}
+            emitted[url].pop("detail_tries", None)
+        else:
+            emitted[url]["detail_tries"] = tries
+        if misses >= DEGRADED_AFTER:
+            print(f"[warn] {misses} detail pages in a row without critic stats; "
+                  "stopping enrichment for this run", file=sys.stderr)
+            return done, True
+    return done, False
+
+
+# --------------------------------------------------------------------------- #
+# New seasons of running shows (17.10.2026)
+# --------------------------------------------------------------------------- #
+# The TV browse pages list new SHOWS only. A new season of a running show has its
+# own URL (/tv/<show>/season-N/) and its own Metascore but never appears there as
+# a card. Season links are collected from the header navigation of every TV
+# browse page plus Metacritic's TV premiere-dates article, then each candidate
+# season page is checked for a score. Season 1 is skipped: a new show is already
+# covered by its show card.
+SEASON_PATH_RE = re.compile(r"^/tv/([^/]+)/season-(\d+)/?$")
+PREMIERE_PAGE = "/news/tv-premiere-dates/"
+SEASON_GIVE_UP_DAYS = 60
+SEASON_LATE_DAYS = 21     # premiered longer ago -> dated by premiere, not "now"
+
+
+def season_links(html_text: str) -> set[str]:
+    soup = BeautifulSoup(html_text, "html.parser")
+    out = set()
+    for a in soup.find_all("a", href=True):
+        path = a["href"].split("?")[0].split("#")[0]
+        if path.startswith(BASE):
+            path = path[len(BASE):]
+        m = SEASON_PATH_RE.match(path)
+        if m and int(m.group(2)) >= 2:
+            out.add(f"{BASE}/tv/{m.group(1)}/season-{int(m.group(2))}/")
+    return out
+
+
+class SeasonPageError(ValueError):
+    """The page has no TVSeason JSON-LD at all — the markup changed under us."""
+
+
+def parse_season(html_text: str, url: str) -> dict:
+    """Read a season page. Identity, title and score come from the page's JSON-LD
+    (@type TVSeason whose url is the requested one — a redirect to the show page
+    raises). The premiere date comes from the hero block; JSON-LD datePublished is
+    the SHOW's date and must not be used. score is None while the season has no
+    Metascore yet."""
+    soup = BeautifulSoup(html_text, "html.parser")
+    ld = None
+    for t in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(t.string or "")
+        except json.JSONDecodeError:
+            continue
+        nodes = data if isinstance(data, list) else [data]
+        nodes = [n for d in nodes if isinstance(d, dict) for n in (d.get("@graph") or [d])]
+        for n in nodes:
+            typ = n.get("@type") if isinstance(n, dict) else None
+            if typ == "TVSeason" or (isinstance(typ, list) and "TVSeason" in typ):
+                ld = n
+                break
+        if ld is not None:
+            break
+    if ld is None:
+        raise SeasonPageError(f"no TVSeason JSON-LD on {url}")
+    def _path(u: str) -> str:
+        return re.sub(r"^https?://(www\.)?metacritic\.com", "", (u or "").split("?")[0]).rstrip("/")
+    if _path(ld.get("url")) != _path(url):
+        raise ValueError(f"not the season page for {url} (redirected?)")
+    rating = ld.get("aggregateRating") or {}
+    score = rating.get("ratingValue")
+    score = int(score) if isinstance(score, (int, float)) and 0 <= score <= 100 else None
+    hero = soup.select_one(".hero-release-date__value")
+    dm = DATE_RE.search(hero.get_text(" ", strip=True)) if hero else None
+    detail = parse_detail(html_text)
+    if "critic_count" not in detail and isinstance(rating.get("reviewCount"), int):
+        detail["critic_count"] = rating["reviewCount"]
+    return {"url": url, "title": (ld.get("name") or "").strip() or "Untitled",
+            "score": score, "date": dm.group(1) if dm else "", "media": "tv",
+            "detail": detail, "image": ld.get("image")}
+
+
+def _date_ordinal(raw: str):
+    try:
+        return datetime.strptime((raw or "").replace(".", "").strip(), "%b %d, %Y").date().toordinal()
+    except ValueError:
+        return None
+
+
+def check_seasons(state: dict, emitted: dict, links: set, args, now: datetime) -> tuple[int, int, int]:
+    """Register new season links as candidates and check up to args.season_max of
+    them for a score. Candidate order rotates with the 2-hour slot, so every
+    candidate gets its turn without writing a "last checked" stamp into the state
+    on every run (that would commit every run). A candidate without a score after
+    SEASON_GIVE_UP_DAYS is marked gave_up and never fetched again; the marker stays
+    so the same link cannot re-enter as new. Returns (new, attempts, failures)."""
+    cands = state.setdefault("seasons", {})
+    today = now.date().isoformat()
+    for url in sorted(links):
+        if url not in emitted and url not in cands:
+            cands[url] = {"first_seen": today}
+    today_ord = now.date().toordinal()
+    pending = []
+    for url in sorted(cands):
+        c = cands[url]
+        if url in emitted or c.get("gave_up"):
+            continue
+        try:
+            first = datetime.fromisoformat(c["first_seen"]).date().toordinal()
+        except (KeyError, ValueError):
+            first = today_ord
+        premiere = _date_ordinal(c.get("premiere", ""))
+        if premiere is not None and premiere > today_ord:
+            continue                      # not aired yet: no score possible, save the budget
+        # Give up only on a candidate whose page was read successfully at least
+        # once: if the season markup breaks, every check fails, and a final
+        # gave_up marker would lose those seasons for good even after a fix.
+        # (A page that never reads at all is dropped after half a year at the latest.)
+        if ((c.get("ok") and max(first, premiere or 0) + SEASON_GIVE_UP_DAYS < today_ord)
+                or first + 3 * SEASON_GIVE_UP_DAYS < today_ord):
+            c["gave_up"] = True
+            continue
+        pending.append(url)
+    if not pending:
+        return 0, 0, 0, 0
+    offset = (int(now.timestamp() // 7200) * max(args.season_max, 1)) % len(pending)
+    order = pending[offset:] + pending[:offset]
+    new = attempts = failures = structural = 0
+    for url in order[: args.season_max]:
+        attempts += 1
+        try:
+            s = parse_season(fetch_detail(url), url)
+        except Exception as exc:
+            failures += 1
+            if isinstance(exc, SeasonPageError):
+                structural += 1
+            print(f"[warn] season check failed for {url}: {exc}", file=sys.stderr)
+            time.sleep(args.detail_delay)
+            continue
+        time.sleep(args.detail_delay)
+        if args.debug:
+            print(f"       [season] score={str(s['score']):>4}  {s['title']}  ({s['date']})  ::  {url}")
+        if s["score"] is None or s["score"] < args.threshold:
+            c = cands[url]
+            if not c.get("ok"):
+                c["ok"] = True                         # written once
+            if s["date"] and c.get("premiere") != s["date"]:
+                c["premiere"] = s["date"]              # written once; drives skip + give-up
+            continue
+        entry = {"title": s["title"], "score": s["score"], "media": "tv",
+                 "release_date": s["date"], "emitted_at": now.isoformat()}
+        aired = _date_ordinal(s["date"])
+        # A season that premiered weeks ago (first deploy, or found late) is dated
+        # by its premiere instead of "now", so it slots in where it belongs rather
+        # than piling up at the top of the reader.
+        late = aired is not None and aired < today_ord - SEASON_LATE_DAYS
+        if not args.seed_from_release and not late:
+            entry["feed_date"] = now.isoformat()
+        if s.get("image"):
+            entry["image"] = s["image"]
+        if "critic_count" in s["detail"]:
+            entry["detail"] = s["detail"]          # same page, no second fetch
+        emitted[url] = entry
+        del cands[url]
+        new += 1
+    return new, attempts, failures, structural
 
 
 # --------------------------------------------------------------------------- #
@@ -488,6 +688,8 @@ def run(args) -> int:
     # if only the TV markup changes, movie still yields cards and the run stays
     # green while the TV half of the feed quietly stops forever.
     stats = {m: {"pages_ok": 0, "cards": 0, "scored": 0} for m in args.media}
+    links: set = set()
+    seasons_degraded = False
 
     for media in args.media:
         for page in range(1, args.pages + 1):
@@ -511,6 +713,8 @@ def run(args) -> int:
             pages_ok += 1
             stats[media]["pages_ok"] += 1
             cards = parse_browse(html_text, media)
+            if media == "tv" and args.seasons:
+                links |= season_links(html_text)
             stats[media]["cards"] += len(cards)
             stats[media]["scored"] += sum(1 for c in cards if c["score"] is not None)
             scanned += len(cards)
@@ -549,9 +753,31 @@ def run(args) -> int:
                 "the score markup changed (SCORE_RE no longer matches). Feed/state left untouched."
             )
 
+    # New seasons of running shows: header-nav links (collected above) plus the
+    # premiere-dates article. Both are supplementary — a failure here is logged,
+    # never fatal, and never blocks the movie/show feed.
+    if "tv" in args.media and args.seasons:
+        try:
+            links |= season_links(fetch(BASE + PREMIERE_PAGE))
+        except Exception as exc:
+            print(f"[warn] premiere page failed: {exc}", file=sys.stderr)
+        if not links:
+            print("[warn] no season links found (navigation and premiere page)", file=sys.stderr)
+        s_new, s_tried, s_failed, s_struct = check_seasons(state, emitted, links, args, now)
+        new_total += s_new
+        print(f"[seasons] {len(links)} link(s), checked {s_tried} ({s_failed} failed), {s_new} new season(s)")
+        # Fail loud, but after the commit: the season branch is supplementary, so
+        # a broken season page or a link source that dried up must not stop the
+        # feed — yet it must not go unnoticed either.
+        if not links or (s_tried >= 5 and s_struct == s_tried):
+            seasons_degraded = True
+            print("[warn] season discovery degraded (no links, or no season page readable)",
+                  file=sys.stderr)
+
     # Enrich new/unenriched items with critic/user stats + a top-critic quote.
+    degraded = False
     if args.detail and not args.dry_run and args.detail_max > 0:
-        got = enrich_missing(emitted, args.detail_max, args.detail_delay)
+        got, degraded = enrich_missing(emitted, args.detail_max, args.detail_delay)
         if got:
             print(f"[detail] enriched {got} item(s) with critic/user info")
 
@@ -570,6 +796,16 @@ def run(args) -> int:
     # `git diff --cached --quiet` skips the commit and there is no every-run churn.
     _atomic_write(args.out, build_rss(items, args, last_build))
     save_state(args.state, state)
+    if degraded or seasons_degraded:
+        # The feed and state above are correct and get committed; the workflow
+        # turns these flags into a red run only after the commit step.
+        gh_out = os.environ.get("GITHUB_OUTPUT")
+        if gh_out:
+            with open(gh_out, "a", encoding="utf-8") as fh:
+                if degraded:
+                    fh.write("degraded=true\n")
+                if seasons_degraded:
+                    fh.write("seasons_degraded=true\n")
     print(
         f"Scanned {scanned} cards across {args.media} x {args.pages} page(s), {pages_ok}/{pages_tried} ok. "
         f"{new_total} new qualifier(s) >= {args.threshold}. Feed now has {len(items)} item(s) -> {args.out}"
@@ -603,6 +839,12 @@ def build_argparser() -> argparse.ArgumentParser:
                    help="max detail pages to fetch per run (default 60; bounds the one-time backfill)")
     p.add_argument("--detail-delay", type=float, default=float(_env("MC_DETAIL_DELAY", "0.6")),
                    help="seconds to wait between detail fetches (politeness, default 0.6)")
+    p.add_argument("--seasons", dest="seasons", action="store_true",
+                   default=_env("MC_SEASONS", "1") not in ("0", "false", "False", ""),
+                   help="also emit new seasons of running shows (default on)")
+    p.add_argument("--no-seasons", dest="seasons", action="store_false")
+    p.add_argument("--season-max", type=int, default=int(_env("MC_SEASON_MAX", "10")),
+                   help="max season pages to check per run (default 10)")
     p.add_argument("--browse-delay", type=float, default=float(_env("MC_BROWSE_DELAY", "0.4")),
                    help="seconds to wait between browse pages (politeness / 429 prophylaxis, default 0.4)")
     p.add_argument("--seed-from-release", dest="seed_from_release", action="store_true",
