@@ -131,6 +131,8 @@ Alles per CLI-Flag **oder** Umgebungsvariable (Flag schlägt ENV):
 | `MC_DETAIL` | `--detail`/`--no-detail` | `1` | Detailseite pro neuem Titel holen (Critic/User-Stats) |
 | `MC_DETAIL_MAX` | `--detail-max` | `60` | Max. Detail-Abrufe pro Lauf (begrenzt das einmalige Nachladen) |
 | `MC_DETAIL_DELAY` | `--detail-delay` | `0.6` | Sekunden Pause zwischen Detail-Abrufen (Höflichkeit) |
+| `MC_SEASONS` | `--seasons`/`--no-seasons` | `1` | Neue Staffeln laufender Serien mit aufnehmen |
+| `MC_SEASON_MAX` | `--season-max` | `10` | Max. Staffelseiten-Abrufe pro Lauf |
 | – | `--dry-run` | – | Nichts schreiben, nur berichten |
 | – | `--debug` | – | Jede geparste Karte ausgeben |
 
@@ -181,6 +183,12 @@ python tests/test_parse.py      # oder: python -m pytest -q
 ```
 
 Die Tests decken Parsing, den Schwellwert, das „einmal emittieren", den **„Score kommt später"-Fall** und wohlgeformtes RSS ab — alles offline, ohne Netzwerk.
+
+## Neue Staffeln, Nutzer-Score, Detail-Guard (17.10.2026)
+
+- **Neue Staffeln.** Die TV-Browse-Seiten listen nur neue *Serien*. Eine neue Staffel einer laufenden Serie hat eine eigene URL (`/tv/<serie>/season-N/`) und einen eigenen Metascore, taucht dort aber nie als Karte auf — bis 17.10. fehlten sie deshalb im Feed (Beleg: „The Diplomat Season 4", 90). Jetzt werden Staffel-Links (N ≥ 2) aus der Kopfnavigation der TV-Browse-Seiten und aus Metacritics Artikel `/news/tv-premiere-dates/` gesammelt (ein Abruf pro Lauf) und als Kandidaten in `state["seasons"]` gemerkt. Pro Lauf werden bis zu `MC_SEASON_MAX` Staffelseiten geprüft, reihum über den 2-Stunden-Slot (kein „zuletzt geprüft"-Stempel, damit der State nicht bei jedem Lauf committet wird). Identität, Titel und Score kommen aus dem JSON-LD der Staffelseite (`TVSeason`, URL muss passen), das Premiere-Datum aus dem Kopfbereich (das JSON-LD-`datePublished` ist das der Serie). Noch nicht ausgestrahlte Staffeln werden übersprungen; ohne Score 60 Tage nach Premiere bzw. Erstsichtung wird ein Kandidat aufgegeben. Die Quelle ist redaktionell, also nicht garantiert vollständig. Fehler hier sind nie fatal.
+- **Nutzer-Score.** Metacritic schreibt „Based on 17 **User** Ratings 7.5"; der alte Ausdruck suchte „Based on N Ratings" und fand den Nutzer-Score nie (0 von 834 Titeln). Anzahl und Score kommen jetzt aus einem Treffer, 10 und 10.0 inklusive. Alte Einträge werden bewusst **nicht** nachgeladen (sonst ändern sich ihre Bytes und sie tauchen im Reader wieder auf).
+- **Detail-Guard.** Eine Detailseite ohne Kritikerzahl (Layoutänderung, Soft-Block mit HTTP 200) wird nicht mehr als „erledigt" eingefroren, sondern in späteren Läufen erneut versucht; nach 5 leeren Versuchen bleibt der Eintrag bei der einfachen Score-Zeile. `MC_DETAIL_MAX` zählt jetzt Versuche einschließlich Fehlern. Drei leere Seiten in Folge stoppen die Anreicherung: Feed und State werden trotzdem geschrieben und committet, danach wird der Lauf rot und legt ein Issue „Detail enrichment degraded" an.
 
 ## Härtung 27.08.2026
 
