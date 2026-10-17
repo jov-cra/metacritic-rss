@@ -98,14 +98,14 @@ def _with_fetch(fn, pages):
 
 def test_scored_season_is_emitted_once_with_detail():
     state, emitted = {}, {}
-    new, tried, failed = _with_fetch(lambda: mf.check_seasons(state, emitted, {S4}, _args(), NOW), {S4: SEASON})
+    new, tried, failed, _ = _with_fetch(lambda: mf.check_seasons(state, emitted, {S4}, _args(), NOW), {S4: SEASON})
     assert (new, tried, failed) == (1, 1, 0)
     e = emitted[S4]
     assert e["title"] == "The Diplomat (2023): Season 4" and e["score"] == 90
     assert e["feed_date"] == NOW.isoformat() and e["detail"]["critic_count"] == 12
     assert S4 not in state["seasons"]
     # second run: nothing to do, nothing fetched
-    assert _with_fetch(lambda: mf.check_seasons(state, emitted, {S4}, _args(), NOW), {}) == (0, 0, 0)
+    assert _with_fetch(lambda: mf.check_seasons(state, emitted, {S4}, _args(), NOW), {}) == (0, 0, 0, 0)
 
 
 def test_unscored_season_stays_pending_without_state_churn():
@@ -121,7 +121,7 @@ def test_unscored_season_stays_pending_without_state_churn():
 def test_fetch_error_is_not_a_missing_score():
     state, emitted = {}, {}
     res = _with_fetch(lambda: mf.check_seasons(state, emitted, {S4}, _args(), NOW), {S4: RuntimeError("503")})
-    assert res == (0, 1, 1) and S4 in state["seasons"] and not state["seasons"][S4].get("gave_up")
+    assert res == (0, 1, 1, 0) and S4 in state["seasons"] and not state["seasons"][S4].get("gave_up")
 
 
 def test_budget_counts_attempts_and_rotation_reaches_everyone():
@@ -135,7 +135,7 @@ def test_budget_counts_attempts_and_rotation_reaches_everyone():
     mf.fetch_detail = fake
     try:
         for slot in range(3):
-            _, tried, _ = mf.check_seasons(state, emitted, urls, _args(season_max=10),
+            _, tried, _, _ = mf.check_seasons(state, emitted, urls, _args(season_max=10),
                                            NOW + timedelta(hours=2 * slot))
             assert tried == 10
     finally:
@@ -144,21 +144,25 @@ def test_budget_counts_attempts_and_rotation_reaches_everyone():
 
 
 def test_candidate_gives_up_after_60_days_and_never_returns():
-    state = {"seasons": {S4: {"first_seen": "2026-08-01"}}}
+    state = {"seasons": {S4: {"first_seen": "2026-08-01", "ok": True}}}
     res = _with_fetch(lambda: mf.check_seasons(state, {}, {S4}, _args(), NOW), {})
-    assert res == (0, 0, 0) and state["seasons"][S4]["gave_up"] is True
+    assert res == (0, 0, 0, 0) and state["seasons"][S4]["gave_up"] is True
+    # never read successfully (markup may be broken): not given up, checked again
+    state = {"seasons": {S4: {"first_seen": "2026-08-01"}}}
+    res = _with_fetch(lambda: mf.check_seasons(state, {}, {S4}, _args(), NOW), {S4: RuntimeError("x")})
+    assert res[:2] == (0, 1) and not state["seasons"][S4].get("gave_up")
 
 
 def test_future_premiere_is_skipped_and_counts_from_premiere():
     later = "https://www.metacritic.com/tv/silo/season-4/"
     state = {"seasons": {later: {"first_seen": "2026-08-01", "premiere": "Jul 9, 2027"}}}
-    assert _with_fetch(lambda: mf.check_seasons(state, {}, set(), _args(), NOW), {}) == (0, 0, 0)
+    assert _with_fetch(lambda: mf.check_seasons(state, {}, set(), _args(), NOW), {}) == (0, 0, 0, 0)
     assert not state["seasons"][later].get("gave_up")
     # aired 20 days ago, first seen long before: still checked, not given up
     state = {"seasons": {later: {"first_seen": "2026-06-01", "premiere": "Sep 27, 2026"}}}
     html = SEASON.replace('"ratingValue":90', '"ratingValue":null').replace(S4, later)
     res = _with_fetch(lambda: mf.check_seasons(state, {}, set(), _args(), NOW), {later: RuntimeError("x")})
-    assert res == (0, 1, 1) and not state["seasons"][later].get("gave_up")
+    assert res == (0, 1, 1, 0) and not state["seasons"][later].get("gave_up")
 
 
 def test_premiere_learned_from_page_is_stored_once():
@@ -203,6 +207,36 @@ def test_detail_frozen_empty_after_max_tries():
     assert emitted[url]["detail"] == {"v": mf.DETAIL_VERSION, "empty": True}
     assert "detail_tries" not in emitted[url]
     assert "Metascore 70" in mf.describe_item(emitted[url])      # basic description
+
+
+def test_network_errors_do_not_use_up_tries():
+    emitted = _emitted(4)
+    original = mf.fetch_detail
+    def boom(u):
+        raise RuntimeError("429")
+    mf.fetch_detail = boom
+    try:
+        done, degraded = mf.enrich_missing(emitted, cap=60, delay=0)
+    finally:
+        mf.fetch_detail = original
+    assert degraded is True
+    assert all("detail_tries" not in m and "detail" not in m for m in emitted.values())
+
+
+def test_structural_season_failure_is_counted():
+    urls = {f"https://www.metacritic.com/tv/show{i}/season-2/" for i in range(6)}
+    pages = {u: "<html><body>no json-ld</body></html>" for u in urls}
+    state = {}
+    new, tried, failed, structural = _with_fetch(
+        lambda: mf.check_seasons(state, {}, urls, _args(), NOW), pages)
+    assert tried == 6 and failed == 6 and structural == 6
+
+
+def test_late_season_is_dated_by_premiere():
+    html = SEASON.replace("Oct 15, 2026", "Sep 1, 2026")
+    state, emitted = {}, {}
+    _with_fetch(lambda: mf.check_seasons(state, emitted, {S4}, _args(), NOW), {S4: html})
+    assert "feed_date" not in emitted[S4] and emitted[S4]["release_date"] == "Sep 1, 2026"
 
 
 def test_detail_budget_counts_failures():

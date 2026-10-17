@@ -51,6 +51,7 @@ jobs:
         run: python metacritic_feed.py
 
       - name: Commit updated feed + state
+        id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -62,12 +63,12 @@ jobs:
             git push
           fi
 
-      - name: Fail when detail enrichment is degraded
+      - name: Fail when enrichment or season discovery is degraded
         # Feed and state were written and committed above (scores are correct);
-        # only the critic/user stats are missing, so the run turns red afterwards.
-        if: steps.build.outputs.degraded == 'true'
+        # only a supplementary part is broken, so the run turns red afterwards.
+        if: steps.build.outputs.degraded == 'true' || steps.build.outputs.seasons_degraded == 'true'
         run: |
-          echo "Detail pages returned no critic stats several times in a row (layout change or soft-block)."
+          echo "degraded=${{ steps.build.outputs.degraded }} seasons_degraded=${{ steps.build.outputs.seasons_degraded }}"
           exit 1
 
       - name: Open an issue when the build fails
@@ -78,10 +79,15 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           DEGRADED: ${{ steps.build.outputs.degraded }}
+          SEASONS_DEGRADED: ${{ steps.build.outputs.seasons_degraded }}
+          COMMITTED: ${{ steps.commit.outcome }}
         run: |
-          if [ "$DEGRADED" = "true" ]; then
+          if [ "$COMMITTED" = "success" ] && [ "$DEGRADED" = "true" ]; then
             title="Detail enrichment degraded"
             body="The feed was published, but detail pages returned no critic stats (layout change or soft-block); new items show only the basic line. Run: $RUN_URL"
+          elif [ "$COMMITTED" = "success" ] && [ "$SEASONS_DEGRADED" = "true" ]; then
+            title="Season discovery degraded"
+            body="The feed was published, but new seasons are not being found (no season links, or no season page readable). Run: $RUN_URL"
           else
             title="Feed build is failing"
             body="The scheduled feed build failed and left the previous feed.xml in place (fail-closed), so the published feed is now going stale. Run: $RUN_URL"
