@@ -11639,6 +11639,22 @@
         "user_tbd": true,
         "v": 3
       }
+    },
+    "https://www.metacritic.com/movie/the-last-picture-shows/": {
+      "title": "The Last Picture Shows",
+      "score": 85,
+      "media": "movie",
+      "release_date": "Aug 7, 2026",
+      "emitted_at": "2026-10-17T06:17:34.209332+00:00",
+      "feed_date": "2026-10-17T06:17:34.209332+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d3bd90e34d6a5cbf88972d0f1748688d14aa37fc/catalog/provider/5/2/5-tt43596241.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/d92bbb36e0da9677561cf5b5d499a290ee8a5b01/catalog/provider/5/2/5-tt43596241.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   }
 }

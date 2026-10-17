@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 16 Oct 2026 22:15:16 +0000</lastBuildDate>
+<lastBuildDate>Sat, 17 Oct 2026 06:17:34 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[85] The Last Picture Shows (Movie)</title>
+<link>https://www.metacritic.com/movie/the-last-picture-shows/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-last-picture-shows/</guid>
+<pubDate>Sat, 17 Oct 2026 06:17:34 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/d92bbb36e0da9677561cf5b5d499a290ee8a5b01/catalog/provider/5/2/5-tt43596241.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[81] Norm: The Tale of Norm MacDonald (Movie)</title>
 <link>https://www.metacritic.com/movie/norm-the-tale-of-norm-macdonald/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/233f46db114735863c57ebf00540a760620ed963/catalog/provider/2/13/2-284c855202fd40300d8e853fc98a887d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 40% positive</description>
-</item>
-<item>
-<title>[70] Mother of Flies (Movie)</title>
-<link>https://www.metacritic.com/movie/mother-of-flies/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/mother-of-flies/</guid>
-<pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/c10fb79e30528d7137fa874fbbcb717eed7296ec/catalog/provider/7/2/7-1765484749.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 78% positive</description>
 </item>
 </channel>
 </rss>
