@@ -5,7 +5,7 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sun, 18 Oct 2026 16:58:32 +0000</lastBuildDate>
+<lastBuildDate>Sun, 18 Oct 2026 19:44:06 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>[80] Blue Lights: Season 4 (TV)</title>
@@ -2568,6 +2568,14 @@
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/6b3c5aedbc159cdc33459265ac49b1c75c3222aa/catalog/provider/7/2/7-1776355885.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 0% positive</description>
 </item>
 <item>
+<title>[60] Death Valley (2025): Season 2 (TV)</title>
+<link>https://www.metacritic.com/tv/death-valley-2025/season-2/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/death-valley-2025/season-2/</guid>
+<pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/3b2a13d61e8e9cd11f9677bacc610d65f02e3cd4/catalog/provider/2/2/2-5b3121e53cabb5d9a214341b7efd285e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 0% positive</description>
+</item>
+<item>
 <title>[63] Dutton Ranch (TV)</title>
 <link>https://www.metacritic.com/tv/dutton-ranch/</link>
 <guid isPermaLink="false">https://www.metacritic.com/tv/dutton-ranch/</guid>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/9168bf0369019b7aae5a34d5940d2518cd153d16/catalog/provider/2/13/2-0607f09086a6c0a135562027a9e35b26.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;16 reviews · 88% positive</description>
-</item>
-<item>
-<title>[75] Send Help (Movie)</title>
-<link>https://www.metacritic.com/movie/send-help/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/send-help/</guid>
-<pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/06afe94113ff251b009d3a6a74e514ed620ef26f/catalog/provider/2/2/2-9c418bec4dc08bdb6ed06a2984740bf8.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;40 reviews · 85% positive</description>
 </item>
 </channel>
 </rss>

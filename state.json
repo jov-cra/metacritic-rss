@@ -11783,6 +11783,21 @@
         "image": "https://www.metacritic.com/a/img/resize/285c3e8d6885c482c7857e328617129b4019b3ce/catalog/provider/2/13/2-7b517e643ca66ea8ecd68fed69b0cb4e.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/death-valley-2025/season-2/": {
+      "title": "Death Valley (2025): Season 2",
+      "score": 60,
+      "media": "tv",
+      "release_date": "May 17, 2026",
+      "emitted_at": "2026-10-18T19:44:06.211264+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/3b2a13d61e8e9cd11f9677bacc610d65f02e3cd4/catalog/provider/2/2/2-5b3121e53cabb5d9a214341b7efd285e.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "detail": {
+        "critic_count": 4,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/3b2a13d61e8e9cd11f9677bacc610d65f02e3cd4/catalog/provider/2/2/2-5b3121e53cabb5d9a214341b7efd285e.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   },
   "seasons": {
@@ -11811,13 +11826,13 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/cyberpunk-edgerunners/season-2/": {
-      "first_seen": "2026-10-17"
-    },
-    "https://www.metacritic.com/tv/death-valley-2025/season-2/": {
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "ok": true
     },
     "https://www.metacritic.com/tv/dexter-resurrection/season-2/": {
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Oct 30, 2026"
     },
     "https://www.metacritic.com/tv/emily-in-paris/season-6/": {
       "first_seen": "2026-10-17"
