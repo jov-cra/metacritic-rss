@@ -5,7 +5,7 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sun, 18 Oct 2026 12:12:47 +0000</lastBuildDate>
+<lastBuildDate>Sun, 18 Oct 2026 16:58:32 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>[80] Blue Lights: Season 4 (TV)</title>
@@ -1174,6 +1174,14 @@
 <pubDate>Fri, 21 Aug 2026 00:30:26 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c59a758c86b7c3ebc39b374566173c41dfa58496/catalog/provider/2/13/2-d01ecf5f0ddc7b8fc8a0f8760abb75e1.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 38% positive</description>
+</item>
+<item>
+<title>[86] Ludwig: Season 2 (TV)</title>
+<link>https://www.metacritic.com/tv/ludwig/season-2/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/ludwig/season-2/</guid>
+<pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/285c3e8d6885c482c7857e328617129b4019b3ce/catalog/provider/2/13/2-7b517e643ca66ea8ecd68fed69b0cb4e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;Critics 86 · 6 reviews · 83% positive · Users 7.2 (9 ratings)</description>
 </item>
 <item>
 <title>[72] Lanterns (TV)</title>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/06afe94113ff251b009d3a6a74e514ed620ef26f/catalog/provider/2/2/2-9c418bec4dc08bdb6ed06a2984740bf8.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;40 reviews · 85% positive</description>
-</item>
-<item>
-<title>[82] Paying for It (Movie)</title>
-<link>https://www.metacritic.com/movie/paying-for-it/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/paying-for-it/</guid>
-<pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/928b7eef4e0cf368975d9a64ca8b401a5d6f7fc6/catalog/provider/7/2/7-1738601583.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>
