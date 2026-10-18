@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sun, 18 Oct 2026 06:40:32 +0000</lastBuildDate>
+<lastBuildDate>Sun, 18 Oct 2026 12:12:47 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[80] Blue Lights: Season 4 (TV)</title>
+<link>https://www.metacritic.com/tv/blue-lights/season-4/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/blue-lights/season-4/</guid>
+<pubDate>Sun, 18 Oct 2026 12:12:47 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/c7637a2617852945877ea411b65c788fae57474d/catalog/provider/2/13/2-21cb21ddd8d574ddfd7956417c906833.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
 <item>
 <title>[65] Tulsa King: Season 4 (TV)</title>
 <link>https://www.metacritic.com/tv/tulsa-king/season-4/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/928b7eef4e0cf368975d9a64ca8b401a5d6f7fc6/catalog/provider/7/2/7-1738601583.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[80] Natchez (Movie)</title>
-<link>https://www.metacritic.com/movie/natchez/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/natchez/</guid>
-<pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/6d3be044d0070201578d322fef5675e2a49401d9/catalog/provider/2/13/2-6c970dac356bf7471fa0a3fad457985a.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>

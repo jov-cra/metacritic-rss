@@ -11751,20 +11751,39 @@
         "v": 3,
         "critic_count": 2
       }
+    },
+    "https://www.metacritic.com/tv/blue-lights/season-4/": {
+      "title": "Blue Lights: Season 4",
+      "score": 80,
+      "media": "tv",
+      "release_date": "Sep 29, 2026",
+      "emitted_at": "2026-10-18T12:12:47.417775+00:00",
+      "feed_date": "2026-10-18T12:12:47.417775+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/aad296e575c61736552e3cd2ac00e1da06a085c3/catalog/provider/2/2/2-1d8edd15def5d9741f2ccb931429140d.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c7637a2617852945877ea411b65c788fae57474d/catalog/provider/2/13/2-21cb21ddd8d574ddfd7956417c906833.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   },
   "seasons": {
     "https://www.metacritic.com/tv/alls-fair-2025/season-2/": {
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Nov 4, 2026"
     },
     "https://www.metacritic.com/tv/bad-monkey/season-2/": {
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Dec 2, 2026"
     },
     "https://www.metacritic.com/tv/black-doves/season-2/": {
-      "first_seen": "2026-10-17"
-    },
-    "https://www.metacritic.com/tv/blue-lights/season-4/": {
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Nov 5, 2026"
     },
     "https://www.metacritic.com/tv/city-of-god-the-fight-rages-on/season-2/": {
       "first_seen": "2026-10-17"
