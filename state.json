@@ -11687,6 +11687,55 @@
         "image": "https://www.metacritic.com/a/img/resize/19a3376fd976be4ad4d762eb14fe02f2a62a95af/catalog/provider/2/13/2-db815e6f86f8f776a1d4f13160465509.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/the-diplomat-2023/season-4/": {
+      "title": "The Diplomat (2023): Season 4",
+      "score": 90,
+      "media": "tv",
+      "release_date": "Oct 15, 2026",
+      "emitted_at": "2026-10-18T01:40:57.779904+00:00",
+      "feed_date": "2026-10-18T01:40:57.779904+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/be8b72b33f011e217642f1a4d90d731c60bb114e/catalog/provider/2/13/2-f1d156ef7546de382445f6fdc865e68c.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "detail": {
+        "critic_count": 12,
+        "pos": 92,
+        "user_count": 18,
+        "user_score": 7.6,
+        "image": "https://www.metacritic.com/a/img/resize/be8b72b33f011e217642f1a4d90d731c60bb114e/catalog/provider/2/13/2-f1d156ef7546de382445f6fdc865e68c.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/time/season-3/": {
+      "title": "Time: Season 3",
+      "score": 89,
+      "media": "tv",
+      "release_date": "Oct 11, 2026",
+      "emitted_at": "2026-10-18T01:40:57.779904+00:00",
+      "feed_date": "2026-10-18T01:40:57.779904+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/4fa115f8ec1cb0c346e33a13820dc4b7f943db43/catalog/provider/2/2/2-ea62ed063fc6c922de487fedc57af464.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "detail": {
+        "critic_count": 5,
+        "pos": 80,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/fa71aca54aded66dc2fb4082282533861a1fc226/catalog/provider/2/13/2-8490f5812054072819b7ed7397460d69.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/tulsa-king/season-4/": {
+      "title": "Tulsa King: Season 4",
+      "score": 65,
+      "media": "tv",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-10-18T01:40:57.779904+00:00",
+      "feed_date": "2026-10-18T01:40:57.779904+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/52c603a034e1605d7196c5384d256f9af6931a8a/catalog/provider/2/2/2-14977fc6fea465195e3f853fe519ad3e.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/52c603a034e1605d7196c5384d256f9af6931a8a/catalog/provider/2/2/2-14977fc6fea465195e3f853fe519ad3e.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   },
   "seasons": {
@@ -11780,13 +11829,14 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/stick/season-2/": {
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Nov 4, 2026"
     },
     "https://www.metacritic.com/tv/the-chosen/season-6/": {
-      "first_seen": "2026-10-17"
-    },
-    "https://www.metacritic.com/tv/the-diplomat-2023/season-4/": {
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Nov 15, 2026"
     },
     "https://www.metacritic.com/tv/the-gilded-age/season-4/": {
       "first_seen": "2026-10-17",
@@ -11827,12 +11877,6 @@
       "first_seen": "2026-10-17",
       "ok": true,
       "premiere": "Oct 21, 2026"
-    },
-    "https://www.metacritic.com/tv/time/season-3/": {
-      "first_seen": "2026-10-17"
-    },
-    "https://www.metacritic.com/tv/tulsa-king/season-4/": {
-      "first_seen": "2026-10-17"
     },
     "https://www.metacritic.com/tv/yellowjackets/season-4/": {
       "first_seen": "2026-10-17"

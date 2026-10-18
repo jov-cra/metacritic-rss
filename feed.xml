@@ -5,8 +5,32 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sat, 17 Oct 2026 20:14:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 18 Oct 2026 01:40:57 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[65] Tulsa King: Season 4 (TV)</title>
+<link>https://www.metacritic.com/tv/tulsa-king/season-4/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/tulsa-king/season-4/</guid>
+<pubDate>Sun, 18 Oct 2026 01:40:57 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/52c603a034e1605d7196c5384d256f9af6931a8a/catalog/provider/2/2/2-14977fc6fea465195e3f853fe519ad3e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
+<item>
+<title>[89] Time: Season 3 (TV)</title>
+<link>https://www.metacritic.com/tv/time/season-3/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/time/season-3/</guid>
+<pubDate>Sun, 18 Oct 2026 01:40:57 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/fa71aca54aded66dc2fb4082282533861a1fc226/catalog/provider/2/13/2-8490f5812054072819b7ed7397460d69.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 80% positive</description>
+</item>
+<item>
+<title>[90] The Diplomat (2023): Season 4 (TV)</title>
+<link>https://www.metacritic.com/tv/the-diplomat-2023/season-4/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-diplomat-2023/season-4/</guid>
+<pubDate>Sun, 18 Oct 2026 01:40:57 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/be8b72b33f011e217642f1a4d90d731c60bb114e/catalog/provider/2/13/2-f1d156ef7546de382445f6fdc865e68c.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;Critics 90 · 12 reviews · 92% positive · Users 7.6 (18 ratings)</description>
+</item>
 <item>
 <title>[92] The Lowdown: Season 2 (TV)</title>
 <link>https://www.metacritic.com/tv/the-lowdown/season-2/</link>
@@ -3982,30 +4006,6 @@
 <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c299eb12fdb46d64da2ecbc8f70e3cd71d24303b/catalog/provider/2/13/2-4b82f317b3b812122980bd356da32bfc.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 83% positive</description>
-</item>
-<item>
-<title>[85] A Poet (Movie)</title>
-<link>https://www.metacritic.com/movie/a-poet/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/a-poet/</guid>
-<pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/f4455322142baa92c55e0c3c3baadab9e34f6430/catalog/provider/5/2/5-tt36544524.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;13 reviews · 100% positive</description>
-</item>
-<item>
-<title>[67] The Wrecking Crew (Movie)</title>
-<link>https://www.metacritic.com/movie/the-wrecking-crew-2026/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/the-wrecking-crew-2026/</guid>
-<pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/b02e66b034a7ad44c0ef373334fc5c03cbb95e85/catalog/provider/5/2/5-tt33046197.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 67% positive</description>
-</item>
-<item>
-<title>[75] Wonder Man (TV)</title>
-<link>https://www.metacritic.com/tv/wonder-man/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/wonder-man/</guid>
-<pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/a1d4a35a65acbaeca729c212d659472dc963817f/catalog/provider/2/13/2-150802e7f10e5cfe3732ff9efca7571d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;31 reviews · 87% positive</description>
 </item>
 </channel>
 </rss>
