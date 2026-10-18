@@ -11835,7 +11835,9 @@
       "premiere": "Oct 30, 2026"
     },
     "https://www.metacritic.com/tv/emily-in-paris/season-6/": {
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Dec 24, 2026"
     },
     "https://www.metacritic.com/tv/lupin/season-4/": {
       "first_seen": "2026-10-17",
