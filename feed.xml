@@ -5,7 +5,7 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sun, 18 Oct 2026 01:40:57 +0000</lastBuildDate>
+<lastBuildDate>Sun, 18 Oct 2026 06:40:32 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>[65] Tulsa King: Season 4 (TV)</title>
@@ -710,6 +710,14 @@
 <pubDate>Thu, 17 Sep 2026 02:06:14 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/cb29542b6d9fd3f464121e30548a84441429991c/catalog/provider/7/2/7-1769467433.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 100% positive</description>
+</item>
+<item>
+<title>[0] All Creatures Great and Small (2021): Season 7 (TV)</title>
+<link>https://www.metacritic.com/tv/all-creatures-great-and-small-2021/season-7/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/all-creatures-great-and-small-2021/season-7/</guid>
+<pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/ab90a0c3efd23303992014e295bc8b6f76b7d1bb/catalog/provider/2/13/2-f2282ecd40b429e4229ad52560e0e4a4.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;2 reviews · 100% positive</description>
 </item>
 <item>
 <title>[72] Neagley (TV)</title>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/6d3be044d0070201578d322fef5675e2a49401d9/catalog/provider/2/13/2-6c970dac356bf7471fa0a3fad457985a.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[76] Islands (Movie)</title>
-<link>https://www.metacritic.com/movie/islands-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/islands-2025/</guid>
-<pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/c299eb12fdb46d64da2ecbc8f70e3cd71d24303b/catalog/provider/2/13/2-4b82f317b3b812122980bd356da32bfc.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 83% positive</description>
 </item>
 </channel>
 </rss>

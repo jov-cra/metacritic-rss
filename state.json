@@ -11736,12 +11736,24 @@
         "image": "https://www.metacritic.com/a/img/resize/52c603a034e1605d7196c5384d256f9af6931a8a/catalog/provider/2/2/2-14977fc6fea465195e3f853fe519ad3e.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/all-creatures-great-and-small-2021/season-7/": {
+      "title": "All Creatures Great and Small (2021): Season 7",
+      "score": 0,
+      "media": "tv",
+      "release_date": "Sep 17, 2026",
+      "emitted_at": "2026-10-18T06:40:32.449804+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ab90a0c3efd23303992014e295bc8b6f76b7d1bb/catalog/provider/2/13/2-f2282ecd40b429e4229ad52560e0e4a4.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "detail": {
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/ab90a0c3efd23303992014e295bc8b6f76b7d1bb/catalog/provider/2/13/2-f2282ecd40b429e4229ad52560e0e4a4.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3,
+        "critic_count": 2
+      }
     }
   },
   "seasons": {
-    "https://www.metacritic.com/tv/all-creatures-great-and-small-2021/season-7/": {
-      "first_seen": "2026-10-17"
-    },
     "https://www.metacritic.com/tv/alls-fair-2025/season-2/": {
       "first_seen": "2026-10-17"
     },
@@ -11776,10 +11788,14 @@
       "first_seen": "2026-10-17"
     },
     "https://www.metacritic.com/tv/lupin/season-4/": {
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Oct 23, 2026"
     },
     "https://www.metacritic.com/tv/maigret-2025/season-2/": {
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Oct 18, 2026"
     },
     "https://www.metacritic.com/tv/maxton-hall-the-world-between-us/season-3/": {
       "first_seen": "2026-10-17",
@@ -11879,10 +11895,13 @@
       "premiere": "Oct 21, 2026"
     },
     "https://www.metacritic.com/tv/yellowjackets/season-4/": {
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "ok": true
     },
     "https://www.metacritic.com/tv/your-friendly-neighborhood-spider-man/season-2/": {
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "ok": true,
+      "premiere": "Jan 13, 2027"
     }
   }
 }
