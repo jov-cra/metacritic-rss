@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Sun, 18 Oct 2026 19:44:06 +0000</lastBuildDate>
+<lastBuildDate>Tue, 20 Oct 2026 00:45:34 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[81] Phony (TV)</title>
+<link>https://www.metacritic.com/tv/phony/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/phony/</guid>
+<pubDate>Tue, 20 Oct 2026 00:45:34 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/12d11ebb988d06582a5baddba61193aff4529046/catalog/provider/7/2/7-1792433971.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
+<item>
+<title>[0] Cyberpunk: Edgerunners: Season 2 (TV)</title>
+<link>https://www.metacritic.com/tv/cyberpunk-edgerunners/season-2/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/cyberpunk-edgerunners/season-2/</guid>
+<pubDate>Tue, 20 Oct 2026 00:45:34 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/38fca66ee751ef4785f742bf4698680a5b5cb645/catalog/provider/2/2/2-df29c058cf603c9a1a3459b13a9d418d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;Critics 0 · 2 reviews · Users 9.2 (6 ratings)</description>
+</item>
 <item>
 <title>[80] Blue Lights: Season 4 (TV)</title>
 <link>https://www.metacritic.com/tv/blue-lights/season-4/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/1543deff55b7c55db92640c98fa74d93979b0802/catalog/provider/2/2/2-43378a072e1ece1c50855ddbf45c9c1c.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 60% positive</description>
-</item>
-<item>
-<title>[49] Vanished (2026) (TV)</title>
-<link>https://www.metacritic.com/tv/vanished-2026/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/vanished-2026/</guid>
-<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/1d160671d67a3016a49958327f150f947cb26093/catalog/provider/2/13/2-3ddcceab4b6e8f8c5745938db567d60e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 22% positive</description>
-</item>
-<item>
-<title>[76] The Love That Remains (Movie)</title>
-<link>https://www.metacritic.com/movie/the-love-that-remains/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/the-love-that-remains/</guid>
-<pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/9168bf0369019b7aae5a34d5940d2518cd153d16/catalog/provider/2/13/2-0607f09086a6c0a135562027a9e35b26.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;16 reviews · 88% positive</description>
 </item>
 </channel>
 </rss>

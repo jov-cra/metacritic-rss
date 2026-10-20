@@ -11798,6 +11798,38 @@
         "image": "https://www.metacritic.com/a/img/resize/3b2a13d61e8e9cd11f9677bacc610d65f02e3cd4/catalog/provider/2/2/2-5b3121e53cabb5d9a214341b7efd285e.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/phony/": {
+      "title": "Phony",
+      "score": 81,
+      "media": "tv",
+      "release_date": "Oct 20, 2026",
+      "emitted_at": "2026-10-20T00:45:34.902469+00:00",
+      "feed_date": "2026-10-20T00:45:34.902469+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/59623185ed756916f3354343873824601f89104a/catalog/provider/7/2/7-1792043577.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/12d11ebb988d06582a5baddba61193aff4529046/catalog/provider/7/2/7-1792433971.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/cyberpunk-edgerunners/season-2/": {
+      "title": "Cyberpunk: Edgerunners: Season 2",
+      "score": 0,
+      "media": "tv",
+      "release_date": "",
+      "emitted_at": "2026-10-20T00:45:34.902469+00:00",
+      "feed_date": "2026-10-20T00:45:34.902469+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/38fca66ee751ef4785f742bf4698680a5b5cb645/catalog/provider/2/2/2-df29c058cf603c9a1a3459b13a9d418d.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "detail": {
+        "user_count": 6,
+        "user_score": 9.2,
+        "image": "https://www.metacritic.com/a/img/resize/38fca66ee751ef4785f742bf4698680a5b5cb645/catalog/provider/2/2/2-df29c058cf603c9a1a3459b13a9d418d.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3,
+        "critic_count": 2
+      }
     }
   },
   "seasons": {
@@ -11822,10 +11854,6 @@
       "premiere": "Nov 8, 2026"
     },
     "https://www.metacritic.com/tv/common-side-effects/season-2/": {
-      "first_seen": "2026-10-17",
-      "ok": true
-    },
-    "https://www.metacritic.com/tv/cyberpunk-edgerunners/season-2/": {
       "first_seen": "2026-10-17",
       "ok": true
     },
