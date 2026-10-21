@@ -12857,7 +12857,14 @@
       "release_date": "Jul 17, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/f993cb31b4a6ebaad4c5d2897ee10e12694673ce/catalog/provider/2/2/2-f3a78efd5c045cbf0a15bd1b7b3816fe.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/f993cb31b4a6ebaad4c5d2897ee10e12694673ce/catalog/provider/2/2/2-f3a78efd5c045cbf0a15bd1b7b3816fe.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/12e203ac5bdf589db4950cc5eda2ff4938291d11/catalog/provider/2/13/2-456546b12004c26c5fddc4a295b18230.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/the-hawk/season-1/": {
       "title": "The Hawk: Season 1",
@@ -12866,7 +12873,14 @@
       "release_date": "Jul 16, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/0c8345bf167e2accae6b493bc6d7002bbf23566b/catalog/provider/2/2/2-9d794e20049c39b4cc829fb2415f24c5.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/0c8345bf167e2accae6b493bc6d7002bbf23566b/catalog/provider/2/2/2-9d794e20049c39b4cc829fb2415f24c5.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 25,
+        "pos": 24,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8d04ada97af900325f1820c20e1dd6d7ed276397/catalog/provider/2/13/2-4514c14ef0b3617ea3854e1177689b7d.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/ride-or-die/season-1/": {
       "title": "Ride or Die: Season 1",
@@ -12875,7 +12889,14 @@
       "release_date": "Jul 15, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/a9d49e9c09040fb915e97fd74b18ee2dac7d5e71/catalog/provider/2/2/2-7b0dcf3ee0c20396cf497149ed38e783.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/a9d49e9c09040fb915e97fd74b18ee2dac7d5e71/catalog/provider/2/2/2-7b0dcf3ee0c20396cf497149ed38e783.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/ec26da54cc88c7aadd3b7db01b2925fb8b77b32c/catalog/provider/2/13/2-f0886719cbed93bb5437dfb8dfe669d6.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/lucky-2026/season-1/": {
       "title": "Lucky (2026): Season 1",
@@ -12884,7 +12905,15 @@
       "release_date": "Jul 15, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/ba606b0c028e5d19ca77fd2326e947a567357bbc/catalog/provider/2/2/2-304b57c318241f553bf4bd054dc935ca.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/ba606b0c028e5d19ca77fd2326e947a567357bbc/catalog/provider/2/2/2-304b57c318241f553bf4bd054dc935ca.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 29,
+        "pos": 62,
+        "user_count": 5,
+        "user_score": 6.0,
+        "image": "https://www.metacritic.com/a/img/resize/440dc9f7acf34e22aa39ce994c23cc581433828d/catalog/provider/2/13/2-07d821a8500958fbdd64662ebbb9bd85.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/the-westies/season-1/": {
       "title": "The Westies: Season 1",
@@ -12893,7 +12922,14 @@
       "release_date": "Jul 12, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/b51a90794b94d0fc18952f4e80fcd1beae6021e5/catalog/provider/7/2/7-1783019041.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/b51a90794b94d0fc18952f4e80fcd1beae6021e5/catalog/provider/7/2/7-1783019041.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 36,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2eb760204d12a25ea2e00ce892153806f5712f4d/catalog/provider/2/13/2-189a4e99705a73f0dfe4537445fde2df.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/the-man-will-burn/season-1/": {
       "title": "The Man Will Burn: Season 1",
@@ -12902,7 +12938,14 @@
       "release_date": "Jul 9, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/b1c9f0a732712a619ec6e1605c619e9f4029631e/catalog/provider/2/2/2-4fb5731642cd21fd731f11b683effb2e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/b1c9f0a732712a619ec6e1605c619e9f4029631e/catalog/provider/2/2/2-4fb5731642cd21fd731f11b683effb2e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/281bbf4a6d126a16621551afab98192f07f50f74/catalog/provider/2/13/2-f25221c4248b43a35872b8a07d135028.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/little-house-on-the-prairie-2026/season-1/": {
       "title": "Little House on the Prairie (2026): Season 1",
@@ -12911,7 +12954,14 @@
       "release_date": "Jul 9, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/97759e8a6622eded9973b0607b82161f71ce1864/catalog/provider/2/2/2-58e5ed93bfbe412c4ff59cef6231cf50.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/97759e8a6622eded9973b0607b82161f71ce1864/catalog/provider/2/2/2-58e5ed93bfbe412c4ff59cef6231cf50.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 32,
+        "pos": 59,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b62ea9945d144a73517f1a76f015170638c417cc/catalog/provider/7/2/7-1783547020.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/the-five-star-weekend/season-1/": {
       "title": "The Five Star Weekend: Season 1",
@@ -12920,7 +12970,14 @@
       "release_date": "Jul 9, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/0807a60a37a6b06e69065647251382a604cfb4a7/catalog/provider/7/2/7-1782929839.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/0807a60a37a6b06e69065647251382a604cfb4a7/catalog/provider/7/2/7-1782929839.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 19,
+        "pos": 58,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/f63752ade5dc8cad051485fb537c72211fce1cf6/catalog/provider/7/2/7-1783358745.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/x-men-97/season-2/": {
       "title": "X-Men '97: Season 2",
@@ -12929,7 +12986,15 @@
       "release_date": "Jul 1, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/ee51a236fe0ef19edb1502722665d530885512d2/catalog/provider/7/2/7-1710208510.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/ee51a236fe0ef19edb1502722665d530885512d2/catalog/provider/7/2/7-1710208510.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 100,
+        "user_count": 41,
+        "user_score": 8.2,
+        "image": "https://www.metacritic.com/a/img/resize/5e27570de2313511043430ad6397291ebb39a2c2/catalog/provider/2/13/2-3610d55e339636446459daf733039de8.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/furious-2026/season-1/": {
       "title": "Furious (2026): Season 1",
@@ -12938,7 +13003,15 @@
       "release_date": "Jun 27, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/f425105a65427a28136173eb9af51056252a2007/catalog/provider/2/2/2-89a07b18070f6a856fd26ec4ff3c284c.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/f425105a65427a28136173eb9af51056252a2007/catalog/provider/2/2/2-89a07b18070f6a856fd26ec4ff3c284c.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 22,
+        "pos": 91,
+        "user_count": 6,
+        "user_score": 9.2,
+        "image": "https://www.metacritic.com/a/img/resize/e3224622e4530248704c6f98a5025e94c2e8112d/catalog/provider/2/13/2-b04dfb950030c2903dda71164864785c.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/life-larry-and-the-pursuit-of-unhappiness/season-1/": {
       "title": "Life, Larry, and the Pursuit of Unhappiness: Season 1",
@@ -12947,7 +13020,14 @@
       "release_date": "Jun 26, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/b11ffb53b2e28441dcc054232016bc7a3a508cd0/catalog/provider/7/2/7-1782320980.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/b11ffb53b2e28441dcc054232016bc7a3a508cd0/catalog/provider/7/2/7-1782320980.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 25,
+        "pos": 32,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/6ef5a55e8f2005c72a697b52923a1ba3bfa2488c/catalog/provider/7/2/7-1782317954.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/the-bear/season-5/": {
       "title": "The Bear: Season 5",
@@ -12956,7 +13036,15 @@
       "release_date": "Jun 25, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/dcf3cbdc0c5a7e855c7bb44af1ae97c55e8328e9/catalog/provider/2/2/2-2f34d2d887817b416dc0327b225d0c1d.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/dcf3cbdc0c5a7e855c7bb44af1ae97c55e8328e9/catalog/provider/2/2/2-2f34d2d887817b416dc0327b225d0c1d.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 29,
+        "pos": 79,
+        "user_count": 33,
+        "user_score": 8.2,
+        "image": "https://www.metacritic.com/a/img/resize/e8baed0f4274e8463fbe02791f771e38aa80548d/catalog/provider/2/2/2-3d0fafa697c8effe0b94434484a3557a.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/avatar-the-last-airbender-2024/season-2/": {
       "title": "Avatar: The Last Airbender (2024): Season 2",
@@ -12965,7 +13053,15 @@
       "release_date": "Jun 25, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/75798f64875f42e98d09e529a41b0f56174f3cd9/catalog/provider/7/2/7-1708629403.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/75798f64875f42e98d09e529a41b0f56174f3cd9/catalog/provider/7/2/7-1708629403.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 71,
+        "user_count": 28,
+        "user_score": 4.8,
+        "image": "https://www.metacritic.com/a/img/resize/be6b511d356477b9ea0f3af14bee91408648e9ab/catalog/provider/2/13/2-ccfe102ff1566f80c3ceb4373e87c10a.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/the-american-experiment/season-1/": {
       "title": "The American Experiment: Season 1",
@@ -12974,7 +13070,14 @@
       "release_date": "Jun 24, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/734e750d734ae6c556bef46db0c1aa200c9bbfcd/catalog/provider/7/2/7-1781769812.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/734e750d734ae6c556bef46db0c1aa200c9bbfcd/catalog/provider/7/2/7-1781769812.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 67,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/6b1fe8d5dc6563da2b0ccaecc190afc4acf55c8d/catalog/provider/2/13/2-04fd1cb199a9a3f0b8f376b295d2c0b7.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/house-of-the-dragon/season-3/": {
       "title": "House of the Dragon: Season 3",
@@ -12983,7 +13086,15 @@
       "release_date": "Jun 21, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/8fa69f0a5c22fa68c8c2e5a3e29e2b6447871f73/catalog/provider/2/2/2-8058df71a92c7b3c8e3aa4bb62ba8b72.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/8fa69f0a5c22fa68c8c2e5a3e29e2b6447871f73/catalog/provider/2/2/2-8058df71a92c7b3c8e3aa4bb62ba8b72.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 28,
+        "pos": 82,
+        "user_count": 144,
+        "user_score": 5.5,
+        "image": "https://www.metacritic.com/a/img/resize/793ea11b5bb9e0f8bc3967442808e2cdad24245a/catalog/provider/2/2/2-89c46b9d9b70f59953df851c42b2d84b.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/the-agency-2024/season-2/": {
       "title": "The Agency (2024): Season 2",
@@ -12992,7 +13103,15 @@
       "release_date": "Jun 21, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/7129d35da55b6d95f5a3288b3300db22f770777a/catalog/provider/2/2/2-d40f6b2360b013d48cdae48f8454cfa8.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/7129d35da55b6d95f5a3288b3300db22f770777a/catalog/provider/2/2/2-d40f6b2360b013d48cdae48f8454cfa8.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 57,
+        "user_count": 13,
+        "user_score": 7.3,
+        "image": "https://www.metacritic.com/a/img/resize/f97621ff2999a764b369c538f80750d39712aa2b/catalog/provider/2/13/2-7a5a067cd2c4b1d10647824c4a92c089.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/sugar/season-2/": {
       "title": "Sugar: Season 2",
@@ -13010,7 +13129,14 @@
       "release_date": "Jun 18, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/79355b5fdabc80f8fb7dcf83b549e8a08bf8bd77/catalog/provider/2/2/2-c234611b36a6cd2f1060ad05152457af.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/79355b5fdabc80f8fb7dcf83b549e8a08bf8bd77/catalog/provider/2/2/2-c234611b36a6cd2f1060ad05152457af.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 19,
+        "pos": 37,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8da671c4798b9d69d01fa580ad59627ca8eab62c/catalog/provider/2/13/2-6c303c159d5883b04fc37d10c865654b.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/the-season-2026/season-1/": {
       "title": "The Season (2026): Season 1",
@@ -13019,7 +13145,13 @@
       "release_date": "Jun 17, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/c736a964007d49eefcca75e3e172988739eff401/catalog/provider/7/2/7-1781633269.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/c736a964007d49eefcca75e3e172988739eff401/catalog/provider/7/2/7-1781633269.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/9730a8562ec9ae5ef066514f5db4918b40ec041a/catalog/provider/2/13/2-ace656f2bbb9625864d7c9bd9994cd1e.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/every-year-after/season-1/": {
       "title": "Every Year After: Season 1",
@@ -13028,7 +13160,14 @@
       "release_date": "Jun 10, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/0825b9cacd5185b2313ba950fa7c262663f0edf0/catalog/provider/7/2/7-1780452439.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/0825b9cacd5185b2313ba950fa7c262663f0edf0/catalog/provider/7/2/7-1780452439.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 18,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7aac867238ec8d74fc2a9472940d8dc9744dec65/catalog/provider/2/13/2-b37f307d30bd2ce8ea1ae33f6a719349.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/alice-and-steve/season-1/": {
       "title": "Alice and Steve: Season 1",
@@ -13037,7 +13176,14 @@
       "release_date": "Jun 8, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/602082808d3888dac32b639e66a39961ad663b81/catalog/provider/7/2/7-1780350734.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/602082808d3888dac32b639e66a39961ad663b81/catalog/provider/7/2/7-1780350734.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 15,
+        "pos": 73,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/217244bf628f8c17415695a87e965390aa2d4991/catalog/provider/2/13/2-37a9e9cb433a755b0a3ab775095a9e12.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/interview-with-the-vampire/season-3/": {
       "title": "Interview With the Vampire: Season 3",
@@ -13046,7 +13192,15 @@
       "release_date": "Jun 7, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/301b15af9fc91ecb9e73b737ed48de3c7492e0ad/catalog/provider/2/2/2-70d6b44099e0b664ec0eaf303ed073d7.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/301b15af9fc91ecb9e73b737ed48de3c7492e0ad/catalog/provider/2/2/2-70d6b44099e0b664ec0eaf303ed073d7.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 18,
+        "pos": 89,
+        "user_count": 88,
+        "user_score": 8.1,
+        "image": "https://www.metacritic.com/a/img/resize/0a5e10f0504407463aa37286f05688320dedeb0d/catalog/provider/2/13/2-d227b2896be1aaef42dffdb1fb996746.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/cape-fear-2026/season-1/": {
       "title": "Cape Fear (2026): Season 1",
@@ -13055,7 +13209,15 @@
       "release_date": "Jun 5, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/52161a983f58d7ddc93eb7f4d7cabd116fd90ec3/catalog/provider/2/2/2-b3bcfa69f161680440953f0386348e6d.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/52161a983f58d7ddc93eb7f4d7cabd116fd90ec3/catalog/provider/2/2/2-b3bcfa69f161680440953f0386348e6d.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 30,
+        "pos": 63,
+        "user_count": 4,
+        "user_score": 6.0,
+        "image": "https://www.metacritic.com/a/img/resize/a4f619226fb4de13ab8f1fbda9a387ce90b366f2/catalog/provider/2/13/2-9cb55d14fd62ce6cf87ec6ffe5a7a9fc.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/the-witness/season-1/": {
       "title": "The Witness: Season 1",
@@ -13064,7 +13226,14 @@
       "release_date": "Jun 4, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/77b6161a918f54e48276cea10d8db5e01104d778/catalog/provider/2/2/2-e42580cafa47bede6fa86d1d65b46dbc.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/77b6161a918f54e48276cea10d8db5e01104d778/catalog/provider/2/2/2-e42580cafa47bede6fa86d1d65b46dbc.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/e1894676e3a7cc6e22724d14a810bddb5f94bfbe/catalog/provider/2/13/2-75678bdd5c4caff8cdf5b1ab33bfdf68.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/michael-jackson-the-verdict/season-1/": {
       "title": "Michael Jackson: The Verdict: Season 1",
@@ -13082,7 +13251,15 @@
       "release_date": "Jun 3, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/e3a81c849cd776431733d2bf04120f39cb3db6ca/catalog/provider/2/2/2-b9d87a8bead277d091d8d941ef8959cb.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/e3a81c849cd776431733d2bf04120f39cb3db6ca/catalog/provider/2/2/2-b9d87a8bead277d091d8d941ef8959cb.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 100,
+        "user_count": 4,
+        "user_score": 8.8,
+        "image": "https://www.metacritic.com/a/img/resize/e0af2f2197f0ef08fb1027ef89b7cbd14f7e79f9/catalog/provider/2/2/2-1862c8f743af19717d1652322f763112.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/clarksons-farm/season-5/": {
       "title": "Clarkson's Farm: Season 5",
@@ -13091,7 +13268,15 @@
       "release_date": "Jun 3, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/94824363e82e89bae4114cb54c063555608ef005/catalog/provider/2/2/2-dfe1138f17d8c2ac8ba0493f2a4303cd.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/94824363e82e89bae4114cb54c063555608ef005/catalog/provider/2/2/2-dfe1138f17d8c2ac8ba0493f2a4303cd.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 67,
+        "user_count": 4,
+        "user_score": 8.5,
+        "image": "https://www.metacritic.com/a/img/resize/b842438234bc75a3323d56953a276ec571999a5d/catalog/provider/2/2/2-2e32ba16e4346d4d112746046cf897be.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/not-suitable-for-work/season-1/": {
       "title": "Not Suitable for Work: Season 1",
@@ -13100,7 +13285,14 @@
       "release_date": "Jun 2, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/122cfcb668bae04efcf51c92669097436268cb2a/catalog/provider/7/2/7-1779818383.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/122cfcb668bae04efcf51c92669097436268cb2a/catalog/provider/7/2/7-1779818383.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 31,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/05b7e1fc736e51fd7bbd9516e61db2cf980ce0a6/catalog/provider/2/13/2-dd862dea75b098691e18cebdf96c414b.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/bring-me-the-beauties-a-model-cult/season-1/": {
       "title": "Bring Me the Beauties: A Model Cult: Season 1",
@@ -13109,7 +13301,14 @@
       "release_date": "Jun 1, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/5173c13325c199ee4e42a18f200cb515a46a35f8/catalog/provider/2/2/2-128a1cf53dd8638d2bc43daff2b7a3c1.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/5173c13325c199ee4e42a18f200cb515a46a35f8/catalog/provider/2/2/2-128a1cf53dd8638d2bc43daff2b7a3c1.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/db6f02cb290e3d7a15d0275c0be00ca097a36cb2/catalog/provider/2/13/2-ea09300355b14ea9019bfa3a87400da9.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/avatar-seven-havens/season-1/": {
       "title": "Avatar: Seven Havens: Season 1",
@@ -13118,7 +13317,15 @@
       "release_date": "May 31, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/c4169c3c12da1ebcb877065944ecabe8cf4c6f5f/catalog/provider/7/2/7-1791396857.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/c4169c3c12da1ebcb877065944ecabe8cf4c6f5f/catalog/provider/7/2/7-1791396857.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 91,
+        "user_count": 12,
+        "user_score": 6.3,
+        "image": "https://www.metacritic.com/a/img/resize/1a3b1be1cf5357b48a9fa5f9f9bfe0a71f71f8d9/catalog/provider/7/2/7-1791562376.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/tip-toe/season-1/": {
       "title": "Tip Toe: Season 1",
@@ -13127,7 +13334,14 @@
       "release_date": "May 31, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/08ae1d1848c1c81bc94704801eb929a1ca8a7989/catalog/provider/2/2/2-f9ce117f12157b6a41bcf2c79567fc4e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/08ae1d1848c1c81bc94704801eb929a1ca8a7989/catalog/provider/2/2/2-f9ce117f12157b6a41bcf2c79567fc4e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/78a5aba9c866e48f0411a3ccd569b262cf6d2c81/catalog/provider/2/13/2-7c5fbe349937ae5ac5e82e2321944859.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/rafa/season-1/": {
       "title": "Rafa: Season 1",
@@ -13136,7 +13350,14 @@
       "release_date": "May 29, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/26f2855295e2e1ce028bbc0899b920c0bdbc6f8e/catalog/provider/2/2/2-6f12688f4d7acfe9d756cf37bb1df0a7.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/26f2855295e2e1ce028bbc0899b920c0bdbc6f8e/catalog/provider/2/2/2-6f12688f4d7acfe9d756cf37bb1df0a7.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 67,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/f48cce9378143b8ba1fdb61fd21bfcb37a303b21/catalog/provider/2/2/2-6f12688f4d7acfe9d756cf37bb1df0a7.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/star-city/season-1/": {
       "title": "Star City: Season 1",
@@ -13145,7 +13366,15 @@
       "release_date": "May 29, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/5ea8d0d2e7f07fa8c08214ffa4a8e52ea7b79870/catalog/provider/2/2/2-c13499970a714a0f35751a588f0cc343.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/5ea8d0d2e7f07fa8c08214ffa4a8e52ea7b79870/catalog/provider/2/2/2-c13499970a714a0f35751a588f0cc343.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 88,
+        "user_count": 7,
+        "user_score": 7.3,
+        "image": "https://www.metacritic.com/a/img/resize/6905c7e5c231bba65dde93847e5a9e7777e425d0/catalog/provider/2/13/2-84c89fddd5277e5129f09405c5e27c79.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/the-four-seasons/season-2/": {
       "title": "The Four Seasons: Season 2",
@@ -13154,7 +13383,15 @@
       "release_date": "May 28, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/c0abee2b27ed67abaea30d1f2e8c861991158ab5/catalog/provider/2/2/2-8120051c16718c44494bb591774fb6b8.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/c0abee2b27ed67abaea30d1f2e8c861991158ab5/catalog/provider/2/2/2-8120051c16718c44494bb591774fb6b8.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 14,
+        "pos": 79,
+        "user_count": 8,
+        "user_score": 7.1,
+        "image": "https://www.metacritic.com/a/img/resize/c5c4d57bad5ba309e9b568b9d5351a4b19a00021/catalog/provider/2/13/2-46cb49116e2a5575d69f47eded034b88.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/deli-boys/season-2/": {
       "title": "Deli Boys: Season 2",
@@ -13163,7 +13400,14 @@
       "release_date": "May 28, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/e733415e3e76e7ad9cba8499d7a5fbb82d28a23c/catalog/provider/2/2/2-b74c9364f3b4d94fcd8e69ba63cb96b1.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/e733415e3e76e7ad9cba8499d7a5fbb82d28a23c/catalog/provider/2/2/2-b74c9364f3b4d94fcd8e69ba63cb96b1.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7673e462ac8d4755daa0994cb04c252d270841a9/catalog/provider/2/13/2-e6b04bf4ef70ade679f5a464942ca395.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/a-good-girls-guide-to-murder/season-2/": {
       "title": "A Good Girl's Guide to Murder: Season 2",
@@ -13172,7 +13416,15 @@
       "release_date": "May 27, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/cf549b5251807ef9b795a771a0ceb26a4af184ca/catalog/provider/2/2/2-8a1bf96ba2faeda6dba6517cf2fda314.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/cf549b5251807ef9b795a771a0ceb26a4af184ca/catalog/provider/2/2/2-8a1bf96ba2faeda6dba6517cf2fda314.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 80,
+        "user_count": 8,
+        "user_score": 4.4,
+        "image": "https://www.metacritic.com/a/img/resize/9aea9d2a122def87e10ed47bc6d10480ede1451a/catalog/provider/2/13/2-c200fece32af93cde7533a53a14d74a5.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/spider-noir/season-1/": {
       "title": "Spider-Noir: Season 1",
@@ -13181,7 +13433,15 @@
       "release_date": "May 25, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/90627ae986525b762105d66bacfbf6afb20ff898/catalog/provider/2/2/2-0c6d35cb777a8ebd5d1378a366c364f2.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/90627ae986525b762105d66bacfbf6afb20ff898/catalog/provider/2/2/2-0c6d35cb777a8ebd5d1378a366c364f2.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 28,
+        "pos": 75,
+        "user_count": 18,
+        "user_score": 7.6,
+        "image": "https://www.metacritic.com/a/img/resize/32399ad577a244ea80218c461065661461d6b447/catalog/provider/2/13/2-b274e7042dbf858084cde2f412d541d0.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/mating-season/season-1/": {
       "title": "Mating Season: Season 1",
@@ -13190,7 +13450,14 @@
       "release_date": "May 22, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/f956593cc474ad42c8330a9efacc207b38e40ba2/catalog/provider/7/2/7-1778822496.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/f956593cc474ad42c8330a9efacc207b38e40ba2/catalog/provider/7/2/7-1778822496.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 78,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8f3d479d7254e205b34fd2a42bf889ae86436281/catalog/provider/7/2/7-1779465466.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/the-boroughs/season-1/": {
       "title": "The Boroughs: Season 1",
@@ -13199,7 +13466,15 @@
       "release_date": "May 21, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/86cdab5b61535e8909130b6271ffe5fb02bbe555/catalog/provider/2/2/2-41b7b4263a515b827ad91029f00766d2.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/86cdab5b61535e8909130b6271ffe5fb02bbe555/catalog/provider/2/2/2-41b7b4263a515b827ad91029f00766d2.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 29,
+        "pos": 76,
+        "user_count": 4,
+        "user_score": 6.5,
+        "image": "https://www.metacritic.com/a/img/resize/32896cedf3f8d8ce734778fffcff722a1e2bf9cc/catalog/provider/7/2/7-1779292749.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/maximum-pleasure-guaranteed/season-1/": {
       "title": "Maximum Pleasure Guaranteed: Season 1",
@@ -13208,7 +13483,15 @@
       "release_date": "May 20, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/3c4f9d1c9176979e94bd887777cf16e1c8babf18/catalog/provider/2/2/2-ff417982191fa04ee26e694143fd8503.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/3c4f9d1c9176979e94bd887777cf16e1c8babf18/catalog/provider/2/2/2-ff417982191fa04ee26e694143fd8503.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 22,
+        "pos": 77,
+        "user_count": 5,
+        "user_score": 6.8,
+        "image": "https://www.metacritic.com/a/img/resize/c51b79b99e891efce3c3ee72e4fd95a3eec9236b/catalog/provider/7/2/7-1779292715.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/dutton-ranch/season-1/": {
       "title": "Dutton Ranch: Season 1",
@@ -13217,7 +13500,14 @@
       "release_date": "May 15, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/3049aab3b793a2f6710ae08a87afd425f4097659/catalog/provider/7/2/7-1778525771.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/3049aab3b793a2f6710ae08a87afd425f4097659/catalog/provider/7/2/7-1778525771.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 20,
+        "pos": 40,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/06db2701f60c81297a510c2a05b602444d4cfd10/catalog/provider/2/13/2-b7936aad98fe85291c9fc6b22944d5e8.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/nemesis/season-1/": {
       "title": "Nemesis: Season 1",
@@ -13226,7 +13516,14 @@
       "release_date": "May 14, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/95f1983122d4f9d8ffa24f5ca02705203868a498/catalog/provider/2/2/2-7d3f6cfe97b852578e41514512f7cc5a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/95f1983122d4f9d8ffa24f5ca02705203868a498/catalog/provider/2/2/2-7d3f6cfe97b852578e41514512f7cc5a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 56,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/45c845a9172fa0ca9322d6ab3e676ce1b863089c/catalog/provider/2/13/2-5316cb7649553a0dec231db21e906731.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/off-campus/season-1/": {
       "title": "Off Campus: Season 1",
@@ -13235,7 +13532,14 @@
       "release_date": "May 13, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/2e1fe676e200c7461a72e6ac3d91740ce065a7b0/catalog/provider/5/2/5-tt33546863.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/2e1fe676e200c7461a72e6ac3d91740ce065a7b0/catalog/provider/5/2/5-tt33546863.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 82,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/19243ea4e6cdf16f2134e397b8b5aea1c5a7ff35/catalog/provider/2/13/2-32dd0ac62c1dc734d908ded523ca5ee2.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/good-omens/season-3/": {
       "title": "Good Omens: Season 3",
@@ -13244,7 +13548,15 @@
       "release_date": "May 13, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/54c4102a7ffa3d4d4c36f89c53bf96d8567045b7/catalog/provider/2/2/2-8d19570f06f0c8bbdc05270f9ca70974.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/54c4102a7ffa3d4d4c36f89c53bf96d8567045b7/catalog/provider/2/2/2-8d19570f06f0c8bbdc05270f9ca70974.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 29,
+        "user_count": 47,
+        "user_score": 6.7,
+        "image": "https://www.metacritic.com/a/img/resize/52ffca3ee0624a2244f70f911e10fc671f3f3db4/catalog/provider/2/2/2-a225a318ff8e392b45b88b53b3b00bce.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/devil-may-cry-2025/season-2/": {
       "title": "Devil May Cry (2025): Season 2",
@@ -13253,7 +13565,15 @@
       "release_date": "May 12, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/1fe852540c1acd2d740aaa6f58dd106b6126f268/catalog/provider/2/2/2-3563464edaf966d8a635c1ee8cb49c64.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/1fe852540c1acd2d740aaa6f58dd106b6126f268/catalog/provider/2/2/2-3563464edaf966d8a635c1ee8cb49c64.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 83,
+        "user_count": 86,
+        "user_score": 6.3,
+        "image": "https://www.metacritic.com/a/img/resize/94006c244d50b272a9d7bc6f6da4e11957f51d7c/catalog/provider/2/13/2-5ba076576914d7c0210019ec751c1aa0.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/legends-2026/season-1/": {
       "title": "Legends (2026): Season 1",
@@ -13262,7 +13582,14 @@
       "release_date": "May 7, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/98c8fa928a935c6236c36aeb279263d98b5b6f5b/catalog/provider/2/2/2-ecfad048743729e7c6158291042e4d98.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/98c8fa928a935c6236c36aeb279263d98b5b6f5b/catalog/provider/2/2/2-ecfad048743729e7c6158291042e4d98.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 82,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/19ea0eeb24f3457409f824193e459782f8481892/catalog/provider/7/2/7-1778170208.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     },
     "https://www.metacritic.com/tv/the-terror/season-3/": {
       "title": "The Terror: Season 3",
@@ -13271,7 +13598,62 @@
       "release_date": "May 7, 2026",
       "emitted_at": "2026-10-21T14:42:50.639997+00:00",
       "feed_date": "2026-10-21T14:42:50.639997+00:00",
-      "image": "https://www.metacritic.com/a/img/resize/82feef93a11a5c21e339cee6bbe5ffbad933a9e6/catalog/provider/2/2/2-de2f54e9e663b6f4dbb1e5e2b153cdd5.jpg?auto=webp&fit=cover&height=288&quality=70&width=192"
+      "image": "https://www.metacritic.com/a/img/resize/82feef93a11a5c21e339cee6bbe5ffbad933a9e6/catalog/provider/2/2/2-de2f54e9e663b6f4dbb1e5e2b153cdd5.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 14,
+        "pos": 71,
+        "user_count": 13,
+        "user_score": 4.9,
+        "image": "https://www.metacritic.com/a/img/resize/a87c7737fb5b068511fd4b22d4ae52197c2c4de6/catalog/provider/2/2/2-fc1126e7426212646e715d7ede47704e.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/movie/masterplan/": {
+      "title": "Masterplan",
+      "score": 48,
+      "media": "movie",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-10-21T19:42:04.684265+00:00",
+      "feed_date": "2026-10-21T19:42:04.684265+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/8a15e09555e9fec2fc1b98537d1dab0c54d78365/catalog/provider/7/2/7-1790198282.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8f37cd8555f56a7d4b4f1db151cf6a7198e13b34/catalog/provider/7/2/7-1790198265.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/swat-exiles/season-1/": {
+      "title": "S.W.A.T. Exiles: Season 1",
+      "score": 55,
+      "media": "tv",
+      "release_date": "Sep 25, 2026",
+      "emitted_at": "2026-10-21T19:42:04.684265+00:00",
+      "feed_date": "2026-10-21T19:42:04.684265+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a5c1c151f6667232a5d0dfa8616ff176e7606b25/catalog/provider/2/2/2-a32247f45ddd6047f360d73fe978703d.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/5ea33f4a21f6fe677f1ecdff68e2b8853f7dda11/catalog/provider/2/2/2-60df412313e3112b772e53764adf38f8.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
+    },
+    "https://www.metacritic.com/tv/rivals/season-2/": {
+      "title": "Rivals: Season 2",
+      "score": 87,
+      "media": "tv",
+      "release_date": "May 15, 2026",
+      "emitted_at": "2026-10-21T19:42:04.684265+00:00",
+      "feed_date": "2026-10-21T19:42:04.684265+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5a1fad56f5d1354b3d4eb243091bf089d7c5813e/catalog/provider/2/2/2-c4ec72f6bea8f4a5d4a22d72aa1eb76a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 100,
+        "user_count": 9,
+        "user_score": 6.1,
+        "image": "https://www.metacritic.com/a/img/resize/ec2866e0b8541d73b707a307a2038b32998cc01f/catalog/provider/2/13/2-cf167c86cba7930578ef8a4a65b52db2.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   },
   "seasons": {
@@ -13546,34 +13928,54 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/couples-therapy-2019/season-5/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "May 17, 2026"
     },
     "https://www.metacritic.com/tv/dancing-with-the-stars/season-35/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 15, 2026"
     },
     "https://www.metacritic.com/tv/dark-side-of-the-ring/season-7/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 7, 2026"
     },
     "https://www.metacritic.com/tv/dateline-nbc/season-35/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 25, 2026"
     },
     "https://www.metacritic.com/tv/deadliest-catch/season-22/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "May 8, 2026"
     },
     "https://www.metacritic.com/tv/diarra-from-detroit/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 29, 2026"
     },
     "https://www.metacritic.com/tv/doc-2025/season-3/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 22, 2026"
     },
     "https://www.metacritic.com/tv/dora/season-5/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jun 5, 2026"
     },
     "https://www.metacritic.com/tv/dragons-den-can/season-21/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 17, 2026"
     },
     "https://www.metacritic.com/tv/entertainment-tonight/season-46/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 14, 2026"
     },
     "https://www.metacritic.com/tv/everyone-is-doing-great/season-2/": {
       "first_seen": "2026-10-21"
@@ -14010,6 +14412,9 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/wwe-unreal/season-3/": {
+      "first_seen": "2026-10-21"
+    },
+    "https://www.metacritic.com/tv/kitchen-nightmares/season-10/": {
       "first_seen": "2026-10-21"
     }
   }
