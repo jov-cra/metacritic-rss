@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Wed, 21 Oct 2026 02:09:14 +0000</lastBuildDate>
+<lastBuildDate>Wed, 21 Oct 2026 08:54:57 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[0] The Terminal List: Season 2 (TV)</title>
+<link>https://www.metacritic.com/tv/the-terminal-list/season-2/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-terminal-list/season-2/</guid>
+<pubDate>Wed, 21 Oct 2026 08:54:57 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/20cea07c775bc4e22729c69251dc8e097059f0ac/catalog/provider/2/13/2-f4f65822acfe4948069dbd2781fba8cf.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;3 reviews · 100% positive</description>
+</item>
+<item>
+<title>[50] The New Stanford Prison Experiment (TV)</title>
+<link>https://www.metacritic.com/tv/the-new-stanford-prison-experiment/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-new-stanford-prison-experiment/</guid>
+<pubDate>Wed, 21 Oct 2026 08:54:57 +0000</pubDate>
+<category>TV</category>
+<description>4 reviews · 0% positive</description>
+</item>
 <item>
 <title>[85] One in a Million (Movie)</title>
 <link>https://www.metacritic.com/movie/one-in-a-million/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/5ce8cdd6d5046cb943bde81d05be4a36a14e6638/catalog/provider/2/13/2-c733b1f63da597e82629bf2986098dc5.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 100% positive</description>
-</item>
-<item>
-<title>[73] Calle Málaga (Movie)</title>
-<link>https://www.metacritic.com/movie/calle-malaga/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/calle-malaga/</guid>
-<pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/5c146af30e1bf39062db65a2222d1445bf0f6a33/catalog/provider/7/2/7-1757603005.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 83% positive</description>
-</item>
-<item>
-<title>[81] The Muppet Show (2026) (TV)</title>
-<link>https://www.metacritic.com/tv/the-muppet-show-2026/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/the-muppet-show-2026/</guid>
-<pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/c5fffee2aea12a39e07c81cf5be62cdda9911527/catalog/provider/7/2/7-1770144281.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;22 reviews · 95% positive</description>
 </item>
 </channel>
 </rss>
