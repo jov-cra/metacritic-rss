@@ -11830,6 +11830,22 @@
         "v": 3,
         "critic_count": 2
       }
+    },
+    "https://www.metacritic.com/movie/one-in-a-million/": {
+      "title": "One in a Million",
+      "score": 85,
+      "media": "movie",
+      "release_date": "Oct 21, 2026",
+      "emitted_at": "2026-10-21T02:09:14.361823+00:00",
+      "feed_date": "2026-10-21T02:09:14.361823+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/75d10599cb4ca8f434e955f183e047f7403eed87/catalog/provider/7/2/7-1792446415.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/f261c6b11212023879c492d9632a071ddd212bca/catalog/provider/5/2/5-tt38983842.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      }
     }
   },
   "seasons": {

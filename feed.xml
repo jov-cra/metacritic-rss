@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Tue, 20 Oct 2026 00:45:34 +0000</lastBuildDate>
+<lastBuildDate>Wed, 21 Oct 2026 02:09:14 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[85] One in a Million (Movie)</title>
+<link>https://www.metacritic.com/movie/one-in-a-million/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/one-in-a-million/</guid>
+<pubDate>Wed, 21 Oct 2026 02:09:14 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/f261c6b11212023879c492d9632a071ddd212bca/catalog/provider/5/2/5-tt38983842.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 100% positive</description>
+</item>
 <item>
 <title>[81] Phony (TV)</title>
 <link>https://www.metacritic.com/tv/phony/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c5fffee2aea12a39e07c81cf5be62cdda9911527/catalog/provider/7/2/7-1770144281.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;22 reviews · 95% positive</description>
-</item>
-<item>
-<title>[71] Parenthood (2025) (TV)</title>
-<link>https://www.metacritic.com/tv/parenthood-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/parenthood-2025/</guid>
-<pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/1543deff55b7c55db92640c98fa74d93979b0802/catalog/provider/2/2/2-43378a072e1ece1c50855ddbf45c9c1c.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 60% positive</description>
 </item>
 </channel>
 </rss>
