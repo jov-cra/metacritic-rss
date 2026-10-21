@@ -133,6 +133,9 @@ Alles per CLI-Flag **oder** Umgebungsvariable (Flag schlägt ENV):
 | `MC_DETAIL_DELAY` | `--detail-delay` | `0.6` | Sekunden Pause zwischen Detail-Abrufen (Höflichkeit) |
 | `MC_SEASONS` | `--seasons`/`--no-seasons` | `1` | Neue Staffeln laufender Serien mit aufnehmen |
 | `MC_SEASON_MAX` | `--season-max` | `10` | Max. Staffelseiten-Abrufe pro Lauf |
+| `MC_PROVIDERS` | `--providers`/`--no-providers` | `1` | Streaming-Anbieter in Deutschland (JustWatch) für neue TV-Titel |
+| `MC_PROVIDER_MAX` | `--provider-max` | `120` | Max. JustWatch-Abfragen pro Lauf (darüber bleibt „(TV)") |
+| `MC_PROVIDER_DELAY` | `--provider-delay` | `0.5` | Pause zwischen JustWatch-Abfragen (Sekunden) |
 | – | `--dry-run` | – | Nichts schreiben, nur berichten |
 | – | `--debug` | – | Jede geparste Karte ausgeben |
 
@@ -189,6 +192,20 @@ Die Tests decken Parsing, den Schwellwert, das „einmal emittieren", den **„S
 - **Neue Staffeln.** Die TV-Browse-Seiten listen nur neue *Serien*. Eine neue Staffel einer laufenden Serie hat eine eigene URL (`/tv/<serie>/season-N/`) und einen eigenen Metascore, taucht dort aber nie als Karte auf — bis 17.10. fehlten sie deshalb im Feed (Beleg: „The Diplomat Season 4", 90). Jetzt werden Staffel-Links (N ≥ 2) aus der Kopfnavigation der TV-Browse-Seiten und aus Metacritics Artikel `/news/tv-premiere-dates/` gesammelt (ein Abruf pro Lauf) und als Kandidaten in `state["seasons"]` gemerkt. Pro Lauf werden bis zu `MC_SEASON_MAX` Staffelseiten geprüft, reihum über den 2-Stunden-Slot (kein „zuletzt geprüft"-Stempel, damit der State nicht bei jedem Lauf committet wird). Identität, Titel und Score kommen aus dem JSON-LD der Staffelseite (`TVSeason`, URL muss passen), das Premiere-Datum aus dem Kopfbereich (das JSON-LD-`datePublished` ist das der Serie). Noch nicht ausgestrahlte Staffeln werden übersprungen; ohne Score 60 Tage nach Premiere bzw. Erstsichtung wird ein Kandidat aufgegeben. Die Quelle ist redaktionell, also nicht garantiert vollständig. Fehler hier sind nie fatal.
 - **Nutzer-Score.** Metacritic schreibt „Based on 17 **User** Ratings 7.5"; der alte Ausdruck suchte „Based on N Ratings" und fand den Nutzer-Score nie (0 von 834 Titeln). Anzahl und Score kommen jetzt aus einem Treffer, 10 und 10.0 inklusive. Alte Einträge werden bewusst **nicht** nachgeladen (sonst ändern sich ihre Bytes und sie tauchen im Reader wieder auf).
 - **Detail-Guard.** Eine Detailseite ohne Kritikerzahl (Layoutänderung, Soft-Block mit HTTP 200) wird nicht mehr als „erledigt" eingefroren, sondern in späteren Läufen erneut versucht; nach 5 leeren Versuchen bleibt der Eintrag bei der einfachen Score-Zeile. `MC_DETAIL_MAX` zählt jetzt Versuche einschließlich Fehlern. Drei leere Seiten in Folge stoppen die Anreicherung: Feed und State werden trotzdem geschrieben und committet, danach wird der Lauf rot und legt ein Issue „Detail enrichment degraded" an.
+
+## Streaming-Anbieter, Staffel-Karten (21.10.2026)
+
+**Wo läuft ein neuer TV-Titel in Deutschland, und was kostet er?**
+- **Titel:** statt „(TV)" z. B. „(Apple TV · Abo)", „(ZDF · gratis)", „(Joyn · gratis | Netflix · Abo)", „(HBO Max, WOW +1 · Abo)", „(Leihen ab 3,99 €)", „(Kaufen ab 24,99 €)", „(kein DE-Angebot)". Hat eine neue Staffel in Deutschland noch kein Angebot, die älteren aber schon: „(Disney+ · Abo, nur ältere Staffeln)". Filme bleiben „(Movie)".
+- **Beschreibung:** eine Zeile wie „Streaming DE (JustWatch, 21.10.2026): im Abo bei Netflix; leihen ab 3,99 € (Apple TV Store)".
+- **Quelle:** JustWatch, öffentliche GraphQL-Schnittstelle der Website, ohne Schlüssel (`streaming.py`). Eine Abfrage je neuem TV-Titel, im selben Lauf vor dem Schreiben des Feeds.
+- **Treffer:** Titel muss exakt passen (englischer oder Originaltitel), Jahr ±1, wenn bekannt. Bei einer Staffel ohne „(YYYY)" darf die Serie nicht nach dem Staffeljahr gestartet sein; gibt es mehrere gleichnamige Serien, zählen nur die mit Staffeln bis mindestens N−1, und bleiben dann noch zwei übrig, gilt das als kein Treffer. Kein Treffer → „(TV)".
+- **Einfrieren:** Das Ergebnis wird mit Datum eingefroren, spätere Änderungen beim Anbieter werden nicht nachgezogen. Jeder neue Titel wird im Lauf seines Erscheinens abschließend behandelt (Marke `providers_due`): scheitert die Abfrage oder ist das Limit `MC_PROVIDER_MAX` erreicht, bleibt es dauerhaft bei „(TV)". So ändert sich kein Titel, den der Reader schon hat. Titel von vor dem Deploy behalten „(TV)" byte-gleich.
+- **Fehler:** nie fatal. Jede GraphQL-Fehlermeldung zählt als gescheiterte Abfrage. Drei Fehlschläge in Folge → Rest des Laufs als „(TV)", Feed wird committet, danach roter Lauf mit Issue „Streaming lookup degraded".
+
+**Staffel-Karten.** Seit 21.10.2026 verlinken die Karten der TV-Browse-Seite auf Staffeln (`/tv/<serie>/season-N/`) statt auf Serien. „Season 1" wird auf die Serien-URL zurückgeführt (die guid jeder neuen Serie seit Juli), sonst käme jede neue Serie doppelt. Staffeln ab 2 kommen damit direkt über die Browse-Seiten; die Staffel-Suche läuft als Ergänzung weiter. Der erste Lauf nach der Umstellung brachte 110 Einträge auf einmal, davon 71 doppelte „Season 1" — bewusst stehen gelassen.
+
+**Score 0.** Eine Staffel ohne Metascore trägt im JSON-LD `ratingValue: 0`; das gilt jetzt als „kein Score", ebenso eine 0 auf einer Staffel-Karte. Vorher erschienen drei Staffeln als „[0]" (All Creatures Great and Small S7, Cyberpunk: Edgerunners S2, The Terminal List S2); die bleiben so stehen.
 
 ## Härtung 27.08.2026
 

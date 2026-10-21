@@ -50,6 +50,8 @@ except ImportError:  # keeps the module importable for tests without requests
 
 from bs4 import BeautifulSoup
 
+import streaming
+
 # --------------------------------------------------------------------------- #
 # Constants
 # --------------------------------------------------------------------------- #
@@ -176,9 +178,22 @@ def parse_browse(html_text: str, media: str) -> list[dict]:
         if score is not None and not (0 <= score <= 100):
             score = None  # reject out-of-range matches (a real Metascore is 0-100)
 
+        title = _clean_title(anchor, text, date_match.start())
+        if media == "tv" and score == 0 and SEASON_PATH_RE.match(url[len(BASE):]):
+            score = None   # a season without a Metascore, as in parse_season
+        # Since 21.10.2026 the TV browse cards link to SEASONS (/tv/<show>/season-N/)
+        # instead of shows. Season 1 is the show itself: fold it back onto the show
+        # URL, which has been the guid of every new show since July — otherwise each
+        # new show would appear twice ("Phony" and "Phony: Season 1").
+        if media == "tv":
+            sm = SEASON_PATH_RE.match(url[len(BASE):])
+            if sm and int(sm.group(2)) == 1:
+                url = f"{BASE}/tv/{sm.group(1)}/"
+                title = SEASON1_TITLE_RE.sub("", title) or title
+
         record = {
             "url": url,
-            "title": _clean_title(anchor, text, date_match.start()),
+            "title": title,
             "score": score,
             "date": date_match.group(1),
             "media": media,
@@ -324,6 +339,7 @@ def enrich_missing(emitted: dict, cap: int, delay: float) -> tuple[int, bool]:
 # season page is checked for a score. Season 1 is skipped: a new show is already
 # covered by its show card.
 SEASON_PATH_RE = re.compile(r"^/tv/([^/]+)/season-(\d+)/?$")
+SEASON1_TITLE_RE = re.compile(r"\s*:\s*Season 1\s*$")
 PREMIERE_PAGE = "/news/tv-premiere-dates/"
 SEASON_GIVE_UP_DAYS = 60
 SEASON_LATE_DAYS = 21     # premiered longer ago -> dated by premiere, not "now"
@@ -376,7 +392,10 @@ def parse_season(html_text: str, url: str) -> dict:
         raise ValueError(f"not the season page for {url} (redirected?)")
     rating = ld.get("aggregateRating") or {}
     score = rating.get("ratingValue")
-    score = int(score) if isinstance(score, (int, float)) and 0 <= score <= 100 else None
+    # A season without a Metascore yet (fewer than 4 reviews) carries ratingValue 0
+    # in its JSON-LD — that is "no score", not a score of 0 (two seasons went out
+    # as "[0]" on 20./21.10.2026).
+    score = int(score) if isinstance(score, (int, float)) and 0 < score <= 100 else None
     hero = soup.select_one(".hero-release-date__value")
     dm = DATE_RE.search(hero.get_text(" ", strip=True)) if hero else None
     detail = parse_detail(html_text)
@@ -410,7 +429,10 @@ def check_seasons(state: dict, emitted: dict, links: set, args, now: datetime) -
     pending = []
     for url in sorted(cands):
         c = cands[url]
-        if url in emitted or c.get("gave_up"):
+        if url in emitted:
+            del cands[url]               # came in through a browse card (since 21.10.2026)
+            continue
+        if c.get("gave_up"):
             continue
         try:
             first = datetime.fromisoformat(c["first_seen"]).date().toordinal()
@@ -467,10 +489,89 @@ def check_seasons(state: dict, emitted: dict, links: set, args, now: datetime) -
             entry["image"] = s["image"]
         if "critic_count" in s["detail"]:
             entry["detail"] = s["detail"]          # same page, no second fetch
+        if getattr(args, "providers", False):
+            entry["providers_due"] = True
         emitted[url] = entry
         del cands[url]
         new += 1
     return new, attempts, failures, structural
+
+
+# --------------------------------------------------------------------------- #
+# Streaming availability in Germany (21.10.2026), see streaming.py
+# --------------------------------------------------------------------------- #
+# Forward-only: an item is marked `providers_due` at the moment it is emitted
+# (process_cards / check_seasons), and only marked items are looked up — in the
+# same run, before the feed is written, so the title readers first get is final.
+# Items emitted before this existed keep "(TV)" byte-identical.
+
+
+def _freeze_rest(emitted: dict, urls, why: str) -> None:
+    """Items about to be published without a lookup keep "(TV)" for good."""
+    for u in urls:
+        m = emitted[u]
+        if m.pop("providers_due", None) and m.get("media") == "tv":
+            m["providers"] = {"v": streaming.VERSION, "match": False, why: True}
+
+
+def enrich_providers(emitted: dict, cap: int, delay: float, lookup=streaming.lookup,
+                     today: str = "") -> tuple[int, bool]:
+    """Look up where each newly emitted TV item streams in Germany and freeze the
+    result under `providers` (with the lookup date). Every marked item is settled
+    in this run, before the feed is written, so a title never changes after the
+    reader has it: a failed lookup, items beyond `cap` and items left after
+    DEGRADED_AFTER failures in a row (-> degraded=True) are frozen as "(TV)".
+    Returns (done, degraded)."""
+    todo = sorted((u for u, m in emitted.items() if m.get("providers_due")),
+                  key=lambda u: (emitted[u].get("emitted_at", ""), u), reverse=True)
+    done = attempts = misses = 0
+    for i, url in enumerate(todo):
+        if attempts >= cap:
+            _freeze_rest(emitted, todo[i:], "skipped")
+            break
+        attempts += 1
+        meta = emitted[url]
+        meta.pop("providers_due", None)
+        if meta.get("media") != "tv":
+            continue
+        try:
+            rec = lookup(meta["title"], meta.get("release_date", ""))
+        except Exception as exc:
+            print(f"[warn] streaming lookup failed for {url}: {exc}", file=sys.stderr)
+            time.sleep(delay)
+            meta["providers"] = {"v": streaming.VERSION, "match": False, "failed": True}
+            misses += 1
+            if misses >= DEGRADED_AFTER:
+                print(f"[warn] {misses} streaming lookups in a row failed; stopping for this run",
+                      file=sys.stderr)
+                _freeze_rest(emitted, todo, "failed")   # published now with "(TV)"
+                return done, True
+            continue
+        time.sleep(delay)
+        misses = 0
+        if today:
+            rec["checked"] = today
+        meta["providers"] = rec
+        done += 1
+    return done, False
+
+
+def _de_date(iso: str) -> str:
+    try:
+        return datetime.fromisoformat(iso).strftime("%d.%m.%Y")
+    except (ValueError, TypeError):
+        return ""
+
+
+def media_label(meta: dict) -> str:
+    """What goes in the parentheses of the item title: the streaming label for TV
+    items that have one, else "Movie"/"TV" as before."""
+    if meta.get("media") != "movie":
+        p = meta.get("providers") or {}
+        if p.get("match"):
+            return streaming.label(p.get("summary") or {})
+        return "TV"
+    return "Movie"
 
 
 # --------------------------------------------------------------------------- #
@@ -514,7 +615,7 @@ def save_state(path: str, state: dict) -> None:
 
 
 def process_cards(cards: list[dict], emitted: dict, threshold: int, now: datetime,
-                  seed_from_release: bool = False) -> int:
+                  seed_from_release: bool = False, providers: bool = False) -> int:
     """Add newly-qualifying cards to `emitted`. Returns count of new items.
 
     A card qualifies when it has a numeric score >= threshold AND its URL has
@@ -543,6 +644,8 @@ def process_cards(cards: list[dict], emitted: dict, threshold: int, now: datetim
             entry["feed_date"] = now.isoformat()
         if c.get("poster"):
             entry["image"] = c["poster"]
+        if c["media"] == "tv" and providers:
+            entry["providers_due"] = True
         emitted[c["url"]] = entry
         new += 1
     return new
@@ -598,8 +701,11 @@ def describe_item(meta: dict) -> str:
     d = meta.get("detail") or {}
     label = "Movie" if meta["media"] == "movie" else "TV"
     has_info = any(k in d for k in ("critic_count", "pos", "user_score"))
+    p = meta.get("providers") or {}
+    stream = (f'<br />{streaming.describe(p.get("summary") or {}, _de_date(p.get("checked", "")))}'
+              if p.get("match") else "")
     if not has_info:
-        return f'Metascore {meta["score"]} · {label} · Released {meta.get("release_date", "")}'
+        return f'Metascore {meta["score"]} · {label} · Released {meta.get("release_date", "")}' + stream
 
     parts = []
     # The critic score is already in the item title, so only repeat it here when
@@ -616,7 +722,7 @@ def describe_item(meta: dict) -> str:
             u += f' ({d["user_count"]} ratings)'
         parts.append(u)
 
-    return " · ".join(parts)
+    return " · ".join(parts) + stream
 
 
 def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None) -> str:
@@ -647,8 +753,8 @@ def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None
         out.append(f'<atom:link href="{escape(args.feed_self)}" rel="self" type="application/rss+xml"/>')
 
     for url, meta in items:
-        label = "Movie" if meta["media"] == "movie" else "TV"
-        title = f'[{meta["score"]}] {meta["title"]} ({label})'
+        label = "Movie" if meta["media"] == "movie" else "TV"   # <category> stays as it was
+        title = f'[{meta["score"]}] {meta["title"]} ({media_label(meta)})'
         pub = format_datetime(_effective_date(meta))  # pubDate = qualifying time, else release
         desc = describe_item(meta)
         # Poster as an <img> inside the (HTML) description — the one image channel
@@ -724,7 +830,8 @@ def run(args) -> int:
                     flag = "OK " if (c["score"] is not None and c["score"] >= args.threshold) else "   "
                     print(f"       [{flag}] score={str(c['score']):>4}  {c['title']}  ::  {c['url']}")
             new_total += process_cards(cards, emitted, args.threshold, now,
-                                       seed_from_release=args.seed_from_release)
+                                       seed_from_release=args.seed_from_release,
+                                       providers=args.providers)
 
     # Fail loudly instead of silently freezing the feed:
     #   pages_ok == 0  -> network / total outage
@@ -781,6 +888,14 @@ def run(args) -> int:
         if got:
             print(f"[detail] enriched {got} item(s) with critic/user info")
 
+    # Where new TV items stream in Germany. Supplementary: never fatal.
+    providers_degraded = False
+    if not args.dry_run:
+        got, providers_degraded = enrich_providers(emitted, max(args.provider_max, 0),
+                                                   args.provider_delay, today=now.date().isoformat())
+        if got:
+            print(f"[streaming] looked up {got} item(s)")
+
     items = sorted(emitted.items(), key=_feed_sort_key, reverse=True)[: args.feed_max]
     last_build = max((m.get("emitted_at", "") for m in emitted.values()), default=now.isoformat())
 
@@ -796,7 +911,7 @@ def run(args) -> int:
     # `git diff --cached --quiet` skips the commit and there is no every-run churn.
     _atomic_write(args.out, build_rss(items, args, last_build))
     save_state(args.state, state)
-    if degraded or seasons_degraded:
+    if degraded or seasons_degraded or providers_degraded:
         # The feed and state above are correct and get committed; the workflow
         # turns these flags into a red run only after the commit step.
         gh_out = os.environ.get("GITHUB_OUTPUT")
@@ -806,6 +921,8 @@ def run(args) -> int:
                     fh.write("degraded=true\n")
                 if seasons_degraded:
                     fh.write("seasons_degraded=true\n")
+                if providers_degraded:
+                    fh.write("providers_degraded=true\n")
     print(
         f"Scanned {scanned} cards across {args.media} x {args.pages} page(s), {pages_ok}/{pages_tried} ok. "
         f"{new_total} new qualifier(s) >= {args.threshold}. Feed now has {len(items)} item(s) -> {args.out}"
@@ -845,6 +962,14 @@ def build_argparser() -> argparse.ArgumentParser:
     p.add_argument("--no-seasons", dest="seasons", action="store_false")
     p.add_argument("--season-max", type=int, default=int(_env("MC_SEASON_MAX", "10")),
                    help="max season pages to check per run (default 10)")
+    p.add_argument("--providers", dest="providers", action="store_true",
+                   default=_env("MC_PROVIDERS", "1") not in ("0", "false", "False", ""),
+                   help="look up where new TV items stream in Germany (JustWatch, default on)")
+    p.add_argument("--no-providers", dest="providers", action="store_false")
+    p.add_argument("--provider-max", type=int, default=int(_env("MC_PROVIDER_MAX", "120")),
+                   help="max streaming lookups per run (default 120; items beyond keep (TV))")
+    p.add_argument("--provider-delay", type=float, default=float(_env("MC_PROVIDER_DELAY", "0.5")),
+                   help="seconds to wait between streaming lookups (default 0.5)")
     p.add_argument("--browse-delay", type=float, default=float(_env("MC_BROWSE_DELAY", "0.4")),
                    help="seconds to wait between browse pages (politeness / 429 prophylaxis, default 0.4)")
     p.add_argument("--seed-from-release", dest="seed_from_release", action="store_true",

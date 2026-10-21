@@ -63,12 +63,12 @@ jobs:
             git push
           fi
 
-      - name: Fail when enrichment or season discovery is degraded
+      - name: Fail when enrichment, season discovery or streaming lookup is degraded
         # Feed and state were written and committed above (scores are correct);
         # only a supplementary part is broken, so the run turns red afterwards.
-        if: steps.build.outputs.degraded == 'true' || steps.build.outputs.seasons_degraded == 'true'
+        if: steps.build.outputs.degraded == 'true' || steps.build.outputs.seasons_degraded == 'true' || steps.build.outputs.providers_degraded == 'true'
         run: |
-          echo "degraded=${{ steps.build.outputs.degraded }} seasons_degraded=${{ steps.build.outputs.seasons_degraded }}"
+          echo "degraded=${{ steps.build.outputs.degraded }} seasons_degraded=${{ steps.build.outputs.seasons_degraded }} providers_degraded=${{ steps.build.outputs.providers_degraded }}"
           exit 1
 
       - name: Open an issue when the build fails
@@ -80,6 +80,7 @@ jobs:
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           DEGRADED: ${{ steps.build.outputs.degraded }}
           SEASONS_DEGRADED: ${{ steps.build.outputs.seasons_degraded }}
+          PROVIDERS_DEGRADED: ${{ steps.build.outputs.providers_degraded }}
           COMMITTED: ${{ steps.commit.outcome }}
         run: |
           if [ "$COMMITTED" = "success" ] && [ "$DEGRADED" = "true" ]; then
@@ -88,6 +89,9 @@ jobs:
           elif [ "$COMMITTED" = "success" ] && [ "$SEASONS_DEGRADED" = "true" ]; then
             title="Season discovery degraded"
             body="The feed was published, but new seasons are not being found (no season links, or no season page readable). Run: $RUN_URL"
+          elif [ "$COMMITTED" = "success" ] && [ "$PROVIDERS_DEGRADED" = "true" ]; then
+            title="Streaming lookup degraded"
+            body="The feed was published, but JustWatch lookups keep failing (blocked, or the API changed); new TV items show (TV) instead of where they stream in Germany. Run: $RUN_URL"
           else
             title="Feed build is failing"
             body="The scheduled feed build failed and left the previous feed.xml in place (fail-closed), so the published feed is now going stale. Run: $RUN_URL"
