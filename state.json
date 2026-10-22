@@ -13669,6 +13669,32 @@
         "image": "https://www.metacritic.com/a/img/resize/ec2866e0b8541d73b707a307a2038b32998cc01f/catalog/provider/2/13/2-cf167c86cba7930578ef8a4a65b52db2.jpg?auto=webp&fit=crop&height=675&width=1200",
         "v": 3
       }
+    },
+    "https://www.metacritic.com/tv/nobody-wants-this/season-3/": {
+      "title": "Nobody Wants This: Season 3",
+      "score": 75,
+      "media": "tv",
+      "release_date": "Oct 22, 2026",
+      "emitted_at": "2026-10-22T22:48:50.443255+00:00",
+      "feed_date": "2026-10-22T22:48:50.443255+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d6fb2086683d72cbd7997c4af231c6bc96ff4f94/catalog/provider/2/2/2-38ec7b2cf0275e36d8bdbe026683859c.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b30861c4ecc5fb2e01eff449880acf9219643f88/catalog/provider/2/13/2-9b9c432263a8a253cef3af6fcda66abb.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "checked": "2026-10-22"
+      }
     }
   },
   "seasons": {
@@ -13728,11 +13754,6 @@
     },
     "https://www.metacritic.com/tv/miss-scarlet-the-duke/season-7/": {
       "first_seen": "2026-10-17"
-    },
-    "https://www.metacritic.com/tv/nobody-wants-this/season-3/": {
-      "first_seen": "2026-10-17",
-      "ok": true,
-      "premiere": "Oct 22, 2026"
     },
     "https://www.metacritic.com/tv/north-of-north/season-2/": {
       "first_seen": "2026-10-17",
@@ -14117,25 +14138,39 @@
       "premiere": "May 19, 2026"
     },
     "https://www.metacritic.com/tv/house-hunters-international/season-209/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "May 26, 2026"
     },
     "https://www.metacritic.com/tv/house-hunters-international/season-210/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 21, 2026"
     },
     "https://www.metacritic.com/tv/house-hunters-international/season-211/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 28, 2026"
     },
     "https://www.metacritic.com/tv/house-hunters-international/season-212/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Aug 27, 2026"
     },
     "https://www.metacritic.com/tv/impractical-jokers/season-13/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 23, 2026"
     },
     "https://www.metacritic.com/tv/independent-lens/season-28/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 14, 2026"
     },
     "https://www.metacritic.com/tv/jail/season-7/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Oct 1, 2026"
     },
     "https://www.metacritic.com/tv/jeopardy!-masters/season-4/": {
       "first_seen": "2026-10-21"
