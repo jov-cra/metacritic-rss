@@ -510,13 +510,13 @@ def _freeze_rest(emitted: dict, urls, why: str) -> None:
     """Items about to be published without a lookup keep "(TV)" for good."""
     for u in urls:
         m = emitted[u]
-        if m.pop("providers_due", None) and m.get("media") == "tv":
+        if m.pop("providers_due", None):
             m["providers"] = {"v": streaming.VERSION, "match": False, why: True}
 
 
 def enrich_providers(emitted: dict, cap: int, delay: float, lookup=streaming.lookup,
                      today: str = "") -> tuple[int, bool]:
-    """Look up where each newly emitted TV item streams in Germany and freeze the
+    """Look up where each newly emitted item (TV and movie) streams in Germany and freeze the
     result under `providers` (with the lookup date). Every marked item is settled
     in this run, before the feed is written, so a title never changes after the
     reader has it: a failed lookup, items beyond `cap` and items left after
@@ -532,10 +532,8 @@ def enrich_providers(emitted: dict, cap: int, delay: float, lookup=streaming.loo
         attempts += 1
         meta = emitted[url]
         meta.pop("providers_due", None)
-        if meta.get("media") != "tv":
-            continue
         try:
-            rec = lookup(meta["title"], meta.get("release_date", ""))
+            rec = lookup(meta["title"], meta.get("release_date", ""), meta.get("media", "tv"))
         except Exception as exc:
             print(f"[warn] streaming lookup failed for {url}: {exc}", file=sys.stderr)
             time.sleep(delay)
@@ -564,14 +562,13 @@ def _de_date(iso: str) -> str:
 
 
 def media_label(meta: dict) -> str:
-    """What goes in the parentheses of the item title: the streaming label for TV
-    items that have one, else "Movie"/"TV" as before."""
-    if meta.get("media") != "movie":
-        p = meta.get("providers") or {}
-        if p.get("match"):
-            return streaming.label(p.get("summary") or {})
-        return "TV"
-    return "Movie"
+    """What goes in the parentheses of the item title: the streaming label for
+    items that have one (TV since 21.10., movies since 22.10.2026), else
+    "Movie"/"TV" as before."""
+    p = meta.get("providers") or {}
+    if p.get("match"):
+        return streaming.label(p.get("summary") or {})
+    return "Movie" if meta.get("media") == "movie" else "TV"
 
 
 # --------------------------------------------------------------------------- #
@@ -644,7 +641,7 @@ def process_cards(cards: list[dict], emitted: dict, threshold: int, now: datetim
             entry["feed_date"] = now.isoformat()
         if c.get("poster"):
             entry["image"] = c["poster"]
-        if c["media"] == "tv" and providers:
+        if providers:
             entry["providers_due"] = True
         emitted[c["url"]] = entry
         new += 1
@@ -964,7 +961,7 @@ def build_argparser() -> argparse.ArgumentParser:
                    help="max season pages to check per run (default 10)")
     p.add_argument("--providers", dest="providers", action="store_true",
                    default=_env("MC_PROVIDERS", "1") not in ("0", "false", "False", ""),
-                   help="look up where new TV items stream in Germany (JustWatch, default on)")
+                   help="look up where new titles stream in Germany (JustWatch, default on)")
     p.add_argument("--no-providers", dest="providers", action="store_false")
     p.add_argument("--provider-max", type=int, default=int(_env("MC_PROVIDER_MAX", "120")),
                    help="max streaming lookups per run (default 120; items beyond keep (TV))")

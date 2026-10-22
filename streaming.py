@@ -1,5 +1,5 @@
 """
-streaming.py — where a TV title can be watched in Germany, and what it costs.
+streaming.py — where a TV title or movie can be watched in Germany, and what it costs.
 
 Source: JustWatch's public GraphQL endpoint (the one its own website uses; no key).
 For every TV item the feed emits, one lookup runs in the same build, and the result
@@ -99,7 +99,7 @@ def _season_numbers(node: dict) -> list:
     return out
 
 
-def pick_match(nodes: list, base: str, year=None, latest=None, season=None):
+def pick_match(nodes: list, base: str, year=None, latest=None, season=None, kind="SHOW"):
     """The show whose English or original title equals ours, or None.
     `year` (the show's start year): JustWatch's year must agree within one.
     `latest` (a season's air year): the show cannot have started after it.
@@ -111,7 +111,7 @@ def pick_match(nodes: list, base: str, year=None, latest=None, season=None):
         return None
     hits = []
     for n in nodes or []:
-        if not isinstance(n, dict) or n.get("objectType") != "SHOW":
+        if not isinstance(n, dict) or n.get("objectType") != kind:
             continue
         c = n.get("content") or {}
         if want not in (_norm(c.get("title")), _norm(c.get("originalTitle"))):
@@ -228,8 +228,12 @@ def summarize(offers: list) -> dict:
     from the big subscription services is a sample, see NOT_FREE."""
     flat, free = set(), set()
     rent, buy = [], []
+    cinema = False
     for o in offers or []:
         if not isinstance(o, dict):
+            continue
+        if o.get("monetizationType") == "CINEMA":
+            cinema = True                 # new movie running in German cinemas
             continue
         pkg = (o.get("package") or {}).get("clearName") or ""
         if not pkg or PHYSICAL_RE.search(pkg):
@@ -257,6 +261,8 @@ def summarize(offers: list) -> dict:
     if buy:
         p, n = min(buy)
         out["buy_from"], out["buy_at"] = p, n
+    if cinema:
+        out["cinema"] = True
     return out
 
 
@@ -272,6 +278,8 @@ def label(summary: dict) -> str:
             parts.append(f'Leihen ab {_euro(summary["rent_from"])}')
         elif summary.get("buy_from") is not None:
             parts.append(f'Kaufen ab {_euro(summary["buy_from"])}')
+    if not parts and summary.get("cinema"):
+        return "im Kino"
     if not parts:
         return "kein DE-Angebot"
     text = " | ".join(parts)
@@ -292,6 +300,8 @@ def describe(summary: dict, checked: str = "") -> str:
         bits.append(f'leihen ab {_euro(summary["rent_from"])} ({e(summary.get("rent_at", ""))})')
     if summary.get("buy_from") is not None:
         bits.append(f'kaufen ab {_euro(summary["buy_from"])} ({e(summary.get("buy_at", ""))})')
+    if summary.get("cinema"):
+        bits.append("im Kino")
     head = f"Streaming DE (JustWatch, {checked})" if checked else "Streaming DE (JustWatch)"
     if not bits:
         return f"{head}: kein Angebot gefunden"
@@ -303,12 +313,12 @@ def describe(summary: dict, checked: str = "") -> str:
 # --------------------------------------------------------------------------- #
 # Lookup
 # --------------------------------------------------------------------------- #
-def search(base: str, timeout: int = 20) -> list:
+def search(base: str, kind: str = "SHOW", timeout: int = 20) -> list:
     if requests is None:
         raise LookupError_("the 'requests' package is required")
     body = {"query": QUERY, "variables": {
         "country": COUNTRY, "language": "en",
-        "filter": {"searchQuery": base, "objectTypes": ["SHOW"]}}}
+        "filter": {"searchQuery": base, "objectTypes": [kind]}}}
     try:
         resp = requests.post(ENDPOINT, json=body, timeout=timeout, headers={
             "User-Agent": "Mozilla/5.0 (metacritic-rss personal feed)",
@@ -328,15 +338,22 @@ def search(base: str, timeout: int = 20) -> list:
         raise LookupError_(f"unexpected response shape: {exc}") from exc
 
 
-def lookup(mc_title: str, release_date: str = "", fetch=search) -> dict:
+def lookup(mc_title: str, release_date: str = "", media: str = "tv", fetch=search) -> dict:
     """-> stored record. {"v", "match": False} when JustWatch has no unambiguous
-    match, else {"v", "match": True, "summary": {...}}. Raises LookupError_ on failure."""
+    match, else {"v", "match": True, "summary": {...}}. Raises LookupError_ on failure.
+    A movie is matched like a show without season: exact title, year ±1."""
+    if media == "movie":
+        base, year, _ = split_title(mc_title, release_date)
+        node = pick_match(fetch(base, "MOVIE"), base, year, kind="MOVIE")
+        if node is None:
+            return {"v": VERSION, "match": False}
+        return {"v": VERSION, "match": True, "summary": summarize(offers_for(node, None)[0])}
     base, year, season = split_title(mc_title, release_date)
     latest = None
     if season is not None and year is None:
         ry = re.search(r"(\d{4})\s*$", release_date or "")
         latest = int(ry.group(1)) if ry else None
-    node = pick_match(fetch(base), base, year, latest, season)
+    node = pick_match(fetch(base, "SHOW"), base, year, latest, season)
     if node is None:
         return {"v": VERSION, "match": False}
     offers, own = offers_for(node, season)

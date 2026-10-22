@@ -112,10 +112,10 @@ def test_new_season_not_yet_in_germany():
     node = _node("The Lowdown", 2025, offers=[("FLATRATE", "Disney Plus", None)],
                  seasons=[{"content": {"seasonNumber": 1}, "offers": _offers(("FLATRATE", "Disney Plus", None))},
                           {"content": {"seasonNumber": 2}, "offers": []}])
-    rec = st.lookup("The Lowdown: Season 2", "", fetch=lambda base: [node])
+    rec = st.lookup("The Lowdown: Season 2", "", fetch=lambda base, kind="SHOW": [node])
     assert st.label(rec["summary"]) == "Disney+ · Abo, nur ältere Staffeln"
     assert "diese Staffel noch ohne Angebot; ältere Staffeln im Abo bei Disney+" in st.describe(rec["summary"])
-    rec = st.lookup("The Lowdown: Season 1", "", fetch=lambda base: [node])
+    rec = st.lookup("The Lowdown: Season 1", "", fetch=lambda base, kind="SHOW": [node])
     assert st.label(rec["summary"]) == "Disney+ · Abo"
 
 
@@ -133,16 +133,19 @@ def test_title_carries_label_only_for_new_tv_items():
     cards = [{"url": f"{B}/tv/new/", "title": "New", "score": 80, "date": "Oct 21, 2026", "media": "tv"},
              {"url": f"{B}/movie/film/", "title": "Film", "score": 60, "date": "Oct 21, 2026", "media": "movie"}]
     mf.process_cards(cards, emitted, 0, NOW, providers=True)
-    assert emitted[f"{B}/tv/new/"].get("providers_due") and "providers_due" not in emitted[f"{B}/movie/film/"]
+    assert emitted[f"{B}/tv/new/"].get("providers_due") and emitted[f"{B}/movie/film/"].get("providers_due")
     calls = []
-    def fake(title, date):
-        calls.append(title)
-        return {"v": 1, "match": True, "summary": {"flat": ["Netflix"]}}
+    def fake(title, date, media="tv"):
+        calls.append((title, media))
+        if media == "movie":
+            return {"v": 2, "match": True, "summary": {"rent_from": 4.99}}
+        return {"v": 2, "match": True, "summary": {"flat": ["Netflix"]}}
     done, degraded = mf.enrich_providers(emitted, 10, 0, lookup=fake)
-    assert (done, degraded, calls) == (1, False, ["New"])
+    assert (done, degraded, sorted(calls)) == (2, False, [("Film", "movie"), ("New", "tv")])
     assert not any("providers_due" in m for m in emitted.values())
     xml = mf.build_rss(sorted(emitted.items()), _args(), "2026-10-21T15:00:00+00:00")
-    assert "[80] New (Netflix · Abo)" in xml and "[70] Old (TV)" in xml and "[60] Film (Movie)" in xml
+    assert "[80] New (Netflix · Abo)" in xml and "[70] Old (TV)" in xml and "[60] Film (Leihen ab 4,99 €)" in xml
+    assert "<category>Movie</category>" in xml
     assert "Streaming DE (JustWatch): im Abo bei Netflix" in xml
     assert "<category>TV</category>" in xml
 
@@ -150,14 +153,17 @@ def test_title_carries_label_only_for_new_tv_items():
 def test_failures_freeze_as_tv_and_degrade():
     emitted = {f"{B}/tv/a{i}/": {"title": f"A{i}", "score": 1, "media": "tv", "providers_due": True,
                                  "emitted_at": f"2026-10-21T1{i}:00:00+00:00"} for i in range(5)}
-    def boom(title, date):
+    def boom(title, date, media="tv"):
         raise st.LookupError_("403")
     done, degraded = mf.enrich_providers(emitted, 10, 0, lookup=boom)
     assert degraded and done == 0
     assert all(m["providers"].get("failed") and "providers_due" not in m for m in emitted.values())
     assert all(mf.media_label(m) == "TV" for m in emitted.values())
     m = {"title": "Z", "score": 1, "media": "tv", "providers_due": True}
-    mf.enrich_providers({"u": m}, 10, 0, lookup=lambda t, d: {"v": 1, "match": False})
+    mf.enrich_providers({"u": m}, 10, 0, lookup=lambda t, d, media="tv": {"v": 1, "match": False})
+    film = {"title": "F", "score": 1, "media": "movie", "providers_due": True}
+    mf.enrich_providers({"f": film}, 10, 0, lookup=lambda t, d, media="tv": {"v": 1, "match": False})
+    assert mf.media_label(film) == "Movie"
     assert mf.media_label(m) == "TV"
 
 
@@ -166,7 +172,7 @@ def test_existing_state_untouched():
     state = json.loads((Path(__file__).resolve().parents[1] / "state.json").read_text())
     emitted = state["emitted"]
     assert not any("providers_due" in m for m in emitted.values())
-    done, _ = mf.enrich_providers(emitted, 999, 0, lookup=lambda t, d: 1 / 0)
+    done, _ = mf.enrich_providers(emitted, 999, 0, lookup=lambda t, d, media="tv": 1 / 0)
     assert done == 0 and not any("providers" in m for m in emitted.values())
 
 
@@ -184,7 +190,7 @@ def test_season_year_bound_and_robustness():
 def test_cap_freezes_the_rest_as_tv():
     emitted = {f"{B}/tv/c{i}/": {"title": f"C{i}", "score": 1, "media": "tv", "providers_due": True,
                                  "emitted_at": f"2026-10-21T1{i}:00:00+00:00"} for i in range(5)}
-    ok = lambda t, d: {"v": 2, "match": True, "summary": {"flat": ["Netflix"]}}
+    ok = lambda t, d, media="tv": {"v": 2, "match": True, "summary": {"flat": ["Netflix"]}}
     done, degraded = mf.enrich_providers(emitted, 2, 0, lookup=ok, today="2026-10-21")
     assert (done, degraded) == (2, False)
     assert not any("providers_due" in m for m in emitted.values())
@@ -228,10 +234,10 @@ def test_older_seasons_buy_only_and_earlier_seasons_only():
                  seasons=[{"content": {"seasonNumber": 1}, "offers": _offers(("BUY", "Apple TV Store", 9.99))},
                           {"content": {"seasonNumber": 3}, "offers": _offers(("FLATRATE", "Netflix", None))},
                           {"content": {"seasonNumber": 2}, "offers": []}])
-    rec = st.lookup("Y: Season 2", "", fetch=lambda base: [node])
+    rec = st.lookup("Y: Season 2", "", fetch=lambda base, kind="SHOW": [node])
     assert st.label(rec["summary"]) == "Kaufen ab 9,99 €, nur ältere Staffeln"
     lone = _node("Z", 2020, offers=[("FLATRATE", "Netflix", None)])
-    assert st.label(st.lookup("Z: Season 4", "", fetch=lambda base: [lone])["summary"]) == "kein DE-Angebot"
+    assert st.label(st.lookup("Z: Season 4", "", fetch=lambda base, kind="SHOW": [lone])["summary"]) == "kein DE-Angebot"
 
 
 def test_ambiguous_or_too_few_seasons_is_no_match():
@@ -247,7 +253,7 @@ def test_ambiguous_or_too_few_seasons_is_no_match():
     single = _node("Monster: X", 2026, seasons=[{"content": {"seasonNumber": 1}, "offers": []}])
     assert st.pick_match([single], "Monster: X", None, latest=2026, season=4) is single
     single["seasons"][0]["offers"] = _offers(("FLATRATE", "Netflix", None))
-    rec = st.lookup("Monster: X: Season 4", "Sep 17, 2026", fetch=lambda base: [single])
+    rec = st.lookup("Monster: X: Season 4", "Sep 17, 2026", fetch=lambda base, kind="SHOW": [single])
     assert st.label(rec["summary"]) == "Netflix · Abo"       # anthology filed as a one-season show
 
 
@@ -259,3 +265,23 @@ def test_service_names_html_escaped_in_description():
 def test_browse_season_score_zero_is_no_score():
     html = '<a href="/tv/x/season-2/">X: Season 2 Oct 1, 2026 0 Metascore</a>'
     assert mf.parse_browse(html, "tv")[0]["score"] is None
+
+
+def test_movie_lookup_matches_movies_only():
+    film = {"objectType": "MOVIE", "content": {"title": "Masterplan", "originalTitle": "Masterplan",
+            "originalReleaseYear": 2026}, "offers": _offers(("FLATRATE", "Netflix", None))}
+    show = _node("Masterplan", 2026, offers=[("FLATRATE", "Disney Plus", None)])
+    kinds = []
+    def fetch(base, kind="SHOW"):
+        kinds.append(kind)
+        return [show, film]
+    rec = st.lookup("Masterplan", "Oct 16, 2026", "movie", fetch=fetch)
+    assert kinds == ["MOVIE"] and st.label(rec["summary"]) == "Netflix · Abo"
+    assert not st.lookup("Masterplan", "Oct 16, 2010", "movie", fetch=fetch)["match"]
+
+
+def test_cinema_only_movie():
+    s = st.summarize(_offers(("CINEMA", "Cineplex", None)))
+    assert st.label(s) == "im Kino" and "im Kino" in st.describe(s)
+    s = st.summarize(_offers(("CINEMA", "Cineplex", None), ("RENT", "Apple TV Store", 5.99)))
+    assert st.label(s) == "Leihen ab 5,99 €"
