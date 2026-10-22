@@ -13826,13 +13826,19 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/2020/season-50/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 25, 2026"
     },
     "https://www.metacritic.com/tv/60-minutes/season-59/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 13, 2026"
     },
     "https://www.metacritic.com/tv/9-1-1-nashville/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Oct 15, 2026"
     },
     "https://www.metacritic.com/tv/9-1-1/season-10/": {
       "first_seen": "2026-10-21"
@@ -14470,22 +14476,34 @@
       "premiere": "Sep 16, 2026"
     },
     "https://www.metacritic.com/tv/wheres-wanda/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Oct 21, 2026"
     },
     "https://www.metacritic.com/tv/who-do-you-think-you-are-uk/season-23/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "May 26, 2026"
     },
     "https://www.metacritic.com/tv/who-wants-to-be-a-millionaire-2020/season-5/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 22, 2026"
     },
     "https://www.metacritic.com/tv/wizards-beyond-waverly-place/season-3/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Aug 4, 2026"
     },
     "https://www.metacritic.com/tv/women-in-blue/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 26, 2026"
     },
     "https://www.metacritic.com/tv/wwe-unreal/season-3/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 21, 2026"
     },
     "https://www.metacritic.com/tv/kitchen-nightmares/season-10/": {
       "first_seen": "2026-10-21"
