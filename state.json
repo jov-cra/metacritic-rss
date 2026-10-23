@@ -13965,6 +13965,26 @@
         "summary": {},
         "checked": "2026-10-23"
       }
+    },
+    "https://www.metacritic.com/tv/newlyweds/": {
+      "title": "Newlyweds",
+      "score": 57,
+      "media": "tv",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T19:35:18.044616+00:00",
+      "feed_date": "2026-10-23T19:35:18.044616+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/07cfcb3aafcd8f4050377b8350a3d0afa35b53c8/catalog/provider/2/2/2-0f3e4fdc5530ad097183ae8d091bf940.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/9f5f8b3effed89985b10946baa6847dfda04bee9/catalog/provider/2/2/2-0f3e4fdc5530ad097183ae8d091bf940.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": false,
+        "checked": "2026-10-23"
+      }
     }
   },
   "seasons": {
@@ -14558,34 +14578,53 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/ring-of-honor-wrestling/season-19/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 2, 2026"
     },
     "https://www.metacritic.com/tv/rj-decker/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 15, 2026"
     },
     "https://www.metacritic.com/tv/rock-paper-scissors/season-3/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jun 19, 2026"
     },
     "https://www.metacritic.com/tv/rugrats-2021/season-3/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jun 1, 2026"
     },
     "https://www.metacritic.com/tv/rupauls-drag-race-uk/season-8/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Aug 11, 2026"
     },
     "https://www.metacritic.com/tv/sacrifice-2021/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 30, 2026"
     },
     "https://www.metacritic.com/tv/saturday-night-live-uk/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 12, 2026"
     },
     "https://www.metacritic.com/tv/saturday-night-live/season-52/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 26, 2026"
     },
     "https://www.metacritic.com/tv/shark-tank/season-18/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 30, 2026"
     },
     "https://www.metacritic.com/tv/sheriff-country/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/signora-volpe/season-3/": {
       "first_seen": "2026-10-21"

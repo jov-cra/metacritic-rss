@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
 <language>en</language>
-<lastBuildDate>Fri, 23 Oct 2026 02:08:01 +0000</lastBuildDate>
+<lastBuildDate>Fri, 23 Oct 2026 19:35:18 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[57] Newlyweds (TV)</title>
+<link>https://www.metacritic.com/tv/newlyweds/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/newlyweds/</guid>
+<pubDate>Fri, 23 Oct 2026 19:35:18 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/9f5f8b3effed89985b10946baa6847dfda04bee9/catalog/provider/2/2/2-0f3e4fdc5530ad097183ae8d091bf940.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews</description>
+</item>
 <item>
 <title>[69] YAGA (kein DE-Angebot)</title>
 <link>https://www.metacritic.com/tv/yaga/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/b8bc6e9bdd40ec795fa36fcef0e73e70e6ecbf9d/catalog/provider/5/2/5-tt13570066.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews</description>
-</item>
-<item>
-<title>[76] Bernstein's Wall (Movie)</title>
-<link>https://www.metacritic.com/movie/bernsteins-wall/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/bernsteins-wall/</guid>
-<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/33987098158372f77918fd895cc8297a539b6d92/catalog/provider/5/2/5-tt14622972.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>
