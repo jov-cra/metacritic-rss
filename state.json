@@ -13985,6 +13985,54 @@
         "match": false,
         "checked": "2026-10-23"
       }
+    },
+    "https://www.metacritic.com/movie/the-cycle/": {
+      "title": "The Cycle",
+      "score": 66,
+      "media": "movie",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T22:41:14.042554+00:00",
+      "feed_date": "2026-10-23T22:41:14.042554+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f214d0a01434fbeb340377d701e7033035f708e3/catalog/provider/7/2/7-1785254200.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c9759233236877435ce16567d076b44f114fc45d/catalog/provider/7/2/7-1785254200.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {},
+        "checked": "2026-10-23"
+      }
+    },
+    "https://www.metacritic.com/tv/lupin/season-4/": {
+      "title": "Lupin: Season 4",
+      "score": 78,
+      "media": "tv",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T22:41:14.042554+00:00",
+      "feed_date": "2026-10-23T22:41:14.042554+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5be2c76e67f2c45790fd73cbfde88ad3f9f3969c/catalog/provider/2/2/2-3de57113b623721b41b17a0647d77e24.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/f03387a67a3e511b6cfb34dfc31f9cfab45ec775/catalog/provider/2/13/2-6b576fa3eaaeb4e76f584d10b5d2a4e2.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "checked": "2026-10-23"
+      }
     }
   },
   "seasons": {
@@ -14021,11 +14069,6 @@
       "first_seen": "2026-10-17",
       "ok": true,
       "premiere": "Dec 24, 2026"
-    },
-    "https://www.metacritic.com/tv/lupin/season-4/": {
-      "first_seen": "2026-10-17",
-      "ok": true,
-      "premiere": "Oct 23, 2026"
     },
     "https://www.metacritic.com/tv/maigret-2025/season-2/": {
       "first_seen": "2026-10-17",
@@ -14657,13 +14700,19 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/survival-of-the-thickest/season-3/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 2, 2026"
     },
     "https://www.metacritic.com/tv/survivor/season-51/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 23, 2026"
     },
     "https://www.metacritic.com/tv/sweet-magnolias/season-5/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jun 11, 2026"
     },
     "https://www.metacritic.com/tv/the-amazing-race/season-39/": {
       "first_seen": "2026-10-21",
@@ -14911,6 +14960,10 @@
     },
     "https://www.metacritic.com/tv/happys-place/season-3/": {
       "first_seen": "2026-10-23"
+    },
+    "https://www.metacritic.com/tv/the-assassin-2025/season-2/": {
+      "first_seen": "2026-10-23",
+      "ok": true
     }
   }
 }
