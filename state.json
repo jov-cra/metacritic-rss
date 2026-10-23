@@ -13695,6 +13695,276 @@
         },
         "checked": "2026-10-22"
       }
+    },
+    "https://www.metacritic.com/movie/paralyzed-by-hope-the-maria-bamford-story/": {
+      "title": "Paralyzed by Hope: The Maria Bamford Story",
+      "score": 69,
+      "media": "movie",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T02:08:01.174293+00:00",
+      "feed_date": "2026-10-23T02:08:01.174293+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a76d3edcb090c6a57202c9c73e79e10ecabd2a8d/catalog/provider/5/2/5-tt39162810.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 86,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/3365a855b64f3a677a9056567ae37f2355f22066/catalog/provider/5/2/5-tt39162810.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {},
+        "checked": "2026-10-23"
+      }
+    },
+    "https://www.metacritic.com/movie/junk-2024/": {
+      "title": "Junk",
+      "score": 57,
+      "media": "movie",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T02:08:01.174293+00:00",
+      "feed_date": "2026-10-23T02:08:01.174293+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ed24a12ec205f1179659b0432bbe172d8cf4647e/catalog/provider/5/2/5-tt21740488.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 33,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/0003790d7194c7f1b75f7821d84d0177388ebdee/catalog/provider/5/2/5-tt21740488.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": false,
+        "checked": "2026-10-23"
+      }
+    },
+    "https://www.metacritic.com/movie/a-talent-for-murder/": {
+      "title": "A Talent for Murder",
+      "score": 67,
+      "media": "movie",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T02:08:01.174293+00:00",
+      "feed_date": "2026-10-23T02:08:01.174293+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0d41bc75f8ad821231a27127b51be76b7ce3006b/catalog/provider/5/2/5-tt14129116.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 20,
+        "pos": 65,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/029dd0a83330be3195b5ba2e889bc154dd5530e3/catalog/provider/7/2/7-1788182603.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {},
+        "checked": "2026-10-23"
+      }
+    },
+    "https://www.metacritic.com/movie/clayface/": {
+      "title": "Clayface",
+      "score": 59,
+      "media": "movie",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T02:08:01.174293+00:00",
+      "feed_date": "2026-10-23T02:08:01.174293+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/3f37dd89e0fc1604127a1d223d0fb33171435e9f/catalog/provider/2/13/2-28bf16e737dc33c387a0decab575fa38.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 37,
+        "pos": 51,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c1ec604d77d9a46572d689f4cbbf46d547f35c3e/catalog/provider/2/13/2-129ac606e6bc7e149d1ede2d59f5b497.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "checked": "2026-10-23"
+      }
+    },
+    "https://www.metacritic.com/movie/wildwood/": {
+      "title": "Wildwood",
+      "score": 87,
+      "media": "movie",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T02:08:01.174293+00:00",
+      "feed_date": "2026-10-23T02:08:01.174293+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a4a387d660819bb5b1834023c987e7c42b686126/catalog/provider/7/2/7-1787950019.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 25,
+        "pos": 96,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2abfa3ef75076d268483f65614f39a995edf4683/catalog/provider/2/13/2-a5d592491b07622af5b3b409217b11c6.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "checked": "2026-10-23"
+      }
+    },
+    "https://www.metacritic.com/movie/wicker/": {
+      "title": "Wicker",
+      "score": 71,
+      "media": "movie",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T02:08:01.174293+00:00",
+      "feed_date": "2026-10-23T02:08:01.174293+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e6fb70222182cc20156c5237ad97d86061185b01/catalog/provider/5/2/5-tt29611136.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 22,
+        "pos": 77,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/553461dc5e94fa7cafc0e67942116fb7821ee0f1/catalog/provider/5/2/5-tt29611136.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {},
+        "checked": "2026-10-23"
+      }
+    },
+    "https://www.metacritic.com/movie/making-marie-antoinette/": {
+      "title": "Making Marie Antoinette",
+      "score": 81,
+      "media": "movie",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T02:08:01.174293+00:00",
+      "feed_date": "2026-10-23T02:08:01.174293+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2e2ee665515580f18340a802d521bc3c525a17c7/catalog/provider/5/2/5-tt43656794.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 82,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/08aab797240ae900cc00eebfdd3b49a040d0292b/catalog/provider/7/2/7-1788446523.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {},
+        "checked": "2026-10-23"
+      }
+    },
+    "https://www.metacritic.com/movie/possible-love/": {
+      "title": "Possible Love",
+      "score": 94,
+      "media": "movie",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T02:08:01.174293+00:00",
+      "feed_date": "2026-10-23T02:08:01.174293+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f3b0c5fb88f1e2cef9d3224b646f1803aea39ac5/catalog/provider/5/2/5-tt37803364.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 24,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/bd7deeb1da1870f73b3cf0ff9014622a98d6f93f/catalog/provider/5/2/5-tt37803364.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {},
+        "checked": "2026-10-23"
+      }
+    },
+    "https://www.metacritic.com/movie/fatherland/": {
+      "title": "Fatherland",
+      "score": 87,
+      "media": "movie",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T02:08:01.174293+00:00",
+      "feed_date": "2026-10-23T02:08:01.174293+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/905b95728ff6e54a5a4d255975686606e1b003a1/catalog/provider/7/2/7-1789072863.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 27,
+        "pos": 93,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2b25d222cdc1799e481e056dfb5d29eb8afe578c/catalog/provider/7/2/7-1778610412.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "checked": "2026-10-23"
+      }
+    },
+    "https://www.metacritic.com/movie/klara-and-the-sun/": {
+      "title": "Klara and the Sun",
+      "score": 30,
+      "media": "movie",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T02:08:01.174293+00:00",
+      "feed_date": "2026-10-23T02:08:01.174293+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ffa8358173801d51b1cc619dbbbe10c3808c38c0/catalog/provider/2/13/2-a61765c3e61414d6f4da4d37d87369f2.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 22,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/59e21349db951eb550ace8ca8c8bb994faa7519c/catalog/provider/7/2/7-1792602501.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {},
+        "checked": "2026-10-23"
+      }
+    },
+    "https://www.metacritic.com/movie/ali-g-who-iz-i/": {
+      "title": "Ali G: Who Iz I?",
+      "score": 38,
+      "media": "movie",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T02:08:01.174293+00:00",
+      "feed_date": "2026-10-23T02:08:01.174293+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ae2813603b7bede31fbc8bf88aa4954cff185b68/catalog/provider/7/2/7-1787666722.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/39b79a34cbd548335865e1433c1969a8887b987b/catalog/provider/7/2/7-1792686663.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "checked": "2026-10-23"
+      }
+    },
+    "https://www.metacritic.com/tv/yaga/": {
+      "title": "YAGA",
+      "score": 69,
+      "media": "tv",
+      "release_date": "Oct 23, 2026",
+      "emitted_at": "2026-10-23T02:08:01.174293+00:00",
+      "feed_date": "2026-10-23T02:08:01.174293+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a97710522b84112d52154008d345d09d9c65accf/catalog/provider/2/2/2-6d88cd979c56e9dd28e8a7e8c740731f.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 80,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b1741f267f3bab15b922cd6e3521532e38c09bed/catalog/provider/2/13/2-f3eb14522badb908dba06311e102e00c.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": true,
+        "summary": {},
+        "checked": "2026-10-23"
+      }
     }
   },
   "seasons": {
@@ -13979,13 +14249,19 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/conan-obrien-must-go/season-3/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Aug 21, 2026"
     },
     "https://www.metacritic.com/tv/cops-1989/season-38/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 3, 2026"
     },
     "https://www.metacritic.com/tv/countdown/season-94/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jun 29, 2026"
     },
     "https://www.metacritic.com/tv/couples-therapy-2019/season-5/": {
       "first_seen": "2026-10-21",
@@ -14577,6 +14853,9 @@
     },
     "https://www.metacritic.com/tv/the-real-housewives-of-orange-county/season-20/": {
       "first_seen": "2026-10-21"
+    },
+    "https://www.metacritic.com/tv/happys-place/season-3/": {
+      "first_seen": "2026-10-23"
     }
   }
 }
