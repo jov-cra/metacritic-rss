@@ -14810,16 +14810,24 @@
       "premiere": "Jul 29, 2026"
     },
     "https://www.metacritic.com/tv/the-real-housewives-of-london/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 7, 2026"
     },
     "https://www.metacritic.com/tv/the-real-housewives-of-new-york-city/season-16/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 8, 2026"
     },
     "https://www.metacritic.com/tv/the-real-housewives-of-potomac/season-11/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Oct 11, 2026"
     },
     "https://www.metacritic.com/tv/the-real-housewives-of-salt-lake-city/season-7/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 16, 2026"
     },
     "https://www.metacritic.com/tv/the-secret-lives-of-mormon-wives/season-5/": {
       "first_seen": "2026-10-21"
@@ -14956,7 +14964,9 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/the-real-housewives-of-orange-county/season-20/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 9, 2026"
     },
     "https://www.metacritic.com/tv/happys-place/season-3/": {
       "first_seen": "2026-10-23"
