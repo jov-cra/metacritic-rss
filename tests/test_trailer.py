@@ -43,10 +43,10 @@ def test_lookup_paths():
         calls.append(path)
         return {"movie/1": [v("MMMMMMMMMMM")], "tv/2/season/3": [],
                 "tv/2": [v("SSSSSSSSSSS", name="Season 3 Trailer"), v("OOOOOOOOOOO")]}.get(path, [])
-    assert tr.lookup("1", "movie", None, "t", fetch) == "MMMMMMMMMMM"
-    assert tr.lookup("2", "tv", 3, "t", fetch) == "SSSSSSSSSSS"
-    assert tr.lookup("2", "tv", 1, "t", fetch) == "OOOOOOOOOOO"  # season 1: any show trailer
-    assert tr.lookup("x1", "movie", None, "t", fetch) is None, "keine Ziffern-ID, keine Abfrage"
+    assert tr.lookup("1", "movie", None, "t", fetch, length=lambda k: 120) == "MMMMMMMMMMM"
+    assert tr.lookup("2", "tv", 3, "t", fetch, length=lambda k: 120) == "SSSSSSSSSSS"
+    assert tr.lookup("2", "tv", 1, "t", fetch, length=lambda k: 120) == "OOOOOOOOOOO"  # season 1: any show trailer
+    assert tr.lookup("x1", "movie", None, "t", fetch, length=lambda k: 120) is None, "keine Ziffern-ID, keine Abfrage"
     assert "tv/2/season/3" in calls
 
 
@@ -91,7 +91,7 @@ def test_enrich_trailers_freeze_and_outcomes():
         return "dQw4w9WgXcQ" if tm == "123" else None
     found, degraded = mf.enrich_trailers(em, 10, 0, "tok", lookup=lookup, today="2026-10-25")
     assert (found, degraded) == (1, False)
-    assert em[f"{B}/movie/a/"]["trailer"] == {"v": 1, "key": "dQw4w9WgXcQ", "checked": "2026-10-25"}
+    assert em[f"{B}/movie/a/"]["trailer"] == {"v": tr.VERSION, "key": "dQw4w9WgXcQ", "checked": "2026-10-25"}
     assert em[f"{B}/tv/b/season-2/"]["trailer"]["key"] is None and ("9", "tv", 2) in seen
     assert em[f"{B}/movie/c/"]["trailer"].get("no_id")
     assert not any("trailer_due" in m for m in em.values())
@@ -123,3 +123,16 @@ def test_streaming_lookup_keeps_tmdb_id():
                                               "externalIds": {"tmdbId": 123}}, "offers": []}
     rec = st.lookup("Film", "Oct 1, 2026", "movie", fetch=lambda base, kind: [node])
     assert rec["match"] and rec["tmdb"] == "123"
+
+
+def test_short_cuts_are_skipped():
+    """Mare of Easttown 25.10.2026: the season video was a 15-second "Emmy Trailer"."""
+    season = [v("EEEEEEEEEEE", name="Emmy Trailer 15", date="2021-08-23")]
+    show = [v("OOOOOOOOOOO", name="Official Trailer", date="2021-04-04")]
+    fetch = lambda path, token: {"tv/1/season/1": season, "tv/1": show}.get(path, [])
+    lengths = {"EEEEEEEEEEE": 15, "OOOOOOOOOOO": 146}
+    assert tr.lookup("1", "tv", 1, "t", fetch, length=lengths.get) == "OOOOOOOOOOO"
+    # length unreadable: the name decides
+    assert tr.lookup("1", "tv", 1, "t", fetch, length=lambda k: None) == "OOOOOOOOOOO"
+    assert tr.choose([v("SSSSSSSSSSS", name="TV Spot 1")], length=lambda k: None) is None
+    assert tr.choose([v("SSSSSSSSSSS")], length=lambda k: 30) is None, "only short cuts: no link"
