@@ -14567,7 +14567,9 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/koffee-with-karan/season-9/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Oct 14, 2026"
     },
     "https://www.metacritic.com/tv/late-night-with-seth-meyers/season-14/": {
       "first_seen": "2026-10-21",
