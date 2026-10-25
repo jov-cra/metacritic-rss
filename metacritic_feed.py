@@ -51,6 +51,7 @@ except ImportError:  # keeps the module importable for tests without requests
 from bs4 import BeautifulSoup
 
 import streaming
+import trailer
 
 # --------------------------------------------------------------------------- #
 # Constants
@@ -491,6 +492,8 @@ def check_seasons(state: dict, emitted: dict, links: set, args, now: datetime) -
             entry["detail"] = s["detail"]          # same page, no second fetch
         if getattr(args, "providers", False):
             entry["providers_due"] = True
+            if getattr(args, "trailers", False):
+                entry["trailer_due"] = True
         emitted[url] = entry
         del cands[url]
         new += 1
@@ -554,6 +557,80 @@ def enrich_providers(emitted: dict, cap: int, delay: float, lookup=streaming.loo
     return done, False
 
 
+# --------------------------------------------------------------------------- #
+# Official YouTube trailer (25.10.2026), see trailer.py
+# --------------------------------------------------------------------------- #
+# Forward-only like the streaming line: `trailer_due` is set at emit, the lookup runs in
+# the same build after enrich_providers (it needs the TMDB id from that match), and the
+# result is frozen. Items without a found trailer get no link, ever.
+
+
+def _freeze_trailers(emitted: dict, urls, why: str) -> None:
+    for u in urls:
+        m = emitted[u]
+        if m.pop("trailer_due", None):
+            m["trailer"] = {"v": trailer.VERSION, "key": None, why: True}
+
+
+def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=trailer.lookup,
+                    today: str = "") -> tuple[int, bool]:
+    """Look up the official YouTube trailer of each newly emitted item and freeze it under
+    `trailer`. No token, a rejected token, or DEGRADED_AFTER failures in a row -> degraded
+    (the run turns red after the commit). An item without TMDB id or without an official
+    trailer is a normal outcome, not a failure. Returns (found, degraded)."""
+    todo = sorted((u for u, m in emitted.items() if m.get("trailer_due")),
+                  key=lambda u: (emitted[u].get("emitted_at", ""), u), reverse=True)
+    if not todo:
+        return 0, False
+    if not token:
+        print("[warn] TMDB_TOKEN missing: new items get no trailer link", file=sys.stderr)
+        _freeze_trailers(emitted, todo, "no_token")
+        return 0, True
+    found = attempts = misses = 0
+    for i, url in enumerate(todo):
+        if attempts >= cap:
+            _freeze_trailers(emitted, todo[i:], "skipped")
+            break
+        meta = emitted[url]
+        tm = (meta.get("providers") or {}).get("tmdb")
+        if not tm:
+            meta.pop("trailer_due", None)
+            meta["trailer"] = {"v": trailer.VERSION, "key": None, "no_id": True}
+            continue
+        attempts += 1
+        season = None
+        m = re.search(r"/season-(\d+)/?$", url)
+        if m:
+            season = int(m.group(1))
+        try:
+            key = lookup(tm, meta.get("media", "tv"), season, token)
+        except trailer.AuthError as exc:
+            print(f"[warn] {exc}; stopping trailer lookups for this run", file=sys.stderr)
+            _freeze_trailers(emitted, todo, "failed")
+            return found, True
+        except trailer.TrailerError as exc:
+            print(f"[warn] trailer lookup failed for {url}: {exc}", file=sys.stderr)
+            meta.pop("trailer_due", None)
+            meta["trailer"] = {"v": trailer.VERSION, "key": None, "failed": True}
+            misses += 1
+            time.sleep(delay)
+            if misses >= DEGRADED_AFTER:
+                print(f"[warn] {misses} trailer lookups in a row failed; stopping for this run",
+                      file=sys.stderr)
+                _freeze_trailers(emitted, todo, "failed")
+                return found, True
+            continue
+        time.sleep(delay)
+        misses = 0
+        meta.pop("trailer_due", None)
+        rec = {"v": trailer.VERSION, "key": key}
+        if today:
+            rec["checked"] = today
+        meta["trailer"] = rec
+        found += bool(key)
+    return found, False
+
+
 def _de_date(iso: str) -> str:
     try:
         return datetime.fromisoformat(iso).strftime("%d.%m.%Y")
@@ -612,7 +689,8 @@ def save_state(path: str, state: dict) -> None:
 
 
 def process_cards(cards: list[dict], emitted: dict, threshold: int, now: datetime,
-                  seed_from_release: bool = False, providers: bool = False) -> int:
+                  seed_from_release: bool = False, providers: bool = False,
+                  trailers: bool = False) -> int:
     """Add newly-qualifying cards to `emitted`. Returns count of new items.
 
     A card qualifies when it has a numeric score >= threshold AND its URL has
@@ -643,6 +721,8 @@ def process_cards(cards: list[dict], emitted: dict, threshold: int, now: datetim
             entry["image"] = c["poster"]
         if providers:
             entry["providers_due"] = True
+            if trailers:
+                entry["trailer_due"] = True
         emitted[c["url"]] = entry
         new += 1
     return new
@@ -701,6 +781,9 @@ def describe_item(meta: dict) -> str:
     p = meta.get("providers") or {}
     stream = (f'<br />{streaming.describe(p.get("summary") or {}, _de_date(p.get("checked", "")))}'
               if p.get("match") else "")
+    tl = trailer.link_html((meta.get("trailer") or {}).get("key") or "")
+    if tl:
+        stream += f"<br />{tl}"
     if not has_info:
         return f'Metascore {meta["score"]} · {label} · Released {meta.get("release_date", "")}' + stream
 
@@ -736,6 +819,9 @@ def build_rss(items: list[tuple[str, dict]], args, last_build: str | None = None
         if args.threshold <= 0
         else f"Metacritic movie & TV releases scoring {args.threshold}+ (Metascore). Auto-generated."
     )
+    if getattr(args, "trailers", False):
+        # TMDB attribution (required for API use; logo and notice also in the README)
+        chan_desc += " Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB."
     out = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
@@ -828,7 +914,8 @@ def run(args) -> int:
                     print(f"       [{flag}] score={str(c['score']):>4}  {c['title']}  ::  {c['url']}")
             new_total += process_cards(cards, emitted, args.threshold, now,
                                        seed_from_release=args.seed_from_release,
-                                       providers=args.providers)
+                                       providers=args.providers,
+                                       trailers=args.trailers)
 
     # Fail loudly instead of silently freezing the feed:
     #   pages_ok == 0  -> network / total outage
@@ -893,6 +980,15 @@ def run(args) -> int:
         if got:
             print(f"[streaming] looked up {got} item(s)")
 
+    # Official YouTube trailer of new items (needs the TMDB id from the streaming match).
+    trailers_degraded = False
+    if not args.dry_run:
+        got, trailers_degraded = enrich_trailers(emitted, max(args.trailer_max, 0), args.trailer_delay,
+                                                 os.environ.get("TMDB_TOKEN", "").strip(),
+                                                 today=now.date().isoformat())
+        if got:
+            print(f"[trailer] found {got} trailer(s)")
+
     items = sorted(emitted.items(), key=_feed_sort_key, reverse=True)[: args.feed_max]
     last_build = max((m.get("emitted_at", "") for m in emitted.values()), default=now.isoformat())
 
@@ -908,7 +1004,7 @@ def run(args) -> int:
     # `git diff --cached --quiet` skips the commit and there is no every-run churn.
     _atomic_write(args.out, build_rss(items, args, last_build))
     save_state(args.state, state)
-    if degraded or seasons_degraded or providers_degraded:
+    if degraded or seasons_degraded or providers_degraded or trailers_degraded:
         # The feed and state above are correct and get committed; the workflow
         # turns these flags into a red run only after the commit step.
         gh_out = os.environ.get("GITHUB_OUTPUT")
@@ -920,6 +1016,8 @@ def run(args) -> int:
                     fh.write("seasons_degraded=true\n")
                 if providers_degraded:
                     fh.write("providers_degraded=true\n")
+                if trailers_degraded:
+                    fh.write("trailers_degraded=true\n")
     print(
         f"Scanned {scanned} cards across {args.media} x {args.pages} page(s), {pages_ok}/{pages_tried} ok. "
         f"{new_total} new qualifier(s) >= {args.threshold}. Feed now has {len(items)} item(s) -> {args.out}"
@@ -967,6 +1065,14 @@ def build_argparser() -> argparse.ArgumentParser:
                    help="max streaming lookups per run (default 120; items beyond keep (TV))")
     p.add_argument("--provider-delay", type=float, default=float(_env("MC_PROVIDER_DELAY", "0.5")),
                    help="seconds to wait between streaming lookups (default 0.5)")
+    p.add_argument("--trailers", dest="trailers", action="store_true",
+                   default=_env("MC_TRAILERS", "1") not in ("0", "false", "False", ""),
+                   help="link the official YouTube trailer of new titles (TMDB, needs TMDB_TOKEN; default on)")
+    p.add_argument("--no-trailers", dest="trailers", action="store_false")
+    p.add_argument("--trailer-max", type=int, default=int(_env("MC_TRAILER_MAX", "120")),
+                   help="max trailer lookups per run (default 120; items beyond get no link)")
+    p.add_argument("--trailer-delay", type=float, default=float(_env("MC_TRAILER_DELAY", "0.25")),
+                   help="seconds to wait between trailer lookups (default 0.25)")
     p.add_argument("--browse-delay", type=float, default=float(_env("MC_BROWSE_DELAY", "0.4")),
                    help="seconds to wait between browse pages (politeness / 429 prophylaxis, default 0.4)")
     p.add_argument("--seed-from-release", dest="seed_from_release", action="store_true",

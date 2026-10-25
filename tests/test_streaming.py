@@ -172,8 +172,13 @@ def test_existing_state_untouched():
     state = json.loads((Path(__file__).resolve().parents[1] / "state.json").read_text())
     emitted = state["emitted"]
     assert not any("providers_due" in m for m in emitted.values())
+    # Since 21.10. new items carry `providers`; the test is that nothing unmarked is looked up
+    # or changed (the original assertion "no item has providers" went stale with the first emit).
+    before = json.dumps(emitted, sort_keys=True)
     done, _ = mf.enrich_providers(emitted, 999, 0, lookup=lambda t, d, media="tv": 1 / 0)
-    assert done == 0 and not any("providers" in m for m in emitted.values())
+    assert done == 0 and json.dumps(emitted, sort_keys=True) == before
+    found, degraded = mf.enrich_trailers(emitted, 999, 0, "", lookup=lambda *a: 1 / 0)
+    assert (found, degraded) == (0, False) and json.dumps(emitted, sort_keys=True) == before
 
 
 def test_season_year_bound_and_robustness():

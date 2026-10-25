@@ -136,6 +136,9 @@ Alles per CLI-Flag **oder** Umgebungsvariable (Flag schlägt ENV):
 | `MC_PROVIDERS` | `--providers`/`--no-providers` | `1` | Streaming-Anbieter in Deutschland (JustWatch) für neue TV-Titel |
 | `MC_PROVIDER_MAX` | `--provider-max` | `120` | Max. JustWatch-Abfragen pro Lauf (darüber bleibt „(TV)") |
 | `MC_PROVIDER_DELAY` | `--provider-delay` | `0.5` | Pause zwischen JustWatch-Abfragen (Sekunden) |
+| `MC_TRAILERS` | `--trailers`/`--no-trailers` | `1` | Link auf den offiziellen YouTube-Trailer neuer Titel (TMDB, braucht das Secret `TMDB_TOKEN`) |
+| `MC_TRAILER_MAX` | `--trailer-max` | `120` | Max. TMDB-Abfragen pro Lauf (darüber kein Link) |
+| `MC_TRAILER_DELAY` | `--trailer-delay` | `0.25` | Pause zwischen TMDB-Abfragen (Sekunden) |
 | – | `--dry-run` | – | Nichts schreiben, nur berichten |
 | – | `--debug` | – | Jede geparste Karte ausgeben |
 
@@ -206,6 +209,29 @@ Die Tests decken Parsing, den Schwellwert, das „einmal emittieren", den **„S
 **Staffel-Karten.** Seit 21.10.2026 verlinken die Karten der TV-Browse-Seite auf Staffeln (`/tv/<serie>/season-N/`) statt auf Serien. „Season 1" wird auf die Serien-URL zurückgeführt (die guid jeder neuen Serie seit Juli), sonst käme jede neue Serie doppelt. Staffeln ab 2 kommen damit direkt über die Browse-Seiten; die Staffel-Suche läuft als Ergänzung weiter. Der erste Lauf nach der Umstellung brachte 110 Einträge auf einmal, davon 71 doppelte „Season 1" — bewusst stehen gelassen.
 
 **Score 0.** Eine Staffel ohne Metascore trägt im JSON-LD `ratingValue: 0`; das gilt jetzt als „kein Score", ebenso eine 0 auf einer Staffel-Karte. Vorher erschienen drei Staffeln als „[0]" (All Creatures Great and Small S7, Cyberpunk: Edgerunners S2, The Terminal List S2); die bleiben so stehen.
+
+## Trailer-Link (25.10.2026)
+
+- **Beschreibung:** neue Einträge bekommen unter der Streaming-Zeile „▶ Trailer (YouTube)“, verlinkt auf
+  `youtube.com/watch?v=…`. Gibt es keinen offiziellen Trailer, steht nichts da (Johannes 25.10.2026: kein
+  Suchlink, keine eingebettete Wiedergabe).
+- **Quelle:** TMDB-API (`trailer.py`). Die TMDB-ID kommt aus dem JustWatch-Treffer der Streaming-Suche
+  (`externalIds.tmdbId`), es gibt keine zweite Titelsuche. Film `/movie/{id}/videos`, neue Serie
+  `/tv/{id}/videos`, Staffel N `/tv/{id}/season/N/videos`, sonst Serienvideos, deren Name „Season N“ nennt
+  (Staffel 1: jeder Serientrailer). Nur YouTube, nur `official`, Trailer vor Teaser, Englisch vor Deutsch,
+  dann das neueste.
+- **Eingefroren** wie die Streaming-Zeile: eine Abfrage beim Erscheinen im Feed, nie wieder; ältere Einträge
+  bleiben byte-gleich (nur die Kanal-Beschreibung hat einmal den TMDB-Hinweis bekommen).
+- **Laut statt still:** fehlt das Secret, lehnt TMDB den Token ab oder scheitern drei Abfragen in Folge,
+  wird der Lauf nach dem Commit rot und legt das Issue „Trailer lookup degraded“ an. Ein Titel ohne
+  TMDB-ID oder ohne offiziellen Trailer ist kein Fehler.
+- **Secret:** `TMDB_TOKEN` (API Read Access Token, nur lesend), nur im Build-Schritt, nur im
+  Authorization-Header, nie in URL, Log oder State. Der Workflow läuft nur per Zeitplan und von Hand,
+  nie auf Pull-Requests; die Actions sind auf Commit-SHAs gepinnt.
+
+<img src="https://www.themoviedb.org/assets/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg" alt="TMDB" width="180">
+
+This product uses the TMDB API but is not endorsed or certified by TMDB.
 
 ## Härtung 27.08.2026
 

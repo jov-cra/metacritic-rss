@@ -31,7 +31,9 @@ query($country: Country!, $language: Language!, $filter: TitleFilter) {
   popularTitles(country: $country, first: 6, filter: $filter) {
     edges { node {
       objectType
-      content(country: $country, language: $language) { title originalTitle originalReleaseYear }
+      content(country: $country, language: $language) {
+        title originalTitle originalReleaseYear externalIds { tmdbId }
+      }
       offers(country: $country, platform: WEB) {
         monetizationType retailPriceValue currency package { clearName }
       }
@@ -338,6 +340,12 @@ def search(base: str, kind: str = "SHOW", timeout: int = 20) -> list:
         raise LookupError_(f"unexpected response shape: {exc}") from exc
 
 
+def _tmdb(node: dict) -> str | None:
+    """TMDB id of the matched JustWatch node (for the trailer lookup), digits only."""
+    t = ((node.get("content") or {}).get("externalIds") or {}).get("tmdbId")
+    return str(t) if t is not None and str(t).isdigit() else None
+
+
 def lookup(mc_title: str, release_date: str = "", media: str = "tv", fetch=search) -> dict:
     """-> stored record. {"v", "match": False} when JustWatch has no unambiguous
     match, else {"v", "match": True, "summary": {...}}. Raises LookupError_ on failure.
@@ -347,7 +355,10 @@ def lookup(mc_title: str, release_date: str = "", media: str = "tv", fetch=searc
         node = pick_match(fetch(base, "MOVIE"), base, year, kind="MOVIE")
         if node is None:
             return {"v": VERSION, "match": False}
-        return {"v": VERSION, "match": True, "summary": summarize(offers_for(node, None)[0])}
+        rec = {"v": VERSION, "match": True, "summary": summarize(offers_for(node, None)[0])}
+        if _tmdb(node):
+            rec["tmdb"] = _tmdb(node)
+        return rec
     base, year, season = split_title(mc_title, release_date)
     latest = None
     if season is not None and year is None:
@@ -360,4 +371,7 @@ def lookup(mc_title: str, release_date: str = "", media: str = "tv", fetch=searc
     summary = summarize(offers)
     if not own:
         summary["older"] = True
-    return {"v": VERSION, "match": True, "summary": summary}
+    rec = {"v": VERSION, "match": True, "summary": summary}
+    if _tmdb(node):
+        rec["tmdb"] = _tmdb(node)
+    return rec

@@ -28,10 +28,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4 (pinned 25.10.2026: the job now holds TMDB_TOKEN)
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5 (pinned 25.10.2026)
         with:
           python-version: "3.12"
 
@@ -48,6 +48,8 @@ jobs:
           MC_FEED_MAX: "500"          # items kept in the feed (archive persists in state either way)
           MC_FEED_SELF: "https://jov-cra.github.io/metacritic-rss/feed.xml"
           MC_FEED_LINK: "https://www.metacritic.com/"   # readers derive the feed icon from this domain's favicon
+          # Official YouTube trailer link for new items (TMDB). Read-only API token, only in this step.
+          TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
         run: python metacritic_feed.py
 
       - name: Commit updated feed + state
@@ -63,12 +65,12 @@ jobs:
             git push
           fi
 
-      - name: Fail when enrichment, season discovery or streaming lookup is degraded
+      - name: Fail when enrichment, season discovery, streaming or trailer lookup is degraded
         # Feed and state were written and committed above (scores are correct);
         # only a supplementary part is broken, so the run turns red afterwards.
-        if: steps.build.outputs.degraded == 'true' || steps.build.outputs.seasons_degraded == 'true' || steps.build.outputs.providers_degraded == 'true'
+        if: steps.build.outputs.degraded == 'true' || steps.build.outputs.seasons_degraded == 'true' || steps.build.outputs.providers_degraded == 'true' || steps.build.outputs.trailers_degraded == 'true'
         run: |
-          echo "degraded=${{ steps.build.outputs.degraded }} seasons_degraded=${{ steps.build.outputs.seasons_degraded }} providers_degraded=${{ steps.build.outputs.providers_degraded }}"
+          echo "degraded=${{ steps.build.outputs.degraded }} seasons_degraded=${{ steps.build.outputs.seasons_degraded }} providers_degraded=${{ steps.build.outputs.providers_degraded }} trailers_degraded=${{ steps.build.outputs.trailers_degraded }}"
           exit 1
 
       - name: Open an issue when the build fails
@@ -81,6 +83,7 @@ jobs:
           DEGRADED: ${{ steps.build.outputs.degraded }}
           SEASONS_DEGRADED: ${{ steps.build.outputs.seasons_degraded }}
           PROVIDERS_DEGRADED: ${{ steps.build.outputs.providers_degraded }}
+          TRAILERS_DEGRADED: ${{ steps.build.outputs.trailers_degraded }}
           COMMITTED: ${{ steps.commit.outcome }}
         run: |
           if [ "$COMMITTED" = "success" ] && [ "$DEGRADED" = "true" ]; then
@@ -92,6 +95,9 @@ jobs:
           elif [ "$COMMITTED" = "success" ] && [ "$PROVIDERS_DEGRADED" = "true" ]; then
             title="Streaming lookup degraded"
             body="The feed was published, but JustWatch lookups keep failing (blocked, or the API changed); new TV items show (TV) instead of where they stream in Germany. Run: $RUN_URL"
+          elif [ "$COMMITTED" = "success" ] && [ "$TRAILERS_DEGRADED" = "true" ]; then
+            title="Trailer lookup degraded"
+            body="The feed was published, but TMDB trailer lookups fail (token missing or rejected, or the API changed); new items get no trailer link. Run: $RUN_URL"
           else
             title="Feed build is failing"
             body="The scheduled feed build failed and left the previous feed.xml in place (fail-closed), so the published feed is now going stale. Run: $RUN_URL"
