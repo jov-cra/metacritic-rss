@@ -14033,6 +14033,25 @@
         },
         "checked": "2026-10-23"
       }
+    },
+    "https://www.metacritic.com/tv/it-gets-worse/": {
+      "title": "It Gets Worse",
+      "score": 80,
+      "media": "tv",
+      "release_date": "Oct 14, 2026",
+      "emitted_at": "2026-10-25T07:01:34.642112+00:00",
+      "feed_date": "2026-10-25T07:01:34.642112+00:00",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "v": 3
+      },
+      "providers": {
+        "v": 2,
+        "match": false,
+        "checked": "2026-10-25"
+      }
     }
   },
   "seasons": {
@@ -14284,10 +14303,14 @@
       "premiere": "May 15, 2026"
     },
     "https://www.metacritic.com/tv/berlin/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "May 15, 2026"
     },
     "https://www.metacritic.com/tv/betrayal-2023/season-4/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Aug 4, 2026"
     },
     "https://www.metacritic.com/tv/beyond-the-gates/season-3/": {
       "first_seen": "2026-10-21"
