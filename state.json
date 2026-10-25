@@ -14424,10 +14424,13 @@
       "premiere": "Jun 8, 2026"
     },
     "https://www.metacritic.com/tv/fauda/season-5/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "May 18, 2026"
     },
     "https://www.metacritic.com/tv/fbi/season-9/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/fire-country/season-5/": {
       "first_seen": "2026-10-21"

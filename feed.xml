@@ -3,7 +3,7 @@
 <channel>
 <title>Metacritic — Movies &amp; TV (all scored)</title>
 <link>https://www.metacritic.com/</link>
-<description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated.</description>
+<description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
 <lastBuildDate>Sun, 25 Oct 2026 07:01:34 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
