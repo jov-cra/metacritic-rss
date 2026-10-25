@@ -202,7 +202,9 @@ CHANNEL_RE = re.compile(r"\s+(amazon channel|apple tv channel|channel)$", re.I)
 NOT_FREE = {"Netflix", "Prime Video", "Disney+", "Apple TV", "HBO Max", "WOW", "Sky", "Paramount+"}
 PHYSICAL_RE = re.compile(r"dvd|blu-?ray|thalia|weltbild|media ?markt|saturn", re.I)
 # Order in the title: the big services first, then alphabetical.
-PRIORITY = ["Netflix", "Prime Video", "Disney+", "Apple TV", "HBO Max", "WOW", "Sky", "Paramount+",
+# HBO Max first (Johannes 25.10.2026: "wo es HBO gibt, wird das priorisiert"). Order is applied
+# when a lookup is stored, so items already in the feed keep their frozen text.
+PRIORITY = ["HBO Max", "Netflix", "Prime Video", "Disney+", "Apple TV", "WOW", "Sky", "Paramount+",
             "RTL+", "Joyn", "MagentaTV", "ARD Mediathek", "ZDF", "arte"]
 
 

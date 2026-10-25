@@ -290,3 +290,9 @@ def test_cinema_only_movie():
     assert st.label(s) == "im Kino" and "im Kino" in st.describe(s)
     s = st.summarize(_offers(("CINEMA", "Cineplex", None), ("RENT", "Apple TV Store", 5.99)))
     assert st.label(s) == "Leihen ab 5,99 €"
+
+
+def test_hbo_max_comes_first():
+    """Johannes 25.10.2026: wherever HBO Max has it, HBO Max is named first."""
+    offers = [{"monetizationType": "FLATRATE", "package": {"clearName": n}} for n in ("WOW", "Netflix", "HBO Max")]
+    assert st.summarize(offers)["flat"][0] == "HBO Max"
