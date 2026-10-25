@@ -7,6 +7,11 @@ is frozen into the state like the detail stats: the item title then reads
 "[85] Slow Horses: Season 6 (Apple TV · Abo)" instead of "(TV)". Availability that
 changes later is NOT followed (that would rewrite titles the reader already has).
 
+Rent/buy (25.10.2026, Johannes: always say where, with a direct link that opens the app):
+the store is picked Apple TV Store -> Amazon -> cheapest other, price = cheapest in that
+store, link = JustWatch's `standardWebURL` without partner parameters. Only items looked
+up from now on carry the store (`rent`/`buy` in the summary); older summaries render as before.
+
 Supplementary like the detail pages: a failed lookup never stops the feed, the item
 keeps "(TV)" for good; several failures in a row set a flag that turns the run red
 after the commit.
@@ -16,6 +21,7 @@ from __future__ import annotations
 import html
 import re
 import unicodedata
+import urllib.parse
 
 try:
     import requests
@@ -24,7 +30,7 @@ except ImportError:  # keeps the module importable for tests without requests
 
 ENDPOINT = "https://apis.justwatch.com/graphql"
 COUNTRY = "DE"
-VERSION = 2
+VERSION = 3
 
 QUERY = """
 query($country: Country!, $language: Language!, $filter: TitleFilter) {
@@ -35,13 +41,13 @@ query($country: Country!, $language: Language!, $filter: TitleFilter) {
         title originalTitle originalReleaseYear externalIds { tmdbId }
       }
       offers(country: $country, platform: WEB) {
-        monetizationType retailPriceValue currency package { clearName }
+        monetizationType retailPriceValue currency standardWebURL package { clearName shortName }
       }
       ... on Show {
         seasons {
           content(country: $country, language: $language) { seasonNumber }
           offers(country: $country, platform: WEB) {
-            monetizationType retailPriceValue currency package { clearName }
+            monetizationType retailPriceValue currency standardWebURL package { clearName shortName }
           }
         }
       }
@@ -232,6 +238,7 @@ def summarize(offers: list) -> dict:
     from the big subscription services is a sample, see NOT_FREE."""
     flat, free = set(), set()
     rent, buy = [], []
+    rent_o, buy_o = [], []
     cinema = False
     for o in offers or []:
         if not isinstance(o, dict):
@@ -251,8 +258,10 @@ def summarize(offers: list) -> dict:
             free.add(name)
         elif kind == "RENT" and isinstance(price, (int, float)) and price > 0:
             rent.append((float(price), name))
+            rent_o.append((float(price), _shop(o), o.get("standardWebURL")))
         elif kind == "BUY" and isinstance(price, (int, float)) and price > 0:
             buy.append((float(price), name))
+            buy_o.append((float(price), _shop(o), o.get("standardWebURL")))
     flat -= free
     out: dict = {}
     if free:
@@ -265,9 +274,56 @@ def summarize(offers: list) -> dict:
     if buy:
         p, n = min(buy)
         out["buy_from"], out["buy_at"] = p, n
+    if rent_o:
+        out["rent"] = pick_shop(rent_o)
+    if buy_o:
+        out["buy"] = pick_shop(buy_o)
     if cinema:
         out["cinema"] = True
     return out
+
+
+SHOP_FIRST = ("Apple TV Store", "Amazon")
+SHOP_SHORT = {"itu": "Apple TV Store", "amz": "Amazon"}
+SHOP_HOSTS = {"Apple TV Store": {"tv.apple.com"},
+              "Amazon": {"watch.amazon.de", "www.amazon.de", "app.primevideo.com", "www.primevideo.com"}}
+PARTNER = {"at", "ct", "itscg", "itsct", "mt", "tag", "ref", "ref_", "linkcode", "camp", "campaign", "creative",
+           "uct", "utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"}
+
+
+def _shop(o: dict) -> str:
+    pkg = o.get("package") or {}
+    return SHOP_SHORT.get(pkg.get("shortName") or "") or service_name(pkg.get("clearName") or "")
+
+
+def clean_url(url, shop: str):
+    """https link without partner parameters; Apple/Amazon only on their own hosts. Else None."""
+    if not isinstance(url, str) or not url:
+        return None
+    try:
+        u = urllib.parse.urlsplit(url)
+    except ValueError:
+        return None
+    if u.scheme != "https" or not u.netloc:
+        return None
+    if shop in SHOP_HOSTS and u.netloc.lower() not in SHOP_HOSTS[shop]:
+        return None
+    q = [(k, v) for k, v in urllib.parse.parse_qsl(u.query, keep_blank_values=True) if k.lower() not in PARTNER]
+    return urllib.parse.urlunsplit((u.scheme, u.netloc, u.path, urllib.parse.urlencode(q), ""))
+
+
+def pick_shop(offers: list) -> dict:
+    """[(price, shop, url)] of one kind -> {"shop", "price", "url"}: Apple TV Store, else Amazon,
+    else the cheapest store; price = cheapest in that store; url may be None."""
+    per = {}
+    for price, shop, url in offers:
+        per.setdefault(shop, []).append((price, url))
+    shop = next((s for s in SHOP_FIRST if s in per), None)
+    if shop is None:
+        shop = min(per, key=lambda s: (min(p for p, _ in per[s]), s.lower()))
+    rows = sorted(per[shop], key=lambda x: x[0])
+    url = next((u for u in (clean_url(r[1], shop) for r in rows) if u), None)
+    return {"shop": shop, "price": rows[0][0], "url": url}
 
 
 def label(summary: dict) -> str:
@@ -278,8 +334,12 @@ def label(summary: dict) -> str:
     if summary.get("flat"):
         parts.append(f'{_join(summary["flat"])} · Abo')
     if not parts:
-        if summary.get("rent_from") is not None:
+        if summary.get("rent"):
+            parts.append(f'Leihen bei {summary["rent"]["shop"]} ab {_euro(summary["rent"]["price"])}')
+        elif summary.get("rent_from") is not None:
             parts.append(f'Leihen ab {_euro(summary["rent_from"])}')
+        elif summary.get("buy"):
+            parts.append(f'Kaufen bei {summary["buy"]["shop"]} ab {_euro(summary["buy"]["price"])}')
         elif summary.get("buy_from") is not None:
             parts.append(f'Kaufen ab {_euro(summary["buy_from"])}')
     if not parts and summary.get("cinema"):
@@ -300,10 +360,14 @@ def describe(summary: dict, checked: str = "") -> str:
         bits.append("gratis bei " + ", ".join(e(n) for n in summary["free"]))
     if summary.get("flat"):
         bits.append("im Abo bei " + ", ".join(e(n) for n in summary["flat"]))
-    if summary.get("rent_from") is not None:
-        bits.append(f'leihen ab {_euro(summary["rent_from"])} ({e(summary.get("rent_at", ""))})')
-    if summary.get("buy_from") is not None:
-        bits.append(f'kaufen ab {_euro(summary["buy_from"])} ({e(summary.get("buy_at", ""))})')
+    for kind, word in (("rent", "leihen"), ("buy", "kaufen")):
+        pick = summary.get(kind)
+        if pick:   # since 25.10.2026: the preferred store, linked
+            shop = (f'<a href="{e(pick["url"])}">{e(pick["shop"])}</a>' if pick.get("url")
+                    else e(pick["shop"]))
+            bits.append(f'{word} bei {shop} ab {_euro(pick["price"])}')
+        elif summary.get(f"{kind}_from") is not None:
+            bits.append(f'{word} ab {_euro(summary[f"{kind}_from"])} ({e(summary.get(f"{kind}_at", ""))})')
     if summary.get("cinema"):
         bits.append("im Kino")
     head = f"Streaming DE (JustWatch, {checked})" if checked else "Streaming DE (JustWatch)"
@@ -360,6 +424,12 @@ def lookup(mc_title: str, release_date: str = "", media: str = "tv", fetch=searc
         rec = {"v": VERSION, "match": True, "summary": summarize(offers_for(node, None)[0])}
         if _tmdb(node):
             rec["tmdb"] = _tmdb(node)
+        c = node.get("content") or {}
+        names = [t for t in (c.get("title"), c.get("originalTitle")) if isinstance(t, str) and t]
+        if rec["summary"].get("cinema") and names:   # for the Munich cinema line (kino.py)
+            rec["titles"] = list(dict.fromkeys(names))
+            if isinstance(c.get("originalReleaseYear"), int):
+                rec["year"] = c["originalReleaseYear"]
         return rec
     base, year, season = split_title(mc_title, release_date)
     latest = None
@@ -373,6 +443,11 @@ def lookup(mc_title: str, release_date: str = "", media: str = "tv", fetch=searc
     summary = summarize(offers)
     if not own:
         summary["older"] = True
+    if not own or season is None:
+        # the link would lead to another season, or be ambiguous across seasons: store, no link
+        for kind in ("rent", "buy"):
+            if summary.get(kind):
+                summary[kind]["url"] = None
     rec = {"v": VERSION, "match": True, "summary": summary}
     if _tmdb(node):
         rec["tmdb"] = _tmdb(node)

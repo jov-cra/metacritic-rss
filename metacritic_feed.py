@@ -50,6 +50,7 @@ except ImportError:  # keeps the module importable for tests without requests
 
 from bs4 import BeautifulSoup
 
+import kino
 import streaming
 import trailer
 
@@ -518,7 +519,7 @@ def _freeze_rest(emitted: dict, urls, why: str) -> None:
 
 
 def enrich_providers(emitted: dict, cap: int, delay: float, lookup=streaming.lookup,
-                     today: str = "") -> tuple[int, bool]:
+                     today: str = "", kino_on: bool = False) -> tuple[int, bool]:
     """Look up where each newly emitted item (TV and movie) streams in Germany and freeze the
     result under `providers` (with the lookup date). Every marked item is settled
     in this run, before the feed is written, so a title never changes after the
@@ -553,6 +554,9 @@ def enrich_providers(emitted: dict, cap: int, delay: float, lookup=streaming.loo
         if today:
             rec["checked"] = today
         meta["providers"] = rec
+        if (kino_on and meta.get("media") == "movie" and rec.get("match") and rec.get("titles")
+                and (rec.get("summary") or {}).get("cinema")):
+            meta["kino_due"] = True   # Munich cinema line, looked up in this same run (enrich_kino)
         done += 1
     return done, False
 
@@ -629,6 +633,75 @@ def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=tr
         meta["trailer"] = rec
         found += bool(key)
     return found, False
+
+
+# --------------------------------------------------------------------------- #
+# Munich cinemas in the original version (25.10.2026), see kino.py
+# --------------------------------------------------------------------------- #
+# Forward-only like the streaming line: `kino_due` is set in enrich_providers for a new movie
+# that JustWatch marks "im Kino"; the snapshot (next showings with booking links) is frozen.
+
+
+def enrich_kino(emitted: dict, now, token: str, load=kino.load_program, shows=kino.kinoheld_shows,
+                language=kino.tmdb_language, today: str = "") -> tuple[int, bool]:
+    """Freeze the Munich original-version showings of each newly emitted cinema movie under
+    `kino`. Never fatal: an unreadable programme, a TMDB failure or an unreachable kinoheld
+    set degraded=True (red run after the commit); the item then has no or a partial line.
+    Returns (with_shows, degraded)."""
+    todo = sorted(u for u, m in emitted.items() if m.get("kino_due"))
+    if not todo:
+        return 0, False
+    today = today or now.date().isoformat()   # same date as the streaming line of this run
+    if not token:
+        print("[warn] TMDB_TOKEN missing: no cinema line for new movies", file=sys.stderr)
+        for u in todo:
+            emitted[u].pop("kino_due", None)
+            emitted[u]["kino"] = {"v": kino.VERSION, "failed": True}
+        return 0, True
+    films, failed = load(now.date())
+    degraded = bool(failed)
+    if len(failed) == 2:
+        for u in todo:
+            emitted[u].pop("kino_due", None)
+            emitted[u]["kino"] = {"v": kino.VERSION, "failed": True}
+        return 0, True
+    cache: dict = {}
+
+    def shows_for(kid):
+        nonlocal degraded
+        if kid not in cache:
+            try:
+                cache[kid] = shows(kid, now.date())
+            except Exception as exc:   # supplementary: programme link instead
+                print(f"[warn] {exc}", file=sys.stderr)
+                cache[kid] = None
+                degraded = True
+        return cache[kid]
+
+    found = 0
+    for u in todo:
+        meta = emitted[u]
+        meta.pop("kino_due", None)
+        prov = meta.get("providers") or {}
+        titles = prov.get("titles") or []
+        matched = kino.match_films(films, titles, prov.get("year"))
+        rec = {"v": kino.VERSION, "checked": today, "shows": []}
+        if matched:
+            lang = None
+            if prov.get("tmdb"):
+                try:
+                    lang = language(prov["tmdb"], token)
+                except Exception as exc:
+                    print(f"[warn] {exc}", file=sys.stderr)
+                    meta["kino"] = {"v": kino.VERSION, "failed": True}
+                    degraded = True
+                    continue
+            rec["shows"] = kino.snapshot(matched, lang, now, shows_for, titles)
+        if failed:
+            rec["partial"] = failed
+        meta["kino"] = rec
+        found += bool(rec["shows"])
+    return found, degraded
 
 
 def _de_date(iso: str) -> str:
@@ -784,6 +857,10 @@ def describe_item(meta: dict) -> str:
     tl = trailer.link_html((meta.get("trailer") or {}).get("key") or "")
     if tl:
         stream += f"<br />{tl}"
+    k = meta.get("kino") or {}
+    kl = kino.describe(k, _de_date(k.get("checked", ""))) if k.get("shows") else ""
+    if kl:
+        stream += f"<br />{kl}"
     if not has_info:
         return f'Metascore {meta["score"]} · {label} · Released {meta.get("release_date", "")}' + stream
 
@@ -976,7 +1053,8 @@ def run(args) -> int:
     providers_degraded = False
     if not args.dry_run:
         got, providers_degraded = enrich_providers(emitted, max(args.provider_max, 0),
-                                                   args.provider_delay, today=now.date().isoformat())
+                                                   args.provider_delay, today=now.date().isoformat(),
+                                                   kino_on=getattr(args, "kino", False))
         if got:
             print(f"[streaming] looked up {got} item(s)")
 
@@ -988,6 +1066,22 @@ def run(args) -> int:
                                                  today=now.date().isoformat())
         if got:
             print(f"[trailer] found {got} trailer(s)")
+
+    # Where a new cinema movie runs in Munich in the original version (needs the streaming match).
+    kino_degraded = False
+    if not args.dry_run and getattr(args, "kino", False):
+        berlin_now = now.astimezone(kino.BERLIN) if kino.BERLIN else now
+        try:
+            got, kino_degraded = enrich_kino(emitted, berlin_now, os.environ.get("TMDB_TOKEN", "").strip(),
+                                             today=now.date().isoformat())
+        except Exception as exc:   # never fatal: freeze what is due without a line, run turns red
+            print(f"[warn] cinema lookup crashed: {type(exc).__name__}: {exc}", file=sys.stderr)
+            for m in emitted.values():
+                if m.pop("kino_due", None):
+                    m["kino"] = {"v": kino.VERSION, "failed": True}
+            got, kino_degraded = 0, True
+        if got:
+            print(f"[kino] {got} movie(s) with Munich showings")
 
     items = sorted(emitted.items(), key=_feed_sort_key, reverse=True)[: args.feed_max]
     last_build = max((m.get("emitted_at", "") for m in emitted.values()), default=now.isoformat())
@@ -1004,7 +1098,7 @@ def run(args) -> int:
     # `git diff --cached --quiet` skips the commit and there is no every-run churn.
     _atomic_write(args.out, build_rss(items, args, last_build))
     save_state(args.state, state)
-    if degraded or seasons_degraded or providers_degraded or trailers_degraded:
+    if degraded or seasons_degraded or providers_degraded or trailers_degraded or kino_degraded:
         # The feed and state above are correct and get committed; the workflow
         # turns these flags into a red run only after the commit step.
         gh_out = os.environ.get("GITHUB_OUTPUT")
@@ -1018,6 +1112,8 @@ def run(args) -> int:
                     fh.write("providers_degraded=true\n")
                 if trailers_degraded:
                     fh.write("trailers_degraded=true\n")
+                if kino_degraded:
+                    fh.write("kino_degraded=true\n")
     print(
         f"Scanned {scanned} cards across {args.media} x {args.pages} page(s), {pages_ok}/{pages_tried} ok. "
         f"{new_total} new qualifier(s) >= {args.threshold}. Feed now has {len(items)} item(s) -> {args.out}"
@@ -1073,6 +1169,11 @@ def build_argparser() -> argparse.ArgumentParser:
                    help="max trailer lookups per run (default 120; items beyond get no link)")
     p.add_argument("--trailer-delay", type=float, default=float(_env("MC_TRAILER_DELAY", "0.25")),
                    help="seconds to wait between trailer lookups (default 0.25)")
+    p.add_argument("--kino", dest="kino", action="store_true",
+                   default=_env("MC_KINO", "1") not in ("0", "false", "False", ""),
+                   help="for new movies in German cinemas: next Munich original-version showings with "
+                        "booking links (indiekino, Cinema Filmtheater, kinoheld; needs TMDB_TOKEN; default on)")
+    p.add_argument("--no-kino", dest="kino", action="store_false")
     p.add_argument("--browse-delay", type=float, default=float(_env("MC_BROWSE_DELAY", "0.4")),
                    help="seconds to wait between browse pages (politeness / 429 prophylaxis, default 0.4)")
     p.add_argument("--seed-from-release", dest="seed_from_release", action="store_true",

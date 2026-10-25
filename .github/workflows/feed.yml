@@ -65,12 +65,12 @@ jobs:
             git push
           fi
 
-      - name: Fail when enrichment, season discovery, streaming or trailer lookup is degraded
+      - name: Fail when enrichment, season discovery, streaming, trailer or cinema lookup is degraded
         # Feed and state were written and committed above (scores are correct);
         # only a supplementary part is broken, so the run turns red afterwards.
-        if: steps.build.outputs.degraded == 'true' || steps.build.outputs.seasons_degraded == 'true' || steps.build.outputs.providers_degraded == 'true' || steps.build.outputs.trailers_degraded == 'true'
+        if: steps.build.outputs.degraded == 'true' || steps.build.outputs.seasons_degraded == 'true' || steps.build.outputs.providers_degraded == 'true' || steps.build.outputs.trailers_degraded == 'true' || steps.build.outputs.kino_degraded == 'true'
         run: |
-          echo "degraded=${{ steps.build.outputs.degraded }} seasons_degraded=${{ steps.build.outputs.seasons_degraded }} providers_degraded=${{ steps.build.outputs.providers_degraded }} trailers_degraded=${{ steps.build.outputs.trailers_degraded }}"
+          echo "degraded=${{ steps.build.outputs.degraded }} seasons_degraded=${{ steps.build.outputs.seasons_degraded }} providers_degraded=${{ steps.build.outputs.providers_degraded }} trailers_degraded=${{ steps.build.outputs.trailers_degraded }} kino_degraded=${{ steps.build.outputs.kino_degraded }}"
           exit 1
 
       - name: Open an issue when the build fails
@@ -84,6 +84,7 @@ jobs:
           SEASONS_DEGRADED: ${{ steps.build.outputs.seasons_degraded }}
           PROVIDERS_DEGRADED: ${{ steps.build.outputs.providers_degraded }}
           TRAILERS_DEGRADED: ${{ steps.build.outputs.trailers_degraded }}
+          KINO_DEGRADED: ${{ steps.build.outputs.kino_degraded }}
           COMMITTED: ${{ steps.commit.outcome }}
         run: |
           if [ "$COMMITTED" = "success" ] && [ "$DEGRADED" = "true" ]; then
@@ -98,6 +99,9 @@ jobs:
           elif [ "$COMMITTED" = "success" ] && [ "$TRAILERS_DEGRADED" = "true" ]; then
             title="Trailer lookup degraded"
             body="The feed was published, but TMDB trailer lookups fail (token missing or rejected, or the API changed); new items get no trailer link. Run: $RUN_URL"
+          elif [ "$COMMITTED" = "success" ] && [ "$KINO_DEGRADED" = "true" ]; then
+            title="Cinema lookup degraded"
+            body="The feed was published, but the Munich cinema programme (indiekino, Cinema Filmtheater), kinoheld or TMDB could not be read; new cinema movies have no or a partial cinema line. Run: $RUN_URL"
           else
             title="Feed build is failing"
             body="The scheduled feed build failed and left the previous feed.xml in place (fail-closed), so the published feed is now going stale. Run: $RUN_URL"

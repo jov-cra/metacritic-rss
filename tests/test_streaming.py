@@ -100,9 +100,9 @@ def test_label_abo_dedupes_channels_and_drops_sample_episodes():
 def test_label_free_rent_buy_none():
     assert st.label(st.summarize(_offers(("FREE", "ZDF", None)))) == "ZDF · gratis"
     assert st.label(st.summarize(_offers(("RENT", "Apple TV Store", 3.99), ("BUY", "Amazon Video", 12.99)))) \
-        == "Leihen ab 3,99 €"
+        == "Leihen bei Apple TV Store ab 3,99 €"
     assert st.label(st.summarize(_offers(("BUY", "Amazon DVD / Blu-ray", 9.0), ("BUY", "Apple TV Store", 24.99)))) \
-        == "Kaufen ab 24,99 €"
+        == "Kaufen bei Apple TV Store ab 24,99 €"
     assert st.label(st.summarize([])) == "kein DE-Angebot"
     many = st.summarize(_offers(("FLATRATE", "WOW", None), ("FLATRATE", "HBO Max", None), ("FLATRATE", "Sky Go", None)))
     assert st.label(many) == "HBO Max, WOW +1 · Abo"
@@ -240,7 +240,8 @@ def test_older_seasons_buy_only_and_earlier_seasons_only():
                           {"content": {"seasonNumber": 3}, "offers": _offers(("FLATRATE", "Netflix", None))},
                           {"content": {"seasonNumber": 2}, "offers": []}])
     rec = st.lookup("Y: Season 2", "", fetch=lambda base, kind="SHOW": [node])
-    assert st.label(rec["summary"]) == "Kaufen ab 9,99 €, nur ältere Staffeln"
+    assert st.label(rec["summary"]) == "Kaufen bei Apple TV Store ab 9,99 €, nur ältere Staffeln"
+    assert rec["summary"]["buy"]["url"] is None, "older seasons: store, but no link"
     lone = _node("Z", 2020, offers=[("FLATRATE", "Netflix", None)])
     assert st.label(st.lookup("Z: Season 4", "", fetch=lambda base, kind="SHOW": [lone])["summary"]) == "kein DE-Angebot"
 
@@ -289,10 +290,59 @@ def test_cinema_only_movie():
     s = st.summarize(_offers(("CINEMA", "Cineplex", None)))
     assert st.label(s) == "im Kino" and "im Kino" in st.describe(s)
     s = st.summarize(_offers(("CINEMA", "Cineplex", None), ("RENT", "Apple TV Store", 5.99)))
-    assert st.label(s) == "Leihen ab 5,99 €"
+    assert st.label(s) == "Leihen bei Apple TV Store ab 5,99 €"
 
 
 def test_hbo_max_comes_first():
     """Johannes 25.10.2026: wherever HBO Max has it, HBO Max is named first."""
     offers = [{"monetizationType": "FLATRATE", "package": {"clearName": n}} for n in ("WOW", "Netflix", "HBO Max")]
     assert st.summarize(offers)["flat"][0] == "HBO Max"
+
+
+# --------------------------------------------------------------------------- #
+# Store with link (25.10.2026)
+# --------------------------------------------------------------------------- #
+APPLE = ("https://tv.apple.com/de/movie/the-invite/umc.cmc.3sbug5?at=1000l3V2&ct=app_tv&itscg=30200"
+         "&itsct=justwatch_tv&playableId=tvs.sbd.9001%3A67")
+
+
+def _o(kind, price, short, clear, url):
+    return {"monetizationType": kind, "retailPriceValue": price, "standardWebURL": url,
+            "package": {"shortName": short, "clearName": clear}}
+
+
+def test_store_apple_then_amazon_then_cheapest_with_clean_link():
+    offers = [_o("RENT", 3.99, "etv", "MagentaTV", "https://www.magenta.tv/x"),
+              _o("RENT", 4.99, "itu", "Apple TV Store", APPLE),
+              _o("RENT", 4.99, "amz", "Amazon Video", "https://watch.amazon.de/detail?gti=amzn1.x&tag=jw-21")]
+    s = st.summarize(offers)
+    assert s["rent_from"] == 3.99 and s["rent_at"] == "MagentaTV", "old fields keep their meaning"
+    assert s["rent"] == {"shop": "Apple TV Store", "price": 4.99,
+                         "url": "https://tv.apple.com/de/movie/the-invite/umc.cmc.3sbug5?playableId=tvs.sbd.9001%3A67"}
+    assert st.label(s) == "Leihen bei Apple TV Store ab 4,99 €"
+    d = st.describe(s, "25.10.2026")
+    assert ('leihen bei <a href="https://tv.apple.com/de/movie/the-invite/umc.cmc.3sbug5?playableId=tvs.sbd.9001%3A67">'
+            'Apple TV Store</a> ab 4,99 €') in d
+    assert st.summarize(offers[::2])["rent"]["shop"] == "Amazon"
+    assert st.summarize(offers[:1])["rent"]["shop"] == "MagentaTV"
+    assert st.clean_url("https://evil.example/x", "Apple TV Store") is None
+    assert st.clean_url("http://tv.apple.com/x", "Apple TV Store") is None
+
+
+def test_old_summary_renders_byte_identical():
+    old = {"rent_from": 3.99, "rent_at": "Apple TV Store", "buy_from": 9.99, "buy_at": "Amazon"}
+    assert st.label(old) == "Leihen ab 3,99 €"
+    assert st.describe(old, "21.10.2026") == \
+        "Streaming DE (JustWatch, 21.10.2026): leihen ab 3,99 € (Apple TV Store); kaufen ab 9,99 € (Amazon)"
+
+
+def test_movie_lookup_keeps_titles_only_for_cinema_movies():
+    def node(offers):
+        return {"objectType": "MOVIE", "content": {"title": "Fatherland", "originalTitle": "Ojczyzna",
+                                                   "originalReleaseYear": 2026, "externalIds": {"tmdbId": 1437696}},
+                "offers": offers}
+    rec = st.lookup("Fatherland", "Jun 19, 2026", "movie", fetch=lambda b, k: [node([{"monetizationType": "CINEMA"}])])
+    assert rec["titles"] == ["Fatherland", "Ojczyzna"] and rec["year"] == 2026
+    rec = st.lookup("Fatherland", "Jun 19, 2026", "movie",
+                    fetch=lambda b, k: [node([{"monetizationType": "FLATRATE", "package": {"clearName": "Netflix"}}])])
+    assert "titles" not in rec

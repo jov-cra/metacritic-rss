@@ -233,6 +233,12 @@ Die Tests decken Parsing, den Schwellwert, das „einmal emittieren", den **„S
 
 This product uses the TMDB API but is not endorsed or certified by TMDB.
 
+## Laden-Link und Kino in München (25.10.2026)
+
+**Leihen und Kaufen mit Laden und Link.** Neue Einträge nennen beim Leihen/Kaufen den Laden: Apple TV Store, sonst Amazon, sonst der günstigste übrige (Johannes' Reihenfolge). Preis ist der günstigste in diesem Laden, der Ladenname in der Beschreibung ist ein Link (`standardWebURL` von JustWatch ohne Partner-Parameter; Apple öffnet die TV-App, Amazon die Prime-Video-App). Kein Link bei „nur ältere Staffeln" und bei Serien ohne Staffelnummer. Ältere Einträge bleiben byte-gleich („Leihen ab …").
+
+**Kino München im Original.** Meldet JustWatch einen neuen Film als „im Kino", stehen in der Beschreibung die nächsten drei Vorstellungen in Münchner Kinos im Original (OV, OmU, OmeU; Regeln wie im Skill `filme-serien`) mit Wochentag, Datum, Uhrzeit, Fassung und Kino, als Momentaufnahme mit Datum (eingefroren wie die Streaming-Zeile). Quellen: indiekino.de (heute plus drei Tage) und das Programm des Cinema Filmtheaters. Zuordnung über die JustWatch-Titel (exakt, normalisiert) und das Jahr ±1. Buchungslink je Vorstellung, fail-closed: indiekino-Ticketlink, Saalplan im Webshop des Cinema, sonst kinoheld (Kino und Beginn auf die Minute, bei mehreren zur selben Minute muss der Titel genau eine wählen); unsicher → Programmseite des Kinos. Ein Film, der erst später in München anläuft, bekommt die Zeile nicht nachgetragen. Abschalten: `MC_KINO=0`. Ausfälle (Programm, kinoheld, TMDB) sind nie fatal, machen den Lauf aber nach dem Commit rot (Issue „Cinema lookup degraded"). Code in `kino.py` (Kopie aus dem Skill), Tests in `tests/test_kino.py`.
+
 ## Härtung 27.08.2026
 
 - **Guards pro Medium.** Die alten Aborts prüften `pages_ok == 0` und `scanned == 0` **global**. Ändert sich nur das TV-Markup, liefert Movie weiter Karten, der Lauf bleibt grün und die TV-Hälfte des Feeds ist still tot. Jetzt gilt je Medium: keine Seite geladen, keine Karten, **oder keine einzige Karte mit Metascore** → Abbruch. Der letzte Fall ist der wichtigste: Karten parsen weiter, aber `SCORE_RE` matcht nicht mehr — nichts qualifiziert sich je wieder, und der Feed sieht aus wie eine ruhige Woche.
