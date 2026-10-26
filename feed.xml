@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Sun, 25 Oct 2026 07:01:34 +0000</lastBuildDate>
+<lastBuildDate>Mon, 26 Oct 2026 20:46:44 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[80] This City Is Ours: A Crime Family Saga: Season 2 (TV)</title>
+<link>https://www.metacritic.com/tv/this-city-is-ours-a-crime-family-saga/season-2/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/this-city-is-ours-a-crime-family-saga/season-2/</guid>
+<pubDate>Mon, 26 Oct 2026 20:46:44 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/1cc5a280841196b348b4ad40e22167cd3551b501/catalog/provider/2/13/2-9340f67a872ce42476a75d7005e1a5a5.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[80] It Gets Worse (TV)</title>
 <link>https://www.metacritic.com/tv/it-gets-worse/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/6aa26e74e26ee19caf303ce1a794b6e06ad8bc68/catalog/provider/5/2/5-tt29253299.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 87% positive</description>
-</item>
-<item>
-<title>[39] Michael (Movie)</title>
-<link>https://www.metacritic.com/movie/michael-2026/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/michael-2026/</guid>
-<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/bcf525a0acbb3c13b5bf5f758cacd4e9d475033c/catalog/provider/7/2/7-1774896927.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;51 reviews · 20% positive</description>
 </item>
 </channel>
 </rss>
