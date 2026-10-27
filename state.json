@@ -14340,7 +14340,9 @@
       "premiere": "Aug 4, 2026"
     },
     "https://www.metacritic.com/tv/beyond-the-gates/season-3/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Aug 17, 2026"
     },
     "https://www.metacritic.com/tv/big-brother/season-28/": {
       "first_seen": "2026-10-21"
