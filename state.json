@@ -14821,25 +14821,39 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/sonic-the-hedgehog/season-3/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "May 18, 2026"
     },
     "https://www.metacritic.com/tv/south-park/season-29/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 16, 2026"
     },
     "https://www.metacritic.com/tv/special-forces-worlds-toughest-test/season-5/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 24, 2026"
     },
     "https://www.metacritic.com/tv/spongebob-squarepants/season-17/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "May 25, 2026"
     },
     "https://www.metacritic.com/tv/stillwater/season-5/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Aug 21, 2026"
     },
     "https://www.metacritic.com/tv/storage-wars/season-18/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "May 30, 2026"
     },
     "https://www.metacritic.com/tv/strictly-come-dancing/season-24/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Sep 19, 2026"
     },
     "https://www.metacritic.com/tv/survival-of-the-thickest/season-3/": {
       "first_seen": "2026-10-21",
@@ -15128,7 +15142,9 @@
       "first_seen": "2026-10-24"
     },
     "https://www.metacritic.com/tv/st-denis-medical/season-3/": {
-      "first_seen": "2026-10-27"
+      "first_seen": "2026-10-27",
+      "ok": true,
+      "premiere": "Nov 2, 2026"
     },
     "https://www.metacritic.com/tv/the-fall-and-rise-of-reggie-dinkins/season-2/": {
       "first_seen": "2026-10-27"
