@@ -14078,6 +14078,38 @@
         "key": null,
         "no_id": true
       }
+    },
+    "https://www.metacritic.com/tv/the-one-about-matthew-perry/": {
+      "title": "The One About Matthew Perry",
+      "score": 77,
+      "media": "tv",
+      "release_date": "Oct 27, 2026",
+      "emitted_at": "2026-10-27T19:01:18.473679+00:00",
+      "feed_date": "2026-10-27T19:01:18.473679+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/8efe78b04a393c33cedae484befb70f41deb82eb/catalog/provider/2/2/2-e14acc388f207fabf892479cc2c2c565.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 80,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/70e5a877cfa37042535c46ea203b33b996a3310c/catalog/provider/2/13/2-f36d31a2ca8a54483799375413c51c78.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "333533",
+        "checked": "2026-10-27"
+      },
+      "trailer": {
+        "v": 2,
+        "key": "_iM1AOFxoDI",
+        "checked": "2026-10-27"
+      }
     }
   },
   "seasons": {
@@ -14701,22 +14733,34 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/press-your-luck-2019/season-7/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 9, 2026"
     },
     "https://www.metacritic.com/tv/project-runway/season-22/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 9, 2026"
     },
     "https://www.metacritic.com/tv/quarterback/season-3/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 14, 2026"
     },
     "https://www.metacritic.com/tv/rage-2025/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Oct 9, 2026"
     },
     "https://www.metacritic.com/tv/ransom-canyon/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jun 23, 2026"
     },
     "https://www.metacritic.com/tv/rick-morty/season-9/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "May 24, 2026"
     },
     "https://www.metacritic.com/tv/ring-of-honor-wrestling/season-19/": {
       "first_seen": "2026-10-21",
@@ -15082,6 +15126,12 @@
     },
     "https://www.metacritic.com/tv/the-jennifer-hudson-show/season-5/": {
       "first_seen": "2026-10-24"
+    },
+    "https://www.metacritic.com/tv/st-denis-medical/season-3/": {
+      "first_seen": "2026-10-27"
+    },
+    "https://www.metacritic.com/tv/the-fall-and-rise-of-reggie-dinkins/season-2/": {
+      "first_seen": "2026-10-27"
     }
   }
 }

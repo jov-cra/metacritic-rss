@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Mon, 26 Oct 2026 20:46:44 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 19:01:18 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[77] The One About Matthew Perry (Netflix · Abo)</title>
+<link>https://www.metacritic.com/tv/the-one-about-matthew-perry/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-one-about-matthew-perry/</guid>
+<pubDate>Tue, 27 Oct 2026 19:01:18 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/70e5a877cfa37042535c46ea203b33b996a3310c/catalog/provider/2/13/2-f36d31a2ca8a54483799375413c51c78.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 80% positive&lt;br /&gt;Streaming DE (JustWatch, 27.10.2026): im Abo bei Netflix&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=_iM1AOFxoDI"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[80] This City Is Ours: A Crime Family Saga: Season 2 (TV)</title>
 <link>https://www.metacritic.com/tv/this-city-is-ours-a-crime-family-saga/season-2/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/1dc561f4c0d4c6194a61edf724c2ab956ad92a00/catalog/provider/7/2/7-1773069235.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;17 reviews · 29% positive</description>
-</item>
-<item>
-<title>[74] Omaha (Movie)</title>
-<link>https://www.metacritic.com/movie/omaha/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/omaha/</guid>
-<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/6aa26e74e26ee19caf303ce1a794b6e06ad8bc68/catalog/provider/5/2/5-tt29253299.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 87% positive</description>
 </item>
 </channel>
 </rss>
