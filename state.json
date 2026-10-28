@@ -14110,6 +14110,32 @@
         "key": "_iM1AOFxoDI",
         "checked": "2026-10-27"
       }
+    },
+    "https://www.metacritic.com/movie/closure-2026/": {
+      "title": "Closure",
+      "score": 81,
+      "media": "movie",
+      "release_date": "Oct 28, 2026",
+      "emitted_at": "2026-10-28T02:42:27.208815+00:00",
+      "feed_date": "2026-10-28T02:42:27.208815+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d32c8ce4b491c7dceefb3ac4363241c29ef904ce/catalog/provider/7/2/7-1790622209.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 86,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a4a906263905b2306a9be21f0ba4b3b4059a15c0/catalog/provider/5/2/5-tt39075417.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-10-28"
+      },
+      "trailer": {
+        "v": 2,
+        "key": null,
+        "no_id": true
+      }
     }
   },
   "seasons": {

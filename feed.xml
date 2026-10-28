@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Tue, 27 Oct 2026 19:01:18 +0000</lastBuildDate>
+<lastBuildDate>Wed, 28 Oct 2026 02:42:27 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[81] Closure (Movie)</title>
+<link>https://www.metacritic.com/movie/closure-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/closure-2026/</guid>
+<pubDate>Wed, 28 Oct 2026 02:42:27 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a4a906263905b2306a9be21f0ba4b3b4059a15c0/catalog/provider/5/2/5-tt39075417.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 86% positive</description>
+</item>
 <item>
 <title>[77] The One About Matthew Perry (Netflix · Abo)</title>
 <link>https://www.metacritic.com/tv/the-one-about-matthew-perry/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c53b186276ef4a7f8c50f5300ddd0e301ae7d3af/catalog/provider/5/2/5-tt27827635.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 89% positive</description>
-</item>
-<item>
-<title>[51] Over Your Dead Body (Movie)</title>
-<link>https://www.metacritic.com/movie/over-your-dead-body/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/over-your-dead-body/</guid>
-<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/1dc561f4c0d4c6194a61edf724c2ab956ad92a00/catalog/provider/7/2/7-1773069235.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;17 reviews · 29% positive</description>
 </item>
 </channel>
 </rss>
