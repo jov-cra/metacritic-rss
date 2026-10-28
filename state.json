@@ -15181,6 +15181,11 @@
     },
     "https://www.metacritic.com/tv/ncis/season-24/": {
       "first_seen": "2026-10-28"
+    },
+    "https://www.metacritic.com/tv/das-boot-2019/season-3/": {
+      "first_seen": "2026-10-28",
+      "ok": true,
+      "premiere": "Apr 9, 2022"
     }
   }
 }
