@@ -15046,25 +15046,37 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/the-young-and-the-restless/season-54/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Oct 8, 2026"
     },
     "https://www.metacritic.com/tv/this-old-house/season-48/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/tires/season-3/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Aug 13, 2026"
     },
     "https://www.metacritic.com/tv/tracker-2024/season-4/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/trigger-point/season-4/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Aug 30, 2026"
     },
     "https://www.metacritic.com/tv/trying/season-5/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 8, 2026"
     },
     "https://www.metacritic.com/tv/tucci-in-italy/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "May 12, 2026"
     },
     "https://www.metacritic.com/tv/tyler-perrys-assisted-living/season-7/": {
       "first_seen": "2026-10-21",
@@ -15186,6 +15198,9 @@
       "first_seen": "2026-10-28",
       "ok": true,
       "premiere": "Apr 9, 2022"
+    },
+    "https://www.metacritic.com/tv/ghosts-2021/season-6/": {
+      "first_seen": "2026-10-29"
     }
   }
 }
