@@ -14136,6 +14136,58 @@
         "key": null,
         "no_id": true
       }
+    },
+    "https://www.metacritic.com/movie/manhood/": {
+      "title": "Manhood",
+      "score": 77,
+      "media": "movie",
+      "release_date": "Oct 28, 2026",
+      "emitted_at": "2026-10-29T20:42:22.895542+00:00",
+      "feed_date": "2026-10-29T20:42:22.895542+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/70f21a596992f0f41e3e4a6e50e0053d00b44c63/catalog/provider/5/2/5-tt39637432.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 86,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c267eba766ec3ca0d3ab7bf97f83d88a7faa2951/catalog/provider/5/2/5-tt39637432.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-10-29"
+      },
+      "trailer": {
+        "v": 2,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/on-the-road-2026/": {
+      "title": "On the Road",
+      "score": 81,
+      "media": "movie",
+      "release_date": "Oct 28, 2026",
+      "emitted_at": "2026-10-29T20:42:22.895542+00:00",
+      "feed_date": "2026-10-29T20:42:22.895542+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/17dc89b924d3044216c71a7dec4c818a17bbf6c4/catalog/provider/7/2/7-1793026020.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/617700456414091fa89cae7acd212b26580e2407/catalog/provider/7/2/7-1793025286.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-10-29"
+      },
+      "trailer": {
+        "v": 2,
+        "key": null,
+        "no_id": true
+      }
     }
   },
   "seasons": {
@@ -15200,6 +15252,12 @@
       "premiere": "Apr 9, 2022"
     },
     "https://www.metacritic.com/tv/ghosts-2021/season-6/": {
+      "first_seen": "2026-10-29"
+    },
+    "https://www.metacritic.com/tv/reasonable-doubt-2022/season-4/": {
+      "first_seen": "2026-10-29"
+    },
+    "https://www.metacritic.com/tv/thomas-the-tank-engine-friends/season-29/": {
       "first_seen": "2026-10-29"
     }
   }

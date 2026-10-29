@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Wed, 28 Oct 2026 02:42:27 +0000</lastBuildDate>
+<lastBuildDate>Thu, 29 Oct 2026 20:42:22 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[81] On the Road (Movie)</title>
+<link>https://www.metacritic.com/movie/on-the-road-2026/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/on-the-road-2026/</guid>
+<pubDate>Thu, 29 Oct 2026 20:42:22 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/617700456414091fa89cae7acd212b26580e2407/catalog/provider/7/2/7-1793025286.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
+<item>
+<title>[77] Manhood (Movie)</title>
+<link>https://www.metacritic.com/movie/manhood/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/manhood/</guid>
+<pubDate>Thu, 29 Oct 2026 20:42:22 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/c267eba766ec3ca0d3ab7bf97f83d88a7faa2951/catalog/provider/5/2/5-tt39637432.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 86% positive</description>
+</item>
 <item>
 <title>[81] Closure (Movie)</title>
 <link>https://www.metacritic.com/movie/closure-2026/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/a06c89b5e6457cc9a6cb2ae10fc9479507c8e905/catalog/provider/7/2/7-1737695343.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;14 reviews · 71% positive</description>
-</item>
-<item>
-<title>[93] Two Seasons, Two Strangers (Movie)</title>
-<link>https://www.metacritic.com/movie/two-seasons-two-strangers/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/two-seasons-two-strangers/</guid>
-<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/bf9a014ade960236fe90c952ca5ee49907e4008f/catalog/provider/7/2/7-1776707312.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 100% positive</description>
-</item>
-<item>
-<title>[79] Ricky (Movie)</title>
-<link>https://www.metacritic.com/movie/ricky-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/ricky-2025/</guid>
-<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/c53b186276ef4a7f8c50f5300ddd0e301ae7d3af/catalog/provider/5/2/5-tt27827635.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 89% positive</description>
 </item>
 </channel>
 </rss>
