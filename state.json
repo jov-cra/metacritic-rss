@@ -14188,6 +14188,201 @@
         "key": null,
         "no_id": true
       }
+    },
+    "https://www.metacritic.com/movie/gentle-monster/": {
+      "title": "Gentle Monster",
+      "score": 67,
+      "media": "movie",
+      "release_date": "Oct 30, 2026",
+      "emitted_at": "2026-10-30T01:23:14.130518+00:00",
+      "feed_date": "2026-10-30T01:23:14.130518+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ed123398cfe75d03b9e91341c0f1bb0d21bb8833/catalog/provider/5/2/5-tt37020296.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 18,
+        "pos": 72,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8151d76c842e95bb7d9258a3a1a2cfd0905fabb4/catalog/provider/7/2/7-1779314945.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "tmdb": "1473148",
+        "titles": [
+          "Gentle Monster"
+        ],
+        "year": 2026,
+        "checked": "2026-10-30"
+      },
+      "trailer": {
+        "v": 2,
+        "key": "hsOgBqDSi9M",
+        "checked": "2026-10-30"
+      },
+      "kino": {
+        "v": 1,
+        "checked": "2026-10-30",
+        "shows": []
+      }
+    },
+    "https://www.metacritic.com/movie/everest-the-other-side/": {
+      "title": "Everest: The Other Side",
+      "score": 63,
+      "media": "movie",
+      "release_date": "Oct 30, 2026",
+      "emitted_at": "2026-10-30T01:23:14.130518+00:00",
+      "feed_date": "2026-10-30T01:23:14.130518+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e6d25f82b172a1cc8702aa4c78731995b36b449d/catalog/provider/7/2/7-1789616989.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 63,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/df416add5de2ea6c90a3042dbc647e7f6051d301/catalog/provider/5/2/5-tt38691481.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1603262",
+        "checked": "2026-10-30"
+      },
+      "trailer": {
+        "v": 2,
+        "key": "q6XUlPdTuto",
+        "checked": "2026-10-30"
+      }
+    },
+    "https://www.metacritic.com/movie/queen-at-sea/": {
+      "title": "Queen at Sea",
+      "score": 85,
+      "media": "movie",
+      "release_date": "Oct 30, 2026",
+      "emitted_at": "2026-10-30T01:23:14.130518+00:00",
+      "feed_date": "2026-10-30T01:23:14.130518+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/85a0ebb8e875b86c1317601bd40220830025353e/catalog/provider/5/2/5-tt27541205.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/65360083ac4f5179d28521a12aa4497b8bdf42b8/catalog/provider/7/2/7-1771795298.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-10-30"
+      },
+      "trailer": {
+        "v": 2,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/the-mosquito-bowl/": {
+      "title": "The Mosquito Bowl",
+      "score": 40,
+      "media": "movie",
+      "release_date": "Oct 30, 2026",
+      "emitted_at": "2026-10-30T01:23:14.130518+00:00",
+      "feed_date": "2026-10-30T01:23:14.130518+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9d73985b5edfa5eb076fb580851c7d290d8e46f0/catalog/provider/7/2/7-1788969209.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 12,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c78ea109170de291981d38ec227535ede00ecf26/catalog/provider/7/2/7-1788969191.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1458300",
+        "checked": "2026-10-30"
+      },
+      "trailer": {
+        "v": 2,
+        "key": "F6YDzPfjH4I",
+        "checked": "2026-10-30"
+      }
+    },
+    "https://www.metacritic.com/tv/dexter-resurrection/season-2/": {
+      "title": "Dexter: Resurrection: Season 2",
+      "score": 75,
+      "media": "tv",
+      "release_date": "Oct 30, 2026",
+      "emitted_at": "2026-10-30T01:23:14.130518+00:00",
+      "feed_date": "2026-10-30T01:23:14.130518+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/3b44b5c836e61110e33772792b78616f52f2bdfe/catalog/provider/2/2/2-368a96484d93ce7b630bfd37caf875de.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 80,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/eede0a264b6b501e3d341b4ca926e0f1cb88c406/catalog/provider/2/13/2-f24c57b6bed433ef8c1004389651c5db.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Paramount+"
+          ],
+          "rent_from": 2.49,
+          "rent_at": "Videobuster",
+          "buy_from": 19.98,
+          "buy_at": "Amazon Video",
+          "rent": {
+            "shop": "Videobuster",
+            "price": 2.49,
+            "url": null
+          },
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 19.98,
+            "url": null
+          },
+          "older": true
+        },
+        "tmdb": "259909",
+        "checked": "2026-10-30"
+      },
+      "trailer": {
+        "v": 2,
+        "key": "nTOf1FIsBcs",
+        "checked": "2026-10-30"
+      }
+    },
+    "https://www.metacritic.com/tv/nocturne-2026/": {
+      "title": "Nocturne (2026)",
+      "score": 70,
+      "media": "tv",
+      "release_date": "Oct 30, 2026",
+      "emitted_at": "2026-10-30T01:23:14.130518+00:00",
+      "feed_date": "2026-10-30T01:23:14.130518+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/020bb02601e69d7feb11d1f8a135e0c5b42158dc/catalog/provider/2/2/2-929b9e7046d837d7939085a47cea021c.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 69,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/98ebb4b2262e015aed291ed8879654bb0bf48ffa/catalog/provider/2/13/2-8eb708e4d46235b6b2b9e218d24db0f3.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "292741",
+        "checked": "2026-10-30"
+      },
+      "trailer": {
+        "v": 2,
+        "key": "AaEy1f2Dgys",
+        "checked": "2026-10-30"
+      }
     }
   },
   "seasons": {
@@ -14214,11 +14409,6 @@
     "https://www.metacritic.com/tv/common-side-effects/season-2/": {
       "first_seen": "2026-10-17",
       "ok": true
-    },
-    "https://www.metacritic.com/tv/dexter-resurrection/season-2/": {
-      "first_seen": "2026-10-17",
-      "ok": true,
-      "premiere": "Oct 30, 2026"
     },
     "https://www.metacritic.com/tv/emily-in-paris/season-6/": {
       "first_seen": "2026-10-17",
