@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Fri, 30 Oct 2026 01:23:14 +0000</lastBuildDate>
+<lastBuildDate>Fri, 30 Oct 2026 20:12:30 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[49] The Mongoose (Movie)</title>
+<link>https://www.metacritic.com/movie/the-mongoose/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-mongoose/</guid>
+<pubDate>Fri, 30 Oct 2026 20:12:30 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/5548555aa9c9753d1d79165575348f9723334dad/catalog/provider/2/13/2-ad9ab9a37be8fd86fd5016736066f7b1.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews</description>
+</item>
+<item>
+<title>[21] Christmas at the Kringles (Movie)</title>
+<link>https://www.metacritic.com/movie/christmas-at-the-kringles/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/christmas-at-the-kringles/</guid>
+<pubDate>Fri, 30 Oct 2026 20:12:30 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/5465bf3b0c6c109dc266c250d609797089af3c1e/catalog/provider/2/13/2-caf27e0850c6e3a6b2b4c6b05afc9aef.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 0% positive</description>
+</item>
 <item>
 <title>[70] Nocturne (2026) (kein DE-Angebot)</title>
 <link>https://www.metacritic.com/tv/nocturne-2026/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/cf5fe510d6a1e0ffc2f064417fa028d3ccb7fc28/catalog/provider/2/13/2-9e179a6336c240550d7190e27c021c27.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 40% positive</description>
-</item>
-<item>
-<title>[76] Hokum (Movie)</title>
-<link>https://www.metacritic.com/movie/hokum/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/hokum/</guid>
-<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/d9160630238ce4c6151077669af0198f6c666081/catalog/provider/2/13/2-5b90e758baca6453be55ff07a6d8dfdb.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;32 reviews · 78% positive</description>
-</item>
-<item>
-<title>[29] Animal Farm (Movie)</title>
-<link>https://www.metacritic.com/movie/animal-farm/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/animal-farm/</guid>
-<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/e61b829bf09a640a51504a6368844f9eda529c60/catalog/provider/2/13/2-06c61b608620c25cfe9d168254d249ad.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;16 reviews · 13% positive</description>
 </item>
 </channel>
 </rss>

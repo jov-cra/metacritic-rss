@@ -14383,6 +14383,57 @@
         "key": "AaEy1f2Dgys",
         "checked": "2026-10-30"
       }
+    },
+    "https://www.metacritic.com/movie/the-mongoose/": {
+      "title": "The Mongoose",
+      "score": 49,
+      "media": "movie",
+      "release_date": "Oct 30, 2026",
+      "emitted_at": "2026-10-30T20:12:30.401845+00:00",
+      "feed_date": "2026-10-30T20:12:30.401845+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b45bef6e97c5a74d98d420b783bc325324b05070/catalog/provider/5/2/5-tt13611778.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/5548555aa9c9753d1d79165575348f9723334dad/catalog/provider/2/13/2-ad9ab9a37be8fd86fd5016736066f7b1.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-10-30"
+      },
+      "trailer": {
+        "v": 2,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/christmas-at-the-kringles/": {
+      "title": "Christmas at the Kringles",
+      "score": 21,
+      "media": "movie",
+      "release_date": "Oct 30, 2026",
+      "emitted_at": "2026-10-30T20:12:30.401845+00:00",
+      "feed_date": "2026-10-30T20:12:30.401845+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2d5395a6f1aaa21ed5f8ebf5dac5d79653d593a1/catalog/provider/2/2/2-72dcf06aa31bdf80171708e1f09ece3e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/5465bf3b0c6c109dc266c250d609797089af3c1e/catalog/provider/2/13/2-caf27e0850c6e3a6b2b4c6b05afc9aef.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-10-30"
+      },
+      "trailer": {
+        "v": 2,
+        "key": null,
+        "no_id": true
+      }
     }
   },
   "seasons": {
@@ -15451,6 +15502,9 @@
     },
     "https://www.metacritic.com/tv/thomas-the-tank-engine-friends/season-29/": {
       "first_seen": "2026-10-29"
+    },
+    "https://www.metacritic.com/tv/canadas-drag-race/season-7/": {
+      "first_seen": "2026-10-30"
     }
   }
 }
