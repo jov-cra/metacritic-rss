@@ -14938,7 +14938,9 @@
       "premiere": "Oct 1, 2026"
     },
     "https://www.metacritic.com/tv/jeopardy!-masters/season-4/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Aug 25, 2026"
     },
     "https://www.metacritic.com/tv/jeopardy!/season-43/": {
       "first_seen": "2026-10-21",
