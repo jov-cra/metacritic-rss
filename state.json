@@ -15382,7 +15382,9 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/the-walking-dead-dead-city/season-3/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jul 26, 2026"
     },
     "https://www.metacritic.com/tv/the-young-and-the-restless/season-54/": {
       "first_seen": "2026-10-21",
@@ -15551,7 +15553,9 @@
       "premiere": "Oct 6, 2026"
     },
     "https://www.metacritic.com/tv/thomas-the-tank-engine-friends/season-29/": {
-      "first_seen": "2026-10-29"
+      "first_seen": "2026-10-29",
+      "ok": true,
+      "premiere": "Sep 30, 2026"
     },
     "https://www.metacritic.com/tv/canadas-drag-race/season-7/": {
       "first_seen": "2026-10-30"
