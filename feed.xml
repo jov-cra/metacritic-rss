@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Fri, 30 Oct 2026 20:12:30 +0000</lastBuildDate>
+<lastBuildDate>Sun, 01 Nov 2026 02:45:30 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[83] The Gilded Age: Season 4 (HBO Max, WOW +1 · Abo, nur ältere Staffeln)</title>
+<link>https://www.metacritic.com/tv/the-gilded-age/season-4/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-gilded-age/season-4/</guid>
+<pubDate>Sun, 01 Nov 2026 02:45:30 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/120016676c1765fe3b889e6268077e5693b6aafe/catalog/provider/2/13/2-4134c7b7744a0164251a14338dfd8681.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;9 reviews · 100% positive&lt;br /&gt;Streaming DE (JustWatch, 01.11.2026): diese Staffel noch ohne Angebot; ältere Staffeln im Abo bei HBO Max, WOW, Sky; leihen bei Videobuster ab 1,49 €; kaufen bei Apple TV Store ab 22,99 €&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=MqRa6X31lUk"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[49] The Mongoose (Movie)</title>
 <link>https://www.metacritic.com/movie/the-mongoose/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/77d7c17cab23614271387cdfd48dfeed191d1e0d/catalog/provider/7/2/7-1756780016.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 87% positive</description>
-</item>
-<item>
-<title>[38] One Spoon of Chocolate (Movie)</title>
-<link>https://www.metacritic.com/movie/one-spoon-of-chocolate/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/one-spoon-of-chocolate/</guid>
-<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/cf5fe510d6a1e0ffc2f064417fa028d3ccb7fc28/catalog/provider/2/13/2-9e179a6336c240550d7190e27c021c27.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 40% positive</description>
 </item>
 </channel>
 </rss>

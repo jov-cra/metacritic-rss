@@ -14434,6 +14434,55 @@
         "key": null,
         "no_id": true
       }
+    },
+    "https://www.metacritic.com/tv/the-gilded-age/season-4/": {
+      "title": "The Gilded Age: Season 4",
+      "score": 83,
+      "media": "tv",
+      "release_date": "Nov 1, 2026",
+      "emitted_at": "2026-11-01T02:45:30.700076+00:00",
+      "feed_date": "2026-11-01T02:45:30.700076+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/6573fc0f4f32777b5a1fcf3b3fc775991a00eae3/catalog/provider/2/2/2-cef019b4e7c34a73cbd5b1434a971863.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/120016676c1765fe3b889e6268077e5693b6aafe/catalog/provider/2/13/2-4134c7b7744a0164251a14338dfd8681.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "HBO Max",
+            "WOW",
+            "Sky"
+          ],
+          "rent_from": 1.49,
+          "rent_at": "Videobuster",
+          "buy_from": 21.99,
+          "buy_at": "maxdome Store",
+          "rent": {
+            "shop": "Videobuster",
+            "price": 1.49,
+            "url": null
+          },
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 22.99,
+            "url": null
+          },
+          "older": true
+        },
+        "tmdb": "81723",
+        "checked": "2026-11-01"
+      },
+      "trailer": {
+        "v": 2,
+        "key": "MqRa6X31lUk",
+        "checked": "2026-11-01"
+      }
     }
   },
   "seasons": {
@@ -14522,11 +14571,6 @@
       "first_seen": "2026-10-17",
       "ok": true,
       "premiere": "Nov 15, 2026"
-    },
-    "https://www.metacritic.com/tv/the-gilded-age/season-4/": {
-      "first_seen": "2026-10-17",
-      "ok": true,
-      "premiere": "Nov 1, 2026"
     },
     "https://www.metacritic.com/tv/the-hunting-wives/season-2/": {
       "first_seen": "2026-10-17",
@@ -15500,7 +15544,9 @@
       "first_seen": "2026-10-29"
     },
     "https://www.metacritic.com/tv/reasonable-doubt-2022/season-4/": {
-      "first_seen": "2026-10-29"
+      "first_seen": "2026-10-29",
+      "ok": true,
+      "premiere": "Oct 6, 2026"
     },
     "https://www.metacritic.com/tv/thomas-the-tank-engine-friends/season-29/": {
       "first_seen": "2026-10-29"
