@@ -14636,7 +14636,9 @@
       "premiere": "Oct 15, 2026"
     },
     "https://www.metacritic.com/tv/9-1-1/season-10/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Oct 15, 2026"
     },
     "https://www.metacritic.com/tv/99-to-beat/season-2/": {
       "first_seen": "2026-10-21"
