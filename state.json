@@ -14590,7 +14590,7 @@
     "https://www.metacritic.com/tv/the-madame-blanc-mysteries/season-5/": {
       "first_seen": "2026-10-17",
       "ok": true,
-      "premiere": "Dec 23, 2025"
+      "premiere": "Dec 15, 2025"
     },
     "https://www.metacritic.com/tv/the-rainmaker/season-2/": {
       "first_seen": "2026-10-17",
@@ -15520,7 +15520,9 @@
       "first_seen": "2026-10-24"
     },
     "https://www.metacritic.com/tv/the-jennifer-hudson-show/season-5/": {
-      "first_seen": "2026-10-24"
+      "first_seen": "2026-10-24",
+      "ok": true,
+      "premiere": "Sep 14, 2026"
     },
     "https://www.metacritic.com/tv/st-denis-medical/season-3/": {
       "first_seen": "2026-10-27",
