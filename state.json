@@ -14107,10 +14107,10 @@
       },
       "trailer": {
         "v": 3,
-        "key": null,
-        "unchecked": true,
-        "was": "_iM1AOFxoDI",
-        "checked": "2026-11-02"
+        "key": "_iM1AOFxoDI",
+        "checked": "2026-10-27",
+        "de_checked": "2026-11-02",
+        "de_source": "mac"
       }
     },
     "https://www.metacritic.com/movie/closure-2026/": {
@@ -14221,10 +14221,10 @@
       },
       "trailer": {
         "v": 3,
-        "key": null,
-        "unchecked": true,
-        "was": "hsOgBqDSi9M",
-        "checked": "2026-11-02"
+        "key": "hsOgBqDSi9M",
+        "checked": "2026-10-30",
+        "de_checked": "2026-11-02",
+        "de_source": "mac"
       },
       "kino": {
         "v": 1,
@@ -14256,10 +14256,10 @@
       },
       "trailer": {
         "v": 3,
-        "key": null,
-        "unchecked": true,
-        "was": "q6XUlPdTuto",
-        "checked": "2026-11-02"
+        "key": "q6XUlPdTuto",
+        "checked": "2026-10-30",
+        "de_checked": "2026-11-02",
+        "de_source": "mac"
       }
     },
     "https://www.metacritic.com/movie/queen-at-sea/": {
@@ -14311,10 +14311,10 @@
       },
       "trailer": {
         "v": 3,
-        "key": null,
-        "unchecked": true,
-        "was": "F6YDzPfjH4I",
-        "checked": "2026-11-02"
+        "key": "F6YDzPfjH4I",
+        "checked": "2026-10-30",
+        "de_checked": "2026-11-02",
+        "de_source": "mac"
       }
     },
     "https://www.metacritic.com/tv/dexter-resurrection/season-2/": {
@@ -14360,10 +14360,10 @@
       },
       "trailer": {
         "v": 3,
-        "key": null,
-        "unchecked": true,
-        "was": "nTOf1FIsBcs",
-        "checked": "2026-11-02"
+        "key": "nTOf1FIsBcs",
+        "checked": "2026-10-30",
+        "de_checked": "2026-11-02",
+        "de_source": "mac"
       }
     },
     "https://www.metacritic.com/tv/nocturne-2026/": {
@@ -14390,10 +14390,10 @@
       },
       "trailer": {
         "v": 3,
-        "key": null,
-        "unchecked": true,
-        "was": "AaEy1f2Dgys",
-        "checked": "2026-11-02"
+        "key": "AaEy1f2Dgys",
+        "checked": "2026-10-30",
+        "de_checked": "2026-11-02",
+        "de_source": "mac"
       }
     },
     "https://www.metacritic.com/movie/the-mongoose/": {
@@ -14492,10 +14492,10 @@
       },
       "trailer": {
         "v": 3,
-        "key": null,
-        "unchecked": true,
-        "was": "MqRa6X31lUk",
-        "checked": "2026-11-02"
+        "key": "MqRa6X31lUk",
+        "checked": "2026-11-01",
+        "de_checked": "2026-11-02",
+        "de_source": "mac"
       }
     }
   },

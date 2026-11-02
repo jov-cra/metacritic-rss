@@ -240,8 +240,13 @@ Die Tests decken Parsing, den Schwellwert, das „einmal emittieren", den **„S
   übersprungenen), `unchecked` (keine Länderliste).
 - **Alt-Links (vor dem 02.11., `v` 2)** werden nur gezeigt, wenn ein Lauf sie für DE bestätigt hat
   (`reverify_trailers`, `de_checked`); bestätigt → byte-gleich, nicht in DE → Link weg (`blocked_de`, alte ID
-  unter `was`), unklar → bis zu drei Läufe versteckt, dann endgültig ohne Link. Antwortet YouTube auch für ein
-  Kontrollvideo (`CANARY`, läuft überall) nicht, ist das ein Ausfall: kein Versuch verbraucht, Lauf rot.
+  unter `was`), unklar → versteckt und im nächsten Lauf neu gefragt; ein Versuch zählt nur, solange die Data API
+  gesund ist (Kontrollvideo `CANARY` beantwortet, `api_healthy`), nach drei solchen endgültig ohne Link. Ohne
+  gesunde API ist es ein Ausfall: kein Versuch verbraucht, Lauf rot. Neue Einträge warten dann mit
+  `trailer_due` (ohne Link) auf ihre Abfrage, statt ohne Trailer eingefroren zu werden. (Die erste Fassung
+  fragte das Kontrollvideo über die Seiten-Quellen; die antworteten dem Runner dafür, für die Trailer nicht,
+  und am 02.11. gingen so 7 Alt-Links verloren. Vom Mac aus für DE bestätigt und mit `de_source: mac`
+  wiederhergestellt.)
 - **Gegenprobe vom Runner aus:** Actions → Run workflow, Feld `probe_trailers` mit Video-IDs, z. B.
   `gh workflow run feed.yml -f probe_trailers="556N5vojtp0 Z5uv7_ysu9M"`; der Schritt „Probe trailer region
   check“ druckt je ID das Ergebnis (`de`, `seconds`, `link`) und jede Quelle einzeln (`api`, `player`, `watch`),

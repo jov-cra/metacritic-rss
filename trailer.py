@@ -52,7 +52,7 @@ API_YT = "https://www.googleapis.com/youtube/v3/videos"
 PLAYER_URL = "https://www.youtube.com/youtubei/v1/player?prettyPrint=false"
 PLAYER_CLIENT = {"clientName": "WEB", "clientVersion": "2.20251101.00.00", "hl": "en", "gl": "US"}
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0)"
-CANARY = "dQw4w9WgXcQ"   # plays in every country since 2009: no answer for it = YouTube outage, not the video
+CANARY = "dQw4w9WgXcQ"   # plays in every country since 2009: no API answer for it = outage, not the video
 
 
 class Check(NamedTuple):
@@ -223,6 +223,14 @@ def api_check(key: str, timeout: float = 10.0) -> Check:
         return parse_api(resp.json())
     except ValueError:
         return UNREAD
+
+
+def api_healthy() -> bool:
+    """Does the Data API answer right now (key set, accepted, quota left)? Asked once per run
+    about CANARY. Only then is an unclear answer about a trailer the trailer's own fault; the
+    page sources can't tell (02.11.2026: on the runner they answered for the canary but not
+    for the trailers)."""
+    return api_check(CANARY).de is True
 
 
 def player_check(key: str, timeout: float = 10.0) -> Check:

@@ -255,10 +255,10 @@ def test_reverify_unclear_hides_then_gives_up():
 
 
 def test_reverify_outage_uses_up_no_try():
-    """02.11.2026: the runner got no country list for any video; that must not drop links for good."""
+    """02.11.2026: no working Data API (key missing): unclear answers must not drop links for good."""
     em = {f"{B}/movie/a/": _meta(trailer={"v": 2, "key": "Z5uv7_ysu9M", "de_tries": 2})}
     for _ in range(5):
-        assert mf.reverify_trailers(em, check=lambda k: tr.UNREAD, delay=0) is True, "all unclear: degraded"
+        assert mf.reverify_trailers(em, check=lambda k: tr.UNREAD, delay=0, yt_ok=False) is True, "outage: degraded"
     assert em[f"{B}/movie/a/"]["trailer"] == {"v": 2, "key": "Z5uv7_ysu9M", "de_tries": 2}
     assert "Trailer" not in mf.describe_item(em[f"{B}/movie/a/"]), "still hidden while unchecked"
     mf.reverify_trailers(em, check=lambda k: tr.Check(True, True, 84), delay=0)
@@ -269,7 +269,7 @@ def test_reverify_degrades_when_pages_read_but_no_country_list():
     """First live run 02.11.2026: the runner's watch pages parsed (status found) but carried no
     country list; all old links were hidden while the run stayed green. Now that is degraded."""
     em = {f"{B}/movie/{i}/": _meta(trailer={"v": 2, "key": "Z5uv7_ysu9M"}) for i in range(2)}
-    assert mf.reverify_trailers(em, check=lambda k: tr.Check(True, None, None), delay=0) is True
+    assert mf.reverify_trailers(em, check=lambda k: tr.Check(True, None, None), delay=0, yt_ok=False) is True
 
 
 def player_json(countries=("DE", "US"), seconds=84, status="UNPLAYABLE", family_safe=True):
@@ -360,3 +360,20 @@ def test_api_check_needs_the_key_and_keeps_it_out_of_the_url(monkeypatch):
     assert tr.api_check("dQw4w9WgXcQ") == tr.Check(True, True, 84)
     assert seen["headers"]["X-goog-api-key"] == "SECRET-KEY"
     assert "SECRET-KEY" not in seen["url"] and "SECRET-KEY" not in str(seen["params"])
+
+
+def test_enrich_trailers_waits_while_the_api_is_down():
+    em = {f"{B}/movie/a/": _meta(trailer_due=True)}
+
+    def lookup(*a, **kw):
+        raise AssertionError("no TMDB lookup while the DE check is down")
+    assert mf.enrich_trailers(em, 10, 0, "tok", lookup=lookup, yt_ok=False) == (0, True)
+    assert em[f"{B}/movie/a/"].get("trailer_due") and "trailer" not in em[f"{B}/movie/a/"]
+    assert "Trailer" not in mf.describe_item(em[f"{B}/movie/a/"])
+
+
+def test_api_healthy_needs_a_definite_answer_for_the_canary(monkeypatch):
+    monkeypatch.setattr(tr, "api_check", lambda k: tr.UNREAD)
+    assert tr.api_healthy() is False
+    monkeypatch.setattr(tr, "api_check", lambda k: tr.Check(True, True, 213) if k == tr.CANARY else tr.UNREAD)
+    assert tr.api_healthy() is True
