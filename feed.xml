@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Sun, 01 Nov 2026 02:45:30 +0000</lastBuildDate>
+<lastBuildDate>Mon, 02 Nov 2026 19:51:20 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[92] Blue Planet III (TV)</title>
+<link>https://www.metacritic.com/tv/blue-planet-iii/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/blue-planet-iii/</guid>
+<pubDate>Mon, 02 Nov 2026 19:51:20 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/2514123b323d093ac8793b5f02c85e235dae1e24/catalog/provider/2/13/2-506c0934cfcf121e1d1d27766f74e0ff.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[83] The Gilded Age: Season 4 (HBO Max, WOW +1 · Abo, nur ältere Staffeln)</title>
 <link>https://www.metacritic.com/tv/the-gilded-age/season-4/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/5dc9ec627a5a191d277330a08bd349600205166a/catalog/provider/2/13/2-dea64c03c45ec0823d6cec82ba90d7f6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 45% positive</description>
-</item>
-<item>
-<title>[86] Our Land (Nuestra Tierra) (Movie)</title>
-<link>https://www.metacritic.com/movie/our-land-nuestra-tierra/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/our-land-nuestra-tierra/</guid>
-<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/77d7c17cab23614271387cdfd48dfeed191d1e0d/catalog/provider/7/2/7-1756780016.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 87% positive</description>
 </item>
 </channel>
 </rss>

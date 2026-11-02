@@ -14497,6 +14497,32 @@
         "de_checked": "2026-11-02",
         "de_source": "mac"
       }
+    },
+    "https://www.metacritic.com/tv/blue-planet-iii/": {
+      "title": "Blue Planet III",
+      "score": 92,
+      "media": "tv",
+      "release_date": "Nov 1, 2026",
+      "emitted_at": "2026-11-02T19:51:20.907430+00:00",
+      "feed_date": "2026-11-02T19:51:20.907430+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/bc45ddd3360911711d4c616a11f05884734bbdf8/catalog/provider/2/2/2-93f56f6d01ed6541be449c68941ef83c.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2514123b323d093ac8793b5f02c85e235dae1e24/catalog/provider/2/13/2-506c0934cfcf121e1d1d27766f74e0ff.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-02"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
     }
   },
   "seasons": {
@@ -15375,13 +15401,16 @@
       "premiere": "Sep 16, 2026"
     },
     "https://www.metacritic.com/tv/the-secret-lives-of-mormon-wives/season-5/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-simpsons/season-38/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-sisters-grimm/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-tonight-show-starring-jimmy-fallon/season-14/": {
       "first_seen": "2026-10-21"
