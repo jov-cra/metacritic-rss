@@ -136,7 +136,7 @@ Alles per CLI-Flag **oder** Umgebungsvariable (Flag schlägt ENV):
 | `MC_PROVIDERS` | `--providers`/`--no-providers` | `1` | Streaming-Anbieter in Deutschland (JustWatch) für neue TV-Titel |
 | `MC_PROVIDER_MAX` | `--provider-max` | `120` | Max. JustWatch-Abfragen pro Lauf (darüber bleibt „(TV)") |
 | `MC_PROVIDER_DELAY` | `--provider-delay` | `0.5` | Pause zwischen JustWatch-Abfragen (Sekunden) |
-| `MC_TRAILERS` | `--trailers`/`--no-trailers` | `1` | Link auf den offiziellen YouTube-Trailer neuer Titel (TMDB, braucht das Secret `TMDB_TOKEN`) |
+| `MC_TRAILERS` | `--trailers`/`--no-trailers` | `1` | Link auf den offiziellen YouTube-Trailer neuer Titel, nur wenn in DE abspielbar (TMDB + YouTube Data API, braucht die Secrets `TMDB_TOKEN` und `YOUTUBE_API_KEY`) |
 | `MC_TRAILER_MAX` | `--trailer-max` | `120` | Max. TMDB-Abfragen pro Lauf (darüber kein Link) |
 | `MC_TRAILER_DELAY` | `--trailer-delay` | `0.25` | Pause zwischen TMDB-Abfragen (Sekunden) |
 | – | `--dry-run` | – | Nichts schreiben, nur berichten |
@@ -220,44 +220,46 @@ Die Tests decken Parsing, den Schwellwert, das „einmal emittieren", den **„S
   `/tv/{id}/videos`, Staffel N `/tv/{id}/season/N/videos`, sonst Serienvideos, deren Name „Season N“ nennt
   (Staffel 1: jeder Serientrailer). Nur YouTube, nur `official`, Trailer vor Teaser, Englisch vor Deutsch,
   dann das neueste.
-- **Mindestens 60 Sekunden** laut YouTube (kürzere Spots zählen nicht).
+- **Mindestens 60 Sekunden** laut YouTube (kürzere Spots zählen nicht). Ohne lesbare Dauer kein Link.
 - **In Deutschland abspielbar (seit 02.11.2026,** Johannes 01.11.: „sowas musst du bitte immer checken“; Anlass:
-  der offizielle Trailer zu The Night Of, `556N5vojtp0`, ist nur in den USA freigegeben). Der Runner steht in den
-  USA, also zählt nicht, ob das Video *dort* läuft, sondern YouTubes eigene Länderliste `availableCountries`,
-  die überall gleich ausgeliefert wird: Link nur, wenn sie `DE` enthält. **Quelle 0, die einzige, die vom Runner
-  aus tatsächlich antwortet, ist die YouTube Data API v3** (`videos.list`, `part=contentDetails,status`,
-  `regionRestriction.allowed`/`blocked`; ohne Einschränkung = überall; `ytAgeRestricted` = unklar; gelöscht oder
-  privat = nicht abspielbar). Sie braucht das Secret **`YOUTUBE_API_KEY`** (Google-Cloud-API-Schlüssel, auf die
-  YouTube Data API v3 beschränkt; nur im Header `X-goog-api-key`, nie in URL, Log oder State; 1 Quota-Einheit je
-  Video, frei sind 10.000 am Tag). Ohne Secret gibt es keine Trailer-Links, der Lauf wird rot.
-  Quelle 1 ist YouTubes Player-Schnittstelle
-  (`youtubei/v1/player`, WEB-Client, JSON, ohne Schlüssel): sie liefert die Liste auch an Rechenzentrums-IPs,
-  deren Wiedergabe sie verweigert (Status dort immer UNPLAYABLE, wird ignoriert; Altersfreigabe
-  `isFamilySafe: false` = unklar). Quelle 2, nur wenn Quelle 1 keine Liste hat, ist die Watch-Seite (Liste plus
-  Status OK). Quellen 1 und 2 antworten GitHubs Runnern nicht (Probe 02.11.2026: Bot-Sperre, keine Liste), vom
-  Mac aus schon; sie bleiben als Rückfall. **Fail-closed:** keine oder leere Länderliste aus allen Quellen → kein Link (der Eintrag selbst führt ohnehin zu Metacritic). Gesperrte Kandidaten werden
-  übersprungen, der nächste wird geprüft (bei The Night Of der UK-Trailer). Im State: `blocked_de` (Zahl der
-  übersprungenen), `unchecked` (keine Länderliste).
+  der offizielle Trailer zu The Night Of, `556N5vojtp0`, ist nur in den USA freigegeben). **Quelle ist allein die
+  YouTube Data API v3** (`videos.list`, `part=contentDetails,status`), sonst gibt es keinen Link. Sie antwortet
+  von überall gleich, der US-Runner kann also für Deutschland urteilen:
+  - ohne `regionRestriction` = überall; genau `allowed` oder `blocked` mit einer nicht leeren Liste aus
+    Zwei-Buchstaben-Codes: `allowed` muss `DE` enthalten, `blocked` darf es nicht;
+  - unklar (kein Link, endgültig für diesen Kandidaten): Altersfreigabe `ytAgeRestricted`, Video noch nicht
+    fertig verarbeitet, ungewöhnliche Einschränkungsliste; gelöscht oder privat = nicht abspielbar;
+  - keine wohlgeformte Antwort (Netz, Quota, 5xx, unerwartetes Schema, Antwort zu einer anderen ID) entscheidet
+    nichts und verbraucht nichts: der Eintrag behält `trailer_due`, Alt-Links bleiben versteckt und offen.
+  Gesperrte oder unklare Kandidaten werden übersprungen, der nächste wird geprüft (bei The Night Of der
+  UK-Trailer). Im State: `blocked_de` (Zahl der übersprungenen), `unchecked` (Antwort unklar). Der Eintrag selbst
+  führt ohnehin zu Metacritic.
+- **Grenzen:** `regionRestriction` bildet Sperren, die Rechteinhaber über Content ID setzen, vermutlich nicht
+  vollständig ab; ein so gesperrter Trailer kann durchrutschen. Eine Freigabe wird beim Erscheinen eingefroren
+  und ist eine Momentaufnahme; ändert der Rechteinhaber sie später, merkt der Feed das nicht.
+- **Secret `YOUTUBE_API_KEY`:** Google-Cloud-API-Schlüssel, auf die YouTube Data API v3 beschränkt; nur im
+  Header `X-goog-api-key`, nie in URL, Log oder State; 1 Quota-Einheit je Video plus 1 je Lauf für das
+  Kontrollvideo (frei sind 10.000 am Tag).
+  - **Fehlt der Schlüssel:** keine Trailer-Abfrage, nichts wird eingefroren, neue Einträge warten mit
+    `trailer_due`, der Lauf bleibt grün; der Workflow hält genau ein Issue „YOUTUBE_API_KEY fehlt“ offen und
+    schließt es, sobald der Schlüssel gesetzt ist.
+  - **Schlüssel gesetzt, API antwortet nicht:** geprüft einmal je Lauf über das Kontrollvideo `dQw4w9WgXcQ`
+    (`api_healthy`: kommt eine wohlgeformte Antwort?). Dann ändert sich nichts, der Lauf wird rot, Issue
+    „Trailer lookup degraded“. Bricht die API mitten im Lauf weg (Quota), behält der Rest `trailer_due`.
 - **Alt-Links (vor dem 02.11., `v` 2)** werden nur gezeigt, wenn ein Lauf sie für DE bestätigt hat
-  (`reverify_trailers`, `de_checked`); bestätigt → byte-gleich, nicht in DE → Link weg (`blocked_de`, alte ID
-  unter `was`), unklar → versteckt und im nächsten Lauf neu gefragt; ein Versuch zählt nur, solange die Data API
-  gesund ist (Kontrollvideo `CANARY` beantwortet, `api_healthy`), nach drei solchen endgültig ohne Link. Ohne
-  gesunde API ist es ein Ausfall: kein Versuch verbraucht, Lauf rot. Neue Einträge warten dann mit
-  `trailer_due` (ohne Link) auf ihre Abfrage, statt ohne Trailer eingefroren zu werden. (Die erste Fassung
-  fragte das Kontrollvideo über die Seiten-Quellen; die antworteten dem Runner dafür, für die Trailer nicht,
-  und am 02.11. gingen so 7 Alt-Links verloren. Vom Mac aus für DE bestätigt und mit `de_source: mac`
-  wiederhergestellt.)
+  (`reverify_trailers`, `de_checked`): bestätigt → byte-gleich; nicht in DE oder unklar → Link weg (`blocked_de`
+  bzw. `unchecked`, alte ID unter `was`); keine Antwort → unverändert, nächster Lauf. Die 7 Alt-Links wurden am
+  02.11. vom Mac aus bestätigt (`de_source: mac`).
 - **Gegenprobe vom Runner aus:** Actions → Run workflow, Feld `probe_trailers` mit Video-IDs, z. B.
   `gh workflow run feed.yml -f probe_trailers="556N5vojtp0 Z5uv7_ysu9M"`; der Schritt „Probe trailer region
-  check“ druckt je ID das Ergebnis (`de`, `seconds`, `link`) und jede Quelle einzeln (`api`, `player`, `watch`),
-  dazu `youtube_api_key_set`.
+  check“ druckt je ID die Entscheidung der API (`de`, `seconds`, `link`, `api`) und zur Diagnose, was
+  Player-Schnittstelle und Watch-Seite sagen (entscheiden nie), dazu `youtube_api_key_set` und `api_healthy`.
 - **Eingefroren** wie die Streaming-Zeile: eine Abfrage beim Erscheinen im Feed, nie wieder; ältere Einträge
   bleiben byte-gleich (nur die Kanal-Beschreibung hat einmal den TMDB-Hinweis bekommen).
-- **Laut statt still:** fehlt das Secret, lehnt TMDB den Token ab, scheitern drei Abfragen in Folge oder
-  liefert YouTube bei drei Abfragen in Folge (bzw. bei allen Alt-Links) keine Länderliste,
-  wird der Lauf nach dem Commit rot und legt das Issue „Trailer lookup degraded“ an. Ein Titel ohne
-  TMDB-ID oder ohne offiziellen Trailer ist kein Fehler.
-- **Secrets:** `YOUTUBE_API_KEY` siehe oben (auch im Probe-Schritt). `TMDB_TOKEN` (API Read Access Token, nur lesend), nur im Build-Schritt, nur im
+- **Laut statt still:** fehlt `TMDB_TOKEN`, lehnt TMDB den Token ab, scheitern drei TMDB-Abfragen in Folge
+  oder antwortet die YouTube Data API trotz Schlüssel nicht, wird der Lauf nach dem Commit rot und legt das
+  Issue „Trailer lookup degraded“ an. Ein Titel ohne TMDB-ID oder ohne offiziellen Trailer ist kein Fehler.
+- **Secret `TMDB_TOKEN`** (API Read Access Token, nur lesend), nur im Build-Schritt, nur im
   Authorization-Header, nie in URL, Log oder State. Der Workflow läuft nur per Zeitplan und von Hand,
   nie auf Pull-Requests; die Actions sind auf Commit-SHAs gepinnt.
 

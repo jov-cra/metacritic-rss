@@ -149,6 +149,8 @@ def test_streaming_lookup_keeps_tmdb_id():
     assert rec["match"] and rec["tmdb"] == "123"
 
 
+
+
 def test_short_cuts_are_skipped():
     """Mare of Easttown 25.10.2026: the season video was a 15-second "Emmy Trailer"."""
     season = [v("EEEEEEEEEEE", name="Emmy Trailer 15", date="2021-08-23")]
@@ -156,31 +158,126 @@ def test_short_cuts_are_skipped():
     fetch = lambda path, token: {"tv/1/season/1": season, "tv/1": show}.get(path, [])
     lengths = {"EEEEEEEEEEE": 15, "OOOOOOOOOOO": 146}
     assert tr.lookup("1", "tv", 1, "t", fetch, check=lambda k: tr.Check(True, True, lengths[k])) == "OOOOOOOOOOO"
-    # DE confirmed but no length on the page: the name decides
-    assert tr.lookup("1", "tv", 1, "t", fetch, check=ok(None)) == "OOOOOOOOOOO"
-    assert tr.choose([v("SSSSSSSSSSS", name="TV Spot 1")], check=ok(None)) is None
     assert tr.choose([v("SSSSSSSSSSS")], check=ok(30)) is None, "only short cuts: no link"
+    assert tr.choose([v("SSSSSSSSSSS")], check=ok(None)) is None, "unknown duration: unclear, no link"
 
 
 # --------------------------------------------------------------------------- #
-# Playable in Germany (02.11.2026)
+# Playable in Germany (02.11.2026): the YouTube Data API decides, nothing else
 # --------------------------------------------------------------------------- #
 
-def test_parse_watch_reads_the_country_list_not_the_location():
-    # The Night Of, official trailer 556N5vojtp0: US-only. From DE the page says UNPLAYABLE,
-    # from a US runner it says OK — the country list without DE decides both times.
-    assert tr.parse_watch(page("UNPLAYABLE", ("US",), 91)) == tr.Check(True, False, 91)
-    assert tr.parse_watch(page("OK", ("US",), 91)) == tr.Check(True, False, 91)
-    assert tr.parse_watch(page("OK", ("DE", "US", "GB"), 84)) == tr.Check(True, True, 84)
-    assert tr.parse_watch(page("OK", ("DEU", "US"), 84)).de is False, "only exact two-letter codes"
+def api_json(rr=None, duration="PT1M24S", rating=None, privacy="public", items=True, vid="Z5uv7_ysu9M",
+             upload="processed"):
+    cd = {"duration": duration}
+    if rr is not None:
+        cd["regionRestriction"] = rr
+    if rating:
+        cd["contentRating"] = {"ytRating": rating}
+    it = {"id": vid, "contentDetails": cd, "status": {"uploadStatus": upload, "privacyStatus": privacy}}
+    return {"kind": "youtube#videoListResponse", "items": [it] if items else []}
 
 
-def test_parse_watch_is_fail_closed():
-    assert tr.parse_watch("") == tr.UNREAD
-    assert tr.parse_watch("<html>consent</html>") == tr.UNREAD
-    assert tr.parse_watch(page("OK", None, 84)) == tr.Check(True, None, 84), "no country list: unclear"
-    assert tr.parse_watch(page("OK", (), 84)).de is None, "empty list: unclear"
-    assert tr.parse_watch(page("LOGIN_REQUIRED", ("DE", "US"), 84)).de is None, "age gate / bot check: unclear"
+def test_parse_api_region_restriction():
+    assert tr.parse_api(api_json()) == tr.Check(True, True, 84), "no restriction: everywhere"
+    assert tr.parse_api(api_json({"allowed": ["US"]}, "PT1M31S")) == tr.Check(True, False, 91)   # The Night Of
+    assert tr.parse_api(api_json({"allowed": ["DE", "AT"]})).de is True
+    assert tr.parse_api(api_json({"blocked": ["DE"]})).de is False
+    assert tr.parse_api(api_json({"blocked": ["US"]})).de is True
+    assert tr.parse_api(api_json(rating="ytAgeRestricted")) == tr.Check(True, None, 84), "age gate: unclear"
+    assert tr.parse_api(api_json(privacy="private")).de is False
+    assert tr.parse_api(api_json(items=False)) == tr.Check(True, False, None), "deleted or private"
+
+
+def test_parse_api_odd_answers_are_unclear():
+    assert tr.parse_api(api_json(upload="uploaded")) == tr.Check(True, None, 84), "still processing: unclear"
+    assert tr.parse_api(api_json(upload="rejected")).de is None
+    assert tr.parse_api(api_json({"allowed": []})) == tr.Check(True, None, 84), "empty list: unclear"
+    assert tr.parse_api(api_json({"blocked": []})).de is None
+    assert tr.parse_api(api_json({"allowed": ["DEU"]})).de is None, "only two-letter codes"
+    assert tr.parse_api(api_json({"allowed": ["de"]})).de is None
+    assert tr.parse_api(api_json({"allowed": "DE"})).de is None, "not a list"
+    assert tr.parse_api(api_json({"allowed": ["DE"], "blocked": ["US"]})).de is None, "both kinds: unclear"
+    assert tr.parse_api(api_json({"other": ["DE"]})).de is None
+    assert tr.parse_api(api_json({})).de is None
+    assert tr.parse_api(api_json("DE")).de is None
+
+
+def test_parse_api_broken_shapes_decide_nothing():
+    assert tr.parse_api({"items": [{}]}) == tr.UNREAD
+    assert tr.parse_api({"items": ["x"]}) == tr.UNREAD
+    assert tr.parse_api({"items": [api_json()["items"][0]] * 2}) == tr.UNREAD, "exactly one item"
+    assert tr.parse_api({"error": {"code": 403}}) == tr.UNREAD
+    assert tr.parse_api(None) == tr.UNREAD
+    assert tr.parse_api({"items": None}) == tr.UNREAD
+    it = api_json()["items"][0]
+    assert tr.parse_api({"items": [{**it, "contentDetails": []}]}) == tr.UNREAD
+    assert tr.parse_api({"items": [{**it, "status": None}]}) == tr.UNREAD
+    assert tr.parse_api({"items": [{**it, "status": {"uploadStatus": "processed"}}]}) == tr.UNREAD
+    assert tr.parse_api({"items": [{**it, "status": {**it["status"], "privacyStatus": "x"}}]}) == tr.UNREAD
+    assert tr.parse_api(api_json(), key="Z5uv7_ysu9M").de is True
+    assert tr.parse_api(api_json(), key="556N5vojtp0") == tr.UNREAD, "answer for another video"
+
+
+def test_iso_duration():
+    assert tr._iso_seconds("PT1M24S") == 84
+    assert tr._iso_seconds("PT2H") == 7200
+    assert tr._iso_seconds("PT45S") == 45
+    assert tr._iso_seconds("P0D") == 0
+    assert tr._iso_seconds("") is None and tr._iso_seconds("PT") is None and tr._iso_seconds("1:24") is None
+
+
+class _Resp:
+    def __init__(self, status=200, data=None):
+        self.status_code, self._data = status, data
+
+    def json(self):
+        if isinstance(self._data, Exception):
+            raise self._data
+        return self._data
+
+
+def test_api_check_needs_the_key_and_keeps_it_out_of_the_url(monkeypatch):
+    monkeypatch.delenv("YOUTUBE_API_KEY", raising=False)
+    assert tr.api_check("Z5uv7_ysu9M") == tr.UNREAD, "no key: no call"
+    seen = {}
+
+    def fake_get(url, timeout, params, headers):
+        seen.update(url=url, params=params, headers=headers)
+        return _Resp(200, api_json())
+    monkeypatch.setenv("YOUTUBE_API_KEY", "SECRET-KEY")
+    monkeypatch.setattr(tr.requests, "get", fake_get)
+    assert tr.api_check("Z5uv7_ysu9M") == tr.Check(True, True, 84)
+    assert seen["headers"]["X-goog-api-key"] == "SECRET-KEY"
+    assert "SECRET-KEY" not in seen["url"] and "SECRET-KEY" not in str(seen["params"])
+
+
+def test_api_check_disturbances_are_unread(monkeypatch, capsys):
+    monkeypatch.setenv("YOUTUBE_API_KEY", "SECRET-KEY")
+    for resp in (_Resp(403, {"error": "quotaExceeded"}), _Resp(500, None), _Resp(200, ValueError("no json"))):
+        monkeypatch.setattr(tr.requests, "get", lambda *a, _r=resp, **kw: _r)
+        assert tr.api_check("Z5uv7_ysu9M") == tr.UNREAD
+
+    def boom(*a, **kw):
+        raise ConnectionError("down")
+    monkeypatch.setattr(tr.requests, "get", boom)
+    assert tr.api_check("Z5uv7_ysu9M") == tr.UNREAD
+    assert "SECRET-KEY" not in capsys.readouterr().err
+
+
+def test_only_the_api_decides(monkeypatch):
+    """Player endpoint and watch page are diagnosis only (they would pass an age gate)."""
+    called = []
+    monkeypatch.setattr(tr, "player_check", lambda k: called.append("player") or tr.Check(True, True, 84))
+    monkeypatch.setattr(tr, "watch_check", lambda k: called.append("watch") or tr.Check(True, True, 84))
+    monkeypatch.setattr(tr, "api_check", lambda k: tr.UNREAD)
+    assert tr.youtube_check("Z5uv7_ysu9M") == tr.UNREAD and called == []
+
+
+def test_api_healthy_means_the_api_answers(monkeypatch):
+    monkeypatch.setattr(tr, "api_check", lambda k: tr.UNREAD)
+    assert tr.api_healthy() is False
+    monkeypatch.setattr(tr, "api_check", lambda k: tr.Check(True, None, 213) if k == tr.CANARY else tr.UNREAD)
+    assert tr.api_healthy() is True, "a well-formed answer is enough, DE status of the canary is irrelevant"
 
 
 def test_choose_skips_blocked_and_unclear_candidates():
@@ -192,33 +289,46 @@ def test_choose_skips_blocked_and_unclear_candidates():
     assert tr.choose(cands, check=checks.get) == "Z5uv7_ysu9M"
     only_blocked = {"556N5vojtp0": tr.Check(True, False, 91), "Z5uv7_ysu9M": tr.Check(True, False, 84)}
     assert tr.choose(cands, check=only_blocked.get) is None
-    assert tr.choose(cands, check=lambda k: tr.UNREAD) is None, "unread pages never become a link"
     assert tr.choose(cands, check=lambda k: tr.Check(True, None, 84)) is None, "unclear never becomes a link"
 
 
-def test_enrich_trailers_records_blocked_and_unchecked():
+def test_choose_raises_when_the_check_has_no_answer():
+    cands = [v("556N5vojtp0"), v("Z5uv7_ysu9M")]
+    checks = {"556N5vojtp0": tr.Check(True, False, 91), "Z5uv7_ysu9M": tr.UNREAD}
+    try:
+        tr.choose(cands, check=checks.get)
+    except tr.CheckUnavailable:
+        pass
+    else:
+        raise AssertionError("an unanswered check must not end as 'no trailer'")
+
+
+def test_enrich_trailers_records_blocked_and_unclear():
     em = {f"{B}/movie/a/": _meta(trailer_due=True, emitted_at="2026-11-02T10:02:00"),
           f"{B}/movie/b/": _meta(trailer_due=True, emitted_at="2026-11-02T10:01:00")}
 
     def lookup(tm, media, season, token, check=None):
         return tr.choose([v("556N5vojtp0"), v("Z5uv7_ysu9M")], check=check)
-    checks = iter([tr.Check(True, False, 91), tr.Check(True, False, 84),   # a: both blocked in DE
-                   tr.UNREAD, tr.UNREAD])                                  # b: nothing readable
+    checks = iter([tr.Check(True, False, 91), tr.Check(True, False, 84),        # a: both blocked in DE
+                   tr.Check(True, None, 91), tr.Check(True, None, 84)])         # b: both unclear
     found, degraded = mf.enrich_trailers(em, 10, 0, "tok", lookup=lookup, check=lambda k: next(checks))
-    assert (found, degraded) == (0, False), "one unreadable lookup is not yet degraded"
+    assert (found, degraded) == (0, False)
     assert em[f"{B}/movie/a/"]["trailer"] == {"v": tr.VERSION, "key": None, "blocked_de": 2}
     assert em[f"{B}/movie/b/"]["trailer"] == {"v": tr.VERSION, "key": None, "unchecked": True}
 
 
-def test_enrich_trailers_degrades_when_youtube_is_unreadable():
-    em = {f"{B}/movie/{i}/": _meta(trailer_due=True, emitted_at=f"2026-11-02T10:0{i}:00") for i in range(5)}
+def test_enrich_trailers_quota_mid_run_freezes_nothing():
+    """Health check passed, then the quota runs out after the first item: the rest stays due."""
+    em = {f"{B}/movie/{i}/": _meta(trailer_due=True, emitted_at=f"2026-11-02T10:0{i}:00") for i in range(3)}
+    answers = iter([tr.Check(True, True, 84)] + [tr.UNREAD] * 10)
 
     def lookup(tm, media, season, token, check=None):
         return tr.choose([v("Z5uv7_ysu9M")], check=check)
-    found, degraded = mf.enrich_trailers(em, 10, 0, "tok", lookup=lookup, check=lambda k: tr.UNREAD)
-    assert (found, degraded) == (0, True)
-    assert all(m["trailer"]["key"] is None and "trailer_due" not in m for m in em.values())
-    assert all(mf.describe_item(m) == mf.describe_item(_meta()) for m in em.values())
+    found, degraded = mf.enrich_trailers(em, 10, 0, "tok", lookup=lookup, check=lambda k: next(answers))
+    assert (found, degraded) == (1, True)
+    assert em[f"{B}/movie/2/"]["trailer"]["key"] == "Z5uv7_ysu9M", "newest first, before the quota ran out"
+    for i in (0, 1):
+        assert em[f"{B}/movie/{i}/"].get("trailer_due") and "trailer" not in em[f"{B}/movie/{i}/"]
 
 
 def test_reverify_keeps_playable_links_byte_identical():
@@ -230,150 +340,72 @@ def test_reverify_keeps_playable_links_byte_identical():
     assert mf.describe_item(m) == before
 
 
-def test_reverify_drops_links_blocked_in_de():
-    em = {f"{B}/tv/x/": _meta(trailer={"v": 2, "key": "556N5vojtp0"})}
-    assert mf.reverify_trailers(em, check=lambda k: tr.Check(True, False, 91), today="2026-11-02", delay=0) is False
+def test_reverify_drops_links_blocked_in_de_or_unclear():
+    em = {f"{B}/tv/x/": _meta(trailer={"v": 2, "key": "556N5vojtp0"}),
+          f"{B}/tv/y/": _meta(trailer={"v": 2, "key": "Z5uv7_ysu9M"})}
+    answers = {"556N5vojtp0": tr.Check(True, False, 91), "Z5uv7_ysu9M": tr.Check(True, None, 84)}
+    assert mf.reverify_trailers(em, check=answers.get, today="2026-11-02", delay=0) is False
     assert em[f"{B}/tv/x/"]["trailer"] == {"v": tr.VERSION, "key": None, "blocked_de": True,
                                          "was": "556N5vojtp0", "checked": "2026-11-02"}
-    assert "Trailer" not in mf.describe_item(em[f"{B}/tv/x/"])
+    assert em[f"{B}/tv/y/"]["trailer"] == {"v": tr.VERSION, "key": None, "unchecked": True,
+                                         "was": "Z5uv7_ysu9M", "checked": "2026-11-02"}
+    assert all("Trailer" not in mf.describe_item(m) for m in em.values())
 
 
-def test_reverify_unclear_hides_then_gives_up():
-    """One video without an answer while YouTube answers for the others: item-specific, tries count."""
-    em = {f"{B}/movie/a/": _meta(trailer={"v": 2, "key": "AAAAAAAAAAA"}),
-          f"{B}/movie/b/": _meta(trailer={"v": 2, "key": "BBBBBBBBBBB"})}
-    check = lambda k: tr.UNREAD if k == "AAAAAAAAAAA" else tr.Check(True, True, 90)
-    for n in range(1, mf.REVERIFY_TRIES):
-        assert mf.reverify_trailers(em, check=check, delay=0) is False
-        assert em[f"{B}/movie/a/"]["trailer"]["de_tries"] == n
-        assert "Trailer" not in mf.describe_item(em[f"{B}/movie/a/"])
-        assert "Trailer" in mf.describe_item(em[f"{B}/movie/b/"])
-    mf.reverify_trailers(em, check=check, delay=0)
-    assert em[f"{B}/movie/a/"]["trailer"] == {"v": tr.VERSION, "key": None, "unchecked": True, "was": "AAAAAAAAAAA"}
-    # nothing left to check afterwards
-    assert mf.reverify_trailers(em, check=lambda k: 1 / 0, delay=0) is False
-
-
-def test_reverify_outage_uses_up_no_try():
-    """02.11.2026: no working Data API (key missing): unclear answers must not drop links for good."""
-    em = {f"{B}/movie/a/": _meta(trailer={"v": 2, "key": "Z5uv7_ysu9M", "de_tries": 2})}
+def test_reverify_without_answer_changes_nothing():
+    em = {f"{B}/movie/{i}/": _meta(trailer={"v": 2, "key": "Z5uv7_ysu9M"}) for i in range(3)}
     for _ in range(5):
-        assert mf.reverify_trailers(em, check=lambda k: tr.UNREAD, delay=0, yt_ok=False) is True, "outage: degraded"
-    assert em[f"{B}/movie/a/"]["trailer"] == {"v": 2, "key": "Z5uv7_ysu9M", "de_tries": 2}
-    assert "Trailer" not in mf.describe_item(em[f"{B}/movie/a/"]), "still hidden while unchecked"
-    mf.reverify_trailers(em, check=lambda k: tr.Check(True, True, 84), delay=0)
-    assert "Trailer" in mf.describe_item(em[f"{B}/movie/a/"])
+        assert mf.reverify_trailers(em, check=lambda k: tr.UNREAD, delay=0) is True
+    assert all(m["trailer"] == {"v": 2, "key": "Z5uv7_ysu9M"} for m in em.values())
+    assert all("Trailer" not in mf.describe_item(m) for m in em.values()), "hidden while unconfirmed"
 
 
-def test_reverify_degrades_when_pages_read_but_no_country_list():
-    """First live run 02.11.2026: the runner's watch pages parsed (status found) but carried no
-    country list; all old links were hidden while the run stayed green. Now that is degraded."""
-    em = {f"{B}/movie/{i}/": _meta(trailer={"v": 2, "key": "Z5uv7_ysu9M"}) for i in range(2)}
-    assert mf.reverify_trailers(em, check=lambda k: tr.Check(True, None, None), delay=0, yt_ok=False) is True
+ARGS = SimpleNamespace(trailer_delay=0, trailer_max=10)
 
 
-def player_json(countries=("DE", "US"), seconds=84, status="UNPLAYABLE", family_safe=True):
-    mf_ = {"lengthSeconds": str(seconds), "isFamilySafe": family_safe}
-    if countries is not None:
-        mf_["availableCountries"] = list(countries)
-    return {"playabilityStatus": {"status": status, "reason": "Video unavailable"},
-            "videoDetails": {"lengthSeconds": str(seconds)},
-            "microformat": {"playerMicroformatRenderer": mf_}}
+def _never(*a, **kw):
+    raise AssertionError("must not be called")
 
 
-def test_parse_player_ignores_status_and_reads_the_list():
-    # a datacenter IP gets UNPLAYABLE for every video; the list still decides
-    assert tr.parse_player(player_json(("DE", "US"))) == tr.Check(True, True, 84)
-    assert tr.parse_player(player_json(("US",), 91)) == tr.Check(True, False, 91)   # The Night Of 556N5vojtp0
-    assert tr.parse_player(player_json(None)).de is None
-    assert tr.parse_player(player_json(())).de is None
-    assert tr.parse_player(player_json(family_safe=False)).de is None, "age gate: unclear"
-    assert tr.parse_player({"error": {"code": 400}}) == tr.UNREAD
-    assert tr.parse_player(None) == tr.UNREAD
-    assert tr.parse_player({"playabilityStatus": {"status": "ERROR"}}) == tr.Check(True, None, None), "deleted video"
-
-
-def test_youtube_check_falls_back_to_the_watch_page_only_when_unclear():
-    calls = []
-
-    def src(answer, name):
-        def f(k):
-            calls.append(name)
-            return answer
-        return f
-    yes, no, unclear = tr.Check(True, True, 84), tr.Check(True, False, 91), tr.Check(True, None, 84)
-    assert tr.youtube_check("x", sources=(src(yes, "p"), src(no, "w"))) == yes and calls == ["p"]
-    calls.clear()
-    assert tr.youtube_check("x", sources=(src(unclear, "p"), src(no, "w"))) == no and calls == ["p", "w"]
-    assert tr.youtube_check("x", sources=(src(tr.UNREAD, "p"), src(tr.UNREAD, "w"))) == tr.UNREAD
-    # definite answer without length borrows the length an unclear source did read
-    assert tr.youtube_check("x", sources=(src(unclear, "p"), src(tr.Check(True, True, None), "w"))) == yes
-
-
-def api_json(rr=None, duration="PT1M24S", rating=None, privacy="public", items=True):
-    cd = {"duration": duration}
-    if rr is not None:
-        cd["regionRestriction"] = rr
-    if rating:
-        cd["contentRating"] = {"ytRating": rating}
-    it = {"id": "x", "contentDetails": cd, "status": {"uploadStatus": "processed", "privacyStatus": privacy}}
-    return {"kind": "youtube#videoListResponse", "items": [it] if items else []}
-
-
-def test_parse_api_region_restriction():
-    assert tr.parse_api(api_json()) == tr.Check(True, True, 84), "no restriction: everywhere"
-    assert tr.parse_api(api_json({"allowed": ["US"]}, "PT1M31S")) == tr.Check(True, False, 91)   # The Night Of
-    assert tr.parse_api(api_json({"allowed": ["DE", "AT"]})).de is True
-    assert tr.parse_api(api_json({"blocked": ["DE"]})).de is False
-    assert tr.parse_api(api_json({"blocked": ["US"]})).de is True
-    assert tr.parse_api(api_json(rating="ytAgeRestricted")).de is None, "age gate: unclear"
-    assert tr.parse_api(api_json(privacy="private")).de is False
-    assert tr.parse_api(api_json(items=False)) == tr.Check(True, False, None), "deleted or private"
-    assert tr.parse_api({"error": {"code": 403}}) == tr.UNREAD
-    assert tr.parse_api(None) == tr.UNREAD
-
-
-def test_iso_duration():
-    assert tr._iso_seconds("PT1M24S") == 84
-    assert tr._iso_seconds("PT2H") == 7200
-    assert tr._iso_seconds("PT45S") == 45
-    assert tr._iso_seconds("P0D") == 0
-    assert tr._iso_seconds("") is None and tr._iso_seconds("PT") is None and tr._iso_seconds("1:24") is None
-
-
-def test_api_check_needs_the_key_and_keeps_it_out_of_the_url(monkeypatch):
+def test_trailer_step_without_key_is_quiet(monkeypatch):
+    """No key: no lookup, nothing frozen, items stay due, not degraded (green run)."""
     monkeypatch.delenv("YOUTUBE_API_KEY", raising=False)
-    assert tr.api_check("dQw4w9WgXcQ") == tr.UNREAD, "no key: no call"
-    seen = {}
+    em = {f"{B}/movie/a/": _meta(trailer_due=True), f"{B}/movie/b/": _meta(trailer={"v": 2, "key": "Z5uv7_ysu9M"})}
+    snapshot = repr(em)
+    assert mf.trailer_step(em, ARGS, "2026-11-02", healthy=_never, reverify=_never, enrich=_never) == (False, "missing")
+    assert repr(em) == snapshot
 
-    class R:
-        status_code = 200
 
-        def json(self):
-            return api_json()
-
-    def fake_get(url, timeout, params, headers):
-        seen.update(url=url, params=params, headers=headers)
-        return R()
+def test_trailer_step_key_set_but_api_silent_is_red_and_changes_nothing(monkeypatch):
     monkeypatch.setenv("YOUTUBE_API_KEY", "SECRET-KEY")
-    monkeypatch.setattr(tr.requests, "get", fake_get)
-    assert tr.api_check("dQw4w9WgXcQ") == tr.Check(True, True, 84)
-    assert seen["headers"]["X-goog-api-key"] == "SECRET-KEY"
-    assert "SECRET-KEY" not in seen["url"] and "SECRET-KEY" not in str(seen["params"])
-
-
-def test_enrich_trailers_waits_while_the_api_is_down():
     em = {f"{B}/movie/a/": _meta(trailer_due=True)}
-
-    def lookup(*a, **kw):
-        raise AssertionError("no TMDB lookup while the DE check is down")
-    assert mf.enrich_trailers(em, 10, 0, "tok", lookup=lookup, yt_ok=False) == (0, True)
-    assert em[f"{B}/movie/a/"].get("trailer_due") and "trailer" not in em[f"{B}/movie/a/"]
-    assert "Trailer" not in mf.describe_item(em[f"{B}/movie/a/"])
+    snapshot = repr(em)
+    assert mf.trailer_step(em, ARGS, "2026-11-02", healthy=lambda: False, reverify=_never,
+                           enrich=_never) == (True, "set")
+    assert repr(em) == snapshot
 
 
-def test_api_healthy_needs_a_definite_answer_for_the_canary(monkeypatch):
-    monkeypatch.setattr(tr, "api_check", lambda k: tr.UNREAD)
-    assert tr.api_healthy() is False
-    monkeypatch.setattr(tr, "api_check", lambda k: tr.Check(True, True, 213) if k == tr.CANARY else tr.UNREAD)
-    assert tr.api_healthy() is True
+def test_trailer_step_healthy_runs_reverify_then_enrich(monkeypatch):
+    monkeypatch.setenv("YOUTUBE_API_KEY", "SECRET-KEY")
+    monkeypatch.setenv("TMDB_TOKEN", "tok")
+    calls = []
+    em = {f"{B}/movie/a/": _meta(trailer_due=True)}
+    out = mf.trailer_step(em, ARGS, "2026-11-02", healthy=lambda: True,
+                          reverify=lambda *a, **kw: calls.append("reverify") or False,
+                          enrich=lambda *a, **kw: calls.append("enrich") or (1, False))
+    assert out == (False, "set") and calls == ["reverify", "enrich"]
+    calls.clear()
+    out = mf.trailer_step(em, ARGS, "2026-11-02", healthy=lambda: True,
+                          reverify=lambda *a, **kw: calls.append("reverify") or True, enrich=_never)
+    assert out == (True, "set") and calls == ["reverify"], "no answer in reverify: stop, red"
+    assert mf.trailer_step({}, ARGS, "2026-11-02", healthy=_never) == (False, "set"), "nothing pending: no API call"
+
+
+# --- diagnosis only (probe) ---
+
+def test_parse_watch_and_player_still_parse_for_the_probe():
+    assert tr.parse_watch(page("UNPLAYABLE", ("US",), 91)) == tr.Check(True, False, 91)
+    assert tr.parse_watch("") == tr.UNREAD
+    pj = {"playabilityStatus": {"status": "UNPLAYABLE"}, "videoDetails": {"lengthSeconds": "84"},
+          "microformat": {"playerMicroformatRenderer": {"availableCountries": ["DE", "US"]}}}
+    assert tr.parse_player(pj) == tr.Check(True, True, 84)

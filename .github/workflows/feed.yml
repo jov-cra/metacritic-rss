@@ -84,6 +84,23 @@ jobs:
             git push
           fi
 
+      - name: Keep one issue open while YOUTUBE_API_KEY is missing (never red)
+        # Without the key no trailer is linked (no DE check possible) and new items wait for
+        # their lookup; that is a missing setup step, not a failure, so the run stays green.
+        if: steps.build.outputs.youtube_key != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YOUTUBE_KEY: ${{ steps.build.outputs.youtube_key }}
+        run: |
+          title="YOUTUBE_API_KEY fehlt"
+          num=$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')
+          if [ "$YOUTUBE_KEY" = "missing" ] && [ -z "$num" ]; then
+            gh issue create --title "$title" --body "Repo secret YOUTUBE_API_KEY is not set, so trailers can't be checked as playable in Germany (YouTube Data API v3). New items get no trailer link and keep waiting for their lookup; nothing is lost. Set the secret (an API key restricted to the YouTube Data API v3); the next run closes this issue."
+          elif [ "$YOUTUBE_KEY" = "set" ] && [ -n "$num" ]; then
+            gh issue close "$num" --comment "YOUTUBE_API_KEY is set; trailer DE check active."
+          fi
+
       - name: Fail when enrichment, season discovery, streaming, trailer or cinema lookup is degraded
         # Feed and state were written and committed above (scores are correct);
         # only a supplementary part is broken, so the run turns red afterwards.
@@ -117,7 +134,7 @@ jobs:
             body="The feed was published, but JustWatch lookups keep failing (blocked, or the API changed); new TV items show (TV) instead of where they stream in Germany. Run: $RUN_URL"
           elif [ "$COMMITTED" = "success" ] && [ "$TRAILERS_DEGRADED" = "true" ]; then
             title="Trailer lookup degraded"
-            body="The feed was published, but trailer lookups fail: TMDB (token missing or rejected, or the API changed) or YouTube gives no country list (secret YOUTUBE_API_KEY missing, rejected or over quota), so no trailer can be checked as playable in Germany; new items get no trailer link (fail-closed). Run: $RUN_URL"
+            body="The feed was published, but trailer lookups fail: TMDB (token missing or rejected, or the API changed) or the YouTube Data API doesn't answer although YOUTUBE_API_KEY is set (key rejected, quota, outage, changed response; check the control video dQw4w9WgXcQ with a manual run, input probe_trailers); then items keep waiting for their lookup, nothing is frozen. Run: $RUN_URL"
           elif [ "$COMMITTED" = "success" ] && [ "$KINO_DEGRADED" = "true" ]; then
             title="Cinema lookup degraded"
             body="The feed was published, but the Munich cinema programme (indiekino, Cinema Filmtheater), kinoheld or TMDB could not be read; new cinema movies have no or a partial cinema line. Run: $RUN_URL"

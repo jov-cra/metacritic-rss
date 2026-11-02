@@ -5,28 +5,22 @@ The TMDB id comes from the JustWatch match that streaming.py already makes (Just
 returns `externalIds.tmdbId`), so there is no second title search. Only official
 YouTube videos of type Trailer or Teaser count; nothing found -> no link at all
 (Johannes 25.10.2026: "wenn es bei YouTube nichts gibt, dann lass es weg").
-No short cuts: a candidate under MIN_SECONDS (YouTube's own length) is skipped (Johannes
-25.10.2026: a 15-second "Emmy Trailer" for Mare of Easttown "sagt einem gar nichts"); when
-YouTube's length can't be read, names like "TV Spot" or "15" are skipped instead.
+At least MIN_SECONDS long by YouTube's own duration (Johannes 25.10.2026: a 15-second
+"Emmy Trailer" for Mare of Easttown "sagt einem gar nichts"); no readable duration = no link.
 
-Playable in Germany (02.11.2026, Johannes 01.11.2026: "der erste Trailer ist in DE nicht
-verfügbar. sowas musst du bitte immer checken"; The Night Of's official trailer is US-only):
-a candidate only counts when YouTube's own country list (`availableCountries` in the player
-microformat) names DE. The runner sits in the US, so whether the video plays *there* says
-nothing about Germany; the country list is the same from everywhere. Source 1 is YouTube's
-player endpoint (youtubei/v1/player, WEB client, JSON): it carries the list even when it
-refuses playback to a datacenter IP (its status is then UNPLAYABLE for every video, so the
-status is ignored there; an age gate, `isFamilySafe: false`, counts as unclear). Source 2,
-only when source 1 gives no list, is the watch page (list plus status OK). First live run
-02.11.2026: the runner's watch pages carry no list (bot check), hence source 1.
-Fail-closed: no list from either source -> unclear -> no link (the item itself links to
-Metacritic). There is no name-only fallback any more when YouTube can't be read.
+Playable in Germany (02.11.2026, Johannes 01.11.2026: "sowas musst du bitte immer
+checken"): the only source is the YouTube Data API v3 (videos.list, part
+contentDetails,status, secret YOUTUBE_API_KEY). It answers the same from everywhere, so the
+US runner can judge Germany: no regionRestriction = everywhere, `allowed` must name DE,
+`blocked` must not. Everything else is unclear -> no link (the item itself links to
+Metacritic): age restriction, a video still processing, odd restriction lists. A response
+that doesn't have the expected shape, a network error or a non-200 is UNREAD: it decides
+nothing and uses nothing up (the caller keeps the item due). The player endpoint and the
+watch page are kept for `--probe` only, never for a decision.
 
-Frozen at emit like the streaming line: one lookup when the item is emitted, never
-again. Supplementary: a failed lookup never stops the feed, but several failures in a
-row (or a missing/rejected token, or YouTube pages that can't be read) set a flag that
-turns the run red after the commit. The token only ever goes into the Authorization
-header — never into a URL, an exception text or the state.
+Frozen at emit like the streaming line: one lookup when the item is emitted, never again.
+The TMDB token only ever goes into the Authorization header, the YouTube key only into the
+X-goog-api-key header — never into a URL, an exception text, a log line or the state.
 """
 from __future__ import annotations
 
@@ -44,20 +38,22 @@ except ImportError:  # keeps the module importable for tests without requests
 API = "https://api.themoviedb.org/3"
 VERSION = 3                                   # 3: checked playable in DE (02.11.2026)
 MIN_SECONDS = 60                              # shorter = spot/teaser cut, not a trailer
-SHORT_RE = re.compile(r"\b(?:15|30)\s*(?:s|sec|secs|seconds)?\b|\bspots?\b|\bemmy\b|\bfyc\b|\bclip\b", re.I)
+SHORT_RE = re.compile(r"\b(?:15|30)\s*(?:s|sec|secs|seconds)?\b|\bspots?\b|\bemmy\b|\bfyc\b|\bclip\b", re.I)  # kept for fs_trailer
 KEY_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")   # a YouTube video id
 LANGS = ("en", "de")                          # preference; other languages only as last resort
 COUNTRY = "DE"                                # where Johannes watches
+CC_RE = re.compile(r"^[A-Z]{2}$")             # ISO 3166-1 alpha-2
+PRIVACY = ("public", "unlisted", "private")
 API_YT = "https://www.googleapis.com/youtube/v3/videos"
-PLAYER_URL = "https://www.youtube.com/youtubei/v1/player?prettyPrint=false"
+PLAYER_URL = "https://www.youtube.com/youtubei/v1/player?prettyPrint=false"    # probe only
 PLAYER_CLIENT = {"clientName": "WEB", "clientVersion": "2.20251101.00.00", "hl": "en", "gl": "US"}
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0)"
-CANARY = "dQw4w9WgXcQ"   # plays in every country since 2009: no API answer for it = outage, not the video
+CANARY = "dQw4w9WgXcQ"   # health check: does the API answer at all (once per run)
 
 
 class Check(NamedTuple):
-    """What the YouTube watch page says about one video.
-    read: the page was parsed (a playability status was found).
+    """What a source says about one video.
+    read: a well-formed answer arrived (False: network, HTTP, unexpected shape).
     de: True playable in DE, False not available in DE, None unclear.
     seconds: YouTube's length, or None."""
     read: bool
@@ -66,6 +62,10 @@ class Check(NamedTuple):
 
 
 UNREAD = Check(False, None, None)
+
+
+class CheckUnavailable(RuntimeError):
+    """The DE check got no well-formed answer (network, quota, 5xx, shape): decide nothing."""
 
 
 class TrailerError(RuntimeError):
@@ -130,6 +130,147 @@ def pick(videos: list, season=None) -> str | None:
     return r[0]["key"] if r else None
 
 
+ISO_DUR_RE = re.compile(r"^P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$")
+
+
+def _iso_seconds(raw) -> int | None:
+    m = ISO_DUR_RE.match(str(raw or ""))
+    if not m or not any(m.groups()):
+        return None
+    d, h, mi, s = (int(x or 0) for x in m.groups())
+    return ((d * 24 + h) * 60 + mi) * 60 + s
+
+
+def _codes(value) -> set | None:
+    """A non-empty list of two-letter country codes -> set, anything else -> None."""
+    if not isinstance(value, list) or not value:
+        return None
+    if not all(isinstance(c, str) and CC_RE.match(c) for c in value):
+        return None
+    return set(value)
+
+
+def parse_api(data, key: str | None = None) -> Check:
+    """YouTube Data API v3 videos.list (part=contentDetails,status) -> Check.
+    Shape errors -> UNREAD (decide nothing). No item for a valid id = deleted or private.
+    regionRestriction: absent = everywhere; exactly `allowed` or `blocked` with a non-empty
+    list of two-letter codes, else unclear. Age-restricted or still processing = unclear."""
+    if not isinstance(data, dict) or not isinstance(data.get("items"), list):
+        return UNREAD
+    items = data["items"]
+    if not items:
+        return Check(True, False, None)
+    if len(items) != 1 or not isinstance(items[0], dict):
+        return UNREAD
+    it = items[0]
+    if key is not None and it.get("id") != key:
+        return UNREAD
+    cd, st = it.get("contentDetails"), it.get("status")
+    if not isinstance(cd, dict) or not isinstance(st, dict) or st.get("privacyStatus") not in PRIVACY:
+        return UNREAD
+    seconds = _iso_seconds(cd.get("duration"))
+    if st["privacyStatus"] == "private":
+        return Check(True, False, seconds)
+    if st.get("uploadStatus") != "processed":
+        return Check(True, None, seconds)          # still processing, failed, rejected: unclear
+    if "regionRestriction" in cd:
+        rr = cd["regionRestriction"]
+        if not isinstance(rr, dict) or len(rr) != 1 or set(rr) - {"allowed", "blocked"}:
+            return Check(True, None, seconds)
+        kind, raw = next(iter(rr.items()))
+        codes = _codes(raw)
+        if codes is None:
+            return Check(True, None, seconds)
+        if (kind == "allowed") != (COUNTRY in codes):
+            return Check(True, False, seconds)
+    rating = cd.get("contentRating")
+    if rating is not None and not isinstance(rating, dict):
+        return Check(True, None, seconds)
+    if (rating or {}).get("ytRating") == "ytAgeRestricted":
+        return Check(True, None, seconds)          # age gate: needs a login in DE too
+    return Check(True, True, seconds)
+
+
+def api_key() -> str:
+    return os.environ.get("YOUTUBE_API_KEY", "").strip()
+
+
+def api_check(key: str, timeout: float = 10.0) -> Check:
+    """The DE check: YouTube Data API v3 (1 quota unit per video). UNREAD without key, on
+    network trouble, non-200 or an unexpected shape. The key only goes into a header."""
+    k = api_key()
+    if requests is None or not k or not KEY_RE.match(key or ""):
+        return UNREAD
+    try:
+        resp = requests.get(API_YT, timeout=timeout, params={"part": "contentDetails,status", "id": key},
+                            headers={"X-goog-api-key": k, "Accept": "application/json"})
+    except Exception:
+        return UNREAD
+    if resp.status_code != 200:
+        print(f"[warn] YouTube Data API: HTTP {resp.status_code} (key rejected, quota or outage)",
+              file=sys.stderr)
+        return UNREAD
+    try:
+        return parse_api(resp.json(), key)
+    except ValueError:
+        return UNREAD
+
+
+def api_healthy() -> bool:
+    """Does the API answer (key accepted, quota left, expected shape)? Asked once per run about
+    CANARY through the same function the trailer checks use."""
+    return api_check(CANARY).read
+
+
+def youtube_check(key: str) -> Check:
+    """Playable in DE? Only the Data API decides (02.11.2026)."""
+    return api_check(key)
+
+
+def choose(cands: list, check=youtube_check, tries: int = 5):
+    """First candidate that is playable in DE and at least MIN_SECONDS long. Not in DE,
+    unclear or without a duration: skipped. A candidate without a well-formed answer raises
+    CheckUnavailable, so an outage never turns into a frozen "no trailer"."""
+    for v in cands[:tries]:
+        c = check(v["key"])
+        if not c.read:
+            raise CheckUnavailable(v["key"])
+        if c.de is True and c.seconds is not None and c.seconds >= MIN_SECONDS:
+            return v["key"]
+    return None
+
+
+def lookup(tmdb_id: str, media: str, season, token: str, fetch=fetch_videos, check=youtube_check) -> str | None:
+    """-> YouTube id or None. Raises TrailerError/AuthError on failure.
+    movie: /movie/<id>; show: /tv/<id>; season N: /tv/<id>/season/N, else the show's
+    videos that name season N (for season 1 any show trailer)."""
+    if not re.fullmatch(r"\d+", str(tmdb_id or "")):
+        return None
+    if media == "movie":
+        return choose(ranked(fetch(f"movie/{tmdb_id}", token)), check)
+    if season is None:
+        return choose(ranked(fetch(f"tv/{tmdb_id}", token)), check)
+    cands = ranked(fetch(f"tv/{tmdb_id}/season/{int(season)}", token))
+    show = fetch(f"tv/{tmdb_id}", token)
+    cands += ranked(show) if int(season) == 1 else ranked(show, season=int(season))
+    seen, uniq = set(), []
+    for v in cands:
+        if v["key"] not in seen:
+            seen.add(v["key"])
+            uniq.append(v)
+    return choose(uniq, check)
+
+
+def link_html(key: str) -> str:
+    """The line appended to the item description (raw HTML; the feed escapes it once)."""
+    if not KEY_RE.match(key or ""):
+        return ""
+    return f'<a href="https://www.youtube.com/watch?v={key}">▶ Trailer (YouTube)</a>'
+
+
+# --- player endpoint and watch page: diagnosis in --probe only, never a decision ---
+
+
 def parse_watch(text: str) -> Check:
     """YouTube watch page -> Check. The country list (`availableCountries` in the player
     microformat) is the same wherever the page is fetched from; the playability status is
@@ -170,69 +311,6 @@ def parse_player(data) -> Check:
     return Check(True, True, seconds)
 
 
-ISO_DUR_RE = re.compile(r"^P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$")
-
-
-def _iso_seconds(raw) -> int | None:
-    m = ISO_DUR_RE.match(str(raw or ""))
-    if not m or not any(m.groups()):
-        return None
-    d, h, mi, s = (int(x or 0) for x in m.groups())
-    return ((d * 24 + h) * 60 + mi) * 60 + s
-
-
-def parse_api(data) -> Check:
-    """YouTube Data API v3 videos.list (part=contentDetails,status) -> Check.
-    regionRestriction absent = everywhere; `allowed` must name DE, `blocked` must not.
-    No item = deleted or private (not playable anywhere); age-restricted = unclear."""
-    if not isinstance(data, dict) or not isinstance(data.get("items"), list):
-        return UNREAD
-    if not data["items"]:
-        return Check(True, False, None)
-    it = data["items"][0] if isinstance(data["items"][0], dict) else {}
-    cd = it.get("contentDetails") or {}
-    st = it.get("status") or {}
-    seconds = _iso_seconds(cd.get("duration"))
-    if st.get("privacyStatus") == "private" or st.get("uploadStatus") not in (None, "processed"):
-        return Check(True, False, seconds)
-    rr = cd.get("regionRestriction") or {}
-    if isinstance(rr.get("allowed"), list) and COUNTRY not in rr["allowed"]:
-        return Check(True, False, seconds)
-    if isinstance(rr.get("blocked"), list) and COUNTRY in rr["blocked"]:
-        return Check(True, False, seconds)
-    if (cd.get("contentRating") or {}).get("ytRating") == "ytAgeRestricted":
-        return Check(True, None, seconds)          # age gate: needs a login in DE too
-    return Check(True, True, seconds)
-
-
-def api_check(key: str, timeout: float = 10.0) -> Check:
-    """Source 0: YouTube Data API v3 with YOUTUBE_API_KEY (1 quota unit per video). The key
-    goes only into the X-goog-api-key header, never into a URL, a message or the state."""
-    api_key = os.environ.get("YOUTUBE_API_KEY", "").strip()
-    if requests is None or not api_key or not KEY_RE.match(key or ""):
-        return UNREAD
-    try:
-        resp = requests.get(API_YT, timeout=timeout, params={"part": "contentDetails,status", "id": key},
-                            headers={"X-goog-api-key": api_key, "Accept": "application/json"})
-    except Exception:
-        return UNREAD
-    if resp.status_code != 200:
-        print(f"[warn] YouTube Data API: HTTP {resp.status_code} (key rejected or quota?)", file=sys.stderr)
-        return UNREAD
-    try:
-        return parse_api(resp.json())
-    except ValueError:
-        return UNREAD
-
-
-def api_healthy() -> bool:
-    """Does the Data API answer right now (key set, accepted, quota left)? Asked once per run
-    about CANARY. Only then is an unclear answer about a trailer the trailer's own fault; the
-    page sources can't tell (02.11.2026: on the runner they answered for the canary but not
-    for the trailers)."""
-    return api_check(CANARY).de is True
-
-
 def player_check(key: str, timeout: float = 10.0) -> Check:
     """Source 1: YouTube's player endpoint (JSON, no key, no cookie)."""
     if requests is None or not KEY_RE.match(key or ""):
@@ -258,77 +336,20 @@ def watch_check(key: str, timeout: float = 10.0) -> Check:
     return parse_watch(resp.text) if resp.status_code == 200 else UNREAD
 
 
-def youtube_check(key: str, sources=None) -> Check:
-    """Playable in DE? Source 0 (Data API, when YOUTUBE_API_KEY is set), then source 1 (player
-    endpoint), then source 2 (watch page) while the answer is still unclear. The first
-    definite answer wins; the length is taken from any source."""
-    best = UNREAD
-    for src in (sources or (api_check, player_check, watch_check)):
-        c = src(key)
-        if c.de is not None:
-            return c if c.seconds is not None else c._replace(seconds=best.seconds)
-        if c.read and (not best.read or best.seconds is None):
-            best = c
-    return best
-
-
-def choose(cands: list, check=youtube_check, tries: int = 5):
-    """First candidate that is playable in DE and at least MIN_SECONDS long; when the page
-    was read and DE confirmed but YouTube shows no length, the name must not look like a
-    spot. Unread or unclear pages never count. None when nothing qualifies."""
-    for v in cands[:tries]:
-        c = check(v["key"])
-        if c.de is not True:
-            continue
-        if c.seconds is not None:
-            if c.seconds >= MIN_SECONDS:
-                return v["key"]
-            continue
-        if not SHORT_RE.search(str(v.get("name") or "")):
-            return v["key"]
-    return None
-
-
-def lookup(tmdb_id: str, media: str, season, token: str, fetch=fetch_videos, check=youtube_check) -> str | None:
-    """-> YouTube id or None. Raises TrailerError/AuthError on failure.
-    movie: /movie/<id>; show: /tv/<id>; season N: /tv/<id>/season/N, else the show's
-    videos that name season N (for season 1 any show trailer)."""
-    if not re.fullmatch(r"\d+", str(tmdb_id or "")):
-        return None
-    if media == "movie":
-        return choose(ranked(fetch(f"movie/{tmdb_id}", token)), check)
-    if season is None:
-        return choose(ranked(fetch(f"tv/{tmdb_id}", token)), check)
-    cands = ranked(fetch(f"tv/{tmdb_id}/season/{int(season)}", token))
-    show = fetch(f"tv/{tmdb_id}", token)
-    cands += ranked(show) if int(season) == 1 else ranked(show, season=int(season))
-    seen, uniq = set(), []
-    for v in cands:
-        if v["key"] not in seen:
-            seen.add(v["key"])
-            uniq.append(v)
-    return choose(uniq, check)
-
-
-def link_html(key: str) -> str:
-    """The line appended to the item description (raw HTML; the feed escapes it once)."""
-    if not KEY_RE.match(key or ""):
-        return ""
-    return f'<a href="https://www.youtube.com/watch?v={key}">▶ Trailer (YouTube)</a>'
-
-
 def probe(keys: list) -> int:
-    """`python trailer.py --probe KEY ...`: print what this machine reads for each video
-    (diagnostics from the runner; no token involved). Invalid keys are skipped."""
+    """`python trailer.py --probe KEY ...`: what this machine reads for each video. The
+    decision (`de`, `link`) is the API's; player and watch page are printed for diagnosis
+    only. No secret is printed. Invalid keys are skipped."""
     for key in keys:
         if not KEY_RE.match(key):
             print(json.dumps({"key": "(invalid, skipped)"}))
             continue
         a, p, w = api_check(key), player_check(key), watch_check(key)
-        c = youtube_check(key, sources=(lambda k: a, lambda k: p, lambda k: w))
-        print(json.dumps({"key": key, "de": c.de, "seconds": c.seconds, "link": c.de is True,
-                          "api": a._asdict(), "player": p._asdict(), "watch": w._asdict()}))
-    print(json.dumps({"youtube_api_key_set": bool(os.environ.get("YOUTUBE_API_KEY", "").strip())}))
+        print(json.dumps({"key": key, "de": a.de, "seconds": a.seconds,
+                          "link": a.de is True and (a.seconds or 0) >= MIN_SECONDS,
+                          "api": a._asdict(), "player (diagnosis)": p._asdict(),
+                          "watch (diagnosis)": w._asdict()}))
+    print(json.dumps({"youtube_api_key_set": bool(api_key()), "api_healthy": api_healthy()}))
     return 0
 
 

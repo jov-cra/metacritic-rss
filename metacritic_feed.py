@@ -567,11 +567,12 @@ def enrich_providers(emitted: dict, cap: int, delay: float, lookup=streaming.loo
 # Forward-only like the streaming line: `trailer_due` is set at emit, the lookup runs in
 # the same build after enrich_providers (it needs the TMDB id from that match), and the
 # result is frozen. Items without a found trailer get no link, ever.
-# Since 02.11.2026 a link needs a trailer playable in Germany (trailer.parse_watch); links
-# frozen before that (v < DE_CHECKED) are hidden until reverify_trailers confirms them.
+# Since 02.11.2026 a link needs a trailer playable in Germany, judged by the YouTube Data
+# API only (trailer.api_check). Links frozen before that (v < DE_CHECKED) are hidden until
+# reverify_trailers confirms them. A disturbance (no key, network, quota, 5xx, odd shape)
+# never freezes anything: items stay due, old links stay hidden-but-pending.
 
 DE_CHECKED = 3            # trailer records from this version on were checked for DE
-REVERIFY_TRIES = 3        # unclear re-checks of an old link before it is dropped for good
 
 
 def _freeze_trailers(emitted: dict, urls, why: str) -> None:
@@ -581,60 +582,60 @@ def _freeze_trailers(emitted: dict, urls, why: str) -> None:
             m["trailer"] = {"v": trailer.VERSION, "key": None, why: True}
 
 
+def trailers_pending(emitted: dict) -> bool:
+    """Anything for the DE check to do: new items due, or old links not yet confirmed."""
+    for m in emitted.values():
+        t = m.get("trailer") or {}
+        if m.get("trailer_due") or (t.get("key") and (t.get("v") or 0) < DE_CHECKED):
+            return True
+    return False
+
+
 def reverify_trailers(emitted: dict, check=trailer.youtube_check, today: str = "",
-                      delay: float = 0.25, yt_ok: bool = True) -> bool:
-    """Check the trailer links frozen before the DE check once more (02.11.2026).
-    Playable in DE -> the record is marked checked and the link stays byte-identical.
-    Not in DE -> the link is dropped for good (`blocked_de`, old id kept under `was`).
-    Unclear -> hidden this run, retried next run. Only while the Data API is healthy
-    (yt_ok, trailer.api_healthy) does an unclear answer use up a try (dropped after
-    REVERIFY_TRIES); otherwise it is an outage, no try is used up and the run is degraded.
-    Returns degraded."""
+                      delay: float = 0.25) -> bool:
+    """Check the trailer links frozen before the DE check once more (02.11.2026); call only
+    when the API is healthy. Playable in DE -> marked checked, the link stays byte-identical.
+    Not in DE -> dropped (`blocked_de`, old id under `was`). Unclear (a well-formed answer
+    without a yes) -> dropped as `unchecked`: with a healthy API that answer is the video's
+    own. No well-formed answer -> nothing changes, the rest waits for the next run.
+    Returns degraded (a check got no answer)."""
     todo = sorted(u for u, m in emitted.items()
                   if (m.get("trailer") or {}).get("key") and (m["trailer"].get("v") or 0) < DE_CHECKED)
-    answers = {}
-    for url in todo:
-        answers[url] = check(emitted[url]["trailer"]["key"])
-        time.sleep(delay)
-    unclear = sum(c.de is None for c in answers.values())
-    degraded = bool(unclear) and not yt_ok          # outage: nothing is the video's fault
     for url in todo:
         t = emitted[url]["trailer"]
-        c = answers[url]
+        c = check(t["key"])
+        time.sleep(delay)
+        if not c.read:
+            print(f"[warn] DE check got no answer for an old trailer link; {len(todo)} wait for "
+                  "the next run", file=sys.stderr)
+            return True
+        stamp = {"checked": today} if today else {}
         if c.de is True:
             t["v"] = DE_CHECKED
             t.pop("de_tries", None)
             if today:
                 t["de_checked"] = today
-            continue
-        if c.de is False:
+        elif c.de is False:
             print(f"[trailer] {url}: trailer not available in DE, link dropped", file=sys.stderr)
             emitted[url]["trailer"] = {"v": trailer.VERSION, "key": None, "blocked_de": True,
-                                       "was": t["key"], **({"checked": today} if today else {})}
-            continue
-        if not yt_ok:
-            continue        # outage: hidden, but no try used up
-        tries = int(t.get("de_tries") or 0) + 1
-        if tries >= REVERIFY_TRIES:
-            emitted[url]["trailer"] = {"v": trailer.VERSION, "key": None, "unchecked": True,
-                                       "was": t["key"], **({"checked": today} if today else {})}
+                                       "was": t["key"], **stamp}
         else:
-            t["de_tries"] = tries
-    if unclear:
-        print(f"[warn] {unclear} of {len(todo)} old trailer links could not be checked for DE "
-              f"(no country list from YouTube); hidden until checked", file=sys.stderr)
-    return degraded
+            print(f"[trailer] {url}: DE availability unclear, link dropped", file=sys.stderr)
+            emitted[url]["trailer"] = {"v": trailer.VERSION, "key": None, "unchecked": True,
+                                       "was": t["key"], **stamp}
+    return False
 
 
 def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=trailer.lookup,
-                    today: str = "", check=trailer.youtube_check, yt_ok: bool = True) -> tuple[int, bool]:
+                    today: str = "", check=trailer.youtube_check) -> tuple[int, bool]:
     """Look up the official YouTube trailer of each newly emitted item and freeze it under
-    `trailer`. No token, a rejected token, DEGRADED_AFTER failures in a row, or
-    DEGRADED_AFTER lookups in a row without a single country list from YouTube -> degraded
-    (the run turns red after the commit). Only trailers playable in DE count
-    (trailer.choose); a lookup that could not check any candidate freezes as `unchecked`
-    without a link. An item without TMDB id or without an official trailer is a normal
-    outcome, not a failure. Returns (found, degraded)."""
+    `trailer`; call only when the DE check is available (key set, API healthy). Only
+    trailers playable in DE count (trailer.choose). A DE check without a well-formed answer
+    (trailer.CheckUnavailable: quota, 5xx, network, shape) stops the lookups; that item and
+    the rest keep `trailer_due` for the next run, nothing is frozen. No TMDB token, a rejected
+    token, or DEGRADED_AFTER TMDB failures in a row -> degraded (the run turns red after the
+    commit). An item without TMDB id or without an official trailer is a normal outcome.
+    Returns (found, degraded)."""
     todo = sorted((u for u, m in emitted.items() if m.get("trailer_due")),
                   key=lambda u: (emitted[u].get("emitted_at", ""), u), reverse=True)
     if not todo:
@@ -643,13 +644,7 @@ def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=tr
         print("[warn] TMDB_TOKEN missing: new items get no trailer link", file=sys.stderr)
         _freeze_trailers(emitted, todo, "no_token")
         return 0, True
-    if not yt_ok:
-        # No working DE check (Data API key missing, rejected or over quota): nothing is looked
-        # up or frozen, the items stay due (no link meanwhile) and get their lookup once it works.
-        print(f"[warn] YouTube Data API not available: {len(todo)} new item(s) wait for their "
-              "trailer lookup", file=sys.stderr)
-        return 0, True
-    found = attempts = misses = yt_misses = 0
+    found = attempts = misses = 0
     pages = {"n": 0, "checked": 0, "blocked": 0}   # per lookup: videos asked, definite answers, not in DE
 
     def counted(key):
@@ -677,6 +672,10 @@ def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=tr
         pages.update(n=0, checked=0, blocked=0)
         try:
             key = lookup(tm, meta.get("media", "tv"), season, token, check=counted)
+        except trailer.CheckUnavailable:
+            print(f"[warn] DE check got no answer; {len(todo) - i} item(s) keep waiting for their "
+                  "trailer lookup", file=sys.stderr)
+            return found, True
         except trailer.AuthError as exc:
             print(f"[warn] {exc}; stopping trailer lookups for this run", file=sys.stderr)
             _freeze_trailers(emitted, todo, "failed")
@@ -702,19 +701,37 @@ def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=tr
         if pages["blocked"]:
             rec["blocked_de"] = pages["blocked"]        # candidates skipped: not available in DE
         if not key and pages["checked"] < pages["n"]:
-            rec["unchecked"] = True                     # some candidate got no answer for DE
+            rec["unchecked"] = True                     # some candidate's DE answer was unclear
         meta["trailer"] = rec
         found += bool(key)
-        if pages["n"] and not pages["checked"]:
-            yt_misses += 1
-            if yt_misses >= DEGRADED_AFTER:
-                print(f"[warn] no country list from YouTube for {yt_misses} lookups in a row; "
-                      "no trailer can be checked for DE, stopping for this run", file=sys.stderr)
-                _freeze_trailers(emitted, todo, "unchecked")
-                return found, True
-        elif pages["checked"]:
-            yt_misses = 0
     return found, False
+
+
+def trailer_step(emitted: dict, args, today: str, healthy=trailer.api_healthy,
+                 reverify=None, enrich=None) -> tuple[bool, str]:
+    """The trailer part of a run -> (degraded, youtube_key "set"|"missing").
+    No key: nothing is asked or frozen, items stay due, not degraded (the workflow keeps one
+    issue open instead). Key set but the API doesn't answer: nothing changes, degraded."""
+    reverify = reverify or reverify_trailers
+    enrich = enrich or enrich_trailers
+    youtube_key = "set" if trailer.api_key() else "missing"
+    if not trailers_pending(emitted):
+        return False, youtube_key
+    if youtube_key == "missing":
+        print("[info] YOUTUBE_API_KEY not set: trailer lookups wait (no link meanwhile)")
+        return False, youtube_key
+    if not healthy():
+        print("[warn] YouTube Data API doesn't answer (key rejected, quota, outage); trailer "
+              "lookups wait", file=sys.stderr)
+        return True, youtube_key
+    # links frozen before the DE check (02.11.2026) are checked once more first
+    if reverify(emitted, today=today, delay=args.trailer_delay):
+        return True, youtube_key
+    got, degraded = enrich(emitted, max(args.trailer_max, 0), args.trailer_delay,
+                           os.environ.get("TMDB_TOKEN", "").strip(), today=today)
+    if got:
+        print(f"[trailer] found {got} trailer(s)")
+    return degraded, youtube_key
 
 
 # --------------------------------------------------------------------------- #
@@ -1142,27 +1159,12 @@ def run(args) -> int:
         if got:
             print(f"[streaming] looked up {got} item(s)")
 
-    # Official YouTube trailer of new items (needs the TMDB id from the streaming match).
-    trailers_degraded = False
+    # Official YouTube trailer of new items (needs the TMDB id from the streaming match),
+    # only when the DE check works. No key: quiet (green run, own issue via `youtube_key`);
+    # key set but the API doesn't answer: nothing changes, red run.
+    trailers_degraded, youtube_key = False, ("set" if trailer.api_key() else "missing")
     if not args.dry_run:
-        pending = any(m.get("trailer_due") or ((m.get("trailer") or {}).get("key")
-                                               and ((m.get("trailer") or {}).get("v") or 0) < DE_CHECKED)
-                      for m in emitted.values())
-        yt_ok = True
-        if pending:
-            if not os.environ.get("YOUTUBE_API_KEY", "").strip():
-                print("[warn] YOUTUBE_API_KEY missing: no DE check for trailers on this runner",
-                      file=sys.stderr)
-            yt_ok = trailer.api_healthy()
-        # links frozen before the DE check (02.11.2026) are checked once more first
-        trailers_degraded = reverify_trailers(emitted, today=now.date().isoformat(),
-                                              delay=args.trailer_delay, yt_ok=yt_ok)
-        got, new_degraded = enrich_trailers(emitted, max(args.trailer_max, 0), args.trailer_delay,
-                                            os.environ.get("TMDB_TOKEN", "").strip(),
-                                            today=now.date().isoformat(), yt_ok=yt_ok)
-        trailers_degraded = trailers_degraded or new_degraded
-        if got:
-            print(f"[trailer] found {got} trailer(s)")
+        trailers_degraded, youtube_key = trailer_step(emitted, args, now.date().isoformat())
 
     # Where a new cinema movie runs in Munich in the original version (needs the streaming match).
     kino_degraded = False
@@ -1195,6 +1197,11 @@ def run(args) -> int:
     # `git diff --cached --quiet` skips the commit and there is no every-run churn.
     _atomic_write(args.out, build_rss(items, args, last_build))
     save_state(args.state, state)
+    gh_out = os.environ.get("GITHUB_OUTPUT")
+    if gh_out:
+        # informational, never red: the workflow keeps one issue "YOUTUBE_API_KEY fehlt" open
+        with open(gh_out, "a", encoding="utf-8") as fh:
+            fh.write(f"youtube_key={youtube_key}\n")
     if degraded or seasons_degraded or providers_degraded or trailers_degraded or kino_degraded:
         # The feed and state above are correct and get committed; the workflow
         # turns these flags into a red run only after the commit step.
