@@ -586,15 +586,21 @@ def reverify_trailers(emitted: dict, check=trailer.youtube_check, today: str = "
     """Check the trailer links frozen before the DE check once more (02.11.2026).
     Playable in DE -> the record is marked checked and the link stays byte-identical.
     Not in DE -> the link is dropped for good (`blocked_de`, old id kept under `was`).
-    Unclear -> hidden this run, retried next run, dropped after REVERIFY_TRIES.
-    Returns degraded: no definite answer from YouTube (for all of them, or DEGRADED_AFTER)."""
+    Unclear -> hidden this run, retried next run, dropped after REVERIFY_TRIES. When YouTube
+    gives no answer for the canary either (trailer.CANARY), it is an outage: no try is used
+    up and the run is degraded. Returns degraded."""
     todo = sorted(u for u, m in emitted.items()
                   if (m.get("trailer") or {}).get("key") and (m["trailer"].get("v") or 0) < DE_CHECKED)
-    unclear = 0
+    answers = {}
+    for url in todo:
+        answers[url] = check(emitted[url]["trailer"]["key"])
+        time.sleep(delay)
+    unclear = sum(c.de is None for c in answers.values())
+    # Outage or this video? Ask YouTube about a video that plays everywhere (the canary).
+    degraded = bool(unclear) and check(trailer.CANARY).de is not True
     for url in todo:
         t = emitted[url]["trailer"]
-        c = check(t["key"])
-        time.sleep(delay)
+        c = answers[url]
         if c.de is True:
             t["v"] = DE_CHECKED
             t.pop("de_tries", None)
@@ -606,7 +612,8 @@ def reverify_trailers(emitted: dict, check=trailer.youtube_check, today: str = "
             emitted[url]["trailer"] = {"v": trailer.VERSION, "key": None, "blocked_de": True,
                                        "was": t["key"], **({"checked": today} if today else {})}
             continue
-        unclear += 1
+        if degraded:
+            continue        # YouTube gave no answers at all: hidden, but no try used up
         tries = int(t.get("de_tries") or 0) + 1
         if tries >= REVERIFY_TRIES:
             emitted[url]["trailer"] = {"v": trailer.VERSION, "key": None, "unchecked": True,
@@ -616,7 +623,7 @@ def reverify_trailers(emitted: dict, check=trailer.youtube_check, today: str = "
     if unclear:
         print(f"[warn] {unclear} of {len(todo)} old trailer links could not be checked for DE "
               f"(no country list from YouTube); hidden until checked", file=sys.stderr)
-    return bool(todo) and (unclear == len(todo) or unclear >= DEGRADED_AFTER)
+    return degraded
 
 
 def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=trailer.lookup,

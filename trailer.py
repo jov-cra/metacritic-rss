@@ -51,6 +51,7 @@ COUNTRY = "DE"                                # where Johannes watches
 PLAYER_URL = "https://www.youtube.com/youtubei/v1/player?prettyPrint=false"
 PLAYER_CLIENT = {"clientName": "WEB", "clientVersion": "2.20251101.00.00", "hl": "en", "gl": "US"}
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0)"
+CANARY = "dQw4w9WgXcQ"   # plays in every country since 2009: no answer for it = YouTube outage, not the video
 
 
 class Check(NamedTuple):

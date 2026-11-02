@@ -239,15 +239,30 @@ def test_reverify_drops_links_blocked_in_de():
 
 
 def test_reverify_unclear_hides_then_gives_up():
-    em = {f"{B}/movie/a/": _meta(trailer={"v": 2, "key": "Z5uv7_ysu9M"})}
+    """One video without an answer while YouTube answers for the others: item-specific, tries count."""
+    em = {f"{B}/movie/a/": _meta(trailer={"v": 2, "key": "AAAAAAAAAAA"}),
+          f"{B}/movie/b/": _meta(trailer={"v": 2, "key": "BBBBBBBBBBB"})}
+    check = lambda k: tr.UNREAD if k == "AAAAAAAAAAA" else tr.Check(True, True, 90)
     for n in range(1, mf.REVERIFY_TRIES):
-        assert mf.reverify_trailers(em, check=lambda k: tr.UNREAD, delay=0) is True, "all unreadable: degraded"
+        assert mf.reverify_trailers(em, check=check, delay=0) is False
         assert em[f"{B}/movie/a/"]["trailer"]["de_tries"] == n
         assert "Trailer" not in mf.describe_item(em[f"{B}/movie/a/"])
-    mf.reverify_trailers(em, check=lambda k: tr.UNREAD, delay=0)
-    assert em[f"{B}/movie/a/"]["trailer"] == {"v": tr.VERSION, "key": None, "unchecked": True, "was": "Z5uv7_ysu9M"}
+        assert "Trailer" in mf.describe_item(em[f"{B}/movie/b/"])
+    mf.reverify_trailers(em, check=check, delay=0)
+    assert em[f"{B}/movie/a/"]["trailer"] == {"v": tr.VERSION, "key": None, "unchecked": True, "was": "AAAAAAAAAAA"}
     # nothing left to check afterwards
     assert mf.reverify_trailers(em, check=lambda k: 1 / 0, delay=0) is False
+
+
+def test_reverify_outage_uses_up_no_try():
+    """02.11.2026: the runner got no country list for any video; that must not drop links for good."""
+    em = {f"{B}/movie/a/": _meta(trailer={"v": 2, "key": "Z5uv7_ysu9M", "de_tries": 2})}
+    for _ in range(5):
+        assert mf.reverify_trailers(em, check=lambda k: tr.UNREAD, delay=0) is True, "all unclear: degraded"
+    assert em[f"{B}/movie/a/"]["trailer"] == {"v": 2, "key": "Z5uv7_ysu9M", "de_tries": 2}
+    assert "Trailer" not in mf.describe_item(em[f"{B}/movie/a/"]), "still hidden while unchecked"
+    mf.reverify_trailers(em, check=lambda k: tr.Check(True, True, 84), delay=0)
+    assert "Trailer" in mf.describe_item(em[f"{B}/movie/a/"])
 
 
 def test_reverify_degrades_when_pages_read_but_no_country_list():
