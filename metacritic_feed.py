@@ -1139,6 +1139,9 @@ def run(args) -> int:
     # Official YouTube trailer of new items (needs the TMDB id from the streaming match).
     trailers_degraded = False
     if not args.dry_run:
+        if not os.environ.get("YOUTUBE_API_KEY", "").strip():
+            print("[warn] YOUTUBE_API_KEY missing: the runner can only try YouTube's own pages for the "
+                  "DE check, which GitHub's IPs usually don't get; trailers stay unlinked", file=sys.stderr)
         # links frozen before the DE check (02.11.2026) are checked once more first
         trailers_degraded = reverify_trailers(emitted, today=now.date().isoformat(),
                                               delay=args.trailer_delay)

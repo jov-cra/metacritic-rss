@@ -45,11 +45,13 @@ jobs:
 
       - name: Probe trailer region check (manual runs only)
         # What this runner reads from YouTube for the given ids: playable in DE or not.
-        # No secret in this step; ids are validated in trailer.py (passed via env, not inlined).
+        # Only YOUTUBE_API_KEY (header only, never printed); ids are validated in trailer.py
+        # (passed via env, not inlined).
         if: github.event_name == 'workflow_dispatch' && inputs.probe_trailers != ''
         continue-on-error: true
         env:
           PROBE_KEYS: ${{ inputs.probe_trailers }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python trailer.py --probe
 
       - name: Build feed
@@ -64,6 +66,9 @@ jobs:
           MC_FEED_LINK: "https://www.metacritic.com/"   # readers derive the feed icon from this domain's favicon
           # Official YouTube trailer link for new items (TMDB). Read-only API token, only in this step.
           TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
+          # Is the trailer playable in Germany? (YouTube Data API v3, regionRestriction; API key
+          # restricted to that API, only in the X-goog-api-key header.) Without it no trailer link.
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python metacritic_feed.py
 
       - name: Commit updated feed + state
@@ -112,7 +117,7 @@ jobs:
             body="The feed was published, but JustWatch lookups keep failing (blocked, or the API changed); new TV items show (TV) instead of where they stream in Germany. Run: $RUN_URL"
           elif [ "$COMMITTED" = "success" ] && [ "$TRAILERS_DEGRADED" = "true" ]; then
             title="Trailer lookup degraded"
-            body="The feed was published, but trailer lookups fail: TMDB (token missing or rejected, or the API changed) or YouTube watch pages unreadable, so no trailer can be checked as playable in Germany; new items get no trailer link (fail-closed). Run: $RUN_URL"
+            body="The feed was published, but trailer lookups fail: TMDB (token missing or rejected, or the API changed) or YouTube gives no country list (secret YOUTUBE_API_KEY missing, rejected or over quota), so no trailer can be checked as playable in Germany; new items get no trailer link (fail-closed). Run: $RUN_URL"
           elif [ "$COMMITTED" = "success" ] && [ "$KINO_DEGRADED" = "true" ]; then
             title="Cinema lookup degraded"
             body="The feed was published, but the Munich cinema programme (indiekino, Cinema Filmtheater), kinoheld or TMDB could not be read; new cinema movies have no or a partial cinema line. Run: $RUN_URL"

@@ -48,6 +48,7 @@ SHORT_RE = re.compile(r"\b(?:15|30)\s*(?:s|sec|secs|seconds)?\b|\bspots?\b|\bemm
 KEY_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")   # a YouTube video id
 LANGS = ("en", "de")                          # preference; other languages only as last resort
 COUNTRY = "DE"                                # where Johannes watches
+API_YT = "https://www.googleapis.com/youtube/v3/videos"
 PLAYER_URL = "https://www.youtube.com/youtubei/v1/player?prettyPrint=false"
 PLAYER_CLIENT = {"clientName": "WEB", "clientVersion": "2.20251101.00.00", "hl": "en", "gl": "US"}
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0)"
@@ -169,6 +170,61 @@ def parse_player(data) -> Check:
     return Check(True, True, seconds)
 
 
+ISO_DUR_RE = re.compile(r"^P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$")
+
+
+def _iso_seconds(raw) -> int | None:
+    m = ISO_DUR_RE.match(str(raw or ""))
+    if not m or not any(m.groups()):
+        return None
+    d, h, mi, s = (int(x or 0) for x in m.groups())
+    return ((d * 24 + h) * 60 + mi) * 60 + s
+
+
+def parse_api(data) -> Check:
+    """YouTube Data API v3 videos.list (part=contentDetails,status) -> Check.
+    regionRestriction absent = everywhere; `allowed` must name DE, `blocked` must not.
+    No item = deleted or private (not playable anywhere); age-restricted = unclear."""
+    if not isinstance(data, dict) or not isinstance(data.get("items"), list):
+        return UNREAD
+    if not data["items"]:
+        return Check(True, False, None)
+    it = data["items"][0] if isinstance(data["items"][0], dict) else {}
+    cd = it.get("contentDetails") or {}
+    st = it.get("status") or {}
+    seconds = _iso_seconds(cd.get("duration"))
+    if st.get("privacyStatus") == "private" or st.get("uploadStatus") not in (None, "processed"):
+        return Check(True, False, seconds)
+    rr = cd.get("regionRestriction") or {}
+    if isinstance(rr.get("allowed"), list) and COUNTRY not in rr["allowed"]:
+        return Check(True, False, seconds)
+    if isinstance(rr.get("blocked"), list) and COUNTRY in rr["blocked"]:
+        return Check(True, False, seconds)
+    if (cd.get("contentRating") or {}).get("ytRating") == "ytAgeRestricted":
+        return Check(True, None, seconds)          # age gate: needs a login in DE too
+    return Check(True, True, seconds)
+
+
+def api_check(key: str, timeout: float = 10.0) -> Check:
+    """Source 0: YouTube Data API v3 with YOUTUBE_API_KEY (1 quota unit per video). The key
+    goes only into the X-goog-api-key header, never into a URL, a message or the state."""
+    api_key = os.environ.get("YOUTUBE_API_KEY", "").strip()
+    if requests is None or not api_key or not KEY_RE.match(key or ""):
+        return UNREAD
+    try:
+        resp = requests.get(API_YT, timeout=timeout, params={"part": "contentDetails,status", "id": key},
+                            headers={"X-goog-api-key": api_key, "Accept": "application/json"})
+    except Exception:
+        return UNREAD
+    if resp.status_code != 200:
+        print(f"[warn] YouTube Data API: HTTP {resp.status_code} (key rejected or quota?)", file=sys.stderr)
+        return UNREAD
+    try:
+        return parse_api(resp.json())
+    except ValueError:
+        return UNREAD
+
+
 def player_check(key: str, timeout: float = 10.0) -> Check:
     """Source 1: YouTube's player endpoint (JSON, no key, no cookie)."""
     if requests is None or not KEY_RE.match(key or ""):
@@ -195,10 +251,11 @@ def watch_check(key: str, timeout: float = 10.0) -> Check:
 
 
 def youtube_check(key: str, sources=None) -> Check:
-    """Playable in DE? Source 1 (player endpoint), then source 2 (watch page) while the answer
-    is still unclear. The first definite answer wins; the length is taken from any source."""
+    """Playable in DE? Source 0 (Data API, when YOUTUBE_API_KEY is set), then source 1 (player
+    endpoint), then source 2 (watch page) while the answer is still unclear. The first
+    definite answer wins; the length is taken from any source."""
     best = UNREAD
-    for src in (sources or (player_check, watch_check)):
+    for src in (sources or (api_check, player_check, watch_check)):
         c = src(key)
         if c.de is not None:
             return c if c.seconds is not None else c._replace(seconds=best.seconds)
@@ -259,10 +316,11 @@ def probe(keys: list) -> int:
         if not KEY_RE.match(key):
             print(json.dumps({"key": "(invalid, skipped)"}))
             continue
-        p, w = player_check(key), watch_check(key)
-        c = youtube_check(key, sources=(lambda k: p, lambda k: w))
+        a, p, w = api_check(key), player_check(key), watch_check(key)
+        c = youtube_check(key, sources=(lambda k: a, lambda k: p, lambda k: w))
         print(json.dumps({"key": key, "de": c.de, "seconds": c.seconds, "link": c.de is True,
-                          "player": p._asdict(), "watch": w._asdict()}))
+                          "api": a._asdict(), "player": p._asdict(), "watch": w._asdict()}))
+    print(json.dumps({"youtube_api_key_set": bool(os.environ.get("YOUTUBE_API_KEY", "").strip())}))
     return 0
 
 

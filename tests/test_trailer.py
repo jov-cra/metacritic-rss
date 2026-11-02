@@ -308,3 +308,55 @@ def test_youtube_check_falls_back_to_the_watch_page_only_when_unclear():
     assert tr.youtube_check("x", sources=(src(tr.UNREAD, "p"), src(tr.UNREAD, "w"))) == tr.UNREAD
     # definite answer without length borrows the length an unclear source did read
     assert tr.youtube_check("x", sources=(src(unclear, "p"), src(tr.Check(True, True, None), "w"))) == yes
+
+
+def api_json(rr=None, duration="PT1M24S", rating=None, privacy="public", items=True):
+    cd = {"duration": duration}
+    if rr is not None:
+        cd["regionRestriction"] = rr
+    if rating:
+        cd["contentRating"] = {"ytRating": rating}
+    it = {"id": "x", "contentDetails": cd, "status": {"uploadStatus": "processed", "privacyStatus": privacy}}
+    return {"kind": "youtube#videoListResponse", "items": [it] if items else []}
+
+
+def test_parse_api_region_restriction():
+    assert tr.parse_api(api_json()) == tr.Check(True, True, 84), "no restriction: everywhere"
+    assert tr.parse_api(api_json({"allowed": ["US"]}, "PT1M31S")) == tr.Check(True, False, 91)   # The Night Of
+    assert tr.parse_api(api_json({"allowed": ["DE", "AT"]})).de is True
+    assert tr.parse_api(api_json({"blocked": ["DE"]})).de is False
+    assert tr.parse_api(api_json({"blocked": ["US"]})).de is True
+    assert tr.parse_api(api_json(rating="ytAgeRestricted")).de is None, "age gate: unclear"
+    assert tr.parse_api(api_json(privacy="private")).de is False
+    assert tr.parse_api(api_json(items=False)) == tr.Check(True, False, None), "deleted or private"
+    assert tr.parse_api({"error": {"code": 403}}) == tr.UNREAD
+    assert tr.parse_api(None) == tr.UNREAD
+
+
+def test_iso_duration():
+    assert tr._iso_seconds("PT1M24S") == 84
+    assert tr._iso_seconds("PT2H") == 7200
+    assert tr._iso_seconds("PT45S") == 45
+    assert tr._iso_seconds("P0D") == 0
+    assert tr._iso_seconds("") is None and tr._iso_seconds("PT") is None and tr._iso_seconds("1:24") is None
+
+
+def test_api_check_needs_the_key_and_keeps_it_out_of_the_url(monkeypatch):
+    monkeypatch.delenv("YOUTUBE_API_KEY", raising=False)
+    assert tr.api_check("dQw4w9WgXcQ") == tr.UNREAD, "no key: no call"
+    seen = {}
+
+    class R:
+        status_code = 200
+
+        def json(self):
+            return api_json()
+
+    def fake_get(url, timeout, params, headers):
+        seen.update(url=url, params=params, headers=headers)
+        return R()
+    monkeypatch.setenv("YOUTUBE_API_KEY", "SECRET-KEY")
+    monkeypatch.setattr(tr.requests, "get", fake_get)
+    assert tr.api_check("dQw4w9WgXcQ") == tr.Check(True, True, 84)
+    assert seen["headers"]["X-goog-api-key"] == "SECRET-KEY"
+    assert "SECRET-KEY" not in seen["url"] and "SECRET-KEY" not in str(seen["params"])

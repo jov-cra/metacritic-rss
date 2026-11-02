@@ -224,27 +224,35 @@ Die Tests decken Parsing, den Schwellwert, das „einmal emittieren", den **„S
 - **In Deutschland abspielbar (seit 02.11.2026,** Johannes 01.11.: „sowas musst du bitte immer checken“; Anlass:
   der offizielle Trailer zu The Night Of, `556N5vojtp0`, ist nur in den USA freigegeben). Der Runner steht in den
   USA, also zählt nicht, ob das Video *dort* läuft, sondern YouTubes eigene Länderliste `availableCountries`,
-  die überall gleich ausgeliefert wird: Link nur, wenn sie `DE` enthält. Quelle 1 ist YouTubes Player-Schnittstelle
+  die überall gleich ausgeliefert wird: Link nur, wenn sie `DE` enthält. **Quelle 0, die einzige, die vom Runner
+  aus tatsächlich antwortet, ist die YouTube Data API v3** (`videos.list`, `part=contentDetails,status`,
+  `regionRestriction.allowed`/`blocked`; ohne Einschränkung = überall; `ytAgeRestricted` = unklar; gelöscht oder
+  privat = nicht abspielbar). Sie braucht das Secret **`YOUTUBE_API_KEY`** (Google-Cloud-API-Schlüssel, auf die
+  YouTube Data API v3 beschränkt; nur im Header `X-goog-api-key`, nie in URL, Log oder State; 1 Quota-Einheit je
+  Video, frei sind 10.000 am Tag). Ohne Secret gibt es keine Trailer-Links, der Lauf wird rot.
+  Quelle 1 ist YouTubes Player-Schnittstelle
   (`youtubei/v1/player`, WEB-Client, JSON, ohne Schlüssel): sie liefert die Liste auch an Rechenzentrums-IPs,
   deren Wiedergabe sie verweigert (Status dort immer UNPLAYABLE, wird ignoriert; Altersfreigabe
   `isFamilySafe: false` = unklar). Quelle 2, nur wenn Quelle 1 keine Liste hat, ist die Watch-Seite (Liste plus
-  Status OK); die bekommt der Runner seit dem ersten Lauf am 02.11. ohne Liste (Bot-Sperre). **Fail-closed:**
-  keine oder leere Länderliste aus beiden Quellen → kein Link (der Eintrag selbst führt ohnehin zu Metacritic). Gesperrte Kandidaten werden
+  Status OK). Quellen 1 und 2 antworten GitHubs Runnern nicht (Probe 02.11.2026: Bot-Sperre, keine Liste), vom
+  Mac aus schon; sie bleiben als Rückfall. **Fail-closed:** keine oder leere Länderliste aus allen Quellen → kein Link (der Eintrag selbst führt ohnehin zu Metacritic). Gesperrte Kandidaten werden
   übersprungen, der nächste wird geprüft (bei The Night Of der UK-Trailer). Im State: `blocked_de` (Zahl der
-  übersprungenen), `unchecked` (keine Länderliste). Kein API-Schlüssel nötig.
+  übersprungenen), `unchecked` (keine Länderliste).
 - **Alt-Links (vor dem 02.11., `v` 2)** werden nur gezeigt, wenn ein Lauf sie für DE bestätigt hat
   (`reverify_trailers`, `de_checked`); bestätigt → byte-gleich, nicht in DE → Link weg (`blocked_de`, alte ID
-  unter `was`), unklar → bis zu drei Läufe versteckt, dann endgültig ohne Link.
+  unter `was`), unklar → bis zu drei Läufe versteckt, dann endgültig ohne Link. Antwortet YouTube auch für ein
+  Kontrollvideo (`CANARY`, läuft überall) nicht, ist das ein Ausfall: kein Versuch verbraucht, Lauf rot.
 - **Gegenprobe vom Runner aus:** Actions → Run workflow, Feld `probe_trailers` mit Video-IDs, z. B.
   `gh workflow run feed.yml -f probe_trailers="556N5vojtp0 Z5uv7_ysu9M"`; der Schritt „Probe trailer region
-  check“ druckt je ID das Ergebnis (`de`, `seconds`, `link`) und beide Quellen einzeln (`player`, `watch`).
+  check“ druckt je ID das Ergebnis (`de`, `seconds`, `link`) und jede Quelle einzeln (`api`, `player`, `watch`),
+  dazu `youtube_api_key_set`.
 - **Eingefroren** wie die Streaming-Zeile: eine Abfrage beim Erscheinen im Feed, nie wieder; ältere Einträge
   bleiben byte-gleich (nur die Kanal-Beschreibung hat einmal den TMDB-Hinweis bekommen).
 - **Laut statt still:** fehlt das Secret, lehnt TMDB den Token ab, scheitern drei Abfragen in Folge oder
   liefert YouTube bei drei Abfragen in Folge (bzw. bei allen Alt-Links) keine Länderliste,
   wird der Lauf nach dem Commit rot und legt das Issue „Trailer lookup degraded“ an. Ein Titel ohne
   TMDB-ID oder ohne offiziellen Trailer ist kein Fehler.
-- **Secret:** `TMDB_TOKEN` (API Read Access Token, nur lesend), nur im Build-Schritt, nur im
+- **Secrets:** `YOUTUBE_API_KEY` siehe oben (auch im Probe-Schritt). `TMDB_TOKEN` (API Read Access Token, nur lesend), nur im Build-Schritt, nur im
   Authorization-Header, nie in URL, Log oder State. Der Workflow läuft nur per Zeitplan und von Hand,
   nie auf Pull-Requests; die Actions sind auf Commit-SHAs gepinnt.
 
