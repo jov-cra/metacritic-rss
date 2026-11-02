@@ -587,10 +587,10 @@ def reverify_trailers(emitted: dict, check=trailer.youtube_check, today: str = "
     Playable in DE -> the record is marked checked and the link stays byte-identical.
     Not in DE -> the link is dropped for good (`blocked_de`, old id kept under `was`).
     Unclear -> hidden this run, retried next run, dropped after REVERIFY_TRIES.
-    Returns degraded: YouTube pages could not be read (all of them, or DEGRADED_AFTER)."""
+    Returns degraded: no definite answer from YouTube (for all of them, or DEGRADED_AFTER)."""
     todo = sorted(u for u, m in emitted.items()
                   if (m.get("trailer") or {}).get("key") and (m["trailer"].get("v") or 0) < DE_CHECKED)
-    unread = 0
+    unclear = 0
     for url in todo:
         t = emitted[url]["trailer"]
         c = check(t["key"])
@@ -606,24 +606,24 @@ def reverify_trailers(emitted: dict, check=trailer.youtube_check, today: str = "
             emitted[url]["trailer"] = {"v": trailer.VERSION, "key": None, "blocked_de": True,
                                        "was": t["key"], **({"checked": today} if today else {})}
             continue
-        unread += not c.read
+        unclear += 1
         tries = int(t.get("de_tries") or 0) + 1
         if tries >= REVERIFY_TRIES:
             emitted[url]["trailer"] = {"v": trailer.VERSION, "key": None, "unchecked": True,
                                        "was": t["key"], **({"checked": today} if today else {})}
         else:
             t["de_tries"] = tries
-    if unread:
-        print(f"[warn] {unread} of {len(todo)} old trailer links could not be checked for DE "
-              f"(YouTube page unreadable); hidden until checked", file=sys.stderr)
-    return bool(todo) and (unread == len(todo) or unread >= DEGRADED_AFTER)
+    if unclear:
+        print(f"[warn] {unclear} of {len(todo)} old trailer links could not be checked for DE "
+              f"(no country list from YouTube); hidden until checked", file=sys.stderr)
+    return bool(todo) and (unclear == len(todo) or unclear >= DEGRADED_AFTER)
 
 
 def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=trailer.lookup,
                     today: str = "", check=trailer.youtube_check) -> tuple[int, bool]:
     """Look up the official YouTube trailer of each newly emitted item and freeze it under
     `trailer`. No token, a rejected token, DEGRADED_AFTER failures in a row, or
-    DEGRADED_AFTER lookups in a row whose YouTube pages were all unreadable -> degraded
+    DEGRADED_AFTER lookups in a row without a single country list from YouTube -> degraded
     (the run turns red after the commit). Only trailers playable in DE count
     (trailer.choose); a lookup that could not check any candidate freezes as `unchecked`
     without a link. An item without TMDB id or without an official trailer is a normal
@@ -637,12 +637,12 @@ def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=tr
         _freeze_trailers(emitted, todo, "no_token")
         return 0, True
     found = attempts = misses = yt_misses = 0
-    pages = {"n": 0, "read": 0, "blocked": 0}
+    pages = {"n": 0, "checked": 0, "blocked": 0}   # per lookup: videos asked, definite answers, not in DE
 
     def counted(key):
         c = check(key)
         pages["n"] += 1
-        pages["read"] += bool(c.read)
+        pages["checked"] += c.de is not None
         pages["blocked"] += c.de is False
         return c
 
@@ -661,7 +661,7 @@ def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=tr
         m = re.search(r"/season-(\d+)/?$", url)
         if m:
             season = int(m.group(1))
-        pages.update(n=0, read=0, blocked=0)
+        pages.update(n=0, checked=0, blocked=0)
         try:
             key = lookup(tm, meta.get("media", "tv"), season, token, check=counted)
         except trailer.AuthError as exc:
@@ -688,18 +688,18 @@ def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=tr
             rec["checked"] = today
         if pages["blocked"]:
             rec["blocked_de"] = pages["blocked"]        # candidates skipped: not available in DE
-        if not key and pages["read"] < pages["n"]:
-            rec["unchecked"] = True                     # some candidate's page was unreadable
+        if not key and pages["checked"] < pages["n"]:
+            rec["unchecked"] = True                     # some candidate got no answer for DE
         meta["trailer"] = rec
         found += bool(key)
-        if pages["n"] and not pages["read"]:
+        if pages["n"] and not pages["checked"]:
             yt_misses += 1
             if yt_misses >= DEGRADED_AFTER:
-                print(f"[warn] YouTube pages unreadable for {yt_misses} lookups in a row; "
+                print(f"[warn] no country list from YouTube for {yt_misses} lookups in a row; "
                       "no trailer can be checked for DE, stopping for this run", file=sys.stderr)
                 _freeze_trailers(emitted, todo, "unchecked")
                 return found, True
-        elif pages["read"]:
+        elif pages["checked"]:
             yt_misses = 0
     return found, False
 

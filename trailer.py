@@ -11,11 +11,16 @@ YouTube's length can't be read, names like "TV Spot" or "15" are skipped instead
 
 Playable in Germany (02.11.2026, Johannes 01.11.2026: "der erste Trailer ist in DE nicht
 verfügbar. sowas musst du bitte immer checken"; The Night Of's official trailer is US-only):
-a candidate only counts when the watch page's `availableCountries` list names DE and the
-page itself reports the video as playable. The runner sits in the US, so the playability
-status alone says nothing about Germany; the country list is the same from everywhere.
-Fail-closed: no readable page or no country list -> unclear -> no link (the item itself
-links to Metacritic). There is no name-only fallback any more when the page can't be read.
+a candidate only counts when YouTube's own country list (`availableCountries` in the player
+microformat) names DE. The runner sits in the US, so whether the video plays *there* says
+nothing about Germany; the country list is the same from everywhere. Source 1 is YouTube's
+player endpoint (youtubei/v1/player, WEB client, JSON): it carries the list even when it
+refuses playback to a datacenter IP (its status is then UNPLAYABLE for every video, so the
+status is ignored there; an age gate, `isFamilySafe: false`, counts as unclear). Source 2,
+only when source 1 gives no list, is the watch page (list plus status OK). First live run
+02.11.2026: the runner's watch pages carry no list (bot check), hence source 1.
+Fail-closed: no list from either source -> unclear -> no link (the item itself links to
+Metacritic). There is no name-only fallback any more when YouTube can't be read.
 
 Frozen at emit like the streaming line: one lookup when the item is emitted, never
 again. Supplementary: a failed lookup never stops the feed, but several failures in a
@@ -43,6 +48,9 @@ SHORT_RE = re.compile(r"\b(?:15|30)\s*(?:s|sec|secs|seconds)?\b|\bspots?\b|\bemm
 KEY_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")   # a YouTube video id
 LANGS = ("en", "de")                          # preference; other languages only as last resort
 COUNTRY = "DE"                                # where Johannes watches
+PLAYER_URL = "https://www.youtube.com/youtubei/v1/player?prettyPrint=false"
+PLAYER_CLIENT = {"clientName": "WEB", "clientVersion": "2.20251101.00.00", "hl": "en", "gl": "US"}
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0)"
 
 
 class Check(NamedTuple):
@@ -140,18 +148,62 @@ def parse_watch(text: str) -> Check:
     return Check(True, True, seconds)
 
 
-def youtube_check(key: str, timeout: float = 10.0) -> Check:
-    """Fetch the watch page of one video -> Check (UNREAD on network/HTTP trouble)."""
+def parse_player(data) -> Check:
+    """youtubei/v1/player JSON -> Check. The playability status is ignored (a datacenter IP
+    gets UNPLAYABLE for everything); the country list decides, an age gate is unclear."""
+    if not isinstance(data, dict) or not isinstance(data.get("playabilityStatus"), dict):
+        return UNREAD
+    mf = (data.get("microformat") or {}).get("playerMicroformatRenderer") or {}
+    vd = data.get("videoDetails") or {}
+    raw = str(vd.get("lengthSeconds") or mf.get("lengthSeconds") or "")
+    seconds = int(raw) if raw.isdigit() else None
+    ac = mf.get("availableCountries")
+    countries = {c for c in ac if isinstance(c, str) and re.fullmatch(r"[A-Z]{2}", c)} if isinstance(ac, list) else set()
+    if not countries:
+        return Check(True, None, seconds)          # no list: unclear, never a link
+    if COUNTRY not in countries:
+        return Check(True, False, seconds)         # region-locked away from DE
+    if mf.get("isFamilySafe") is False:
+        return Check(True, None, seconds)          # age gate: needs a login in DE too
+    return Check(True, True, seconds)
+
+
+def player_check(key: str, timeout: float = 10.0) -> Check:
+    """Source 1: YouTube's player endpoint (JSON, no key, no cookie)."""
+    if requests is None or not KEY_RE.match(key or ""):
+        return UNREAD
+    try:
+        resp = requests.post(PLAYER_URL, timeout=timeout, json={"videoId": key, "context": {"client": PLAYER_CLIENT}},
+                             headers={"User-Agent": UA, "Content-Type": "application/json"})
+        return parse_player(resp.json()) if resp.status_code == 200 else UNREAD
+    except Exception:
+        return UNREAD
+
+
+def watch_check(key: str, timeout: float = 10.0) -> Check:
+    """Source 2: the watch page (UNREAD on network/HTTP trouble)."""
     if requests is None or not KEY_RE.match(key or ""):
         return UNREAD
     try:
         resp = requests.get(f"https://www.youtube.com/watch?v={key}", timeout=timeout,
-                            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0)",
-                                     "Accept-Language": "en-US,en;q=0.9",
+                            headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9",
                                      "Cookie": "CONSENT=YES+1; SOCS=CAI"})
     except Exception:
         return UNREAD
     return parse_watch(resp.text) if resp.status_code == 200 else UNREAD
+
+
+def youtube_check(key: str, sources=None) -> Check:
+    """Playable in DE? Source 1 (player endpoint), then source 2 (watch page) while the answer
+    is still unclear. The first definite answer wins; the length is taken from any source."""
+    best = UNREAD
+    for src in (sources or (player_check, watch_check)):
+        c = src(key)
+        if c.de is not None:
+            return c if c.seconds is not None else c._replace(seconds=best.seconds)
+        if c.read and (not best.read or best.seconds is None):
+            best = c
+    return best
 
 
 def choose(cands: list, check=youtube_check, tries: int = 5):
@@ -206,9 +258,10 @@ def probe(keys: list) -> int:
         if not KEY_RE.match(key):
             print(json.dumps({"key": "(invalid, skipped)"}))
             continue
-        c = youtube_check(key)
-        print(json.dumps({"key": key, "read": c.read, "de": c.de, "seconds": c.seconds,
-                          "link": c.de is True}))
+        p, w = player_check(key), watch_check(key)
+        c = youtube_check(key, sources=(lambda k: p, lambda k: w))
+        print(json.dumps({"key": key, "de": c.de, "seconds": c.seconds, "link": c.de is True,
+                          "player": p._asdict(), "watch": w._asdict()}))
     return 0
 
 

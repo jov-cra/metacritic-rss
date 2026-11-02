@@ -248,3 +248,48 @@ def test_reverify_unclear_hides_then_gives_up():
     assert em[f"{B}/movie/a/"]["trailer"] == {"v": tr.VERSION, "key": None, "unchecked": True, "was": "Z5uv7_ysu9M"}
     # nothing left to check afterwards
     assert mf.reverify_trailers(em, check=lambda k: 1 / 0, delay=0) is False
+
+
+def test_reverify_degrades_when_pages_read_but_no_country_list():
+    """First live run 02.11.2026: the runner's watch pages parsed (status found) but carried no
+    country list; all old links were hidden while the run stayed green. Now that is degraded."""
+    em = {f"{B}/movie/{i}/": _meta(trailer={"v": 2, "key": "Z5uv7_ysu9M"}) for i in range(2)}
+    assert mf.reverify_trailers(em, check=lambda k: tr.Check(True, None, None), delay=0) is True
+
+
+def player_json(countries=("DE", "US"), seconds=84, status="UNPLAYABLE", family_safe=True):
+    mf_ = {"lengthSeconds": str(seconds), "isFamilySafe": family_safe}
+    if countries is not None:
+        mf_["availableCountries"] = list(countries)
+    return {"playabilityStatus": {"status": status, "reason": "Video unavailable"},
+            "videoDetails": {"lengthSeconds": str(seconds)},
+            "microformat": {"playerMicroformatRenderer": mf_}}
+
+
+def test_parse_player_ignores_status_and_reads_the_list():
+    # a datacenter IP gets UNPLAYABLE for every video; the list still decides
+    assert tr.parse_player(player_json(("DE", "US"))) == tr.Check(True, True, 84)
+    assert tr.parse_player(player_json(("US",), 91)) == tr.Check(True, False, 91)   # The Night Of 556N5vojtp0
+    assert tr.parse_player(player_json(None)).de is None
+    assert tr.parse_player(player_json(())).de is None
+    assert tr.parse_player(player_json(family_safe=False)).de is None, "age gate: unclear"
+    assert tr.parse_player({"error": {"code": 400}}) == tr.UNREAD
+    assert tr.parse_player(None) == tr.UNREAD
+    assert tr.parse_player({"playabilityStatus": {"status": "ERROR"}}) == tr.Check(True, None, None), "deleted video"
+
+
+def test_youtube_check_falls_back_to_the_watch_page_only_when_unclear():
+    calls = []
+
+    def src(answer, name):
+        def f(k):
+            calls.append(name)
+            return answer
+        return f
+    yes, no, unclear = tr.Check(True, True, 84), tr.Check(True, False, 91), tr.Check(True, None, 84)
+    assert tr.youtube_check("x", sources=(src(yes, "p"), src(no, "w"))) == yes and calls == ["p"]
+    calls.clear()
+    assert tr.youtube_check("x", sources=(src(unclear, "p"), src(no, "w"))) == no and calls == ["p", "w"]
+    assert tr.youtube_check("x", sources=(src(tr.UNREAD, "p"), src(tr.UNREAD, "w"))) == tr.UNREAD
+    # definite answer without length borrows the length an unclear source did read
+    assert tr.youtube_check("x", sources=(src(unclear, "p"), src(tr.Check(True, True, None), "w"))) == yes
