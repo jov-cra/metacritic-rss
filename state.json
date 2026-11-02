@@ -15539,7 +15539,9 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/scrubs-2026/season-2/": {
-      "first_seen": "2026-10-24"
+      "first_seen": "2026-10-24",
+      "ok": true,
+      "premiere": "Sep 30, 2026"
     },
     "https://www.metacritic.com/tv/the-jennifer-hudson-show/season-5/": {
       "first_seen": "2026-10-24",
