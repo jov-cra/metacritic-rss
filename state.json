@@ -14108,7 +14108,8 @@
       "trailer": {
         "v": 2,
         "key": "_iM1AOFxoDI",
-        "checked": "2026-10-27"
+        "checked": "2026-10-27",
+        "de_tries": 1
       }
     },
     "https://www.metacritic.com/movie/closure-2026/": {
@@ -14220,7 +14221,8 @@
       "trailer": {
         "v": 2,
         "key": "hsOgBqDSi9M",
-        "checked": "2026-10-30"
+        "checked": "2026-10-30",
+        "de_tries": 1
       },
       "kino": {
         "v": 1,
@@ -14253,7 +14255,8 @@
       "trailer": {
         "v": 2,
         "key": "q6XUlPdTuto",
-        "checked": "2026-10-30"
+        "checked": "2026-10-30",
+        "de_tries": 1
       }
     },
     "https://www.metacritic.com/movie/queen-at-sea/": {
@@ -14306,7 +14309,8 @@
       "trailer": {
         "v": 2,
         "key": "F6YDzPfjH4I",
-        "checked": "2026-10-30"
+        "checked": "2026-10-30",
+        "de_tries": 1
       }
     },
     "https://www.metacritic.com/tv/dexter-resurrection/season-2/": {
@@ -14353,7 +14357,8 @@
       "trailer": {
         "v": 2,
         "key": "nTOf1FIsBcs",
-        "checked": "2026-10-30"
+        "checked": "2026-10-30",
+        "de_tries": 1
       }
     },
     "https://www.metacritic.com/tv/nocturne-2026/": {
@@ -14381,7 +14386,8 @@
       "trailer": {
         "v": 2,
         "key": "AaEy1f2Dgys",
-        "checked": "2026-10-30"
+        "checked": "2026-10-30",
+        "de_tries": 1
       }
     },
     "https://www.metacritic.com/movie/the-mongoose/": {
@@ -14481,7 +14487,8 @@
       "trailer": {
         "v": 2,
         "key": "MqRa6X31lUk",
-        "checked": "2026-11-01"
+        "checked": "2026-11-01",
+        "de_tries": 1
       }
     }
   },
@@ -15098,10 +15105,14 @@
       "premiere": "Oct 6, 2026"
     },
     "https://www.metacritic.com/tv/pop-culture-jeopardy!/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "May 11, 2026"
     },
     "https://www.metacritic.com/tv/power-book-iii-raising-kanan/season-5/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true,
+      "premiere": "Jun 12, 2026"
     },
     "https://www.metacritic.com/tv/press-your-luck-2019/season-7/": {
       "first_seen": "2026-10-21",
