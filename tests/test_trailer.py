@@ -19,6 +19,22 @@ def v(key, typ="Trailer", lang="en", official=True, site="YouTube", date="2026-0
             "published_at": date + "T10:00:00.000Z", "name": name}
 
 
+def ok(seconds):
+    """check() stub: every video playable in DE with this length (None = length unreadable)."""
+    return lambda k: tr.Check(True, True, seconds)
+
+
+def page(status="OK", countries=("DE", "US"), seconds=120):
+    """Minimal YouTube watch-page fragments as the parser sees them."""
+    s = '{"playabilityStatus":{"status":"%s","reason":"x"},' % status
+    if seconds is not None:
+        s += '"videoDetails":{"lengthSeconds":"%d"},' % seconds
+    if countries is not None:
+        s += '"microformat":{"playerMicroformatRenderer":{"availableCountries":[%s]}}' % ",".join(
+            f'"{c}"' for c in countries)
+    return s + "}"
+
+
 def test_pick_prefers_official_trailer_en_newest():
     vids = [v("AAAAAAAAAAA", typ="Teaser"), v("BBBBBBBBBBB", lang="de"),
             v("CCCCCCCCCCC", date="2026-08-01"), v("DDDDDDDDDDD", date="2026-09-20"),
@@ -43,10 +59,10 @@ def test_lookup_paths():
         calls.append(path)
         return {"movie/1": [v("MMMMMMMMMMM")], "tv/2/season/3": [],
                 "tv/2": [v("SSSSSSSSSSS", name="Season 3 Trailer"), v("OOOOOOOOOOO")]}.get(path, [])
-    assert tr.lookup("1", "movie", None, "t", fetch, length=lambda k: 120) == "MMMMMMMMMMM"
-    assert tr.lookup("2", "tv", 3, "t", fetch, length=lambda k: 120) == "SSSSSSSSSSS"
-    assert tr.lookup("2", "tv", 1, "t", fetch, length=lambda k: 120) == "OOOOOOOOOOO"  # season 1: any show trailer
-    assert tr.lookup("x1", "movie", None, "t", fetch, length=lambda k: 120) is None, "keine Ziffern-ID, keine Abfrage"
+    assert tr.lookup("1", "movie", None, "t", fetch, check=ok(120)) == "MMMMMMMMMMM"
+    assert tr.lookup("2", "tv", 3, "t", fetch, check=ok(120)) == "SSSSSSSSSSS"
+    assert tr.lookup("2", "tv", 1, "t", fetch, check=ok(120)) == "OOOOOOOOOOO"  # season 1: any show trailer
+    assert tr.lookup("x1", "movie", None, "t", fetch, check=ok(120)) is None, "keine Ziffern-ID, keine Abfrage"
     assert "tv/2/season/3" in calls
 
 
@@ -65,11 +81,19 @@ def _meta(**extra):
     return m
 
 
+
 def test_describe_item_appends_link_only_with_key():
     base = mf.describe_item(_meta())
-    with_key = mf.describe_item(_meta(trailer={"v": 1, "key": "dQw4w9WgXcQ"}))
+    with_key = mf.describe_item(_meta(trailer={"v": 3, "key": "dQw4w9WgXcQ"}))
     assert with_key == base + '<br /><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">▶ Trailer (YouTube)</a>'
-    assert mf.describe_item(_meta(trailer={"v": 1, "key": None, "no_id": True})) == base
+    assert mf.describe_item(_meta(trailer={"v": 3, "key": None, "no_id": True})) == base
+
+
+def test_describe_item_hides_links_not_checked_for_de():
+    """02.11.2026: a link frozen before the DE check (v2) is not shown until reverified."""
+    base = mf.describe_item(_meta())
+    assert mf.describe_item(_meta(trailer={"v": 2, "key": "dQw4w9WgXcQ"})) == base
+    assert mf.describe_item(_meta(trailer={"v": 2, "key": "dQw4w9WgXcQ", "de_tries": 1})) == base
 
 
 def test_old_items_without_trailer_are_byte_identical():
@@ -86,7 +110,7 @@ def test_enrich_trailers_freeze_and_outcomes():
     }
     seen = []
 
-    def lookup(tm, media, season, token):
+    def lookup(tm, media, season, token, check=None):
         seen.append((tm, media, season))
         return "dQw4w9WgXcQ" if tm == "123" else None
     found, degraded = mf.enrich_trailers(em, 10, 0, "tok", lookup=lookup, today="2026-10-25")
@@ -103,7 +127,7 @@ def test_enrich_trailers_loud_without_token_or_on_auth_error():
     assert em[f"{B}/movie/a/"]["trailer"]["no_token"]
     em = {f"{B}/movie/a/": _meta(trailer_due=True), f"{B}/movie/b/": _meta(trailer_due=True)}
 
-    def boom(*a):
+    def boom(*a, **kw):
         raise tr.AuthError("TMDB rejected the token (HTTP 401)")
     assert mf.enrich_trailers(em, 10, 0, "tok", lookup=boom) == (0, True)
     assert all(m["trailer"]["key"] is None and "trailer_due" not in m for m in em.values())
@@ -112,7 +136,7 @@ def test_enrich_trailers_loud_without_token_or_on_auth_error():
 def test_enrich_trailers_degrades_after_failures():
     em = {f"{B}/movie/{i}/": _meta(trailer_due=True, emitted_at=f"2026-10-25T10:0{i}:00") for i in range(5)}
 
-    def fail(*a):
+    def fail(*a, **kw):
         raise tr.TrailerError("HTTP 500")
     found, degraded = mf.enrich_trailers(em, 10, 0, "tok", lookup=fail)
     assert degraded and not any("trailer_due" in m for m in em.values())
@@ -131,8 +155,96 @@ def test_short_cuts_are_skipped():
     show = [v("OOOOOOOOOOO", name="Official Trailer", date="2021-04-04")]
     fetch = lambda path, token: {"tv/1/season/1": season, "tv/1": show}.get(path, [])
     lengths = {"EEEEEEEEEEE": 15, "OOOOOOOOOOO": 146}
-    assert tr.lookup("1", "tv", 1, "t", fetch, length=lengths.get) == "OOOOOOOOOOO"
-    # length unreadable: the name decides
-    assert tr.lookup("1", "tv", 1, "t", fetch, length=lambda k: None) == "OOOOOOOOOOO"
-    assert tr.choose([v("SSSSSSSSSSS", name="TV Spot 1")], length=lambda k: None) is None
-    assert tr.choose([v("SSSSSSSSSSS")], length=lambda k: 30) is None, "only short cuts: no link"
+    assert tr.lookup("1", "tv", 1, "t", fetch, check=lambda k: tr.Check(True, True, lengths[k])) == "OOOOOOOOOOO"
+    # DE confirmed but no length on the page: the name decides
+    assert tr.lookup("1", "tv", 1, "t", fetch, check=ok(None)) == "OOOOOOOOOOO"
+    assert tr.choose([v("SSSSSSSSSSS", name="TV Spot 1")], check=ok(None)) is None
+    assert tr.choose([v("SSSSSSSSSSS")], check=ok(30)) is None, "only short cuts: no link"
+
+
+# --------------------------------------------------------------------------- #
+# Playable in Germany (02.11.2026)
+# --------------------------------------------------------------------------- #
+
+def test_parse_watch_reads_the_country_list_not_the_location():
+    # The Night Of, official trailer 556N5vojtp0: US-only. From DE the page says UNPLAYABLE,
+    # from a US runner it says OK — the country list without DE decides both times.
+    assert tr.parse_watch(page("UNPLAYABLE", ("US",), 91)) == tr.Check(True, False, 91)
+    assert tr.parse_watch(page("OK", ("US",), 91)) == tr.Check(True, False, 91)
+    assert tr.parse_watch(page("OK", ("DE", "US", "GB"), 84)) == tr.Check(True, True, 84)
+    assert tr.parse_watch(page("OK", ("DEU", "US"), 84)).de is False, "only exact two-letter codes"
+
+
+def test_parse_watch_is_fail_closed():
+    assert tr.parse_watch("") == tr.UNREAD
+    assert tr.parse_watch("<html>consent</html>") == tr.UNREAD
+    assert tr.parse_watch(page("OK", None, 84)) == tr.Check(True, None, 84), "no country list: unclear"
+    assert tr.parse_watch(page("OK", (), 84)).de is None, "empty list: unclear"
+    assert tr.parse_watch(page("LOGIN_REQUIRED", ("DE", "US"), 84)).de is None, "age gate / bot check: unclear"
+
+
+def test_choose_skips_blocked_and_unclear_candidates():
+    """The Night Of 01.11.2026: the US-only 'Official Trailer' ranks first; the UK trailer plays in DE."""
+    cands = tr.ranked([v("556N5vojtp0", name="Official Trailer", date="2016-06-01"),
+                       v("Z5uv7_ysu9M", name="Official UK Trailer", date="2016-05-01")])
+    assert cands[0]["key"] == "556N5vojtp0"
+    checks = {"556N5vojtp0": tr.Check(True, False, 91), "Z5uv7_ysu9M": tr.Check(True, True, 84)}
+    assert tr.choose(cands, check=checks.get) == "Z5uv7_ysu9M"
+    only_blocked = {"556N5vojtp0": tr.Check(True, False, 91), "Z5uv7_ysu9M": tr.Check(True, False, 84)}
+    assert tr.choose(cands, check=only_blocked.get) is None
+    assert tr.choose(cands, check=lambda k: tr.UNREAD) is None, "unread pages never become a link"
+    assert tr.choose(cands, check=lambda k: tr.Check(True, None, 84)) is None, "unclear never becomes a link"
+
+
+def test_enrich_trailers_records_blocked_and_unchecked():
+    em = {f"{B}/movie/a/": _meta(trailer_due=True, emitted_at="2026-11-02T10:02:00"),
+          f"{B}/movie/b/": _meta(trailer_due=True, emitted_at="2026-11-02T10:01:00")}
+
+    def lookup(tm, media, season, token, check=None):
+        return tr.choose([v("556N5vojtp0"), v("Z5uv7_ysu9M")], check=check)
+    checks = iter([tr.Check(True, False, 91), tr.Check(True, False, 84),   # a: both blocked in DE
+                   tr.UNREAD, tr.UNREAD])                                  # b: nothing readable
+    found, degraded = mf.enrich_trailers(em, 10, 0, "tok", lookup=lookup, check=lambda k: next(checks))
+    assert (found, degraded) == (0, False), "one unreadable lookup is not yet degraded"
+    assert em[f"{B}/movie/a/"]["trailer"] == {"v": tr.VERSION, "key": None, "blocked_de": 2}
+    assert em[f"{B}/movie/b/"]["trailer"] == {"v": tr.VERSION, "key": None, "unchecked": True}
+
+
+def test_enrich_trailers_degrades_when_youtube_is_unreadable():
+    em = {f"{B}/movie/{i}/": _meta(trailer_due=True, emitted_at=f"2026-11-02T10:0{i}:00") for i in range(5)}
+
+    def lookup(tm, media, season, token, check=None):
+        return tr.choose([v("Z5uv7_ysu9M")], check=check)
+    found, degraded = mf.enrich_trailers(em, 10, 0, "tok", lookup=lookup, check=lambda k: tr.UNREAD)
+    assert (found, degraded) == (0, True)
+    assert all(m["trailer"]["key"] is None and "trailer_due" not in m for m in em.values())
+    assert all(mf.describe_item(m) == mf.describe_item(_meta()) for m in em.values())
+
+
+def test_reverify_keeps_playable_links_byte_identical():
+    m = _meta(trailer={"v": 2, "key": "Z5uv7_ysu9M", "checked": "2026-10-30"})
+    before = mf.describe_item(_meta(trailer={"v": 3, "key": "Z5uv7_ysu9M"}))
+    em = {f"{B}/movie/a/": m}
+    assert mf.reverify_trailers(em, check=lambda k: tr.Check(True, True, 84), today="2026-11-02", delay=0) is False
+    assert m["trailer"] == {"v": 3, "key": "Z5uv7_ysu9M", "checked": "2026-10-30", "de_checked": "2026-11-02"}
+    assert mf.describe_item(m) == before
+
+
+def test_reverify_drops_links_blocked_in_de():
+    em = {f"{B}/tv/x/": _meta(trailer={"v": 2, "key": "556N5vojtp0"})}
+    assert mf.reverify_trailers(em, check=lambda k: tr.Check(True, False, 91), today="2026-11-02", delay=0) is False
+    assert em[f"{B}/tv/x/"]["trailer"] == {"v": tr.VERSION, "key": None, "blocked_de": True,
+                                         "was": "556N5vojtp0", "checked": "2026-11-02"}
+    assert "Trailer" not in mf.describe_item(em[f"{B}/tv/x/"])
+
+
+def test_reverify_unclear_hides_then_gives_up():
+    em = {f"{B}/movie/a/": _meta(trailer={"v": 2, "key": "Z5uv7_ysu9M"})}
+    for n in range(1, mf.REVERIFY_TRIES):
+        assert mf.reverify_trailers(em, check=lambda k: tr.UNREAD, delay=0) is True, "all unreadable: degraded"
+        assert em[f"{B}/movie/a/"]["trailer"]["de_tries"] == n
+        assert "Trailer" not in mf.describe_item(em[f"{B}/movie/a/"])
+    mf.reverify_trailers(em, check=lambda k: tr.UNREAD, delay=0)
+    assert em[f"{B}/movie/a/"]["trailer"] == {"v": tr.VERSION, "key": None, "unchecked": True, "was": "Z5uv7_ysu9M"}
+    # nothing left to check afterwards
+    assert mf.reverify_trailers(em, check=lambda k: 1 / 0, delay=0) is False

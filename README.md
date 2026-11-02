@@ -220,9 +220,25 @@ Die Tests decken Parsing, den Schwellwert, das „einmal emittieren", den **„S
   `/tv/{id}/videos`, Staffel N `/tv/{id}/season/N/videos`, sonst Serienvideos, deren Name „Season N“ nennt
   (Staffel 1: jeder Serientrailer). Nur YouTube, nur `official`, Trailer vor Teaser, Englisch vor Deutsch,
   dann das neueste.
+- **Mindestens 60 Sekunden** laut YouTube (kürzere Spots zählen nicht).
+- **In Deutschland abspielbar (seit 02.11.2026,** Johannes 01.11.: „sowas musst du bitte immer checken“; Anlass:
+  der offizielle Trailer zu The Night Of, `556N5vojtp0`, ist nur in den USA freigegeben). Der Runner steht in den
+  USA, also zählt nicht, ob das Video *dort* läuft, sondern die Länderliste `availableCountries` der
+  YouTube-Seite, die überall gleich ausgeliefert wird: Link nur, wenn sie `DE` enthält und die Seite das Video
+  als abspielbar meldet. **Fail-closed:** Seite nicht lesbar, keine oder leere Länderliste, Alters- oder
+  Bot-Sperre → kein Link (der Eintrag selbst führt ohnehin zu Metacritic). Gesperrte Kandidaten werden
+  übersprungen, der nächste wird geprüft (bei The Night Of der UK-Trailer). Im State: `blocked_de` (Zahl der
+  übersprungenen), `unchecked` (Seite nicht lesbar). Kein API-Schlüssel nötig.
+- **Alt-Links (vor dem 02.11., `v` 2)** werden nur gezeigt, wenn ein Lauf sie für DE bestätigt hat
+  (`reverify_trailers`, `de_checked`); bestätigt → byte-gleich, nicht in DE → Link weg (`blocked_de`, alte ID
+  unter `was`), unklar → bis zu drei Läufe versteckt, dann endgültig ohne Link.
+- **Gegenprobe vom Runner aus:** Actions → Run workflow, Feld `probe_trailers` mit Video-IDs, z. B.
+  `gh workflow run feed.yml -f probe_trailers="556N5vojtp0 Z5uv7_ysu9M"`; der Schritt „Probe trailer region
+  check“ druckt je ID `read`, `de`, `seconds`, `link`.
 - **Eingefroren** wie die Streaming-Zeile: eine Abfrage beim Erscheinen im Feed, nie wieder; ältere Einträge
   bleiben byte-gleich (nur die Kanal-Beschreibung hat einmal den TMDB-Hinweis bekommen).
-- **Laut statt still:** fehlt das Secret, lehnt TMDB den Token ab oder scheitern drei Abfragen in Folge,
+- **Laut statt still:** fehlt das Secret, lehnt TMDB den Token ab, scheitern drei Abfragen in Folge oder
+  sind bei drei Abfragen in Folge (bzw. bei allen Alt-Links) die YouTube-Seiten nicht lesbar,
   wird der Lauf nach dem Commit rot und legt das Issue „Trailer lookup degraded“ an. Ein Titel ohne
   TMDB-ID oder ohne offiziellen Trailer ist kein Fehler.
 - **Secret:** `TMDB_TOKEN` (API Read Access Token, nur lesend), nur im Build-Schritt, nur im

@@ -13,7 +13,12 @@ name: Build Metacritic score feed
 on:
   schedule:
     - cron: "0 */2 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      probe_trailers:
+        description: "Optional: YouTube video ids (space/comma separated) to check for DE from the runner (diagnostics only)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -37,6 +42,15 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Probe trailer region check (manual runs only)
+        # What this runner reads from YouTube for the given ids: playable in DE or not.
+        # No secret in this step; ids are validated in trailer.py (passed via env, not inlined).
+        if: github.event_name == 'workflow_dispatch' && inputs.probe_trailers != ''
+        continue-on-error: true
+        env:
+          PROBE_KEYS: ${{ inputs.probe_trailers }}
+        run: python trailer.py --probe
 
       - name: Build feed
         id: build
@@ -98,7 +112,7 @@ jobs:
             body="The feed was published, but JustWatch lookups keep failing (blocked, or the API changed); new TV items show (TV) instead of where they stream in Germany. Run: $RUN_URL"
           elif [ "$COMMITTED" = "success" ] && [ "$TRAILERS_DEGRADED" = "true" ]; then
             title="Trailer lookup degraded"
-            body="The feed was published, but TMDB trailer lookups fail (token missing or rejected, or the API changed); new items get no trailer link. Run: $RUN_URL"
+            body="The feed was published, but trailer lookups fail: TMDB (token missing or rejected, or the API changed) or YouTube watch pages unreadable, so no trailer can be checked as playable in Germany; new items get no trailer link (fail-closed). Run: $RUN_URL"
           elif [ "$COMMITTED" = "success" ] && [ "$KINO_DEGRADED" = "true" ]; then
             title="Cinema lookup degraded"
             body="The feed was published, but the Munich cinema programme (indiekino, Cinema Filmtheater), kinoheld or TMDB could not be read; new cinema movies have no or a partial cinema line. Run: $RUN_URL"

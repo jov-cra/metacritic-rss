@@ -567,6 +567,11 @@ def enrich_providers(emitted: dict, cap: int, delay: float, lookup=streaming.loo
 # Forward-only like the streaming line: `trailer_due` is set at emit, the lookup runs in
 # the same build after enrich_providers (it needs the TMDB id from that match), and the
 # result is frozen. Items without a found trailer get no link, ever.
+# Since 02.11.2026 a link needs a trailer playable in Germany (trailer.parse_watch); links
+# frozen before that (v < DE_CHECKED) are hidden until reverify_trailers confirms them.
+
+DE_CHECKED = 3            # trailer records from this version on were checked for DE
+REVERIFY_TRIES = 3        # unclear re-checks of an old link before it is dropped for good
 
 
 def _freeze_trailers(emitted: dict, urls, why: str) -> None:
@@ -576,12 +581,53 @@ def _freeze_trailers(emitted: dict, urls, why: str) -> None:
             m["trailer"] = {"v": trailer.VERSION, "key": None, why: True}
 
 
+def reverify_trailers(emitted: dict, check=trailer.youtube_check, today: str = "",
+                      delay: float = 0.25) -> bool:
+    """Check the trailer links frozen before the DE check once more (02.11.2026).
+    Playable in DE -> the record is marked checked and the link stays byte-identical.
+    Not in DE -> the link is dropped for good (`blocked_de`, old id kept under `was`).
+    Unclear -> hidden this run, retried next run, dropped after REVERIFY_TRIES.
+    Returns degraded: YouTube pages could not be read (all of them, or DEGRADED_AFTER)."""
+    todo = sorted(u for u, m in emitted.items()
+                  if (m.get("trailer") or {}).get("key") and (m["trailer"].get("v") or 0) < DE_CHECKED)
+    unread = 0
+    for url in todo:
+        t = emitted[url]["trailer"]
+        c = check(t["key"])
+        time.sleep(delay)
+        if c.de is True:
+            t["v"] = DE_CHECKED
+            t.pop("de_tries", None)
+            if today:
+                t["de_checked"] = today
+            continue
+        if c.de is False:
+            print(f"[trailer] {url}: trailer not available in DE, link dropped", file=sys.stderr)
+            emitted[url]["trailer"] = {"v": trailer.VERSION, "key": None, "blocked_de": True,
+                                       "was": t["key"], **({"checked": today} if today else {})}
+            continue
+        unread += not c.read
+        tries = int(t.get("de_tries") or 0) + 1
+        if tries >= REVERIFY_TRIES:
+            emitted[url]["trailer"] = {"v": trailer.VERSION, "key": None, "unchecked": True,
+                                       "was": t["key"], **({"checked": today} if today else {})}
+        else:
+            t["de_tries"] = tries
+    if unread:
+        print(f"[warn] {unread} of {len(todo)} old trailer links could not be checked for DE "
+              f"(YouTube page unreadable); hidden until checked", file=sys.stderr)
+    return bool(todo) and (unread == len(todo) or unread >= DEGRADED_AFTER)
+
+
 def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=trailer.lookup,
-                    today: str = "") -> tuple[int, bool]:
+                    today: str = "", check=trailer.youtube_check) -> tuple[int, bool]:
     """Look up the official YouTube trailer of each newly emitted item and freeze it under
-    `trailer`. No token, a rejected token, or DEGRADED_AFTER failures in a row -> degraded
-    (the run turns red after the commit). An item without TMDB id or without an official
-    trailer is a normal outcome, not a failure. Returns (found, degraded)."""
+    `trailer`. No token, a rejected token, DEGRADED_AFTER failures in a row, or
+    DEGRADED_AFTER lookups in a row whose YouTube pages were all unreadable -> degraded
+    (the run turns red after the commit). Only trailers playable in DE count
+    (trailer.choose); a lookup that could not check any candidate freezes as `unchecked`
+    without a link. An item without TMDB id or without an official trailer is a normal
+    outcome, not a failure. Returns (found, degraded)."""
     todo = sorted((u for u, m in emitted.items() if m.get("trailer_due")),
                   key=lambda u: (emitted[u].get("emitted_at", ""), u), reverse=True)
     if not todo:
@@ -590,7 +636,16 @@ def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=tr
         print("[warn] TMDB_TOKEN missing: new items get no trailer link", file=sys.stderr)
         _freeze_trailers(emitted, todo, "no_token")
         return 0, True
-    found = attempts = misses = 0
+    found = attempts = misses = yt_misses = 0
+    pages = {"n": 0, "read": 0, "blocked": 0}
+
+    def counted(key):
+        c = check(key)
+        pages["n"] += 1
+        pages["read"] += bool(c.read)
+        pages["blocked"] += c.de is False
+        return c
+
     for i, url in enumerate(todo):
         if attempts >= cap:
             _freeze_trailers(emitted, todo[i:], "skipped")
@@ -606,8 +661,9 @@ def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=tr
         m = re.search(r"/season-(\d+)/?$", url)
         if m:
             season = int(m.group(1))
+        pages.update(n=0, read=0, blocked=0)
         try:
-            key = lookup(tm, meta.get("media", "tv"), season, token)
+            key = lookup(tm, meta.get("media", "tv"), season, token, check=counted)
         except trailer.AuthError as exc:
             print(f"[warn] {exc}; stopping trailer lookups for this run", file=sys.stderr)
             _freeze_trailers(emitted, todo, "failed")
@@ -630,8 +686,21 @@ def enrich_trailers(emitted: dict, cap: int, delay: float, token: str, lookup=tr
         rec = {"v": trailer.VERSION, "key": key}
         if today:
             rec["checked"] = today
+        if pages["blocked"]:
+            rec["blocked_de"] = pages["blocked"]        # candidates skipped: not available in DE
+        if not key and pages["read"] < pages["n"]:
+            rec["unchecked"] = True                     # some candidate's page was unreadable
         meta["trailer"] = rec
         found += bool(key)
+        if pages["n"] and not pages["read"]:
+            yt_misses += 1
+            if yt_misses >= DEGRADED_AFTER:
+                print(f"[warn] YouTube pages unreadable for {yt_misses} lookups in a row; "
+                      "no trailer can be checked for DE, stopping for this run", file=sys.stderr)
+                _freeze_trailers(emitted, todo, "unchecked")
+                return found, True
+        elif pages["read"]:
+            yt_misses = 0
     return found, False
 
 
@@ -854,7 +923,9 @@ def describe_item(meta: dict) -> str:
     p = meta.get("providers") or {}
     stream = (f'<br />{streaming.describe(p.get("summary") or {}, _de_date(p.get("checked", "")))}'
               if p.get("match") else "")
-    tl = trailer.link_html((meta.get("trailer") or {}).get("key") or "")
+    t = meta.get("trailer") or {}
+    # only links checked as playable in DE (02.11.2026); older ones wait for reverify_trailers
+    tl = trailer.link_html(t.get("key") or "") if (t.get("v") or 0) >= DE_CHECKED else ""
     if tl:
         stream += f"<br />{tl}"
     k = meta.get("kino") or {}
@@ -1061,9 +1132,13 @@ def run(args) -> int:
     # Official YouTube trailer of new items (needs the TMDB id from the streaming match).
     trailers_degraded = False
     if not args.dry_run:
-        got, trailers_degraded = enrich_trailers(emitted, max(args.trailer_max, 0), args.trailer_delay,
-                                                 os.environ.get("TMDB_TOKEN", "").strip(),
-                                                 today=now.date().isoformat())
+        # links frozen before the DE check (02.11.2026) are checked once more first
+        trailers_degraded = reverify_trailers(emitted, today=now.date().isoformat(),
+                                              delay=args.trailer_delay)
+        got, new_degraded = enrich_trailers(emitted, max(args.trailer_max, 0), args.trailer_delay,
+                                            os.environ.get("TMDB_TOKEN", "").strip(),
+                                            today=now.date().isoformat())
+        trailers_degraded = trailers_degraded or new_degraded
         if got:
             print(f"[trailer] found {got} trailer(s)")
 
