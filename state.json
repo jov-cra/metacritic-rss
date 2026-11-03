@@ -14782,28 +14782,36 @@
       "premiere": "Aug 17, 2026"
     },
     "https://www.metacritic.com/tv/big-brother/season-28/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/black-sands/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/bookish/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/boston-blue/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/celebrity-family-feud/season-13/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/celebrity-masterchef/season-21/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/celebrity-name-that-tune/season-6/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/celebrity-weakest-link/season-2/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/celebrity-wheel-of-fortune/season-7/": {
       "first_seen": "2026-10-21"
@@ -15609,10 +15617,18 @@
       "premiere": "Sep 30, 2026"
     },
     "https://www.metacritic.com/tv/canadas-drag-race/season-7/": {
-      "first_seen": "2026-10-30"
+      "first_seen": "2026-10-30",
+      "ok": true
     },
     "https://www.metacritic.com/tv/sonic-prime/season-5/": {
       "first_seen": "2026-10-31"
+    },
+    "https://www.metacritic.com/tv/boglands/season-2/": {
+      "first_seen": "2026-11-03",
+      "ok": true
+    },
+    "https://www.metacritic.com/tv/qi/season-24/": {
+      "first_seen": "2026-11-03"
     }
   }
 }
