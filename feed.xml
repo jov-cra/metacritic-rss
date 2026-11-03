@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Tue, 03 Nov 2026 17:23:41 +0000</lastBuildDate>
+<lastBuildDate>Tue, 03 Nov 2026 22:37:05 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[85] SCTV: The Greatest Show You've Never Heard Of (Netflix · Abo)</title>
+<link>https://www.metacritic.com/movie/sctv-the-greatest-show-youve-never-heard-of/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/sctv-the-greatest-show-youve-never-heard-of/</guid>
+<pubDate>Tue, 03 Nov 2026 22:37:05 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/9fe3f10cee290b565c47a52b089752f9789948f3/catalog/provider/5/2/5-tt44825373.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive&lt;br /&gt;Streaming DE (JustWatch, 03.11.2026): im Abo bei Netflix&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=5vri0LVrMIE"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[83] Bass X Machina (Netflix · Abo)</title>
 <link>https://www.metacritic.com/tv/bass-x-machina/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/b57e3773c5d361fca1048791a617a9defac293de/catalog/provider/5/2/5-tt33518607.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 58% positive</description>
-</item>
-<item>
-<title>[70] The Last One for the Road (Movie)</title>
-<link>https://www.metacritic.com/movie/the-last-one-for-the-road/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/the-last-one-for-the-road/</guid>
-<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/7b7f8774dd57d48b2da0664b4195a1ef284fa469/catalog/provider/2/13/2-aa5137f56b56f54f373b4353199faa6d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 71% positive</description>
 </item>
 </channel>
 </rss>
