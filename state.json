@@ -14523,6 +14523,64 @@
         "key": null,
         "no_id": true
       }
+    },
+    "https://www.metacritic.com/movie/who-killed-alex-odeh/": {
+      "title": "Who Killed Alex Odeh?",
+      "score": 70,
+      "media": "movie",
+      "release_date": "Oct 30, 2026",
+      "emitted_at": "2026-11-03T17:23:41.024775+00:00",
+      "feed_date": "2026-11-03T17:23:41.024775+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/4fe1456b91f44b4dc096c02051b99cc9e09d9497/catalog/provider/7/2/7-1791318238.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/60023cff1ecc0bfe216a4fd2581d69e15afaa520/catalog/provider/7/2/7-1791318225.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-03"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/tv/bass-x-machina/": {
+      "title": "Bass X Machina",
+      "score": 83,
+      "media": "tv",
+      "release_date": "Nov 3, 2026",
+      "emitted_at": "2026-11-03T17:23:41.024775+00:00",
+      "feed_date": "2026-11-03T17:23:41.024775+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/639fd696b7e0b042e5fbdbb16db41582ab743bf6/catalog/provider/2/2/2-fcf7806cf00d1967fc32c6b2e824f704.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a337af17d148752a36fad8ff6d779aa4f4e69ef4/catalog/provider/2/13/2-6d83af7b721c4571755d91ee73277a9f.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "314271",
+        "checked": "2026-11-03"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "jjr5mf9i42Q",
+        "checked": "2026-11-03"
+      }
     }
   },
   "seasons": {

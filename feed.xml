@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Mon, 02 Nov 2026 19:51:20 +0000</lastBuildDate>
+<lastBuildDate>Tue, 03 Nov 2026 17:23:41 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[83] Bass X Machina (Netflix · Abo)</title>
+<link>https://www.metacritic.com/tv/bass-x-machina/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/bass-x-machina/</guid>
+<pubDate>Tue, 03 Nov 2026 17:23:41 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a337af17d148752a36fad8ff6d779aa4f4e69ef4/catalog/provider/2/13/2-6d83af7b721c4571755d91ee73277a9f.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive&lt;br /&gt;Streaming DE (JustWatch, 03.11.2026): im Abo bei Netflix&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=jjr5mf9i42Q"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
+<item>
+<title>[70] Who Killed Alex Odeh? (Movie)</title>
+<link>https://www.metacritic.com/movie/who-killed-alex-odeh/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/who-killed-alex-odeh/</guid>
+<pubDate>Tue, 03 Nov 2026 17:23:41 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/60023cff1ecc0bfe216a4fd2581d69e15afaa520/catalog/provider/7/2/7-1791318225.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
+</item>
 <item>
 <title>[92] Blue Planet III (TV)</title>
 <link>https://www.metacritic.com/tv/blue-planet-iii/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/7b7f8774dd57d48b2da0664b4195a1ef284fa469/catalog/provider/2/13/2-aa5137f56b56f54f373b4353199faa6d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 71% positive</description>
-</item>
-<item>
-<title>[63] The Devil Wears Prada 2 (Movie)</title>
-<link>https://www.metacritic.com/movie/the-devil-wears-prada-2/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/the-devil-wears-prada-2/</guid>
-<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/a1c234dd0f2bcd688aede80c20b1b4dad97313dc/catalog/provider/2/13/2-6cee5db56ff84beb8a6265953d6215b1.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;57 reviews · 54% positive</description>
-</item>
-<item>
-<title>[56] Swapped (Movie)</title>
-<link>https://www.metacritic.com/movie/swapped/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/swapped/</guid>
-<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/5dc9ec627a5a191d277330a08bd349600205166a/catalog/provider/2/13/2-dea64c03c45ec0823d6cec82ba90d7f6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 45% positive</description>
 </item>
 </channel>
 </rss>
