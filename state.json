@@ -15753,7 +15753,8 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/harry-potter-wizards-of-baking/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     }
   }
 }
