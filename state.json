@@ -14641,6 +14641,1564 @@
         "key": "p0ktK7TYD88",
         "checked": "2026-11-04"
       }
+    },
+    "https://www.metacritic.com/movie/birds-of-war/": {
+      "title": "Birds of War",
+      "score": 70,
+      "media": "movie",
+      "release_date": "Nov 4, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/204a55c47d39dfcbd96bee9da931eeeac2ba3081/catalog/provider/7/2/7-1793813387.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 71,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c8c3f76b5070af1fb7f285dfbb727ae9b0a48db4/catalog/provider/5/2/5-tt39026593.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/tv/stick/season-2/": {
+      "title": "Stick: Season 2",
+      "score": 72,
+      "media": "tv",
+      "release_date": "Nov 4, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0f8272ba790d5ca84d28d94303a5fb5a26789e48/catalog/provider/2/2/2-11b6598ae76337d3dd0ef404c4cde5b3.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/0460cbfd1d9e7795933e42dee0ac9961dabbe260/catalog/provider/2/13/2-6074bbe36d2e7ae677761d0fca1252f0.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Apple TV"
+          ]
+        },
+        "tmdb": "248830",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "m6ArXts5JPk",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/secret-service/": {
+      "title": "Secret Service",
+      "score": 60,
+      "media": "tv",
+      "release_date": "Apr 27, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/bdda41f42294585193697ba23a33b9819bc4aa7e/catalog/provider/2/2/2-4f1f040ab1489fddf518c6746511e17d.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/3fc9a4e01e3afb1c7a6a63ccd916d7662ddf01b5/catalog/provider/2/13/2-b085ac8a3bd29da624a642153c91000b.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "MagentaTV"
+          ],
+          "buy_from": 9.99,
+          "buy_at": "Amazon Video",
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 9.99,
+            "url": null
+          }
+        },
+        "tmdb": "287450",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "9ukp_RFVW58",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/running-point/season-2/": {
+      "title": "Running Point: Season 2",
+      "score": 66,
+      "media": "tv",
+      "release_date": "Apr 23, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/32c7e058969a081d87c71ef8144ff9745fd50dfc/catalog/provider/2/2/2-9abf2e649736b018406a8bd2a2fedcdb.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/deb64a3f9bf751419ee51fee81ed7dd56dd07c0c/catalog/provider/2/13/2-0ceb354aacb3f650cf4b5cec6a53db8c.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "244623",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "PMWh8evLLT0",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/beef/season-2/": {
+      "title": "Beef: Season 2",
+      "score": 77,
+      "media": "tv",
+      "release_date": "Apr 16, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/600d9c231a1f130aa2ac8bd1be323eec482abb9d/catalog/provider/2/2/2-9201fd3a54365695db32d1621285407b.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 33,
+        "pos": 70,
+        "user_count": 59,
+        "user_score": 6.3,
+        "image": "https://www.metacritic.com/a/img/resize/985f922a32ccf83eb81af630cb86f62d79f05f97/catalog/provider/2/13/2-311b4fa86cd0dadc6524e867e0a1eb02.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "154385",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "ZtQoofDhJOM",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/euphoria/season-3/": {
+      "title": "Euphoria: Season 3",
+      "score": 57,
+      "media": "tv",
+      "release_date": "Apr 12, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/7dbc0cb13e9bb4df8d12f7252700ca81e74d4248/catalog/provider/2/2/2-073f2bed08e1eed05eb8c618fef26421.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 28,
+        "pos": 32,
+        "user_count": 96,
+        "user_score": 4.8,
+        "image": "https://www.metacritic.com/a/img/resize/c747b09aebdef1443a74d30e769b25e3ce4cb0b4/catalog/provider/2/2/2-24b6e42dc6392bf1fa97c7db89780d42.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "HBO Max",
+            "WOW",
+            "Sky"
+          ],
+          "buy_from": 21.99,
+          "buy_at": "maxdome Store",
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 22.99,
+            "url": "https://tv.apple.com/de/show/euphoria/umc.cmc.6mdis9zh78p0ifdz7ti1ku0al"
+          }
+        },
+        "tmdb": "85552",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "sZvWxXdk7Rc",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/hacks/season-5/": {
+      "title": "Hacks: Season 5",
+      "score": 88,
+      "media": "tv",
+      "release_date": "Apr 9, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/febb61938c702b4bb014837a8b0a73237151eab0/catalog/provider/2/2/2-3fe437e90a01ffb77ce07ee72a55d8c6.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 15,
+        "pos": 87,
+        "user_count": 13,
+        "user_score": 7.9,
+        "image": "https://www.metacritic.com/a/img/resize/e4f13f711a4d12ce810879c663873e6d29c20342/catalog/provider/2/13/2-f94cbea708e716f1eb4e986b57851d41.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "free": [
+            "ZDF"
+          ],
+          "flat": [
+            "RTL+",
+            "Founderzone",
+            "RTL+ Max"
+          ],
+          "buy_from": 8.99,
+          "buy_at": "Amazon Video",
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 8.99,
+            "url": null
+          },
+          "older": true
+        },
+        "tmdb": "124101",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "nI617xyDFME",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/the-boys/season-5/": {
+      "title": "The Boys: Season 5",
+      "score": 75,
+      "media": "tv",
+      "release_date": "Apr 8, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/8a0a07f3fa1e420f71e194814d8541d550eb1204/catalog/provider/2/2/2-b5a869b82ee2aaf4e4f29519e167a67f.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 18,
+        "pos": 83,
+        "user_count": 1716,
+        "user_score": 1.1,
+        "image": "https://www.metacritic.com/a/img/resize/fe9fedc76a98a58b5e27f4f217cda51f41f4dca4/catalog/provider/2/13/2-a8df0ebf4c5f64aae033b8a4b0575133.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Prime Video"
+          ]
+        },
+        "tmdb": "76479",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "XNQbH1SDPRk",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/silo/season-3/": {
+      "title": "Silo: Season 3",
+      "score": 77,
+      "media": "tv",
+      "release_date": "Apr 6, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ca5e664363016b33f01c004df22f2c2006c685fd/catalog/provider/2/2/2-865f1f10e6b0fa984c6c1d6c681c4c0a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 12,
+        "pos": 83,
+        "user_count": 77,
+        "user_score": 5.4,
+        "image": "https://www.metacritic.com/a/img/resize/28aa8938fc2568900d99b8f201d894abd7f8c6e0/catalog/provider/2/13/2-ea334b441874d4a05b41c936ecee60e3.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Apple TV"
+          ]
+        },
+        "tmdb": "125988",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "BLBvbMtjyAQ",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/your-friends-neighbors/season-2/": {
+      "title": "Your Friends & Neighbors: Season 2",
+      "score": 69,
+      "media": "tv",
+      "release_date": "Apr 3, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/54801d4a3307605e0c011728e52556602c0b2337/catalog/provider/2/2/2-164abf759601bd6b4d29f3e24114fd5b.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 64,
+        "user_count": 20,
+        "user_score": 5.4,
+        "image": "https://www.metacritic.com/a/img/resize/3f8c2cb51c471d929a23c12efad52bddc93c2278/catalog/provider/2/13/2-bbe095b98068dae8d95feb80f7b451c9.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Apple TV"
+          ]
+        },
+        "tmdb": "241609",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "Eo0StesaFNY",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/for-all-mankind/season-5/": {
+      "title": "For All Mankind: Season 5",
+      "score": 83,
+      "media": "tv",
+      "release_date": "Mar 27, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a90019c6de4c6351e844064ddc72d9e31eaa6b0a/catalog/provider/2/2/2-1070ced77a03d2f7af00ac786fda9c87.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 78,
+        "user_count": 27,
+        "user_score": 5.7,
+        "image": "https://www.metacritic.com/a/img/resize/335c90a1aa6bca39fa743065a061c82e02c7b849/catalog/provider/2/13/2-a20529a9d2f3d098906888f5c16344a4.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Apple TV"
+          ]
+        },
+        "tmdb": "87917",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "zojwKLlY_H8",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/daredevil-born-again/season-2/": {
+      "title": "Daredevil: Born Again: Season 2",
+      "score": 73,
+      "media": "tv",
+      "release_date": "Mar 24, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0cb713d4bbad494bf0e5a7c4f856dab50a3fc4cb/catalog/provider/2/2/2-9f615db765d50df4f487e37c0729cde2.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 16,
+        "pos": 69,
+        "user_count": 95,
+        "user_score": 7.0,
+        "image": "https://www.metacritic.com/a/img/resize/09242b96700ef41c9c0ede6f5aef2855b1e344cc/catalog/provider/2/13/2-bfc593e269d24be3be37c4a54f34629c.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Disney+"
+          ]
+        },
+        "tmdb": "202555",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "U1MqJBVn8Rk",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/the-comeback/season-3/": {
+      "title": "The Comeback: Season 3",
+      "score": 80,
+      "media": "tv",
+      "release_date": "Mar 22, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b38aa049caf131c764a4e54cadf0ca7f223778aa/catalog/provider/2/2/2-32c0a311b0bda435d370c2d0c3980898.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 23,
+        "pos": 87,
+        "user_count": 15,
+        "user_score": 7.2,
+        "image": "https://www.metacritic.com/a/img/resize/be2f83be893a3817e1081bea57a0f1e8290d49c9/catalog/provider/2/13/2-43cbd0d3ccc30009c73d372f71a1d47f.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "HBO Max"
+          ]
+        },
+        "tmdb": "1999",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "p1rVpVCNBgE",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/jury-duty-2023/season-2/": {
+      "title": "Jury Duty (2023): Season 2",
+      "score": 68,
+      "media": "tv",
+      "release_date": "Mar 20, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/80655f3f979f913a8ba199a442d6703a5ead6b62/catalog/provider/2/2/2-77eb4d50a5005955f7a8e01a03dcd143.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 15,
+        "pos": 80,
+        "user_count": 15,
+        "user_score": 6.1,
+        "image": "https://www.metacritic.com/a/img/resize/20ce823b5eb0743ba294585645ecfbaff25dbfee/catalog/provider/2/13/2-ba823e1bfb117816e53b3bd6b6e42eaa.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/tv/deadloch/season-2/": {
+      "title": "Deadloch: Season 2",
+      "score": 80,
+      "media": "tv",
+      "release_date": "Mar 19, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/8a8812ad2734fdc6d40b8c99ffa168ccb9377a2b/catalog/provider/2/2/2-a055d56a5e25d501ff5dae9eb3509998.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b5ad656e6c30ae2335a6894e9354649d9990b62e/catalog/provider/2/13/2-83330f45516087ef3c4974562cb89bfd.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Prime Video"
+          ]
+        },
+        "tmdb": "225780",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "bEu3XAz0otY",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/invincible-2021/season-4/": {
+      "title": "Invincible (2021): Season 4",
+      "score": 77,
+      "media": "tv",
+      "release_date": "Mar 18, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0cdf6fd048941d9f6cbadd36af15ce9821ec56c1/catalog/provider/2/2/2-e5b52183688d9c9d2cd8fd5fda033a54.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 83,
+        "user_count": 103,
+        "user_score": 7.6,
+        "image": "https://www.metacritic.com/a/img/resize/bfe14c30c55ea91f1449bf12c9f117868ed58434/catalog/provider/2/13/2-f73d371c9a9fa3c7355b0689a6d73557.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Prime Video"
+          ]
+        },
+        "tmdb": "95557",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "ZnfUeVeMKjY",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/one-piece-2023/season-2/": {
+      "title": "One Piece (2023): Season 2",
+      "score": 81,
+      "media": "tv",
+      "release_date": "Mar 10, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c7e68d649ffe43f106b05d2b213f71db941858e6/catalog/provider/2/2/2-a719eae9a687c30d7526bb05aebcbf69.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 89,
+        "user_count": 122,
+        "user_score": 8.2,
+        "image": "https://www.metacritic.com/a/img/resize/5f17174d1f28babc53617b22a3e2baecbf76ae58/catalog/provider/2/2/2-3a59d9a56aa38e9d7688523fa37be5a6.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "111110",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "-sKjdYceH04",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/outlander-2014/season-8/": {
+      "title": "Outlander (2014): Season 8",
+      "score": 80,
+      "media": "tv",
+      "release_date": "Mar 6, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/008453f950168d07ff241db2fe27512a72c19630/catalog/provider/2/2/2-703a6b129131c07b2493d072240247c6.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/92528544d744803e316aa7d56c049a2d94050a7a/catalog/provider/2/2/2-0895d25ba6cc70c7bd71a6b31189ff97.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "rent_from": 4.98,
+          "rent_at": "Videobuster",
+          "buy_from": 19.98,
+          "buy_at": "Amazon Video",
+          "rent": {
+            "shop": "Videobuster",
+            "price": 4.98,
+            "url": "https://www.videobuster.de/dvd-bluray-verleih/1235495/outlander-staffel-8"
+          },
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 23.99,
+            "url": "https://tv.apple.com/de/show/outlander/umc.cmc.b24vsa2aaua8e5l465xek14s"
+          }
+        },
+        "tmdb": "56570",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "BKy4gqIVv9E",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/ted-2024/season-2/": {
+      "title": "Ted (2024): Season 2",
+      "score": 68,
+      "media": "tv",
+      "release_date": "Mar 5, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/02cbe57d8f28f6a1c133e3523f22a1312e792625/catalog/provider/2/2/2-5b53467574c23bd550e85240b562118f.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_count": 20,
+        "user_score": 6.6,
+        "image": "https://www.metacritic.com/a/img/resize/6655b2512362816668becd564c6ee705666eeccd/catalog/provider/2/13/2-4d34be92678cb5dba8c25ac5c6e1929f.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "free": [
+            "Joyn"
+          ],
+          "buy_from": 14.99,
+          "buy_at": "Amazon Video",
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 14.99,
+            "url": "https://tv.apple.com/de/show/ted/umc.cmc.255ujk4lyd5uo6yfebvb2yo4v"
+          }
+        },
+        "tmdb": "201834",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "C93GFpbp554",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/monarch-legacy-of-monsters/season-2/": {
+      "title": "Monarch: Legacy of Monsters: Season 2",
+      "score": 67,
+      "media": "tv",
+      "release_date": "Feb 27, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1b866d0ad86d72029c30de53bd5212faa72aaa40/catalog/provider/7/2/7-1700013687.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 64,
+        "user_count": 35,
+        "user_score": 5.0,
+        "image": "https://www.metacritic.com/a/img/resize/9bc2c000b9212337c49b8b44dca602f90981932c/catalog/provider/2/13/2-0e39005abf94cfe22c317d91985be6ac.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Apple TV"
+          ]
+        },
+        "tmdb": "202411",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "ZgWrFoaisdk",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/the-traitors-uk/season-4/": {
+      "title": "The Traitors [UK]: Season 4",
+      "score": 85,
+      "media": "tv",
+      "release_date": "Feb 26, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/850827117a26ee7352b1de053c1052415f14428b/catalog/provider/7/2/7-1707968584.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 100,
+        "user_count": 5,
+        "user_score": 6.4,
+        "image": "https://www.metacritic.com/a/img/resize/7a80e85a4c35b3221532a8ec57924b81b60c5e17/catalog/provider/2/13/2-a00ee4797506086fad12128856f7110f.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "older": true
+        },
+        "tmdb": "215307",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/paradise-2025/season-2/": {
+      "title": "Paradise (2025): Season 2",
+      "score": 72,
+      "media": "tv",
+      "release_date": "Feb 23, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c7196591111d26b3dcbdacaa23fae403e5abcdd9/catalog/provider/2/2/2-a7e6ba849894c1f1cf9075554c90bb7b.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 22,
+        "pos": 77,
+        "user_count": 32,
+        "user_score": 6.1,
+        "image": "https://www.metacritic.com/a/img/resize/29f1363186d28430f7ebb0210c4e3ca64fbc804e/catalog/provider/2/13/2-4c531931e81139d59a883a181459519e.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Disney+"
+          ]
+        },
+        "tmdb": "245927",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "wQfqQ-oIXiA",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/the-last-thing-he-told-me/season-2/": {
+      "title": "The Last Thing He Told Me: Season 2",
+      "score": 57,
+      "media": "tv",
+      "release_date": "Feb 20, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/0fc05b35e74f221d5f2b811a820d493fa5bf9548/catalog/provider/2/2/2-628fad4230a67ea7d59ddfe20a425e9a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 40,
+        "user_count": 6,
+        "user_score": 5.2,
+        "image": "https://www.metacritic.com/a/img/resize/0facbc0fb86738ead6d442912b5ff360f0341dd4/catalog/provider/2/13/2-0ca7f0fb8437f81477dd4b8013ed99e4.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Apple TV"
+          ]
+        },
+        "tmdb": "201289",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "9r9DKzgHrRo",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/the-night-agent/season-3/": {
+      "title": "The Night Agent: Season 3",
+      "score": 77,
+      "media": "tv",
+      "release_date": "Feb 19, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1d0c880a0d44593dfb9050544b337ff1c99eb3ec/catalog/provider/2/2/2-c5dfc3897ed613efc166e4ed1e12244b.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 80,
+        "user_count": 13,
+        "user_score": 6.5,
+        "image": "https://www.metacritic.com/a/img/resize/9d9fe5e051d6bc47fd5a0216caadf250aaae3243/catalog/provider/2/13/2-99e62934b9e5b51bbb604a87e2d978ec.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "129552",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "1F6BCHAfGDc",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/ten-pound-poms/season-2/": {
+      "title": "Ten Pound Poms: Season 2",
+      "score": 55,
+      "media": "tv",
+      "release_date": "Feb 18, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5fa1b5646a13421d810c9764ab35e02b9aefb0d7/catalog/provider/2/2/2-05ded624792677d3e6817d0a0e2e5a1a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/ce0fdd1e7ee78701aa120d47c135976065f31b9a/catalog/provider/2/13/2-fe912cd1ecd6444c1e1dcc5da27d3689.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/tv/dark-winds/season-4/": {
+      "title": "Dark Winds: Season 4",
+      "score": 80,
+      "media": "tv",
+      "release_date": "Feb 15, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e6cdea02dede962e2a12dfb7daf47a1cb742e2ad/catalog/provider/2/2/2-455dbc7de5fe3655daf424e1ffda81fd.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 100,
+        "user_count": 7,
+        "user_score": 6.3,
+        "image": "https://www.metacritic.com/a/img/resize/c2532826799ab12ed572d770b3ab662d83e99a27/catalog/provider/2/13/2-953fd0a1b7b77cc36b0db87587171a15.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "RTL+",
+            "RTL Crime",
+            "RTL+ Max"
+          ]
+        },
+        "tmdb": "128904",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "4mKj8vj9YZ4",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/cross/season-2/": {
+      "title": "Cross: Season 2",
+      "score": 63,
+      "media": "tv",
+      "release_date": "Feb 11, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/321f38529fcf5a55f40da6350488ea740ed94bd1/catalog/provider/2/2/2-ab6c28bc8bc8c58005da03df01093b36.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 43,
+        "user_count": 5,
+        "user_score": 3.8,
+        "image": "https://www.metacritic.com/a/img/resize/5e1d202db5cdd393b5cfab5af66e4673aad7a5e6/catalog/provider/2/13/2-e20d15719a5a049b98e646e8968ccefa.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Prime Video"
+          ]
+        },
+        "tmdb": "213306",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "H1tFYjJ515M",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/the-lincoln-lawyer-2022/season-4/": {
+      "title": "The Lincoln Lawyer (2022): Season 4",
+      "score": 76,
+      "media": "tv",
+      "release_date": "Feb 5, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/75402bf438d76cc23a8df69d98e62843bb6d0a4e/catalog/provider/2/2/2-9204e8183fbf5487f0742f3d6ff8167e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_count": 6,
+        "user_score": 6.3,
+        "image": "https://www.metacritic.com/a/img/resize/281aa3b74262e37127d4a3f1af3d87de9606d8c3/catalog/provider/2/13/2-893b53b66ee748eb95d6d8777f925349.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "116799",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/bridgerton/season-4/": {
+      "title": "Bridgerton: Season 4",
+      "score": 65,
+      "media": "tv",
+      "release_date": "Jan 28, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/601839fc0708c7b3419d2807ed65715cd4aa9a4f/catalog/provider/2/2/2-67a52ef5c1cf5bdeb832ac35cbbc398d.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 23,
+        "pos": 52,
+        "user_count": 55,
+        "user_score": 5.3,
+        "image": "https://www.metacritic.com/a/img/resize/bffa1e8b187c3273f2f1003d581fdd7a530cbd82/catalog/provider/2/13/2-d25fa76ccdb44989575a41171c36408d.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "91239",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "IqaXNwAzSmQ",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/shrinking/season-3/": {
+      "title": "Shrinking: Season 3",
+      "score": 76,
+      "media": "tv",
+      "release_date": "Jan 28, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5d2dbd27d4818e17a6082dae759b5dc926ac339b/catalog/provider/2/2/2-3f2af6ee3fa5f1d415adab5a50622bba.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 63,
+        "user_count": 18,
+        "user_score": 5.9,
+        "image": "https://www.metacritic.com/a/img/resize/f413102becdad754ce896bc47796b3b6b5906da3/catalog/provider/2/13/2-44485d20092320f1e9c90f416ca53559.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Apple TV"
+          ]
+        },
+        "tmdb": "136311",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "vGWSq5mra-w",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/gangs-of-london/season-3/": {
+      "title": "Gangs of London: Season 3",
+      "score": 67,
+      "media": "tv",
+      "release_date": "Jan 15, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/35226d1ab8cf0ee88b7cc6e6a8a30024e8072b20/catalog/provider/2/2/2-74b3d3e5ef4415e5371f3772e70b4a0c.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 40,
+        "user_count": 6,
+        "user_score": 2.8,
+        "image": "https://www.metacritic.com/a/img/resize/6aae649118fe71b4928e5c830269eab38e5aab24/catalog/provider/2/2/2-c17e6a94800ccd2fae0b8f92d831364d.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "WOW",
+            "Sky"
+          ],
+          "rent_from": 1.99,
+          "rent_at": "Videobuster",
+          "buy_from": 12.99,
+          "buy_at": "MagentaTV",
+          "rent": {
+            "shop": "Videobuster",
+            "price": 1.99,
+            "url": "https://www.videobuster.de/dvd-bluray-verleih/1055145/gangs-of-london-staffel-3"
+          },
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 15.99,
+            "url": "https://tv.apple.com/de/show/gangs-of-london---joe/umc.cmc.2din6c9mnzectxyw7oky89756"
+          }
+        },
+        "tmdb": "85021",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "5l2iYDb59Jc",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/hijack/season-2/": {
+      "title": "Hijack: Season 2",
+      "score": 65,
+      "media": "tv",
+      "release_date": "Jan 14, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1d5f0947c4b669ee12172fbed9d83458e33c7b72/catalog/provider/2/2/2-35d88d4f2e102ea9218664a94a76d14c.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 54,
+        "user_count": 25,
+        "user_score": 4.4,
+        "image": "https://www.metacritic.com/a/img/resize/d2de7ea4b8ce9a9202d0c5e4006747d959326694/catalog/provider/2/13/2-de73c013f8b90024bf05e37f2c20807f.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Apple TV"
+          ]
+        },
+        "tmdb": "198102",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "h_i4-MoGALo",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/tell-me-lies/season-3/": {
+      "title": "Tell Me Lies: Season 3",
+      "score": 81,
+      "media": "tv",
+      "release_date": "Jan 13, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/96c6a2c4f1153b2d48b9f39190696cefd1ca6e22/catalog/provider/2/2/2-0146c741dd1142c3fd934111531706cf.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/f123e4c31b54f2a973ad14f64720a979b7670037/catalog/provider/2/13/2-214e462ed6f917149f0c4072f6e50cc5.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Disney+"
+          ]
+        },
+        "tmdb": "130464",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/the-night-manager/season-2/": {
+      "title": "The Night Manager: Season 2",
+      "score": 75,
+      "media": "tv",
+      "release_date": "Jan 11, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/866c768c65066ced1585c0d68b1c962e36b01988/catalog/provider/2/2/2-9c76a5b4eedaaa3b5dbc44ce2ab91167.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 18,
+        "pos": 78,
+        "user_count": 46,
+        "user_score": 5.0,
+        "image": "https://www.metacritic.com/a/img/resize/c0fb83688af954f306efb6e32148510336210e5e/catalog/provider/2/13/2-cb72bf1aa69685ff4746a176ba28d554.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Prime Video"
+          ],
+          "rent_from": 4.49,
+          "rent_at": "Videobuster",
+          "buy_from": 10.99,
+          "buy_at": "Amazon Video",
+          "rent": {
+            "shop": "Videobuster",
+            "price": 4.49,
+            "url": "https://www.videobuster.de/dvd-bluray-verleih/1234508/the-night-manager-staffel-2"
+          },
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 10.99,
+            "url": "https://tv.apple.com/de/show/the-night-manager/umc.cmc.6dh3kg34kvfttyac93nxs8yjm"
+          }
+        },
+        "tmdb": "61859",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "1LY1AJ48O0Y",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/industry/season-4/": {
+      "title": "Industry: Season 4",
+      "score": 87,
+      "media": "tv",
+      "release_date": "Jan 11, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/10540aafada08b9027df21310bba8c16a435cfff/catalog/provider/2/2/2-a8e4bc899c2d76622c5540c32295928f.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 20,
+        "pos": 95,
+        "user_count": 20,
+        "user_score": 7.2,
+        "image": "https://www.metacritic.com/a/img/resize/ba4c6eafd92f0c2bd0a37fbc9adc2b979fa00157/catalog/provider/2/13/2-7843f754bcee720dc2fc1089cef8bdaf.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "HBO Max",
+            "WOW",
+            "Sky"
+          ],
+          "buy_from": 21.99,
+          "buy_at": "maxdome Store",
+          "buy": {
+            "shop": "maxdome Store",
+            "price": 21.99,
+            "url": "https://store.maxdome.de/se45826670"
+          }
+        },
+        "tmdb": "90812",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "J8RlPOz1uAY",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/genndy-tartakovskys-primal/season-3/": {
+      "title": "Genndy Tartakovsky's Primal: Season 3",
+      "score": 87,
+      "media": "tv",
+      "release_date": "Jan 10, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/7506453334afd44b5ef62a023c39474daec8de0d/catalog/provider/2/2/2-17b36172849c4be2919afe63b90877f7.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 100,
+        "user_count": 19,
+        "user_score": 8.1,
+        "image": "https://www.metacritic.com/a/img/resize/6b7af3da2a920b42ca9dadbdb7a22f9e094c9abf/catalog/provider/2/13/2-d421a12701c1bf1416aa392cca656966.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/tv/a-thousand-blows/season-2/": {
+      "title": "A Thousand Blows: Season 2",
+      "score": 72,
+      "media": "tv",
+      "release_date": "Jan 9, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/4b7164a44f74097d3a1ec3748d6fc0b09420d1f9/catalog/provider/2/2/2-aa793f41de94669256bab8997a9f278a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 71,
+        "user_count": 5,
+        "user_score": 6.0,
+        "image": "https://www.metacritic.com/a/img/resize/e765f0cbdd4b3e766b9581f14268d22d82d4c039/catalog/provider/2/13/2-536076171429e26d8579a9fd7732c708.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Disney+"
+          ]
+        },
+        "tmdb": "208851",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "n2Sj_tic3co",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/the-pitt/season-2/": {
+      "title": "The Pitt: Season 2",
+      "score": 92,
+      "media": "tv",
+      "release_date": "Jan 8, 2026",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b972f7db62eec30345e4292f0b20cdb1b4dd38f7/catalog/provider/2/2/2-7b0ef7862fe6aa41c048dd4a3d0f38fe.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 32,
+        "pos": 97,
+        "user_count": 57,
+        "user_score": 7.3,
+        "image": "https://www.metacritic.com/a/img/resize/a36f8c6513438b45ae7e4b3983c5f12ab8e91b5e/catalog/provider/2/13/2-9980aeb84fbca440520a8045a47512c4.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "HBO Max"
+          ]
+        },
+        "tmdb": "250307",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "FwOKgnlaJNc",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/emily-in-paris/season-5/": {
+      "title": "Emily in Paris: Season 5",
+      "score": 57,
+      "media": "tv",
+      "release_date": "Dec 18, 2025",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c6bda369b8259ee2cdd0cae165673fb899537fb0/catalog/provider/2/2/2-ce04c2c385e88e86c5003c2cdb4b110e.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 12,
+        "pos": 42,
+        "user_count": 8,
+        "user_score": 7.4,
+        "image": "https://www.metacritic.com/a/img/resize/9e7fdf237a65396e4299928fedb2d318d73620c5/catalog/provider/2/2/2-44112949cf08b744e20f05d2ca34df99.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "82596",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "uI54qqXt2r8",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/fallout/season-2/": {
+      "title": "Fallout: Season 2",
+      "score": 73,
+      "media": "tv",
+      "release_date": "Dec 16, 2025",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/62c33325c07734e1851aef85d8a6d06fbaca85a5/catalog/provider/2/2/2-e8464827bb34a4b6962e336b894a64ec.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 22,
+        "pos": 77,
+        "user_count": 193,
+        "user_score": 6.4,
+        "image": "https://www.metacritic.com/a/img/resize/a14140d8c02cb715cc08681ca1bfa341e2513ceb/catalog/provider/2/2/2-0d9a09cdf21e7f7e1278fb45b15d18ad.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Prime Video"
+          ],
+          "buy_from": 29.99,
+          "buy_at": "JPC",
+          "buy": {
+            "shop": "JPC",
+            "price": 29.99,
+            "url": "https://www.jpc.de/jpcng/movie/detail/-/art/fallout-staffel-2/hnum/12635676"
+          }
+        },
+        "tmdb": "106379",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "uuiqt3U3i8E",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/percy-jackson-and-the-olympians/season-2/": {
+      "title": "Percy Jackson and The Olympians: Season 2",
+      "score": 73,
+      "media": "tv",
+      "release_date": "Dec 10, 2025",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/946d8c760fdd68224d0acee5fcf16016be6e13f6/catalog/provider/2/2/2-56263f1e85e39526e9b93a304bea2a31.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 78,
+        "user_count": 54,
+        "user_score": 7.6,
+        "image": "https://www.metacritic.com/a/img/resize/7786487f66dda16ad6b157706825552ea09f83c7/catalog/provider/2/13/2-5f902c4f76d810c4764ccec9a64e600e.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix",
+            "Disney+"
+          ]
+        },
+        "tmdb": "103540",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "SamIce2AW78",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/stranger-things/season-5/": {
+      "title": "Stranger Things: Season 5",
+      "score": 71,
+      "media": "tv",
+      "release_date": "Nov 26, 2025",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/34c3543f0ac446afdf5d6a9cefba9472a5624cc7/catalog/provider/2/2/2-0afaecad30491608094cfa7ea044f71f.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 32,
+        "pos": 75,
+        "user_count": 574,
+        "user_score": 5.5,
+        "image": "https://www.metacritic.com/a/img/resize/2e97e1a64aad2bc742e8918cf54109245cb09809/catalog/provider/2/2/2-259cb1f4458d952971a8f23e4c67e3b7.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "340653",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/a-man-on-the-inside/season-2/": {
+      "title": "A Man on the Inside: Season 2",
+      "score": 71,
+      "media": "tv",
+      "release_date": "Nov 20, 2025",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2ac84be30dece4bbc60d6c652824ef6f3146a54f/catalog/provider/7/2/7-1730754167.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 12,
+        "pos": 75,
+        "user_count": 14,
+        "user_score": 6.6,
+        "image": "https://www.metacritic.com/a/img/resize/a2f0bd931917428e2db7f303ad6468f4cb6d0b79/catalog/provider/2/13/2-b8e6b22ba57ef8a592159827724c44dd.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "245312",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "Y6UXdDbuNFc",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/landman/season-2/": {
+      "title": "Landman: Season 2",
+      "score": 66,
+      "media": "tv",
+      "release_date": "Nov 15, 2025",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/12fab6eabf17dc78a6742a3e015409130e0f9ee9/catalog/provider/7/2/7-1730148104.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 50,
+        "user_count": 35,
+        "user_score": 6.3,
+        "image": "https://www.metacritic.com/a/img/resize/df0392e246a266767dd88ec2eae4fbe1621f22c6/catalog/provider/2/13/2-6c961d74e81ccfc882599268bf0ea8d4.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Paramount+"
+          ],
+          "rent_from": 2.99,
+          "rent_at": "Videobuster",
+          "buy_from": 19.98,
+          "buy_at": "Amazon Video",
+          "rent": {
+            "shop": "Videobuster",
+            "price": 2.99,
+            "url": "https://www.videobuster.de/dvd-bluray-verleih/1242563/landman-staffel-2"
+          },
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 19.98,
+            "url": "https://tv.apple.com/de/show/landman/umc.cmc.9gtas60fo4e05xjp1fgm9nyu"
+          }
+        },
+        "tmdb": "157741",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "mhzQawESdqg",
+        "checked": "2026-11-04"
+      }
+    },
+    "https://www.metacritic.com/tv/palm-royale/season-2/": {
+      "title": "Palm Royale: Season 2",
+      "score": 69,
+      "media": "tv",
+      "release_date": "Nov 11, 2025",
+      "emitted_at": "2026-11-04T18:55:17.006443+00:00",
+      "feed_date": "2026-11-04T18:55:17.006443+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/30a9b79b29df2f1f3e0890f1a73f7a80670753ff/catalog/provider/2/2/2-b94f1a1f40772b1f50f58e69b205ff96.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 71,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/86f8c3571f1ac500db7fb97d92709f72c5b83b56/catalog/provider/2/13/2-bfad40189ee61375b1bb3967b6b5f589.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Apple TV"
+          ]
+        },
+        "tmdb": "157367",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "kj2ibUk81Vg",
+        "checked": "2026-11-04"
+      }
     }
   },
   "seasons": {
@@ -14719,11 +16277,6 @@
     "https://www.metacritic.com/tv/star-wars-ahsoka/season-2/": {
       "first_seen": "2026-10-17",
       "ok": true
-    },
-    "https://www.metacritic.com/tv/stick/season-2/": {
-      "first_seen": "2026-10-17",
-      "ok": true,
-      "premiere": "Nov 4, 2026"
     },
     "https://www.metacritic.com/tv/the-chosen/season-6/": {
       "first_seen": "2026-10-17",
@@ -15755,6 +17308,524 @@
     "https://www.metacritic.com/tv/harry-potter-wizards-of-baking/season-3/": {
       "first_seen": "2026-11-04",
       "ok": true
+    },
+    "https://www.metacritic.com/tv/after-the-flood/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/american-dad!/season-20/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/american-idol/season-24/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/americas-got-talent/season-21/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/animal-control/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/bar-rescue/season-10/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/bargain-hunt/season-74/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/beast-games/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/beast-games/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/bel-air/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/bergerac-2025/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/beyond-paradise/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/big-mood/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/black-ops/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/boarders/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/bridezillas/season-14/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/call-the-midwife/season-15/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/celebrity-iou/season-11/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/celebrity-jeopardy!/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/celebrity-masterchef/season-20/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/changing-ends/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/citadel/season-2/": {
+      "first_seen": "2026-11-04",
+      "ok": true
+    },
+    "https://www.metacritic.com/tv/come-dine-with-me/season-57/": {
+      "first_seen": "2026-11-04",
+      "ok": true
+    },
+    "https://www.metacritic.com/tv/countdown/season-93/": {
+      "first_seen": "2026-11-04",
+      "ok": true
+    },
+    "https://www.metacritic.com/tv/criminal-record/season-2/": {
+      "first_seen": "2026-11-04",
+      "ok": true
+    },
+    "https://www.metacritic.com/tv/dance-moms-a-new-era/season-2/": {
+      "first_seen": "2026-11-04",
+      "ok": true
+    },
+    "https://www.metacritic.com/tv/death-in-paradise/season-15/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/diners-drive-ins-dives/season-43/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/dinosaur-2024/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/dragons-den/season-23/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/dreaming-whilst-black/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/drops-of-god/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/extracted-2025/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/family-guy/season-24/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/farmer-wants-a-wife-2023/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/fbi-true/season-8/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/formula-1-drive-to-survive/season-8/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/frieren-beyond-journeys-end/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/from/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/full-swing/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/going-dutch/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/good-morning-america/season-52/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/grace/season-5/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/grace/season-6/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/gutfeld!/season-6/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/had-i-not-seen-the-sun/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/have-i-got-news-for-you-2024/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/heartbreak-high-2022/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/hidden-assets/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/hollywood-squares-2025/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/homicide-new-york/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/house-hunters-international/season-203/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/house-hunters-international/season-205/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/house-hunters-international/season-206/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/house-hunters-international/season-207/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/house-of-villains/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/inspector-ellis/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/jellystone!/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/jeopardy!/season-44/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/jeopardy!/season-45/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/jujutsu-kaisen/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/jurassic-world-chaos-theory/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/kapamilya-deal-or-no-deal/season-6/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/klovn/season-11/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/ladies-of-london-the-new-reign/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/last-week-tonight-with-john-oliver/season-13/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/law-order-toronto-criminal-intent/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/like-water-for-chocolate/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/live-at-the-apollo/season-20/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/lol-last-one-laughing-uk/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/love-is-blind/season-10/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/love-island-all-stars/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/love-island-beyond-the-villa/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/love-on-the-spectrum/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/lucy-worsley-investigates/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/malcolm-in-the-middle/season-8/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/martin-scorsese-presents-the-saints/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/masterchef-australia/season-18/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/masterchef/season-16/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/meet-the-press/season-80/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/midsomer-murders/season-25/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/million-dollar-secret/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/miss-scarlet/season-6/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/monsterquest/season-5/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/morning-joe/season-20/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/my-next-guest-needs-no-introduction-with-david-letterman/season-6/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/mystery-road-origin/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/naked-afraid/season-19/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/next-level-chef/season-5/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/owning-manhattan/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/password-2022/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/patience/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/prehistoric-planet/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/professor-t/season-5/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/project-runway-canada/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/queer-eye-2018/season-10/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/red-eye-2024/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/ring-of-honor-wrestling/season-18/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/running-wild-with-bear-grylls/season-9/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/rupauls-drag-race-all-stars/season-11/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/rupauls-drag-race/season-18/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/saturday-nights-main-event/season-10/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/school-spirits-2023/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/scrabble/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/sesame-street/season-56/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/shetland/season-10/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/shoresy/season-5/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/silent-witness/season-29/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/sisters-2023/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/southern-charm/season-11/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/star-wars-young-jedi-adventures/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/storage-wars/season-17/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/strictly-come-dancing-it-takes-two/season-23/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/summer-house/season-10/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/survivor/season-50/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/tales-of-the-teenage-mutant-ninja-turtles/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/tamron-hall/season-8/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/taskmaster/season-21/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/tehran/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/temptation-island-2025/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-1-club-2024/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-angry-video-game-nerd/season-20/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-apprentice-uk/season-20/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-artful-dodger/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-bachelorette/season-22/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-boyfriend/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-brokenwood-mysteries/season-12/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-capture/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-creep-tapes/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-daily-show/season-31/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-dog-house-uk/season-9/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-dry/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-first-48/season-29/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-floor/season-5/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-floor/season-7/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-good-ship-murder/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-great-american-baking-show-2023/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-great-pottery-throw-down/season-9/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-hotel-inspector/season-21/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-hunting-party-2025/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-masked-singer/season-14/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-quiz-with-balls/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-real-housewives-of-atlanta/season-17/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-real-housewives-of-beverly-hills/season-15/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-secret-lives-of-mormon-wives/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-sommerdahl-murders/season-7/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-traitors/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-upshaws/season-7/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-valley/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-voice/season-29/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-wall-2017/season-6/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-way-home/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/the-wonderfully-weird-world-of-gumball/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/this-morning/season-38/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/tomb-raider-the-legend-of-lara-croft/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/top-chef/season-23/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/trivial-pursuit/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/tyler-perrys-sistas/season-10/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/vanderpump-rules/season-12/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/vanderpump-villa/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/virgin-river/season-7/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/who-wants-to-be-a-millionaire-uk/season-41/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/wild-cards/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/will-trent/season-4/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/wondla/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/wwe-friday-night-smackdown!/season-28/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/wwe-monday-night-raw/season-34/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/wwe-nxt/season-20/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/wwe-unreal/season-2/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/xo-kitty/season-3/": {
+      "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/yo-gabba-gabbaland!/season-2/": {
+      "first_seen": "2026-11-04"
     }
   }
 }
