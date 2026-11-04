@@ -14613,6 +14613,34 @@
         "key": "5vri0LVrMIE",
         "checked": "2026-11-03"
       }
+    },
+    "https://www.metacritic.com/tv/the-greatest-2026/": {
+      "title": "The Greatest (2026)",
+      "score": 79,
+      "media": "tv",
+      "release_date": "Nov 4, 2026",
+      "emitted_at": "2026-11-04T03:29:33.840003+00:00",
+      "feed_date": "2026-11-04T03:29:33.840003+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9d266e5531e09048e2610800186350310e404bb6/catalog/provider/2/2/2-baef08548ceb2ef25410c43e0caf0e34.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/acfa3dc356a4c0e345e61085c4a3dd98dbea2203/catalog/provider/2/13/2-97baa2e606ebf69b6db893e242b6abbc.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "258989",
+        "checked": "2026-11-04"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "p0ktK7TYD88",
+        "checked": "2026-11-04"
+      }
     }
   },
   "seasons": {
@@ -15721,7 +15749,11 @@
       "first_seen": "2026-11-03"
     },
     "https://www.metacritic.com/tv/blue-eye-samurai/season-2/": {
-      "first_seen": "2026-11-03"
+      "first_seen": "2026-11-03",
+      "ok": true
+    },
+    "https://www.metacritic.com/tv/harry-potter-wizards-of-baking/season-3/": {
+      "first_seen": "2026-11-04"
     }
   }
 }
