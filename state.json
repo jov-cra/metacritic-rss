@@ -17262,7 +17262,8 @@
       "premiere": "Nov 2, 2026"
     },
     "https://www.metacritic.com/tv/the-fall-and-rise-of-reggie-dinkins/season-2/": {
-      "first_seen": "2026-10-27"
+      "first_seen": "2026-10-27",
+      "ok": true
     },
     "https://www.metacritic.com/tv/ncis/season-24/": {
       "first_seen": "2026-10-28",
@@ -17696,19 +17697,24 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/the-capture/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-creep-tapes/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-daily-show/season-31/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-dog-house-uk/season-9/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-dry/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-first-48/season-29/": {
       "first_seen": "2026-11-04"
