@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Thu, 05 Nov 2026 17:42:02 +0000</lastBuildDate>
+<lastBuildDate>Thu, 05 Nov 2026 22:56:54 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[64] The Last Temptation of Becky (Movie)</title>
+<link>https://www.metacritic.com/movie/the-last-temptation-of-becky/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/the-last-temptation-of-becky/</guid>
+<pubDate>Thu, 05 Nov 2026 22:56:54 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/e08e9b9f3f65323270c9f4ca808230aa7479173c/catalog/provider/2/13/2-ecd967910513435a995b7bcbd23ee7ae.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 60% positive</description>
+</item>
+<item>
+<title>[60] Crawlers (Leihen bei Apple TV Store ab 4,99 €)</title>
+<link>https://www.metacritic.com/movie/crawlers/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/crawlers/</guid>
+<pubDate>Thu, 05 Nov 2026 22:56:54 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/9d69bda48381903a4b706112dcbd935e16dc1b19/catalog/provider/2/13/2-de5580b723d54023d873b5a8b0cde0d6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 50% positive&lt;br /&gt;Streaming DE (JustWatch, 05.11.2026): leihen bei &lt;a href="https://tv.apple.com/de/movie/crawlers-im-netz-der-spinnen/umc.cmc.33tfsa1uyme7pgicxd60mvsa8?playableId=tvs.sbd.9001%3A6805947847"&gt;Apple TV Store&lt;/a&gt; ab 4,99 €; kaufen bei &lt;a href="https://tv.apple.com/de/movie/crawlers-im-netz-der-spinnen/umc.cmc.33tfsa1uyme7pgicxd60mvsa8?playableId=tvs.sbd.9001%3A6805947847"&gt;Apple TV Store&lt;/a&gt; ab 9,99 €&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=4DowjB87tRE"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[81] Black Doves: Season 2 (Netflix · Abo)</title>
 <link>https://www.metacritic.com/tv/black-doves/season-2/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c21f980592445391a48b32e08f6f37693ba49e44/catalog/provider/2/13/2-18073a50c70d92d69167d704e8674744.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 38% positive</description>
-</item>
-<item>
-<title>[90] Forastera (Movie)</title>
-<link>https://www.metacritic.com/movie/forastera/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/forastera/</guid>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/7fb71ec4fe30c5fb75f37da5ade2af42120abd0b/catalog/provider/2/13/2-3a1e8ff90b4f82e3fa9215fa86c4ed7d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 100% positive</description>
-</item>
-<item>
-<title>[77] Backrooms (Movie)</title>
-<link>https://www.metacritic.com/movie/backrooms/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/backrooms/</guid>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/c8f2634df7938c10df6145b820a45dfc3bd79dc2/catalog/provider/2/13/2-a5f98e39bd041176334c3b87de47aaa3.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;46 reviews · 83% positive</description>
 </item>
 </channel>
 </rss>

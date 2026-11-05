@@ -16231,6 +16231,75 @@
         "key": "MOU2thjq6Z0",
         "checked": "2026-11-05"
       }
+    },
+    "https://www.metacritic.com/movie/the-last-temptation-of-becky/": {
+      "title": "The Last Temptation of Becky",
+      "score": 64,
+      "media": "movie",
+      "release_date": "Nov 4, 2026",
+      "emitted_at": "2026-11-05T22:56:54.235187+00:00",
+      "feed_date": "2026-11-05T22:56:54.235187+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/900a71d7928cd245e6b791420bb309bfd7eec8c6/catalog/provider/7/2/7-1792595078.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/e08e9b9f3f65323270c9f4ca808230aa7479173c/catalog/provider/2/13/2-ecd967910513435a995b7bcbd23ee7ae.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-05"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/crawlers/": {
+      "title": "Crawlers",
+      "score": 60,
+      "media": "movie",
+      "release_date": "Oct 16, 2026",
+      "emitted_at": "2026-11-05T22:56:54.235187+00:00",
+      "feed_date": "2026-11-05T22:56:54.235187+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f3a570a0f1c317d32d6260c3cb68324b5eb8809c/catalog/provider/5/2/5-tt32329539.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 50,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/9d69bda48381903a4b706112dcbd935e16dc1b19/catalog/provider/2/13/2-de5580b723d54023d873b5a8b0cde0d6.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "rent_from": 3.99,
+          "rent_at": "MagentaTV",
+          "buy_from": 9.99,
+          "buy_at": "Amazon Video",
+          "rent": {
+            "shop": "Apple TV Store",
+            "price": 4.99,
+            "url": "https://tv.apple.com/de/movie/crawlers-im-netz-der-spinnen/umc.cmc.33tfsa1uyme7pgicxd60mvsa8?playableId=tvs.sbd.9001%3A6805947847"
+          },
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 9.99,
+            "url": "https://tv.apple.com/de/movie/crawlers-im-netz-der-spinnen/umc.cmc.33tfsa1uyme7pgicxd60mvsa8?playableId=tvs.sbd.9001%3A6805947847"
+          }
+        },
+        "tmdb": "1376400",
+        "checked": "2026-11-05"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "4DowjB87tRE",
+        "checked": "2026-11-05"
+      }
     }
   },
   "seasons": {
@@ -16382,7 +16451,8 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/abbott-elementary/season-6/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/adventure-time-side-quests/season-2/": {
       "first_seen": "2026-10-21",
@@ -17339,16 +17409,20 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/after-the-flood/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/american-dad!/season-20/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/american-idol/season-24/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/americas-got-talent/season-21/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/animal-control/season-4/": {
       "first_seen": "2026-11-04"
@@ -17869,6 +17943,9 @@
     },
     "https://www.metacritic.com/tv/yo-gabba-gabbaland!/season-2/": {
       "first_seen": "2026-11-04"
+    },
+    "https://www.metacritic.com/tv/off-campus/season-2/": {
+      "first_seen": "2026-11-05"
     }
   }
 }
