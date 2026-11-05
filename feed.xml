@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Wed, 04 Nov 2026 18:55:17 +0000</lastBuildDate>
+<lastBuildDate>Thu, 05 Nov 2026 17:42:02 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[81] Black Doves: Season 2 (Netflix · Abo)</title>
+<link>https://www.metacritic.com/tv/black-doves/season-2/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/black-doves/season-2/</guid>
+<pubDate>Thu, 05 Nov 2026 17:42:02 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/ebd8f9061c4947541237d7652c89c0d913a46f99/catalog/provider/2/13/2-c69437a5b8d6f89f9f5cb63b55cb5775.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 100% positive&lt;br /&gt;Streaming DE (JustWatch, 05.11.2026): im Abo bei Netflix&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=MOU2thjq6Z0"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[69] Your Friends &amp; Neighbors: Season 2 (Apple TV · Abo)</title>
 <link>https://www.metacritic.com/tv/your-friends-neighbors/season-2/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c8f2634df7938c10df6145b820a45dfc3bd79dc2/catalog/provider/2/13/2-a5f98e39bd041176334c3b87de47aaa3.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;46 reviews · 83% positive</description>
-</item>
-<item>
-<title>[74] I Am Frankelda (Movie)</title>
-<link>https://www.metacritic.com/movie/i-am-frankelda/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/i-am-frankelda/</guid>
-<pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/25a1223ba4ab7b0c9bd1bbb1cc63508d0f7ba652/catalog/provider/7/2/7-1779858317.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 73% positive</description>
 </item>
 </channel>
 </rss>
