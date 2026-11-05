@@ -17092,7 +17092,8 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/the-tonight-show-starring-jimmy-fallon/season-14/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-traitors/season-5/": {
       "first_seen": "2026-10-21"
@@ -17753,13 +17754,16 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/the-secret-lives-of-mormon-wives/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-sommerdahl-murders/season-7/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-traitors/season-4/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-upshaws/season-7/": {
       "first_seen": "2026-11-04"
