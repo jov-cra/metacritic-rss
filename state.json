@@ -18232,13 +18232,16 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/owning-manhattan/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/password-2022/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/patience/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/prehistoric-planet/season-3/": {
       "first_seen": "2026-11-04"
@@ -18489,13 +18492,17 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/off-campus/season-2/": {
-      "first_seen": "2026-11-05"
+      "first_seen": "2026-11-05",
+      "ok": true
     },
     "https://www.metacritic.com/tv/heated-rivalry/season-2/": {
       "first_seen": "2026-11-06",
       "ok": true
     },
     "https://www.metacritic.com/tv/return-to-paradise/season-3/": {
+      "first_seen": "2026-11-06"
+    },
+    "https://www.metacritic.com/tv/americas-funniest-home-videos/season-37/": {
       "first_seen": "2026-11-06"
     }
   }
