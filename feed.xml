@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Fri, 06 Nov 2026 11:38:35 +0000</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 23:50:33 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[62] A. Rimbaud (Movie)</title>
+<link>https://www.metacritic.com/movie/a-rimbaud/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/a-rimbaud/</guid>
+<pubDate>Fri, 06 Nov 2026 23:50:33 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/95aa8071e0b38269cd09ba82e6cb5e0b2fe04a98/catalog/provider/2/13/2-2ac4f013e2a82655fe412c2b2d6a84d1.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 50% positive</description>
+</item>
 <item>
 <title>[82] North of North: Season 2 (Netflix · Abo)</title>
 <link>https://www.metacritic.com/tv/north-of-north/season-2/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/88881e742c4d504b16839d79e9bce2242c156a20/catalog/provider/5/2/5-tt36639420.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 75% positive</description>
-</item>
-<item>
-<title>[75] Carolina Caroline (Movie)</title>
-<link>https://www.metacritic.com/movie/carolina-caroline/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/carolina-caroline/</guid>
-<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/2f75a86aa6f3e3e805a9aebe45aced67c1698fc0/catalog/provider/7/2/7-1757603251.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 93% positive</description>
 </item>
 </channel>
 </rss>
