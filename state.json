@@ -16300,6 +16300,518 @@
         "key": "4DowjB87tRE",
         "checked": "2026-11-05"
       }
+    },
+    "https://www.metacritic.com/movie/nuisance-bear/": {
+      "title": "Nuisance Bear",
+      "score": 65,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c77a93588d45d461e061a0110858df6103c80f43/catalog/provider/7/2/7-1792000188.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 63,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/eaf7a18b15a240b5b5589782615d781d2b3d244f/catalog/provider/7/2/7-1792000244.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/being-heumann/": {
+      "title": "Being Heumann",
+      "score": 66,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/990e04c6ee4504bd8476775c196bf819282c9d9b/catalog/provider/2/13/2-bef94238ecdbb98ee506ae7359450ee3.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 21,
+        "pos": 57,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/ea20a1acbd72e04a5c528f39a584aa3e875382bf/catalog/provider/5/2/5-tt15095848.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1050981",
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "CQp2pUXLvJk",
+        "checked": "2026-11-06"
+      }
+    },
+    "https://www.metacritic.com/movie/jimmy/": {
+      "title": "Jimmy",
+      "score": 39,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/67a882e990cb6d3de910379db7010ea432ba07dd/catalog/provider/5/2/5-tt31179962.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7705671904c74185d88067d22566cf3bb3d81d4e/catalog/provider/5/2/5-tt31179962.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/zi/": {
+      "title": "Zi",
+      "score": 66,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e3eccdaeb363ee49dd16ae8656f33611a83d2bd6/catalog/provider/7/2/7-1792688726.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 64,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/fba978979a360027147ad9441c938c551bd92f15/catalog/provider/7/2/7-1767718000.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/paradise-lost/": {
+      "title": "Paradise Lost",
+      "score": 56,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e5a95036c6067f4772f7ea22753bdd0d564c09f9/catalog/provider/5/2/5-tt43658893.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 60,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2b30d9e89394f7ba6f82d9cd4a9d313ed7d650e0/catalog/provider/7/2/7-1789930319.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/everytime/": {
+      "title": "Everytime",
+      "score": 90,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a9042e94b914e583a1c9ba65364ea259fed602db/catalog/provider/5/2/5-tt41592057.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2788d3f5c9590c3a362c8fc58d8d054d1b9ac9de/catalog/provider/7/2/7-1779493168.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1655419",
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "B4FsfG-TzEw",
+        "checked": "2026-11-06"
+      }
+    },
+    "https://www.metacritic.com/movie/the-liberation/": {
+      "title": "The Liberation",
+      "score": 70,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/75cb68637f37a80550c7af2bac87e9729ec5da3e/catalog/provider/5/2/5-tt8613988.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 63,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/293f7f4412d17c4a8d018665066d9a1cfbde982d/catalog/provider/5/2/5-tt8613988.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/mouse/": {
+      "title": "Mouse",
+      "score": 87,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/37e9bfda190395a712099d2222f81082d660b85e/catalog/provider/2/13/2-c610b6425989179c32603a3b338d2b9a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/379373d9b410e71a4927d9410340a2579787f99b/catalog/provider/5/2/5-tt13652154.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/soul-patrol/": {
+      "title": "Soul Patrol",
+      "score": 76,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/12c1f8bd12cfd6dce317e38e6e85c2cdce63a3cd/catalog/provider/5/2/5-tt38952225.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a401ba3c51f23ba96ef4c55f2cb6888eb4713d06/catalog/provider/5/2/5-tt38952225.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/hen/": {
+      "title": "Hen",
+      "score": 79,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/42bd20230ec4dc89d8482b234d5956b3fc3084ea/catalog/provider/7/2/7-1793373060.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/cc9cb5e08c6657b29738e022885f5b7d8f5beeaf/catalog/provider/7/2/7-1793373133.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1382513",
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "Zd9CGEUsIFA",
+        "checked": "2026-11-06"
+      }
+    },
+    "https://www.metacritic.com/movie/ramayana-rise-of-a-legend/": {
+      "title": "Ramayana: Rise of a Legend",
+      "score": 63,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/055feb988b190b44a90845a700cb8ce6ec906ab2/catalog/provider/7/2/7-1793368610.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 57,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7ac3c501072dd5b60f2ecded7fcdbaf29bf5a2f7/catalog/provider/2/13/2-a7d1d5dbe55561242df2b4552dad62f4.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "tmdb": "656908",
+        "titles": [
+          "Ramayana: Rise of a Legend",
+          "रामायणम्"
+        ],
+        "year": 2026,
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "AYkPRN874m8",
+        "checked": "2026-11-06"
+      },
+      "kino": {
+        "v": 1,
+        "checked": "2026-11-06",
+        "shows": []
+      }
+    },
+    "https://www.metacritic.com/movie/de-gaulle-part-i-resistance/": {
+      "title": "De Gaulle Part I: Resistance",
+      "score": 73,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f1dc4073235ba6211a3f54a708659ba9c5cd20cd/catalog/provider/7/2/7-1793372538.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/dea7064bb85cff430e60873932c44596bbe45cc7/catalog/provider/2/13/2-a00a8d141ba6414c35712f8fb3eb6d33.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/club-kid/": {
+      "title": "Club Kid",
+      "score": 82,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1380d2ec8f82e9905baa7f9767fd3333f04ad243/catalog/provider/7/2/7-1787142909.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 22,
+        "pos": 95,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a7a6368c189fd3bf3fe6e2d6be023a00024e876c/catalog/provider/2/13/2-70f7460cafeedc4383de52892fa0ebc5.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1585239",
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "guKEdb_iRXw",
+        "checked": "2026-11-06"
+      }
+    },
+    "https://www.metacritic.com/movie/godzilla-minus-zero/": {
+      "title": "Godzilla Minus Zero",
+      "score": 74,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/230da43cac423057544df382c9c57fe72a1095c8/catalog/provider/5/2/5-tt34384661.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 35,
+        "pos": 77,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/0ebfc851ff18f5e4f7dee05d1daca731816411b9/catalog/provider/2/13/2-5be6bdbc0348a6c151bd059512a2e3a5.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "tmdb": "1381071",
+        "titles": [
+          "Godzilla Minus Zero",
+          "ゴジラ-0.0"
+        ],
+        "year": 2026,
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "pWJjYoqVSjQ",
+        "checked": "2026-11-06"
+      },
+      "kino": {
+        "v": 1,
+        "checked": "2026-11-06",
+        "shows": [
+          {
+            "datum": "2026-11-06",
+            "zeit": "17:30",
+            "kino": "Cinema Filmtheater",
+            "fassung": "OmeU",
+            "url": "https://webshop.cinema-muenchen.de/landingpage?center=30000000014BPIBFDE&language=DE&page=seatingplan&performance=0AA50000023BPIBFDE",
+            "art": "vorstellung"
+          },
+          {
+            "datum": "2026-11-08",
+            "zeit": "14:30",
+            "kino": "Cinema Filmtheater",
+            "fassung": "OmeU",
+            "url": "https://webshop.cinema-muenchen.de/landingpage?center=30000000014BPIBFDE&language=DE&page=seatingplan&performance=FAA50000023BPIBFDE",
+            "art": "vorstellung"
+          }
+        ]
+      }
+    },
+    "https://www.metacritic.com/movie/the-cat-in-the-hat-2026/": {
+      "title": "The Cat in the Hat",
+      "score": 46,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d3de42de06cf609bce4bb6a4b614df52b87dd2cf/catalog/provider/5/2/5-tt2321555.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 23,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/9e0b134be5273e004223bd6605f574298630b73e/catalog/provider/2/13/2-c7fc19523e0677beed507fa886984c00.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1117898",
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "tkZpcypT8Z4",
+        "checked": "2026-11-06"
+      }
+    },
+    "https://www.metacritic.com/movie/i-play-rocky/": {
+      "title": "I Play Rocky",
+      "score": 67,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/73315e083d6bd1ee8b1dafebefd436141e00cf06/catalog/provider/7/2/7-1788910138.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 27,
+        "pos": 78,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/8e9ab252218b5bbd521621b0199c91b76dc6d0cd/catalog/provider/7/2/7-1767717466.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "tmdb": "1286656",
+        "titles": [
+          "I Play Rocky"
+        ],
+        "year": 2026,
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "jq5oCjhQtIc",
+        "checked": "2026-11-06"
+      },
+      "kino": {
+        "v": 1,
+        "checked": "2026-11-06",
+        "shows": []
+      }
+    },
+    "https://www.metacritic.com/movie/wild-horse-nine/": {
+      "title": "Wild Horse Nine",
+      "score": 78,
+      "media": "movie",
+      "release_date": "Nov 6, 2026",
+      "emitted_at": "2026-11-06T03:49:24.207562+00:00",
+      "feed_date": "2026-11-06T03:49:24.207562+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ca7bcc85a7946c6ecb4bb31e6b20a6e7844071e6/catalog/provider/7/2/7-1790285433.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 48,
+        "pos": 90,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b3062ed446f2ed09e3a4b55b84d8df9a09d191b8/catalog/provider/7/2/7-1773946989.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "891621",
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "kqxuamKxRTo",
+        "checked": "2026-11-06"
+      }
     }
   },
   "seasons": {
@@ -17556,10 +18068,12 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/have-i-got-news-for-you-2024/season-4/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/heartbreak-high-2022/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/hidden-assets/season-3/": {
       "first_seen": "2026-11-04"
@@ -17946,6 +18460,13 @@
     },
     "https://www.metacritic.com/tv/off-campus/season-2/": {
       "first_seen": "2026-11-05"
+    },
+    "https://www.metacritic.com/tv/heated-rivalry/season-2/": {
+      "first_seen": "2026-11-06",
+      "ok": true
+    },
+    "https://www.metacritic.com/tv/return-to-paradise/season-3/": {
+      "first_seen": "2026-11-06"
     }
   }
 }
