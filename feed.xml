@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Fri, 06 Nov 2026 03:49:24 +0000</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 11:38:35 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[82] North of North: Season 2 (Netflix · Abo)</title>
+<link>https://www.metacritic.com/tv/north-of-north/season-2/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/north-of-north/season-2/</guid>
+<pubDate>Fri, 06 Nov 2026 11:38:35 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/31262aa47d37217fc508639051447dda7930b147/catalog/provider/2/2/2-07fd1894908e6dbc6545e99572b44b8d.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive&lt;br /&gt;Streaming DE (JustWatch, 06.11.2026): im Abo bei Netflix&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=JOMS_m5Iqos"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[66] Zi (Movie)</title>
 <link>https://www.metacritic.com/movie/zi/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/2f75a86aa6f3e3e805a9aebe45aced67c1698fc0/catalog/provider/7/2/7-1757603251.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 93% positive</description>
-</item>
-<item>
-<title>[72] Another World (Movie)</title>
-<link>https://www.metacritic.com/movie/another-world-2026/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/another-world-2026/</guid>
-<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/9f53d1e8d3df3604afeeea360f1191299e86cfa7/catalog/provider/7/2/7-1769537833.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 80% positive</description>
 </item>
 </channel>
 </rss>

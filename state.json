@@ -16812,6 +16812,38 @@
         "key": "kqxuamKxRTo",
         "checked": "2026-11-06"
       }
+    },
+    "https://www.metacritic.com/tv/north-of-north/season-2/": {
+      "title": "North of North: Season 2",
+      "score": 82,
+      "media": "tv",
+      "release_date": "Sep 8, 2026",
+      "emitted_at": "2026-11-06T11:38:35.713698+00:00",
+      "feed_date": "2026-11-06T11:38:35.713698+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5d025a2d3fc8217d2baf7bf41bbe827c8ecb3177/catalog/provider/7/2/7-1743206788.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/31262aa47d37217fc508639051447dda7930b147/catalog/provider/2/2/2-07fd1894908e6dbc6545e99572b44b8d.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "249023",
+        "checked": "2026-11-06"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "JOMS_m5Iqos",
+        "checked": "2026-11-06"
+      }
     }
   },
   "seasons": {
@@ -16856,11 +16888,6 @@
     },
     "https://www.metacritic.com/tv/miss-scarlet-the-duke/season-7/": {
       "first_seen": "2026-10-17"
-    },
-    "https://www.metacritic.com/tv/north-of-north/season-2/": {
-      "first_seen": "2026-10-17",
-      "ok": true,
-      "premiere": "Sep 8, 2026"
     },
     "https://www.metacritic.com/tv/only-murders-in-the-building/season-6/": {
       "first_seen": "2026-10-17",
@@ -18339,13 +18366,16 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/the-first-48/season-29/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-floor/season-5/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-floor/season-7/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-good-ship-murder/season-3/": {
       "first_seen": "2026-11-04"
