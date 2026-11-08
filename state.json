@@ -18488,13 +18488,16 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/top-chef/season-23/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/trivial-pursuit/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/tyler-perrys-sistas/season-10/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/vanderpump-rules/season-12/": {
       "first_seen": "2026-11-04"
@@ -18560,6 +18563,9 @@
     },
     "https://www.metacritic.com/tv/ncis-origins/season-3/": {
       "first_seen": "2026-11-07"
+    },
+    "https://www.metacritic.com/tv/chicago-med/season-12/": {
+      "first_seen": "2026-11-08"
     }
   }
 }
