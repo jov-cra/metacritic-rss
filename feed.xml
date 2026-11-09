@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Fri, 06 Nov 2026 23:50:33 +0000</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 20:13:13 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[20] All's Fair (2025): Season 2 (Disney+ · Abo)</title>
+<link>https://www.metacritic.com/tv/alls-fair-2025/season-2/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/alls-fair-2025/season-2/</guid>
+<pubDate>Mon, 09 Nov 2026 20:13:13 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/6a59bc45e2fc3a727ec96fa48533b5e503a1453c/catalog/provider/2/13/2-ae5a81d2f31aaebd336b743724d9a0eb.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 0% positive&lt;br /&gt;Streaming DE (JustWatch, 09.11.2026): im Abo bei Disney+&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=4jaAI0O1z9g"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[62] A. Rimbaud (Movie)</title>
 <link>https://www.metacritic.com/movie/a-rimbaud/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/9395b6d4161d6aa3d7739461303b657ac45059bd/catalog/provider/7/2/7-1777389551.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;44 reviews · 41% positive</description>
-</item>
-<item>
-<title>[73] Jinsei (Movie)</title>
-<link>https://www.metacritic.com/movie/jinsei/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/jinsei/</guid>
-<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/88881e742c4d504b16839d79e9bce2242c156a20/catalog/provider/5/2/5-tt36639420.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 75% positive</description>
 </item>
 </channel>
 </rss>

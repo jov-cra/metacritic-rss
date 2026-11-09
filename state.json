@@ -16870,14 +16870,41 @@
         "key": null,
         "no_id": true
       }
+    },
+    "https://www.metacritic.com/tv/alls-fair-2025/season-2/": {
+      "title": "All's Fair (2025): Season 2",
+      "score": 20,
+      "media": "tv",
+      "release_date": "Nov 4, 2026",
+      "emitted_at": "2026-11-09T20:13:13.368777+00:00",
+      "feed_date": "2026-11-09T20:13:13.368777+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5229832cdbc8b8bacf51a2b471e63a22066ac3fa/catalog/provider/2/2/2-6cea00a106c00b2afc799b83b2e51ca9.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/6a59bc45e2fc3a727ec96fa48533b5e503a1453c/catalog/provider/2/13/2-ae5a81d2f31aaebd336b743724d9a0eb.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Disney+"
+          ]
+        },
+        "tmdb": "258742",
+        "checked": "2026-11-09"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "4jaAI0O1z9g",
+        "checked": "2026-11-09"
+      }
     }
   },
   "seasons": {
-    "https://www.metacritic.com/tv/alls-fair-2025/season-2/": {
-      "first_seen": "2026-10-17",
-      "ok": true,
-      "premiere": "Nov 4, 2026"
-    },
     "https://www.metacritic.com/tv/bad-monkey/season-2/": {
       "first_seen": "2026-10-17",
       "ok": true,
@@ -17148,10 +17175,12 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/celebrity-wheel-of-fortune/season-7/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/chicago-fire/season-15/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/chicago-pd/season-14/": {
       "first_seen": "2026-10-21"
@@ -18043,16 +18072,20 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/celebrity-iou/season-11/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/celebrity-jeopardy!/season-4/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/celebrity-masterchef/season-20/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/changing-ends/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/citadel/season-2/": {
       "first_seen": "2026-11-04",
