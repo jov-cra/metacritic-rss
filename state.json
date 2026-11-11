@@ -16973,6 +16973,64 @@
         "key": "maP_Kyy3DCA",
         "checked": "2026-11-11"
       }
+    },
+    "https://www.metacritic.com/movie/ghost-soldier/": {
+      "title": "Ghost Soldier",
+      "score": 46,
+      "media": "movie",
+      "release_date": "Nov 11, 2026",
+      "emitted_at": "2026-11-11T23:44:55.117258+00:00",
+      "feed_date": "2026-11-11T23:44:55.117258+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/3100c389f93737a87eb7e411e5f9e7d32b2b3801/catalog/provider/5/2/5-tt38686316.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/bfa7028a2d04466032d8df0a545c248d6ac627ab/catalog/provider/2/2/2-7f5980d373ed87abf2d26674a18243b7.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-11"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/tv/the-body/": {
+      "title": "The Body",
+      "score": 70,
+      "media": "tv",
+      "release_date": "Nov 11, 2026",
+      "emitted_at": "2026-11-11T23:44:55.117258+00:00",
+      "feed_date": "2026-11-11T23:44:55.117258+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/9e6cde0c7920919b0fe3b9df7190ab02f250c57b/catalog/provider/2/2/2-acfb55ce4e6bbd24bf53531458e7dbe2.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 8,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/168dd225fffe557e555fe765c0e8d1d9ca50e384/catalog/provider/2/13/2-e77403a80c409336fdb2579d1e5ca130.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "291507",
+        "checked": "2026-11-11"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "wl7uj7n7DoY",
+        "checked": "2026-11-11"
+      }
     }
   },
   "seasons": {
@@ -17249,7 +17307,8 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/chicago-pd/season-14/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/conan-obrien-must-go/season-3/": {
       "first_seen": "2026-10-21",
@@ -18689,7 +18748,8 @@
       "first_seen": "2026-11-07"
     },
     "https://www.metacritic.com/tv/chicago-med/season-12/": {
-      "first_seen": "2026-11-08"
+      "first_seen": "2026-11-08",
+      "ok": true
     },
     "https://www.metacritic.com/tv/southern-charm/season-12/": {
       "first_seen": "2026-11-10",
@@ -18703,7 +18763,8 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/cia/season-2/": {
-      "first_seen": "2026-11-11"
+      "first_seen": "2026-11-11",
+      "ok": true
     }
   }
 }

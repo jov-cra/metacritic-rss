@@ -5,8 +5,24 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Wed, 11 Nov 2026 00:16:44 +0000</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 23:44:55 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[70] The Body (Netflix · Abo)</title>
+<link>https://www.metacritic.com/tv/the-body/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-body/</guid>
+<pubDate>Wed, 11 Nov 2026 23:44:55 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/168dd225fffe557e555fe765c0e8d1d9ca50e384/catalog/provider/2/13/2-e77403a80c409336fdb2579d1e5ca130.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;8 reviews · 75% positive&lt;br /&gt;Streaming DE (JustWatch, 11.11.2026): im Abo bei Netflix&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=wl7uj7n7DoY"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
+<item>
+<title>[46] Ghost Soldier (Movie)</title>
+<link>https://www.metacritic.com/movie/ghost-soldier/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/ghost-soldier/</guid>
+<pubDate>Wed, 11 Nov 2026 23:44:55 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/bfa7028a2d04466032d8df0a545c248d6ac627ab/catalog/provider/2/2/2-7f5980d373ed87abf2d26674a18243b7.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 0% positive</description>
+</item>
 <item>
 <title>[73] The Lord of the Rings: The Rings of Power: Season 3 (ZDF · gratis | Prime Video · Abo, nur ältere Staffeln)</title>
 <link>https://www.metacritic.com/tv/the-lord-of-the-rings-the-rings-of-power/season-3/</link>
@@ -3990,22 +4006,6 @@
 <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/3000f1891db644215d2f54f942675c7912c8ea61/catalog/provider/2/13/2-052e3110b11f17c5fd0b8f41b91cf02c.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
-</item>
-<item>
-<title>[38] Scary Movie (Movie)</title>
-<link>https://www.metacritic.com/movie/scary-movie-6/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/scary-movie-6/</guid>
-<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/f0589dcd31ae78a54c4264fed9086b8860985f38/catalog/provider/7/2/7-1780592739.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;27 reviews · 0% positive</description>
-</item>
-<item>
-<title>[54] Savage House (Movie)</title>
-<link>https://www.metacritic.com/movie/savage-house/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/savage-house/</guid>
-<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/f667d4dfa550f075d45e026e77c2758b65b649fa/catalog/provider/2/13/2-db24ef2e026abe4ee774d0dce8173094.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews</description>
 </item>
 </channel>
 </rss>
