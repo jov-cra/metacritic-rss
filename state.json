@@ -16902,6 +16902,77 @@
         "key": "4jaAI0O1z9g",
         "checked": "2026-11-09"
       }
+    },
+    "https://www.metacritic.com/movie/avedon/": {
+      "title": "Avedon",
+      "score": 72,
+      "media": "movie",
+      "release_date": "Nov 11, 2026",
+      "emitted_at": "2026-11-11T00:16:44.382806+00:00",
+      "feed_date": "2026-11-11T00:16:44.382806+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ac798183dd429414775fb6de1a3a79361c053907/catalog/provider/5/2/5-tt41593493.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/c7948a664899018de334104ce6c1a249da17d5fd/catalog/provider/7/2/7-1779336861.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1666787",
+        "checked": "2026-11-11"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "checked": "2026-11-11"
+      }
+    },
+    "https://www.metacritic.com/tv/the-lord-of-the-rings-the-rings-of-power/season-3/": {
+      "title": "The Lord of the Rings: The Rings of Power: Season 3",
+      "score": 73,
+      "media": "tv",
+      "release_date": "Nov 11, 2026",
+      "emitted_at": "2026-11-11T00:16:44.382806+00:00",
+      "feed_date": "2026-11-11T00:16:44.382806+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2d3d7febad347acbbb35d0a3489ed583c9716a52/catalog/provider/2/2/2-6edb1d77642bc25a0cc7ecfcf3bb4a24.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 11,
+        "pos": 64,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a6f6441482e00b447f7b3f18464adfdd0f613563/catalog/provider/2/2/2-0b74821e0e0575707e283f3062c2a2c0.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "free": [
+            "ZDF"
+          ],
+          "flat": [
+            "Prime Video"
+          ],
+          "rent_from": 4.49,
+          "rent_at": "Videobuster",
+          "rent": {
+            "shop": "Videobuster",
+            "price": 4.49,
+            "url": null
+          },
+          "older": true
+        },
+        "tmdb": "84773",
+        "checked": "2026-11-11"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "maP_Kyy3DCA",
+        "checked": "2026-11-11"
+      }
     }
   },
   "seasons": {
@@ -16980,11 +17051,6 @@
       "first_seen": "2026-10-17",
       "ok": true,
       "premiere": "Nov 8, 2026"
-    },
-    "https://www.metacritic.com/tv/the-lord-of-the-rings-the-rings-of-power/season-3/": {
-      "first_seen": "2026-10-17",
-      "ok": true,
-      "premiere": "Nov 11, 2026"
     },
     "https://www.metacritic.com/tv/the-madame-blanc-mysteries/season-5/": {
       "first_seen": "2026-10-17",
@@ -18425,22 +18491,28 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/the-angry-video-game-nerd/season-20/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-apprentice-uk/season-20/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-artful-dodger/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-bachelorette/season-22/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-boyfriend/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-brokenwood-mysteries/season-12/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-capture/season-3/": {
       "first_seen": "2026-11-04",
