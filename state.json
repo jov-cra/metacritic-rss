@@ -18382,7 +18382,8 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/next-level-chef/season-5/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/owning-manhattan/season-2/": {
       "first_seen": "2026-11-04",
@@ -18691,6 +18692,13 @@
     },
     "https://www.metacritic.com/tv/southern-charm/season-12/": {
       "first_seen": "2026-11-10",
+      "ok": true
+    },
+    "https://www.metacritic.com/tv/its-florida-man/season-3/": {
+      "first_seen": "2026-11-11"
+    },
+    "https://www.metacritic.com/tv/overcompensating/season-2/": {
+      "first_seen": "2026-11-11",
       "ok": true
     }
   }
