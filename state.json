@@ -18114,7 +18114,8 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/bergerac-2025/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/beyond-paradise/season-4/": {
       "first_seen": "2026-11-04",
@@ -18700,6 +18701,9 @@
     "https://www.metacritic.com/tv/overcompensating/season-2/": {
       "first_seen": "2026-11-11",
       "ok": true
+    },
+    "https://www.metacritic.com/tv/cia/season-2/": {
+      "first_seen": "2026-11-11"
     }
   }
 }
