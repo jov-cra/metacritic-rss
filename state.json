@@ -18739,7 +18739,8 @@
       "first_seen": "2026-11-06"
     },
     "https://www.metacritic.com/tv/americas-funniest-home-videos/season-37/": {
-      "first_seen": "2026-11-06"
+      "first_seen": "2026-11-06",
+      "ok": true
     },
     "https://www.metacritic.com/tv/high-potential/season-3/": {
       "first_seen": "2026-11-06"
@@ -18773,6 +18774,15 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/shetland/season-11/": {
+      "first_seen": "2026-11-12"
+    },
+    "https://www.metacritic.com/tv/memory-of-a-killer/season-2/": {
+      "first_seen": "2026-11-12"
+    },
+    "https://www.metacritic.com/tv/midsomer-murders/season-26/": {
+      "first_seen": "2026-11-12"
+    },
+    "https://www.metacritic.com/tv/murder-in-a-small-town/season-3/": {
       "first_seen": "2026-11-12"
     }
   }
