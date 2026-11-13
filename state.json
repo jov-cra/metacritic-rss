@@ -17241,6 +17241,38 @@
         "checked": "2026-11-13",
         "shows": []
       }
+    },
+    "https://www.metacritic.com/movie/heartland-2026/": {
+      "title": "Heartland",
+      "score": 53,
+      "media": "movie",
+      "release_date": "Nov 13, 2026",
+      "emitted_at": "2026-11-13T18:49:59.771316+00:00",
+      "feed_date": "2026-11-13T18:49:59.771316+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a0da2f290ed178e327a139b9e629ea45e55cb61a/catalog/provider/5/2/5-tt38213251.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 40,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7b1887f0940e3f42128a21db1d8d8c11413d214e/catalog/provider/7/2/7-1793201164.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "1543469",
+        "checked": "2026-11-13"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "ziIz59enN1c",
+        "checked": "2026-11-13"
+      }
     }
   },
   "seasons": {
@@ -18994,6 +19026,9 @@
     },
     "https://www.metacritic.com/tv/murder-in-a-small-town/season-3/": {
       "first_seen": "2026-11-12"
+    },
+    "https://www.metacritic.com/tv/criminal-minds/season-19/": {
+      "first_seen": "2026-11-13"
     }
   }
 }
