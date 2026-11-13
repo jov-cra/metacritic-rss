@@ -17031,6 +17031,216 @@
         "key": "wl7uj7n7DoY",
         "checked": "2026-11-11"
       }
+    },
+    "https://www.metacritic.com/movie/ebenezer/": {
+      "title": "Ebenezer",
+      "score": 46,
+      "media": "movie",
+      "release_date": "Nov 13, 2026",
+      "emitted_at": "2026-11-13T02:16:51.652500+00:00",
+      "feed_date": "2026-11-13T02:16:51.652500+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/cb9640e17696273a0bb5481c7d9d4618057ff361/catalog/provider/7/2/7-1792016189.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 32,
+        "pos": 19,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/40ad8e6b958e4c33b1a0355cfcebe5e1ecb471d5/catalog/provider/7/2/7-1784906121.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "tmdb": "1567605",
+        "titles": [
+          "Ebenezer"
+        ],
+        "year": 2026,
+        "checked": "2026-11-13"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "l_Ozo1xUgbU",
+        "checked": "2026-11-13"
+      },
+      "kino": {
+        "v": 1,
+        "checked": "2026-11-13",
+        "shows": [
+          {
+            "datum": "2026-11-13",
+            "zeit": "15:00",
+            "kino": "Cinema Filmtheater",
+            "fassung": "OV",
+            "url": "https://webshop.cinema-muenchen.de/landingpage?center=30000000014BPIBFDE&language=DE&page=seatingplan&performance=ACA50000023BPIBFDE",
+            "art": "vorstellung"
+          },
+          {
+            "datum": "2026-11-14",
+            "zeit": "15:00",
+            "kino": "Cinema Filmtheater",
+            "fassung": "OV",
+            "url": "https://webshop.cinema-muenchen.de/landingpage?center=30000000014BPIBFDE&language=DE&page=seatingplan&performance=9DA50000023BPIBFDE",
+            "art": "vorstellung"
+          },
+          {
+            "datum": "2026-11-15",
+            "zeit": "21:45",
+            "kino": "Cinema Filmtheater",
+            "fassung": "OV",
+            "url": "https://webshop.cinema-muenchen.de/landingpage?center=30000000014BPIBFDE&language=DE&page=seatingplan&performance=0EA50000023BPIBFDE",
+            "art": "vorstellung"
+          }
+        ]
+      }
+    },
+    "https://www.metacritic.com/movie/how-to-rob-a-bank-2026/": {
+      "title": "How to Rob a Bank",
+      "score": 47,
+      "media": "movie",
+      "release_date": "Nov 13, 2026",
+      "emitted_at": "2026-11-13T02:16:51.652500+00:00",
+      "feed_date": "2026-11-13T02:16:51.652500+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/8837b8fd3b9f45e446cec5e4e5a8b9b4743346cb/catalog/provider/7/2/7-1789659392.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 24,
+        "pos": 21,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/1f62b1476e8e8e0c7a92c15435a08453472195f0/catalog/provider/7/2/7-1794503588.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "tmdb": "1437511",
+        "titles": [
+          "How to Rob a Bank"
+        ],
+        "year": 2026,
+        "checked": "2026-11-13"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "MVvWKh336m4",
+        "checked": "2026-11-13"
+      },
+      "kino": {
+        "v": 1,
+        "checked": "2026-11-13",
+        "shows": [
+          {
+            "datum": "2026-11-13",
+            "zeit": "16:30",
+            "kino": "Mathäser der Filmpalast",
+            "fassung": "OV",
+            "url": "https://www.indiekino.de/kinoprogramm/en/muenchen/kinos/muenchen_mathaeser_der_filmpalast",
+            "art": "programm"
+          },
+          {
+            "datum": "2026-11-13",
+            "zeit": "20:30",
+            "kino": "Museum-Lichtspiele",
+            "fassung": "OV",
+            "url": "https://www.kinoheld.de/kino/muenchen/museum-lichtspiele-muenchen/vorstellung/3713458216",
+            "art": "vorstellung"
+          },
+          {
+            "datum": "2026-11-13",
+            "zeit": "23:00",
+            "kino": "Museum-Lichtspiele",
+            "fassung": "OV",
+            "url": "https://www.kinoheld.de/kino/muenchen/museum-lichtspiele-muenchen/vorstellung/3713508044",
+            "art": "vorstellung"
+          }
+        ]
+      }
+    },
+    "https://www.metacritic.com/movie/paper-tiger-2026/": {
+      "title": "Paper Tiger",
+      "score": 79,
+      "media": "movie",
+      "release_date": "Nov 13, 2026",
+      "emitted_at": "2026-11-13T02:16:51.652500+00:00",
+      "feed_date": "2026-11-13T02:16:51.652500+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/475c0fc88a68b623ba41495a7df9261ec089f71e/catalog/provider/7/2/7-1790100513.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 29,
+        "pos": 69,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/d7e5d68c57a4b7a2dd3cdeb32f6077320a1f65fd/catalog/provider/7/2/7-1778623047.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1381273",
+        "checked": "2026-11-13"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "MLwTyQOhBkw",
+        "checked": "2026-11-13"
+      }
+    },
+    "https://www.metacritic.com/movie/bitter-christmas/": {
+      "title": "Bitter Christmas",
+      "score": 68,
+      "media": "movie",
+      "release_date": "Nov 13, 2026",
+      "emitted_at": "2026-11-13T02:16:51.652500+00:00",
+      "feed_date": "2026-11-13T02:16:51.652500+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/6f91b15c43a92826c7c15b8b00504945e904b317/catalog/provider/7/2/7-1779246842.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 24,
+        "pos": 71,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a270ee40d442e62eb33d2ba6a43fceef8af5492f/catalog/provider/2/2/2-f978f5be72a6f9fd1f5a642aa31eb788.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "rent_from": 3.99,
+          "rent_at": "Amazon Video",
+          "buy_from": 9.99,
+          "buy_at": "Amazon Video",
+          "rent": {
+            "shop": "Apple TV Store",
+            "price": 4.99,
+            "url": "https://tv.apple.com/de/movie/amarga-navidad/umc.cmc.3n6rfua3ne9rk2bih4f5pcwl5?playableId=tvs.sbd.9001%3A6791182112"
+          },
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 11.99,
+            "url": "https://tv.apple.com/de/movie/amarga-navidad/umc.cmc.3n6rfua3ne9rk2bih4f5pcwl5?playableId=tvs.sbd.9001%3A6791182112"
+          },
+          "cinema": true
+        },
+        "tmdb": "1088548",
+        "titles": [
+          "Bitter Christmas",
+          "Amarga Navidad"
+        ],
+        "year": 2026,
+        "checked": "2026-11-13"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "R-9dlnkY448",
+        "checked": "2026-11-13"
+      },
+      "kino": {
+        "v": 1,
+        "checked": "2026-11-13",
+        "shows": []
+      }
     }
   },
   "seasons": {
