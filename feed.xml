@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Fri, 13 Nov 2026 18:49:59 +0000</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 00:29:51 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[69] Cunk on Cinema (kein DE-Angebot)</title>
+<link>https://www.metacritic.com/tv/cunk-on-cinema/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/cunk-on-cinema/</guid>
+<pubDate>Sat, 14 Nov 2026 00:29:51 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/169f4a5c462516c9a6ab8033a772f9c97e66dec5/catalog/provider/2/13/2-4a4c5c1e1da6a82a6086938d179ab5ab.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;5 reviews · 80% positive&lt;br /&gt;Streaming DE (JustWatch, 14.11.2026): kein Angebot gefunden&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=MAV4nDKZetY"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[53] Heartland (Netflix · Abo)</title>
 <link>https://www.metacritic.com/movie/heartland-2026/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/419ca2bf8a686effa2a56720ea6f3a52dd4e4e9d/catalog/provider/5/2/5-tt32648803.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
-</item>
-<item>
-<title>[66] Alice and Steve (TV)</title>
-<link>https://www.metacritic.com/tv/alice-and-steve/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/alice-and-steve/</guid>
-<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/217244bf628f8c17415695a87e965390aa2d4991/catalog/provider/2/13/2-37a9e9cb433a755b0a3ab775095a9e12.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;15 reviews · 73% positive</description>
 </item>
 </channel>
 </rss>

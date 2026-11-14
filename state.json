@@ -17273,6 +17273,34 @@
         "key": "ziIz59enN1c",
         "checked": "2026-11-13"
       }
+    },
+    "https://www.metacritic.com/tv/cunk-on-cinema/": {
+      "title": "Cunk on Cinema",
+      "score": 69,
+      "media": "tv",
+      "release_date": "Nov 12, 2026",
+      "emitted_at": "2026-11-14T00:29:51.699161+00:00",
+      "feed_date": "2026-11-14T00:29:51.699161+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/d506420f92895233d8f25fd36768a4d0c8c1d262/catalog/provider/2/2/2-1ba0fd28bd7f584a63940f1941d7c696.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 80,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/169f4a5c462516c9a6ab8033a772f9c97e66dec5/catalog/provider/2/13/2-4a4c5c1e1da6a82a6086938d179ab5ab.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "335981",
+        "checked": "2026-11-14"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "MAV4nDKZetY",
+        "checked": "2026-11-14"
+      }
     }
   },
   "seasons": {
@@ -19029,6 +19057,9 @@
     },
     "https://www.metacritic.com/tv/criminal-minds/season-19/": {
       "first_seen": "2026-11-13"
+    },
+    "https://www.metacritic.com/tv/avatar-seven-havens/season-2/": {
+      "first_seen": "2026-11-14"
     }
   }
 }
