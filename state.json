@@ -18656,16 +18656,20 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/lol-last-one-laughing-uk/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/love-is-blind/season-10/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/love-island-all-stars/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/love-island-beyond-the-villa/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/love-on-the-spectrum/season-4/": {
       "first_seen": "2026-11-04",
@@ -19082,6 +19086,15 @@
     },
     "https://www.metacritic.com/tv/law-order/season-26/": {
       "first_seen": "2026-11-14"
+    },
+    "https://www.metacritic.com/tv/matlock-2024/season-3/": {
+      "first_seen": "2026-11-16"
+    },
+    "https://www.metacritic.com/tv/ncis-sydney/season-4/": {
+      "first_seen": "2026-11-16"
+    },
+    "https://www.metacritic.com/tv/the-mighty-nein/season-2/": {
+      "first_seen": "2026-11-16"
     }
   }
 }
