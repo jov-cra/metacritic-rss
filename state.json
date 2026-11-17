@@ -19005,13 +19005,16 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/wwe-unreal/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/xo-kitty/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/yo-gabba-gabbaland!/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/off-campus/season-2/": {
       "first_seen": "2026-11-05",
@@ -19095,6 +19098,9 @@
     },
     "https://www.metacritic.com/tv/the-mighty-nein/season-2/": {
       "first_seen": "2026-11-16"
+    },
+    "https://www.metacritic.com/tv/the-circle/season-8/": {
+      "first_seen": "2026-11-17"
     }
   }
 }
