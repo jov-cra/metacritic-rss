@@ -18891,10 +18891,12 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/the-good-ship-murder/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-great-american-baking-show-2023/season-4/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-great-pottery-throw-down/season-9/": {
       "first_seen": "2026-11-04"
@@ -19100,6 +19102,9 @@
       "first_seen": "2026-11-16"
     },
     "https://www.metacritic.com/tv/the-circle/season-8/": {
+      "first_seen": "2026-11-17"
+    },
+    "https://www.metacritic.com/tv/3-body-problem/season-2/": {
       "first_seen": "2026-11-17"
     }
   }
