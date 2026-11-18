@@ -19013,16 +19013,20 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/who-wants-to-be-a-millionaire-uk/season-41/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/wild-cards/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/will-trent/season-4/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/wondla/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/wwe-friday-night-smackdown!/season-28/": {
       "first_seen": "2026-11-04"
@@ -19068,7 +19072,8 @@
       "first_seen": "2026-11-06"
     },
     "https://www.metacritic.com/tv/will-trent/season-5/": {
-      "first_seen": "2026-11-06"
+      "first_seen": "2026-11-06",
+      "ok": true
     },
     "https://www.metacritic.com/tv/ncis-origins/season-3/": {
       "first_seen": "2026-11-07"
