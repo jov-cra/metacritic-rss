@@ -18221,7 +18221,8 @@
       "first_seen": "2026-10-21"
     },
     "https://www.metacritic.com/tv/the-view/season-30/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-voice/season-30/": {
       "first_seen": "2026-10-21",
@@ -19138,6 +19139,21 @@
     },
     "https://www.metacritic.com/tv/3-body-problem/season-2/": {
       "first_seen": "2026-11-17"
+    },
+    "https://www.metacritic.com/tv/beast-games/season-3/": {
+      "first_seen": "2026-11-18"
+    },
+    "https://www.metacritic.com/tv/elsbeth/season-4/": {
+      "first_seen": "2026-11-18"
+    },
+    "https://www.metacritic.com/tv/ginny-georgia/season-4/": {
+      "first_seen": "2026-11-18"
+    },
+    "https://www.metacritic.com/tv/jimmy-kimmel-live/season-25/": {
+      "first_seen": "2026-11-18"
+    },
+    "https://www.metacritic.com/tv/wild-cards/season-4/": {
+      "first_seen": "2026-11-18"
     }
   }
 }
