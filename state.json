@@ -17301,6 +17301,33 @@
         "key": "MAV4nDKZetY",
         "checked": "2026-11-14"
       }
+    },
+    "https://www.metacritic.com/movie/madden/": {
+      "title": "Madden",
+      "score": 33,
+      "media": "movie",
+      "release_date": "Nov 18, 2026",
+      "emitted_at": "2026-11-18T04:49:28.906502+00:00",
+      "feed_date": "2026-11-18T04:49:28.906502+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/e813546b5ee62052e8635b5e92e72f0e9f48f301/catalog/provider/7/2/7-1790285370.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/5d427f6364f5a28232bc259dd827c84496dba97c/catalog/provider/5/2/5-tt24818230.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1131943",
+        "checked": "2026-11-18"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "xzh7HzLXXpk",
+        "checked": "2026-11-18"
+      }
     }
   },
   "seasons": {

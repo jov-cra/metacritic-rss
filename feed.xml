@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Sat, 14 Nov 2026 00:29:51 +0000</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 04:49:28 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[33] Madden (kein DE-Angebot)</title>
+<link>https://www.metacritic.com/movie/madden/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/madden/</guid>
+<pubDate>Wed, 18 Nov 2026 04:49:28 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/5d427f6364f5a28232bc259dd827c84496dba97c/catalog/provider/5/2/5-tt24818230.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;13 reviews&lt;br /&gt;Streaming DE (JustWatch, 18.11.2026): kein Angebot gefunden&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=xzh7HzLXXpk"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[69] Cunk on Cinema (kein DE-Angebot)</title>
 <link>https://www.metacritic.com/tv/cunk-on-cinema/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
 <category>TV</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/7aac867238ec8d74fc2a9472940d8dc9744dec65/catalog/provider/2/13/2-b37f307d30bd2ce8ea1ae33f6a719349.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 18% positive</description>
-</item>
-<item>
-<title>[67] Honeyjoon (Movie)</title>
-<link>https://www.metacritic.com/movie/honeyjoon/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/honeyjoon/</guid>
-<pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/419ca2bf8a686effa2a56720ea6f3a52dd4e4e9d/catalog/provider/5/2/5-tt32648803.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 75% positive</description>
 </item>
 </channel>
 </rss>
