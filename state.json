@@ -17360,6 +17360,34 @@
         "key": "CV04IYt-n_g",
         "checked": "2026-11-19"
       }
+    },
+    "https://www.metacritic.com/tv/the-altruists/": {
+      "title": "The Altruists",
+      "score": 63,
+      "media": "tv",
+      "release_date": "Nov 19, 2026",
+      "emitted_at": "2026-11-19T14:45:43.446942+00:00",
+      "feed_date": "2026-11-19T14:45:43.446942+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ac1bab524198e3f79eeedc3ac50c5d1fb4071414/catalog/provider/7/2/7-1794509395.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 46,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/3c4b39054649410a7da7f07591e418c82cbd8cae/catalog/provider/2/13/2-5e35d9474a8e7aea455328660f8893c2.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "308007",
+        "checked": "2026-11-19"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "9aGeKSSyuhk",
+        "checked": "2026-11-19"
+      }
     }
   },
   "seasons": {
@@ -19173,7 +19201,8 @@
       "first_seen": "2026-11-17"
     },
     "https://www.metacritic.com/tv/beast-games/season-3/": {
-      "first_seen": "2026-11-18"
+      "first_seen": "2026-11-18",
+      "ok": true
     },
     "https://www.metacritic.com/tv/elsbeth/season-4/": {
       "first_seen": "2026-11-18"

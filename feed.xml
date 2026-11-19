@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Thu, 19 Nov 2026 04:40:25 +0000</lastBuildDate>
+<lastBuildDate>Thu, 19 Nov 2026 14:45:43 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[63] The Altruists (kein DE-Angebot)</title>
+<link>https://www.metacritic.com/tv/the-altruists/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-altruists/</guid>
+<pubDate>Thu, 19 Nov 2026 14:45:43 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/3c4b39054649410a7da7f07591e418c82cbd8cae/catalog/provider/2/13/2-5e35d9474a8e7aea455328660f8893c2.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;13 reviews · 46% positive&lt;br /&gt;Streaming DE (JustWatch, 19.11.2026): kein Angebot gefunden&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=9aGeKSSyuhk"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[82] When a Witness Recants (HBO Max · Abo)</title>
 <link>https://www.metacritic.com/movie/when-a-witness-recants/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/951f8e144b77cb20947f0eda153bbf932ad1c1a8/catalog/provider/7/2/7-1781030184.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;13 reviews · 69% positive</description>
-</item>
-<item>
-<title>[74] Disclosure Day (Movie)</title>
-<link>https://www.metacritic.com/movie/disclosure-day/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/disclosure-day/</guid>
-<pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/d29b6e9155e1ed69d4d7bbd8d86f66f75cffa372/catalog/provider/7/2/7-1765907052.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;63 reviews · 79% positive</description>
 </item>
 </channel>
 </rss>
