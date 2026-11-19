@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Wed, 18 Nov 2026 04:49:28 +0000</lastBuildDate>
+<lastBuildDate>Thu, 19 Nov 2026 04:40:25 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[82] When a Witness Recants (HBO Max · Abo)</title>
+<link>https://www.metacritic.com/movie/when-a-witness-recants/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/when-a-witness-recants/</guid>
+<pubDate>Thu, 19 Nov 2026 04:40:25 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/a5dd1009d8dc92852e7ef0b6f998822be2ea28c2/catalog/provider/2/2/2-346f900f71830b04ead9cf4301df3738.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 100% positive&lt;br /&gt;Streaming DE (JustWatch, 19.11.2026): im Abo bei HBO Max&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=CV04IYt-n_g"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[33] Madden (kein DE-Angebot)</title>
 <link>https://www.metacritic.com/movie/madden/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/d29b6e9155e1ed69d4d7bbd8d86f66f75cffa372/catalog/provider/7/2/7-1765907052.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;63 reviews · 79% positive</description>
-</item>
-<item>
-<title>[57] Every Year After (TV)</title>
-<link>https://www.metacritic.com/tv/every-year-after/</link>
-<guid isPermaLink="false">https://www.metacritic.com/tv/every-year-after/</guid>
-<pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-<category>TV</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/7aac867238ec8d74fc2a9472940d8dc9744dec65/catalog/provider/2/13/2-b37f307d30bd2ce8ea1ae33f6a719349.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;11 reviews · 18% positive</description>
 </item>
 </channel>
 </rss>

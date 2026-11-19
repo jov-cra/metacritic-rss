@@ -17328,6 +17328,38 @@
         "key": "xzh7HzLXXpk",
         "checked": "2026-11-18"
       }
+    },
+    "https://www.metacritic.com/movie/when-a-witness-recants/": {
+      "title": "When a Witness Recants",
+      "score": 82,
+      "media": "movie",
+      "release_date": "Nov 17, 2026",
+      "emitted_at": "2026-11-19T04:40:25.029584+00:00",
+      "feed_date": "2026-11-19T04:40:25.029584+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/fc0f8f5f8fb450760f0313c4ad93f1e5bc4cbd38/catalog/provider/5/2/5-tt39163238.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/a5dd1009d8dc92852e7ef0b6f998822be2ea28c2/catalog/provider/2/2/2-346f900f71830b04ead9cf4301df3738.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "HBO Max"
+          ]
+        },
+        "tmdb": "1596270",
+        "checked": "2026-11-19"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "CV04IYt-n_g",
+        "checked": "2026-11-19"
+      }
     }
   },
   "seasons": {
@@ -19153,7 +19185,8 @@
       "first_seen": "2026-11-18"
     },
     "https://www.metacritic.com/tv/wild-cards/season-4/": {
-      "first_seen": "2026-11-18"
+      "first_seen": "2026-11-18",
+      "ok": true
     }
   }
 }
