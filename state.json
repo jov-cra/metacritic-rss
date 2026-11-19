@@ -17388,6 +17388,37 @@
         "key": "9aGeKSSyuhk",
         "checked": "2026-11-19"
       }
+    },
+    "https://www.metacritic.com/movie/guarding-stars/": {
+      "title": "Guarding Stars",
+      "score": 55,
+      "media": "movie",
+      "release_date": "Nov 18, 2026",
+      "emitted_at": "2026-11-19T22:47:14.316328+00:00",
+      "feed_date": "2026-11-19T22:47:14.316328+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f5abcc497977fdbdb99739134af1e97ec1781e7f/catalog/provider/5/2/5-tt6611324.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/40efab20d3d3d492e363070957a4bf91ae63b6c9/catalog/provider/2/2/2-83da1483ec885a1174c6a8dfedc7468a.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix"
+          ]
+        },
+        "tmdb": "1551025",
+        "checked": "2026-11-19"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "mFvtVPMa5ak",
+        "checked": "2026-11-19"
+      }
     }
   },
   "seasons": {
@@ -19171,7 +19202,8 @@
       "first_seen": "2026-11-12"
     },
     "https://www.metacritic.com/tv/criminal-minds/season-19/": {
-      "first_seen": "2026-11-13"
+      "first_seen": "2026-11-13",
+      "ok": true
     },
     "https://www.metacritic.com/tv/avatar-seven-havens/season-2/": {
       "first_seen": "2026-11-14"
