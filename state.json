@@ -17705,6 +17705,39 @@
         "key": "zDFHivyECDU",
         "checked": "2026-11-20"
       }
+    },
+    "https://www.metacritic.com/tv/percy-jackson-and-the-olympians/season-3/": {
+      "title": "Percy Jackson and The Olympians: Season 3",
+      "score": 79,
+      "media": "tv",
+      "release_date": "Nov 20, 2026",
+      "emitted_at": "2026-11-20T22:24:06.408656+00:00",
+      "feed_date": "2026-11-20T22:24:06.408656+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/946d8c760fdd68224d0acee5fcf16016be6e13f6/catalog/provider/2/2/2-56263f1e85e39526e9b93a304bea2a31.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_count": 8,
+        "user_score": 7.6,
+        "image": "https://www.metacritic.com/a/img/resize/7786487f66dda16ad6b157706825552ea09f83c7/catalog/provider/2/13/2-5f902c4f76d810c4764ccec9a64e600e.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Disney+"
+          ]
+        },
+        "tmdb": "103540",
+        "checked": "2026-11-20"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "nD45l6hCyN8",
+        "checked": "2026-11-20"
+      }
     }
   },
   "seasons": {
@@ -17754,11 +17787,6 @@
       "first_seen": "2026-10-17",
       "ok": true,
       "premiere": "Dec 4, 2026"
-    },
-    "https://www.metacritic.com/tv/percy-jackson-and-the-olympians/season-3/": {
-      "first_seen": "2026-10-17",
-      "ok": true,
-      "premiere": "Nov 20, 2026"
     },
     "https://www.metacritic.com/tv/silo/season-4/": {
       "first_seen": "2026-10-17",
@@ -19052,13 +19080,16 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/law-order-toronto-criminal-intent/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/like-water-for-chocolate/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/live-at-the-apollo/season-20/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/lol-last-one-laughing-uk/season-2/": {
       "first_seen": "2026-11-04",
@@ -19499,10 +19530,12 @@
       "first_seen": "2026-11-14"
     },
     "https://www.metacritic.com/tv/law-order-special-victims-unit/season-28/": {
-      "first_seen": "2026-11-14"
+      "first_seen": "2026-11-14",
+      "ok": true
     },
     "https://www.metacritic.com/tv/law-order/season-26/": {
-      "first_seen": "2026-11-14"
+      "first_seen": "2026-11-14",
+      "ok": true
     },
     "https://www.metacritic.com/tv/matlock-2024/season-3/": {
       "first_seen": "2026-11-16"
@@ -19537,6 +19570,9 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/invincible-2021/season-5/": {
+      "first_seen": "2026-11-20"
+    },
+    "https://www.metacritic.com/tv/presumed-innocent/season-2/": {
       "first_seen": "2026-11-20"
     }
   }

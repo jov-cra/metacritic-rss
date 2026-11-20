@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Fri, 20 Nov 2026 04:30:54 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 22:24:06 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[79] Percy Jackson and The Olympians: Season 3 (Disney+ · Abo)</title>
+<link>https://www.metacritic.com/tv/percy-jackson-and-the-olympians/season-3/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/percy-jackson-and-the-olympians/season-3/</guid>
+<pubDate>Fri, 20 Nov 2026 22:24:06 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/7786487f66dda16ad6b157706825552ea09f83c7/catalog/provider/2/13/2-5f902c4f76d810c4764ccec9a64e600e.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;Critics 79 · 4 reviews · 100% positive · Users 7.6 (8 ratings)&lt;br /&gt;Streaming DE (JustWatch, 20.11.2026): im Abo bei Disney+&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=nD45l6hCyN8"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[59] Yellowjackets: Season 4 (Paramount+ · Abo, nur ältere Staffeln)</title>
 <link>https://www.metacritic.com/tv/yellowjackets/season-4/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/b481c51bd99316316492c904617affa5bad6f0bc/catalog/provider/7/2/7-1756572861.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;27 reviews · 100% positive</description>
-</item>
-<item>
-<title>[78] Maddie's Secret (Movie)</title>
-<link>https://www.metacritic.com/movie/maddies-secret/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/maddies-secret/</guid>
-<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/ec39589b9ca015f3cb2aa7f502ff95903c2dd33b/catalog/provider/7/2/7-1757518076.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;17 reviews · 88% positive</description>
 </item>
 </channel>
 </rss>
