@@ -17419,6 +17419,292 @@
         "key": "mFvtVPMa5ak",
         "checked": "2026-11-19"
       }
+    },
+    "https://www.metacritic.com/movie/cameron-winter-at-carnegie-hall/": {
+      "title": "Cameron Winter at Carnegie Hall",
+      "score": 86,
+      "media": "movie",
+      "release_date": "Nov 20, 2026",
+      "emitted_at": "2026-11-20T04:30:54.427991+00:00",
+      "feed_date": "2026-11-20T04:30:54.427991+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ba8cebc6b32ac9e92a60eba3b8dfd1b2f1070356/catalog/provider/5/2/5-tt44879019.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 13,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/00c5621ad6fa85f401ec2792292366bb7cd9f3ee/catalog/provider/7/2/7-1788191369.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-20"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/steps/": {
+      "title": "Steps",
+      "score": 53,
+      "media": "movie",
+      "release_date": "Nov 20, 2026",
+      "emitted_at": "2026-11-20T04:30:54.427991+00:00",
+      "feed_date": "2026-11-20T04:30:54.427991+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/eb86d35e7d0baba2d799b6a1f5cb5e6c02ead42c/catalog/provider/7/2/7-1789664689.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 33,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/51a07123136f955ac9d21dfc0148cc044c746032/catalog/provider/5/2/5-tt14413964.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1595124",
+        "checked": "2026-11-20"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "tNV4i3BqUGY",
+        "checked": "2026-11-20"
+      }
+    },
+    "https://www.metacritic.com/movie/elsinore/": {
+      "title": "Elsinore",
+      "score": 75,
+      "media": "movie",
+      "release_date": "Nov 20, 2026",
+      "emitted_at": "2026-11-20T04:30:54.427991+00:00",
+      "feed_date": "2026-11-20T04:30:54.427991+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/fff0306b8fcb893d51e8851fa454eef15f6f4dc1/catalog/provider/7/2/7-1791473155.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 26,
+        "pos": 85,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/06e42bc5ef08a879c2ca917717c04c5c33ad31d2/catalog/provider/2/13/2-bfb9e63bf09a4a85ca700fac6241361d.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1599230",
+        "checked": "2026-11-20"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "TpNEh5vvAns",
+        "checked": "2026-11-20"
+      }
+    },
+    "https://www.metacritic.com/movie/josephine/": {
+      "title": "Josephine",
+      "score": 86,
+      "media": "movie",
+      "release_date": "Nov 20, 2026",
+      "emitted_at": "2026-11-20T04:30:54.427991+00:00",
+      "feed_date": "2026-11-20T04:30:54.427991+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2b40ade3903175b117d307b6a9c37007ff3e2fa5/catalog/provider/2/13/2-0364fb3ec8023658f183dd7d1a2d3ba9.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 22,
+        "pos": 95,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/92a780e237a3c87ada0ee288d8c1128e447c4b63/catalog/provider/2/13/2-1a003fdd51d9458fcc4f61e4277645b6.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1299329",
+        "checked": "2026-11-20"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "d7NLG3IfowQ",
+        "checked": "2026-11-20"
+      }
+    },
+    "https://www.metacritic.com/movie/minotaur/": {
+      "title": "Minotaur",
+      "score": 91,
+      "media": "movie",
+      "release_date": "Nov 20, 2026",
+      "emitted_at": "2026-11-20T04:30:54.427991+00:00",
+      "feed_date": "2026-11-20T04:30:54.427991+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/fd1470c888122af4fadb745f495408b14e468182/catalog/provider/7/2/7-1789485143.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 20,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/d007bcc0a90ae0d5b9d2465487b19ea8ba285970/catalog/provider/7/2/7-1778613780.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "tmdb": "848700",
+        "titles": [
+          "Minotaur",
+          "Minotaure"
+        ],
+        "year": 2026,
+        "checked": "2026-11-20"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "wdFIMrC4oW8",
+        "checked": "2026-11-20"
+      },
+      "kino": {
+        "v": 1,
+        "checked": "2026-11-20",
+        "shows": [
+          {
+            "datum": "2026-11-20",
+            "zeit": "17:00",
+            "kino": "City-Atelier Kinos",
+            "fassung": "OmU",
+            "url": "https://www.indiekino.de/kinoprogramm/en/muenchen/kinos/muenchen_city-atelier_kinos",
+            "art": "programm"
+          },
+          {
+            "datum": "2026-11-20",
+            "zeit": "19:50",
+            "kino": "Monopol am Nordbad",
+            "fassung": "OmU",
+            "url": "https://www.kinoheld.de/kino/muenchen/monopol-kino/vorstellung/3714496164/minotaurus",
+            "art": "vorstellung"
+          },
+          {
+            "datum": "2026-11-20",
+            "zeit": "20:45",
+            "kino": "City-Atelier Kinos",
+            "fassung": "OmeU",
+            "url": "https://www.indiekino.de/kinoprogramm/en/muenchen/kinos/muenchen_city-atelier_kinos",
+            "art": "programm"
+          }
+        ]
+      }
+    },
+    "https://www.metacritic.com/movie/the-hunger-games-sunrise-on-the-reaping/": {
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "score": 56,
+      "media": "movie",
+      "release_date": "Nov 20, 2026",
+      "emitted_at": "2026-11-20T04:30:54.427991+00:00",
+      "feed_date": "2026-11-20T04:30:54.427991+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/b76f237e2c022be4ede9e1f9f6d9d83ea7e58159/catalog/provider/5/2/5-tt32558705.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 35,
+        "pos": 51,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/f4958bc0ff9a8c314dc6a743d7c6862e90e32258/catalog/provider/2/13/2-6fa507afc7ca1ffaa478c247cc327c04.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "tmdb": "1300968",
+        "titles": [
+          "The Hunger Games: Sunrise on the Reaping"
+        ],
+        "year": 2026,
+        "checked": "2026-11-20"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "Dr060OLTodE",
+        "checked": "2026-11-20"
+      },
+      "kino": {
+        "v": 1,
+        "checked": "2026-11-20",
+        "shows": [
+          {
+            "datum": "2026-11-20",
+            "zeit": "13:30",
+            "kino": "Mathäser der Filmpalast",
+            "fassung": "OV",
+            "url": "https://www.mathaeser.de/mm/programm/vorstellung/9D7D8000023BWDJVCF",
+            "art": "vorstellung"
+          },
+          {
+            "datum": "2026-11-20",
+            "zeit": "15:15",
+            "kino": "Mathäser der Filmpalast",
+            "fassung": "OV",
+            "url": "https://www.mathaeser.de/mm/programm/vorstellung/5D6D8000023BWDJVCF",
+            "art": "vorstellung"
+          },
+          {
+            "datum": "2026-11-20",
+            "zeit": "15:45",
+            "kino": "Mathäser der Filmpalast",
+            "fassung": "OV",
+            "url": "https://www.mathaeser.de/mm/programm/vorstellung/FE6D8000023BWDJVCF",
+            "art": "vorstellung"
+          }
+        ]
+      }
+    },
+    "https://www.metacritic.com/tv/yellowjackets/season-4/": {
+      "title": "Yellowjackets: Season 4",
+      "score": 59,
+      "media": "tv",
+      "release_date": "Nov 20, 2026",
+      "emitted_at": "2026-11-20T04:30:54.427991+00:00",
+      "feed_date": "2026-11-20T04:30:54.427991+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c7394c10058e4b26a8bdec57b8bd49b88439b31b/catalog/provider/2/2/2-6ab3e805f496492f769f463dbb069e02.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 33,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2ed629af5ce9bd7407abfd57cc69769c60f2fae1/catalog/provider/2/13/2-034ce55c5dfd9b1f3e14132fe7649a98.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Paramount+"
+          ],
+          "rent_from": 2.98,
+          "rent_at": "Videobuster",
+          "buy_from": 9.99,
+          "buy_at": "Amazon Video",
+          "rent": {
+            "shop": "Videobuster",
+            "price": 2.98,
+            "url": null
+          },
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 17.98,
+            "url": null
+          },
+          "older": true
+        },
+        "tmdb": "117488",
+        "checked": "2026-11-20"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "zDFHivyECDU",
+        "checked": "2026-11-20"
+      }
     }
   },
   "seasons": {
@@ -17512,10 +17798,6 @@
       "first_seen": "2026-10-17",
       "ok": true,
       "premiere": "Jan 6, 2027"
-    },
-    "https://www.metacritic.com/tv/yellowjackets/season-4/": {
-      "first_seen": "2026-10-17",
-      "ok": true
     },
     "https://www.metacritic.com/tv/your-friendly-neighborhood-spider-man/season-2/": {
       "first_seen": "2026-10-17",
@@ -19248,6 +19530,9 @@
     "https://www.metacritic.com/tv/wild-cards/season-4/": {
       "first_seen": "2026-11-18",
       "ok": true
+    },
+    "https://www.metacritic.com/tv/invincible-2021/season-5/": {
+      "first_seen": "2026-11-20"
     }
   }
 }
