@@ -18994,16 +18994,20 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/hidden-assets/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/hollywood-squares-2025/season-2/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/homicide-new-york/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/house-hunters-international/season-203/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/house-hunters-international/season-205/": {
       "first_seen": "2026-11-04"
@@ -19440,7 +19444,8 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/high-potential/season-3/": {
-      "first_seen": "2026-11-06"
+      "first_seen": "2026-11-06",
+      "ok": true
     },
     "https://www.metacritic.com/tv/shifting-gears/season-3/": {
       "first_seen": "2026-11-06"
