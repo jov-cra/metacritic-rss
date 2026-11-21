@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Fri, 20 Nov 2026 22:24:06 +0000</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 13:46:12 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[39] Best Pancakes in the County (Movie)</title>
+<link>https://www.metacritic.com/movie/best-pancakes-in-the-county/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/best-pancakes-in-the-county/</guid>
+<pubDate>Sat, 21 Nov 2026 13:46:12 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/b6ab14df1f858698993607c7836c41cfdd554f2b/catalog/provider/5/2/5-tt38258118.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 0% positive</description>
+</item>
 <item>
 <title>[79] Percy Jackson and The Olympians: Season 3 (Disney+ · Abo)</title>
 <link>https://www.metacritic.com/tv/percy-jackson-and-the-olympians/season-3/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c91cd6a423d9a29f1c057f5e22e01b64481a9e18/catalog/provider/2/13/2-185055905b26ddeaa1dfd2450d9cacdf.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;35 reviews · 51% positive</description>
-</item>
-<item>
-<title>[84] Rose of Nevada (Movie)</title>
-<link>https://www.metacritic.com/movie/rose-of-nevada/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/rose-of-nevada/</guid>
-<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/b481c51bd99316316492c904617affa5bad6f0bc/catalog/provider/7/2/7-1756572861.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;27 reviews · 100% positive</description>
 </item>
 </channel>
 </rss>
