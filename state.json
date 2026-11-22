@@ -17764,6 +17764,32 @@
         "key": null,
         "no_id": true
       }
+    },
+    "https://www.metacritic.com/movie/give-me-the-ball/": {
+      "title": "Give Me the Ball!",
+      "score": 86,
+      "media": "movie",
+      "release_date": "Nov 22, 2026",
+      "emitted_at": "2026-11-22T01:42:44.126543+00:00",
+      "feed_date": "2026-11-22T01:42:44.126543+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/8c5ce9b21d2d3746b3a22f39a21a54ede1900e1b/catalog/provider/7/2/7-1795043841.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 7,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/7a053cc2add85ad24071ff062a43bb6a26628dad/catalog/provider/5/2/5-tt39150093.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-22"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
     }
   },
   "seasons": {

@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Sat, 21 Nov 2026 13:46:12 +0000</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2026 01:42:44 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[86] Give Me the Ball! (Movie)</title>
+<link>https://www.metacritic.com/movie/give-me-the-ball/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/give-me-the-ball/</guid>
+<pubDate>Sun, 22 Nov 2026 01:42:44 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/7a053cc2add85ad24071ff062a43bb6a26628dad/catalog/provider/5/2/5-tt39150093.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;7 reviews · 100% positive</description>
+</item>
 <item>
 <title>[39] Best Pancakes in the County (Movie)</title>
 <link>https://www.metacritic.com/movie/best-pancakes-in-the-county/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/c85d03d37c0c0081913f84b8926fca0e03f38038/catalog/provider/2/13/2-70c187f522c4157207a7edf3c8901e86.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;54 reviews · 80% positive</description>
-</item>
-<item>
-<title>[60] The Death of Robin Hood (Movie)</title>
-<link>https://www.metacritic.com/movie/the-death-of-robin-hood/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/the-death-of-robin-hood/</guid>
-<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/c91cd6a423d9a29f1c057f5e22e01b64481a9e18/catalog/provider/2/13/2-185055905b26ddeaa1dfd2450d9cacdf.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;35 reviews · 51% positive</description>
 </item>
 </channel>
 </rss>
