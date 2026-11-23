@@ -17790,6 +17790,32 @@
         "key": null,
         "no_id": true
       }
+    },
+    "https://www.metacritic.com/tv/dig-2026/": {
+      "title": "Dig (2026)",
+      "score": 66,
+      "media": "tv",
+      "release_date": "Nov 23, 2026",
+      "emitted_at": "2026-11-23T04:13:47.716161+00:00",
+      "feed_date": "2026-11-23T04:13:47.716161+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/a1b347212d81c0bca477424e0bc2ada2c623025f/catalog/provider/7/2/7-1794963035.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 9,
+        "pos": 67,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/73eba305421ed022384b87d0dc86e578db2a40df/catalog/provider/7/2/7-1795055302.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-23"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
     }
   },
   "seasons": {
