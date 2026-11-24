@@ -17816,6 +17816,32 @@
         "key": null,
         "no_id": true
       }
+    },
+    "https://www.metacritic.com/movie/don-bluth-somewhere-out-there/": {
+      "title": "Don Bluth: Somewhere Out There",
+      "score": 74,
+      "media": "movie",
+      "release_date": "Nov 20, 2026",
+      "emitted_at": "2026-11-24T14:20:32.297582+00:00",
+      "feed_date": "2026-11-24T14:20:32.297582+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/26bede8561913083a5f2461e24a5af91010d9a75/catalog/provider/5/2/5-tt38793765.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 100,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2fe01665d2adb083c281d5049a658a10925a31df/catalog/provider/7/2/7-1794587075.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-24"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
     }
   },
   "seasons": {

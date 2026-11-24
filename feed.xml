@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Mon, 23 Nov 2026 04:13:47 +0000</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 14:20:32 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[74] Don Bluth: Somewhere Out There (Movie)</title>
+<link>https://www.metacritic.com/movie/don-bluth-somewhere-out-there/</link>
+<guid isPermaLink="false">https://www.metacritic.com/movie/don-bluth-somewhere-out-there/</guid>
+<pubDate>Tue, 24 Nov 2026 14:20:32 +0000</pubDate>
+<category>Movie</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/2fe01665d2adb083c281d5049a658a10925a31df/catalog/provider/7/2/7-1794587075.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;4 reviews · 100% positive</description>
+</item>
 <item>
 <title>[66] Dig (2026) (TV)</title>
 <link>https://www.metacritic.com/tv/dig-2026/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/1c2767da95b3669d7fd209f471ea912589afccc8/catalog/provider/7/2/7-1778176735.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;12 reviews · 67% positive</description>
-</item>
-<item>
-<title>[55] Unidentified (Movie)</title>
-<link>https://www.metacritic.com/movie/unidentified-2025/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/unidentified-2025/</guid>
-<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/23f8438d01338b42f79655ec0bd5441aaa25f31e/catalog/provider/7/2/7-1768929095.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;10 reviews · 30% positive</description>
 </item>
 </channel>
 </rss>
