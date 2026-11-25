@@ -20041,6 +20041,16 @@
     },
     "https://www.metacritic.com/tv/lil-kev/season-2/": {
       "first_seen": "2026-11-24"
+    },
+    "https://www.metacritic.com/tv/hollywood-arts/season-2/": {
+      "first_seen": "2026-11-25",
+      "ok": true
+    },
+    "https://www.metacritic.com/tv/the-devils-hour/season-3/": {
+      "first_seen": "2026-11-25"
+    },
+    "https://www.metacritic.com/tv/the-pitt/season-3/": {
+      "first_seen": "2026-11-25"
     }
   }
 }
