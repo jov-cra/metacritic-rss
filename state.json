@@ -17903,6 +17903,291 @@
         "key": null,
         "checked": "2026-11-25"
       }
+    },
+    "https://www.metacritic.com/movie/way-of-the-warrior-kid/": {
+      "title": "Way of the Warrior Kid",
+      "score": 48,
+      "media": "movie",
+      "release_date": "Nov 25, 2026",
+      "emitted_at": "2026-11-25T10:34:30.713905+00:00",
+      "feed_date": "2026-11-25T10:34:30.713905+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/2ea8e9cf7b2b7ab0ece9c787e48eb808f7e85796/catalog/provider/2/2/2-ec7fadcb33b434a31655a5234e4c506b.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/54b80c23fc12f4cf669484357fd30650388a0374/catalog/provider/7/2/7-1795464630.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Apple TV"
+          ]
+        },
+        "tmdb": "1280115",
+        "checked": "2026-11-25"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "R1ECMLrwDYQ",
+        "checked": "2026-11-25"
+      }
+    },
+    "https://www.metacritic.com/movie/focker-in-law/": {
+      "title": "Focker In-Law",
+      "score": 39,
+      "media": "movie",
+      "release_date": "Nov 25, 2026",
+      "emitted_at": "2026-11-25T10:34:30.713905+00:00",
+      "feed_date": "2026-11-25T10:34:30.713905+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/f0a76a3e4fc675c33e3dc33cf6512693ac93404a/catalog/provider/7/2/7-1776365848.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 27,
+        "pos": 15,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/b294fb88beae6d6e14f54b4dd1dd38d79bf41b48/catalog/provider/2/13/2-8d2634a7259907569f2fe13cba4d4b05.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "tmdb": "1400336",
+        "titles": [
+          "Focker In-Law"
+        ],
+        "year": 2026,
+        "checked": "2026-11-25"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "9CKu3WoMYCg",
+        "checked": "2026-11-25"
+      },
+      "kino": {
+        "v": 1,
+        "checked": "2026-11-25",
+        "shows": [
+          {
+            "datum": "2026-11-25",
+            "zeit": "20:00",
+            "kino": "Mathäser der Filmpalast",
+            "fassung": "OV",
+            "url": "https://www.mathaeser.de/mm/programm/vorstellung/5C1D8000023BWDJVCF",
+            "art": "vorstellung"
+          },
+          {
+            "datum": "2026-11-25",
+            "zeit": "20:15",
+            "kino": "Cinema Filmtheater",
+            "fassung": "OV",
+            "url": "https://webshop.cinema-muenchen.de/landingpage?center=30000000014BPIBFDE&language=DE&page=seatingplan&performance=0DA50000023BPIBFDE",
+            "art": "vorstellung"
+          },
+          {
+            "datum": "2026-11-25",
+            "zeit": "20:30",
+            "kino": "Museum-Lichtspiele",
+            "fassung": "OV",
+            "url": "https://www.kinoheld.de/kino/muenchen/museum-lichtspiele-muenchen/vorstellung/3720661493",
+            "art": "vorstellung"
+          }
+        ]
+      }
+    },
+    "https://www.metacritic.com/movie/hershey/": {
+      "title": "Hershey",
+      "score": 25,
+      "media": "movie",
+      "release_date": "Nov 25, 2026",
+      "emitted_at": "2026-11-25T10:34:30.713905+00:00",
+      "feed_date": "2026-11-25T10:34:30.713905+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1170bc3b990d4fd7e4e7e585e53cf07acf1f2b0c/catalog/provider/2/2/2-801766074426fc607443d80bac55913d.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 0,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/74b9d05311d6ca0a2b03d32965b58f9da3d6b4dd/catalog/provider/2/13/2-d5e8b898a342f06591f24a7b8e5d5380.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-25"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/all-of-a-sudden/": {
+      "title": "All of a Sudden",
+      "score": 88,
+      "media": "movie",
+      "release_date": "Nov 25, 2026",
+      "emitted_at": "2026-11-25T10:34:30.713905+00:00",
+      "feed_date": "2026-11-25T10:34:30.713905+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/c3a6b020a63609d6e0b17396a04b591ba8956f83/catalog/provider/7/2/7-1793631249.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 20,
+        "pos": 95,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/2c1d96b559f9694f18627a1d307a1d63bf3b09f6/catalog/provider/7/2/7-1778623622.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": false,
+        "checked": "2026-11-25"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "no_id": true
+      }
+    },
+    "https://www.metacritic.com/movie/the-further-mis-adventures-of-cliff-booth/": {
+      "title": "The Further Mis-Adventures of Cliff Booth",
+      "score": 69,
+      "media": "movie",
+      "release_date": "Nov 25, 2026",
+      "emitted_at": "2026-11-25T10:34:30.713905+00:00",
+      "feed_date": "2026-11-25T10:34:30.713905+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5f8a5dbb89f753cc94cea77311c75deaae58fe3a/catalog/provider/7/2/7-1793645562.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 42,
+        "pos": 71,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/d27112cadf3d17c6a00fe003edc054643f2a234a/catalog/provider/7/2/7-1795055188.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "tmdb": "1457866",
+        "titles": [
+          "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH"
+        ],
+        "year": 2026,
+        "checked": "2026-11-25"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "fJH-wfSXnWg",
+        "checked": "2026-11-25"
+      },
+      "kino": {
+        "v": 1,
+        "checked": "2026-11-25",
+        "shows": []
+      }
+    },
+    "https://www.metacritic.com/movie/hexed/": {
+      "title": "Hexed",
+      "score": 56,
+      "media": "movie",
+      "release_date": "Nov 25, 2026",
+      "emitted_at": "2026-11-25T10:34:30.713905+00:00",
+      "feed_date": "2026-11-25T10:34:30.713905+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/5528859e186afca25a8619f579379029b2f3a65c/catalog/provider/5/2/5-tt38077943.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 22,
+        "pos": 41,
+        "user_count": 6,
+        "user_score": 6.8,
+        "image": "https://www.metacritic.com/a/img/resize/28096d14753e81a38e447a0f49517295c8678975/catalog/provider/2/13/2-fe80316d231906d8893b29abec4b1114.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "cinema": true
+        },
+        "tmdb": "1538497",
+        "titles": [
+          "Hexed"
+        ],
+        "year": 2026,
+        "checked": "2026-11-25"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "9ke5KSOUl-U",
+        "checked": "2026-11-25"
+      },
+      "kino": {
+        "v": 1,
+        "checked": "2026-11-25",
+        "shows": [
+          {
+            "datum": "2026-11-26",
+            "zeit": "14:30",
+            "kino": "Mathäser der Filmpalast",
+            "fassung": "OV",
+            "url": "https://www.mathaeser.de/mm/programm/vorstellung/E18D8000023BWDJVCF",
+            "art": "vorstellung"
+          },
+          {
+            "datum": "2026-11-26",
+            "zeit": "15:50",
+            "kino": "Museum-Lichtspiele",
+            "fassung": "OV",
+            "url": "https://www.kinoheld.de/kino/muenchen/museum-lichtspiele-muenchen/vorstellung/3728037725",
+            "art": "vorstellung"
+          },
+          {
+            "datum": "2026-11-26",
+            "zeit": "18:00",
+            "kino": "Museum-Lichtspiele",
+            "fassung": "OV",
+            "url": "https://www.kinoheld.de/kino/muenchen/museum-lichtspiele-muenchen/vorstellung/3728037800",
+            "art": "vorstellung"
+          }
+        ]
+      }
+    },
+    "https://www.metacritic.com/tv/the-fall-and-rise-of-reggie-dinkins/season-2/": {
+      "title": "The Fall and Rise of Reggie Dinkins: Season 2",
+      "score": 75,
+      "media": "tv",
+      "release_date": "Nov 2, 2026",
+      "emitted_at": "2026-11-25T10:34:30.713905+00:00",
+      "feed_date": "2026-11-25T10:34:30.713905+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/1bd389b38346ba4088041797a89058d76ba798ee/catalog/provider/7/2/7-1770419838.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 4,
+        "pos": 75,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/705fb58219fdf46098de0725eab9f29faac7bd71/catalog/provider/2/2/2-8c7f64665a4565c4956e30636c8cecdf.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "WOW",
+            "Sky"
+          ],
+          "older": true
+        },
+        "tmdb": "291334",
+        "checked": "2026-11-25"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "checked": "2026-11-25"
+      }
     }
   },
   "seasons": {
@@ -18946,10 +19231,6 @@
       "first_seen": "2026-10-27",
       "ok": true,
       "premiere": "Nov 2, 2026"
-    },
-    "https://www.metacritic.com/tv/the-fall-and-rise-of-reggie-dinkins/season-2/": {
-      "first_seen": "2026-10-27",
-      "ok": true
     },
     "https://www.metacritic.com/tv/ncis/season-24/": {
       "first_seen": "2026-10-28",
