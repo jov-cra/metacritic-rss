@@ -17842,6 +17842,67 @@
         "key": null,
         "no_id": true
       }
+    },
+    "https://www.metacritic.com/tv/blade-runner-2099/": {
+      "title": "Blade Runner 2099",
+      "score": 64,
+      "media": "tv",
+      "release_date": "Nov 25, 2026",
+      "emitted_at": "2026-11-25T00:10:52.183620+00:00",
+      "feed_date": "2026-11-25T00:10:52.183620+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/90ab5b449e33c1c72a6d8c9e957dfc7b9e5a8ccf/catalog/provider/2/2/2-20da5eb167ec830995ab4afd57877289.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 22,
+        "pos": 59,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/9b8da3b9668f194e0fe2a0671a1f22d224ecce18/catalog/provider/2/13/2-5fdd920bf9b191c519c706c2fb18424d.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "171802",
+        "checked": "2026-11-25"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "1d4x_eSdqNc",
+        "checked": "2026-11-25"
+      }
+    },
+    "https://www.metacritic.com/tv/melania-the-series/": {
+      "title": "MELANIA, The Series",
+      "score": 17,
+      "media": "tv",
+      "release_date": "Nov 20, 2026",
+      "emitted_at": "2026-11-25T00:10:52.183620+00:00",
+      "feed_date": "2026-11-25T00:10:52.183620+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/ee685600eba2cfc55038071580df11c3123f8b1e/catalog/provider/2/2/2-68a358a889fa99f8d16b9f93bd5bac0a.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 0,
+        "user_count": 5,
+        "user_score": 2.4,
+        "image": "https://www.metacritic.com/a/img/resize/df418041b4ad3c25469b54ddd76b4ba277293dea/catalog/provider/2/13/2-05b3e7057a270e9a87c5357b825bef86.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Prime Video"
+          ]
+        },
+        "tmdb": "314131",
+        "checked": "2026-11-25"
+      },
+      "trailer": {
+        "v": 3,
+        "key": null,
+        "checked": "2026-11-25"
+      }
     }
   },
   "seasons": {
@@ -19359,7 +19420,8 @@
       "first_seen": "2026-11-04"
     },
     "https://www.metacritic.com/tv/survivor/season-50/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/tales-of-the-teenage-mutant-ninja-turtles/season-2/": {
       "first_seen": "2026-11-04",
