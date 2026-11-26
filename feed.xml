@@ -5,8 +5,16 @@
 <link>https://www.metacritic.com/</link>
 <description>Metacritic movie &amp; TV releases with a Metascore (any), auto-generated. Trailer links: this product uses the TMDB API but is not endorsed or certified by TMDB.</description>
 <language>en</language>
-<lastBuildDate>Wed, 25 Nov 2026 10:34:30 +0000</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 22:38:58 +0000</lastBuildDate>
 <atom:link href="https://jov-cra.github.io/metacritic-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>[70] The Hunting Wives: Season 2 (Netflix, MagentaTV · Abo, nur ältere Staffeln)</title>
+<link>https://www.metacritic.com/tv/the-hunting-wives/season-2/</link>
+<guid isPermaLink="false">https://www.metacritic.com/tv/the-hunting-wives/season-2/</guid>
+<pubDate>Thu, 26 Nov 2026 22:38:58 +0000</pubDate>
+<category>TV</category>
+<description>&lt;img src="https://www.metacritic.com/a/img/resize/29f66b689e94ed658ea80fd40dbccd737befd30a/catalog/provider/2/2/2-db22f21eb83663f4f89c8e392e38ead6.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews · 83% positive&lt;br /&gt;Streaming DE (JustWatch, 26.11.2026): diese Staffel noch ohne Angebot; ältere Staffeln im Abo bei Netflix, MagentaTV; kaufen bei Apple TV Store ab 12,99 €&lt;br /&gt;&lt;a href="https://www.youtube.com/watch?v=Vhwp06fwk6k"&gt;▶ Trailer (YouTube)&lt;/a&gt;</description>
+</item>
 <item>
 <title>[75] The Fall and Rise of Reggie Dinkins: Season 2 (WOW, Sky · Abo, nur ältere Staffeln)</title>
 <link>https://www.metacritic.com/tv/the-fall-and-rise-of-reggie-dinkins/season-2/</link>
@@ -3998,14 +4006,6 @@
 <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
 <category>Movie</category>
 <description>&lt;img src="https://www.metacritic.com/a/img/resize/23aab461c30fd031fa006a1e676c243181cc7471/catalog/provider/2/13/2-94cec09ac75f975aad9900a472ad7558.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;6 reviews</description>
-</item>
-<item>
-<title>[76] Romería (Movie)</title>
-<link>https://www.metacritic.com/movie/romeria/</link>
-<guid isPermaLink="false">https://www.metacritic.com/movie/romeria/</guid>
-<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-<category>Movie</category>
-<description>&lt;img src="https://www.metacritic.com/a/img/resize/559300a15bf5e5585e74ffca67598c7348d12d74/catalog/provider/5/2/5-tt32538648.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="" /&gt;&lt;br /&gt;17 reviews · 88% positive</description>
 </item>
 </channel>
 </rss>

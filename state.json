@@ -18188,6 +18188,47 @@
         "key": null,
         "checked": "2026-11-25"
       }
+    },
+    "https://www.metacritic.com/tv/the-hunting-wives/season-2/": {
+      "title": "The Hunting Wives: Season 2",
+      "score": 70,
+      "media": "tv",
+      "release_date": "Nov 26, 2026",
+      "emitted_at": "2026-11-26T22:38:58.286864+00:00",
+      "feed_date": "2026-11-26T22:38:58.286864+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/011a463bb7956feb8010066b1390180a9ba6f84f/catalog/provider/2/2/2-6db4df39326d6e343361b6feae8d93e5.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 6,
+        "pos": 83,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/29f66b689e94ed658ea80fd40dbccd737befd30a/catalog/provider/2/2/2-db22f21eb83663f4f89c8e392e38ead6.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "flat": [
+            "Netflix",
+            "MagentaTV"
+          ],
+          "buy_from": 7.99,
+          "buy_at": "Amazon Video",
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 12.99,
+            "url": null
+          },
+          "older": true
+        },
+        "tmdb": "244447",
+        "checked": "2026-11-26"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "Vhwp06fwk6k",
+        "checked": "2026-11-26"
+      }
     }
   },
   "seasons": {
@@ -18251,11 +18292,6 @@
       "first_seen": "2026-10-17",
       "ok": true,
       "premiere": "Nov 15, 2026"
-    },
-    "https://www.metacritic.com/tv/the-hunting-wives/season-2/": {
-      "first_seen": "2026-10-17",
-      "ok": true,
-      "premiere": "Nov 26, 2026"
     },
     "https://www.metacritic.com/tv/the-institute/season-2/": {
       "first_seen": "2026-10-17",
