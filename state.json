@@ -19984,7 +19984,8 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/avatar-seven-havens/season-2/": {
-      "first_seen": "2026-11-14"
+      "first_seen": "2026-11-14",
+      "ok": true
     },
     "https://www.metacritic.com/tv/happiness/season-2/": {
       "first_seen": "2026-11-14"
@@ -20051,6 +20052,9 @@
     },
     "https://www.metacritic.com/tv/the-pitt/season-3/": {
       "first_seen": "2026-11-25"
+    },
+    "https://www.metacritic.com/tv/sweetpea/season-2/": {
+      "first_seen": "2026-11-26"
     }
   }
 }
