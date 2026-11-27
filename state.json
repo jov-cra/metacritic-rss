@@ -18229,6 +18229,106 @@
         "key": "Vhwp06fwk6k",
         "checked": "2026-11-26"
       }
+    },
+    "https://www.metacritic.com/movie/14th/": {
+      "title": "14th",
+      "score": 77,
+      "media": "movie",
+      "release_date": "Nov 27, 2026",
+      "emitted_at": "2026-11-27T05:30:31.060840+00:00",
+      "feed_date": "2026-11-27T05:30:31.060840+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/fc66fe615fffa41332e90b7d4172226c541ad934/catalog/provider/5/2/5-tt43682722.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 12,
+        "pos": 83,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/32c70410002cdd226173334bd541cc513969cdad/catalog/provider/5/2/5-tt43682722.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "1732479",
+        "checked": "2026-11-27"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "xO92LnyDxQg",
+        "checked": "2026-11-27"
+      }
+    },
+    "https://www.metacritic.com/movie/the-holy-boy/": {
+      "title": "The Holy Boy",
+      "score": 71,
+      "media": "movie",
+      "release_date": "Nov 27, 2026",
+      "emitted_at": "2026-11-27T05:30:31.060840+00:00",
+      "feed_date": "2026-11-27T05:30:31.060840+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/31d7a30619bf145053c50fc5b750d0da451925f7/catalog/provider/2/2/2-eb559e3c79838cf04c7953ea1cb74ffb.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 5,
+        "pos": 80,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/22490317e4a7e0b453f3a0d76d52ef245454e749/catalog/provider/2/13/2-a3db3aff80e05b60ce33e382b74cd30b.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {
+          "rent_from": 2.99,
+          "rent_at": "MagentaTV",
+          "buy_from": 7.99,
+          "buy_at": "Amazon Video",
+          "rent": {
+            "shop": "Apple TV Store",
+            "price": 3.99,
+            "url": "https://tv.apple.com/de/movie/the-holy-boy/umc.cmc.46qqkegxbnd3e7vt8mq48o5tp?playableId=tvs.sbd.9001%3A1880058717"
+          },
+          "buy": {
+            "shop": "Apple TV Store",
+            "price": 7.99,
+            "url": "https://tv.apple.com/de/movie/the-holy-boy/umc.cmc.46qqkegxbnd3e7vt8mq48o5tp?playableId=tvs.sbd.9001%3A1880058717"
+          }
+        },
+        "tmdb": "1092936",
+        "checked": "2026-11-27"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "I1efDwrKCh8",
+        "checked": "2026-11-27",
+        "blocked_de": 1
+      }
+    },
+    "https://www.metacritic.com/movie/in-waves/": {
+      "title": "In Waves",
+      "score": 66,
+      "media": "movie",
+      "release_date": "Nov 27, 2026",
+      "emitted_at": "2026-11-27T05:30:31.060840+00:00",
+      "feed_date": "2026-11-27T05:30:31.060840+00:00",
+      "image": "https://www.metacritic.com/a/img/resize/fffad2b335497cd8b00619d0091e1202d6b2a3a4/catalog/provider/5/2/5-tt27672817.jpg?auto=webp&fit=cover&height=288&quality=70&width=192",
+      "detail": {
+        "critic_count": 10,
+        "pos": 60,
+        "user_tbd": true,
+        "image": "https://www.metacritic.com/a/img/resize/9f8b661d1ca14cb6627f4e19da46a599e366e6da/catalog/provider/7/2/7-1778697695.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "v": 3
+      },
+      "providers": {
+        "v": 3,
+        "match": true,
+        "summary": {},
+        "tmdb": "947502",
+        "checked": "2026-11-27"
+      },
+      "trailer": {
+        "v": 3,
+        "key": "pzg0OkKku2M",
+        "checked": "2026-11-27"
+      }
     }
   },
   "seasons": {
@@ -19521,13 +19621,16 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/house-hunters-international/season-205/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/house-hunters-international/season-206/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/house-hunters-international/season-207/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/house-of-villains/season-3/": {
       "first_seen": "2026-11-04"
@@ -20091,6 +20194,9 @@
     },
     "https://www.metacritic.com/tv/sweetpea/season-2/": {
       "first_seen": "2026-11-26"
+    },
+    "https://www.metacritic.com/tv/spongebob-squarepants/season-18/": {
+      "first_seen": "2026-11-27"
     }
   }
 }
