@@ -19203,10 +19203,12 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/the-ultimate-fighter/season-34/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-ultimatum-marry-or-move-on-2022/season-4/": {
-      "first_seen": "2026-10-21"
+      "first_seen": "2026-10-21",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-view/season-30/": {
       "first_seen": "2026-10-21",
@@ -19968,10 +19970,12 @@
       "ok": true
     },
     "https://www.metacritic.com/tv/the-upshaws/season-7/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-valley/season-3/": {
-      "first_seen": "2026-11-04"
+      "first_seen": "2026-11-04",
+      "ok": true
     },
     "https://www.metacritic.com/tv/the-voice/season-29/": {
       "first_seen": "2026-11-04",
@@ -20196,6 +20200,9 @@
       "first_seen": "2026-11-26"
     },
     "https://www.metacritic.com/tv/spongebob-squarepants/season-18/": {
+      "first_seen": "2026-11-27"
+    },
+    "https://www.metacritic.com/tv/ask-this-old-house/season-25/": {
       "first_seen": "2026-11-27"
     }
   }
