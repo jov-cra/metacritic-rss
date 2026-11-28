@@ -20204,7 +20204,8 @@
       "first_seen": "2026-11-27"
     },
     "https://www.metacritic.com/tv/ask-this-old-house/season-25/": {
-      "first_seen": "2026-11-27"
+      "first_seen": "2026-11-27",
+      "ok": true
     }
   }
 }
